@@ -1,0 +1,4005 @@
+Location.ID,District,popgroup,Stratum,population
+1101001,Al Amedi,idp,idpAl Amedi,14
+1101002,Al Amedi,idp,idpAl Amedi,7
+1101004,Al Amedi,idp,idpAl Amedi,15
+1101005,Al Amedi,idp,idpAl Amedi,82
+1101007,Al Amedi,idp,idpAl Amedi,22
+1101008,Al Amedi,idp,idpAl Amedi,27
+1101009,Al Amedi,idp,idpAl Amedi,12
+1101010,Al Amedi,idp,idpAl Amedi,24
+1101011,Al Amedi,idp,idpAl Amedi,17
+1101012,Al Amedi,idp,idpAl Amedi,71
+1101013,Al Amedi,idp,idpAl Amedi,19
+1101014,Al Amedi,idp,idpAl Amedi,7
+1101019,Al Amedi,idp,idpAl Amedi,56
+1101020,Al Amedi,idp,idpAl Amedi,45
+1101021,Al Amedi,idp,idpAl Amedi,9
+1101022,Al Amedi,idp,idpAl Amedi,6
+1101023,Al Amedi,idp,idpAl Amedi,8
+1101029,Al Amedi,idp,idpAl Amedi,16
+1101030,Al Amedi,idp,idpAl Amedi,6
+1101033,Al Amedi,idp,idpAl Amedi,10
+1101034,Al Amedi,idp,idpAl Amedi,7
+1101036,Al Amedi,idp,idpAl Amedi,16
+1101037,Al Amedi,idp,idpAl Amedi,12
+1101039,Al Amedi,idp,idpAl Amedi,6
+1102001,Dahuk,idp,idpDahuk,135
+1102002,Dahuk,idp,idpDahuk,210
+1102003,Dahuk,idp,idpDahuk,33
+1102005,Dahuk,idp,idpDahuk,64
+1102006,Dahuk,idp,idpDahuk,95
+1102007,Dahuk,idp,idpDahuk,63
+1102008,Dahuk,idp,idpDahuk,42
+1102009,Dahuk,idp,idpDahuk,318
+1102010,Dahuk,idp,idpDahuk,63
+1102011,Dahuk,idp,idpDahuk,55
+1102012,Dahuk,idp,idpDahuk,22
+1102013,Dahuk,idp,idpDahuk,36
+1102014,Dahuk,idp,idpDahuk,86
+1102015,Dahuk,idp,idpDahuk,24
+1102016,Dahuk,idp,idpDahuk,382
+1102017,Dahuk,idp,idpDahuk,29
+1102018,Dahuk,idp,idpDahuk,132
+1102019,Dahuk,idp,idpDahuk,20
+1102021,Dahuk,idp,idpDahuk,20
+1102022,Dahuk,idp,idpDahuk,275
+1102023,Dahuk,idp,idpDahuk,200
+1102024,Dahuk,idp,idpDahuk,145
+1102025,Dahuk,idp,idpDahuk,66
+1102027,Sumel,idp,idpSumel,104
+1102029,Dahuk,idp,idpDahuk,133
+1102030,Dahuk,idp,idpDahuk,108
+1102031,Dahuk,idp,idpDahuk,23
+1102032,Dahuk,idp,idpDahuk,170
+1102033,Dahuk,idp,idpDahuk,138
+1102035,Dahuk,idp,idpDahuk,110
+1102036,Dahuk,idp,idpDahuk,35
+1102037,Dahuk,idp,idpDahuk,21
+1102038,Dahuk,idp,idpDahuk,144
+1102039,Dahuk,idp,idpDahuk,275
+1102040,Dahuk,idp,idpDahuk,34
+1102041,Dahuk,idp,idpDahuk,57
+1102042,Dahuk,idp,idpDahuk,210
+1102043,Dahuk,idp,idpDahuk,28
+1102044,Dahuk,idp,idpDahuk,228
+1102045,Dahuk,idp,idpDahuk,80
+1102046,Dahuk,idp,idpDahuk,190
+1102047,Dahuk,idp,idpDahuk,22
+1102048,Dahuk,idp,idpDahuk,51
+1102049,Dahuk,idp,idpDahuk,79
+1102050,Dahuk,idp,idpDahuk,204
+1102051,Dahuk,idp,idpDahuk,497
+1102052,Dahuk,idp,idpDahuk,116
+1102053,Dahuk,idp,idpDahuk,98
+1102057,Dahuk,idp,idpDahuk,77
+1102059,Dahuk,idp,idpDahuk,9
+1102060,Dahuk,idp,idpDahuk,27
+1102061,Dahuk,idp,idpDahuk,38
+1102063,Dahuk,idp,idpDahuk,55
+1103001,Sumel,idp,idpSumel,1184
+1103002,Sumel,idp,idpSumel,109
+1103004,Sumel,idp,idpSumel,26
+1103005,Sumel,idp,idpSumel,169
+1103006,Sumel,idp,idpSumel,89
+1103007,Sumel,idp,idpSumel,54
+1103009,Sumel,idp,idpSumel,311
+1103010,Sumel,idp,idpSumel,276
+1103011,Sumel,idp,idpSumel,320
+1103012,Sumel,idp,idpSumel,68
+1103018,Sumel,idp,idpSumel,24
+1103019,Sumel,idp,idpSumel,21
+1103020,Sumel,idp,idpSumel,921
+1103021,Sumel,idp,idpSumel,13
+1103023,Sumel,idp,idpSumel,480
+1103024,Sumel,idp,idpSumel,1163
+1103025,Sumel,idp,idpSumel,4447
+1103027,Sumel,idp,idpSumel,88
+1103028,Sumel,idp,idpSumel,119
+1103029,Sumel,idp,idpSumel,213
+1103030,Sumel,idp,idpSumel,265
+1103033,Sumel,idp,idpSumel,198
+1103034,Sumel,idp,idpSumel,508
+1103035,Sumel,idp,idpSumel,200
+1103036,Sumel,idp,idpSumel,196
+1103037,Sumel,idp,idpSumel,41
+1103038,Sumel,idp,idpSumel,357
+1103039,Sumel,idp,idpSumel,288
+1103040,Sumel,idp,idpSumel,85
+1103041,Sumel,idp,idpSumel,76
+1103042,Sumel,idp,idpSumel,565
+1103043,Sumel,idp,idpSumel,199
+1103044,Sumel,idp,idpSumel,255
+1103045,Sumel,idp,idpSumel,141
+1103046,Sumel,idp,idpSumel,68
+1103047,Sumel,idp,idpSumel,419
+1103048,Sumel,idp,idpSumel,213
+1103051,Sumel,idp,idpSumel,10
+1103052,Sumel,idp,idpSumel,161
+1103053,Sumel,idp,idpSumel,88
+1104002,Zakho,idp,idpZakho,26
+1104005,Zakho,idp,idpZakho,200
+1104012,Zakho,idp,idpZakho,100
+1104013,Zakho,idp,idpZakho,304
+1104016,Zakho,idp,idpZakho,58
+1104019,Zakho,idp,idpZakho,593
+1104020,Zakho,idp,idpZakho,32
+1104021,Zakho,idp,idpZakho,180
+1104052,Zakho,idp,idpZakho,21
+1104053,Zakho,idp,idpZakho,29
+1104054,Zakho,idp,idpZakho,11
+1104055,Zakho,idp,idpZakho,382
+1104056,Zakho,idp,idpZakho,268
+1104057,Zakho,idp,idpZakho,162
+1104058,Zakho,idp,idpZakho,1202
+1104059,Zakho,idp,idpZakho,824
+1104060,Zakho,idp,idpZakho,185
+1104061,Zakho,idp,idpZakho,789
+1104062,Zakho,idp,idpZakho,975
+1104063,Zakho,idp,idpZakho,871
+1104064,Zakho,idp,idpZakho,880
+1104069,Zakho,idp,idpZakho,21
+1104070,Zakho,idp,idpZakho,18
+1104071,Zakho,idp,idpZakho,181
+1104072,Zakho,idp,idpZakho,68
+1104073,Zakho,idp,idpZakho,31
+1104074,Zakho,idp,idpZakho,10
+1104075,Zakho,idp,idpZakho,274
+1104076,Zakho,idp,idpZakho,38
+1104077,Zakho,idp,idpZakho,16
+1202001,Erbil,idp,idpErbil,40
+1202003,Erbil,idp,idpErbil,316
+1202004,Erbil,idp,idpErbil,490
+1202006,Erbil,idp,idpErbil,390
+1202008,Erbil,idp,idpErbil,270
+1202009,Erbil,idp,idpErbil,140
+1202010,Erbil,idp,idpErbil,500
+1202013,Erbil,idp,idpErbil,210
+1202014,Erbil,idp,idpErbil,170
+1202016,Erbil,idp,idpErbil,360
+1202018,Erbil,idp,idpErbil,345
+1202020,Erbil,idp,idpErbil,106
+1202021,Erbil,idp,idpErbil,60
+1202023,Erbil,idp,idpErbil,168
+1202024,Erbil,idp,idpErbil,330
+1202025,Erbil,idp,idpErbil,145
+1202026,Erbil,idp,idpErbil,72
+1202027,Erbil,idp,idpErbil,300
+1202028,Erbil,idp,idpErbil,169
+1202030,Erbil,idp,idpErbil,282
+1202031,Erbil,idp,idpErbil,85
+1202032,Erbil,idp,idpErbil,1150
+1202033,Erbil,idp,idpErbil,160
+1202034,Erbil,idp,idpErbil,182
+1202035,Erbil,idp,idpErbil,15
+1202036,Erbil,idp,idpErbil,375
+1202038,Shaqlawa,idp,idpShaqlawa,18
+1202039,Erbil,idp,idpErbil,195
+1202040,Al Hamdaniya,idp,idpAl Hamdaniya,3665
+1202041,Erbil,idp,idpErbil,45
+1202042,Erbil,idp,idpErbil,90
+1202043,Erbil,idp,idpErbil,145
+1202044,Erbil,idp,idpErbil,100
+1202045,Erbil,idp,idpErbil,160
+1202046,Erbil,idp,idpErbil,320
+1202047,Erbil,idp,idpErbil,1500
+1202048,Erbil,idp,idpErbil,224
+1202049,Erbil,idp,idpErbil,171
+1202050,Erbil,idp,idpErbil,280
+1202051,Erbil,idp,idpErbil,34
+1202053,Erbil,idp,idpErbil,20
+1202054,Erbil,idp,idpErbil,230
+1202056,Erbil,idp,idpErbil,355
+1202057,Erbil,idp,idpErbil,1235
+1202059,Erbil,idp,idpErbil,200
+1202060,Erbil,idp,idpErbil,705
+1202061,Erbil,idp,idpErbil,77
+1202062,Al Hamdaniya,idp,idpAl Hamdaniya,30
+1202063,Erbil,idp,idpErbil,300
+1202065,Erbil,idp,idpErbil,57
+1202066,Erbil,idp,idpErbil,750
+1202067,Erbil,idp,idpErbil,11
+1202068,Erbil,idp,idpErbil,200
+1202069,Erbil,idp,idpErbil,528
+1202070,Erbil,idp,idpErbil,229
+1202071,Erbil,idp,idpErbil,100
+1202073,Erbil,idp,idpErbil,147
+1202075,Erbil,idp,idpErbil,620
+1202076,Erbil,idp,idpErbil,1440
+1202077,Erbil,idp,idpErbil,860
+1202078,Erbil,idp,idpErbil,430
+1202079,Erbil,idp,idpErbil,60
+1202080,Erbil,idp,idpErbil,440
+1202091,Erbil,idp,idpErbil,17
+1202094,Erbil,idp,idpErbil,43
+1202095,Erbil,idp,idpErbil,122
+1202096,Erbil,idp,idpErbil,480
+1202097,Erbil,idp,idpErbil,15
+1202098,Erbil,idp,idpErbil,112
+1202099,Erbil,idp,idpErbil,120
+1202100,Erbil,idp,idpErbil,162
+1202101,Erbil,idp,idpErbil,18
+1202103,Erbil,idp,idpErbil,158
+1202104,Erbil,idp,idpErbil,18
+1202106,Erbil,idp,idpErbil,75
+1202108,Erbil,idp,idpErbil,80
+1202109,Erbil,idp,idpErbil,245
+1202110,Erbil,idp,idpErbil,65
+1202111,Erbil,idp,idpErbil,302
+1202112,Erbil,idp,idpErbil,55
+1202113,Erbil,idp,idpErbil,235
+1202114,Erbil,idp,idpErbil,95
+1202115,Erbil,idp,idpErbil,95
+1202116,Erbil,idp,idpErbil,170
+1202117,Erbil,idp,idpErbil,287
+1202118,Erbil,idp,idpErbil,244
+1202119,Erbil,idp,idpErbil,156
+1202120,Erbil,idp,idpErbil,209
+1202121,Erbil,idp,idpErbil,28
+1202122,Erbil,idp,idpErbil,30
+1202124,Erbil,idp,idpErbil,208
+1202125,Erbil,idp,idpErbil,48
+1202126,Erbil,idp,idpErbil,500
+1202127,Erbil,idp,idpErbil,70
+1202128,Erbil,idp,idpErbil,18
+1202129,Erbil,idp,idpErbil,25
+1202130,Erbil,idp,idpErbil,20
+1202131,Erbil,idp,idpErbil,225
+1202132,Erbil,idp,idpErbil,40
+1202133,Erbil,idp,idpErbil,400
+1202134,Erbil,idp,idpErbil,112
+1202135,Erbil,idp,idpErbil,150
+1202136,Erbil,idp,idpErbil,525
+1202137,Erbil,idp,idpErbil,275
+1202138,Erbil,idp,idpErbil,270
+1202139,Erbil,idp,idpErbil,40
+1202140,Erbil,idp,idpErbil,126
+1202142,Erbil,idp,idpErbil,325
+1202146,Erbil,idp,idpErbil,70
+1202147,Erbil,idp,idpErbil,45
+1202148,Erbil,idp,idpErbil,65
+1203001,Koysinjaq,idp,idpKoysinjaq,17
+1203002,Koysinjaq,idp,idpKoysinjaq,91
+1203003,Koysinjaq,idp,idpKoysinjaq,103
+1203004,Koysinjaq,idp,idpKoysinjaq,97
+1203006,Koysinjaq,idp,idpKoysinjaq,59
+1203007,Koysinjaq,idp,idpKoysinjaq,17
+1203008,Koysinjaq,idp,idpKoysinjaq,18
+1203009,Koysinjaq,idp,idpKoysinjaq,97
+1203010,Koysinjaq,idp,idpKoysinjaq,237
+1203014,Koysinjaq,idp,idpKoysinjaq,20
+1203015,Koysinjaq,idp,idpKoysinjaq,10
+1203016,Koysinjaq,idp,idpKoysinjaq,18
+1205001,Rawanduz,idp,idpRawanduz,26
+1206003,Shaqlawa,idp,idpShaqlawa,62
+1206004,Shaqlawa,idp,idpShaqlawa,100
+1206006,Shaqlawa,idp,idpShaqlawa,95
+1206007,Shaqlawa,idp,idpShaqlawa,35
+1206008,Shaqlawa,idp,idpShaqlawa,93
+1206010,Shaqlawa,idp,idpShaqlawa,70
+1206011,Shaqlawa,idp,idpShaqlawa,70
+1206012,Shaqlawa,idp,idpShaqlawa,80
+1206013,Shaqlawa,idp,idpShaqlawa,46
+1206014,Shaqlawa,idp,idpShaqlawa,50
+1206015,Shaqlawa,idp,idpShaqlawa,140
+1206017,Shaqlawa,idp,idpShaqlawa,44
+1206020,Shaqlawa,idp,idpShaqlawa,6
+1206022,Shaqlawa,idp,idpShaqlawa,6
+1207002,Rawanduz,idp,idpRawanduz,30
+1207003,Rawanduz,idp,idpRawanduz,40
+1207004,Rawanduz,idp,idpRawanduz,310
+1207006,Rawanduz,idp,idpRawanduz,16
+1207008,Rawanduz,idp,idpRawanduz,13
+1207009,Rawanduz,idp,idpRawanduz,13
+1207010,Rawanduz,idp,idpRawanduz,8
+1207011,Rawanduz,idp,idpRawanduz,8
+1207012,Rawanduz,idp,idpRawanduz,12
+1207015,Rawanduz,idp,idpRawanduz,12
+1207017,Rawanduz,idp,idpRawanduz,20
+1301003,Chamchamal,idp,idpChamchamal,188
+1301004,Chamchamal,idp,idpChamchamal,205
+1301005,Chamchamal,idp,idpChamchamal,72
+1301006,Chamchamal,idp,idpChamchamal,198
+1301007,Chamchamal,idp,idpChamchamal,35
+1301010,Chamchamal,idp,idpChamchamal,66
+1301012,Chamchamal,idp,idpChamchamal,41
+1301014,Chamchamal,idp,idpChamchamal,7
+1301016,Chamchamal,idp,idpChamchamal,82
+1301017,Chamchamal,idp,idpChamchamal,50
+1301018,Chamchamal,idp,idpChamchamal,42
+1301019,Chamchamal,idp,idpChamchamal,18
+1301021,Chamchamal,idp,idpChamchamal,30
+1301023,Chamchamal,idp,idpChamchamal,18
+1301024,Chamchamal,idp,idpChamchamal,30
+1301025,Chamchamal,idp,idpChamchamal,13
+1301027,Chamchamal,idp,idpChamchamal,11
+1301031,Chamchamal,idp,idpChamchamal,37
+1301032,Chamchamal,idp,idpChamchamal,6
+1301033,Chamchamal,idp,idpChamchamal,7
+1301037,Chamchamal,idp,idpChamchamal,11
+1301040,Chamchamal,idp,idpChamchamal,9
+1301041,Chamchamal,idp,idpChamchamal,8
+1301043,Koysinjaq,idp,idpKoysinjaq,7
+1301045,Chamchamal,idp,idpChamchamal,94
+1301046,Chamchamal,idp,idpChamchamal,67
+1301047,Chamchamal,idp,idpChamchamal,92
+1301049,Chamchamal,idp,idpChamchamal,7
+1301050,Chamchamal,idp,idpChamchamal,6
+1302001,Darbandihkan,idp,idpDarbandihkan,34
+1302002,Darbandihkan,idp,idpDarbandihkan,100
+1302003,Darbandihkan,idp,idpDarbandihkan,80
+1302004,Darbandihkan,idp,idpDarbandihkan,119
+1302005,Darbandihkan,idp,idpDarbandihkan,85
+1302007,Darbandihkan,idp,idpDarbandihkan,10
+1302008,Darbandihkan,idp,idpDarbandihkan,23
+1302009,Darbandihkan,idp,idpDarbandihkan,85
+1302010,Darbandihkan,idp,idpDarbandihkan,120
+1302011,Darbandihkan,idp,idpDarbandihkan,25
+1302012,Al Sulaymaniya,idp,idpAl Sulaymaniya,36
+1302013,Darbandihkan,idp,idpDarbandihkan,18
+1302014,Darbandihkan,idp,idpDarbandihkan,33
+1302016,Al Sulaymaniya,idp,idpAl Sulaymaniya,9
+1302017,Darbandihkan,idp,idpDarbandihkan,9
+1303002,Dokan,idp,idpDokan,64
+1303003,Dokan,idp,idpDokan,26
+1303005,Dokan,idp,idpDokan,7
+1303006,Dokan,idp,idpDokan,40
+1303009,Dokan,idp,idpDokan,17
+1303011,Dokan,idp,idpDokan,93
+1303012,Dokan,idp,idpDokan,103
+1303013,Dokan,idp,idpDokan,95
+1303014,Dokan,idp,idpDokan,40
+1303015,Dokan,idp,idpDokan,52
+1303016,Dokan,idp,idpDokan,68
+1303017,Dokan,idp,idpDokan,16
+1303018,Dokan,idp,idpDokan,10
+1303019,Dokan,idp,idpDokan,19
+1303020,Dokan,idp,idpDokan,11
+1303025,Dokan,idp,idpDokan,34
+1303033,Dokan,idp,idpDokan,8
+1303034,Dokan,idp,idpDokan,8
+1303035,Dokan,idp,idpDokan,6
+1303036,Dokan,idp,idpDokan,60
+1303037,Al Sulaymaniya,idp,idpAl Sulaymaniya,21
+1303038,Dokan,idp,idpDokan,16
+1303039,Dokan,idp,idpDokan,11
+1303040,Al Sulaymaniya,idp,idpAl Sulaymaniya,44
+1303041,Dokan,idp,idpDokan,6
+1303042,Dokan,idp,idpDokan,6
+1303043,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1303044,Al Sulaymaniya,idp,idpAl Sulaymaniya,11
+1304002,Halabja,idp,idpHalabja,11
+1304004,Darbandihkan,idp,idpDarbandihkan,30
+1304006,Halabja,idp,idpHalabja,53
+1304007,Halabja,idp,idpHalabja,17
+1304008,Halabja,idp,idpHalabja,14
+1304009,Halabja,idp,idpHalabja,7
+1304010,Halabja,idp,idpHalabja,12
+1304012,Halabja,idp,idpHalabja,26
+1304014,Halabja,idp,idpHalabja,24
+1304015,Darbandihkan,idp,idpDarbandihkan,23
+1304016,Darbandihkan,idp,idpDarbandihkan,21
+1304018,Halabja,idp,idpHalabja,41
+1304019,Darbandihkan,idp,idpDarbandihkan,34
+1304020,Halabja,idp,idpHalabja,10
+1304021,Halabja,idp,idpHalabja,14
+1304023,Halabja,idp,idpHalabja,16
+1304024,Halabja,idp,idpHalabja,11
+1304025,Darbandihkan,idp,idpDarbandihkan,31
+1304026,Halabja,idp,idpHalabja,22
+1304027,Halabja,idp,idpHalabja,11
+1304028,Halabja,idp,idpHalabja,13
+1304033,Halabja,idp,idpHalabja,30
+1304035,Halabja,idp,idpHalabja,22
+1304036,Halabja,idp,idpHalabja,8
+1304037,Darbandihkan,idp,idpDarbandihkan,50
+1304038,Darbandihkan,idp,idpDarbandihkan,45
+1304039,Halabja,idp,idpHalabja,47
+1304041,Darbandihkan,idp,idpDarbandihkan,26
+1304043,Al Sulaymaniya,idp,idpAl Sulaymaniya,47
+1304044,Al Sulaymaniya,idp,idpAl Sulaymaniya,36
+1304045,Halabja,idp,idpHalabja,29
+1304046,Halabja,idp,idpHalabja,36
+1304047,Halabja,idp,idpHalabja,10
+1304049,Halabja,idp,idpHalabja,12
+1304051,Halabja,idp,idpHalabja,11
+1304052,Darbandihkan,idp,idpDarbandihkan,28
+1304053,Halabja,idp,idpHalabja,71
+1305001,Kalar,idp,idpKalar,84
+1305002,Kifri,idp,idpKifri,47
+1305003,Kalar,idp,idpKalar,79
+1305004,Kalar,idp,idpKalar,47
+1305005,Kalar,idp,idpKalar,79
+1305006,Kalar,idp,idpKalar,37
+1305007,Kalar,idp,idpKalar,117
+1305008,Kalar,idp,idpKalar,95
+1305009,Kalar,idp,idpKalar,202
+1305010,Kalar,idp,idpKalar,58
+1305011,Kalar,idp,idpKalar,71
+1305013,Kalar,idp,idpKalar,39
+1305014,Khanaqin,idp,idpKhanaqin,343
+1305015,Kalar,idp,idpKalar,42
+1305018,Kalar,idp,idpKalar,153
+1305019,Kifri,idp,idpKifri,207
+1305020,Kalar,idp,idpKalar,46
+1305021,Kalar,idp,idpKalar,51
+1305023,Kifri,idp,idpKifri,39
+1305024,Kifri,idp,idpKifri,14
+1305025,Kifri,idp,idpKifri,11
+1305026,Kifri,idp,idpKifri,14
+1305027,Kifri,idp,idpKifri,8
+1305029,Kifri,idp,idpKifri,6
+1305031,Kalar,idp,idpKalar,92
+1305032,Kalar,idp,idpKalar,101
+1305033,Kalar,idp,idpKalar,179
+1305034,Kifri,idp,idpKifri,190
+1305035,Kifri,idp,idpKifri,120
+1305036,Kifri,idp,idpKifri,229
+1305037,Kalar,idp,idpKalar,113
+1305038,Kalar,idp,idpKalar,139
+1305039,Kalar,idp,idpKalar,57
+1305040,Kalar,idp,idpKalar,245
+1305041,Kalar,idp,idpKalar,21
+1305042,Kalar,idp,idpKalar,88
+1305043,Kalar,idp,idpKalar,51
+1305044,Kalar,idp,idpKalar,24
+1305045,Kalar,idp,idpKalar,86
+1305046,Kalar,idp,idpKalar,95
+1305047,Kalar,idp,idpKalar,10
+1305048,Kalar,idp,idpKalar,9
+1308001,Rania,idp,idpRania,6
+1308003,Rania,idp,idpRania,81
+1308004,Rania,idp,idpRania,23
+1308005,Rania,idp,idpRania,14
+1308006,Rania,idp,idpRania,24
+1308009,Rania,idp,idpRania,12
+1308010,Rania,idp,idpRania,8
+1308011,Rania,idp,idpRania,45
+1308013,Rania,idp,idpRania,13
+1308014,Rania,idp,idpRania,11
+1308018,Rania,idp,idpRania,32
+1308019,Rania,idp,idpRania,18
+1308020,Rania,idp,idpRania,10
+1308021,Rania,idp,idpRania,33
+1308022,Rania,idp,idpRania,19
+1308023,Rania,idp,idpRania,10
+1308025,Rania,idp,idpRania,13
+1308029,Rania,idp,idpRania,12
+1308030,Rania,idp,idpRania,11
+1308031,Rania,idp,idpRania,7
+1308032,Rania,idp,idpRania,10
+1308033,Rania,idp,idpRania,12
+1308034,Rania,idp,idpRania,8
+1308036,Rania,idp,idpRania,9
+1308038,Rania,idp,idpRania,14
+1310001,Al Sulaymaniya,idp,idpAl Sulaymaniya,22
+1310003,Al Sulaymaniya,idp,idpAl Sulaymaniya,169
+1310006,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310007,Al Sulaymaniya,idp,idpAl Sulaymaniya,104
+1310008,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310009,Al Sulaymaniya,idp,idpAl Sulaymaniya,123
+1310010,Al Sulaymaniya,idp,idpAl Sulaymaniya,80
+1310011,Al Sulaymaniya,idp,idpAl Sulaymaniya,34
+1310012,Al Sulaymaniya,idp,idpAl Sulaymaniya,181
+1310013,Al Sulaymaniya,idp,idpAl Sulaymaniya,154
+1310014,Al Sulaymaniya,idp,idpAl Sulaymaniya,62
+1310015,Al Sulaymaniya,idp,idpAl Sulaymaniya,51
+1310017,Al Sulaymaniya,idp,idpAl Sulaymaniya,101
+1310018,Al Sulaymaniya,idp,idpAl Sulaymaniya,157
+1310019,Al Sulaymaniya,idp,idpAl Sulaymaniya,44
+1310021,Al Sulaymaniya,idp,idpAl Sulaymaniya,27
+1310022,Al Sulaymaniya,idp,idpAl Sulaymaniya,61
+1310023,Al Sulaymaniya,idp,idpAl Sulaymaniya,21
+1310024,Al Sulaymaniya,idp,idpAl Sulaymaniya,27
+1310025,Al Sulaymaniya,idp,idpAl Sulaymaniya,65
+1310026,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310027,Al Sulaymaniya,idp,idpAl Sulaymaniya,38
+1310028,Al Sulaymaniya,idp,idpAl Sulaymaniya,30
+1310029,Al Sulaymaniya,idp,idpAl Sulaymaniya,161
+1310030,Al Sulaymaniya,idp,idpAl Sulaymaniya,56
+1310031,Al Sulaymaniya,idp,idpAl Sulaymaniya,50
+1310032,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310033,Al Sulaymaniya,idp,idpAl Sulaymaniya,33
+1310034,Al Sulaymaniya,idp,idpAl Sulaymaniya,123
+1310035,Al Sulaymaniya,idp,idpAl Sulaymaniya,50
+1310036,Al Sulaymaniya,idp,idpAl Sulaymaniya,117
+1310038,Al Sulaymaniya,idp,idpAl Sulaymaniya,264
+1310039,Al Sulaymaniya,idp,idpAl Sulaymaniya,83
+1310040,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+1310041,Al Sulaymaniya,idp,idpAl Sulaymaniya,28
+1310042,Al Sulaymaniya,idp,idpAl Sulaymaniya,100
+1310043,Al Sulaymaniya,idp,idpAl Sulaymaniya,82
+1310044,Al Sulaymaniya,idp,idpAl Sulaymaniya,89
+1310045,Al Sulaymaniya,idp,idpAl Sulaymaniya,60
+1310046,Al Sulaymaniya,idp,idpAl Sulaymaniya,22
+1310047,Al Sulaymaniya,idp,idpAl Sulaymaniya,46
+1310048,Al Sulaymaniya,idp,idpAl Sulaymaniya,91
+1310049,Al Sulaymaniya,idp,idpAl Sulaymaniya,26
+1310051,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310052,Al Sulaymaniya,idp,idpAl Sulaymaniya,128
+1310053,Al Sulaymaniya,idp,idpAl Sulaymaniya,59
+1310054,Al Sulaymaniya,idp,idpAl Sulaymaniya,56
+1310055,Al Sulaymaniya,idp,idpAl Sulaymaniya,67
+1310057,Chamchamal,idp,idpChamchamal,50
+1310059,Al Sulaymaniya,idp,idpAl Sulaymaniya,61
+1310060,Al Sulaymaniya,idp,idpAl Sulaymaniya,260
+1310061,Al Sulaymaniya,idp,idpAl Sulaymaniya,91
+1310062,Al Sulaymaniya,idp,idpAl Sulaymaniya,102
+1310063,Al Sulaymaniya,idp,idpAl Sulaymaniya,11
+1310064,Al Sulaymaniya,idp,idpAl Sulaymaniya,247
+1310065,Al Sulaymaniya,idp,idpAl Sulaymaniya,84
+1310066,Al Sulaymaniya,idp,idpAl Sulaymaniya,27
+1310067,Al Sulaymaniya,idp,idpAl Sulaymaniya,68
+1310069,Al Sulaymaniya,idp,idpAl Sulaymaniya,23
+1310070,Al Sulaymaniya,idp,idpAl Sulaymaniya,49
+1310071,Al Sulaymaniya,idp,idpAl Sulaymaniya,233
+1310072,Al Sulaymaniya,idp,idpAl Sulaymaniya,30
+1310073,Al Sulaymaniya,idp,idpAl Sulaymaniya,57
+1310075,Al Sulaymaniya,idp,idpAl Sulaymaniya,48
+1310076,Al Sulaymaniya,idp,idpAl Sulaymaniya,31
+1310078,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+1310080,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310081,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310082,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310083,Al Sulaymaniya,idp,idpAl Sulaymaniya,10
+1310084,Al Sulaymaniya,idp,idpAl Sulaymaniya,42
+1310087,Al Sulaymaniya,idp,idpAl Sulaymaniya,49
+1310088,Al Sulaymaniya,idp,idpAl Sulaymaniya,156
+1310089,Al Sulaymaniya,idp,idpAl Sulaymaniya,113
+1310090,Al Sulaymaniya,idp,idpAl Sulaymaniya,62
+1310091,Al Sulaymaniya,idp,idpAl Sulaymaniya,86
+1310092,Al Sulaymaniya,idp,idpAl Sulaymaniya,63
+1310093,Al Sulaymaniya,idp,idpAl Sulaymaniya,224
+1310094,Al Sulaymaniya,idp,idpAl Sulaymaniya,360
+1310095,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310096,Al Sulaymaniya,idp,idpAl Sulaymaniya,59
+1310097,Al Sulaymaniya,idp,idpAl Sulaymaniya,44
+1310098,Al Sulaymaniya,idp,idpAl Sulaymaniya,43
+1310099,Al Sulaymaniya,idp,idpAl Sulaymaniya,99
+1310100,Al Sulaymaniya,idp,idpAl Sulaymaniya,129
+1310101,Al Sulaymaniya,idp,idpAl Sulaymaniya,36
+1310102,Al Sulaymaniya,idp,idpAl Sulaymaniya,74
+1310103,Al Sulaymaniya,idp,idpAl Sulaymaniya,50
+1310104,Al Sulaymaniya,idp,idpAl Sulaymaniya,40
+1310105,Al Sulaymaniya,idp,idpAl Sulaymaniya,41
+1310106,Al Sulaymaniya,idp,idpAl Sulaymaniya,48
+1310107,Al Sulaymaniya,idp,idpAl Sulaymaniya,48
+1310109,Al Sulaymaniya,idp,idpAl Sulaymaniya,363
+1310110,Al Sulaymaniya,idp,idpAl Sulaymaniya,14
+1310111,Al Sulaymaniya,idp,idpAl Sulaymaniya,12
+1310112,Al Sulaymaniya,idp,idpAl Sulaymaniya,14
+1310113,Al Sulaymaniya,idp,idpAl Sulaymaniya,157
+1310114,Al Sulaymaniya,idp,idpAl Sulaymaniya,96
+1310116,Al Sulaymaniya,idp,idpAl Sulaymaniya,54
+1310122,Al Sulaymaniya,idp,idpAl Sulaymaniya,133
+1310123,Al Sulaymaniya,idp,idpAl Sulaymaniya,28
+1310124,Al Sulaymaniya,idp,idpAl Sulaymaniya,108
+1310125,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310126,Al Sulaymaniya,idp,idpAl Sulaymaniya,26
+1310127,Al Sulaymaniya,idp,idpAl Sulaymaniya,45
+1310128,Al Sulaymaniya,idp,idpAl Sulaymaniya,12
+1310130,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310132,Al Sulaymaniya,idp,idpAl Sulaymaniya,27
+1310134,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310136,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310137,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310138,Al Sulaymaniya,idp,idpAl Sulaymaniya,9
+1310139,Al Sulaymaniya,idp,idpAl Sulaymaniya,8
+1310140,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310141,Al Sulaymaniya,idp,idpAl Sulaymaniya,16
+1310142,Al Sulaymaniya,idp,idpAl Sulaymaniya,65
+1310143,Al Sulaymaniya,idp,idpAl Sulaymaniya,89
+1310144,Al Sulaymaniya,idp,idpAl Sulaymaniya,24
+1310145,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+1310147,Al Sulaymaniya,idp,idpAl Sulaymaniya,45
+1310148,Al Sulaymaniya,idp,idpAl Sulaymaniya,26
+1310150,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310151,Al Sulaymaniya,idp,idpAl Sulaymaniya,10
+1310152,Al Sulaymaniya,idp,idpAl Sulaymaniya,64
+1310153,Al Sulaymaniya,idp,idpAl Sulaymaniya,21
+1310154,Al Sulaymaniya,idp,idpAl Sulaymaniya,36
+1310156,Al Sulaymaniya,idp,idpAl Sulaymaniya,8
+1310158,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310160,Al Sulaymaniya,idp,idpAl Sulaymaniya,8
+1310161,Al Sulaymaniya,idp,idpAl Sulaymaniya,18
+1310162,Al Sulaymaniya,idp,idpAl Sulaymaniya,21
+1310163,Al Sulaymaniya,idp,idpAl Sulaymaniya,12
+1310164,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310166,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+1310167,Al Sulaymaniya,idp,idpAl Sulaymaniya,16
+1310168,Al Sulaymaniya,idp,idpAl Sulaymaniya,21
+1310170,Al Sulaymaniya,idp,idpAl Sulaymaniya,16
+1310171,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+1310172,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310173,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310174,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310175,Al Sulaymaniya,idp,idpAl Sulaymaniya,9
+1310176,Al Sulaymaniya,idp,idpAl Sulaymaniya,10
+1310177,Al Sulaymaniya,idp,idpAl Sulaymaniya,50
+1310178,Al Sulaymaniya,idp,idpAl Sulaymaniya,81
+1310181,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310182,Al Sulaymaniya,idp,idpAl Sulaymaniya,12
+1310185,Al Sulaymaniya,idp,idpAl Sulaymaniya,7
+1310186,Al Sulaymaniya,idp,idpAl Sulaymaniya,49
+1310187,Al Sulaymaniya,idp,idpAl Sulaymaniya,27
+1310188,Al Sulaymaniya,idp,idpAl Sulaymaniya,26
+1310190,Al Sulaymaniya,idp,idpAl Sulaymaniya,18
+1310191,Al Sulaymaniya,idp,idpAl Sulaymaniya,23
+1310192,Al Sulaymaniya,idp,idpAl Sulaymaniya,107
+1310193,Al Sulaymaniya,idp,idpAl Sulaymaniya,53
+1310195,Al Sulaymaniya,idp,idpAl Sulaymaniya,55
+1310196,Al Sulaymaniya,idp,idpAl Sulaymaniya,37
+1310197,Al Sulaymaniya,idp,idpAl Sulaymaniya,81
+1310198,Al Sulaymaniya,idp,idpAl Sulaymaniya,10
+1310199,Al Sulaymaniya,idp,idpAl Sulaymaniya,31
+1310200,Al Sulaymaniya,idp,idpAl Sulaymaniya,31
+1310201,Al Sulaymaniya,idp,idpAl Sulaymaniya,40
+1310202,Al Sulaymaniya,idp,idpAl Sulaymaniya,51
+1310203,Al Sulaymaniya,idp,idpAl Sulaymaniya,53
+1310204,Al Sulaymaniya,idp,idpAl Sulaymaniya,94
+1310205,Al Sulaymaniya,idp,idpAl Sulaymaniya,35
+1310206,Al Sulaymaniya,idp,idpAl Sulaymaniya,77
+1310207,Al Sulaymaniya,idp,idpAl Sulaymaniya,88
+1310208,Al Sulaymaniya,idp,idpAl Sulaymaniya,11
+1310209,Al Sulaymaniya,idp,idpAl Sulaymaniya,68
+1310210,Al Sulaymaniya,idp,idpAl Sulaymaniya,36
+1310211,Al Sulaymaniya,idp,idpAl Sulaymaniya,30
+1310212,Al Sulaymaniya,idp,idpAl Sulaymaniya,53
+1310213,Al Sulaymaniya,idp,idpAl Sulaymaniya,45
+1310214,Al Sulaymaniya,idp,idpAl Sulaymaniya,62
+1310215,Al Sulaymaniya,idp,idpAl Sulaymaniya,55
+1310216,Al Sulaymaniya,idp,idpAl Sulaymaniya,54
+1310217,Al Sulaymaniya,idp,idpAl Sulaymaniya,50
+1310218,Al Sulaymaniya,idp,idpAl Sulaymaniya,61
+1310219,Al Sulaymaniya,idp,idpAl Sulaymaniya,73
+1310220,Al Sulaymaniya,idp,idpAl Sulaymaniya,165
+1310221,Al Sulaymaniya,idp,idpAl Sulaymaniya,88
+1310222,Al Sulaymaniya,idp,idpAl Sulaymaniya,96
+1310223,Al Sulaymaniya,idp,idpAl Sulaymaniya,63
+1310224,Al Sulaymaniya,idp,idpAl Sulaymaniya,33
+1310225,Al Sulaymaniya,idp,idpAl Sulaymaniya,189
+1310226,Al Sulaymaniya,idp,idpAl Sulaymaniya,19
+1310227,Al Sulaymaniya,idp,idpAl Sulaymaniya,189
+1310228,Al Sulaymaniya,idp,idpAl Sulaymaniya,127
+1310229,Al Sulaymaniya,idp,idpAl Sulaymaniya,204
+1310230,Al Sulaymaniya,idp,idpAl Sulaymaniya,122
+1310231,Al Sulaymaniya,idp,idpAl Sulaymaniya,171
+1310232,Al Sulaymaniya,idp,idpAl Sulaymaniya,108
+1310233,Al Sulaymaniya,idp,idpAl Sulaymaniya,170
+1310234,Al Sulaymaniya,idp,idpAl Sulaymaniya,170
+1310235,Al Sulaymaniya,idp,idpAl Sulaymaniya,189
+1310236,Al Sulaymaniya,idp,idpAl Sulaymaniya,225
+1310238,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310239,Al Sulaymaniya,idp,idpAl Sulaymaniya,25
+1310240,Al Sulaymaniya,idp,idpAl Sulaymaniya,8
+1310241,Al Sulaymaniya,idp,idpAl Sulaymaniya,10
+1310242,Al Sulaymaniya,idp,idpAl Sulaymaniya,18
+1310243,Al Sulaymaniya,idp,idpAl Sulaymaniya,38
+1310244,Al Sulaymaniya,idp,idpAl Sulaymaniya,6
+1310245,Al Sulaymaniya,idp,idpAl Sulaymaniya,48
+1310246,Al Sulaymaniya,idp,idpAl Sulaymaniya,13
+1310248,Al Sulaymaniya,idp,idpAl Sulaymaniya,31
+1310249,Al Sulaymaniya,idp,idpAl Sulaymaniya,119
+1310250,Al Sulaymaniya,idp,idpAl Sulaymaniya,33
+1310251,Al Sulaymaniya,idp,idpAl Sulaymaniya,62
+1310252,Al Sulaymaniya,idp,idpAl Sulaymaniya,34
+1310253,Al Sulaymaniya,idp,idpAl Sulaymaniya,20
+2101029,Al Qa'em,idp,idpAl Qa'em,36
+2101032,Al Qa'em,idp,idpAl Qa'em,121
+2101033,Al Qa'em,idp,idpAl Qa'em,45
+2105002,Al Falluja,idp,idpAl Falluja,6
+2105018,Al Falluja,idp,idpAl Falluja,51
+2105019,Al Falluja,idp,idpAl Falluja,209
+2105031,Al Falluja,idp,idpAl Falluja,84
+2105043,Al Falluja,idp,idpAl Falluja,21
+2105069,Al Falluja,idp,idpAl Falluja,100
+2105070,Al Falluja,idp,idpAl Falluja,146
+2105071,Al Falluja,idp,idpAl Falluja,265
+2105073,Al Falluja,idp,idpAl Falluja,99
+2105074,Al Falluja,idp,idpAl Falluja,102
+2105075,Al Falluja,idp,idpAl Falluja,246
+2105076,Al Falluja,idp,idpAl Falluja,196
+2105077,Al Falluja,idp,idpAl Falluja,80
+2105078,Al Falluja,idp,idpAl Falluja,79
+2105088,Al Falluja,idp,idpAl Falluja,31
+2106001,Haditha,idp,idpHaditha,15
+2106011,Haditha,idp,idpHaditha,23
+2106013,Haditha,idp,idpHaditha,24
+2106017,Haditha,idp,idpHaditha,28
+2106022,Haditha,idp,idpHaditha,14
+2106023,Haditha,idp,idpHaditha,40
+2106026,Haditha,idp,idpHaditha,20
+2106028,Haditha,idp,idpHaditha,95
+2106034,Haditha,idp,idpHaditha,26
+2106038,Haditha,idp,idpHaditha,28
+2106039,Haditha,idp,idpHaditha,28
+2107013,Heet,idp,idpHeet,34
+2107026,Heet,idp,idpHeet,24
+2107027,Heet,idp,idpHeet,6
+2107030,Heet,idp,idpHeet,15
+2107031,Heet,idp,idpHeet,72
+2107036,Heet,idp,idpHeet,10
+2107045,Heet,idp,idpHeet,8
+2107051,Heet,idp,idpHeet,13
+2107053,Heet,idp,idpHeet,9
+2107067,Heet,idp,idpHeet,94
+2108001,Al Ramadi,idp,idpAl Ramadi,129
+2108005,Al Ramadi,idp,idpAl Ramadi,98
+2108006,Al Ramadi,idp,idpAl Ramadi,57
+2108007,Al Ramadi,idp,idpAl Ramadi,24
+2108011,Al Ramadi,idp,idpAl Ramadi,225
+2108013,Al Ramadi,idp,idpAl Ramadi,12
+2108017,Al Ramadi,idp,idpAl Ramadi,75
+2108024,Al Ramadi,idp,idpAl Ramadi,15
+2108027,Al Ramadi,idp,idpAl Ramadi,87
+2108030,Al Ramadi,idp,idpAl Ramadi,140
+2202001,Al Musayab,idp,idpAl Musayab,95
+2202002,Al Musayab,idp,idpAl Musayab,45
+2202004,Al Musayab,idp,idpAl Musayab,65
+2202005,Al Musayab,idp,idpAl Musayab,40
+2202006,Al Musayab,idp,idpAl Musayab,25
+2202007,Al Musayab,idp,idpAl Musayab,94
+2202008,Al Musayab,idp,idpAl Musayab,34
+2202015,Al Musayab,idp,idpAl Musayab,22
+2202016,Al Musayab,idp,idpAl Musayab,53
+2202017,Al Mahmoudiya,idp,idpAl Mahmoudiya,37
+2202020,Al Musayab,idp,idpAl Musayab,9
+2202023,Al Musayab,idp,idpAl Musayab,17
+2202024,Al Musayab,idp,idpAl Musayab,102
+2202025,Al Musayab,idp,idpAl Musayab,60
+2202026,Al Musayab,idp,idpAl Musayab,235
+2202027,Al Musayab,idp,idpAl Musayab,30
+2202029,Al Musayab,idp,idpAl Musayab,77
+2202030,Al Musayab,idp,idpAl Musayab,155
+2202031,Al Musayab,idp,idpAl Musayab,145
+2202033,Al Musayab,idp,idpAl Musayab,6
+2202034,Al Musayab,idp,idpAl Musayab,25
+2202035,Al Musayab,idp,idpAl Musayab,17
+2202036,Al Musayab,idp,idpAl Musayab,88
+2202037,Al Musayab,idp,idpAl Musayab,112
+2202039,Al Musayab,idp,idpAl Musayab,15
+2202040,Al Musayab,idp,idpAl Musayab,22
+2202043,Al Musayab,idp,idpAl Musayab,22
+2202045,Al Musayab,idp,idpAl Musayab,129
+2202046,Al Musayab,idp,idpAl Musayab,7
+2202048,Al Musayab,idp,idpAl Musayab,37
+2202049,Al Musayab,idp,idpAl Musayab,18
+2202050,Al Musayab,idp,idpAl Musayab,47
+2202052,Al Musayab,idp,idpAl Musayab,110
+2202055,Al Musayab,idp,idpAl Musayab,23
+2202056,Al Musayab,idp,idpAl Musayab,32
+2202058,Al Musayab,idp,idpAl Musayab,18
+2202061,Al Musayab,idp,idpAl Musayab,103
+2202063,Al Musayab,idp,idpAl Musayab,47
+2202064,Al Musayab,idp,idpAl Musayab,65
+2202066,Al Musayab,idp,idpAl Musayab,8
+2202070,Al Musayab,idp,idpAl Musayab,8
+2202071,Al Musayab,idp,idpAl Musayab,92
+2202072,Al Musayab,idp,idpAl Musayab,33
+2301001,Al Kadhmiyah,idp,idpAl Kadhmiyah,101
+2301002,Al Kadhmiyah,idp,idpAl Kadhmiyah,21
+2301003,Al Kadhmiyah,idp,idpAl Kadhmiyah,48
+2301007,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301009,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2301011,Al Kadhmiyah,idp,idpAl Kadhmiyah,25
+2301012,Al Kadhmiyah,idp,idpAl Kadhmiyah,14
+2301015,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301016,Al Kadhmiyah,idp,idpAl Kadhmiyah,20
+2301017,Al Kadhmiyah,idp,idpAl Kadhmiyah,12
+2301018,Al Kadhmiyah,idp,idpAl Kadhmiyah,44
+2301019,Al Kadhmiyah,idp,idpAl Kadhmiyah,45
+2301020,Al Kadhmiyah,idp,idpAl Kadhmiyah,22
+2301021,Al Kadhmiyah,idp,idpAl Kadhmiyah,22
+2301022,Al Kadhmiyah,idp,idpAl Kadhmiyah,36
+2301023,Al Kadhmiyah,idp,idpAl Kadhmiyah,36
+2301024,Al Kadhmiyah,idp,idpAl Kadhmiyah,58
+2301026,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301027,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2301030,Al Kadhmiyah,idp,idpAl Kadhmiyah,13
+2301031,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2301032,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301034,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2301035,Al Kadhmiyah,idp,idpAl Kadhmiyah,30
+2301036,Al Kadhmiyah,idp,idpAl Kadhmiyah,27
+2301038,Al Kadhmiyah,idp,idpAl Kadhmiyah,27
+2301039,Al Kadhmiyah,idp,idpAl Kadhmiyah,17
+2301042,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2301043,Al Kadhmiyah,idp,idpAl Kadhmiyah,29
+2301045,Al Kadhmiyah,idp,idpAl Kadhmiyah,25
+2301047,Al Kadhmiyah,idp,idpAl Kadhmiyah,29
+2301048,Al Kadhmiyah,idp,idpAl Kadhmiyah,91
+2301049,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301056,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2301057,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2301071,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2301073,Al Kadhmiyah,idp,idpAl Kadhmiyah,91
+2301074,Al Kadhmiyah,idp,idpAl Kadhmiyah,62
+2301075,Al Kadhmiyah,idp,idpAl Kadhmiyah,55
+2302004,Al Adhamiya,idp,idpAl Adhamiya,21
+2302005,Al Adhamiya,idp,idpAl Adhamiya,100
+2302006,Al Adhamiya,idp,idpAl Adhamiya,85
+2302007,Al Adhamiya,idp,idpAl Adhamiya,24
+2302008,Al Adhamiya,idp,idpAl Adhamiya,24
+2302010,Al Adhamiya,idp,idpAl Adhamiya,11
+2302016,Al Adhamiya,idp,idpAl Adhamiya,6
+2302017,Al Adhamiya,idp,idpAl Adhamiya,11
+2302018,Al Adhamiya,idp,idpAl Adhamiya,7
+2302034,Al Adhamiya,idp,idpAl Adhamiya,6
+2302040,Al Adhamiya,idp,idpAl Adhamiya,7
+2302041,Al Adhamiya,idp,idpAl Adhamiya,11
+2302044,Al Adhamiya,idp,idpAl Adhamiya,30
+2302045,Al Adhamiya,idp,idpAl Adhamiya,7
+2302046,Al Adhamiya,idp,idpAl Adhamiya,7
+2302049,Al Adhamiya,idp,idpAl Adhamiya,55
+2302054,Al Adhamiya,idp,idpAl Adhamiya,12
+2302056,Al Adhamiya,idp,idpAl Adhamiya,14
+2302057,Al Adhamiya,idp,idpAl Adhamiya,13
+2302060,Al Adhamiya,idp,idpAl Adhamiya,11
+2302062,Al Adhamiya,idp,idpAl Adhamiya,38
+2302063,Al Adhamiya,idp,idpAl Adhamiya,41
+2302064,Al Adhamiya,idp,idpAl Adhamiya,42
+2302066,Al Adhamiya,idp,idpAl Adhamiya,6
+2302069,Al Adhamiya,idp,idpAl Adhamiya,6
+2302074,Al Adhamiya,idp,idpAl Adhamiya,12
+2302076,Al Adhamiya,idp,idpAl Adhamiya,10
+2302077,Al Adhamiya,idp,idpAl Adhamiya,7
+2302078,Al Adhamiya,idp,idpAl Adhamiya,11
+2302080,Al Adhamiya,idp,idpAl Adhamiya,12
+2302083,Al Adhamiya,idp,idpAl Adhamiya,62
+2302088,Al Adhamiya,idp,idpAl Adhamiya,44
+2302093,Al Adhamiya,idp,idpAl Adhamiya,21
+2302096,Al Adhamiya,idp,idpAl Adhamiya,14
+2302098,Al Adhamiya,idp,idpAl Adhamiya,16
+2302099,Al Adhamiya,idp,idpAl Adhamiya,25
+2302108,Al Adhamiya,idp,idpAl Adhamiya,6
+2302113,Al Adhamiya,idp,idpAl Adhamiya,12
+2302114,Al Adhamiya,idp,idpAl Adhamiya,25
+2302115,Al Kadhmiyah,idp,idpAl Kadhmiyah,50
+2302116,Al Adhamiya,idp,idpAl Adhamiya,30
+2305017,Al Resafa,idp,idpAl Resafa,8
+2305018,Al Resafa,idp,idpAl Resafa,9
+2305021,Al Resafa,idp,idpAl Resafa,8
+2305025,Al Resafa,idp,idpAl Resafa,9
+2305027,Al Resafa,idp,idpAl Resafa,7
+2305030,Al Resafa,idp,idpAl Resafa,8
+2305031,Al Resafa,idp,idpAl Resafa,6
+2305032,Al Resafa,idp,idpAl Resafa,6
+2305034,Al Resafa,idp,idpAl Resafa,6
+2305035,Al Resafa,idp,idpAl Resafa,7
+2305036,Al Resafa,idp,idpAl Resafa,7
+2305039,Al Adhamiya,idp,idpAl Adhamiya,9
+2305040,Al Resafa,idp,idpAl Resafa,8
+2305042,Al Resafa,idp,idpAl Resafa,8
+2305043,Al Resafa,idp,idpAl Resafa,7
+2305044,Al Resafa,idp,idpAl Resafa,7
+2305045,Al Resafa,idp,idpAl Resafa,6
+2305047,Al Resafa,idp,idpAl Resafa,7
+2305048,Al Resafa,idp,idpAl Resafa,7
+2305049,Al Resafa,idp,idpAl Resafa,6
+2305054,Al Resafa,idp,idpAl Resafa,13
+2305055,Al Resafa,idp,idpAl Resafa,13
+2305056,Al Resafa,idp,idpAl Resafa,12
+2305057,Al Resafa,idp,idpAl Resafa,10
+2305058,Al Resafa,idp,idpAl Resafa,11
+2305059,Al Resafa,idp,idpAl Resafa,10
+2305060,Al Resafa,idp,idpAl Resafa,9
+2305061,Al Resafa,idp,idpAl Resafa,10
+2305062,Al Resafa,idp,idpAl Resafa,7
+2305065,Al Resafa,idp,idpAl Resafa,6
+2305068,Al Resafa,idp,idpAl Resafa,6
+2305069,Al Resafa,idp,idpAl Resafa,7
+2305072,Al Resafa,idp,idpAl Resafa,7
+2305073,Al Resafa,idp,idpAl Resafa,37
+2305078,Al Resafa,idp,idpAl Resafa,6
+2305080,Al Resafa,idp,idpAl Resafa,8
+2305089,Al Resafa,idp,idpAl Resafa,6
+2305090,Al Resafa,idp,idpAl Resafa,7
+2305091,Al Resafa,idp,idpAl Resafa,6
+2305092,Al Resafa,idp,idpAl Resafa,9
+2305093,Al Resafa,idp,idpAl Resafa,6
+2305096,Al Resafa,idp,idpAl Resafa,9
+2305097,Al Resafa,idp,idpAl Resafa,6
+2305098,Al Resafa,idp,idpAl Resafa,7
+2305099,Al Resafa,idp,idpAl Resafa,6
+2305101,Al Resafa,idp,idpAl Resafa,7
+2305102,Al Resafa,idp,idpAl Resafa,10
+2305106,Al Resafa,idp,idpAl Resafa,6
+2305107,Al Resafa,idp,idpAl Resafa,7
+2305108,Al Resafa,idp,idpAl Resafa,7
+2305113,Al Resafa,idp,idpAl Resafa,7
+2305114,Al Resafa,idp,idpAl Resafa,7
+2305115,Al Resafa,idp,idpAl Resafa,6
+2305116,Al Resafa,idp,idpAl Resafa,6
+2305118,Al Resafa,idp,idpAl Resafa,10
+2305120,Al Resafa,idp,idpAl Resafa,6
+2305121,Al Resafa,idp,idpAl Resafa,9
+2305124,Al Resafa,idp,idpAl Resafa,18
+2305128,Al Resafa,idp,idpAl Resafa,6
+2305132,Al Resafa,idp,idpAl Resafa,8
+2305134,Al Resafa,idp,idpAl Resafa,8
+2305141,Al Resafa,idp,idpAl Resafa,9
+2305142,Al Resafa,idp,idpAl Resafa,8
+2306001,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306008,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306009,Al Kadhmiyah,idp,idpAl Kadhmiyah,14
+2306013,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306015,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2306016,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306017,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306018,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306020,Al Kadhmiyah,idp,idpAl Kadhmiyah,13
+2306021,Al Kadhmiyah,idp,idpAl Kadhmiyah,11
+2306022,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306023,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306027,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2306032,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306033,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306035,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306036,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306038,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306039,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306041,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2306043,Al Karkh,idp,idpAl Karkh,15
+2306045,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306048,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306059,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306063,Al Kadhmiyah,idp,idpAl Kadhmiyah,14
+2306064,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306065,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306073,Al Kadhmiyah,idp,idpAl Kadhmiyah,11
+2306074,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306075,Al Kadhmiyah,idp,idpAl Kadhmiyah,17
+2306076,Al Kadhmiyah,idp,idpAl Kadhmiyah,13
+2306078,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2306079,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306082,Al Kadhmiyah,idp,idpAl Kadhmiyah,14
+2306086,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2306087,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306088,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306089,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306092,Al Karkh,idp,idpAl Karkh,9
+2306094,Al Kadhmiyah,idp,idpAl Kadhmiyah,12
+2306095,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2306096,Al Kadhmiyah,idp,idpAl Kadhmiyah,12
+2306097,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2306098,Al Kadhmiyah,idp,idpAl Kadhmiyah,14
+2306099,Al Kadhmiyah,idp,idpAl Kadhmiyah,24
+2306100,Al Kadhmiyah,idp,idpAl Kadhmiyah,17
+2306102,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306103,Al Kadhmiyah,idp,idpAl Kadhmiyah,11
+2306104,Al Kadhmiyah,idp,idpAl Kadhmiyah,17
+2306105,Al Kadhmiyah,idp,idpAl Kadhmiyah,6
+2306106,Al Kadhmiyah,idp,idpAl Kadhmiyah,38
+2306107,Al Kadhmiyah,idp,idpAl Kadhmiyah,11
+2306108,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306109,Al Kadhmiyah,idp,idpAl Kadhmiyah,10
+2306111,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2306113,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306115,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306116,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2306117,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2306118,Al Kadhmiyah,idp,idpAl Kadhmiyah,9
+2307002,Al Mahmoudiya,idp,idpAl Mahmoudiya,12
+2307003,Al Mahmoudiya,idp,idpAl Mahmoudiya,12
+2307004,Al Karkh,idp,idpAl Karkh,10
+2307006,Al Karkh,idp,idpAl Karkh,7
+2307007,Al Karkh,idp,idpAl Karkh,8
+2307008,Al Karkh,idp,idpAl Karkh,8
+2307009,Al Karkh,idp,idpAl Karkh,9
+2307010,Al Karkh,idp,idpAl Karkh,43
+2307011,Al Karkh,idp,idpAl Karkh,34
+2307012,Al Karkh,idp,idpAl Karkh,35
+2307013,Al Karkh,idp,idpAl Karkh,34
+2307014,Al Kadhmiyah,idp,idpAl Kadhmiyah,34
+2307015,Al Karkh,idp,idpAl Karkh,25
+2307016,Al Karkh,idp,idpAl Karkh,17
+2307017,Al Karkh,idp,idpAl Karkh,19
+2307018,Al Karkh,idp,idpAl Karkh,25
+2307020,Al Karkh,idp,idpAl Karkh,34
+2307025,Al Karkh,idp,idpAl Karkh,227
+2307026,Al Karkh,idp,idpAl Karkh,29
+2307027,Al Karkh,idp,idpAl Karkh,53
+2307028,Al Karkh,idp,idpAl Karkh,133
+2307029,Al Karkh,idp,idpAl Karkh,107
+2307030,Al Karkh,idp,idpAl Karkh,98
+2307031,Al Karkh,idp,idpAl Karkh,56
+2307032,Al Karkh,idp,idpAl Karkh,12
+2307033,Al Karkh,idp,idpAl Karkh,16
+2307034,Al Karkh,idp,idpAl Karkh,22
+2307035,Al Karkh,idp,idpAl Karkh,40
+2307036,Al Karkh,idp,idpAl Karkh,6
+2307037,Al Karkh,idp,idpAl Karkh,79
+2307038,Al Karkh,idp,idpAl Karkh,132
+2307039,Al Mahmoudiya,idp,idpAl Mahmoudiya,9
+2307041,Al Karkh,idp,idpAl Karkh,12
+2307042,Al Karkh,idp,idpAl Karkh,10
+2307043,Al Karkh,idp,idpAl Karkh,12
+2307044,Al Karkh,idp,idpAl Karkh,11
+2307045,Al Karkh,idp,idpAl Karkh,8
+2307046,Al Karkh,idp,idpAl Karkh,8
+2307047,Al Karkh,idp,idpAl Karkh,19
+2307048,Al Karkh,idp,idpAl Karkh,33
+2307049,Al Karkh,idp,idpAl Karkh,18
+2307050,Al Mahmoudiya,idp,idpAl Mahmoudiya,23
+2307051,Al Karkh,idp,idpAl Karkh,14
+2307054,Al Karkh,idp,idpAl Karkh,10
+2307055,Al Karkh,idp,idpAl Karkh,27
+2307056,Al Karkh,idp,idpAl Karkh,20
+2307058,Al Mahmoudiya,idp,idpAl Mahmoudiya,8
+2307061,Al Karkh,idp,idpAl Karkh,30
+2307062,Al Kadhmiyah,idp,idpAl Kadhmiyah,8
+2307063,Al Karkh,idp,idpAl Karkh,174
+2307064,Al Karkh,idp,idpAl Karkh,209
+2307066,Al Karkh,idp,idpAl Karkh,48
+2307067,Al Karkh,idp,idpAl Karkh,75
+2307068,Al Karkh,idp,idpAl Karkh,48
+2307069,Al Karkh,idp,idpAl Karkh,43
+2307070,Al Karkh,idp,idpAl Karkh,49
+2307071,Al Karkh,idp,idpAl Karkh,13
+2307073,Al Karkh,idp,idpAl Karkh,24
+2307076,Al Karkh,idp,idpAl Karkh,17
+2307077,Al Karkh,idp,idpAl Karkh,14
+2307093,Al Mahmoudiya,idp,idpAl Mahmoudiya,114
+2307096,Al Karkh,idp,idpAl Karkh,6
+2307097,Al Karkh,idp,idpAl Karkh,156
+2307098,Al Karkh,idp,idpAl Karkh,104
+2307099,Al Karkh,idp,idpAl Karkh,252
+2307100,Al Karkh,idp,idpAl Karkh,146
+2307101,Al Karkh,idp,idpAl Karkh,73
+2307102,Al Karkh,idp,idpAl Karkh,68
+2307105,Al Karkh,idp,idpAl Karkh,20
+2307107,Al Karkh,idp,idpAl Karkh,33
+2307108,Al Karkh,idp,idpAl Karkh,37
+2307109,Al Karkh,idp,idpAl Karkh,26
+2307110,Al Karkh,idp,idpAl Karkh,22
+2307118,Al Karkh,idp,idpAl Karkh,35
+2307122,Al Mahmoudiya,idp,idpAl Mahmoudiya,25
+2307124,Al Resafa,idp,idpAl Resafa,28
+2307128,Al Karkh,idp,idpAl Karkh,10
+2307130,Al Karkh,idp,idpAl Karkh,9
+2307131,Al Karkh,idp,idpAl Karkh,16
+2307132,Al Karkh,idp,idpAl Karkh,46
+2307133,Al Kadhmiyah,idp,idpAl Kadhmiyah,15
+2307135,Al Mahmoudiya,idp,idpAl Mahmoudiya,29
+2307137,Al Karkh,idp,idpAl Karkh,56
+2307140,Al Karkh,idp,idpAl Karkh,27
+2307141,Al Karkh,idp,idpAl Karkh,25
+2307142,Al Karkh,idp,idpAl Karkh,28
+2307145,Al Kadhmiyah,idp,idpAl Kadhmiyah,7
+2307147,Al Mahmoudiya,idp,idpAl Mahmoudiya,12
+2307148,Al Karkh,idp,idpAl Karkh,14
+2307149,Al Karkh,idp,idpAl Karkh,11
+2307150,Al Karkh,idp,idpAl Karkh,12
+2307151,Al Karkh,idp,idpAl Karkh,10
+2307152,Al Karkh,idp,idpAl Karkh,14
+2307154,Al Karkh,idp,idpAl Karkh,15
+2307155,Al Karkh,idp,idpAl Karkh,25
+2307156,Al Resafa,idp,idpAl Resafa,8
+2307157,Al Karkh,idp,idpAl Karkh,20
+2307160,Al Karkh,idp,idpAl Karkh,13
+2307161,Al Karkh,idp,idpAl Karkh,8
+2307162,Al Karkh,idp,idpAl Karkh,24
+2307163,Al Karkh,idp,idpAl Karkh,22
+2309001,Al Mahmoudiya,idp,idpAl Mahmoudiya,83
+2309005,Al Mahmoudiya,idp,idpAl Mahmoudiya,155
+2309006,Al Mahmoudiya,idp,idpAl Mahmoudiya,89
+2309007,Al Mahmoudiya,idp,idpAl Mahmoudiya,32
+2309008,Al Mahmoudiya,idp,idpAl Mahmoudiya,170
+2309009,Al Mahmoudiya,idp,idpAl Mahmoudiya,14
+2309010,Al Mahmoudiya,idp,idpAl Mahmoudiya,6
+2309011,Al Mahmoudiya,idp,idpAl Mahmoudiya,11
+2309013,Al Mahmoudiya,idp,idpAl Mahmoudiya,9
+2309016,Al Mahmoudiya,idp,idpAl Mahmoudiya,12
+2309017,Al Mahmoudiya,idp,idpAl Mahmoudiya,6
+2309019,Al Mahmoudiya,idp,idpAl Mahmoudiya,7
+2309021,Al Mahmoudiya,idp,idpAl Mahmoudiya,15
+2309022,Al Mahmoudiya,idp,idpAl Mahmoudiya,9
+2309027,Al Mahmoudiya,idp,idpAl Mahmoudiya,35
+2309030,Al Mahmoudiya,idp,idpAl Mahmoudiya,75
+2309042,Al Mahmoudiya,idp,idpAl Mahmoudiya,6
+2309044,Al Mahmoudiya,idp,idpAl Mahmoudiya,9
+2309047,Al Mahmoudiya,idp,idpAl Mahmoudiya,7
+2309050,Al Mahmoudiya,idp,idpAl Mahmoudiya,8
+2309052,Al Mahmoudiya,idp,idpAl Mahmoudiya,24
+2309068,Al Mahmoudiya,idp,idpAl Mahmoudiya,20
+2310001,Al Kadhmiyah,idp,idpAl Kadhmiyah,30
+2310002,Al Kadhmiyah,idp,idpAl Kadhmiyah,43
+2310003,Al Kadhmiyah,idp,idpAl Kadhmiyah,37
+2310004,Al Kadhmiyah,idp,idpAl Kadhmiyah,33
+2310005,Al Kadhmiyah,idp,idpAl Kadhmiyah,20
+2310006,Al Kadhmiyah,idp,idpAl Kadhmiyah,55
+2310007,Al Kadhmiyah,idp,idpAl Kadhmiyah,33
+2310008,Balad,idp,idpBalad,29
+2310009,Al Kadhmiyah,idp,idpAl Kadhmiyah,51
+2310010,Al Kadhmiyah,idp,idpAl Kadhmiyah,79
+2310011,Al Kadhmiyah,idp,idpAl Kadhmiyah,66
+2310012,Al Kadhmiyah,idp,idpAl Kadhmiyah,49
+2310013,Al Kadhmiyah,idp,idpAl Kadhmiyah,58
+2310014,Al Kadhmiyah,idp,idpAl Kadhmiyah,54
+2310015,Al Kadhmiyah,idp,idpAl Kadhmiyah,69
+2310016,Al Kadhmiyah,idp,idpAl Kadhmiyah,30
+2310017,Al Kadhmiyah,idp,idpAl Kadhmiyah,38
+2310018,Al Kadhmiyah,idp,idpAl Kadhmiyah,32
+2401004,Al Khalis,idp,idpAl Khalis,60
+2401005,Al Kadhmiyah,idp,idpAl Kadhmiyah,30
+2401006,Ba'quba,idp,idpBa'quba,110
+2401007,Al Khalis,idp,idpAl Khalis,20
+2401008,Al Khalis,idp,idpAl Khalis,20
+2401009,Al Khalis,idp,idpAl Khalis,50
+2401010,Al Khalis,idp,idpAl Khalis,24
+2401013,Al Khalis,idp,idpAl Khalis,10
+2401014,Balad,idp,idpBalad,50
+2401019,Al Khalis,idp,idpAl Khalis,10
+2401021,Al Khalis,idp,idpAl Khalis,10
+2401023,Al Khalis,idp,idpAl Khalis,8
+2401025,Al Khalis,idp,idpAl Khalis,20
+2401026,Al Khalis,idp,idpAl Khalis,10
+2401027,Al Khalis,idp,idpAl Khalis,10
+2401029,Al Khalis,idp,idpAl Khalis,8
+2401030,Al Khalis,idp,idpAl Khalis,7
+2401031,Al Khalis,idp,idpAl Khalis,40
+2401032,Al Khalis,idp,idpAl Khalis,115
+2401035,Al Khalis,idp,idpAl Khalis,7
+2401036,Al Khalis,idp,idpAl Khalis,12
+2401037,Al Khalis,idp,idpAl Khalis,7
+2401038,Al Khalis,idp,idpAl Khalis,30
+2401040,Al Khalis,idp,idpAl Khalis,38
+2401041,Al Khalis,idp,idpAl Khalis,17
+2401042,Al Khalis,idp,idpAl Khalis,13
+2401043,Al Khalis,idp,idpAl Khalis,65
+2401045,Ba'quba,idp,idpBa'quba,20
+2401046,Al Khalis,idp,idpAl Khalis,61
+2401048,Al Khalis,idp,idpAl Khalis,14
+2401061,Al Khalis,idp,idpAl Khalis,25
+2401062,Al Khalis,idp,idpAl Khalis,8
+2401063,Al Khalis,idp,idpAl Khalis,25
+2401071,Al Khalis,idp,idpAl Khalis,8
+2401128,Al Khalis,idp,idpAl Khalis,15
+2403001,Ba'quba,idp,idpBa'quba,81
+2403002,Ba'quba,idp,idpBa'quba,40
+2403004,Ba'quba,idp,idpBa'quba,90
+2403005,Ba'quba,idp,idpBa'quba,420
+2403006,Ba'quba,idp,idpBa'quba,700
+2403007,Ba'quba,idp,idpBa'quba,31
+2403008,Ba'quba,idp,idpBa'quba,254
+2403009,Ba'quba,idp,idpBa'quba,55
+2403010,Ba'quba,idp,idpBa'quba,41
+2403011,Ba'quba,idp,idpBa'quba,38
+2403012,Ba'quba,idp,idpBa'quba,35
+2403013,Ba'quba,idp,idpBa'quba,13
+2403014,Ba'quba,idp,idpBa'quba,23
+2403015,Ba'quba,idp,idpBa'quba,425
+2403016,Ba'quba,idp,idpBa'quba,60
+2403018,Ba'quba,idp,idpBa'quba,20
+2403019,Ba'quba,idp,idpBa'quba,85
+2403020,Ba'quba,idp,idpBa'quba,72
+2403021,Ba'quba,idp,idpBa'quba,10
+2403022,Ba'quba,idp,idpBa'quba,79
+2403025,Ba'quba,idp,idpBa'quba,8
+2403026,Ba'quba,idp,idpBa'quba,6
+2403028,Ba'quba,idp,idpBa'quba,7
+2403029,Ba'quba,idp,idpBa'quba,15
+2403030,Ba'quba,idp,idpBa'quba,13
+2403031,Ba'quba,idp,idpBa'quba,12
+2403033,Ba'quba,idp,idpBa'quba,15
+2403034,Ba'quba,idp,idpBa'quba,10
+2403035,Ba'quba,idp,idpBa'quba,47
+2403036,Ba'quba,idp,idpBa'quba,67
+2403037,Ba'quba,idp,idpBa'quba,6
+2403038,Ba'quba,idp,idpBa'quba,35
+2403039,Ba'quba,idp,idpBa'quba,55
+2403040,Ba'quba,idp,idpBa'quba,100
+2403042,Ba'quba,idp,idpBa'quba,15
+2403043,Ba'quba,idp,idpBa'quba,47
+2403044,Ba'quba,idp,idpBa'quba,50
+2403045,Ba'quba,idp,idpBa'quba,75
+2403046,Ba'quba,idp,idpBa'quba,12
+2403047,Ba'quba,idp,idpBa'quba,40
+2403048,Ba'quba,idp,idpBa'quba,18
+2403049,Ba'quba,idp,idpBa'quba,13
+2403050,Ba'quba,idp,idpBa'quba,40
+2403051,Ba'quba,idp,idpBa'quba,45
+2403052,Ba'quba,idp,idpBa'quba,20
+2403053,Ba'quba,idp,idpBa'quba,13
+2403054,Ba'quba,idp,idpBa'quba,28
+2403055,Ba'quba,idp,idpBa'quba,15
+2403056,Ba'quba,idp,idpBa'quba,10
+2403058,Ba'quba,idp,idpBa'quba,20
+2403059,Ba'quba,idp,idpBa'quba,7
+2403060,Ba'quba,idp,idpBa'quba,18
+2403061,Ba'quba,idp,idpBa'quba,40
+2403062,Ba'quba,idp,idpBa'quba,25
+2403064,Ba'quba,idp,idpBa'quba,63
+2403065,Ba'quba,idp,idpBa'quba,18
+2403066,Ba'quba,idp,idpBa'quba,15
+2403068,Ba'quba,idp,idpBa'quba,31
+2403069,Ba'quba,idp,idpBa'quba,50
+2403072,Ba'quba,idp,idpBa'quba,90
+2404001,Baladruz,idp,idpBaladruz,8
+2404010,Baladruz,idp,idpBaladruz,14
+2404015,Baladruz,idp,idpBaladruz,15
+2404016,Baladruz,idp,idpBaladruz,75
+2404020,Baladruz,idp,idpBaladruz,90
+2405001,Khanaqin,idp,idpKhanaqin,7
+2405006,Khanaqin,idp,idpKhanaqin,11
+2405007,Khanaqin,idp,idpKhanaqin,20
+2405008,Khanaqin,idp,idpKhanaqin,8
+2405009,Khanaqin,idp,idpKhanaqin,30
+2405012,Khanaqin,idp,idpKhanaqin,6
+2405013,Khanaqin,idp,idpKhanaqin,25
+2405014,Khanaqin,idp,idpKhanaqin,20
+2405016,Khanaqin,idp,idpKhanaqin,17
+2405019,Khanaqin,idp,idpKhanaqin,30
+2405020,Khanaqin,idp,idpKhanaqin,350
+2405022,Khanaqin,idp,idpKhanaqin,8
+2405023,Khanaqin,idp,idpKhanaqin,55
+2405024,Khanaqin,idp,idpKhanaqin,8
+2405029,Khanaqin,idp,idpKhanaqin,50
+2405030,Khanaqin,idp,idpKhanaqin,23
+2405031,Khanaqin,idp,idpKhanaqin,140
+2405034,Kifri,idp,idpKifri,140
+2405035,Khanaqin,idp,idpKhanaqin,30
+2405037,Khanaqin,idp,idpKhanaqin,12
+2405039,Khanaqin,idp,idpKhanaqin,7
+2405041,Kifri,idp,idpKifri,40
+2405042,Khanaqin,idp,idpKhanaqin,41
+2405046,Khanaqin,idp,idpKhanaqin,32
+2405049,Khanaqin,idp,idpKhanaqin,13
+2405050,Khanaqin,idp,idpKhanaqin,41
+2405052,Khanaqin,idp,idpKhanaqin,10
+2405054,Khanaqin,idp,idpKhanaqin,35
+2405055,Khanaqin,idp,idpKhanaqin,18
+2405057,Khanaqin,idp,idpKhanaqin,144
+2405060,Khanaqin,idp,idpKhanaqin,43
+2405061,Khanaqin,idp,idpKhanaqin,7
+2405062,Khanaqin,idp,idpKhanaqin,40
+2405063,Khanaqin,idp,idpKhanaqin,18
+2405068,Khanaqin,idp,idpKhanaqin,165
+2405069,Khanaqin,idp,idpKhanaqin,6
+2405070,Khanaqin,idp,idpKhanaqin,42
+2405076,Khanaqin,idp,idpKhanaqin,47
+2405077,Khanaqin,idp,idpKhanaqin,60
+2405078,Khanaqin,idp,idpKhanaqin,9
+2405080,Khanaqin,idp,idpKhanaqin,30
+2405081,Khanaqin,idp,idpKhanaqin,7
+2405132,Khanaqin,idp,idpKhanaqin,13
+2405133,Khanaqin,idp,idpKhanaqin,14
+2405134,Khanaqin,idp,idpKhanaqin,6
+2405135,Khanaqin,idp,idpKhanaqin,12
+2405142,Khanaqin,idp,idpKhanaqin,7
+2406002,Kifri,idp,idpKifri,125
+2406004,Kifri,idp,idpKifri,96
+2406005,Kifri,idp,idpKifri,55
+2406006,Kifri,idp,idpKifri,34
+2406007,Kifri,idp,idpKifri,75
+2406008,Kifri,idp,idpKifri,46
+2406009,Kifri,idp,idpKifri,90
+2406010,Kifri,idp,idpKifri,68
+2406011,Kifri,idp,idpKifri,66
+2406012,Kifri,idp,idpKifri,81
+2406013,Kifri,idp,idpKifri,64
+2406014,Kifri,idp,idpKifri,100
+2406015,Kifri,idp,idpKifri,30
+2406016,Kifri,idp,idpKifri,153
+2406017,Tuz,idp,idpTuz,110
+2406018,Chamchamal,idp,idpChamchamal,43
+2406019,Kifri,idp,idpKifri,53
+2501004,Kerbala,idp,idpKerbala,11
+2502001,Al Hindiya,idp,idpAl Hindiya,20
+2502003,Al Hindiya,idp,idpAl Hindiya,13
+2502006,Al Hindiya,idp,idpAl Hindiya,13
+2502008,Al Hindiya,idp,idpAl Hindiya,8
+2502012,Al Hindiya,idp,idpAl Hindiya,6
+2502015,Al Hindiya,idp,idpAl Hindiya,13
+2502018,Al Hindiya,idp,idpAl Hindiya,22
+2502023,Al Hindiya,idp,idpAl Hindiya,38
+2502024,Kerbala,idp,idpKerbala,58
+2502027,Al Hindiya,idp,idpAl Hindiya,69
+2502036,Al Hindiya,idp,idpAl Hindiya,45
+2502038,Al Hindiya,idp,idpAl Hindiya,69
+2502041,Al Hindiya,idp,idpAl Hindiya,8
+2502043,Al Hindiya,idp,idpAl Hindiya,33
+2502046,Al Hindiya,idp,idpAl Hindiya,20
+2502047,Al Hindiya,idp,idpAl Hindiya,476
+2503001,Kerbala,idp,idpKerbala,14
+2503004,Kerbala,idp,idpKerbala,8
+2503007,Kerbala,idp,idpKerbala,30
+2503009,Kerbala,idp,idpKerbala,7
+2503010,Kerbala,idp,idpKerbala,8
+2503011,Kerbala,idp,idpKerbala,15
+2503012,Kerbala,idp,idpKerbala,6
+2503013,Kerbala,idp,idpKerbala,35
+2503015,Kerbala,idp,idpKerbala,9
+2503017,Kerbala,idp,idpKerbala,115
+2503018,Kerbala,idp,idpKerbala,9
+2503019,Kerbala,idp,idpKerbala,8
+2503020,Kerbala,idp,idpKerbala,10
+2503021,Kerbala,idp,idpKerbala,9
+2503022,Kerbala,idp,idpKerbala,8
+2503024,Kerbala,idp,idpKerbala,12
+2503032,Kerbala,idp,idpKerbala,18
+2503033,Kerbala,idp,idpKerbala,20
+2503037,Kerbala,idp,idpKerbala,47
+2503039,Kerbala,idp,idpKerbala,7
+2503040,Kerbala,idp,idpKerbala,7
+2503041,Kerbala,idp,idpKerbala,17
+2503045,Kerbala,idp,idpKerbala,45
+2503048,Kerbala,idp,idpKerbala,13
+2503049,Kerbala,idp,idpKerbala,10
+2503052,Kerbala,idp,idpKerbala,10
+2503055,Kerbala,idp,idpKerbala,7
+2503058,Kerbala,idp,idpKerbala,20
+2503064,Kerbala,idp,idpKerbala,15
+2503067,Kerbala,idp,idpKerbala,6
+2503071,Kerbala,idp,idpKerbala,10
+2503072,Kerbala,idp,idpKerbala,12
+2503073,Kerbala,idp,idpKerbala,16
+2503074,Kerbala,idp,idpKerbala,14
+2503076,Kerbala,idp,idpKerbala,22
+2503077,Kerbala,idp,idpKerbala,19
+2503079,Kerbala,idp,idpKerbala,10
+2503082,Kerbala,idp,idpKerbala,15
+2503089,Kerbala,idp,idpKerbala,25
+2503096,Kerbala,idp,idpKerbala,35
+2503097,Kerbala,idp,idpKerbala,6
+2503098,Kerbala,idp,idpKerbala,7
+2503104,Kerbala,idp,idpKerbala,49
+2503111,Kerbala,idp,idpKerbala,13
+2503113,Kerbala,idp,idpKerbala,48
+2503114,Kerbala,idp,idpKerbala,10
+2503115,Kerbala,idp,idpKerbala,6
+2503116,Kerbala,idp,idpKerbala,10
+2503118,Kerbala,idp,idpKerbala,15
+2503122,Kerbala,idp,idpKerbala,33
+2503126,Kerbala,idp,idpKerbala,14
+2503127,Kerbala,idp,idpKerbala,490
+2503130,Kerbala,idp,idpKerbala,6
+2503131,Kerbala,idp,idpKerbala,20
+2503132,Kerbala,idp,idpKerbala,8
+2503133,Kerbala,idp,idpKerbala,10
+2503134,Kerbala,idp,idpKerbala,53
+2503135,Kerbala,idp,idpKerbala,25
+2503137,Kerbala,idp,idpKerbala,13
+2503138,Kerbala,idp,idpKerbala,45
+2503140,Kerbala,idp,idpKerbala,50
+2503142,Kerbala,idp,idpKerbala,15
+2503154,Kerbala,idp,idpKerbala,7
+2503159,Kerbala,idp,idpKerbala,10
+2503160,Kerbala,idp,idpKerbala,25
+2503163,Kerbala,idp,idpKerbala,7
+2503166,Kerbala,idp,idpKerbala,65
+2503168,Kerbala,idp,idpKerbala,62
+2503170,Kerbala,idp,idpKerbala,24
+2503171,Kerbala,idp,idpKerbala,13
+2503176,Kerbala,idp,idpKerbala,7
+2503178,Kerbala,idp,idpKerbala,10
+2503187,Kerbala,idp,idpKerbala,14
+2503189,Kerbala,idp,idpKerbala,31
+2503196,Kerbala,idp,idpKerbala,15
+2503198,Kerbala,idp,idpKerbala,9
+2503203,Kerbala,idp,idpKerbala,48
+2503205,Kerbala,idp,idpKerbala,7
+2503206,Kerbala,idp,idpKerbala,8
+2503209,Kerbala,idp,idpKerbala,6
+2503217,Kerbala,idp,idpKerbala,28
+2503218,Kerbala,idp,idpKerbala,16
+2503219,Kerbala,idp,idpKerbala,18
+2503220,Kerbala,idp,idpKerbala,35
+2503223,Kerbala,idp,idpKerbala,9
+2503224,Kerbala,idp,idpKerbala,16
+2503226,Kerbala,idp,idpKerbala,8
+2503227,Kerbala,idp,idpKerbala,53
+2503234,Kerbala,idp,idpKerbala,15
+2503238,Kerbala,idp,idpKerbala,7
+2503241,Kerbala,idp,idpKerbala,31
+2503247,Kerbala,idp,idpKerbala,15
+2503249,Kerbala,idp,idpKerbala,8
+2503252,Kerbala,idp,idpKerbala,15
+2503253,Kerbala,idp,idpKerbala,19
+2503254,Kerbala,idp,idpKerbala,50
+2602004,Kirkuk,idp,idpKirkuk,15
+2602005,Daquq,idp,idpDaquq,74
+2602007,Daquq,idp,idpDaquq,113
+2602008,Kirkuk,idp,idpKirkuk,105
+2602010,Kirkuk,idp,idpKirkuk,57
+2602011,Daquq,idp,idpDaquq,120
+2602012,Kirkuk,idp,idpKirkuk,77
+2602013,Daquq,idp,idpDaquq,205
+2602017,Kirkuk,idp,idpKirkuk,33
+2602018,Kirkuk,idp,idpKirkuk,14
+2602024,Daquq,idp,idpDaquq,17
+2602035,Daquq,idp,idpDaquq,150
+2602036,Daquq,idp,idpDaquq,100
+2602037,Daquq,idp,idpDaquq,87
+2602038,Daquq,idp,idpDaquq,85
+2603001,Kirkuk,idp,idpKirkuk,247
+2603002,Kirkuk,idp,idpKirkuk,315
+2603005,Kirkuk,idp,idpKirkuk,340
+2603006,Kirkuk,idp,idpKirkuk,900
+2603007,Kirkuk,idp,idpKirkuk,280
+2603009,Kirkuk,idp,idpKirkuk,526
+2603010,Kirkuk,idp,idpKirkuk,70
+2603011,Dibis,idp,idpDibis,110
+2603012,Kirkuk,idp,idpKirkuk,35
+2603013,Kirkuk,idp,idpKirkuk,138
+2603014,Kirkuk,idp,idpKirkuk,195
+2603015,Kirkuk,idp,idpKirkuk,72
+2603016,Kirkuk,idp,idpKirkuk,2128
+2603017,Kirkuk,idp,idpKirkuk,45
+2603018,Kirkuk,idp,idpKirkuk,75
+2603019,Kirkuk,idp,idpKirkuk,420
+2603020,Kirkuk,idp,idpKirkuk,360
+2603022,Kirkuk,idp,idpKirkuk,140
+2603023,Kirkuk,idp,idpKirkuk,450
+2603024,Kirkuk,idp,idpKirkuk,230
+2603025,Kirkuk,idp,idpKirkuk,175
+2603026,Kirkuk,idp,idpKirkuk,573
+2603027,Kirkuk,idp,idpKirkuk,490
+2603028,Kirkuk,idp,idpKirkuk,29
+2603029,Kirkuk,idp,idpKirkuk,90
+2603030,Kirkuk,idp,idpKirkuk,299
+2603031,Kirkuk,idp,idpKirkuk,264
+2603032,Kirkuk,idp,idpKirkuk,170
+2603038,Kirkuk,idp,idpKirkuk,572
+2603040,Kirkuk,idp,idpKirkuk,60
+2603041,Kirkuk,idp,idpKirkuk,140
+2603042,Kirkuk,idp,idpKirkuk,10
+2603044,Kirkuk,idp,idpKirkuk,85
+2603045,Kirkuk,idp,idpKirkuk,180
+2603046,Kirkuk,idp,idpKirkuk,202
+2603047,Kirkuk,idp,idpKirkuk,35
+2603048,Kirkuk,idp,idpKirkuk,10
+2603050,Kirkuk,idp,idpKirkuk,133
+2603051,Kirkuk,idp,idpKirkuk,185
+2603052,Kirkuk,idp,idpKirkuk,30
+2603053,Kirkuk,idp,idpKirkuk,155
+2603059,Kirkuk,idp,idpKirkuk,46
+2603060,Kirkuk,idp,idpKirkuk,21
+2603061,Kirkuk,idp,idpKirkuk,180
+2603064,Kirkuk,idp,idpKirkuk,309
+2603065,Kirkuk,idp,idpKirkuk,76
+2603066,Kirkuk,idp,idpKirkuk,405
+2603067,Kirkuk,idp,idpKirkuk,425
+2603068,Kirkuk,idp,idpKirkuk,535
+2603069,Kirkuk,idp,idpKirkuk,430
+2604001,Dibis,idp,idpDibis,26
+2604005,Dibis,idp,idpDibis,40
+2604006,Dibis,idp,idpDibis,78
+2604007,Dibis,idp,idpDibis,97
+2701001,Akre,idp,idpAkre,1690
+2701003,Akre,idp,idpAkre,20
+2701004,Akre,idp,idpAkre,53
+2701005,Akre,idp,idpAkre,962
+2701007,Al Hamdaniya,idp,idpAl Hamdaniya,36
+2701008,Akre,idp,idpAkre,26
+2701009,Akre,idp,idpAkre,109
+2701010,Akre,idp,idpAkre,67
+2701011,Akre,idp,idpAkre,294
+2701012,Al Hamdaniya,idp,idpAl Hamdaniya,642
+2701013,Akre,idp,idpAkre,12
+2701014,Akre,idp,idpAkre,68
+2701017,Akre,idp,idpAkre,687
+2701018,Akre,idp,idpAkre,7
+2701019,Akre,idp,idpAkre,17
+2701025,Akre,idp,idpAkre,36
+2701028,Akre,idp,idpAkre,21
+2701030,Al Hamdaniya,idp,idpAl Hamdaniya,15
+2701031,Akre,idp,idpAkre,14
+2701033,Sheikhan,idp,idpSheikhan,16
+2701034,Akre,idp,idpAkre,38
+2701035,Al Hamdaniya,idp,idpAl Hamdaniya,48
+2702001,Al Ba'aj,idp,idpAl Ba'aj,226
+2703038,Al Hamdaniya,idp,idpAl Hamdaniya,25
+2704001,Sheikhan,idp,idpSheikhan,100
+2704002,Sheikhan,idp,idpSheikhan,688
+2704004,Sheikhan,idp,idpSheikhan,69
+2704005,Sheikhan,idp,idpSheikhan,18
+2704006,Sheikhan,idp,idpSheikhan,187
+2704007,Sheikhan,idp,idpSheikhan,134
+2704011,Sheikhan,idp,idpSheikhan,301
+2704012,Sheikhan,idp,idpSheikhan,250
+2704013,Sheikhan,idp,idpSheikhan,31
+2704015,Sheikhan,idp,idpSheikhan,310
+2704016,Sheikhan,idp,idpSheikhan,1678
+2704018,Sheikhan,idp,idpSheikhan,51
+2704025,Sheikhan,idp,idpSheikhan,7
+2704027,Sheikhan,idp,idpSheikhan,14
+2704030,Sheikhan,idp,idpSheikhan,11
+2704031,Sheikhan,idp,idpSheikhan,6
+2704033,Sheikhan,idp,idpSheikhan,16
+2706001,Al Mosul,idp,idpAl Mosul,7
+2706003,Al Mosul,idp,idpAl Mosul,733
+2706004,Al Mosul,idp,idpAl Mosul,700
+2706006,Tilkaef,idp,idpTilkaef,1600
+2706007,Al Mosul,idp,idpAl Mosul,30
+2706010,Al Mosul,idp,idpAl Mosul,290
+2706011,Al Mosul,idp,idpAl Mosul,285
+2706012,Al Mosul,idp,idpAl Mosul,161
+2706013,Al Mosul,idp,idpAl Mosul,35
+2706015,Al Mosul,idp,idpAl Mosul,155
+2706016,Al Mosul,idp,idpAl Mosul,135
+2706017,Al Mosul,idp,idpAl Mosul,1339
+2706018,Al Mosul,idp,idpAl Mosul,402
+2706020,Al Mosul,idp,idpAl Mosul,460
+2706021,Al Mosul,idp,idpAl Mosul,120
+2706022,Al Mosul,idp,idpAl Mosul,300
+2706023,Al Mosul,idp,idpAl Mosul,6
+2706024,Al Mosul,idp,idpAl Mosul,22
+2706025,Al Mosul,idp,idpAl Mosul,14
+2706026,Al Mosul,idp,idpAl Mosul,188
+2706027,Al Mosul,idp,idpAl Mosul,270
+2706028,Al Mosul,idp,idpAl Mosul,185
+2706031,Al Mosul,idp,idpAl Mosul,610
+2706032,Al Mosul,idp,idpAl Mosul,160
+2706033,Al Mosul,idp,idpAl Mosul,375
+2706034,Al Mosul,idp,idpAl Mosul,50
+2706040,Al Mosul,idp,idpAl Mosul,165
+2706041,Tilkaef,idp,idpTilkaef,25
+2706043,Al Mosul,idp,idpAl Mosul,743
+2706044,Al Mosul,idp,idpAl Mosul,302
+2706046,Al Mosul,idp,idpAl Mosul,114
+2706047,Al Mosul,idp,idpAl Mosul,550
+2706048,Al Mosul,idp,idpAl Mosul,360
+2706050,Al Mosul,idp,idpAl Mosul,516
+2706051,Al Mosul,idp,idpAl Mosul,150
+2706053,Al Mosul,idp,idpAl Mosul,65
+2706054,Al Mosul,idp,idpAl Mosul,335
+2706055,Al Mosul,idp,idpAl Mosul,130
+2706058,Al Mosul,idp,idpAl Mosul,140
+2706062,Al Mosul,idp,idpAl Mosul,10
+2706063,Al Mosul,idp,idpAl Mosul,200
+2706064,Al Mosul,idp,idpAl Mosul,210
+2706065,Al Mosul,idp,idpAl Mosul,60
+2706082,Al Mosul,idp,idpAl Mosul,53
+2706087,Al Mosul,idp,idpAl Mosul,190
+2706090,Al Mosul,idp,idpAl Mosul,160
+2706091,Al Mosul,idp,idpAl Mosul,223
+2706093,Al Mosul,idp,idpAl Mosul,105
+2706094,Al Mosul,idp,idpAl Mosul,386
+2706097,Tilkaef,idp,idpTilkaef,51
+2706099,Al Mosul,idp,idpAl Mosul,60
+2706106,Al Mosul,idp,idpAl Mosul,450
+2706110,Al Mosul,idp,idpAl Mosul,13
+2706112,Al Mosul,idp,idpAl Mosul,10
+2706126,Al Mosul,idp,idpAl Mosul,270
+2706130,Al Mosul,idp,idpAl Mosul,28
+2706135,Al Mosul,idp,idpAl Mosul,15
+2706136,Al Mosul,idp,idpAl Mosul,10
+2706152,Al Mosul,idp,idpAl Mosul,20
+2706163,Al Mosul,idp,idpAl Mosul,20
+2706165,Al Mosul,idp,idpAl Mosul,12
+2706182,Al Mosul,idp,idpAl Mosul,110
+2706183,Al Mosul,idp,idpAl Mosul,65
+2706184,Al Mosul,idp,idpAl Mosul,40
+2706186,Al Mosul,idp,idpAl Mosul,60
+2706187,Al Mosul,idp,idpAl Mosul,640
+2706188,Al Mosul,idp,idpAl Mosul,102
+2706189,Al Mosul,idp,idpAl Mosul,79
+2706190,Al Mosul,idp,idpAl Mosul,200
+2706191,Al Mosul,idp,idpAl Mosul,490
+2706195,Al Mosul,idp,idpAl Mosul,68
+2706196,Al Mosul,idp,idpAl Mosul,46
+2706197,Al Mosul,idp,idpAl Mosul,19
+2706214,Al Mosul,idp,idpAl Mosul,7
+2706225,Al Mosul,idp,idpAl Mosul,10
+2706230,Tilkaef,idp,idpTilkaef,80
+2706261,Al Mosul,idp,idpAl Mosul,30
+2706263,Al Mosul,idp,idpAl Mosul,120
+2706264,Al Mosul,idp,idpAl Mosul,52
+2706265,Al Mosul,idp,idpAl Mosul,21
+2706266,Al Mosul,idp,idpAl Mosul,75
+2706268,Al Mosul,idp,idpAl Mosul,70
+2706270,Al Mosul,idp,idpAl Mosul,20
+2706272,Al Mosul,idp,idpAl Mosul,135
+2706275,Al Mosul,idp,idpAl Mosul,85
+2706277,Al Mosul,idp,idpAl Mosul,7
+2706279,Al Mosul,idp,idpAl Mosul,65
+2706280,Al Mosul,idp,idpAl Mosul,63
+2706281,Al Mosul,idp,idpAl Mosul,100
+2706292,Al Mosul,idp,idpAl Mosul,200
+2706300,Al Mosul,idp,idpAl Mosul,225
+2706312,Al Mosul,idp,idpAl Mosul,40
+2706313,Al Mosul,idp,idpAl Mosul,85
+2706314,Al Mosul,idp,idpAl Mosul,35
+2706315,Al Mosul,idp,idpAl Mosul,27
+2706321,Al Mosul,idp,idpAl Mosul,15
+2706323,Al Mosul,idp,idpAl Mosul,30
+2706325,Al Mosul,idp,idpAl Mosul,30
+2706326,Al Mosul,idp,idpAl Mosul,829
+2706359,Al Mosul,idp,idpAl Mosul,60
+2707001,Sinjar,idp,idpSinjar,216
+2707004,Sinjar,idp,idpSinjar,500
+2707005,Sinjar,idp,idpSinjar,870
+2707006,Sinjar,idp,idpSinjar,30
+2707008,Sinjar,idp,idpSinjar,160
+2707009,Sinjar,idp,idpSinjar,7
+2707011,Sinjar,idp,idpSinjar,89
+2707012,Sinjar,idp,idpSinjar,40
+2707013,Sinjar,idp,idpSinjar,50
+2707015,Sinjar,idp,idpSinjar,11
+2707016,Sinjar,idp,idpSinjar,80
+2707017,Sinjar,idp,idpSinjar,236
+2707018,Sinjar,idp,idpSinjar,23
+2707019,Sinjar,idp,idpSinjar,110
+2707021,Sinjar,idp,idpSinjar,126
+2707024,Sinjar,idp,idpSinjar,37
+2707025,Sinjar,idp,idpSinjar,40
+2707026,Sinjar,idp,idpSinjar,30
+2707027,Sinjar,idp,idpSinjar,7
+2707029,Sinjar,idp,idpSinjar,118
+2707030,Sinjar,idp,idpSinjar,9
+2707031,Sinjar,idp,idpSinjar,12
+2707034,Sinjar,idp,idpSinjar,67
+2707037,Sinjar,idp,idpSinjar,6
+2707038,Sinjar,idp,idpSinjar,9
+2707039,Sinjar,idp,idpSinjar,79
+2707041,Sinjar,idp,idpSinjar,170
+2707042,Sinjar,idp,idpSinjar,50
+2707043,Sinjar,idp,idpSinjar,296
+2707045,Sinjar,idp,idpSinjar,270
+2707046,Sinjar,idp,idpSinjar,135
+2707047,Sinjar,idp,idpSinjar,95
+2707048,Sinjar,idp,idpSinjar,108
+2708003,Tal Afar,idp,idpTal Afar,175
+2708008,Tal Afar,idp,idpTal Afar,15
+2708009,Tal Afar,idp,idpTal Afar,15
+2708011,Tal Afar,idp,idpTal Afar,90
+2708021,Tal Afar,idp,idpTal Afar,26
+2708022,Tal Afar,idp,idpTal Afar,8
+2708026,Tal Afar,idp,idpTal Afar,453
+2708027,Tal Afar,idp,idpTal Afar,18
+2708028,Tal Afar,idp,idpTal Afar,105
+2708029,Tal Afar,idp,idpTal Afar,55
+2708030,Tal Afar,idp,idpTal Afar,150
+2708032,Tal Afar,idp,idpTal Afar,35
+2708034,Tal Afar,idp,idpTal Afar,37
+2708047,Tal Afar,idp,idpTal Afar,26
+2708050,Tal Afar,idp,idpTal Afar,9
+2708053,Tal Afar,idp,idpTal Afar,7
+2708055,Tal Afar,idp,idpTal Afar,7
+2708057,Tal Afar,idp,idpTal Afar,38
+2708058,Tal Afar,idp,idpTal Afar,15
+2708059,Tal Afar,idp,idpTal Afar,15
+2708060,Tal Afar,idp,idpTal Afar,41
+2708061,Tal Afar,idp,idpTal Afar,10
+2708062,Tal Afar,idp,idpTal Afar,32
+2708063,Tal Afar,idp,idpTal Afar,12
+2708064,Tal Afar,idp,idpTal Afar,10
+2708065,Tal Afar,idp,idpTal Afar,36
+2708066,Tal Afar,idp,idpTal Afar,22
+2708075,Tal Afar,idp,idpTal Afar,10
+2708078,Tal Afar,idp,idpTal Afar,26
+2708079,Tal Afar,idp,idpTal Afar,24
+2708080,Tal Afar,idp,idpTal Afar,35
+2708081,Tal Afar,idp,idpTal Afar,18
+2708082,Tal Afar,idp,idpTal Afar,15
+2708084,Tal Afar,idp,idpTal Afar,28
+2708086,Tal Afar,idp,idpTal Afar,36
+2708087,Tal Afar,idp,idpTal Afar,20
+2708089,Tal Afar,idp,idpTal Afar,40
+2708090,Tal Afar,idp,idpTal Afar,67
+2708098,Tal Afar,idp,idpTal Afar,75
+2708127,Tal Afar,idp,idpTal Afar,25
+2709001,Tilkaef,idp,idpTilkaef,15
+2709003,Tilkaef,idp,idpTilkaef,740
+2709005,Tilkaef,idp,idpTilkaef,130
+2709006,Sheikhan,idp,idpSheikhan,7
+2709007,Sumel,idp,idpSumel,6
+2709008,Tilkaef,idp,idpTilkaef,120
+2709009,Tilkaef,idp,idpTilkaef,20
+2709010,Tilkaef,idp,idpTilkaef,20
+2709011,Tilkaef,idp,idpTilkaef,320
+2709014,Tilkaef,idp,idpTilkaef,7
+2709016,Tilkaef,idp,idpTilkaef,17
+2709017,Tilkaef,idp,idpTilkaef,11
+2709021,Tilkaef,idp,idpTilkaef,70
+2709022,Tilkaef,idp,idpTilkaef,14
+2709024,Sheikhan,idp,idpSheikhan,8
+2709025,Tilkaef,idp,idpTilkaef,40
+2709031,Tilkaef,idp,idpTilkaef,56
+2709032,Tilkaef,idp,idpTilkaef,16
+2709033,Tilkaef,idp,idpTilkaef,40
+2709034,Tilkaef,idp,idpTilkaef,9
+2709037,Tilkaef,idp,idpTilkaef,10
+2709038,Tilkaef,idp,idpTilkaef,160
+2709040,Tilkaef,idp,idpTilkaef,60
+2709041,Tilkaef,idp,idpTilkaef,68
+2709042,Tilkaef,idp,idpTilkaef,15
+2709045,Tilkaef,idp,idpTilkaef,290
+2709057,Tilkaef,idp,idpTilkaef,140
+2709074,Tilkaef,idp,idpTilkaef,6
+2802003,Al Shirqat,idp,idpAl Shirqat,10
+2802007,Al Shirqat,idp,idpAl Shirqat,52
+2802013,Al Shirqat,idp,idpAl Shirqat,17
+2802015,Al Shirqat,idp,idpAl Shirqat,33
+2802016,Al Shirqat,idp,idpAl Shirqat,37
+2802017,Al Shirqat,idp,idpAl Shirqat,12
+2802018,Al Shirqat,idp,idpAl Shirqat,8
+2802025,Al Shirqat,idp,idpAl Shirqat,6
+2802028,Al Shirqat,idp,idpAl Shirqat,31
+2802034,Al Shirqat,idp,idpAl Shirqat,11
+2802035,Al Shirqat,idp,idpAl Shirqat,8
+2802037,Al Shirqat,idp,idpAl Shirqat,7
+2802038,Al Shirqat,idp,idpAl Shirqat,6
+2803010,Baiji,idp,idpBaiji,125
+2803015,Baiji,idp,idpBaiji,197
+2803016,Baiji,idp,idpBaiji,100
+2803017,Baiji,idp,idpBaiji,210
+2803018,Baiji,idp,idpBaiji,70
+2804001,Samarra,idp,idpSamarra,190
+2804002,Balad,idp,idpBalad,77
+2804004,Balad,idp,idpBalad,100
+2804005,Balad,idp,idpBalad,183
+2804006,Balad,idp,idpBalad,213
+2804007,Balad,idp,idpBalad,209
+2804009,Balad,idp,idpBalad,187
+2804010,Balad,idp,idpBalad,68
+2804013,Balad,idp,idpBalad,90
+2804016,Balad,idp,idpBalad,163
+2804017,Balad,idp,idpBalad,45
+2804022,Balad,idp,idpBalad,65
+2805001,Balad,idp,idpBalad,25
+2805004,Balad,idp,idpBalad,145
+2805005,Balad,idp,idpBalad,105
+2805010,Balad,idp,idpBalad,177
+2805013,Balad,idp,idpBalad,163
+2805014,Balad,idp,idpBalad,100
+2805016,Balad,idp,idpBalad,180
+2805018,Balad,idp,idpBalad,165
+2805019,Balad,idp,idpBalad,163
+2806001,Samarra,idp,idpSamarra,66
+2806002,Samarra,idp,idpSamarra,166
+2806003,Samarra,idp,idpSamarra,340
+2806004,Samarra,idp,idpSamarra,49
+2806005,Samarra,idp,idpSamarra,171
+2806006,Samarra,idp,idpSamarra,9
+2806008,Samarra,idp,idpSamarra,191
+2806009,Samarra,idp,idpSamarra,144
+2806010,Samarra,idp,idpSamarra,139
+2806011,Samarra,idp,idpSamarra,175
+2806012,Samarra,idp,idpSamarra,222
+2806013,Samarra,idp,idpSamarra,120
+2806014,Samarra,idp,idpSamarra,95
+2806015,Samarra,idp,idpSamarra,122
+2806016,Samarra,idp,idpSamarra,74
+2806018,Samarra,idp,idpSamarra,52
+2806019,Samarra,idp,idpSamarra,20
+2806020,Samarra,idp,idpSamarra,33
+2806021,Samarra,idp,idpSamarra,78
+2806022,Samarra,idp,idpSamarra,354
+2806023,Samarra,idp,idpSamarra,43
+2806024,Samarra,idp,idpSamarra,350
+2806025,Samarra,idp,idpSamarra,109
+2806026,Samarra,idp,idpSamarra,20
+2806027,Samarra,idp,idpSamarra,234
+2806028,Samarra,idp,idpSamarra,48
+2806029,Samarra,idp,idpSamarra,90
+2806030,Samarra,idp,idpSamarra,263
+2806050,Samarra,idp,idpSamarra,10
+2806053,Samarra,idp,idpSamarra,34
+2808001,Tikrit,idp,idpTikrit,75
+2808002,Tikrit,idp,idpTikrit,487
+2808004,Tikrit,idp,idpTikrit,32
+2808005,Tikrit,idp,idpTikrit,62
+2808007,Tikrit,idp,idpTikrit,137
+2808011,Tikrit,idp,idpTikrit,142
+2808013,Tikrit,idp,idpTikrit,117
+2808014,Tikrit,idp,idpTikrit,207
+2808015,Tikrit,idp,idpTikrit,15
+2808016,Tikrit,idp,idpTikrit,200
+2808019,Tikrit,idp,idpTikrit,17
+2808023,Tikrit,idp,idpTikrit,115
+2808025,Tikrit,idp,idpTikrit,55
+2808028,Tikrit,idp,idpTikrit,201
+2808031,Tikrit,idp,idpTikrit,128
+2808032,Tikrit,idp,idpTikrit,38
+2808034,Tikrit,idp,idpTikrit,65
+2808037,Tikrit,idp,idpTikrit,110
+2808041,Tikrit,idp,idpTikrit,12
+2808043,Tikrit,idp,idpTikrit,18
+2808044,Tikrit,idp,idpTikrit,27
+2808047,Tikrit,idp,idpTikrit,110
+2808048,Tikrit,idp,idpTikrit,8
+2808049,Tikrit,idp,idpTikrit,28
+2808050,Tikrit,idp,idpTikrit,30
+2808053,Tikrit,idp,idpTikrit,40
+2808055,Tikrit,idp,idpTikrit,30
+2808056,Tikrit,idp,idpTikrit,75
+2808057,Tikrit,idp,idpTikrit,235
+2808058,Tikrit,idp,idpTikrit,32
+2808061,Tikrit,idp,idpTikrit,149
+2808062,Tikrit,idp,idpTikrit,204
+2808063,Tikrit,idp,idpTikrit,274
+2808066,Tikrit,idp,idpTikrit,70
+2808068,Tikrit,idp,idpTikrit,160
+2808069,Tikrit,idp,idpTikrit,40
+2808071,Tikrit,idp,idpTikrit,330
+2808072,Tikrit,idp,idpTikrit,40
+2808073,Tikrit,idp,idpTikrit,284
+2808074,Tikrit,idp,idpTikrit,28
+2808075,Tikrit,idp,idpTikrit,16
+2808076,Tikrit,idp,idpTikrit,20
+2808077,Baiji,idp,idpBaiji,150
+2808080,Tikrit,idp,idpTikrit,237
+2808081,Tikrit,idp,idpTikrit,55
+2808082,Tikrit,idp,idpTikrit,12
+2808084,Tikrit,idp,idpTikrit,28
+2808085,Tikrit,idp,idpTikrit,40
+2808089,Tikrit,idp,idpTikrit,842
+2809001,Tuz,idp,idpTuz,130
+2809004,Tuz,idp,idpTuz,90
+2809005,Tuz,idp,idpTuz,885
+2809007,Tuz,idp,idpTuz,317
+2809008,Daquq,idp,idpDaquq,80
+2809010,Tuz,idp,idpTuz,770
+2809012,Tuz,idp,idpTuz,750
+2809015,Tuz,idp,idpTuz,390
+2809017,Tuz,idp,idpTuz,65
+2809018,Tuz,idp,idpTuz,110
+2809019,Tuz,idp,idpTuz,90
+2809020,Tuz,idp,idpTuz,380
+2809021,Tuz,idp,idpTuz,270
+2809022,Tuz,idp,idpTuz,330
+2809034,Tuz,idp,idpTuz,70
+2809037,Tuz,idp,idpTuz,6
+2809038,Tuz,idp,idpTuz,10
+2809041,Tuz,idp,idpTuz,8
+2809042,Tuz,idp,idpTuz,18
+2809044,Chamchamal,idp,idpChamchamal,7
+2809047,Tuz,idp,idpTuz,6
+2809049,Tuz,idp,idpTuz,6
+2809051,Chamchamal,idp,idpChamchamal,7
+2809053,Chamchamal,idp,idpChamchamal,8
+2809055,Chamchamal,idp,idpChamchamal,11
+2809057,Tuz,idp,idpTuz,9
+2903005,Al Suwaira,idp,idpAl Suwaira,15
+2903006,Al Suwaira,idp,idpAl Suwaira,8
+2903007,Al Suwaira,idp,idpAl Suwaira,34
+2903009,Al Suwaira,idp,idpAl Suwaira,25
+2903012,Al Suwaira,idp,idpAl Suwaira,10
+2903014,Al Suwaira,idp,idpAl Suwaira,28
+2903022,Al Suwaira,idp,idpAl Suwaira,7
+2903026,Al Suwaira,idp,idpAl Suwaira,9
+2903028,Al Suwaira,idp,idpAl Suwaira,12
+2904002,Al Suwaira,idp,idpAl Suwaira,18
+2904009,Al Suwaira,idp,idpAl Suwaira,8
+2904010,Al Suwaira,idp,idpAl Suwaira,7
+2904011,Al Suwaira,idp,idpAl Suwaira,20
+2904014,Al Suwaira,idp,idpAl Suwaira,7
+2904021,Al Suwaira,idp,idpAl Suwaira,14
+2904022,Al Suwaira,idp,idpAl Suwaira,10
+2904026,Al Suwaira,idp,idpAl Suwaira,7
+2904029,Al Suwaira,idp,idpAl Suwaira,7
+2904031,Al Suwaira,idp,idpAl Suwaira,15
+2904035,Al Suwaira,idp,idpAl Suwaira,11
+2904039,Al Suwaira,idp,idpAl Suwaira,10
+2904044,Al Suwaira,idp,idpAl Suwaira,14
+2904045,Al Suwaira,idp,idpAl Suwaira,7
+2904046,Al Suwaira,idp,idpAl Suwaira,8
+2904059,Al Suwaira,idp,idpAl Suwaira,30
+2904060,Al Suwaira,idp,idpAl Suwaira,33
+2904061,Al Suwaira,idp,idpAl Suwaira,13
+2906001,Al Kut,idp,idpAl Kut,38
+2906002,Al Kut,idp,idpAl Kut,10
+2906003,Al Kut,idp,idpAl Kut,11
+2906004,Al Kut,idp,idpAl Kut,55
+2906005,Al Kut,idp,idpAl Kut,6
+2906007,Al Kut,idp,idpAl Kut,16
+2906009,Al Kut,idp,idpAl Kut,21
+2906012,Al Kut,idp,idpAl Kut,32
+2906014,Al Kut,idp,idpAl Kut,8
+2906021,Al Kut,idp,idpAl Kut,12
+2906022,Al Kut,idp,idpAl Kut,13
+2906023,Al Kut,idp,idpAl Kut,63
+2906025,Al Kut,idp,idpAl Kut,25
+2906026,Al Kut,idp,idpAl Kut,32
+2906027,Al Kut,idp,idpAl Kut,8
+2906031,Al Kut,idp,idpAl Kut,9
+2906032,Al Kut,idp,idpAl Kut,10
+2906033,Al Kut,idp,idpAl Kut,10
+2906034,Al Kut,idp,idpAl Kut,10
+2906037,Al Kut,idp,idpAl Kut,8
+2906038,Al Kut,idp,idpAl Kut,13
+2906039,Al Kut,idp,idpAl Kut,15
+2906040,Al Kut,idp,idpAl Kut,34
+2906041,Al Kut,idp,idpAl Kut,40
+2906042,Al Kut,idp,idpAl Kut,18
+2906043,Al Kut,idp,idpAl Kut,12
+2906045,Al Kut,idp,idpAl Kut,7
+2906048,Al Kut,idp,idpAl Kut,23
+2906050,Al Kut,idp,idpAl Kut,13
+2906051,Al Kut,idp,idpAl Kut,28
+2906052,Al Kut,idp,idpAl Kut,8
+2906055,Al Kut,idp,idpAl Kut,25
+2906056,Al Kut,idp,idpAl Kut,14
+2906058,Al Kut,idp,idpAl Kut,15
+2906059,Al Kut,idp,idpAl Kut,15
+2906062,Al Kut,idp,idpAl Kut,20
+2906064,Al Kut,idp,idpAl Kut,18
+2906065,Al Kut,idp,idpAl Kut,10
+2906069,Al Kut,idp,idpAl Kut,23
+2906070,Al Kut,idp,idpAl Kut,23
+2906071,Al Kut,idp,idpAl Kut,59
+2906072,Al Kut,idp,idpAl Kut,14
+2906073,Al Kut,idp,idpAl Kut,12
+2906074,Al Kut,idp,idpAl Kut,14
+3102001,Al Mahmoudiya,idp,idpAl Mahmoudiya,7
+3102003,Al Mahmoudiya,idp,idpAl Mahmoudiya,11
+3102005,Al Mahmoudiya,idp,idpAl Mahmoudiya,9
+3102010,Al Mahmoudiya,idp,idpAl Mahmoudiya,6
+3103023,Al Basrah,idp,idpAl Basrah,6
+3105010,Al Basrah,idp,idpAl Basrah,7
+3105013,Al Basrah,idp,idpAl Basrah,49
+3105014,Al Basrah,idp,idpAl Basrah,6
+3105025,Al Basrah,idp,idpAl Basrah,9
+3105026,Al Basrah,idp,idpAl Basrah,6
+3105030,Al Basrah,idp,idpAl Basrah,17
+3105035,Al Basrah,idp,idpAl Basrah,6
+3105036,Al Basrah,idp,idpAl Basrah,6
+3105040,Al Basrah,idp,idpAl Basrah,6
+3105042,Al Basrah,idp,idpAl Basrah,8
+3105044,Al Basrah,idp,idpAl Basrah,11
+3105046,Al Basrah,idp,idpAl Basrah,8
+3105047,Al Basrah,idp,idpAl Basrah,11
+3105049,Al Basrah,idp,idpAl Basrah,12
+3105050,Al Basrah,idp,idpAl Basrah,11
+3105052,Al Basrah,idp,idpAl Basrah,10
+3105053,Al Basrah,idp,idpAl Basrah,9
+3105062,Al Basrah,idp,idpAl Basrah,6
+3105066,Al Basrah,idp,idpAl Basrah,7
+3105068,Al Basrah,idp,idpAl Basrah,10
+3105069,Al Basrah,idp,idpAl Basrah,13
+3105070,Al Basrah,idp,idpAl Basrah,12
+3105079,Al Basrah,idp,idpAl Basrah,6
+3105084,Al Basrah,idp,idpAl Basrah,15
+3105091,Al Basrah,idp,idpAl Basrah,11
+3105094,Al Basrah,idp,idpAl Basrah,21
+3105100,Al Basrah,idp,idpAl Basrah,7
+3105109,Al Basrah,idp,idpAl Basrah,10
+3105111,Al Basrah,idp,idpAl Basrah,17
+3105112,Al Basrah,idp,idpAl Basrah,13
+3105115,Al Basrah,idp,idpAl Basrah,10
+3105123,Al Basrah,idp,idpAl Basrah,7
+3105139,Al Basrah,idp,idpAl Basrah,7
+3205002,Al Kahla,idp,idpAl Kahla,120
+3205006,Al Kahla,idp,idpAl Kahla,13
+3205010,Al Kahla,idp,idpAl Kahla,11
+3205019,Al Kahla,idp,idpAl Kahla,10
+3205026,Al Kahla,idp,idpAl Kahla,9
+3205031,Al Kahla,idp,idpAl Kahla,6
+3205039,Al Kahla,idp,idpAl Kahla,12
+3205041,Al Kahla,idp,idpAl Kahla,6
+3205060,Al Kahla,idp,idpAl Kahla,9
+3206007,Al Kahla,idp,idpAl Kahla,10
+3401002,Al Mahmoudiya,idp,idpAl Mahmoudiya,18
+3401012,Al Mahmoudiya,idp,idpAl Mahmoudiya,7
+3401013,Al Mahmoudiya,idp,idpAl Mahmoudiya,48
+3402004,Al Kufa,idp,idpAl Kufa,12
+3402008,Al Kufa,idp,idpAl Kufa,43
+3402010,Al Kufa,idp,idpAl Kufa,6
+3402012,Al Kufa,idp,idpAl Kufa,8
+3402016,Al Kufa,idp,idpAl Kufa,8
+3402019,Al Kufa,idp,idpAl Kufa,143
+3402028,Al Najaf,idp,idpAl Najaf,50
+3402035,Al Kufa,idp,idpAl Kufa,9
+3402037,Al Kufa,idp,idpAl Kufa,18
+3402041,Al Kufa,idp,idpAl Kufa,7
+3402045,Al Najaf,idp,idpAl Najaf,6
+3402049,Al Najaf,idp,idpAl Najaf,10
+3403003,Al Najaf,idp,idpAl Najaf,25
+3403012,Al Najaf,idp,idpAl Najaf,64
+3403024,Al Najaf,idp,idpAl Najaf,10
+3403025,Al Najaf,idp,idpAl Najaf,17
+3403027,Al Najaf,idp,idpAl Najaf,20
+3403032,Al Najaf,idp,idpAl Najaf,21
+3403035,Al Kufa,idp,idpAl Kufa,180
+3403039,Al Najaf,idp,idpAl Najaf,65
+3403045,Al Najaf,idp,idpAl Najaf,16
+3403047,Al Najaf,idp,idpAl Najaf,40
+3403048,Al Najaf,idp,idpAl Najaf,19
+3403049,Al Najaf,idp,idpAl Najaf,20
+3403052,Al Najaf,idp,idpAl Najaf,18
+3403055,Al Najaf,idp,idpAl Najaf,10
+3403060,Al Najaf,idp,idpAl Najaf,7
+3403063,Al Najaf,idp,idpAl Najaf,6
+3403064,Al Najaf,idp,idpAl Najaf,8
+3403065,Al Najaf,idp,idpAl Najaf,20
+3403066,Al Najaf,idp,idpAl Najaf,10
+3403067,Al Najaf,idp,idpAl Najaf,27
+3403070,Al Najaf,idp,idpAl Najaf,10
+3403075,Al Najaf,idp,idpAl Najaf,72
+3403079,Al Najaf,idp,idpAl Najaf,42
+3403080,Al Najaf,idp,idpAl Najaf,90
+3403081,Al Najaf,idp,idpAl Najaf,65
+3403082,Al Najaf,idp,idpAl Najaf,80
+3403084,Al Najaf,idp,idpAl Najaf,160
+3403085,Al Najaf,idp,idpAl Najaf,48
+3403086,Al Kufa,idp,idpAl Kufa,146
+3403088,Al Najaf,idp,idpAl Najaf,42
+3403089,Al Najaf,idp,idpAl Najaf,100
+3504001,Nassriya,idp,idpNassriya,7
+3504002,Nassriya,idp,idpNassriya,9
+3504007,Nassriya,idp,idpNassriya,7
+3504011,Nassriya,idp,idpNassriya,24
+3504014,Nassriya,idp,idpNassriya,7
+3504015,Nassriya,idp,idpNassriya,8
+3504016,Nassriya,idp,idpNassriya,8
+3504021,Nassriya,idp,idpNassriya,10
+3504023,Nassriya,idp,idpNassriya,11
+3504024,Nassriya,idp,idpNassriya,15
+3504025,Nassriya,idp,idpNassriya,15
+3504026,Nassriya,idp,idpNassriya,6
+3504028,Nassriya,idp,idpNassriya,14
+3504029,Nassriya,idp,idpNassriya,8
+3504031,Nassriya,idp,idpNassriya,8
+3504033,Nassriya,idp,idpNassriya,17
+3504036,Nassriya,idp,idpNassriya,12
+3504041,Nassriya,idp,idpNassriya,7
+3504042,Nassriya,idp,idpNassriya,16
+3504046,Nassriya,idp,idpNassriya,9
+3504051,Nassriya,idp,idpNassriya,6
+3504054,Nassriya,idp,idpNassriya,15
+3603003,Al Diwaniya,idp,idpAl Diwaniya,97
+3603004,Al Diwaniya,idp,idpAl Diwaniya,11
+3603005,Al Diwaniya,idp,idpAl Diwaniya,20
+3603006,Al Diwaniya,idp,idpAl Diwaniya,8
+3603007,Al Diwaniya,idp,idpAl Diwaniya,14
+3603008,Al Diwaniya,idp,idpAl Diwaniya,22
+3603009,Al Diwaniya,idp,idpAl Diwaniya,14
+3603010,Al Diwaniya,idp,idpAl Diwaniya,14
+3603011,Al Diwaniya,idp,idpAl Diwaniya,9
+3603012,Al Diwaniya,idp,idpAl Diwaniya,8
+3603017,Al Diwaniya,idp,idpAl Diwaniya,10
+3603022,Al Diwaniya,idp,idpAl Diwaniya,7
+3603023,Al Diwaniya,idp,idpAl Diwaniya,10
+3603024,Al Diwaniya,idp,idpAl Diwaniya,8
+3603025,Al Diwaniya,idp,idpAl Diwaniya,13
+3603027,Al Diwaniya,idp,idpAl Diwaniya,10
+3603029,Al Diwaniya,idp,idpAl Diwaniya,12
+3603030,Al Diwaniya,idp,idpAl Diwaniya,9
+3603032,Al Diwaniya,idp,idpAl Diwaniya,7
+3603033,Al Diwaniya,idp,idpAl Diwaniya,16
+3603034,Al Diwaniya,idp,idpAl Diwaniya,13
+3603036,Al Diwaniya,idp,idpAl Diwaniya,9
+3603037,Al Diwaniya,idp,idpAl Diwaniya,10
+3603038,Al Diwaniya,idp,idpAl Diwaniya,10
+3603040,Al Diwaniya,idp,idpAl Diwaniya,8
+3603042,Al Diwaniya,idp,idpAl Diwaniya,8
+3603044,Al Diwaniya,idp,idpAl Diwaniya,17
+3603047,Al Diwaniya,idp,idpAl Diwaniya,12
+3603048,Al Diwaniya,idp,idpAl Diwaniya,17
+3603049,Al Diwaniya,idp,idpAl Diwaniya,13
+3603050,Al Diwaniya,idp,idpAl Diwaniya,20
+3603051,Al Diwaniya,idp,idpAl Diwaniya,9
+3603052,Al Diwaniya,idp,idpAl Diwaniya,24
+3603053,Al Diwaniya,idp,idpAl Diwaniya,15
+3603054,Al Diwaniya,idp,idpAl Diwaniya,26
+3603055,Al Diwaniya,idp,idpAl Diwaniya,7
+3603056,Al Diwaniya,idp,idpAl Diwaniya,8
+3603057,Al Diwaniya,idp,idpAl Diwaniya,13
+3603058,Al Diwaniya,idp,idpAl Diwaniya,6
+3603059,Al Diwaniya,idp,idpAl Diwaniya,10
+3603060,Al Diwaniya,idp,idpAl Diwaniya,7
+3603063,Al Diwaniya,idp,idpAl Diwaniya,15
+3603064,Al Diwaniya,idp,idpAl Diwaniya,20
+3603066,Al Diwaniya,idp,idpAl Diwaniya,10
+3603067,Al Diwaniya,idp,idpAl Diwaniya,11
+3603068,Al Diwaniya,idp,idpAl Diwaniya,6
+3603070,Al Diwaniya,idp,idpAl Diwaniya,9
+3603073,Al Diwaniya,idp,idpAl Diwaniya,15
+3603076,Al Diwaniya,idp,idpAl Diwaniya,14
+3603077,Al Diwaniya,idp,idpAl Diwaniya,9
+3603078,Al Diwaniya,idp,idpAl Diwaniya,13
+3603079,Al Diwaniya,idp,idpAl Diwaniya,11
+3603080,Al Diwaniya,idp,idpAl Diwaniya,8
+3603081,Al Diwaniya,idp,idpAl Diwaniya,16
+3603085,Al Diwaniya,idp,idpAl Diwaniya,23
+3603087,Al Diwaniya,idp,idpAl Diwaniya,13
+3603088,Al Diwaniya,idp,idpAl Diwaniya,15
+3603089,Al Diwaniya,idp,idpAl Diwaniya,8
+3603092,Al Diwaniya,idp,idpAl Diwaniya,6
+3603093,Al Diwaniya,idp,idpAl Diwaniya,18
+3603094,Al Diwaniya,idp,idpAl Diwaniya,7
+1204004,Makhmour,returnee,returneeMakhmour,1824
+1204011,Makhmour,returnee,returneeMakhmour,430
+1204016,Makhmour,returnee,returneeMakhmour,167
+1204017,Makhmour,returnee,returneeMakhmour,337
+1204018,Makhmour,returnee,returneeMakhmour,540
+1204019,Makhmour,returnee,returneeMakhmour,262
+1204020,Makhmour,returnee,returneeMakhmour,240
+1204022,Makhmour,returnee,returneeMakhmour,280
+1204023,Makhmour,returnee,returneeMakhmour,95
+1204031,Makhmour,returnee,returneeMakhmour,828
+1204032,Makhmour,returnee,returneeMakhmour,442
+1204034,Al Mosul,returnee,returneeAl Mosul,160
+1204035,Al Mosul,returnee,returneeAl Mosul,188
+1204036,Al Mosul,returnee,returneeAl Mosul,82
+1204038,Al Mosul,returnee,returneeAl Mosul,189
+1204039,Makhmour,returnee,returneeMakhmour,320
+1204040,Makhmour,returnee,returneeMakhmour,90
+1204042,Makhmour,returnee,returneeMakhmour,140
+1204043,Makhmour,returnee,returneeMakhmour,117
+1204044,Makhmour,returnee,returneeMakhmour,114
+2101001,Al Qa'em,returnee,returneeAl Qa'em,267
+2101002,Al Ka'im,returnee,returneeAl Ka'im,171
+2101003,Al Qa'em,returnee,returneeAl Qa'em,228
+2101004,Al Qa'em,returnee,returneeAl Qa'em,177
+2101005,Al Qa'em,returnee,returneeAl Qa'em,125
+2101006,Al Ka'im,returnee,returneeAl Ka'im,350
+2101007,Al Qa'em,returnee,returneeAl Qa'em,184
+2101008,Al Ka'im,returnee,returneeAl Ka'im,167
+2101010,Ana,returnee,returneeAna,225
+2101011,Al Qa'em,returnee,returneeAl Qa'em,228
+2101012,Al Qa'em,returnee,returneeAl Qa'em,145
+2101013,Al Qa'em,returnee,returneeAl Qa'em,92
+2101014,Al Qa'em,returnee,returneeAl Qa'em,233
+2101015,Al Qa'em,returnee,returneeAl Qa'em,77
+2101016,Al Qa'em,returnee,returneeAl Qa'em,263
+2101017,Al Qa'em,returnee,returneeAl Qa'em,227
+2101018,Al Qa'em,returnee,returneeAl Qa'em,240
+2101019,Al Qa'em,returnee,returneeAl Qa'em,204
+2101020,Al Qa'em,returnee,returneeAl Qa'em,323
+2101022,Al Qa'em,returnee,returneeAl Qa'em,181
+2101023,Al Qa'em,returnee,returneeAl Qa'em,326
+2101024,Al Qa'em,returnee,returneeAl Qa'em,159
+2101025,Al Qa'em,returnee,returneeAl Qa'em,175
+2101026,Al Qa'em,returnee,returneeAl Qa'em,285
+2101027,Al Qa'em,returnee,returneeAl Qa'em,195
+2101028,Al Qa'em,returnee,returneeAl Qa'em,229
+2101029,Al Qa'em,returnee,returneeAl Qa'em,231
+2101030,Al Qa'em,returnee,returneeAl Qa'em,255
+2101032,Al Qa'em,returnee,returneeAl Qa'em,36
+2101033,Al Qa'em,returnee,returneeAl Qa'em,59
+2101034,Al Qa'em,returnee,returneeAl Qa'em,194
+2101035,Al Qa'em,returnee,returneeAl Qa'em,89
+2101036,Al Qa'em,returnee,returneeAl Qa'em,119
+2102001,Al Rutba,returnee,returneeAl Rutba,215
+2102002,Al Rutba,returnee,returneeAl Rutba,536
+2102006,Al Rutba,returnee,returneeAl Rutba,344
+2102007,Al Rutba,returnee,returneeAl Rutba,412
+2102008,Al Rutba,returnee,returneeAl Rutba,983
+2102010,Al Rutba,returnee,returneeAl Rutba,227
+2102011,Al Rutba,returnee,returneeAl Rutba,751
+2102014,Al Rutba,returnee,returneeAl Rutba,443
+2102016,Al Rutba,returnee,returneeAl Rutba,689
+2102021,Al Rutba,returnee,returneeAl Rutba,75
+2103001,Ana,returnee,returneeAna,164
+2103002,Ana,returnee,returneeAna,316
+2103003,Ana,returnee,returneeAna,240
+2103004,Ana,returnee,returneeAna,124
+2103005,Ana,returnee,returneeAna,234
+2103006,Ana,returnee,returneeAna,207
+2103007,Ana,returnee,returneeAna,188
+2103008,Ana,returnee,returneeAna,240
+2103009,Ana,returnee,returneeAna,166
+2103010,Ana,returnee,returneeAna,263
+2103011,Ana,returnee,returneeAna,291
+2104001,Ana,returnee,returneeAna,188
+2104002,Ana,returnee,returneeAna,273
+2104003,Ana,returnee,returneeAna,209
+2104004,Ana,returnee,returneeAna,286
+2104005,Ana,returnee,returneeAna,173
+2104006,Ana,returnee,returneeAna,234
+2104007,Ana,returnee,returneeAna,267
+2104008,Ana,returnee,returneeAna,303
+2104009,Ana,returnee,returneeAna,179
+2105001,Al Falluia,returnee,returneeAl Falluia,330
+2105005,Al Falluia,returnee,returneeAl Falluia,120
+2105006,Al Falluia,returnee,returneeAl Falluia,978
+2105007,Al Falluia,returnee,returneeAl Falluia,1246
+2105009,Al Falluia,returnee,returneeAl Falluia,2473
+2105010,Al Falluia,returnee,returneeAl Falluia,796
+2105011,Al Falluia,returnee,returneeAl Falluia,696
+2105012,Al Falluia,returnee,returneeAl Falluia,1539
+2105013,Al Falluia,returnee,returneeAl Falluia,2935
+2105014,Al Falluia,returnee,returneeAl Falluia,505
+2105015,Al Falluia,returnee,returneeAl Falluia,530
+2105016,Al Falluia,returnee,returneeAl Falluia,292
+2105020,Al Falluia,returnee,returneeAl Falluia,2769
+2105021,Al Falluia,returnee,returneeAl Falluia,1471
+2105022,Al Falluia,returnee,returneeAl Falluia,2436
+2105025,Al Falluia,returnee,returneeAl Falluia,200
+2105026,Al Falluia,returnee,returneeAl Falluia,152
+2105027,Al Falluia,returnee,returneeAl Falluia,831
+2105028,Al Falluia,returnee,returneeAl Falluia,1349
+2105030,Al Falluia,returnee,returneeAl Falluia,392
+2105032,Al Falluia,returnee,returneeAl Falluia,1603
+2105033,Al Falluia,returnee,returneeAl Falluia,2093
+2105034,Al Falluia,returnee,returneeAl Falluia,2216
+2105035,Al Falluia,returnee,returneeAl Falluia,210
+2105036,Al Falluia,returnee,returneeAl Falluia,1180
+2105037,Al Falluia,returnee,returneeAl Falluia,1058
+2105038,Al Falluia,returnee,returneeAl Falluia,1071
+2105039,Al Falluia,returnee,returneeAl Falluia,1674
+2105042,Al Falluia,returnee,returneeAl Falluia,2498
+2105044,Al Falluia,returnee,returneeAl Falluia,2356
+2105045,Al Falluia,returnee,returneeAl Falluia,2997
+2105048,Al Falluia,returnee,returneeAl Falluia,2146
+2105049,Al Falluia,returnee,returneeAl Falluia,337
+2105050,Al Falluia,returnee,returneeAl Falluia,1904
+2105051,Al Falluia,returnee,returneeAl Falluia,2106
+2105052,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,117
+2105053,Al Falluia,returnee,returneeAl Falluia,2227
+2105054,Al Falluia,returnee,returneeAl Falluia,2769
+2105055,Al Falluia,returnee,returneeAl Falluia,2112
+2105056,Al Falluia,returnee,returneeAl Falluia,1321
+2105057,Al Falluia,returnee,returneeAl Falluia,2169
+2105058,Al Falluia,returnee,returneeAl Falluia,631
+2105060,Al Falluia,returnee,returneeAl Falluia,865
+2105061,Al Falluia,returnee,returneeAl Falluia,2094
+2105063,Al Falluia,returnee,returneeAl Falluia,2429
+2105064,Al Falluia,returnee,returneeAl Falluia,2056
+2105065,Al Falluia,returnee,returneeAl Falluia,1748
+2105067,Al Falluia,returnee,returneeAl Falluia,853
+2105079,Al Falluia,returnee,returneeAl Falluia,1915
+2105083,Al Falluia,returnee,returneeAl Falluia,3545
+2105084,Al Falluia,returnee,returneeAl Falluia,3660
+2105085,Al Falluia,returnee,returneeAl Falluia,1674
+2105086,Al Falluia,returnee,returneeAl Falluia,2875
+2105087,Al Falluia,returnee,returneeAl Falluia,721
+2105088,Al Falluja,returnee,returneeAl Falluja,274
+2105089,Al Falluia,returnee,returneeAl Falluia,799
+2105090,Al Falluia,returnee,returneeAl Falluia,885
+2105091,Al Falluia,returnee,returneeAl Falluia,398
+2105092,Al Falluia,returnee,returneeAl Falluia,573
+2105093,Al Falluia,returnee,returneeAl Falluia,1000
+2105094,Al Falluia,returnee,returneeAl Falluia,741
+2105095,Al Falluia,returnee,returneeAl Falluia,209
+2105096,Al Falluia,returnee,returneeAl Falluia,247
+2105097,Al Falluia,returnee,returneeAl Falluia,172
+2105098,Al Falluia,returnee,returneeAl Falluia,58
+2106004,Haditha,returnee,returneeHaditha,494
+2106007,Haditha,returnee,returneeHaditha,613
+2106009,Haditha,returnee,returneeHaditha,617
+2106011,Haditha,returnee,returneeHaditha,433
+2106012,Haditha,returnee,returneeHaditha,22
+2106014,Haditha,returnee,returneeHaditha,577
+2106015,Haditha,returnee,returneeHaditha,451
+2106017,Haditha,returnee,returneeHaditha,368
+2106020,Haditha,returnee,returneeHaditha,247
+2106024,Haditha,returnee,returneeHaditha,19
+2106030,Haditha,returnee,returneeHaditha,19
+2106037,Haditha,returnee,returneeHaditha,319
+2106038,Haditha,returnee,returneeHaditha,162
+2106040,Haditha,returnee,returneeHaditha,16
+2106043,Haditha,returnee,returneeHaditha,25
+2106044,Haditha,returnee,returneeHaditha,312
+2107001,Heet,returnee,returneeHeet,1168
+2107004,Heet,returnee,returneeHeet,908
+2107006,Heet,returnee,returneeHeet,53
+2107012,Heet,returnee,returneeHeet,55
+2107013,Heet,returnee,returneeHeet,631
+2107016,Heet,returnee,returneeHeet,1165
+2107018,Heet,returnee,returneeHeet,433
+2107027,Heet,returnee,returneeHeet,333
+2107028,Heet,returnee,returneeHeet,518
+2107029,Heet,returnee,returneeHeet,507
+2107030,Heet,returnee,returneeHeet,660
+2107031,Heet,returnee,returneeHeet,1710
+2107033,Heet,returnee,returneeHeet,77
+2107034,Heet,returnee,returneeHeet,756
+2107036,Heet,returnee,returneeHeet,212
+2107040,Heet,returnee,returneeHeet,1376
+2107041,Heet,returnee,returneeHeet,280
+2107043,Heet,returnee,returneeHeet,1037
+2107045,Heet,returnee,returneeHeet,1649
+2107046,Heet,returnee,returneeHeet,124
+2107047,Heet,returnee,returneeHeet,1104
+2107048,Heet,returnee,returneeHeet,69
+2107051,Heet,returnee,returneeHeet,1053
+2107053,Heet,returnee,returneeHeet,1315
+2107054,Heet,returnee,returneeHeet,1481
+2107056,Heet,returnee,returneeHeet,1284
+2107057,Heet,returnee,returneeHeet,414
+2107060,Heet,returnee,returneeHeet,44
+2107061,Heet,returnee,returneeHeet,999
+2107062,Heet,returnee,returneeHeet,642
+2107063,Heet,returnee,returneeHeet,275
+2107064,Heet,returnee,returneeHeet,310
+2107065,Heet,returnee,returneeHeet,1060
+2107067,Heet,returnee,returneeHeet,1554
+2107069,Heet,returnee,returneeHeet,63
+2107074,Heet,returnee,returneeHeet,361
+2107075,Heet,returnee,returneeHeet,1567
+2107076,Heet,returnee,returneeHeet,65
+2107077,Heet,returnee,returneeHeet,553
+2107078,Heet,returnee,returneeHeet,39
+2107081,Heet,returnee,returneeHeet,718
+2107082,Heet,returnee,returneeHeet,913
+2107083,Heet,returnee,returneeHeet,1142
+2108001,Al Ramadi,returnee,returneeAl Ramadi,1389
+2108003,Al Ramadi,returnee,returneeAl Ramadi,99
+2108004,Al Ramadi,returnee,returneeAl Ramadi,64
+2108005,Al Ramadi,returnee,returneeAl Ramadi,512
+2108006,Al Ramadi,returnee,returneeAl Ramadi,378
+2108007,Al Ramadi,returnee,returneeAl Ramadi,840
+2108008,Al Ramadi,returnee,returneeAl Ramadi,530
+2108009,Al Ramadi,returnee,returneeAl Ramadi,1781
+2108010,Al Ramadi,returnee,returneeAl Ramadi,869
+2108011,Al Ramadi,returnee,returneeAl Ramadi,1807
+2108012,Al Ramadi,returnee,returneeAl Ramadi,1634
+2108013,Al Ramadi,returnee,returneeAl Ramadi,580
+2108014,Al Ramadi,returnee,returneeAl Ramadi,945
+2108015,Al Ramadi,returnee,returneeAl Ramadi,1184
+2108017,Al Ramadi,returnee,returneeAl Ramadi,1303
+2108018,Al Falluia,returnee,returneeAl Falluia,354
+2108019,Al Ramadi,returnee,returneeAl Ramadi,1737
+2108020,Al Ramadi,returnee,returneeAl Ramadi,616
+2108021,Al Ramadi,returnee,returneeAl Ramadi,1721
+2108022,Al Ramadi,returnee,returneeAl Ramadi,463
+2108023,Al Falluia,returnee,returneeAl Falluia,568
+2108024,Al Ramadi,returnee,returneeAl Ramadi,538
+2108026,Al Ramadi,returnee,returneeAl Ramadi,1869
+2108027,Al Ramadi,returnee,returneeAl Ramadi,1642
+2108028,Al Ramadi,returnee,returneeAl Ramadi,2514
+2108029,Al Falluia,returnee,returneeAl Falluia,368
+2108030,Al Ramadi,returnee,returneeAl Ramadi,2378
+2108033,Al Ramadi,returnee,returneeAl Ramadi,1341
+2108034,Al Ramadi,returnee,returneeAl Ramadi,2118
+2108035,Al Ramadi,returnee,returneeAl Ramadi,1702
+2108036,Al Ramadi,returnee,returneeAl Ramadi,2084
+2108037,Al Ramadi,returnee,returneeAl Ramadi,1881
+2108038,Al Ramadi,returnee,returneeAl Ramadi,2369
+2108039,Al Ramadi,returnee,returneeAl Ramadi,1994
+2108040,Al Ramadi,returnee,returneeAl Ramadi,2164
+2108041,Al Ramadi,returnee,returneeAl Ramadi,2007
+2108045,Al Ramadi,returnee,returneeAl Ramadi,5509
+2108046,Al Ramadi,returnee,returneeAl Ramadi,3799
+2108050,Al Ramadi,returnee,returneeAl Ramadi,2009
+2108051,Al Ramadi,returnee,returneeAl Ramadi,2346
+2108052,Al Ramadi,returnee,returneeAl Ramadi,1506
+2108053,Al Ramadi,returnee,returneeAl Ramadi,1601
+2108054,Al Ramadi,returnee,returneeAl Ramadi,1316
+2108055,Al Ramadi,returnee,returneeAl Ramadi,1169
+2108056,Al Ramadi,returnee,returneeAl Ramadi,2294
+2108057,Al Ramadi,returnee,returneeAl Ramadi,1973
+2108058,Al Ramadi,returnee,returneeAl Ramadi,1814
+2108059,Al Ramadi,returnee,returneeAl Ramadi,1802
+2108060,Al Ramadi,returnee,returneeAl Ramadi,1657
+2108061,Al Falluia,returnee,returneeAl Falluia,536
+2108062,Al Ramadi,returnee,returneeAl Ramadi,874
+2108063,Al Ramadi,returnee,returneeAl Ramadi,139
+2108064,Al Ramadi,returnee,returneeAl Ramadi,214
+2108065,Al Ramadi,returnee,returneeAl Ramadi,127
+2108066,Al Ramadi,returnee,returneeAl Ramadi,68
+2108067,Al Ramadi,returnee,returneeAl Ramadi,448
+2301058,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,28
+2301059,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,37
+2301060,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,37
+2301061,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,39
+2301062,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,25
+2301063,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,75
+2301064,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,406
+2301065,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,132
+2301066,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,81
+2301067,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,118
+2301068,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,320
+2301070,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,260
+2301076,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,111
+2301077,Al Falluja,returnee,returneeAl Falluja,171
+2301078,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,101
+2301079,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,91
+2301080,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,135
+2301081,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,116
+2301082,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,116
+2301083,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,125
+2301084,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,177
+2301085,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,118
+2301086,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,187
+2301087,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,100
+2301088,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,61
+2301089,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,43
+2301090,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,53
+2301091,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,102
+2301092,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,97
+2301093,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,44
+2301094,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,54
+2301095,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,69
+2302104,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,200
+2306062,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,130
+2306063,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,311
+2306068,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,50
+2306069,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,20
+2306070,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,56
+2306072,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,175
+2306073,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,238
+2306074,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,58
+2306075,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,76
+2306076,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,180
+2309010,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,62
+2309029,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,90
+2309055,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,60
+2309056,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,89
+2309057,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,40
+2309058,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,101
+2309060,Al Musayab,returnee,returneeAl Musayab,411
+2309061,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,320
+2309062,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,33
+2309063,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,70
+2309064,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,210
+2309065,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,25
+2309066,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,150
+2309067,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,49
+2309068,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,1050
+2309069,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,75
+2309070,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,80
+2309075,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,615
+2309076,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,25
+2309077,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,105
+2309078,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,175
+2309079,Al Falluja,returnee,returneeAl Falluja,30
+2309080,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,60
+2309081,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,50
+2309082,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,20
+2309083,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,210
+2309084,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,400
+2309085,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,153
+2309086,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,190
+2309087,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,50
+2309088,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,75
+2309089,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,120
+2309090,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,295
+2309091,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,170
+2309092,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,200
+2309093,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,140
+2309094,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,175
+2309095,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,300
+2309096,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,270
+2309097,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,300
+2309098,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,350
+2309099,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,80
+2309100,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,350
+2309101,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,73
+2309102,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,90
+2309103,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,78
+2309104,Al Mahmoudiya,returnee,returneeAl Mahmoudiya,26
+2310017,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,72
+2310018,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,50
+2310020,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,94
+2310021,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,110
+2310022,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,69
+2310023,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,49
+2310024,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,81
+2310025,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,66
+2310026,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,91
+2310027,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,83
+2310028,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,81
+2310029,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,88
+2310030,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,83
+2310031,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,74
+2310032,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,43
+2310033,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,48
+2310034,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,61
+2310035,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,35
+2310036,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,43
+2310037,Al Kadhmiyah,returnee,returneeAl Kadhmiyah,38
+2401011,Al Khalis,returnee,returneeAl Khalis,37
+2401015,Al Khalis,returnee,returneeAl Khalis,318
+2401017,Al Khalis,returnee,returneeAl Khalis,12
+2401019,Al Khalis,returnee,returneeAl Khalis,317
+2401020,Al Khalis,returnee,returneeAl Khalis,72
+2401021,Al Khalis,returnee,returneeAl Khalis,230
+2401024,Al Khalis,returnee,returneeAl Khalis,95
+2401027,Al Khalis,returnee,returneeAl Khalis,271
+2401029,Al Khalis,returnee,returneeAl Khalis,164
+2401035,Al Khalis,returnee,returneeAl Khalis,320
+2401048,Al Khalis,returnee,returneeAl Khalis,180
+2401049,Al Khalis,returnee,returneeAl Khalis,272
+2401050,Al Khalis,returnee,returneeAl Khalis,200
+2401051,Al Khalis,returnee,returneeAl Khalis,75
+2401052,Al Khalis,returnee,returneeAl Khalis,100
+2401053,Al Khalis,returnee,returneeAl Khalis,135
+2401054,Al Khalis,returnee,returneeAl Khalis,47
+2401055,Al Khalis,returnee,returneeAl Khalis,65
+2401056,Al Khalis,returnee,returneeAl Khalis,200
+2401057,Al Khalis,returnee,returneeAl Khalis,549
+2401058,Al Khalis,returnee,returneeAl Khalis,240
+2401059,Al Khalis,returnee,returneeAl Khalis,150
+2401060,Al Khalis,returnee,returneeAl Khalis,120
+2401061,Al Khalis,returnee,returneeAl Khalis,220
+2401062,Al Khalis,returnee,returneeAl Khalis,305
+2401063,Al Khalis,returnee,returneeAl Khalis,455
+2401064,Al Khalis,returnee,returneeAl Khalis,373
+2401065,Al Khalis,returnee,returneeAl Khalis,262
+2401067,Al Khalis,returnee,returneeAl Khalis,220
+2401068,Al Khalis,returnee,returneeAl Khalis,250
+2401069,Al Khalis,returnee,returneeAl Khalis,200
+2401070,Al Khalis,returnee,returneeAl Khalis,190
+2401071,Al Khalis,returnee,returneeAl Khalis,28
+2401072,Al Khalis,returnee,returneeAl Khalis,200
+2401073,Al Khalis,returnee,returneeAl Khalis,33
+2401074,Al Khalis,returnee,returneeAl Khalis,7
+2401075,Balad,returnee,returneeBalad,70
+2401076,Al Khalis,returnee,returneeAl Khalis,34
+2401077,Al Khalis,returnee,returneeAl Khalis,42
+2401078,Al Khalis,returnee,returneeAl Khalis,125
+2401079,Al Khalis,returnee,returneeAl Khalis,17
+2401080,Al Khalis,returnee,returneeAl Khalis,22
+2401081,Al Khalis,returnee,returneeAl Khalis,20
+2401082,Al Khalis,returnee,returneeAl Khalis,75
+2401083,Al Khalis,returnee,returneeAl Khalis,35
+2401084,Al Khalis,returnee,returneeAl Khalis,30
+2401085,Al Khalis,returnee,returneeAl Khalis,22
+2401086,Al Khalis,returnee,returneeAl Khalis,13
+2401087,Al Khalis,returnee,returneeAl Khalis,10
+2401088,Al Khalis,returnee,returneeAl Khalis,15
+2401089,Al Khalis,returnee,returneeAl Khalis,140
+2401090,Al Khalis,returnee,returneeAl Khalis,17
+2401091,Al Khalis,returnee,returneeAl Khalis,10
+2401092,Al Khalis,returnee,returneeAl Khalis,135
+2401093,Al Khalis,returnee,returneeAl Khalis,100
+2401094,Al Khalis,returnee,returneeAl Khalis,8
+2401096,Al Khalis,returnee,returneeAl Khalis,14
+2401097,Al Khalis,returnee,returneeAl Khalis,140
+2401098,Al Khalis,returnee,returneeAl Khalis,67
+2401099,Al Khalis,returnee,returneeAl Khalis,55
+2401100,Al Khalis,returnee,returneeAl Khalis,10
+2401101,Al Khalis,returnee,returneeAl Khalis,22
+2401102,Al Khalis,returnee,returneeAl Khalis,60
+2401103,Al Khalis,returnee,returneeAl Khalis,101
+2401104,Al Khalis,returnee,returneeAl Khalis,7
+2401105,Al Khalis,returnee,returneeAl Khalis,120
+2401106,Al Khalis,returnee,returneeAl Khalis,140
+2401107,Al Khalis,returnee,returneeAl Khalis,1310
+2401109,Al Khalis,returnee,returneeAl Khalis,995
+2401110,Al Khalis,returnee,returneeAl Khalis,17
+2401112,Al Khalis,returnee,returneeAl Khalis,110
+2401113,Al Khalis,returnee,returneeAl Khalis,85
+2401114,Samarra,returnee,returneeSamarra,38
+2401115,Al Khalis,returnee,returneeAl Khalis,17
+2401116,Al Khalis,returnee,returneeAl Khalis,22
+2401117,Al Khalis,returnee,returneeAl Khalis,94
+2401118,Al Khalis,returnee,returneeAl Khalis,31
+2401119,Al Khalis,returnee,returneeAl Khalis,134
+2401120,Al Khalis,returnee,returneeAl Khalis,48
+2401121,Al Khalis,returnee,returneeAl Khalis,15
+2401122,Al Khalis,returnee,returneeAl Khalis,81
+2401123,Al Khalis,returnee,returneeAl Khalis,20
+2401124,Al Khalis,returnee,returneeAl Khalis,163
+2401125,Al Khalis,returnee,returneeAl Khalis,163
+2401126,Al Khalis,returnee,returneeAl Khalis,106
+2401127,Al Khalis,returnee,returneeAl Khalis,60
+2401129,Al Khalis,returnee,returneeAl Khalis,18
+2401130,Al Khalis,returnee,returneeAl Khalis,145
+2402002,Al Muqdadiya,returnee,returneeAl Muqdadiya,8
+2402004,Al Muqdadiya,returnee,returneeAl Muqdadiya,113
+2402005,Al Khalis,returnee,returneeAl Khalis,205
+2402006,Al Muqdadiya,returnee,returneeAl Muqdadiya,326
+2402007,Al Muqdadiya,returnee,returneeAl Muqdadiya,123
+2402008,Al Muqdadiya,returnee,returneeAl Muqdadiya,93
+2402009,Al Muqdadiya,returnee,returneeAl Muqdadiya,169
+2402010,Al Muqdadiya,returnee,returneeAl Muqdadiya,56
+2402012,Al Muqdadiya,returnee,returneeAl Muqdadiya,209
+2402013,Al Muqdadiya,returnee,returneeAl Muqdadiya,60
+2402014,Al Muqdadiya,returnee,returneeAl Muqdadiya,475
+2402015,Al Muqdadiya,returnee,returneeAl Muqdadiya,282
+2402016,Al Khalis,returnee,returneeAl Khalis,151
+2402017,Al Khalis,returnee,returneeAl Khalis,122
+2402018,Al Muqdadiya,returnee,returneeAl Muqdadiya,160
+2402019,Al Muqdadiya,returnee,returneeAl Muqdadiya,312
+2402020,Al Muqdadiya,returnee,returneeAl Muqdadiya,138
+2402021,Al Muqdadiya,returnee,returneeAl Muqdadiya,81
+2402022,Al Muqdadiya,returnee,returneeAl Muqdadiya,50
+2402023,Al Muqdadiya,returnee,returneeAl Muqdadiya,329
+2402024,Al Muqdadiya,returnee,returneeAl Muqdadiya,26
+2402025,Al Muqdadiya,returnee,returneeAl Muqdadiya,205
+2402026,Al Muqdadiya,returnee,returneeAl Muqdadiya,20
+2402027,Al Muqdadiya,returnee,returneeAl Muqdadiya,380
+2402028,Al Muqdadiya,returnee,returneeAl Muqdadiya,25
+2402029,Al Muqdadiya,returnee,returneeAl Muqdadiya,23
+2402030,Al Muqdadiya,returnee,returneeAl Muqdadiya,67
+2402031,Al Muqdadiya,returnee,returneeAl Muqdadiya,203
+2402032,Al Muqdadiya,returnee,returneeAl Muqdadiya,260
+2402033,Al Khalis,returnee,returneeAl Khalis,248
+2402034,Al Muqdadiya,returnee,returneeAl Muqdadiya,25
+2402035,Al Muqdadiya,returnee,returneeAl Muqdadiya,24
+2402036,Al Muqdadiya,returnee,returneeAl Muqdadiya,177
+2402037,Al Muqdadiya,returnee,returneeAl Muqdadiya,498
+2402038,Al Muqdadiya,returnee,returneeAl Muqdadiya,380
+2402039,Al Muqdadiya,returnee,returneeAl Muqdadiya,888
+2402040,Al Muqdadiya,returnee,returneeAl Muqdadiya,60
+2402041,Al Muqdadiya,returnee,returneeAl Muqdadiya,65
+2402042,Al Muqdadiya,returnee,returneeAl Muqdadiya,319
+2402043,Al Muqdadiya,returnee,returneeAl Muqdadiya,49
+2402044,Al Muqdadiya,returnee,returneeAl Muqdadiya,140
+2402045,Al Khalis,returnee,returneeAl Khalis,60
+2402046,Al Muqdadiya,returnee,returneeAl Muqdadiya,75
+2402047,Al Muqdadiya,returnee,returneeAl Muqdadiya,65
+2402048,Al Muqdadiya,returnee,returneeAl Muqdadiya,385
+2402049,Al Muqdadiya,returnee,returneeAl Muqdadiya,70
+2402050,Al Muqdadiya,returnee,returneeAl Muqdadiya,77
+2402051,Al Muqdadiya,returnee,returneeAl Muqdadiya,64
+2402052,Al Muqdadiya,returnee,returneeAl Muqdadiya,51
+2402053,Al Muqdadiya,returnee,returneeAl Muqdadiya,125
+2402054,Al Muqdadiya,returnee,returneeAl Muqdadiya,81
+2402055,Al Muqdadiya,returnee,returneeAl Muqdadiya,31
+2402056,Al Muqdadiya,returnee,returneeAl Muqdadiya,59
+2402057,Al Muqdadiya,returnee,returneeAl Muqdadiya,95
+2402058,Al Muqdadiya,returnee,returneeAl Muqdadiya,25
+2405072,Khanaqin,returnee,returneeKhanaqin,220
+2405073,Khanaqin,returnee,returneeKhanaqin,308
+2405074,Khanaqin,returnee,returneeKhanaqin,208
+2405075,Khanaqin,returnee,returneeKhanaqin,174
+2405083,Khanaqin,returnee,returneeKhanaqin,305
+2405084,Khanaqin,returnee,returneeKhanaqin,67
+2405085,Khanaqin,returnee,returneeKhanaqin,68
+2405086,Khanaqin,returnee,returneeKhanaqin,383
+2405087,Khanaqin,returnee,returneeKhanaqin,378
+2405088,Khanaqin,returnee,returneeKhanaqin,300
+2405089,Khanaqin,returnee,returneeKhanaqin,400
+2405090,Khanaqin,returnee,returneeKhanaqin,256
+2405091,Khanaqin,returnee,returneeKhanaqin,300
+2405092,Khanaqin,returnee,returneeKhanaqin,100
+2405093,Khanaqin,returnee,returneeKhanaqin,173
+2405094,Khanaqin,returnee,returneeKhanaqin,205
+2405095,Khanaqin,returnee,returneeKhanaqin,378
+2405096,Khanaqin,returnee,returneeKhanaqin,300
+2405097,Khanaqin,returnee,returneeKhanaqin,300
+2405098,Khanaqin,returnee,returneeKhanaqin,75
+2405099,Khanaqin,returnee,returneeKhanaqin,220
+2405100,Khanaqin,returnee,returneeKhanaqin,340
+2405101,Khanaqin,returnee,returneeKhanaqin,325
+2405102,Khanaqin,returnee,returneeKhanaqin,72
+2405103,Khanaqin,returnee,returneeKhanaqin,280
+2405104,Khanaqin,returnee,returneeKhanaqin,300
+2405105,Khanaqin,returnee,returneeKhanaqin,175
+2405106,Khanaqin,returnee,returneeKhanaqin,600
+2405107,Khanaqin,returnee,returneeKhanaqin,200
+2405108,Khanaqin,returnee,returneeKhanaqin,415
+2405109,Khanaqin,returnee,returneeKhanaqin,442
+2405110,Khanaqin,returnee,returneeKhanaqin,410
+2405111,Khanaqin,returnee,returneeKhanaqin,350
+2405112,Khanaqin,returnee,returneeKhanaqin,350
+2405113,Khanaqin,returnee,returneeKhanaqin,370
+2405114,Khanaqin,returnee,returneeKhanaqin,350
+2405115,Khanaqin,returnee,returneeKhanaqin,325
+2405116,Khanaqin,returnee,returneeKhanaqin,320
+2405117,Khanaqin,returnee,returneeKhanaqin,320
+2405118,Khanaqin,returnee,returneeKhanaqin,350
+2405119,Khanaqin,returnee,returneeKhanaqin,425
+2405120,Khanaqin,returnee,returneeKhanaqin,475
+2405121,Khanaqin,returnee,returneeKhanaqin,375
+2405122,Khanaqin,returnee,returneeKhanaqin,275
+2405123,Khanaqin,returnee,returneeKhanaqin,325
+2405124,Khanaqin,returnee,returneeKhanaqin,600
+2405125,Khanaqin,returnee,returneeKhanaqin,75
+2405126,Khanaqin,returnee,returneeKhanaqin,31
+2405127,Khanaqin,returnee,returneeKhanaqin,325
+2405128,Khanaqin,returnee,returneeKhanaqin,18
+2405129,Khanaqin,returnee,returneeKhanaqin,25
+2405130,Khanaqin,returnee,returneeKhanaqin,500
+2405136,Khanaqin,returnee,returneeKhanaqin,110
+2405137,Khanaqin,returnee,returneeKhanaqin,90
+2405138,Khanaqin,returnee,returneeKhanaqin,35
+2405139,Khanaqin,returnee,returneeKhanaqin,110
+2405140,Khanaqin,returnee,returneeKhanaqin,50
+2405141,Khanaqin,returnee,returneeKhanaqin,15
+2405143,Khanaqin,returnee,returneeKhanaqin,40
+2405146,Khanaqin,returnee,returneeKhanaqin,15
+2405147,Khanaqin,returnee,returneeKhanaqin,15
+2405148,Khanaqin,returnee,returneeKhanaqin,300
+2405150,Khanaqin,returnee,returneeKhanaqin,295
+2601001,Al Hawiga,returnee,returneeAl Hawiga,130
+2601003,Al Hawiga,returnee,returneeAl Hawiga,90
+2601005,Al Hawiga,returnee,returneeAl Hawiga,585
+2601006,Al Hawiga,returnee,returneeAl Hawiga,100
+2601009,Al Hawiga,returnee,returneeAl Hawiga,44
+2601010,Al Hawiga,returnee,returneeAl Hawiga,1300
+2601011,Al Hawiga,returnee,returneeAl Hawiga,1510
+2601012,Al Hawiga,returnee,returneeAl Hawiga,845
+2601013,Al Hawiga,returnee,returneeAl Hawiga,225
+2601016,Al Hawiga,returnee,returneeAl Hawiga,240
+2601017,Al Hawiga,returnee,returneeAl Hawiga,186
+2601022,Al Hawiga,returnee,returneeAl Hawiga,465
+2601023,Al Hawiga,returnee,returneeAl Hawiga,170
+2601024,Al Hawiga,returnee,returneeAl Hawiga,680
+2601025,Al Hawiga,returnee,returneeAl Hawiga,91
+2601028,Al Hawiga,returnee,returneeAl Hawiga,325
+2601030,Al Hawiga,returnee,returneeAl Hawiga,180
+2601031,Al Hawiga,returnee,returneeAl Hawiga,230
+2601033,Al Hawiga,returnee,returneeAl Hawiga,300
+2601034,Al Hawiga,returnee,returneeAl Hawiga,1560
+2601035,Al Hawiga,returnee,returneeAl Hawiga,231
+2601036,Al Hawiga,returnee,returneeAl Hawiga,617
+2601038,Al Hawiga,returnee,returneeAl Hawiga,305
+2601039,Al Hawiga,returnee,returneeAl Hawiga,1510
+2601040,Al Hawiga,returnee,returneeAl Hawiga,75
+2601041,Al Hawiga,returnee,returneeAl Hawiga,45
+2601042,Al Hawiga,returnee,returneeAl Hawiga,77
+2601043,Al Hawiga,returnee,returneeAl Hawiga,224
+2601044,Al Hawiga,returnee,returneeAl Hawiga,60
+2601045,Al Hawiga,returnee,returneeAl Hawiga,68
+2601046,Al Hawiga,returnee,returneeAl Hawiga,49
+2601047,Al Hawiga,returnee,returneeAl Hawiga,222
+2601048,Al Hawiga,returnee,returneeAl Hawiga,100
+2601049,Al Hawiga,returnee,returneeAl Hawiga,235
+2601050,Baiji,returnee,returneeBaiji,661
+2601051,Al Hawiga,returnee,returneeAl Hawiga,237
+2601052,Al Hawiga,returnee,returneeAl Hawiga,260
+2601053,Al Hawiga,returnee,returneeAl Hawiga,167
+2601054,Al Hawiga,returnee,returneeAl Hawiga,138
+2601055,Al Hawiga,returnee,returneeAl Hawiga,45
+2601056,Al Hawiga,returnee,returneeAl Hawiga,20
+2601057,Al Hawiga,returnee,returneeAl Hawiga,205
+2601058,Al Hawiga,returnee,returneeAl Hawiga,190
+2601060,Al Hawiga,returnee,returneeAl Hawiga,319
+2601061,Al Hawiga,returnee,returneeAl Hawiga,18
+2601062,Al Hawiga,returnee,returneeAl Hawiga,55
+2601063,Al Hawiga,returnee,returneeAl Hawiga,775
+2601064,Al Hawiga,returnee,returneeAl Hawiga,46
+2601065,Al Hawiga,returnee,returneeAl Hawiga,70
+2601066,Al Hawiga,returnee,returneeAl Hawiga,381
+2601067,Al Hawiga,returnee,returneeAl Hawiga,316
+2601068,Al Hawiga,returnee,returneeAl Hawiga,50
+2601069,Baiji,returnee,returneeBaiji,430
+2601070,Baiji,returnee,returneeBaiji,65
+2601071,Al Hawiga,returnee,returneeAl Hawiga,97
+2601072,Al Hawiga,returnee,returneeAl Hawiga,260
+2601073,Al Hawiga,returnee,returneeAl Hawiga,95
+2601074,Baiji,returnee,returneeBaiji,218
+2601075,Al Hawiga,returnee,returneeAl Hawiga,34
+2601076,Al Hawiga,returnee,returneeAl Hawiga,205
+2601077,Al Hawiga,returnee,returneeAl Hawiga,450
+2601078,Al Hawiga,returnee,returneeAl Hawiga,89
+2601079,Al Hawiga,returnee,returneeAl Hawiga,27
+2601080,Al Hawiga,returnee,returneeAl Hawiga,55
+2601081,Al Hawiga,returnee,returneeAl Hawiga,46
+2601082,Al Hawiga,returnee,returneeAl Hawiga,29
+2601083,Al Hawiga,returnee,returneeAl Hawiga,25
+2601084,Al Hawiga,returnee,returneeAl Hawiga,72
+2601085,Al Hawiga,returnee,returneeAl Hawiga,96
+2601086,Al Hawiga,returnee,returneeAl Hawiga,56
+2601087,Al Hawiga,returnee,returneeAl Hawiga,33
+2601088,Al Hawiga,returnee,returneeAl Hawiga,58
+2601089,Al Hawiga,returnee,returneeAl Hawiga,133
+2601090,Baiji,returnee,returneeBaiji,42
+2601091,Baiji,returnee,returneeBaiji,252
+2601092,Al Hawiga,returnee,returneeAl Hawiga,92
+2601093,Al Hawiga,returnee,returneeAl Hawiga,130
+2601094,Al Hawiga,returnee,returneeAl Hawiga,132
+2601095,Baiji,returnee,returneeBaiji,166
+2601096,Al Hawiga,returnee,returneeAl Hawiga,32
+2601097,Al Hawiga,returnee,returneeAl Hawiga,72
+2601098,Al Hawiga,returnee,returneeAl Hawiga,144
+2601099,Al Hawiga,returnee,returneeAl Hawiga,108
+2601100,Al Hawiga,returnee,returneeAl Hawiga,128
+2601101,Al Hawiga,returnee,returneeAl Hawiga,50
+2601102,Al Hawiga,returnee,returneeAl Hawiga,130
+2601103,Al Hawiga,returnee,returneeAl Hawiga,360
+2601104,Al Hawiga,returnee,returneeAl Hawiga,235
+2601105,Al Hawiga,returnee,returneeAl Hawiga,38
+2601106,Al Hawiga,returnee,returneeAl Hawiga,38
+2601107,Al Hawiga,returnee,returneeAl Hawiga,24
+2601108,Al Hawiga,returnee,returneeAl Hawiga,40
+2601109,Al Hawiga,returnee,returneeAl Hawiga,84
+2601110,Al Hawiga,returnee,returneeAl Hawiga,105
+2601111,Al Hawiga,returnee,returneeAl Hawiga,21
+2601112,Al Hawiga,returnee,returneeAl Hawiga,350
+2601113,Al Hawiga,returnee,returneeAl Hawiga,95
+2601114,Al Hawiga,returnee,returneeAl Hawiga,13
+2601115,Al Hawiga,returnee,returneeAl Hawiga,440
+2601116,Baiji,returnee,returneeBaiji,270
+2601117,Al Hawiga,returnee,returneeAl Hawiga,80
+2601118,Al Hawiga,returnee,returneeAl Hawiga,92
+2601119,Al Hawiga,returnee,returneeAl Hawiga,150
+2601120,Al Hawiga,returnee,returneeAl Hawiga,235
+2601121,Al Hawiga,returnee,returneeAl Hawiga,260
+2601122,Al Hawiga,returnee,returneeAl Hawiga,15
+2601123,Al Hawiga,returnee,returneeAl Hawiga,55
+2601124,Al Hawiga,returnee,returneeAl Hawiga,165
+2601125,Al Hawiga,returnee,returneeAl Hawiga,15
+2601126,Al Hawiga,returnee,returneeAl Hawiga,20
+2601127,Al Hawiga,returnee,returneeAl Hawiga,26
+2601128,Al Hawiga,returnee,returneeAl Hawiga,126
+2601129,Al Hawiga,returnee,returneeAl Hawiga,14
+2601130,Al Hawiga,returnee,returneeAl Hawiga,35
+2601131,Al Shirqat,returnee,returneeAl Shirqat,99
+2601132,Al Hawiga,returnee,returneeAl Hawiga,45
+2601133,Al Hawiga,returnee,returneeAl Hawiga,75
+2601134,Baiji,returnee,returneeBaiji,126
+2601140,Al Hawiga,returnee,returneeAl Hawiga,37
+2601141,Al Mosul,returnee,returneeAl Mosul,28
+2601142,Al Hawiga,returnee,returneeAl Hawiga,74
+2601143,Al Hawiga,returnee,returneeAl Hawiga,92
+2601144,Al Hawiga,returnee,returneeAl Hawiga,50
+2601145,Al Hawiga,returnee,returneeAl Hawiga,10
+2601146,Al Hawiga,returnee,returneeAl Hawiga,80
+2601147,Al Hawiga,returnee,returneeAl Hawiga,125
+2601148,Al Hawiga,returnee,returneeAl Hawiga,60
+2601149,Al Hawiga,returnee,returneeAl Hawiga,40
+2601150,Al Hawiga,returnee,returneeAl Hawiga,8
+2601151,Kirkuk,returnee,returneeKirkuk,6
+2601152,Al Hawiga,returnee,returneeAl Hawiga,22
+2602002,Daquq,returnee,returneeDaquq,17
+2602004,Kirkuk,returnee,returneeKirkuk,150
+2602005,Daquq,returnee,returneeDaquq,120
+2602006,Daquq,returnee,returneeDaquq,80
+2602007,Daquq,returnee,returneeDaquq,60
+2602008,Kirkuk,returnee,returneeKirkuk,70
+2602012,Kirkuk,returnee,returneeKirkuk,500
+2602017,Kirkuk,returnee,returneeKirkuk,57
+2602019,Kirkuk,returnee,returneeKirkuk,623
+2602021,Daquq,returnee,returneeDaquq,70
+2602024,Daquq,returnee,returneeDaquq,90
+2602026,Kirkuk,returnee,returneeKirkuk,215
+2602027,Daquq,returnee,returneeDaquq,85
+2602028,Kirkuk,returnee,returneeKirkuk,30
+2602029,Daquq,returnee,returneeDaquq,80
+2602030,Daquq,returnee,returneeDaquq,195
+2602031,Kirkuk,returnee,returneeKirkuk,25
+2602032,Kirkuk,returnee,returneeKirkuk,7
+2602033,Kirkuk,returnee,returneeKirkuk,115
+2602034,Kirkuk,returnee,returneeKirkuk,80
+2602045,Kirkuk,returnee,returneeKirkuk,75
+2603001,Kirkuk,returnee,returneeKirkuk,1125
+2603002,Kirkuk,returnee,returneeKirkuk,500
+2603004,Al Hawiga,returnee,returneeAl Hawiga,78
+2603005,Kirkuk,returnee,returneeKirkuk,150
+2603006,Kirkuk,returnee,returneeKirkuk,250
+2603009,Kirkuk,returnee,returneeKirkuk,100
+2603010,Kirkuk,returnee,returneeKirkuk,50
+2603012,Kirkuk,returnee,returneeKirkuk,3000
+2603013,Kirkuk,returnee,returneeKirkuk,100
+2603018,Kirkuk,returnee,returneeKirkuk,250
+2603019,Kirkuk,returnee,returneeKirkuk,75
+2603023,Kirkuk,returnee,returneeKirkuk,75
+2603026,Kirkuk,returnee,returneeKirkuk,75
+2603028,Kirkuk,returnee,returneeKirkuk,50
+2603029,Kirkuk,returnee,returneeKirkuk,4000
+2603030,Kirkuk,returnee,returneeKirkuk,100
+2603031,Kirkuk,returnee,returneeKirkuk,200
+2603032,Kirkuk,returnee,returneeKirkuk,75
+2603038,Kirkuk,returnee,returneeKirkuk,4450
+2603044,Kirkuk,returnee,returneeKirkuk,5500
+2603045,Kirkuk,returnee,returneeKirkuk,250
+2603046,Kirkuk,returnee,returneeKirkuk,50
+2603048,Kirkuk,returnee,returneeKirkuk,150
+2603056,Kirkuk,returnee,returneeKirkuk,85
+2603057,Kirkuk,returnee,returneeKirkuk,120
+2603058,Al Hawiga,returnee,returneeAl Hawiga,78
+2603059,Kirkuk,returnee,returneeKirkuk,50
+2603060,Kirkuk,returnee,returneeKirkuk,1500
+2603063,Al Hawiga,returnee,returneeAl Hawiga,130
+2603066,Kirkuk,returnee,returneeKirkuk,1000
+2603067,Kirkuk,returnee,returneeKirkuk,1100
+2603068,Kirkuk,returnee,returneeKirkuk,100
+2603069,Kirkuk,returnee,returneeKirkuk,500
+2603070,Daquq,returnee,returneeDaquq,25
+2603071,Al Hawiga,returnee,returneeAl Hawiga,38
+2603072,Al Hawiga,returnee,returneeAl Hawiga,9
+2603074,Kirkuk,returnee,returneeKirkuk,8
+2603075,Al Hawiga,returnee,returneeAl Hawiga,50
+2603078,Daquq,returnee,returneeDaquq,50
+2603079,Daquq,returnee,returneeDaquq,16
+2603085,Kirkuk,returnee,returneeKirkuk,17
+2603086,Kirkuk,returnee,returneeKirkuk,12
+2604001,Dibis,returnee,returneeDibis,866
+2604007,Dibis,returnee,returneeDibis,15
+2604010,Dibis,returnee,returneeDibis,135
+2604011,Dibis,returnee,returneeDibis,70
+2604012,Dibis,returnee,returneeDibis,15
+2604013,Dibis,returnee,returneeDibis,40
+2604014,Dibis,returnee,returneeDibis,30
+2604015,Dibis,returnee,returneeDibis,25
+2702001,Al Ba'aj,returnee,returneeAl Ba'aj,1284
+2702002,Al Ba'aj,returnee,returneeAl Ba'aj,25
+2702003,Al Ba'aj,returnee,returneeAl Ba'aj,32
+2702004,Al Ba'aj,returnee,returneeAl Ba'aj,27
+2702005,Al Ba'aj,returnee,returneeAl Ba'aj,36
+2702006,Al Ba'aj,returnee,returneeAl Ba'aj,27
+2702007,Al Ba'aj,returnee,returneeAl Ba'aj,10
+2702008,Al Ba'aj,returnee,returneeAl Ba'aj,38
+2702009,Al Ba'aj,returnee,returneeAl Ba'aj,34
+2702010,Al Ba'aj,returnee,returneeAl Ba'aj,25
+2702011,Al Ba'aj,returnee,returneeAl Ba'aj,14
+2702012,Al Ba'aj,returnee,returneeAl Ba'aj,94
+2702013,Al Ba'aj,returnee,returneeAl Ba'aj,63
+2703002,Al Hamdaniya,returnee,returneeAl Hamdaniya,890
+2703004,Al Hamdaniya,returnee,returneeAl Hamdaniya,250
+2703005,Al Hamdaniya,returnee,returneeAl Hamdaniya,860
+2703006,Al Hamdaniya,returnee,returneeAl Hamdaniya,1500
+2703007,Al Hamdaniya,returnee,returneeAl Hamdaniya,950
+2703008,Al Hamdaniya,returnee,returneeAl Hamdaniya,859
+2703009,Al Hamdaniya,returnee,returneeAl Hamdaniya,192
+2703010,Al Hamdaniya,returnee,returneeAl Hamdaniya,647
+2703011,Al Hamdaniya,returnee,returneeAl Hamdaniya,774
+2703012,Al Hamdaniya,returnee,returneeAl Hamdaniya,385
+2703013,Al Hamdaniya,returnee,returneeAl Hamdaniya,161
+2703014,Al Hamdaniya,returnee,returneeAl Hamdaniya,540
+2703015,Al Hamdaniya,returnee,returneeAl Hamdaniya,545
+2703017,Al Hamdaniya,returnee,returneeAl Hamdaniya,248
+2703018,Al Hamdaniya,returnee,returneeAl Hamdaniya,188
+2703022,Al Hamdaniya,returnee,returneeAl Hamdaniya,216
+2703023,Al Hamdaniya,returnee,returneeAl Hamdaniya,200
+2703024,Al Hamdaniya,returnee,returneeAl Hamdaniya,560
+2703025,Al Hamdaniya,returnee,returneeAl Hamdaniya,256
+2703027,Al Hamdaniya,returnee,returneeAl Hamdaniya,214
+2703028,Al Hamdaniya,returnee,returneeAl Hamdaniya,367
+2703029,Al Hamdaniya,returnee,returneeAl Hamdaniya,391
+2703030,Al Hamdaniya,returnee,returneeAl Hamdaniya,96
+2703031,Al Hamdaniya,returnee,returneeAl Hamdaniya,135
+2703033,Al Hamdaniya,returnee,returneeAl Hamdaniya,1100
+2703035,Al Hamdaniya,returnee,returneeAl Hamdaniya,4903
+2703037,Al Hamdaniya,returnee,returneeAl Hamdaniya,600
+2703038,Al Hamdaniya,returnee,returneeAl Hamdaniya,135
+2703040,Al Hamdaniya,returnee,returneeAl Hamdaniya,166
+2703041,Al Hamdaniya,returnee,returneeAl Hamdaniya,3604
+2703042,Al Hamdaniya,returnee,returneeAl Hamdaniya,122
+2703043,Al Hamdaniya,returnee,returneeAl Hamdaniya,155
+2703044,Al Hamdaniya,returnee,returneeAl Hamdaniya,35
+2703045,Al Hamdaniya,returnee,returneeAl Hamdaniya,145
+2703047,Al Hamdaniya,returnee,returneeAl Hamdaniya,470
+2703048,Al Hamdaniya,returnee,returneeAl Hamdaniya,196
+2703049,Al Hamdaniya,returnee,returneeAl Hamdaniya,430
+2703050,Al Hamdaniya,returnee,returneeAl Hamdaniya,81
+2703051,Al Hamdaniya,returnee,returneeAl Hamdaniya,45
+2703052,Al Hamdaniya,returnee,returneeAl Hamdaniya,196
+2703053,Al Hamdaniya,returnee,returneeAl Hamdaniya,932
+2703054,Al Hamdaniya,returnee,returneeAl Hamdaniya,220
+2703055,Al Hamdaniya,returnee,returneeAl Hamdaniya,24
+2703056,Al Hamdaniya,returnee,returneeAl Hamdaniya,52
+2703057,Al Hamdaniya,returnee,returneeAl Hamdaniya,245
+2703058,Al Hamdaniya,returnee,returneeAl Hamdaniya,450
+2703059,Al Hamdaniya,returnee,returneeAl Hamdaniya,39
+2703060,Al Mosul,returnee,returneeAl Mosul,112
+2703061,Al Hamdaniya,returnee,returneeAl Hamdaniya,50
+2703062,Al Hamdaniya,returnee,returneeAl Hamdaniya,158
+2703063,Al Hamdaniya,returnee,returneeAl Hamdaniya,58
+2703064,Al Hamdaniya,returnee,returneeAl Hamdaniya,35
+2703074,Al Hamdaniya,returnee,returneeAl Hamdaniya,30
+2704036,Sheikhan,returnee,returneeSheikhan,100
+2704037,Sheikhan,returnee,returneeSheikhan,63
+2704038,Sheikhan,returnee,returneeSheikhan,26
+2704039,Sheikhan,returnee,returneeSheikhan,46
+2704040,Tilkaef,returnee,returneeTilkaef,36
+2704041,Tilkaef,returnee,returneeTilkaef,55
+2704042,Sheikhan,returnee,returneeSheikhan,6
+2704043,Sheikhan,returnee,returneeSheikhan,25
+2705001,Al Hatra,returnee,returneeAl Hatra,1530
+2705006,Al Hatra,returnee,returneeAl Hatra,82
+2705008,Al Hatra,returnee,returneeAl Hatra,27
+2705009,Al Hatra,returnee,returneeAl Hatra,88
+2705010,Al Hatra,returnee,returneeAl Hatra,48
+2705011,Al Hatra,returnee,returneeAl Hatra,72
+2705015,Al Hatra,returnee,returneeAl Hatra,19
+2705016,Al Hatra,returnee,returneeAl Hatra,60
+2705017,Al Hatra,returnee,returneeAl Hatra,15
+2705018,Al Hatra,returnee,returneeAl Hatra,20
+2705021,Al Hatra,returnee,returneeAl Hatra,85
+2705023,Al Hatra,returnee,returneeAl Hatra,25
+2705024,Al Hatra,returnee,returneeAl Hatra,31
+2705028,Al Hatra,returnee,returneeAl Hatra,23
+2705029,Al Hatra,returnee,returneeAl Hatra,33
+2705030,Al Hatra,returnee,returneeAl Hatra,12
+2705031,Al Hatra,returnee,returneeAl Hatra,7
+2705032,Tal Afar,returnee,returneeTal Afar,115
+2705033,Al Hatra,returnee,returneeAl Hatra,72
+2705034,Al Hatra,returnee,returneeAl Hatra,87
+2705035,Al Ba'aj,returnee,returneeAl Ba'aj,59
+2705036,Al Hatra,returnee,returneeAl Hatra,8
+2705037,Al Hatra,returnee,returneeAl Hatra,15
+2705038,Al Hatra,returnee,returneeAl Hatra,160
+2705039,Al Hatra,returnee,returneeAl Hatra,101
+2705040,Al Hatra,returnee,returneeAl Hatra,91
+2705041,Al Hatra,returnee,returneeAl Hatra,109
+2705042,Al Hatra,returnee,returneeAl Hatra,270
+2705054,Al Hatra,returnee,returneeAl Hatra,6
+2706001,Al Mosul,returnee,returneeAl Mosul,30
+2706002,Al Mosul,returnee,returneeAl Mosul,110
+2706004,Al Mosul,returnee,returneeAl Mosul,463
+2706006,Tilkaef,returnee,returneeTilkaef,991
+2706007,Al Mosul,returnee,returneeAl Mosul,30
+2706008,Al Mosul,returnee,returneeAl Mosul,375
+2706010,Al Mosul,returnee,returneeAl Mosul,1157
+2706012,Al Mosul,returnee,returneeAl Mosul,182
+2706013,Al Mosul,returnee,returneeAl Mosul,316
+2706014,Al Mosul,returnee,returneeAl Mosul,103
+2706015,Al Mosul,returnee,returneeAl Mosul,395
+2706017,Al Mosul,returnee,returneeAl Mosul,2639
+2706018,Al Mosul,returnee,returneeAl Mosul,807
+2706019,Al Mosul,returnee,returneeAl Mosul,320
+2706020,Al Mosul,returnee,returneeAl Mosul,2762
+2706021,Al Mosul,returnee,returneeAl Mosul,2890
+2706022,Al Mosul,returnee,returneeAl Mosul,96
+2706023,Al Mosul,returnee,returneeAl Mosul,232
+2706024,Al Mosul,returnee,returneeAl Mosul,493
+2706025,Al Mosul,returnee,returneeAl Mosul,1000
+2706026,Al Mosul,returnee,returneeAl Mosul,1835
+2706027,Al Mosul,returnee,returneeAl Mosul,246
+2706028,Al Mosul,returnee,returneeAl Mosul,2072
+2706030,Al Mosul,returnee,returneeAl Mosul,2747
+2706031,Al Mosul,returnee,returneeAl Mosul,1898
+2706032,Al Mosul,returnee,returneeAl Mosul,23
+2706033,Al Mosul,returnee,returneeAl Mosul,2323
+2706034,Al Mosul,returnee,returneeAl Mosul,2298
+2706035,Al Mosul,returnee,returneeAl Mosul,380
+2706036,Al Mosul,returnee,returneeAl Mosul,476
+2706037,Al Mosul,returnee,returneeAl Mosul,3750
+2706039,Al Mosul,returnee,returneeAl Mosul,1969
+2706040,Al Mosul,returnee,returneeAl Mosul,844
+2706041,Tilkaef,returnee,returneeTilkaef,126
+2706042,Al Mosul,returnee,returneeAl Mosul,225
+2706043,Al Mosul,returnee,returneeAl Mosul,401
+2706044,Al Mosul,returnee,returneeAl Mosul,7188
+2706047,Al Mosul,returnee,returneeAl Mosul,1164
+2706048,Al Mosul,returnee,returneeAl Mosul,1099
+2706049,Al Mosul,returnee,returneeAl Mosul,651
+2706050,Al Mosul,returnee,returneeAl Mosul,1775
+2706051,Al Mosul,returnee,returneeAl Mosul,968
+2706052,Al Mosul,returnee,returneeAl Mosul,600
+2706053,Al Mosul,returnee,returneeAl Mosul,777
+2706054,Al Mosul,returnee,returneeAl Mosul,247
+2706055,Al Mosul,returnee,returneeAl Mosul,170
+2706056,Al Mosul,returnee,returneeAl Mosul,56
+2706058,Al Mosul,returnee,returneeAl Mosul,4199
+2706059,Al Mosul,returnee,returneeAl Mosul,915
+2706060,Al Mosul,returnee,returneeAl Mosul,30
+2706061,Al Mosul,returnee,returneeAl Mosul,230
+2706063,Al Mosul,returnee,returneeAl Mosul,2612
+2706064,Al Mosul,returnee,returneeAl Mosul,5448
+2706065,Al Mosul,returnee,returneeAl Mosul,3470
+2706067,Al Mosul,returnee,returneeAl Mosul,1021
+2706068,Al Mosul,returnee,returneeAl Mosul,514
+2706069,Al Mosul,returnee,returneeAl Mosul,170
+2706070,Al Mosul,returnee,returneeAl Mosul,876
+2706071,Al Mosul,returnee,returneeAl Mosul,830
+2706072,Al Mosul,returnee,returneeAl Mosul,202
+2706073,Al Mosul,returnee,returneeAl Mosul,293
+2706074,Al Mosul,returnee,returneeAl Mosul,710
+2706075,Al Mosul,returnee,returneeAl Mosul,210
+2706077,Al Mosul,returnee,returneeAl Mosul,952
+2706078,Al Mosul,returnee,returneeAl Mosul,41
+2706079,Al Mosul,returnee,returneeAl Mosul,52
+2706080,Al Mosul,returnee,returneeAl Mosul,38
+2706081,Al Mosul,returnee,returneeAl Mosul,75
+2706082,Al Mosul,returnee,returneeAl Mosul,5345
+2706085,Al Mosul,returnee,returneeAl Mosul,2250
+2706086,Al Mosul,returnee,returneeAl Mosul,547
+2706087,Al Mosul,returnee,returneeAl Mosul,100
+2706090,Al Mosul,returnee,returneeAl Mosul,630
+2706091,Al Mosul,returnee,returneeAl Mosul,162
+2706093,Al Mosul,returnee,returneeAl Mosul,2051
+2706094,Al Mosul,returnee,returneeAl Mosul,634
+2706096,Al Mosul,returnee,returneeAl Mosul,43
+2706097,Tilkaef,returnee,returneeTilkaef,131
+2706099,Al Mosul,returnee,returneeAl Mosul,2369
+2706100,Al Mosul,returnee,returneeAl Mosul,1875
+2706101,Al Mosul,returnee,returneeAl Mosul,355
+2706102,Al Mosul,returnee,returneeAl Mosul,850
+2706104,Al Mosul,returnee,returneeAl Mosul,255
+2706105,Al Mosul,returnee,returneeAl Mosul,2200
+2706106,Al Mosul,returnee,returneeAl Mosul,228
+2706110,Al Mosul,returnee,returneeAl Mosul,198
+2706111,Al Mosul,returnee,returneeAl Mosul,248
+2706112,Al Mosul,returnee,returneeAl Mosul,130
+2706114,Al Mosul,returnee,returneeAl Mosul,315
+2706115,Al Mosul,returnee,returneeAl Mosul,160
+2706116,Al Mosul,returnee,returneeAl Mosul,153
+2706117,Al Mosul,returnee,returneeAl Mosul,700
+2706118,Al Mosul,returnee,returneeAl Mosul,60
+2706120,Al Mosul,returnee,returneeAl Mosul,158
+2706124,Al Mosul,returnee,returneeAl Mosul,88
+2706125,Al Mosul,returnee,returneeAl Mosul,82
+2706126,Al Mosul,returnee,returneeAl Mosul,1575
+2706127,Al Mosul,returnee,returneeAl Mosul,971
+2706130,Al Mosul,returnee,returneeAl Mosul,48
+2706132,Al Mosul,returnee,returneeAl Mosul,450
+2706133,Al Mosul,returnee,returneeAl Mosul,250
+2706136,Al Mosul,returnee,returneeAl Mosul,550
+2706137,Al Mosul,returnee,returneeAl Mosul,283
+2706138,Al Mosul,returnee,returneeAl Mosul,260
+2706141,Al Mosul,returnee,returneeAl Mosul,940
+2706142,Al Mosul,returnee,returneeAl Mosul,110
+2706143,Al Mosul,returnee,returneeAl Mosul,75
+2706144,Al Mosul,returnee,returneeAl Mosul,72
+2706145,Al Mosul,returnee,returneeAl Mosul,400
+2706146,Al Mosul,returnee,returneeAl Mosul,160
+2706147,Al Mosul,returnee,returneeAl Mosul,300
+2706148,Al Mosul,returnee,returneeAl Mosul,300
+2706149,Al Mosul,returnee,returneeAl Mosul,200
+2706150,Al Mosul,returnee,returneeAl Mosul,240
+2706151,Al Mosul,returnee,returneeAl Mosul,75
+2706152,Al Mosul,returnee,returneeAl Mosul,600
+2706156,Al Mosul,returnee,returneeAl Mosul,290
+2706157,Al Hamdaniya,returnee,returneeAl Hamdaniya,15
+2706158,Al Hamdaniya,returnee,returneeAl Hamdaniya,660
+2706159,Al Mosul,returnee,returneeAl Mosul,3000
+2706160,Al Mosul,returnee,returneeAl Mosul,190
+2706162,Al Hamdaniya,returnee,returneeAl Hamdaniya,150
+2706163,Al Mosul,returnee,returneeAl Mosul,815
+2706164,Al Mosul,returnee,returneeAl Mosul,300
+2706165,Al Mosul,returnee,returneeAl Mosul,225
+2706166,Al Hamdaniya,returnee,returneeAl Hamdaniya,150
+2706167,Al Mosul,returnee,returneeAl Mosul,25
+2706168,Al Mosul,returnee,returneeAl Mosul,100
+2706169,Al Mosul,returnee,returneeAl Mosul,74
+2706170,Al Mosul,returnee,returneeAl Mosul,60
+2706171,Al Hamdaniya,returnee,returneeAl Hamdaniya,45
+2706172,Al Mosul,returnee,returneeAl Mosul,18
+2706173,Al Mosul,returnee,returneeAl Mosul,15
+2706174,Al Hamdaniya,returnee,returneeAl Hamdaniya,1110
+2706176,Al Mosul,returnee,returneeAl Mosul,30
+2706177,Al Hatra,returnee,returneeAl Hatra,104
+2706178,Al Mosul,returnee,returneeAl Mosul,530
+2706182,Al Mosul,returnee,returneeAl Mosul,353
+2706183,Al Mosul,returnee,returneeAl Mosul,123
+2706184,Al Mosul,returnee,returneeAl Mosul,179
+2706186,Al Mosul,returnee,returneeAl Mosul,120
+2706187,Al Mosul,returnee,returneeAl Mosul,1010
+2706188,Al Mosul,returnee,returneeAl Mosul,1034
+2706189,Al Mosul,returnee,returneeAl Mosul,115
+2706190,Al Mosul,returnee,returneeAl Mosul,27
+2706192,Al Mosul,returnee,returneeAl Mosul,6
+2706193,Al Mosul,returnee,returneeAl Mosul,183
+2706194,Al Mosul,returnee,returneeAl Mosul,23
+2706195,Al Mosul,returnee,returneeAl Mosul,234
+2706196,Al Mosul,returnee,returneeAl Mosul,262
+2706197,Al Mosul,returnee,returneeAl Mosul,550
+2706198,Al Mosul,returnee,returneeAl Mosul,135
+2706199,Al Mosul,returnee,returneeAl Mosul,3120
+2706200,Al Mosul,returnee,returneeAl Mosul,400
+2706201,Al Mosul,returnee,returneeAl Mosul,350
+2706202,Al Mosul,returnee,returneeAl Mosul,100
+2706208,Al Mosul,returnee,returneeAl Mosul,70
+2706211,Al Mosul,returnee,returneeAl Mosul,15
+2706212,Al Mosul,returnee,returneeAl Mosul,70
+2706214,Al Mosul,returnee,returneeAl Mosul,95
+2706215,Al Mosul,returnee,returneeAl Mosul,700
+2706216,Al Hamdaniya,returnee,returneeAl Hamdaniya,30
+2706217,Al Mosul,returnee,returneeAl Mosul,55
+2706220,Al Mosul,returnee,returneeAl Mosul,25
+2706221,Al Mosul,returnee,returneeAl Mosul,60
+2706222,Al Mosul,returnee,returneeAl Mosul,80
+2706223,Al Mosul,returnee,returneeAl Mosul,55
+2706225,Al Mosul,returnee,returneeAl Mosul,752
+2706227,Al Mosul,returnee,returneeAl Mosul,11
+2706228,Al Mosul,returnee,returneeAl Mosul,60
+2706229,Al Mosul,returnee,returneeAl Mosul,911
+2706230,Tilkaef,returnee,returneeTilkaef,355
+2706231,Tilkaef,returnee,returneeTilkaef,185
+2706232,Tilkaef,returnee,returneeTilkaef,185
+2706233,Tilkaef,returnee,returneeTilkaef,150
+2706235,Tilkaef,returnee,returneeTilkaef,1203
+2706237,Al Mosul,returnee,returneeAl Mosul,75
+2706238,Al Mosul,returnee,returneeAl Mosul,70
+2706239,Al Mosul,returnee,returneeAl Mosul,50
+2706240,Al Mosul,returnee,returneeAl Mosul,40
+2706241,Al Mosul,returnee,returneeAl Mosul,40
+2706242,Al Mosul,returnee,returneeAl Mosul,10
+2706243,Al Mosul,returnee,returneeAl Mosul,95
+2706245,Al Mosul,returnee,returneeAl Mosul,10
+2706246,Al Hatra,returnee,returneeAl Hatra,6
+2706247,Al Mosul,returnee,returneeAl Mosul,82
+2706248,Al Mosul,returnee,returneeAl Mosul,220
+2706252,Al Mosul,returnee,returneeAl Mosul,125
+2706253,Al Mosul,returnee,returneeAl Mosul,40
+2706254,Al Mosul,returnee,returneeAl Mosul,140
+2706255,Al Mosul,returnee,returneeAl Mosul,27
+2706256,Al Mosul,returnee,returneeAl Mosul,25
+2706257,Al Mosul,returnee,returneeAl Mosul,50
+2706258,Al Mosul,returnee,returneeAl Mosul,335
+2706259,Al Mosul,returnee,returneeAl Mosul,29
+2706260,Al Mosul,returnee,returneeAl Mosul,82
+2706261,Al Mosul,returnee,returneeAl Mosul,620
+2706262,Al Mosul,returnee,returneeAl Mosul,744
+2706263,Al Mosul,returnee,returneeAl Mosul,1400
+2706264,Al Mosul,returnee,returneeAl Mosul,688
+2706265,Al Mosul,returnee,returneeAl Mosul,512
+2706266,Al Mosul,returnee,returneeAl Mosul,815
+2706267,Al Mosul,returnee,returneeAl Mosul,668
+2706268,Al Mosul,returnee,returneeAl Mosul,1207
+2706269,Al Mosul,returnee,returneeAl Mosul,1476
+2706270,Al Mosul,returnee,returneeAl Mosul,1351
+2706272,Al Mosul,returnee,returneeAl Mosul,900
+2706273,Al Mosul,returnee,returneeAl Mosul,282
+2706274,Al Mosul,returnee,returneeAl Mosul,382
+2706275,Al Mosul,returnee,returneeAl Mosul,728
+2706276,Al Mosul,returnee,returneeAl Mosul,1659
+2706277,Al Mosul,returnee,returneeAl Mosul,60
+2706279,Al Mosul,returnee,returneeAl Mosul,1199
+2706280,Al Mosul,returnee,returneeAl Mosul,811
+2706281,Al Mosul,returnee,returneeAl Mosul,712
+2706282,Al Mosul,returnee,returneeAl Mosul,20
+2706283,Al Mosul,returnee,returneeAl Mosul,280
+2706284,Al Mosul,returnee,returneeAl Mosul,129
+2706285,Al Mosul,returnee,returneeAl Mosul,793
+2706286,Al Mosul,returnee,returneeAl Mosul,229
+2706287,Al Mosul,returnee,returneeAl Mosul,224
+2706288,Al Mosul,returnee,returneeAl Mosul,595
+2706289,Al Mosul,returnee,returneeAl Mosul,35
+2706290,Al Mosul,returnee,returneeAl Mosul,498
+2706291,Al Mosul,returnee,returneeAl Mosul,411
+2706292,Al Mosul,returnee,returneeAl Mosul,800
+2706293,Al Mosul,returnee,returneeAl Mosul,597
+2706294,Al Mosul,returnee,returneeAl Mosul,135
+2706295,Al Hamdaniya,returnee,returneeAl Hamdaniya,27
+2706296,Al Mosul,returnee,returneeAl Mosul,370
+2706297,Al Mosul,returnee,returneeAl Mosul,150
+2706298,Al Mosul,returnee,returneeAl Mosul,150
+2706299,Al Mosul,returnee,returneeAl Mosul,210
+2706300,Al Mosul,returnee,returneeAl Mosul,806
+2706301,Al Mosul,returnee,returneeAl Mosul,30
+2706302,Al Mosul,returnee,returneeAl Mosul,151
+2706303,Al Mosul,returnee,returneeAl Mosul,51
+2706305,Al Mosul,returnee,returneeAl Mosul,223
+2706306,Al Mosul,returnee,returneeAl Mosul,156
+2706307,Al Mosul,returnee,returneeAl Mosul,155
+2706308,Al Mosul,returnee,returneeAl Mosul,1130
+2706309,Tal Afar,returnee,returneeTal Afar,115
+2706310,Al Mosul,returnee,returneeAl Mosul,140
+2706311,Al Mosul,returnee,returneeAl Mosul,115
+2706312,Al Mosul,returnee,returneeAl Mosul,530
+2706313,Al Mosul,returnee,returneeAl Mosul,713
+2706314,Al Mosul,returnee,returneeAl Mosul,86
+2706315,Al Mosul,returnee,returneeAl Mosul,229
+2706316,Al Mosul,returnee,returneeAl Mosul,377
+2706317,Tilkaef,returnee,returneeTilkaef,55
+2706318,Tilkaef,returnee,returneeTilkaef,30
+2706319,Al Mosul,returnee,returneeAl Mosul,1818
+2706320,Al Mosul,returnee,returneeAl Mosul,740
+2706321,Al Mosul,returnee,returneeAl Mosul,133
+2706322,Al Mosul,returnee,returneeAl Mosul,250
+2706323,Al Mosul,returnee,returneeAl Mosul,66
+2706324,Al Mosul,returnee,returneeAl Mosul,94
+2706325,Al Mosul,returnee,returneeAl Mosul,264
+2706326,Al Mosul,returnee,returneeAl Mosul,428
+2706327,Al Mosul,returnee,returneeAl Mosul,150
+2706328,Al Mosul,returnee,returneeAl Mosul,50
+2706329,Al Mosul,returnee,returneeAl Mosul,25
+2706330,Al Mosul,returnee,returneeAl Mosul,710
+2706331,Al Mosul,returnee,returneeAl Mosul,100
+2706332,Al Mosul,returnee,returneeAl Mosul,70
+2706333,Al Mosul,returnee,returneeAl Mosul,225
+2706334,Al Mosul,returnee,returneeAl Mosul,15
+2706335,Al Mosul,returnee,returneeAl Mosul,75
+2706336,Al Mosul,returnee,returneeAl Mosul,150
+2706337,Al Mosul,returnee,returneeAl Mosul,9
+2706338,Al Mosul,returnee,returneeAl Mosul,213
+2706339,Al Mosul,returnee,returneeAl Mosul,40
+2706340,Al Mosul,returnee,returneeAl Mosul,700
+2706341,Al Mosul,returnee,returneeAl Mosul,85
+2706342,Al Mosul,returnee,returneeAl Mosul,28
+2706343,Al Mosul,returnee,returneeAl Mosul,40
+2706344,Al Mosul,returnee,returneeAl Mosul,30
+2706345,Al Mosul,returnee,returneeAl Mosul,20
+2706346,Al Mosul,returnee,returneeAl Mosul,40
+2706347,Al Mosul,returnee,returneeAl Mosul,50
+2706348,Al Mosul,returnee,returneeAl Mosul,35
+2706349,Al Mosul,returnee,returneeAl Mosul,15
+2706351,Al Mosul,returnee,returneeAl Mosul,18
+2706352,Al Mosul,returnee,returneeAl Mosul,35
+2706353,Al Mosul,returnee,returneeAl Mosul,200
+2706354,Al Mosul,returnee,returneeAl Mosul,40
+2706355,Al Mosul,returnee,returneeAl Mosul,90
+2706356,Tilkaef,returnee,returneeTilkaef,150
+2706357,Tilkaef,returnee,returneeTilkaef,100
+2706360,Al Mosul,returnee,returneeAl Mosul,45
+2706361,Al Mosul,returnee,returneeAl Mosul,180
+2706362,Al Mosul,returnee,returneeAl Mosul,25
+2706363,Al Mosul,returnee,returneeAl Mosul,350
+2706364,Al Mosul,returnee,returneeAl Mosul,70
+2706365,Al Hamdaniya,returnee,returneeAl Hamdaniya,100
+2706366,Al Mosul,returnee,returneeAl Mosul,250
+2706367,Al Mosul,returnee,returneeAl Mosul,30
+2706368,Al Mosul,returnee,returneeAl Mosul,90
+2706369,Al Mosul,returnee,returneeAl Mosul,40
+2706370,Al Mosul,returnee,returneeAl Mosul,40
+2706371,Al Mosul,returnee,returneeAl Mosul,80
+2706372,Al Mosul,returnee,returneeAl Mosul,250
+2706373,Al Mosul,returnee,returneeAl Mosul,60
+2706374,Al Mosul,returnee,returneeAl Mosul,217
+2707001,Sinjar,returnee,returneeSinjar,85
+2707004,Sinjar,returnee,returneeSinjar,275
+2707005,Sinjar,returnee,returneeSinjar,900
+2707006,Sinjar,returnee,returneeSinjar,500
+2707007,Sinjar,returnee,returneeSinjar,850
+2707008,Sinjar,returnee,returneeSinjar,1900
+2707009,Sinjar,returnee,returneeSinjar,550
+2707011,Sinjar,returnee,returneeSinjar,123
+2707012,Sinjar,returnee,returneeSinjar,81
+2707013,Sinjar,returnee,returneeSinjar,44
+2707014,Sinjar,returnee,returneeSinjar,30
+2707015,Sinjar,returnee,returneeSinjar,29
+2707017,Sinjar,returnee,returneeSinjar,11
+2707018,Sinjar,returnee,returneeSinjar,54
+2707019,Sinjar,returnee,returneeSinjar,30
+2707020,Sinjar,returnee,returneeSinjar,31
+2707021,Sinjar,returnee,returneeSinjar,107
+2707022,Sinjar,returnee,returneeSinjar,164
+2707023,Sinjar,returnee,returneeSinjar,45
+2707025,Sinjar,returnee,returneeSinjar,160
+2707026,Sinjar,returnee,returneeSinjar,25
+2707027,Sinjar,returnee,returneeSinjar,40
+2707029,Sinjar,returnee,returneeSinjar,163
+2707030,Sinjar,returnee,returneeSinjar,12
+2707031,Sinjar,returnee,returneeSinjar,65
+2707032,Sinjar,returnee,returneeSinjar,8
+2707033,Sinjar,returnee,returneeSinjar,16
+2707035,Sinjar,returnee,returneeSinjar,43
+2707036,Sinjar,returnee,returneeSinjar,80
+2707038,Sinjar,returnee,returneeSinjar,731
+2707039,Sinjar,returnee,returneeSinjar,75
+2707040,Sinjar,returnee,returneeSinjar,75
+2707041,Sinjar,returnee,returneeSinjar,122
+2707042,Sinjar,returnee,returneeSinjar,175
+2707043,Sinjar,returnee,returneeSinjar,305
+2707044,Sinjar,returnee,returneeSinjar,153
+2707045,Sinjar,returnee,returneeSinjar,215
+2707046,Sinjar,returnee,returneeSinjar,89
+2707049,Sinjar,returnee,returneeSinjar,150
+2707050,Tal Afar,returnee,returneeTal Afar,100
+2707051,Sinjar,returnee,returneeSinjar,438
+2707052,Sinjar,returnee,returneeSinjar,20
+2707053,Sinjar,returnee,returneeSinjar,17
+2707054,Sinjar,returnee,returneeSinjar,30
+2707055,Sinjar,returnee,returneeSinjar,51
+2707056,Sinjar,returnee,returneeSinjar,320
+2707057,Sinjar,returnee,returneeSinjar,21
+2707058,Sinjar,returnee,returneeSinjar,60
+2707059,Sinjar,returnee,returneeSinjar,23
+2707060,Tal Afar,returnee,returneeTal Afar,60
+2707061,Sinjar,returnee,returneeSinjar,105
+2707062,Sinjar,returnee,returneeSinjar,170
+2707063,Tal Afar,returnee,returneeTal Afar,9
+2707064,Tal Afar,returnee,returneeTal Afar,25
+2707065,Sinjar,returnee,returneeSinjar,9
+2708001,Tal Afar,returnee,returneeTal Afar,1530
+2708002,Tal Afar,returnee,returneeTal Afar,539
+2708004,Tal Afar,returnee,returneeTal Afar,310
+2708005,Tal Afar,returnee,returneeTal Afar,122
+2708006,Tal Afar,returnee,returneeTal Afar,1063
+2708007,Tal Afar,returnee,returneeTal Afar,792
+2708008,Tal Afar,returnee,returneeTal Afar,875
+2708010,Tal Afar,returnee,returneeTal Afar,360
+2708011,Tal Afar,returnee,returneeTal Afar,4050
+2708013,Tal Afar,returnee,returneeTal Afar,53
+2708014,Tal Afar,returnee,returneeTal Afar,1163
+2708016,Al Mosul,returnee,returneeAl Mosul,400
+2708019,Tal Afar,returnee,returneeTal Afar,202
+2708021,Tal Afar,returnee,returneeTal Afar,110
+2708022,Tal Afar,returnee,returneeTal Afar,300
+2708024,Tal Afar,returnee,returneeTal Afar,130
+2708025,Tal Afar,returnee,returneeTal Afar,15
+2708026,Tal Afar,returnee,returneeTal Afar,1318
+2708027,Tal Afar,returnee,returneeTal Afar,161
+2708028,Tal Afar,returnee,returneeTal Afar,506
+2708029,Tal Afar,returnee,returneeTal Afar,204
+2708030,Tal Afar,returnee,returneeTal Afar,351
+2708031,Tal Afar,returnee,returneeTal Afar,1233
+2708032,Tal Afar,returnee,returneeTal Afar,407
+2708033,Tal Afar,returnee,returneeTal Afar,605
+2708034,Tal Afar,returnee,returneeTal Afar,168
+2708035,Tal Afar,returnee,returneeTal Afar,375
+2708036,Tal Afar,returnee,returneeTal Afar,20
+2708037,Tal Afar,returnee,returneeTal Afar,52
+2708038,Tal Afar,returnee,returneeTal Afar,65
+2708040,Tal Afar,returnee,returneeTal Afar,27
+2708041,Tal Afar,returnee,returneeTal Afar,400
+2708043,Tal Afar,returnee,returneeTal Afar,73
+2708044,Tal Afar,returnee,returneeTal Afar,416
+2708045,Tal Afar,returnee,returneeTal Afar,900
+2708046,Tal Afar,returnee,returneeTal Afar,62
+2708047,Tal Afar,returnee,returneeTal Afar,442
+2708048,Tal Afar,returnee,returneeTal Afar,205
+2708049,Tal Afar,returnee,returneeTal Afar,210
+2708050,Tal Afar,returnee,returneeTal Afar,850
+2708052,Tal Afar,returnee,returneeTal Afar,27
+2708053,Tal Afar,returnee,returneeTal Afar,650
+2708055,Tal Afar,returnee,returneeTal Afar,875
+2708056,Tal Afar,returnee,returneeTal Afar,960
+2708058,Tal Afar,returnee,returneeTal Afar,130
+2708059,Tal Afar,returnee,returneeTal Afar,91
+2708065,Tal Afar,returnee,returneeTal Afar,485
+2708066,Tal Afar,returnee,returneeTal Afar,354
+2708067,Tal Afar,returnee,returneeTal Afar,175
+2708068,Tal Afar,returnee,returneeTal Afar,60
+2708069,Tal Afar,returnee,returneeTal Afar,100
+2708070,Tal Afar,returnee,returneeTal Afar,42
+2708071,Tal Afar,returnee,returneeTal Afar,17
+2708072,Tal Afar,returnee,returneeTal Afar,250
+2708073,Tal Afar,returnee,returneeTal Afar,115
+2708074,Tal Afar,returnee,returneeTal Afar,88
+2708075,Tal Afar,returnee,returneeTal Afar,230
+2708076,Tal Afar,returnee,returneeTal Afar,140
+2708077,Tal Afar,returnee,returneeTal Afar,175
+2708079,Tal Afar,returnee,returneeTal Afar,237
+2708080,Tal Afar,returnee,returneeTal Afar,312
+2708081,Tal Afar,returnee,returneeTal Afar,111
+2708082,Tal Afar,returnee,returneeTal Afar,87
+2708086,Tal Afar,returnee,returneeTal Afar,182
+2708087,Tal Afar,returnee,returneeTal Afar,223
+2708088,Tal Afar,returnee,returneeTal Afar,51
+2708089,Tal Afar,returnee,returneeTal Afar,435
+2708090,Tal Afar,returnee,returneeTal Afar,1606
+2708091,Tilkaef,returnee,returneeTilkaef,220
+2708092,Al Mosul,returnee,returneeAl Mosul,160
+2708095,Tal Afar,returnee,returneeTal Afar,21
+2708096,Tal Afar,returnee,returneeTal Afar,45
+2708097,Tal Afar,returnee,returneeTal Afar,35
+2708100,Tal Afar,returnee,returneeTal Afar,40
+2708101,Tal Afar,returnee,returneeTal Afar,145
+2708103,Tal Afar,returnee,returneeTal Afar,182
+2708104,Tal Afar,returnee,returneeTal Afar,343
+2708105,Tal Afar,returnee,returneeTal Afar,70
+2708106,Tal Afar,returnee,returneeTal Afar,30
+2708107,Tal Afar,returnee,returneeTal Afar,210
+2708108,Tal Afar,returnee,returneeTal Afar,170
+2708109,Tal Afar,returnee,returneeTal Afar,50
+2708110,Tal Afar,returnee,returneeTal Afar,168
+2708111,Tal Afar,returnee,returneeTal Afar,230
+2708112,Tal Afar,returnee,returneeTal Afar,154
+2708113,Tal Afar,returnee,returneeTal Afar,205
+2708114,Tal Afar,returnee,returneeTal Afar,105
+2708115,Tal Afar,returnee,returneeTal Afar,160
+2708116,Tal Afar,returnee,returneeTal Afar,305
+2708117,Tal Afar,returnee,returneeTal Afar,66
+2708118,Tal Afar,returnee,returneeTal Afar,300
+2708119,Tal Afar,returnee,returneeTal Afar,18
+2708120,Tal Afar,returnee,returneeTal Afar,135
+2708121,Tal Afar,returnee,returneeTal Afar,13
+2708122,Tal Afar,returnee,returneeTal Afar,56
+2708123,Tal Afar,returnee,returneeTal Afar,350
+2708124,Tal Afar,returnee,returneeTal Afar,345
+2708125,Tal Afar,returnee,returneeTal Afar,200
+2708126,Tal Afar,returnee,returneeTal Afar,114
+2708128,Tal Afar,returnee,returneeTal Afar,627
+2708129,Tal Afar,returnee,returneeTal Afar,499
+2708130,Tal Afar,returnee,returneeTal Afar,2227
+2708131,Tal Afar,returnee,returneeTal Afar,1220
+2708132,Tal Afar,returnee,returneeTal Afar,210
+2708133,Tal Afar,returnee,returneeTal Afar,655
+2708134,Tal Afar,returnee,returneeTal Afar,50
+2708135,Tal Afar,returnee,returneeTal Afar,100
+2708136,Tal Afar,returnee,returneeTal Afar,30
+2708137,Tal Afar,returnee,returneeTal Afar,1515
+2708138,Tal Afar,returnee,returneeTal Afar,991
+2708139,Tal Afar,returnee,returneeTal Afar,802
+2708140,Tal Afar,returnee,returneeTal Afar,868
+2708141,Tal Afar,returnee,returneeTal Afar,646
+2708142,Tal Afar,returnee,returneeTal Afar,1115
+2708143,Tal Afar,returnee,returneeTal Afar,1700
+2708144,Tal Afar,returnee,returneeTal Afar,364
+2708145,Tal Afar,returnee,returneeTal Afar,490
+2708146,Tal Afar,returnee,returneeTal Afar,565
+2708147,Tal Afar,returnee,returneeTal Afar,705
+2708148,Tal Afar,returnee,returneeTal Afar,215
+2708149,Tal Afar,returnee,returneeTal Afar,210
+2708150,Tal Afar,returnee,returneeTal Afar,80
+2708151,Tal Afar,returnee,returneeTal Afar,140
+2708152,Tal Afar,returnee,returneeTal Afar,19
+2708153,Tal Afar,returnee,returneeTal Afar,366
+2708154,Tal Afar,returnee,returneeTal Afar,170
+2708155,Al Hatra,returnee,returneeAl Hatra,242
+2708156,Tal Afar,returnee,returneeTal Afar,265
+2708157,Tal Afar,returnee,returneeTal Afar,270
+2708158,Tal Afar,returnee,returneeTal Afar,92
+2708159,Tal Afar,returnee,returneeTal Afar,230
+2708160,Tal Afar,returnee,returneeTal Afar,195
+2708161,Tal Afar,returnee,returneeTal Afar,35
+2708162,Tal Afar,returnee,returneeTal Afar,200
+2708163,Tal Afar,returnee,returneeTal Afar,106
+2708164,Tal Afar,returnee,returneeTal Afar,178
+2708165,Tal Afar,returnee,returneeTal Afar,325
+2708166,Tal Afar,returnee,returneeTal Afar,163
+2708167,Tal Afar,returnee,returneeTal Afar,30
+2708168,Tal Afar,returnee,returneeTal Afar,195
+2708169,Tal Afar,returnee,returneeTal Afar,265
+2708170,Tal Afar,returnee,returneeTal Afar,150
+2708171,Tal Afar,returnee,returneeTal Afar,150
+2708172,Tal Afar,returnee,returneeTal Afar,890
+2708173,Tal Afar,returnee,returneeTal Afar,81
+2708174,Tal Afar,returnee,returneeTal Afar,100
+2708175,Tal Afar,returnee,returneeTal Afar,75
+2708176,Tal Afar,returnee,returneeTal Afar,590
+2708177,Tal Afar,returnee,returneeTal Afar,43
+2708178,Tal Afar,returnee,returneeTal Afar,141
+2708179,Tal Afar,returnee,returneeTal Afar,80
+2708183,Tal Afar,returnee,returneeTal Afar,7
+2709003,Tilkaef,returnee,returneeTilkaef,200
+2709004,Tilkaef,returnee,returneeTilkaef,3600
+2709010,Tilkaef,returnee,returneeTilkaef,930
+2709015,Tilkaef,returnee,returneeTilkaef,450
+2709016,Tilkaef,returnee,returneeTilkaef,190
+2709026,Tilkaef,returnee,returneeTilkaef,220
+2709032,Tilkaef,returnee,returneeTilkaef,869
+2709039,Tilkaef,returnee,returneeTilkaef,330
+2709040,Tilkaef,returnee,returneeTilkaef,1875
+2709041,Tilkaef,returnee,returneeTilkaef,300
+2709042,Tilkaef,returnee,returneeTilkaef,383
+2709045,Tilkaef,returnee,returneeTilkaef,618
+2709051,Tilkaef,returnee,returneeTilkaef,170
+2709052,Tilkaef,returnee,returneeTilkaef,665
+2709053,Tilkaef,returnee,returneeTilkaef,250
+2709057,Tilkaef,returnee,returneeTilkaef,463
+2709058,Tilkaef,returnee,returneeTilkaef,105
+2709059,Tilkaef,returnee,returneeTilkaef,48
+2709060,Tilkaef,returnee,returneeTilkaef,1605
+2709061,Tilkaef,returnee,returneeTilkaef,120
+2709062,Tilkaef,returnee,returneeTilkaef,13
+2709064,Tilkaef,returnee,returneeTilkaef,110
+2709065,Tilkaef,returnee,returneeTilkaef,150
+2709066,Tilkaef,returnee,returneeTilkaef,180
+2709067,Al Mosul,returnee,returneeAl Mosul,66
+2709068,Tilkaef,returnee,returneeTilkaef,30
+2709069,Tilkaef,returnee,returneeTilkaef,96
+2709070,Tilkaef,returnee,returneeTilkaef,135
+2709071,Tilkaef,returnee,returneeTilkaef,22
+2709072,Tilkaef,returnee,returneeTilkaef,25
+2709073,Tilkaef,returnee,returneeTilkaef,78
+2709074,Tilkaef,returnee,returneeTilkaef,125
+2709075,Tilkaef,returnee,returneeTilkaef,370
+2709076,Tilkaef,returnee,returneeTilkaef,195
+2709077,Tilkaef,returnee,returneeTilkaef,56
+2709078,Tilkaef,returnee,returneeTilkaef,213
+2709081,Tilkaef,returnee,returneeTilkaef,60
+2709082,Tilkaef,returnee,returneeTilkaef,180
+2709083,Tilkaef,returnee,returneeTilkaef,155
+2709084,Tilkaef,returnee,returneeTilkaef,67
+2709085,Tilkaef,returnee,returneeTilkaef,95
+2709087,Tilkaef,returnee,returneeTilkaef,8
+2709088,Tilkaef,returnee,returneeTilkaef,87
+2801001,Al Daur,returnee,returneeAl Daur,637
+2801004,Al Daur,returnee,returneeAl Daur,236
+2801013,Al Daur,returnee,returneeAl Daur,253
+2801015,Al Daur,returnee,returneeAl Daur,2826
+2801016,Al Daur,returnee,returneeAl Daur,1485
+2801017,Al Daur,returnee,returneeAl Daur,910
+2801018,Al Daur,returnee,returneeAl Daur,831
+2801019,Al Daur,returnee,returneeAl Daur,350
+2801020,Al Daur,returnee,returneeAl Daur,586
+2801021,Al Daur,returnee,returneeAl Daur,1219
+2801022,Al Daur,returnee,returneeAl Daur,748
+2802002,Baiji,returnee,returneeBaiji,265
+2802003,Al Shirqat,returnee,returneeAl Shirqat,251
+2802005,Al Shirqat,returnee,returneeAl Shirqat,184
+2802007,Al Shirqat,returnee,returneeAl Shirqat,1353
+2802008,Al Shirqat,returnee,returneeAl Shirqat,433
+2802009,Al Shirqat,returnee,returneeAl Shirqat,194
+2802011,Baiji,returnee,returneeBaiji,252
+2802012,Baiji,returnee,returneeBaiji,264
+2802013,Al Shirqat,returnee,returneeAl Shirqat,559
+2802015,Al Shirqat,returnee,returneeAl Shirqat,861
+2802016,Al Shirqat,returnee,returneeAl Shirqat,873
+2802017,Al Shirqat,returnee,returneeAl Shirqat,150
+2802018,Al Shirqat,returnee,returneeAl Shirqat,332
+2802025,Al Shirqat,returnee,returneeAl Shirqat,363
+2802026,Baiji,returnee,returneeBaiji,269
+2802028,Al Shirqat,returnee,returneeAl Shirqat,1205
+2802029,Al Shirqat,returnee,returneeAl Shirqat,512
+2802032,Al Shirqat,returnee,returneeAl Shirqat,545
+2802033,Al Shirqat,returnee,returneeAl Shirqat,160
+2802034,Al Shirqat,returnee,returneeAl Shirqat,721
+2802035,Al Shirqat,returnee,returneeAl Shirqat,457
+2802036,Al Shirqat,returnee,returneeAl Shirqat,361
+2802037,Al Shirqat,returnee,returneeAl Shirqat,331
+2802038,Al Shirqat,returnee,returneeAl Shirqat,443
+2802039,Al Shirqat,returnee,returneeAl Shirqat,436
+2802040,Al Shirqat,returnee,returneeAl Shirqat,155
+2802041,Al Shirqat,returnee,returneeAl Shirqat,376
+2802042,Al Shirqat,returnee,returneeAl Shirqat,149
+2802043,Al Shirqat,returnee,returneeAl Shirqat,661
+2802045,Baiji,returnee,returneeBaiji,549
+2802046,Al Shirqat,returnee,returneeAl Shirqat,997
+2802047,Al Shirqat,returnee,returneeAl Shirqat,1712
+2802048,Al Shirqat,returnee,returneeAl Shirqat,1081
+2802049,Baiji,returnee,returneeBaiji,940
+2802050,Baiji,returnee,returneeBaiji,109
+2802051,Al Shirqat,returnee,returneeAl Shirqat,160
+2802052,Al Shirqat,returnee,returneeAl Shirqat,757
+2802053,Al Shirqat,returnee,returneeAl Shirqat,1276
+2802054,Al Shirqat,returnee,returneeAl Shirqat,795
+2802055,Al Shirqat,returnee,returneeAl Shirqat,164
+2802056,Al Shirqat,returnee,returneeAl Shirqat,139
+2802057,Al Shirqat,returnee,returneeAl Shirqat,48
+2802058,Al Mosul,returnee,returneeAl Mosul,112
+2802059,Al Shirqat,returnee,returneeAl Shirqat,128
+2802060,Al Hawiga,returnee,returneeAl Hawiga,12
+2802061,Al Shirqat,returnee,returneeAl Shirqat,21
+2802062,Al Shirqat,returnee,returneeAl Shirqat,189
+2802063,Al Shirqat,returnee,returneeAl Shirqat,368
+2802066,Al Mosul,returnee,returneeAl Mosul,38
+2802068,Al Shirqat,returnee,returneeAl Shirqat,409
+2803001,Baiji,returnee,returneeBaiji,882
+2803002,Samarra,returnee,returneeSamarra,260
+2803003,Baiji,returnee,returneeBaiji,237
+2803006,Daquq,returnee,returneeDaquq,407
+2803010,Baiji,returnee,returneeBaiji,650
+2803011,Baiji,returnee,returneeBaiji,213
+2803014,Baiji,returnee,returneeBaiji,175
+2803015,Baiji,returnee,returneeBaiji,1276
+2803016,Baiji,returnee,returneeBaiji,315
+2803017,Baiji,returnee,returneeBaiji,1931
+2803018,Baiji,returnee,returneeBaiji,400
+2803019,Baiji,returnee,returneeBaiji,560
+2803021,Baiji,returnee,returneeBaiji,282
+2803022,Baiji,returnee,returneeBaiji,2182
+2803023,Baiji,returnee,returneeBaiji,413
+2803024,Baiji,returnee,returneeBaiji,235
+2803025,Baiji,returnee,returneeBaiji,30
+2803026,Baiji,returnee,returneeBaiji,160
+2803027,Baiji,returnee,returneeBaiji,285
+2803028,Baiji,returnee,returneeBaiji,140
+2803029,Baiji,returnee,returneeBaiji,570
+2803030,Baiji,returnee,returneeBaiji,112
+2803031,Baiji,returnee,returneeBaiji,245
+2803032,Baiji,returnee,returneeBaiji,375
+2803033,Baiji,returnee,returneeBaiji,41
+2803034,Baiji,returnee,returneeBaiji,35
+2803035,Baiji,returnee,returneeBaiji,40
+2803036,Baiji,returnee,returneeBaiji,150
+2803037,Baiji,returnee,returneeBaiji,270
+2803038,Baiji,returnee,returneeBaiji,91
+2803039,Baiji,returnee,returneeBaiji,275
+2803040,Baiji,returnee,returneeBaiji,196
+2803041,Baiji,returnee,returneeBaiji,315
+2803042,Baiji,returnee,returneeBaiji,220
+2803043,Baiji,returnee,returneeBaiji,221
+2803044,Baiji,returnee,returneeBaiji,304
+2803047,Baiji,returnee,returneeBaiji,332
+2803051,Baiji,returnee,returneeBaiji,133
+2803052,Al Daur,returnee,returneeAl Daur,60
+2804005,Balad,returnee,returneeBalad,513
+2804006,Balad,returnee,returneeBalad,375
+2804007,Balad,returnee,returneeBalad,413
+2804009,Balad,returnee,returneeBalad,502
+2804016,Balad,returnee,returneeBalad,540
+2804018,Balad,returnee,returneeBalad,4884
+2804021,Balad,returnee,returneeBalad,420
+2804023,Balad,returnee,returneeBalad,487
+2804024,Balad,returnee,returneeBalad,516
+2804025,Balad,returnee,returneeBalad,545
+2804026,Balad,returnee,returneeBalad,572
+2805008,Balad,returnee,returneeBalad,543
+2805020,Balad,returnee,returneeBalad,526
+2806006,Samarra,returnee,returneeSamarra,312
+2806007,Samarra,returnee,returneeSamarra,2103
+2806008,Samarra,returnee,returneeSamarra,488
+2806010,Samarra,returnee,returneeSamarra,798
+2806037,Samarra,returnee,returneeSamarra,372
+2806039,Samarra,returnee,returneeSamarra,230
+2806048,Samarra,returnee,returneeSamarra,935
+2806050,Samarra,returnee,returneeSamarra,507
+2806053,Samarra,returnee,returneeSamarra,2935
+2806055,Al Khalis,returnee,returneeAl Khalis,287
+2808001,Tikrit,returnee,returneeTikrit,750
+2808002,Tikrit,returnee,returneeTikrit,292
+2808004,Tikrit,returnee,returneeTikrit,200
+2808005,Tikrit,returnee,returneeTikrit,125
+2808007,Tikrit,returnee,returneeTikrit,165
+2808011,Tikrit,returnee,returneeTikrit,860
+2808013,Tikrit,returnee,returneeTikrit,427
+2808014,Tikrit,returnee,returneeTikrit,45
+2808015,Tikrit,returnee,returneeTikrit,775
+2808016,Tikrit,returnee,returneeTikrit,765
+2808019,Tikrit,returnee,returneeTikrit,687
+2808023,Tikrit,returnee,returneeTikrit,410
+2808024,Tikrit,returnee,returneeTikrit,1481
+2808025,Tikrit,returnee,returneeTikrit,110
+2808028,Tikrit,returnee,returneeTikrit,1271
+2808031,Tikrit,returnee,returneeTikrit,755
+2808032,Tikrit,returnee,returneeTikrit,218
+2808034,Tikrit,returnee,returneeTikrit,255
+2808037,Tikrit,returnee,returneeTikrit,150
+2808041,Tikrit,returnee,returneeTikrit,400
+2808042,Tikrit,returnee,returneeTikrit,200
+2808043,Tikrit,returnee,returneeTikrit,145
+2808044,Tikrit,returnee,returneeTikrit,390
+2808045,Tikrit,returnee,returneeTikrit,101
+2808046,Tikrit,returnee,returneeTikrit,43
+2808047,Tikrit,returnee,returneeTikrit,1268
+2808048,Tikrit,returnee,returneeTikrit,484
+2808049,Tikrit,returnee,returneeTikrit,416
+2808050,Tikrit,returnee,returneeTikrit,507
+2808053,Tikrit,returnee,returneeTikrit,1155
+2808055,Tikrit,returnee,returneeTikrit,740
+2808056,Tikrit,returnee,returneeTikrit,187
+2808057,Tikrit,returnee,returneeTikrit,1302
+2808058,Tikrit,returnee,returneeTikrit,728
+2808061,Tikrit,returnee,returneeTikrit,2152
+2808062,Tikrit,returnee,returneeTikrit,2268
+2808063,Tikrit,returnee,returneeTikrit,530
+2808065,Tikrit,returnee,returneeTikrit,615
+2808066,Tikrit,returnee,returneeTikrit,250
+2808068,Tikrit,returnee,returneeTikrit,630
+2808069,Tikrit,returnee,returneeTikrit,370
+2808070,Tikrit,returnee,returneeTikrit,415
+2808071,Tikrit,returnee,returneeTikrit,130
+2808072,Tikrit,returnee,returneeTikrit,90
+2808073,Tikrit,returnee,returneeTikrit,751
+2808074,Tikrit,returnee,returneeTikrit,270
+2808075,Tikrit,returnee,returneeTikrit,118
+2808076,Tikrit,returnee,returneeTikrit,80
+2808077,Baiji,returnee,returneeBaiji,130
+2808078,Tikrit,returnee,returneeTikrit,33
+2808080,Tikrit,returnee,returneeTikrit,575
+2808081,Tikrit,returnee,returneeTikrit,800
+2808082,Tikrit,returnee,returneeTikrit,207
+2808085,Tikrit,returnee,returneeTikrit,335
+2809003,Tuz,returnee,returneeTuz,63
+2809004,Tuz,returnee,returneeTuz,160
+2809005,Tuz,returnee,returneeTuz,2486
+2809007,Tuz,returnee,returneeTuz,1220
+2809011,Tuz,returnee,returneeTuz,90
+2809015,Tuz,returnee,returneeTuz,196
+2809016,Tuz,returnee,returneeTuz,150
+2809023,Tuz,returnee,returneeTuz,351
+2809024,Tuz,returnee,returneeTuz,328
+2809025,Tuz,returnee,returneeTuz,85
+2809026,Tuz,returnee,returneeTuz,35
+2809027,Tuz,returnee,returneeTuz,45
+2809028,Tuz,returnee,returneeTuz,40
+2809029,Tuz,returnee,returneeTuz,25
+2809030,Tuz,returnee,returneeTuz,43
+2809031,Tuz,returnee,returneeTuz,20
+2809032,Tuz,returnee,returneeTuz,30
+2809033,Tuz,returnee,returneeTuz,181
+2809057,Tuz,returnee,returneeTuz,140
+2809058,Tuz,returnee,returneeTuz,735
+2809059,Tuz,returnee,returneeTuz,50
+2809060,Tuz,returnee,returneeTuz,240
+2809061,Tuz,returnee,returneeTuz,61
+2809062,Tuz,returnee,returneeTuz,40
+2809063,Tuz,returnee,returneeTuz,45
+1102005,Dahuk,host,hostDahuk,551.0909817
+1102006,Dahuk,host,hostDahuk,551.2537067
+1102012,Dahuk,host,hostDahuk,300.5895342
+1102018,Dahuk,host,hostDahuk,821.0536026
+1102021,Dahuk,host,hostDahuk,360.1536229
+1102022,Dahuk,host,hostDahuk,1301.800093
+1102025,Dahuk,host,hostDahuk,665.2804856
+1102027,Sumel,host,hostSumel,374.4746237
+1102032,Dahuk,host,hostDahuk,524.0796215
+1102033,Dahuk,host,hostDahuk,389.0642107
+1102035,Dahuk,host,hostDahuk,772.4087054
+1102039,Dahuk,host,hostDahuk,1979.685597
+1102040,Dahuk,host,hostDahuk,560.941924
+1102041,Dahuk,host,hostDahuk,386.7408925
+1102043,Dahuk,host,hostDahuk,812.810277
+1102049,Dahuk,host,hostDahuk,643.4643165
+1102050,Dahuk,host,hostDahuk,624.1357217
+1102052,Dahuk,host,hostDahuk,579.2979349
+1102063,Dahuk,host,hostDahuk,611.2690983
+1103002,Sumel,host,hostSumel,384.6663146
+1103004,Sumel,host,hostSumel,375.6972065
+1103005,Sumel,host,hostSumel,331.8175658
+1103006,Sumel,host,hostSumel,233.1225519
+1103007,Sumel,host,hostSumel,216.0882045
+1103009,Sumel,host,hostSumel,730.1786133
+1103010,Sumel,host,hostSumel,397.7178419
+1103012,Sumel,host,hostSumel,262.059987
+1103019,Sumel,host,hostSumel,379.2471819
+1103021,Sumel,host,hostSumel,298.8365647
+1103023,Sumel,host,hostSumel,319.9844926
+1103024,Sumel,host,hostSumel,2054.262976
+1103025,Sumel,host,hostSumel,559.4360174
+1103029,Sumel,host,hostSumel,222.1322508
+1103034,Sumel,host,hostSumel,253.2975418
+1103037,Sumel,host,hostSumel,280.3400253
+1103043,Sumel,host,hostSumel,222.6948135
+1103053,Sumel,host,hostSumel,343.9955089
+1104005,Zakho,host,hostZakho,403.432296
+1104013,Zakho,host,hostZakho,375.4744875
+1104016,Zakho,host,hostZakho,1106.119099
+1104019,Zakho,host,hostZakho,1085.680115
+1104020,Zakho,host,hostZakho,417.6924492
+1104055,Zakho,host,hostZakho,1802.309689
+1104056,Zakho,host,hostZakho,1473.545154
+1104058,Zakho,host,hostZakho,1928.926315
+1104059,Zakho,host,hostZakho,671.4033905
+1104060,Zakho,host,hostZakho,465.4685162
+1104061,Zakho,host,hostZakho,732.7289124
+1104062,Zakho,host,hostZakho,1268.926063
+1104063,Zakho,host,hostZakho,1602.188392
+1104064,Zakho,host,hostZakho,1688.315915
+1104069,Zakho,host,hostZakho,370.2409932
+1104071,Zakho,host,hostZakho,282.6948618
+1104072,Zakho,host,hostZakho,309.7003384
+1104073,Zakho,host,hostZakho,218.741272
+1104075,Zakho,host,hostZakho,602.578381
+1202051,Erbil,host,hostErbil,592.8938869
+1310031,Al Sulaymaniya,host,hostAl Sulaymaniya,286.8258244
+1310052,Al Sulaymaniya,host,hostAl Sulaymaniya,1499.168321
+1310072,Al Sulaymaniya,host,hostAl Sulaymaniya,967.5140325
+1310092,Al Sulaymaniya,host,hostAl Sulaymaniya,307.0060654
+2105018,Al Falluja,host,hostAl Falluja,494.0170353
+2105019,Al Falluja,host,hostAl Falluja,364.7265975
+2105031,Al Falluja,host,hostAl Falluja,668.3034304
+2105069,Al Falluja,host,hostAl Falluja,359.6872235
+2105070,Al Falluja,host,hostAl Falluja,528.3763745
+2105071,Al Falluja,host,hostAl Falluja,435.2272308
+2105073,Al Falluja,host,hostAl Falluja,240.6414576
+2105075,Al Falluja,host,hostAl Falluja,433.3176896
+2105076,Al Falluja,host,hostAl Falluja,383.034135
+2105077,Al Falluja,host,hostAl Falluja,555.6112877
+2105088,Al Falluja,host,hostAl Falluja,509.607301
+2301003,Al Kadhmiyah,host,hostAl Kadhmiyah,1393.301128
+2301038,Al Kadhmiyah,host,hostAl Kadhmiyah,675.1208889
+2301045,Al Kadhmiyah,host,hostAl Kadhmiyah,856.1053147
+2301048,Al Kadhmiyah,host,hostAl Kadhmiyah,552.4212917
+2301073,Al Kadhmiyah,host,hostAl Kadhmiyah,390.0386438
+2301074,Al Kadhmiyah,host,hostAl Kadhmiyah,588.6854154
+2302007,Al Adhamiya,host,hostAl Adhamiya,5487.933992
+2306106,Al Kadhmiyah,host,hostAl Kadhmiyah,1095.7986
+2307010,Al Karkh,host,hostAl Karkh,6079.965377
+2307018,Al Karkh,host,hostAl Karkh,629.1019249
+2307124,Al Resafa,host,hostAl Resafa,832.1025174
+2309001,Al Mahmoudiya,host,hostAl Mahmoudiya,388.686897
+2309005,Al Mahmoudiya,host,hostAl Mahmoudiya,483.5079135
+2309027,Al Mahmoudiya,host,hostAl Mahmoudiya,228.1084669
+2309030,Al Mahmoudiya,host,hostAl Mahmoudiya,314.0853786
+2309052,Al Mahmoudiya,host,hostAl Mahmoudiya,423.1842414
+2310005,Al Kadhmiyah,host,hostAl Kadhmiyah,450.251065
+2401004,Al Khalis,host,hostAl Khalis,618.8647901
+2401025,Al Khalis,host,hostAl Khalis,420.8380058
+2401043,Al Khalis,host,hostAl Khalis,3806.560405
+2403008,Ba'quba,host,hostBa'quba,470.8341753
+2403010,Ba'quba,host,hostBa'quba,1588.816092
+2403022,Ba'quba,host,hostBa'quba,414.441957
+2403036,Ba'quba,host,hostBa'quba,2559.145409
+2403062,Ba'quba,host,hostBa'quba,1577.257022
+2405013,Khanaqin,host,hostKhanaqin,202.7355016
+2405068,Khanaqin,host,hostKhanaqin,329.8671602
+2502024,Kerbala,host,hostKerbala,739.0332051
+2502027,Al Hindiya,host,hostAl Hindiya,249.5732473
+2502036,Al Hindiya,host,hostAl Hindiya,370.3281716
+2502043,Al Hindiya,host,hostAl Hindiya,289.172168
+2502047,Al Hindiya,host,hostAl Hindiya,307.4529131
+2503037,Kerbala,host,hostKerbala,1077.407599
+2503048,Kerbala,host,hostKerbala,266.7043749
+2503077,Kerbala,host,hostKerbala,693.0395602
+2503089,Kerbala,host,hostKerbala,800.9370316
+2503096,Kerbala,host,hostKerbala,1569.30595
+2503122,Kerbala,host,hostKerbala,764.4405664
+2503138,Kerbala,host,hostKerbala,1121.764802
+2503241,Kerbala,host,hostKerbala,1481.233545
+2503253,Kerbala,host,hostKerbala,317.5404396
+2603001,Kirkuk,host,hostKirkuk,1619.349086
+2603005,Kirkuk,host,hostKirkuk,2517.462783
+2603006,Kirkuk,host,hostKirkuk,2038.16333
+2603007,Kirkuk,host,hostKirkuk,1043.968595
+2603009,Kirkuk,host,hostKirkuk,2571.888237
+2603011,Dibis,host,hostDibis,2476.638727
+2603013,Kirkuk,host,hostKirkuk,2197.231488
+2603015,Kirkuk,host,hostKirkuk,2156.146913
+2603016,Kirkuk,host,hostKirkuk,1370.420037
+2603018,Kirkuk,host,hostKirkuk,2887.828963
+2603022,Kirkuk,host,hostKirkuk,1943.443095
+2603023,Kirkuk,host,hostKirkuk,1183.829077
+2603024,Kirkuk,host,hostKirkuk,1126.825067
+2603025,Kirkuk,host,hostKirkuk,866.0126821
+2603026,Kirkuk,host,hostKirkuk,2054.394476
+2603027,Kirkuk,host,hostKirkuk,1249.19478
+2603032,Kirkuk,host,hostKirkuk,1243.584706
+2603041,Kirkuk,host,hostKirkuk,576.024434
+2603047,Kirkuk,host,hostKirkuk,728.4911921
+2603050,Kirkuk,host,hostKirkuk,1730.995651
+2603051,Kirkuk,host,hostKirkuk,1070.986462
+2603052,Kirkuk,host,hostKirkuk,518.0364256
+2603061,Kirkuk,host,hostKirkuk,619.1234607
+2603065,Kirkuk,host,hostKirkuk,2544.275741
+2603066,Kirkuk,host,hostKirkuk,1191.190826
+2603067,Kirkuk,host,hostKirkuk,1462.889516
+2603068,Kirkuk,host,hostKirkuk,877.1165005
+2603069,Kirkuk,host,hostKirkuk,1278.273227
+2701001,Akre,host,hostAkre,628.6507179
+2701009,Akre,host,hostAkre,228.6116547
+2701012,Al Hamdaniya,host,hostAl Hamdaniya,786.2246104
+2701017,Akre,host,hostAkre,212.6506486
+2701035,Al Hamdaniya,host,hostAl Hamdaniya,778.0191421
+2704002,Sheikhan,host,hostSheikhan,1033.785146
+2704004,Sheikhan,host,hostSheikhan,586.2706645
+2704005,Sheikhan,host,hostSheikhan,505.8934639
+2704006,Sheikhan,host,hostSheikhan,1047.098588
+2704007,Sheikhan,host,hostSheikhan,481.1175572
+2704011,Sheikhan,host,hostSheikhan,1346.339171
+2704012,Sheikhan,host,hostSheikhan,823.9592178
+2704013,Sheikhan,host,hostSheikhan,291.4151482
+2704015,Sheikhan,host,hostSheikhan,997.9591657
+2704016,Sheikhan,host,hostSheikhan,2748.956523
+2704018,Sheikhan,host,hostSheikhan,331.9917985
+2704027,Sheikhan,host,hostSheikhan,426.9534553
+2704033,Sheikhan,host,hostSheikhan,776.8822357
+2706003,Al Mosul,host,hostAl Mosul,4338.161926
+2706010,Al Mosul,host,hostAl Mosul,370.4839388
+2706011,Al Mosul,host,hostAl Mosul,5225.033442
+2706012,Al Mosul,host,hostAl Mosul,200.1391686
+2706015,Al Mosul,host,hostAl Mosul,786.0149048
+2706016,Al Mosul,host,hostAl Mosul,1520.888745
+2706017,Al Mosul,host,hostAl Mosul,540.1526149
+2706018,Al Mosul,host,hostAl Mosul,280.789024
+2706022,Al Mosul,host,hostAl Mosul,553.4932586
+2706024,Al Mosul,host,hostAl Mosul,230.3196495
+2706026,Al Mosul,host,hostAl Mosul,362.1884279
+2706031,Al Mosul,host,hostAl Mosul,497.0815171
+2706043,Al Mosul,host,hostAl Mosul,804.3277778
+2706046,Al Mosul,host,hostAl Mosul,4852.966431
+2706047,Al Mosul,host,hostAl Mosul,397.2504257
+2706048,Al Mosul,host,hostAl Mosul,407.3409635
+2706050,Al Mosul,host,hostAl Mosul,393.2113302
+2706053,Al Mosul,host,hostAl Mosul,2778.323076
+2706054,Al Mosul,host,hostAl Mosul,349.5358879
+2706094,Al Mosul,host,hostAl Mosul,251.2933811
+2706097,Tilkaef,host,hostTilkaef,1790.808197
+2706106,Al Mosul,host,hostAl Mosul,288.5168555
+2706182,Al Mosul,host,hostAl Mosul,402.8007447
+2706188,Al Mosul,host,hostAl Mosul,240.9530221
+2706190,Al Mosul,host,hostAl Mosul,1499.238731
+2706191,Al Mosul,host,hostAl Mosul,231.1893898
+2706197,Al Mosul,host,hostAl Mosul,292.8832496
+2706279,Al Mosul,host,hostAl Mosul,2417.665461
+2706315,Al Mosul,host,hostAl Mosul,210.5493426
+2709003,Tilkaef,host,hostTilkaef,1362.364848
+2709011,Tilkaef,host,hostTilkaef,234.115951
+2709021,Tilkaef,host,hostTilkaef,315.9123054
+2709040,Tilkaef,host,hostTilkaef,1053.762172
+2802015,Al Shirqat,host,hostAl Shirqat,615.4348099
+2802016,Al Shirqat,host,hostAl Shirqat,747.8426495
+2802028,Al Shirqat,host,hostAl Shirqat,579.0513388
+2804005,Balad,host,hostBalad,308.5583941
+2804017,Balad,host,hostBalad,734.8740601
+2804022,Balad,host,hostBalad,919.303529
+2806005,Samarra,host,hostSamarra,1343.681501
+2806008,Samarra,host,hostSamarra,1255.041351
+2806010,Samarra,host,hostSamarra,1696.326119
+2806025,Samarra,host,hostSamarra,1623.342057
+2808004,Tikrit,host,hostTikrit,304.1918202
+2808025,Tikrit,host,hostTikrit,234.3412509
+2808028,Tikrit,host,hostTikrit,606.5232333
+2808031,Tikrit,host,hostTikrit,655.7756655
+2808037,Tikrit,host,hostTikrit,271.2963359
+2808044,Tikrit,host,hostTikrit,338.2826738
+2808050,Tikrit,host,hostTikrit,349.1314003
+2808057,Tikrit,host,hostTikrit,241.9343445
+2808058,Tikrit,host,hostTikrit,346.8484474
+2808061,Tikrit,host,hostTikrit,407.9819122
+2808062,Tikrit,host,hostTikrit,207.9435203
+2808063,Tikrit,host,hostTikrit,268.7040543
+2808068,Tikrit,host,hostTikrit,321.0855758
+2808071,Tikrit,host,hostTikrit,843.4602351
+2808072,Tikrit,host,hostTikrit,312.3047465
+2808081,Tikrit,host,hostTikrit,693.0584336
+2808084,Tikrit,host,hostTikrit,690.6519948
+2808085,Tikrit,host,hostTikrit,567.2139954
+2808089,Tikrit,host,hostTikrit,324.6162257
+2809005,Tuz,host,hostTuz,652.5961657
+2809007,Tuz,host,hostTuz,931.6433988
+2809010,Tuz,host,hostTuz,686.6917923
+2809022,Tuz,host,hostTuz,295.882782
+2904060,Al Suwaira,host,hostAl Suwaira,643.2508247
+2906001,Al Kut,host,hostAl Kut,818.9014323
+2906023,Al Kut,host,hostAl Kut,1516.864887
+2906051,Al Kut,host,hostAl Kut,223.7412232
+2906055,Al Kut,host,hostAl Kut,283.6183902
+2906059,Al Kut,host,hostAl Kut,544.4651391
+2906064,Al Kut,host,hostAl Kut,417.0164346
+3105030,Al Basrah,host,hostAl Basrah,2086.853782
+3105069,Al Basrah,host,hostAl Basrah,679.078577
+3105094,Al Basrah,host,hostAl Basrah,548.3954137
+3105112,Al Basrah,host,hostAl Basrah,1591.66175
+3205002,Al Kahla,host,hostAl Kahla,656.9533688
+3401013,Al Mahmoudiya,host,hostAl Mahmoudiya,2258.230471
+3403003,Al Najaf,host,hostAl Najaf,1272.132805
+3403012,Al Najaf,host,hostAl Najaf,641.6163362
+3403032,Al Najaf,host,hostAl Najaf,3917.472468
+3403049,Al Najaf,host,hostAl Najaf,1059.093228
+3403080,Al Najaf,host,hostAl Najaf,996.6709599
+3403081,Al Najaf,host,hostAl Najaf,698.9163915
+3403084,Al Najaf,host,hostAl Najaf,347.8428102
+3403085,Al Najaf,host,hostAl Najaf,600.6168405
+3403086,Al Kufa,host,hostAl Kufa,1249.850345
+3403088,Al Najaf,host,hostAl Najaf,894.8563988
+3504042,Nassriya,host,hostNassriya,1284.615049
+3603005,Al Diwaniya,host,hostAl Diwaniya,466.7142158
+3603008,Al Diwaniya,host,hostAl Diwaniya,750.2380719
+3603010,Al Diwaniya,host,hostAl Diwaniya,481.3854305
+3603025,Al Diwaniya,host,hostAl Diwaniya,248.1431117
+3603033,Al Diwaniya,host,hostAl Diwaniya,671.1920892
+3603034,Al Diwaniya,host,hostAl Diwaniya,472.0762233
+3603050,Al Diwaniya,host,hostAl Diwaniya,634.9517016
+3603057,Al Diwaniya,host,hostAl Diwaniya,247.6244826
+3603064,Al Diwaniya,host,hostAl Diwaniya,268.1982507
+3603073,Al Diwaniya,host,hostAl Diwaniya,437.9781689
+3603076,Al Diwaniya,host,hostAl Diwaniya,387.7937391
+3603081,Al Diwaniya,host,hostAl Diwaniya,472.934883
+3603085,Al Diwaniya,host,hostAl Diwaniya,351.8819169
+3603087,Al Diwaniya,host,hostAl Diwaniya,350.938277
+3603088,Al Diwaniya,host,hostAl Diwaniya,835.4055752
