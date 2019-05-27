@@ -8,7 +8,7 @@ library(hypegrammaR) # simple stats 4 complex samples
 library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
-
+source("functions/analysisplan_factory.R")
 questions <- read.csv("input/kobo_questions.csv", stringsAsFactors=F, check.names=F)
 
 questions$name <- tolower(questions$name)
@@ -27,6 +27,8 @@ choices$filter <- tolower(choices$filter)
 
 
 response <- xlsform_fill(questions,choices,10)
+names(response)<-to_alphanumeric_lowercase(names(response))
+questionnaire <- load_questionnaire(response,questions,choices)
 
 
 
@@ -38,16 +40,18 @@ response %>%
 
 
 
-names(response)<-to_alphanumeric_lowercase(names(response))
-questionnaire <- load_questionnaire(response,questions,choices)
 
-debugonce(map_to_datatypes)
-analysisplan_generic<-make_analysisplan_all_vars(response,
-                                                 questionnaire = questionnaire)
+
+
+
+
+analysisplan<-make_analysisplan_all_vars(response,questionnaire,independent.variable = "type_hh")
 
 
 results<-from_analysisplan_map_to_output(data = response,
                                 analysisplan = analysisplan_generic,weighting = function(x){rep(1,length(x))})
+
+
 
 
 
