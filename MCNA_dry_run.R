@@ -26,7 +26,6 @@ choices$filter <- tolower(choices$filter)
 
 
 response <- xlsform_fill(questions,choices,100)
-warnings()
 
 # horizontal operations
 
@@ -62,7 +61,7 @@ analysisplan<-make_analysisplan_all_vars(response,
 
 results<-from_analysisplan_map_to_output(data = response,
                                          analysisplan = analysisplan,
-                                         weighting = function(x){rep(1,length(x))},
+                                         weighting = function(x){rep(1,nrow(x))},
                                          questionnaire = questionnaire)
 
 
