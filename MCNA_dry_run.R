@@ -19,7 +19,7 @@ questions$constraint <- tolower(questions$constraint)
 questions$calculation <- tolower(questions$calculation)
 questions$choice_filter <- tolower(questions$choice_filter)
 
-choices <- read.csv("input/kobo_choices.csv", stringsAsFactors=F, check.names=F)
+choices <- read.csv("input/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
 names(choices) <- tolower(names(choices))
 choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
@@ -64,17 +64,18 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 
 
+
 # vertical operations:
 
-samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
-samplingframe$stratum <- 
+#samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
+samplingframe <- hypegrammaR:::read.csv.auto.sep(file)
+names(samplingframe) <- to_alphanumeric_lowercase(names(samplingframe))
 
-# r$strata<-paste0(r$district_mcna,r$id)
-# 
-# weight_fun <- map_to_weighting(sampling.frame = samplingframe,
-#                  sampling.frame.population.column = "population",
-#                  sampling.frame.stratum.column = stratum,
-#                  data.stratum.column = "strata")
+
+weight_fun <- map_to_weighting(sampling.frame = samplingframe,
+                 sampling.frame.population.column = "population",
+                 sampling.frame.stratum.column = "stratum",
+                 data.stratum.column = "strata")
 
 
 
