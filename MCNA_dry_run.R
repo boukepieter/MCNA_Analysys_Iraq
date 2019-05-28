@@ -67,7 +67,6 @@ analysisplan<-make_analysisplan_all_vars(r,
 # vertical operations:
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
-samplingframe$stratum <- 
 
 # r$strata<-paste0(r$district_mcna,r$id)
 # 
