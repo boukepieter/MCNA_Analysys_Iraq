@@ -29,6 +29,10 @@ response <- xlsform_fill(questions,choices,1000)
 
 # horizontal operations
 
+response <- response %>% 
+  filter(!is.na(type_hh)) %>% 
+  mutate(strata = paste0(district_mcna,type_hh))
+
 
 r <- response %>%
   new_recoding(source=how_much_debt, target=hh_with_debt_value) %>% 
@@ -56,8 +60,8 @@ questionnaire <- load_questionnaire(r,questions,choices)
 
 analysisplan<-make_analysisplan_all_vars(r,
                                          questionnaire
-                                         # ,independent.variable = "type_hh",
-                                         # repeat.for.variable = "governorate_mcna"
+                                         ,independent.variable = "type_hh",
+                                         repeat.for.variable = "governorate_mcna"
                                          )
 
 
@@ -67,24 +71,30 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 # vertical operations:
 
-#samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
-samplingframe <- hypegrammaR:::read.csv.auto.sep(file)
-names(samplingframe) <- to_alphanumeric_lowercase(names(samplingframe))
+samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
 
+samplingframe <- samplingframe %>% 
+  group_by(stratum) %>% 
+  summarize(sum(population))
+names(samplingframe)[2] <- "population"
+samplingframe<-as.data.frame(samplingframe)
+r <- r %>% 
+  filter(strata %in% samplingframe$stratum)
 
 weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                  sampling.frame.population.column = "population",
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-
+debugonce(weight_fun)
+weight_fun(r)
 
 results<-from_analysisplan_map_to_output(data = r,
                                          analysisplan = analysisplan,
-                                         weighting = function(x){rep(1,nrow(x))},
+                                         weighting = weight_fun,#function(x){rep(1,nrow(x))},
                                          questionnaire = questionnaire)
 
 
-
-results %>% map_to_template(questionnaire, "./output","test.html")
-
+remotes::install_github("ellieallien/Setviz")
+library(knitr)
+results %>% map_to_template(questionnaire, "./output", type="full",filename="test.html")
