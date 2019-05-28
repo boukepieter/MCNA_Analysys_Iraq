@@ -19,7 +19,7 @@ questions$constraint <- tolower(questions$constraint)
 questions$calculation <- tolower(questions$calculation)
 questions$choice_filter <- tolower(questions$choice_filter)
 
-choices <- read.csv("input/kobo_choices.csv", stringsAsFactors=F, check.names=F)
+choices <- read.csv("input/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
 names(choices) <- tolower(names(choices))
 choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
@@ -28,6 +28,10 @@ choices$filter <- tolower(choices$filter)
 response <- xlsform_fill(questions,choices,1000)
 
 # horizontal operations
+
+response <- response %>% 
+  filter(!is.na(type_hh)) %>% 
+  mutate(strata = paste0(district_mcna,type_hh))
 
 
 r <- response %>%
@@ -56,9 +60,10 @@ questionnaire <- load_questionnaire(r,questions,choices)
 
 analysisplan<-make_analysisplan_all_vars(r,
                                          questionnaire
-                                         # ,independent.variable = "type_hh",
-                                         # repeat.for.variable = "governorate_mcna"
+                                         ,independent.variable = "type_hh",
+                                         repeat.for.variable = "governorate_mcna"
                                          )
+
 
 
 
@@ -68,21 +73,28 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
 
-# r$strata<-paste0(r$district_mcna,r$id)
-# 
-# weight_fun <- map_to_weighting(sampling.frame = samplingframe,
-#                  sampling.frame.population.column = "population",
-#                  sampling.frame.stratum.column = stratum,
-#                  data.stratum.column = "strata")
+samplingframe <- samplingframe %>% 
+  group_by(stratum) %>% 
+  summarize(sum(population))
+names(samplingframe)[2] <- "population"
+samplingframe<-as.data.frame(samplingframe)
+r <- r %>% 
+  filter(strata %in% samplingframe$stratum)
 
+weight_fun <- map_to_weighting(sampling.frame = samplingframe,
+                 sampling.frame.population.column = "population",
+                 sampling.frame.stratum.column = "stratum",
+                 data.stratum.column = "strata")
 
+debugonce(weight_fun)
+weight_fun(r)
 
 results<-from_analysisplan_map_to_output(data = r,
                                          analysisplan = analysisplan,
-                                         weighting = function(x){rep(1,nrow(x))},
+                                         weighting = weight_fun,#function(x){rep(1,nrow(x))},
                                          questionnaire = questionnaire)
 
 
-
-results %>% map_to_template(questionnaire, "./output","test.html")
-
+remotes::install_github("ellieallien/Setviz")
+library(knitr)
+results %>% map_to_template(questionnaire, "./output", type="full",filename="test.html")
