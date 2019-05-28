@@ -25,7 +25,7 @@ choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
 
 
-response <- xlsform_fill(questions,choices,1000)
+response <- xlsform_fill(questions,choices,10)
 
 # horizontal operations
 
@@ -66,9 +66,6 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 
 
-
-
-
 # vertical operations:
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
@@ -86,8 +83,8 @@ weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-debugonce(weight_fun)
-weight_fun(r)
+
+
 
 results<-from_analysisplan_map_to_output(data = r,
                                          analysisplan = analysisplan,
@@ -95,6 +92,3 @@ results<-from_analysisplan_map_to_output(data = r,
                                          questionnaire = questionnaire)
 
 
-remotes::install_github("ellieallien/Setviz")
-library(knitr)
-results %>% map_to_template(questionnaire, "./output", type="full",filename="test.html")

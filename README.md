@@ -32,3 +32,5 @@
 ### Clean up
 
 - refactor main script (M & B)
+
+### Individuals
