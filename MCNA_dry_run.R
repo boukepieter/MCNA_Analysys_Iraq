@@ -9,29 +9,8 @@ library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
-source("./pre-process_strata_names.R")
+#source("./pre-process_strata_names.R")
 # get & format inputs
-
-# questions <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/survey.csv", stringsAsFactors=F, check.names=F)
-# questions$type <- tolower(questions$type)
-# questions$name <- tolower(questions$name)
-# questions$relevant <- tolower(questions$relevant)
-# questions$constraint <- tolower(questions$constraint)
-# questions$calculation <- tolower(questions$calculation)
-# questions$choice_filter <- tolower(questions$choice_filter)
-# write.csv(questions, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/survey_tolower.csv", row.names=F)
-# 
-# choices <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/choices.csv", stringsAsFactors=F, check.names=F)
-# choices$list_name <- tolower(choices$list_name)
-# choices$name <- tolower(choices$name)
-# choices$Filter <- tolower(choices$Filter)
-# write.csv(choices, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/choices_tolower.csv", row.names=F)
-# 
-# districts <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts.csv", stringsAsFactors=F, check.names=F)
-# districts$list_name <- tolower(districts$list_name)
-# districts$name <- to_alphanumeric_lowercase(districts$label)
-# districts$filter <- to_alphanumeric_lowercase(districts$filter)
-# write.csv(districts, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts_tolower.csv", row.names=F)
 
 questions <- read.csv("input/kobo_questions.csv", 
                       stringsAsFactors=F, check.names=F)
@@ -100,19 +79,25 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
 
 
 
-samplingframe$cluster_id<-paste(samplingframe$stratum, )
-cluster_weight_fun<- map_to_weighting(sampling.frame = samplingframe,
-                                      sampling.frame.population.column = "population",
-                                      sampling.frame.stratum.column = "stratum",
-                                      data.stratum.column = "strata")
+# samplingframe$cluster_id<-paste(samplingframe$stratum, )
+# cluster_weight_fun<- map_to_weighting(sampling.frame = samplingframe_strata,
+#                                       sampling.frame.population.column = "population",
+#                                       sampling.frame.stratum.column = "stratum",
+#                                       data.stratum.column = "strata")
 
 
+r$cluster_id <- paste(r$cluster_location_id,r$type_hh,sep = "_")
+
+result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
+                                          weighting = strata_weight_fun,
+                                          cluster_variable_name = "cluster_id",
+                                          questionnaire)
 
 
-library(knitr)
-detach("package:knitr")
-library(hypegrammaR)
 map_to_labeled(results,questionnaire)
+
+
+
 ?map_to_visualisation
 vis <- 
 results %>% map_to_template(questionnaire, "./output", type="summary",filename="summary.html")
