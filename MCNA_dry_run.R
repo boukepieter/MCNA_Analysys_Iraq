@@ -9,7 +9,7 @@ library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
-
+source("./pre-process_strata_names.R")
 # get & format inputs
 
 questions <- read.csv("input/kobo_questions.csv", stringsAsFactors=F, check.names=F)
@@ -18,12 +18,13 @@ questions$relevant <- tolower(questions$relevant)
 questions$constraint <- tolower(questions$constraint)
 questions$calculation <- tolower(questions$calculation)
 questions$choice_filter <- tolower(questions$choice_filter)
+write.csv(questions,"input_modified/questions.csv")
 
-choices <- read.csv("input/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
+choices <- read.csv("input_modified/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
 names(choices) <- tolower(names(choices))
 choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
-
+write.csv(choices,"input_modified/choices.csv")
 
 response <- xlsform_fill(questions,choices,5000)
 
