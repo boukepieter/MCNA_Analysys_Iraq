@@ -94,16 +94,24 @@ result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
                                           questionnaire)
 
 
-map_to_labeled(results,questionnaire)
+result_labeled <- result$results %>% lapply(map_to_labeled,questionnaire)
 
 
 
 ?map_to_visualisation
 vis <- 
-results %>% map_to_template(questionnaire, "./output", type="summary",filename="summary.html")
-results %>% map_to_template(questionnaire, "./output", type="full",filename="full.html")
+res %>% map_to_template(questionnaire, "./output", type="summary",filename="summary.html")
+res %>% map_to_template(questionnaire, "./output", type="full",filename="full.html")
 
 rmarkdown::render(input = 'msna_test.Rmd')
+
+result$results[[800]]$parameters$case <- "CASE_group_difference_categorical_categorical"
+  
+  
+
+result$results[[800]] %>% map_to_labeled(questionnaire) %>% map_to_visualisation
+
+big_table <- hypegrammaR:::map_to_datamerge(result, questionnaire = questionnaire,rows = "repeat.var.value")
 
 # results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
 # x})
