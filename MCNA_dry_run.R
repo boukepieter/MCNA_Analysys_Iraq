@@ -25,7 +25,7 @@ choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
 
 
-response <- xlsform_fill(questions,choices,1000)
+response <- xlsform_fill(questions,choices,5000)
 
 # horizontal operations
 
@@ -49,7 +49,6 @@ r <- response %>%
   mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
 
-
 # Prepare analysis
 
 names(r)<-to_alphanumeric_lowercase(names(r))
@@ -66,9 +65,6 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 
 
-
-
-
 # vertical operations:
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
@@ -78,6 +74,7 @@ samplingframe <- samplingframe %>%
   summarize(sum(population))
 names(samplingframe)[2] <- "population"
 samplingframe<-as.data.frame(samplingframe)
+
 r <- r %>% 
   filter(strata %in% samplingframe$stratum)
 
@@ -86,15 +83,19 @@ weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-debugonce(weight_fun)
-weight_fun(r)
-
 results<-from_analysisplan_map_to_output(data = r,
                                          analysisplan = analysisplan,
-                                         weighting = weight_fun,#function(x){rep(1,nrow(x))},
+                                         weighting = weight_fun, # function(x){rep(1,nrow(x))},
                                          questionnaire = questionnaire)
 
 
-remotes::install_github("ellieallien/Setviz")
-library(knitr)
-results %>% map_to_template(questionnaire, "./output", type="full",filename="test.html")
+# results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
+# x})
+# 
+# 
+# print.hg_result <- function(x){
+#   x %>% map_to_table() %>% (knitr(kable))
+#   
+# }
+# 
+# results$results[[1]]
