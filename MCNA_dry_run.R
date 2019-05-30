@@ -25,7 +25,7 @@ choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
 
 
-response <- xlsform_fill(questions,choices,10)
+response <- xlsform_fill(questions,choices,5000)
 
 # horizontal operations
 
@@ -47,7 +47,6 @@ r <- response %>%
   
   end_recoding %>% 
   mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
-
 
 
 # Prepare analysis
@@ -75,6 +74,7 @@ samplingframe <- samplingframe %>%
   summarize(sum(population))
 names(samplingframe)[2] <- "population"
 samplingframe<-as.data.frame(samplingframe)
+
 r <- r %>% 
   filter(strata %in% samplingframe$stratum)
 
@@ -83,12 +83,19 @@ weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-
-
-
 results<-from_analysisplan_map_to_output(data = r,
                                          analysisplan = analysisplan,
-                                         weighting = weight_fun,#function(x){rep(1,nrow(x))},
+                                         weighting = weight_fun, # function(x){rep(1,nrow(x))},
                                          questionnaire = questionnaire)
 
 
+# results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
+# x})
+# 
+# 
+# print.hg_result <- function(x){
+#   x %>% map_to_table() %>% (knitr(kable))
+#   
+# }
+# 
+# results$results[[1]]
