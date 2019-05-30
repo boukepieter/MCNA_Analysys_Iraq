@@ -62,7 +62,6 @@ r <- response_filtered %>%
   mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
 
-
 # Prepare analysis
 
 names(r)<-to_alphanumeric_lowercase(names(r))
@@ -79,9 +78,6 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 
 
-
-
-
 # vertical operations:
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
@@ -89,8 +85,10 @@ samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
 samplingframe_strata <- samplingframe %>% 
   group_by(stratum) %>% 
   summarize(sum(population))
+
 names(samplingframe_strata)[2] <- "population"
 samplingframe_strata<-as.data.frame(samplingframe_strata)
+
 
 r <- r %>% 
   filter(strata %in% samplingframe_strata$stratum)
@@ -101,6 +99,7 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                  data.stratum.column = "strata")
 
 
+
 samplingframe$cluster_id<-paste(samplingframe$stratum, )
 cluster_weight_fun<- map_to_weighting(sampling.frame = samplingframe,
                                       sampling.frame.population.column = "population",
@@ -109,12 +108,6 @@ cluster_weight_fun<- map_to_weighting(sampling.frame = samplingframe,
 
 
 
-results<-from_analysisplan_map_to_output(data = r,
-                                         analysisplan = analysisplan,
-                                         weighting = weight_fun,#function(x){rep(1,nrow(x))},
-                                         questionnaire = questionnaire)
-
-results <- readRDS("temp.RDS")
 
 library(knitr)
 detach("package:knitr")
@@ -126,3 +119,15 @@ results %>% map_to_template(questionnaire, "./output", type="summary",filename="
 results %>% map_to_template(questionnaire, "./output", type="full",filename="full.html")
 
 rmarkdown::render(input = 'msna_test.Rmd')
+
+# results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
+# x})
+# 
+# 
+# print.hg_result <- function(x){
+#   x %>% map_to_table() %>% (knitr(kable))
+#   
+# }
+# 
+# results$results[[1]]
+
