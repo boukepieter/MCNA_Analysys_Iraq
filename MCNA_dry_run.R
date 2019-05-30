@@ -12,35 +12,47 @@ source("functions/analysisplan_factory.R")
 source("./pre-process_strata_names.R")
 # get & format inputs
 
-questions <- read.csv("input/kobo_questions.csv", stringsAsFactors=F, check.names=F)
-questions$name <- tolower(questions$name)
-questions$relevant <- tolower(questions$relevant)
-questions$constraint <- tolower(questions$constraint)
-questions$calculation <- tolower(questions$calculation)
-questions$choice_filter <- tolower(questions$choice_filter)
-write.csv(questions,"input_modified/questions.csv")
+# questions <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/survey.csv", stringsAsFactors=F, check.names=F)
+# questions$type <- tolower(questions$type)
+# questions$name <- tolower(questions$name)
+# questions$relevant <- tolower(questions$relevant)
+# questions$constraint <- tolower(questions$constraint)
+# questions$calculation <- tolower(questions$calculation)
+# questions$choice_filter <- tolower(questions$choice_filter)
+# write.csv(questions, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/survey_tolower.csv", row.names=F)
+# 
+# choices <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/choices.csv", stringsAsFactors=F, check.names=F)
+# choices$list_name <- tolower(choices$list_name)
+# choices$name <- tolower(choices$name)
+# choices$Filter <- tolower(choices$Filter)
+# write.csv(choices, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/choices_tolower.csv", row.names=F)
+# 
+# districts <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts.csv", stringsAsFactors=F, check.names=F)
+# districts$list_name <- tolower(districts$list_name)
+# districts$name <- to_alphanumeric_lowercase(districts$label)
+# districts$filter <- to_alphanumeric_lowercase(districts$filter)
+# write.csv(districts, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts_tolower.csv", row.names=F)
 
-choices <- read.csv("input_modified/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
-names(choices) <- tolower(names(choices))
-choices$name <- tolower(choices$name)
-choices$filter <- tolower(choices$filter)
-write.csv(choices,"input_modified/choices.csv")
-
-response <- xlsform_fill(questions,choices,5000)
+questions <- read.csv("input/kobo_questions.csv", 
+                      stringsAsFactors=F, check.names=F)
+choices <- read.csv("input/kobo_choices.csv", 
+                    stringsAsFactors=F, check.names=F)
+response <- xlsform_fill(questions,choices,1000)
 
 # horizontal operations
-
-response <- response %>% 
+lookup_table <- read.csv("input/combined_sample_ids.csv", 
+                         stringsAsFactors=F, check.names=F)
+response_filtered <- response %>% 
   filter(!is.na(type_hh)) %>% 
-  mutate(strata = paste0(district_mcna,type_hh))
+  mutate(strata = paste0(lookup_table$district[match(cluster_location_id,lookup_table$new_ID)],type_hh))
 
 
-r <- response %>%
+r <- response_filtered %>%
   new_recoding(source=how_much_debt, target=hh_with_debt_value) %>% 
   recode_to(0.25,where.num.larger.equal = 505000,otherwise.to=0) %>% 
 
   new_recoding(target=hh_unemployed) %>% 
-  recode_to(0 ,where=!(is.na(response$work) | is.na(response$actively_seek_work))) %>% 
+  recode_to(0 ,where=!(is.na(response_filtered$work) | is.na(response_filtered$actively_seek_work))) %>% 
   recode_to(0.5,where=(work == "no") & (actively_seek_work == "yes")) %>% 
 
   new_recoding(source=reasons_for_debt, target=hh_unable_basic_needs) %>% 
@@ -70,25 +82,43 @@ analysisplan<-make_analysisplan_all_vars(r,
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
 
-samplingframe <- samplingframe %>% 
+samplingframe_strata <- samplingframe %>% 
   group_by(stratum) %>% 
   summarize(sum(population))
-names(samplingframe)[2] <- "population"
-samplingframe<-as.data.frame(samplingframe)
+
+names(samplingframe_strata)[2] <- "population"
+samplingframe_strata<-as.data.frame(samplingframe_strata)
+
 
 r <- r %>% 
-  filter(strata %in% samplingframe$stratum)
+  filter(strata %in% samplingframe_strata$stratum)
 
-weight_fun <- map_to_weighting(sampling.frame = samplingframe,
+strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                  sampling.frame.population.column = "population",
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-results<-from_analysisplan_map_to_output(data = r,
-                                         analysisplan = analysisplan,
-                                         weighting = weight_fun, # function(x){rep(1,nrow(x))},
-                                         questionnaire = questionnaire)
 
+
+samplingframe$cluster_id<-paste(samplingframe$stratum, )
+cluster_weight_fun<- map_to_weighting(sampling.frame = samplingframe,
+                                      sampling.frame.population.column = "population",
+                                      sampling.frame.stratum.column = "stratum",
+                                      data.stratum.column = "strata")
+
+
+
+
+library(knitr)
+detach("package:knitr")
+library(hypegrammaR)
+map_to_labeled(results,questionnaire)
+?map_to_visualisation
+vis <- 
+results %>% map_to_template(questionnaire, "./output", type="summary",filename="summary.html")
+results %>% map_to_template(questionnaire, "./output", type="full",filename="full.html")
+
+rmarkdown::render(input = 'msna_test.Rmd')
 
 # results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
 # x})
@@ -100,3 +130,4 @@ results<-from_analysisplan_map_to_output(data = r,
 # }
 # 
 # results$results[[1]]
+
