@@ -26,6 +26,7 @@ choices$name <- tolower(choices$name)
 choices$filter <- tolower(choices$filter)
 write.csv(choices,"input_modified/choices.csv")
 
+
 response <- xlsform_fill(questions,choices,5000)
 
 # horizontal operations
@@ -49,7 +50,6 @@ r <- response %>%
   end_recoding %>% 
   mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
-
 # Prepare analysis
 
 names(r)<-to_alphanumeric_lowercase(names(r))
@@ -58,7 +58,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 
 # make analysisplan
 
-analysisplan<-make_analysisplan_all_vars(r,
+analysisplan_gov<-make_analysisplan_all_vars(r,
                                          questionnaire
                                          ,independent.variable = "type_hh",
                                          repeat.for.variable = "governorate_mcna"
@@ -85,18 +85,16 @@ weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                  data.stratum.column = "strata")
 
 results<-from_analysisplan_map_to_output(data = r,
-                                         analysisplan = analysisplan,
-                                         weighting = weight_fun, # function(x){rep(1,nrow(x))},
+                                         analysisplan = analysisplan_gov,
+                                         weighting = weight_fun,
                                          questionnaire = questionnaire)
 
 
-# results$results<-lapply(results$results, function(x){class(x)<-c("hg_result",class(x));
-# x})
-# 
-# 
-# print.hg_result <- function(x){
-#   x %>% map_to_table() %>% (knitr(kable))
-#   
-# }
-# 
-# results$results[[1]]
+datamerge <- results$results %>% hypegrammaR:::map_to_datamerge(rows = "repeat.var.value",
+                                                                values = c("numbers"),
+                                                                ignore = c("se","min","max"))
+  
+
+
+miniresults %>% map_to_template(type = "summary",dir = "./",filename = "test.html")
+saveRDS(questionnaire, "output/questionnaire.RDS")

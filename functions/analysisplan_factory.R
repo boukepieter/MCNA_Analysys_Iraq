@@ -8,10 +8,15 @@ map_to_datatypes<-function(df,questionnaire){
   sm_choices <- purrr::map(names(df),
                            questionnaire$question_is_sm_choice) %>% unlist
   
+  raw_q <- questionnaire$raw_questionnaire()$questions
   
+  types_raw <- raw_q[match(names(df),raw_q$name),"type"]   
   types[types %in% c("select_one","select_multiple")]<-"categorical"
   types[sm_choices]<-"sm_choice"
   types[types=="numeric"] <- "numerical"
+  types[types_raw == "text"] <- "text"
+  types[types_raw == "calculate"] <- "numerical"
+  
   types
 }
 
