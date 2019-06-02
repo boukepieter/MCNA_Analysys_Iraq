@@ -9,39 +9,31 @@ library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
-source("./pre-process_strata_names.R")
-# get & format inputs
+#source("./pre-process_strata_names.R")
 
-questions <- read.csv("input/kobo_questions.csv", stringsAsFactors=F, check.names=F)
-questions$name <- tolower(questions$name)
-questions$relevant <- tolower(questions$relevant)
-questions$constraint <- tolower(questions$constraint)
-questions$calculation <- tolower(questions$calculation)
-questions$choice_filter <- tolower(questions$choice_filter)
-write.csv(questions,"input_modified/questions.csv")
+questions <- read.csv("input/kobo_questions.csv", 
+                      stringsAsFactors=F, check.names=F)
 
-choices <- read.csv("input_modified/kobo_choices2.csv", stringsAsFactors=F, check.names=F)
-names(choices) <- tolower(names(choices))
-choices$name <- tolower(choices$name)
-choices$filter <- tolower(choices$filter)
-write.csv(choices,"input_modified/choices.csv")
+choices <- read.csv("input/kobo_choices.csv", 
+                    stringsAsFactors=F, check.names=F)
 
+response <- xlsform_fill(questions,choices,1000)
 
-response <- xlsform_fill(questions,choices,5000)
 
 # horizontal operations
-
-response <- response %>% 
+lookup_table <- read.csv("input/combined_sample_ids.csv", 
+                         stringsAsFactors=F, check.names=F)
+response_filtered <- response %>% 
   filter(!is.na(type_hh)) %>% 
-  mutate(strata = paste0(district_mcna,type_hh))
+  mutate(strata = paste0(lookup_table$district[match(cluster_location_id,lookup_table$new_ID)],type_hh))
 
 
-r <- response %>%
+r <- response_filtered %>%
   new_recoding(source=how_much_debt, target=hh_with_debt_value) %>% 
   recode_to(0.25,where.num.larger.equal = 505000,otherwise.to=0) %>% 
 
   new_recoding(target=hh_unemployed) %>% 
-  recode_to(0 ,where=!(is.na(response$work) | is.na(response$actively_seek_work))) %>% 
+  recode_to(0 ,where=!(is.na(response_filtered$work) | is.na(response_filtered$actively_seek_work))) %>% 
   recode_to(0.5,where=(work == "no") & (actively_seek_work == "yes")) %>% 
 
   new_recoding(source=reasons_for_debt, target=hh_unable_basic_needs) %>% 
@@ -70,31 +62,39 @@ analysisplan_gov<-make_analysisplan_all_vars(r,
 
 samplingframe <- load_samplingframe("./input/Strata_clusters_population.csv")
 
-samplingframe <- samplingframe %>% 
+samplingframe_strata <- samplingframe %>% 
   group_by(stratum) %>% 
   summarize(sum(population))
-names(samplingframe)[2] <- "population"
-samplingframe<-as.data.frame(samplingframe)
+
+names(samplingframe_strata)[2] <- "population"
+samplingframe_strata<-as.data.frame(samplingframe_strata)
+
 
 r <- r %>% 
-  filter(strata %in% samplingframe$stratum)
+  filter(strata %in% samplingframe_strata$stratum)
 
-weight_fun <- map_to_weighting(sampling.frame = samplingframe,
+strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                  sampling.frame.population.column = "population",
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata")
 
-results<-from_analysisplan_map_to_output(data = r,
-                                         analysisplan = analysisplan_gov,
-                                         weighting = weight_fun,
-                                         questionnaire = questionnaire)
 
 
-datamerge <- results$results %>% hypegrammaR:::map_to_datamerge(rows = "repeat.var.value",
-                                                                values = c("numbers"),
-                                                                ignore = c("se","min","max"))
-  
+r$cluster_id <- paste(r$cluster_location_id,r$type_hh,sep = "_")
+
+result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
+                                          weighting = strata_weight_fun,
+                                          cluster_variable_name = "cluster_id",
+                                          questionnaire)
 
 
-miniresults %>% map_to_template(type = "summary",dir = "./",filename = "test.html")
-saveRDS(questionnaire, "output/questionnaire.RDS")
+result_labeled <- result$results %>% lapply(map_to_labeled,questionnaire)
+
+
+
+res %>% map_to_template(questionnaire, "./output", type="summary",filename="summary.html")
+res %>% map_to_template(questionnaire, "./output", type="full",filename="full.html")
+
+
+big_table <- hypegrammaR:::map_to_datamerge(result, questionnaire = questionnaire,rows = "repeat.var.value")
+
