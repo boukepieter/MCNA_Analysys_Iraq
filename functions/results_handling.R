@@ -1,7 +1,10 @@
 
 
+#### DEPRECIATED::
+# function moved into hypegrammaR (internal)
+# keeping here for now to not break things but should migrate fully eventually
 
-
+  
 #' subset a list of results based on analysis parameters
 #' @param results list of results (output from `from_analysisplan_map_to_output()`)
 #' @param repeat.vars optional: vector of character strings: keeps only results where repeat.var in this list
