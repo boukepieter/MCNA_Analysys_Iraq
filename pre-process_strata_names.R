@@ -25,8 +25,8 @@ write.csv(strata_clusters,"input_modified/Strata_clusters_population.csv", row.n
 # choices$Filter <- tolower(choices$Filter)
 # write.csv(choices, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/choices_tolower.csv", row.names=F)
 # 
-# districts <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts.csv", stringsAsFactors=F, check.names=F)
-# districts$list_name <- tolower(districts$list_name)
-# districts$name <- to_alphanumeric_lowercase(districts$label)
-# districts$filter <- to_alphanumeric_lowercase(districts$filter)
-# write.csv(districts, "c:/Users/REACH-IRQ-GIS/Documents/201905 MCNA KoBo/districts_tolower.csv", row.names=F)
+districts <- read.csv("c:/Users/REACH-IRQ-GIS/Documents/2019 MCNA/201905 MCNA KoBo/districts.csv", stringsAsFactors=F, check.names=F)
+districts$list_name <- tolower(districts$list_name)
+districts$name <- to_alphanumeric_lowercase(districts$label)
+districts$filter <- to_alphanumeric_lowercase(districts$filter)
+write.csv(districts, "c:/Users/REACH-IRQ-GIS/Documents/2019 MCNA/201905 MCNA KoBo/districts_tolower.csv", row.names=F)
