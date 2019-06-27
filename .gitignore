@@ -5,3 +5,4 @@
 ignore
 data_cleaning/raw_data
 data_cleaning/test
+data_cleaning/*.kml
