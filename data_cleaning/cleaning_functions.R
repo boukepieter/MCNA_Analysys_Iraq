@@ -19,21 +19,37 @@ kobo.xlsx.to.csv <- function(dir, sheetName, anonymise=F, anonymise_cols = NULL)
   write.csv(child,paste0(dir,"/child.csv"), row.names = F)
 }
 
-log.cleaning.change <- function(uuid, old.value, question.name, new.value, issue=NULL,
+log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL, new.value=NULL, issue=NULL,
                                 dir) {
+  action <- ifelse(action == "c", "change", ifelse(action == "d", "deletion", ifelse(action == "f", "flag", action)))
+  if (!action %in% c("change", "deletion", "flag")) {
+    stop("action given is not a valid action")
+  }
+  if (action == "change" & (is.null(old.value) | is.null(question.name) | is.null(new.value))) {
+    stop("For a change all the parameters of old.value, question.name and new.value should be given.")
+  }
+  if (action == "flag" & is.null(question.name)) {
+    stop("For a flag the parameter question.name should be given.")
+  }
   log_file <- sprintf("%s/cleaning_logbook.csv",dir)
   if (file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
     log <- read.csv(log_file, stringsAsFactors = F)
   } else {
     log <- data.frame(uuid = character(), question.name = character(), issue = character(), feedback = character(), 
-                      changed = logical(), old.value = character(), new.value = character(), stringsAsFactors = F)
+                      action = character(), changed = logical(), old.value = character(), new.value = character(), 
+                      stringsAsFactors = F)
   }
   for (i in 1:length(uuid)){
     log[nrow(log)+1,"uuid"] <- uuid[i]
-    log$question.name[nrow(log)] <- question.name
-    log$old.value[nrow(log)] <- old.value
-    log$new.value[nrow(log)] <- new.value
+    log$action[nrow(log)] <- action
     log$issue[nrow(log)] <- issue
+    if (action != "deletion") {
+      log$question.name[nrow(log)] <- question.name
+    }
+    if (action == "change") {
+      log$old.value[nrow(log)] <- old.value
+      log$new.value[nrow(log)] <- new.value
+    }
   }
   write.csv(log, log_file, row.names = F)
   return(log)
@@ -57,8 +73,12 @@ execute.cleaning.changes <- function(dir, uuid_column=NULL) {
   }
   
   for(i in 1:nrow(log)){
-    data[which(data[,uuid_column] == log$uuid[i]), log$question.name[i]] <- log$new.value[i]
-    log$changed[i] <- TRUE
+    if (log$action[i] == "change") {
+      data[which(data[,uuid_column] == log$uuid[i]), log$question.name[i]] <- log$new.value[i]
+      log$changed[i] <- TRUE
+    } else if (log$action[i] == "deletion") {
+      data <- data[-which(data[,uuid_column] == log$uuid[i]), ]
+    }
   }
   write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F)
   write.csv(data, sprintf("%s/parent_cleaned.csv", dir), row.names = F)
