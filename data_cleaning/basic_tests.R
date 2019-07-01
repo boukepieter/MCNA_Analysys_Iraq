@@ -1,17 +1,10 @@
 #devtools::install_github("boukepieter/cleaninginspectoR", build_opts=c())
-library(cleaninginspectoR)
-library(plotKML)
-library(rgeos)
-library(xlsx)
-library(raster)
-library(sf)
-Sys.setlocale("LC_ALL","Arabic")
 
 setwd("data_cleaning")
+source("setup.R")
 source("cleaning_functions.R")
-WGS84 <- crs("+init=epsg:4326")
-dir <- "raw_data/20190627"
-kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=F)
+dir <- "raw_data/20190630"
+kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=T)
 
 data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 child <- read.csv(sprintf("%s/child.csv",dir), stringsAsFactors = F)
@@ -28,7 +21,7 @@ median(times)
 #shortest path (# of NA's)
 NAs <- apply(data,1,FUN=function(x){length(which(is.na(x)))})
 overview_times <- data.frame(enumerator=data$enumerator_num, time=times, family_size=data$num_family_member,
-                             NAs=NAs)
+                             NAs=NAs, ngo=data$ngo)
 write.csv(overview_times, sprintf("%s/overview.csv",dir), row.names = F)
 
 #pop group
@@ -38,12 +31,15 @@ data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(c
                                                                      ifelse(calc_host == 1, "host", NA)))) 
 #date check
 submission_date_to_check <- c("2019-06-27")
-filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
-sprintf("fraction of data on date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
+filtered_data <- data %>% filter(date_assessment >= submission_date_to_check) 
+sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
-#right locations
-points.inside.cluster(data = data, samplepoints_file = "sample_points/samplepoints.RData",
-                      sampleareas_file = "sample_points/sample_areas.RData")
+#right locations by date
+submission_date_to_check <- c("2019-06-28")
+filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
+sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
+result <- points.inside.cluster(data = filtered_data, samplepoints, sample_areas, dir)
+print(result)
 
 log <- log.cleaning.change(uuid = data_on_cluster$X_uuid, old.value = data_on_cluster$cluster_location_id,
                           new.value = clusters_at_date[2], question.name = "cluster_location_id",
