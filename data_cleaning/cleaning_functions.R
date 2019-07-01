@@ -19,6 +19,16 @@ kobo.xlsx.to.csv <- function(dir, sheetName, anonymise=F, anonymise_cols = NULL)
   write.csv(child,paste0(dir,"/child.csv"), row.names = F)
 }
 
+anonymise.cleaned.data <- function(dir, anonymise_cols = NULL) {
+  parent <- read.csv(sprintf("%s/parent_cleaned.csv", dir), stringsAsFactors = F)
+  if (is.null(anonymise_cols)) {
+    anonymise_cols <- c(grep("*contact*",names(parent)), 
+                        grep("*gpslocation*",names(parent)))
+  }
+  parent_ano <- parent[,-anonymise_cols]
+  write.csv(parent_ano,paste0(dir,"/parent_cleaned_anonymised.csv"), row.names = F)
+} 
+
 log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL, new.value=NULL, issue=NULL,
                                 dir) {
   action <- ifelse(action == "c", "change", ifelse(action == "d", "deletion", ifelse(action == "f", "flag", action)))
@@ -177,13 +187,13 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
         cent <- gCentroid(cluster_area)
         all_points <- rbind(interview_locations_geo@coords,cent@coords)
         loc <- bbox(all_points)
-        map <- get_map(c(loc[1,1]-0.03, loc[2,1]-0.03, loc[1,2]+0.03, loc[2,2]+0.03))
+        map <- get_map(c(loc[1,1]-0.05, loc[2,1]-0.05, loc[1,2]+0.05, loc[2,2]+0.05))
         g <- ggmap(map) + geom_point(data = interview_locations, 
                                      aes(x = X_gpslocation_longitude, y = X_gpslocation_latitude),
-                                     color = "red", size=1) +
+                                     color = "red", size=0.3) +
           geom_polygon(data=fortify(cluster_area), aes(long, lat), fill="red", colour="red", alpha=0.1) +
           ggtitle(sprintf("%d. %s %s", counter, clusters[j], pop_groups[i]))
-        ggsave(sprintf("%s/pics/%d.%s_%s.png", dir, counter, clusters[j], pop_groups[i]), plot = g)
+        ggsave(sprintf("%s/pics/%d.%s_%s.png", dir, counter, clusters[j], pop_groups[i]), plot = g, dpi=1000)
         writeOGR(interview_locations_geo, dsn = paste(dir,"shapes", sep="/"), 
                  layer=sprintf("%d.%s_%s", counter, clusters[j], pop_groups[i]),
                  driver = "ESRI Shapefile", overwrite_layer = TRUE)

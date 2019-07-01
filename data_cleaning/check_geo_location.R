@@ -9,7 +9,7 @@ data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(c
                                                                                ifelse(calc_host == 1, "host", NA)))) 
 data %>% dplyr::select(ngo) %>% table()
 # filter on date
-submission_date_to_check <- c("2019-06-28")
+submission_date_to_check <- c("2019-06-30")
 filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
 sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
@@ -43,3 +43,7 @@ log <- log.cleaning.change(uuid = result$uuid[row], old.value = "cluster_locatio
                            issue = "wrong cluster selected, the right one is checked with the gps points", 
                            dir = dir)
 execute.cleaning.changes(dir)
+anonymise.cleaned.data(dir)
+
+data %>% dplyr::select(cluster_location_id, population_group, date_assessment) %>%  table
+
