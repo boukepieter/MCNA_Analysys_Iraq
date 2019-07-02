@@ -7,6 +7,7 @@ library(rgdal)
 library(ggmap)
 library(raster)
 library(sf)
+library(googleLanguageR)
 Sys.setlocale("LC_ALL","Arabic")
 WGS84 <- crs("+init=epsg:4326")
 UTM38N <- crs("+init=epsg:32638")
@@ -17,3 +18,5 @@ load(samplepoints_file)
 load(sampleareas_file)
 samplepoints[["returnee"]] <- samplepoints[["r"]]
 sample_areas[["returnee"]] <- sample_areas[["r"]]
+
+gl_auth("test/My First Project-9df13c475b8e.json")

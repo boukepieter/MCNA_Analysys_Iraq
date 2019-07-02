@@ -20,13 +20,13 @@ kobo.xlsx.to.csv <- function(dir, sheetName, anonymise=F, anonymise_cols = NULL)
 }
 
 anonymise.cleaned.data <- function(dir, anonymise_cols = NULL) {
-  parent <- read.csv(sprintf("%s/parent_cleaned.csv", dir), stringsAsFactors = F)
+  parent <- read.csv(sprintf("%s/parent_cleaned.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
   if (is.null(anonymise_cols)) {
     anonymise_cols <- c(grep("*contact*",names(parent)), 
                         grep("*gpslocation*",names(parent)))
   }
   parent_ano <- parent[,-anonymise_cols]
-  write.csv(parent_ano,paste0(dir,"/parent_cleaned_anonymised.csv"), row.names = F)
+  write.csv(parent_ano,paste0(dir,"/parent_cleaned_anonymised.csv"), row.names = F, fileEncoding = "UTF-8")
 } 
 
 log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL, new.value=NULL, issue=NULL,
@@ -90,8 +90,8 @@ execute.cleaning.changes <- function(dir, uuid_column=NULL) {
       data <- data[-which(data[,uuid_column] == log$uuid[i]), ]
     }
   }
-  write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F)
-  write.csv(data, sprintf("%s/parent_cleaned.csv", dir), row.names = F)
+  write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F, fileEncoding = "UTF-8")
+  write.csv(data, sprintf("%s/parent_cleaned.csv", dir), row.names = F, fileEncoding = "UTF-8")
 }
 
 points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_to_file = FALSE, buffer = 1000) {
@@ -263,4 +263,105 @@ points.inside.cluster.separated <- function(data, samplepoints, sample_areas, di
     }
   }
   return(result)
+}
+translate.others.arabic <- function(data, ignore.cols = NULL) {
+  cols <- names(data)[endsWith(names(data), "_other")] 
+  if (!is.null(ignore.cols)) {
+    cols <- cols[-which(!is.na(match(cols, ignore.cols)))]
+  }
+  result <- data.frame(question.name = character(), row = numeric(), arabic = character(), english = character(),
+                       stringsAsFactors = F)
+  for (i in 1:length(cols)) {
+    cat(sprintf("%d/%d\n", i, length(cols)))
+    indices <- which(!is.na(data[,cols[i]]))
+    if (length(indices) > 0) {
+      for (j in 1:length(indices)) {
+        result[nrow(result) + 1, 1] <- cols[i]
+        result$row[nrow(result)] <- indices[j]
+        arab <- data[indices[j], cols[i]]
+        result$arabic[nrow(result)] <- arab
+        if (is.character(arab)) {
+          translation <- gl_translate(arab, target = "en")
+          result$english[nrow(result)] <- translation$translatedText
+        } else {
+          result$english[nrow(result)] <- "ERROR: input is not text"
+        }
+      }
+    }
+  }
+  return(result)
+}
+general.checks <- function(data, loop) {
+  result <- data.frame(index = numeric(), uuid = character(), has_no_issue = logical(), 
+                       loop_is_family_size = logical(), one_hoh_in_loop = logical(), 
+                       hoh_info_same_as_respondent = logical(), no_older_children = logical(), 
+                       no_single_spouse = logical(), child_calculation_good = logical(),
+                       not_employed_without_income = logical(),
+                       stringsAsFactors = F)
+  for (i in 1:nrow(data)){
+    children <- loop[which(loop$X_submission__uuid == data$X_uuid[i]),]
+    result[nrow(result) + 1, 1] <- i
+    result$uuid[nrow(result)] <- data$X_uuid[i]
+    
+    # -	Check whether the household size number given and the individual roster fits
+    result$loop_is_family_size[nrow(result)] <- nrow(children) == as.numeric(data$num_family_member[i])
+    
+    # HOH is included in the loop
+    result$one_hoh_in_loop[nrow(result)] <- length(which("head" == children$relationship)) == 1
+    
+    # HoH info same as respondent (if respondent is HoH)
+    if (data$hhh[i] == "yes" & result$one_hoh_in_loop[nrow(result)]) {
+      result$hoh_info_same_as_respondent[nrow(result)] <- all(children %>% filter(relationship == "head") %>% 
+                                                                dplyr::select(age, sex) ==
+                                                                data[i,c("age_respondent","gender_respondent")])
+    }
+    
+    # Family age corresponds HoH relationship
+    if (result$one_hoh_in_loop[nrow(result)]) {
+      head_age <- children %>% filter(relationship == "head") %>% dplyr::select(age)
+      younger_age <- children %>% filter(relationship %in% c("child", "grandchild", "nephew_niece")) %>% 
+        dplyr::select(age)
+      if (nrow(younger_age) < 1) {younger_age <- head_age}
+      older_age <- children %>% filter(relationship %in% c("parent", "parentinlaw")) %>% dplyr::select(age)
+      if (nrow(older_age) < 1) {older_age <- head_age}
+      result$no_older_children[nrow(result)] <- all(all(younger_age$age <= head_age), all(older_age$age >= head_age))
+    }
+    
+    # check for sinlge spouses
+    if ("spouse" %in% children$relationship) {
+      result$no_single_spouse[nrow(result)] <- all(children %>% filter(relationship == "spouse") %>% 
+                                                     dplyr::select(marital_status) == "married")
+    }
+    
+    # check child calculation
+    result$child_calculation_good[nrow(result)] <- data$tot_child[i] == children %>% filter(age < 18) %>% nrow
+    
+    # check on employment without income (or income without employment)
+    result$not_employed_without_income <- ("yes" %in% children$work & data$primary_livelihood.employment[i] == 1) |
+      (! "yes" %in% children$work & data$primary_livelihood.employment[i] != 1)
+    
+    # summarizing has issue
+    result$has_no_issue[nrow(result)] <- all(result[nrow(result),4], result[nrow(result),5], result[nrow(result),6], 
+                                             result[nrow(result),7], result[nrow(result),8], result[nrow(result),9],
+                                             result[nrow(result),10])
+    result$has_no_issue[nrow(result)] <- ifelse(is.na(result$has_no_issue[nrow(result)]), TRUE, 
+                                                result$has_no_issue[nrow(result)])
+  }
+  result
+}
+summarize.result <- function(result) {
+  funsum <- function(x) {
+    data.frame(true = length(which(x)), false = length(which(!x)), na = length(which(is.na(x))))
+  }
+  summary <- apply(result[,3:ncol(result)], 2, funsum)
+  summary <- matrix(unlist(summary), ncol=3, byrow = T)
+  rownames(summary) <- names(result)[3:10]
+  colnames(summary) <- c("true", "false", "na")
+  summary
+}
+summary.of.partner <- function(data, loop, partner) {
+  data_partner <- data %>% filter(ngo == partner)
+  result <- general.checks(data_partner, loop)
+  summary <- summarize.result(result)
+  round(summary / nrow(data_partner) * 100)
 }

@@ -1,12 +1,11 @@
-#devtools::install_github("boukepieter/cleaninginspectoR", build_opts=c())
-
 setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
 dir <- "raw_data/20190630"
-kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=T)
 
-data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
+                                                                               ifelse(calc_host == 1, "host", NA)))) 
 child <- read.csv(sprintf("%s/child.csv",dir), stringsAsFactors = F)
 
 #unique uuid's
@@ -14,56 +13,33 @@ find_duplicates_uuid(data)
 
 inspect_all(data, uuid.column.name = "X_uuid")
 
-#interview speed
+## interview speed
 times <- as.POSIXct(data$end,format="%Y-%m-%dT%H:%M:%OS") - as.POSIXct(data$start,format="%Y-%m-%dT%H:%M:%OS")
 median(times)
 
-#shortest path (# of NA's)
+# shortest path (# of NA's)
 NAs <- apply(data,1,FUN=function(x){length(which(is.na(x)))})
 overview_times <- data.frame(enumerator=data$enumerator_num, time=times, family_size=data$num_family_member,
                              NAs=NAs, ngo=data$ngo)
+mean_per_enum <- overview_times %>% group_by(enumerator) %>% summarize(mean(time))
 write.csv(overview_times, sprintf("%s/overview.csv",dir), row.names = F)
 
-#pop group
-data %>% mutate(total_pop_cat=sum(calc_idp,calc_returnee,calc_host,na.rm=T)) %>% 
-  dplyr::select(total_pop_cat) ## ISSUE, TO SOLVE
-data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
-                                                                     ifelse(calc_host == 1, "host", NA)))) 
-#date check
-submission_date_to_check <- c("2019-06-27")
-filtered_data <- data %>% filter(date_assessment >= submission_date_to_check) 
-sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
-#right locations by date
-submission_date_to_check <- c("2019-06-28")
-filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
-sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
-result <- points.inside.cluster(data = filtered_data, samplepoints, sample_areas, dir)
-print(result)
+## translating other...
+data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+result <- translate.others.arabic(data, ignore.cols = c("inc_other", "restriction_other"))
+write.csv(result, sprintf("%s/translations.csv", dir), row.names = F, fileEncoding = "UTF-8")
 
-log <- log.cleaning.change(uuid = data_on_cluster$X_uuid, old.value = data_on_cluster$cluster_location_id,
-                          new.value = clusters_at_date[2], question.name = "cluster_location_id",
-                          issue = "wrong cluster selected, the right one is checked with the gps points", 
-                          dir = dir)
-execute.cleaning.changes(dir)
+## household individual data
+loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+loop_without_error <- loop %>% filter(relationship != "error")
 
-kml_open(file.name=sprintf("maps/%s",clusters_at_date[cluster_no_to_check]),
-         folder.name=clusters_at_date[cluster_no_to_check], kml_open=F)
-plotKML(cluster_area)
-plotKML(cluster_points)
-plotKML(interview_locations_geo, colour="cluster")
+#	Check whether the household size number given and the individual roster fits, 
+# and if there is discrepancy between the household survey and individual loop. 
+result <- general.checks(data, loop_without_error)
+summary <- summarize.result(result)
+summary
+round(summary / nrow(data) * 100)
 
-
-
-#TODO(visualize cluster_area + cluster_points + interview_locations)
-
-#outliers check in integer values
-data$birth_cert_missing_amount_a1 + data$birth_cert_missing_amount_u1 > data$num_hh_member
-data$id_card_missing_amount > data$num_hh_member
-data$num_family_member > data$num_hh_member
-data$num_hh_member > 25
-data$refill_times > 10
-data$people_share_tank > 20
-
-data$num_family_member
-apply(data$X_uuid,c(1,2),FUN=function(x){child$X_uuid})
+table(data$ngo)
+summary.of.partner(data, loop_without_error, "mcna01")
