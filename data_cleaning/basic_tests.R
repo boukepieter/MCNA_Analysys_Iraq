@@ -43,3 +43,13 @@ round(summary / nrow(data) * 100)
 
 table(data$ngo)
 summary.of.partner(data, loop_without_error, "mcna01")
+
+og <- log.cleaning.change(uuid = result$uuid[which(result$no_single_spouse == FALSE)], 
+                          action = "c", old.value = "cluster_location_id_0553",
+                          new.value = result$alternative_cluster[6], question.name = "cluster_location_id",
+                          issue = "wrong cluster selected, the right one is checked with the gps points", 
+                          dir = dir)
+execute.cleaning.changes(dir)
+
+loop %>% filter(X_submission__uuid %in% result$uuid[which(result$no_single_spouse == FALSE)] & relationship == "spouse") %>% 
+  dplyr::select(marital_status)
