@@ -1,3 +1,4 @@
+options(java.parameters = "- Xmx1024m")
 library(cleaninginspectoR)
 library(plotKML)
 library(rgeos)
@@ -20,3 +21,6 @@ samplepoints[["returnee"]] <- samplepoints[["r"]]
 sample_areas[["returnee"]] <- sample_areas[["r"]]
 
 gl_auth("test/My First Project-9df13c475b8e.json")
+
+psu <- read.csv("raw_data/combined_sample_ids.csv", stringsAsFactors = F)
+partners <- read.csv("test/partners.csv", header = F, stringsAsFactors = F)

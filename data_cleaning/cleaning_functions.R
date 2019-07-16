@@ -45,12 +45,15 @@ log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL
   if (file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
     log <- read.csv(log_file, stringsAsFactors = F)
   } else {
-    log <- data.frame(uuid = character(), question.name = character(), issue = character(), feedback = character(), 
-                      action = character(), changed = logical(), old.value = character(), new.value = character(), 
+    log <- data.frame(log_date = character(), uuid = character(), question.name = character(), 
+                      issue = character(), feedback = character(), 
+                      action = character(), changed = logical(), old.value = character(), 
+                      new.value = character(), 
                       stringsAsFactors = F)
   }
   for (i in 1:length(uuid)){
     log[nrow(log)+1,"uuid"] <- uuid[i]
+    log$log_date[nrow(log)] <- format(Sys.Date(), "%d-%m-%Y")
     log$action[nrow(log)] <- action
     log$issue[nrow(log)] <- issue
     if (action != "deletion") {
@@ -64,7 +67,57 @@ log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL
   write.csv(log, log_file, row.names = F)
   return(log)
 }
-
+log.cleaning.change.extended <- function(data, partners, psu, uuid, action,  
+                                         question.name=NULL, new.value=NULL, issue=NULL,
+                                dir) {
+  action <- ifelse(action == "c", "change", ifelse(action == "d", "deletion", ifelse(action == "f", "flag", action)))
+  if (!action %in% c("change", "deletion", "flag")) {
+    stop("action given is not a valid action")
+  }
+  if (action == "change" & (is.null(question.name) | is.null(new.value))) {
+    stop("For a change all the parameters of old.value, question.name and new.value should be given.")
+  }
+  if (action == "flag" & is.null(question.name)) {
+    stop("For a flag the parameter question.name should be given.")
+  }
+  log_file <- sprintf("%s/cleaning_logbook.csv",dir)
+  if (file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
+    log <- read.csv(log_file, stringsAsFactors = F)
+  } else {
+    log <- data.frame(survey = character(), uuid = character(), governorate = character(), log_date = character(), 
+                      location_id = character(), location_name = character(), district = character(),
+                      ngo = character(), ngo_name = character(), enumerator = character(), 
+                      question.name = character(), 
+                      issue = character(), feedback = character(), 
+                      action = character(), changed = logical(), old.value = character(), 
+                      new.value = character(), 
+                      stringsAsFactors = F)
+  }
+  for (i in 1:length(uuid)){
+    log[nrow(log)+1,"uuid"] <- uuid[i]
+    row_nr <- which(data$X_uuid == uuid[i])
+    log$survey[nrow(log)] <- ifelse("ngo" %in% names(data), "parent", "loop")
+    log$governorate[nrow(log)] <- data$governorate_mcna[row_nr]
+    log$log_date[nrow(log)] <- format(Sys.Date(), "%d-%m-%Y")
+    log$location_id[nrow(log)] <- data$cluster_location_id[row_nr]
+    log$location_name[nrow(log)] <- psu[match(data$cluster_location_id[row_nr], psu[,3]),7]
+    log$district[nrow(log)] <- psu[match(data$cluster_location_id[row_nr], psu[,3]),5]
+    log$ngo[nrow(log)] <- data$ngo[row_nr]
+    log$ngo_name[nrow(log)] <- partners[match(data$ngo[row_nr], partners[,1]),2]
+    log$enumerator[nrow(log)] <- data$enumerator_num[row_nr]
+    log$action[nrow(log)] <- action
+    log$issue[nrow(log)] <- issue
+    if (action != "deletion") {
+      log$question.name[nrow(log)] <- question.name
+      log$old.value[nrow(log)] <- data[row_nr, question.name]
+    }
+    if (action == "change") {
+      log$new.value[nrow(log)] <- new.value
+    }
+  }
+  write.csv(log, log_file, row.names = F)
+  return(log)
+}
 execute.cleaning.changes <- function(dir, uuid_column=NULL) {
   if (!file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
     stop("no cleaning file found")
@@ -135,8 +188,10 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
           area_UTM <- spTransform(x = cluster_area, UTM38N)
           area_buffer <- spTransform(gBuffer(spgeom = area_UTM, width = 1000), WGS84)
           inside_buffer <- gContains(area_buffer,interview_locations_geo)
-          result$inside_buffer[nrow(result)] <- inside_buffer
+        } else {
+          inside_buffer <- TRUE
         }
+        result$inside_buffer[nrow(result)] <- inside_buffer
       } else {
         message <- sprintf("No cluster exists for %s - %s\n", 
                            clusters[j], pop_groups[i])
@@ -147,6 +202,7 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
         inside_buffer <- FALSE
         result$message[nrow(result)] <- message
       }
+      inside_ <- TRUE
       if (!inside & !inside_buffer){ # Start check on different clusters
         for (k in 1:length(clusters)) {
           cluster_ <- strsplit(clusters[k],"_")[[1]][4]
@@ -183,7 +239,7 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
         }
       }
       
-      if (write_to_file) {
+      if (write_to_file & nrow(cluster_area_sf) > 0) {
         cent <- gCentroid(cluster_area)
         all_points <- rbind(interview_locations_geo@coords,cent@coords)
         loc <- bbox(all_points)
@@ -192,12 +248,12 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
                                      aes(x = X_gpslocation_longitude, y = X_gpslocation_latitude),
                                      color = "red", size=0.3) +
           geom_polygon(data=fortify(cluster_area), aes(long, lat), fill="red", colour="red", alpha=0.1) +
-          ggtitle(sprintf("%d. %s %s", counter, clusters[j], pop_groups[i]))
+          ggtitle(sprintf("%d. %s %s (%s)", counter, clusters[j], pop_groups[i], nrow(interview_locations)))
         ggsave(sprintf("%s/pics/%d.%s_%s.png", dir, counter, clusters[j], pop_groups[i]), plot = g, dpi=1000)
-        writeOGR(interview_locations_geo, dsn = paste(dir,"shapes", sep="/"), 
-                 layer=sprintf("%d.%s_%s", counter, clusters[j], pop_groups[i]),
-                 driver = "ESRI Shapefile", overwrite_layer = TRUE)
       }
+      writeOGR(interview_locations_geo, dsn = paste(dir,"shapes", sep="/"), 
+               layer=sprintf("%d.%s_%s", counter, clusters[j], pop_groups[i]),
+               driver = "ESRI Shapefile", overwrite_layer = TRUE)
     }
   }
   return(result)
@@ -213,8 +269,8 @@ points.inside.cluster.separated <- function(data, samplepoints, sample_areas, di
   
   data_pop <- data %>% filter(population_group == pop_group) 
   data_on_cluster <- data_pop %>% filter(cluster_location_id == cluster)
-  interview_locations <- data_on_cluster %>% dplyr::select(c(X_gpslocation_longitude,X_gpslocation_latitude))
-  interview_locations_geo <- SpatialPointsDataFrame(interview_locations,interview_locations, proj4string = WGS84)
+  interview_locations <- data_on_cluster %>% dplyr::select(c(X_gpslocation_longitude, X_gpslocation_latitude))
+  interview_locations_geo <- SpatialPointsDataFrame(interview_locations, interview_locations, proj4string = WGS84)
   
   cluster_nr <- strsplit(cluster,"_")[[1]][4]
   cluster_area_sf <- sample_areas[[pop_group]] %>% 
@@ -235,6 +291,8 @@ points.inside.cluster.separated <- function(data, samplepoints, sample_areas, di
         area_UTM <- spTransform(x = cluster_area, UTM38N)
         area_buffer <- spTransform(gBuffer(spgeom = area_UTM, width = buffer), WGS84)
         inside_buffer <- gContains(area_buffer,interview_locations_geo[i,])
+      } else {
+        inside_buffer <- TRUE
       }
     } else {
       inside <- FALSE
@@ -337,7 +395,8 @@ general.checks <- function(data, loop) {
     result$child_calculation_good[nrow(result)] <- data$tot_child[i] == children %>% filter(age < 18) %>% nrow
     
     # check on employment without income (or income without employment)
-    result$not_employed_without_income <- ("yes" %in% children$work & data$primary_livelihood.employment[i] == 1) |
+    result$not_employed_without_income[nrow(result)] <- ("yes" %in% children$work & 
+                                                           data$primary_livelihood.employment[i] == 1) |
       (! "yes" %in% children$work & data$primary_livelihood.employment[i] != 1)
     
     # summarizing has issue
@@ -364,4 +423,18 @@ summary.of.partner <- function(data, loop, partner) {
   result <- general.checks(data_partner, loop)
   summary <- summarize.result(result)
   round(summary / nrow(data_partner) * 100)
+}
+set.up.cleaning.dir <- function(dir) {
+  main_dir <- dir
+  date <- format(Sys.Date(), "%Y%m%d")
+  dirs <- list.dirs(main_dir, recursive = F)
+  dir.create(sprintf("%s/%s", main_dir, date))
+  dir.create(sprintf("%s/%s/pics", main_dir, date))
+  file.copy(sprintf("%s/cleaning_logbook.csv", dirs[length(dirs)]), 
+            sprintf("%s/%s/cleaning_logbook.csv", main_dir, date))
+  file.copy(sprintf("%s/parent_cleaned.csv", dirs[length(dirs)]), 
+            sprintf("%s/%s/parent_cleaned_old.csv", main_dir, date))
+  file.copy(sprintf("%s/surveys_cleaned.csv", dirs[length(dirs)]), 
+            sprintf("%s/%s/surveys_cleaned_old.csv", main_dir, date))
+  
 }
