@@ -1,8 +1,8 @@
 setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
-dir <- "raw_data/20190714"
-ignore_date <- c("2019-07-19")
+dir <- "raw_data/20190720"
+ignore_date <- c("2019-07-21")
 
 data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
@@ -55,6 +55,14 @@ write.csv(overview_times, sprintf("%s/overview.csv",dir), row.names = F)
 data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
 result <- translate.others.arabic(data, ignore.cols = c("inc_other", "restriction_other"))
 write.csv(result, sprintf("%s/translations.csv", dir), row.names = F, fileEncoding = "UTF-8")
+uq <- unique(result$question.name)
+for (i in 1:length(uq)){
+  uuid <- result$uuid[which(result$question.name == uq[i])]
+  log <- log.cleaning.change.extended(data, partners, psu, uuid = uuid, action = "f",  
+                                      question.name=uq[i], 
+                                      issue="Other text, to be recoded",
+                                      dir = dir)
+}
 
 ## household individual data
 loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")

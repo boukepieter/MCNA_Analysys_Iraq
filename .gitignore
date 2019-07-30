@@ -5,4 +5,7 @@
 ignore
 data_cleaning/raw_data
 data_cleaning/test
+data_cleaning/finished_districts.xlsx
 data_cleaning/*.kml
+output
+input/parent_cleaned_anonymised.csv

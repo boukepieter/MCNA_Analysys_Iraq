@@ -82,7 +82,7 @@ log.cleaning.change.extended <- function(data, partners, psu, uuid, action,
   }
   log_file <- sprintf("%s/cleaning_logbook.csv",dir)
   if (file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
-    log <- read.csv(log_file, stringsAsFactors = F)
+    log <- read.csv(log_file, stringsAsFactors = F, encoding = "UTF-8")
   } else {
     log <- data.frame(survey = character(), uuid = character(), governorate = character(), log_date = character(), 
                       location_id = character(), location_name = character(), district = character(),
@@ -115,14 +115,14 @@ log.cleaning.change.extended <- function(data, partners, psu, uuid, action,
       log$new.value[nrow(log)] <- new.value
     }
   }
-  write.csv(log, log_file, row.names = F)
+  write.csv(log, log_file, row.names = F, fileEncoding = "UTF-8")
   return(log)
 }
 execute.cleaning.changes <- function(dir, uuid_column=NULL) {
   if (!file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
     stop("no cleaning file found")
   }
-  log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
+  log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
   data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
   match <- grep(pattern = "uuid", x = names(data))
   if (is.null(uuid_column)){
@@ -327,15 +327,16 @@ translate.others.arabic <- function(data, ignore.cols = NULL) {
   if (!is.null(ignore.cols)) {
     cols <- cols[-which(!is.na(match(cols, ignore.cols)))]
   }
-  result <- data.frame(question.name = character(), row = numeric(), arabic = character(), english = character(),
+  result <- data.frame(question.name = character(), uuid = character(), row = numeric(), arabic = character(), english = character(),
                        stringsAsFactors = F)
   for (i in 1:length(cols)) {
     cat(sprintf("%d/%d\n", i, length(cols)))
-    indices <- which(!is.na(data[,cols[i]]))
+    indices <- which(!is.na(data[,cols[i]]) & data[,cols[i]] != "")
     if (length(indices) > 0) {
       for (j in 1:length(indices)) {
         result[nrow(result) + 1, 1] <- cols[i]
         result$row[nrow(result)] <- indices[j]
+        result$uuid[nrow(result)] <- data$X_uuid[indices[j]]
         arab <- data[indices[j], cols[i]]
         result$arabic[nrow(result)] <- arab
         if (is.character(arab)) {
@@ -424,17 +425,72 @@ summary.of.partner <- function(data, loop, partner) {
   summary <- summarize.result(result)
   round(summary / nrow(data_partner) * 100)
 }
-set.up.cleaning.dir <- function(dir) {
+set.up.cleaning.dir <- function(dir, name = NULL) {
   main_dir <- dir
   date <- format(Sys.Date(), "%Y%m%d")
+  date <- ifelse(is.null(name), date, name)
   dirs <- list.dirs(main_dir, recursive = F)
+  old_dirs <- dirs[grep(pattern = "raw_data/[0-9]",x = dirs)]
   dir.create(sprintf("%s/%s", main_dir, date))
   dir.create(sprintf("%s/%s/pics", main_dir, date))
-  file.copy(sprintf("%s/cleaning_logbook.csv", dirs[length(dirs)]), 
+  file.copy(sprintf("%s/cleaning_logbook.csv", old_dirs[length(old_dirs)]), 
             sprintf("%s/%s/cleaning_logbook.csv", main_dir, date))
-  file.copy(sprintf("%s/parent_cleaned.csv", dirs[length(dirs)]), 
+  file.copy(sprintf("%s/parent_cleaned.csv", old_dirs[length(old_dirs)]), 
             sprintf("%s/%s/parent_cleaned_old.csv", main_dir, date))
-  file.copy(sprintf("%s/surveys_cleaned.csv", dirs[length(dirs)]), 
+  file.copy(sprintf("%s/surveys_cleaned.csv", old_dirs[length(old_dirs)]), 
             sprintf("%s/%s/surveys_cleaned_old.csv", main_dir, date))
   
+}
+map.finished.districts <- function(data, log, loc_overview, strata, govs, dir) {
+  uuid <- log %>% dplyr::filter(question.name %in% c("calc_host", "calc_idp", "calc_returnee", "cluster_location_id", "host_calc") &
+                                  action == "flag" & (is.na(feedback) | ! startsWith(feedback, "keep"))) %>% dplyr::select(uuid)
+  "11bf3e23-711b-4026-a099-6605a2e5d14e" %in% uuid$uuid # TRUE 
+  "5da1b0f4-aa8b-4fb9-be7e-73b57611e01b" %in% uuid$uuid # FALSE 85
+  "2250a84f-d30c-45b3-961c-79dfafd78de3" %in% uuid$uuid # FALSE 825
+  data_filtered <- data %>% filter(! X_uuid %in% uuid$uuid)
+  loc_overview <- loc_overview[which(loc_overview$Survey !=0 & !is.na(loc_overview$Survey)),]
+  for (i in 1:nrow(loc_overview)) {
+    n <- data_filtered %>% filter(endsWith(data_filtered$cluster_location_id, substr(loc_overview$label[i],1,4)) 
+                                  & population_group == tolower(loc_overview$pop_group[i]))
+    loc_overview$surveys_done[i] <- nrow(n)
+    loc_overview$complete[i] <- min(loc_overview$surveys_done[i] / loc_overview$Survey[i], 1)
+  }
+  write.csv(loc_overview, sprintf("%s/locations_overview.csv",dir), row.names = F)
+  summarized <- loc_overview %>% group_by(strata) %>% summarise(mean(complete))
+  strata$complete <- summarized$`mean(complete)`[match(strata$ADM2_EN, summarized$strata)]
+  pal <- colorNumeric("RdYlBu", replace(strata$complete,is.infinite(strata$complete),0),reverse=F)
+  centers <- data.frame(gCentroid(strata, byid = TRUE))
+  centers$lbl <- strata$ADM2_EN
+  m <- leaflet(strata) %>% 
+    addTiles() %>%
+    setView(44, 34, zoom = 8) %>% 
+    addPolygons(data = strata, color="black",fillColor=~pal(strata$complete),
+                fillOpacity=0.75) %>% 
+    addLabelOnlyMarkers(data = centers,
+                        lng = ~x, lat = ~y, label = ~lbl,
+                        labelOptions = labelOptions(noHide = TRUE, direction = 'top', textOnly = TRUE)) %>%
+    addPolygons(data=govs, color = "black", weight = 10, fillOpacity = 0)%>% 
+    addPolygons(data = strata, color="black",fillColor=~pal(strata$complete),
+                highlightOptions = highlightOptions(color = "white", weight = 2,
+                                                    bringToFront = TRUE),
+                fillOpacity=0,
+                popupOptions=popupOptions(maxWidth=300,closeOnClick=T),
+                popup = sprintf("%s %%",round(strata$complete * 100,1)))#%>% 
+  
+  saveWidget(m,sprintf("%s/%s/map_%s_without_buffer.html",getwd(),dir,format(Sys.Date(), "%Y%m%d")))
+}
+check_if_cleaned <- function(result, check, psu, partners) {
+  missing <- which(!result$inside_alternative_cluster)
+  table <- data.frame(index=numeric(), cleaned=logical(), district=character(), ngo=character(), stringsAsFactors = F)
+  for (i in 1:length(missing)){
+    row <- table[i,"index"] <- missing[i]
+    uuid <- filtered_data %>% filter(cluster_location_id == result[row,1] & population_group == result[row,3]) %>% 
+      dplyr::select(X_uuid)
+    table$cleaned[i] <- round(length(which(uuid$X_uuid %in% check$uuid)) / nrow(uuid),1)
+    table$district[i] <- psu$district[match(result$cluster[row], psu$new_ID)]
+    ngo <- filtered_data %>% filter(cluster_location_id == result[row,1] & population_group == result[row,3]) %>% 
+      dplyr::select(ngo)
+    table$ngo[i] <- partners$V2[match(ngo$ngo, partners$V1)][1]
+  }
+  return(table)
 }
