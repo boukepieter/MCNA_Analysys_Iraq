@@ -19,14 +19,15 @@ kobo.xlsx.to.csv <- function(dir, sheetName, anonymise=F, anonymise_cols = NULL)
   write.csv(child,paste0(dir,"/child.csv"), row.names = F)
 }
 
-anonymise.cleaned.data <- function(dir, anonymise_cols = NULL) {
-  parent <- read.csv(sprintf("%s/parent_cleaned.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+anonymise.cleaned.data <- function(dir, name = NULL, anonymise_cols = NULL) {
+  name <- ifelse(is.null(name), "parent", name)
+  parent <- read.csv(sprintf("%s/%s_cleaned.csv", dir, name), stringsAsFactors = F, encoding = "UTF-8")
   if (is.null(anonymise_cols)) {
     anonymise_cols <- c(grep("*contact*",names(parent)), 
                         grep("*gpslocation*",names(parent)))
   }
   parent_ano <- parent[,-anonymise_cols]
-  write.csv(parent_ano,paste0(dir,"/parent_cleaned_anonymised.csv"), row.names = F, fileEncoding = "UTF-8")
+  write.csv(parent_ano,sprintf("%s/%s_cleaned_anonymised.csv", dir, name), row.names = F, fileEncoding = "UTF-8")
 } 
 
 log.cleaning.change <- function(uuid, action, old.value=NULL, question.name=NULL, new.value=NULL, issue=NULL,
@@ -118,12 +119,13 @@ log.cleaning.change.extended <- function(data, partners, psu, uuid, action,
   write.csv(log, log_file, row.names = F, fileEncoding = "UTF-8")
   return(log)
 }
-execute.cleaning.changes <- function(dir, uuid_column=NULL) {
+execute.cleaning.changes <- function(dir, filename = NULL, uuid_column=NULL) {
   if (!file.exists(sprintf("%s/cleaning_logbook.csv",dir))){
     stop("no cleaning file found")
   }
+  file <- ifelse(is.null(filename), "parent.csv", filename)
   log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
-  data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+  data <- read.csv(sprintf("%s/%s", dir, file), stringsAsFactors = F, encoding = "UTF-8")
   match <- grep(pattern = "uuid", x = names(data))
   if (is.null(uuid_column)){
     if (length(match) < 1) {
@@ -136,15 +138,15 @@ execute.cleaning.changes <- function(dir, uuid_column=NULL) {
   }
   
   for(i in 1:nrow(log)){
-    if (log$action[i] == "change") {
+    if (log$action[i] == "change" & log$uuid[i] %in% data$X_uuid) {
       data[which(data[,uuid_column] == log$uuid[i]), log$question.name[i]] <- log$new.value[i]
       log$changed[i] <- TRUE
-    } else if (log$action[i] == "deletion") {
+    } else if (log$action[i] == "deletion" & log$uuid[i] %in% data$X_uuid) {
       data <- data[-which(data[,uuid_column] == log$uuid[i]), ]
     }
   }
   write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F, fileEncoding = "UTF-8")
-  write.csv(data, sprintf("%s/parent_cleaned.csv", dir), row.names = F, fileEncoding = "UTF-8")
+  write.csv(data, sprintf("%s/%s_cleaned.csv", dir, strsplit(file, "\\.")[[1]][1]), row.names = F, fileEncoding = "UTF-8")
 }
 
 points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_to_file = FALSE, buffer = 1000) {

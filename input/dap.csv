@@ -1,0 +1,90 @@
+Indicator Group / Sector,research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+HH Profile,Duration of displacement - IDP & Returnee,district,type_hh,categorical,A19,numerical,direct_reporting
+HH Profile ,% HH from [governorate of origin],district,type_hh,categorical,A20,categorical,direct_reporting
+HH Profile ,% HH from [district of origin],district,type_hh,categorical,A21,categorical,direct_reporting
+Intentions,% HH that attempted return to their AoO,district,type_hh,categorical,A22,categorical,direct_reporting
+Intentions,% of IDP HHs that intend to remain in their current location for the next three months,district,type_hh,categorical,A24,categorical,direct_reporting
+Intentions,% of IDP HHs that intend to remain in their current location for the next twelve months,district,type_hh,categorical,A25,categorical,direct_reporting
+Intentions,% of returnee HHs that intend to remain in their current location for the next three months,district,type_hh,categorical,A27,categorical,direct_reporting
+Intentions,% of returnee HHs that intend to remain in their current location for the next twelve months,district,type_hh,categorical,A28,categorical,direct_reporting
+Intentions,% HHs of returnee or IDP that would consider displacement again due to [insert response option],district,type_hh,categorical,A29,categorical,direct_reporting
+Intentions,% of IDP HHs that currently intends to return to their AoO due to [insert response option],district,type_hh,categorical,A26,categorical,direct_reporting
+Intentions,% of IDP HHs that currently don't intend to return to their AoO due to [insert response option],district,type_hh,categorical,A26,categorical,direct_reporting
+"Intentions, Protection - HLP ","% of IDP HHs not intending to return due to HLP issues (damage/destruction, secondary occupation or unresolved HLP ownership issues)",district,type_hh,categorical,G67,categorical,direct_reporting
+"Intentions, Protection - MA",% of IDP HHs not intending to return to their AoO due to explosive hazards contamination,district,type_hh,categorical,G73,categorical,direct_reporting
+Protection - HLP,% HH lacking secure tenure,district,type_hh,categorical,G68,categorical,direct_reporting
+"Protection, Protection - CP","% HH missing at least one key household or individual document 
+Sub-indicator: % HH with at least one child missing a key document",district,type_hh,categorical,G51,categorical,direct_reporting
+Protection - Protection CP,Number of reported children missing birth certificates,district,type_hh,categorical,G51a,numerical,direct_reporting
+Protection - Protection CP,Number of reported children missing national ID,district,type_hh,categorical,G51b,numerical,direct_reporting
+"Protection, Access and safety",% HHs experiencing daytime movement restrictions,district,type_hh,categorical,G54,categorical,direct_reporting
+Protection - GBV ,% women and girls who avoid areas because they feel unsafe there,district,type_hh,categorical,G63,categorical,direct_reporting
+HH Profile,Average household size,district,type_hh,categorical,A7,numerical,direct_reporting
+Family Profile,Average family size ,district,type_hh,categorical,A8,numerical,direct_reporting
+Family Profile,% of [male/female] family members,district,type_hh,categorical,A9,categorical,direct_reporting
+Family Profile,% of [children/adult/elderly] family members,district,type_hh,categorical,A10,categorical,direct_reporting
+"Family Profile, 
+Protection","% of single-headed households (separated, divorced, widowed) ",district,type_hh,categorical,A11,categorical,direct_reporting
+"Family Profile, Protection CP",% of child-headed household,district,type_hh,categorical,A11a,categorical,direct_reporting
+"Family Profile, Protection CP & Protection GBV",% of households with presence of child marriage,district,type_hh,categorical,A12,categorical,direct_reporting
+"Family Profile, Health",% of women pregnant / lactating,district,type_hh,categorical,C11,categorical,direct_reporting
+"Family Profile, Health",% HH with at least one individual with a chronic health condition,district,type_hh,categorical,G35,categorical,direct_reporting
+"Protection, Health","% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)",district,type_hh,categorical,C3,categorical,direct_reporting
+"Protection MA,
+Health",% HH with individuals whose disability is related to an explosive hazard,district,type_hh,categorical,C2,categorical,direct_reporting
+Protection,% HH with members unable to access one or more services due to disability,district,type_hh,categorical,C9,categorical,direct_reporting
+"Education, Protection - CP",% HH with at least one child not attending formal or informal education regularly (at least 3 days a week),district,type_hh,categorical,G4,categorical,direct_reporting
+"Education 
+Protection - CP",% HH with at least one child that dropped out after January 2014,district,type_hh,categorical,G6,categorical,direct_reporting
+"Education, Protection - CP",Main barriers to school for school-aged children,district,type_hh,categorical,G7,categorical,direct_reporting
+"Education, Protection - CP",% HH with at least one child unable to attend formal education because of lack of civil documentation,district,type_hh,categorical,G7a,categorical,direct_reporting
+Livelihoods,Main barriers to employment,district,type_hh,categorical,G45,categorical,direct_reporting
+Food Security,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, using CARI Analysis (composite using FCS, food expenditure share, and CS categories)",district,type_hh,categorical,G14,categorical,direct_reporting
+"Livelihoods, Food Security, CWG, Protection",% HH relying on stress / crisis / emergency strategies to cope with a lack of resources to meet basic needs. ,district,type_hh,categorical,"B5, B6,
+B7",categorical,direct_reporting
+Health,% HH with access to a functional health clinic within 5km ,district,type_hh,categorical,G25,categorical,direct_reporting
+Health,"% HH with access to a functional hospital within 10 km with emergency, maternity, surgical and pediatric services ",district,type_hh,categorical,G26,categorical,direct_reporting
+"Health, Protection GBV",% Women of reproductive age (12-49) with access to specialized reproductive health services,district,type_hh,categorical,G32,categorical,direct_reporting
+"Health, Protection CP",% HH with children with psychosocial distress (proxy data with behaviour change),district,type_hh,categorical,G56,categorical,direct_reporting
+"Health, Protection ",% HH adults with psychosocial distress (proxy data with behavior change),district,type_hh,categorical,G57,categorical,direct_reporting
+Health,% HH who accessed medical healthcare in the three months prior to data collection,district,type_hh,categorical,G33,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,district,type_hh,categorical,G34,categorical,direct_reporting
+WASH,% of HH with access to an improved water source,district,type_hh,categorical,G95,categorical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,district,type_hh,categorical,G94,categorical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,district,type_hh,categorical,G96,categorical,direct_reporting
+WASH,% HH without  access to waste collection services (in camps),district,type_hh,categorical,G101,categorical,direct_reporting
+WASH,% HH with access to improved functional sanitation facilities ,district,type_hh,categorical,G97,categorical,direct_reporting
+WASH,% HH with access to soap and practicing handwashing,district,type_hh,categorical,G99,categorical,direct_reporting
+"SNFI, Protection",% of people living under critical shelter conditions (aggregated indicator),district,type_hh,categorical,A16,categorical,direct_reporting
+"SNFI, Protection",% HH living with hosts ,district,type_hh,categorical,A17,categorical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,district,type_hh,categorical,G64,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,district,type_hh,categorical,G65,categorical,direct_reporting
+SNFI,Main shelter issues,district,type_hh,categorical,G90,categorical,direct_reporting
+SNFI,% HHs needing basic NFI items,district,type_hh,categorical,G85,categorical,direct_reporting
+SNFI,% HHs reporting at least 2 shelter improvements,district,type_hh,categorical,G89,categorical,direct_reporting
+Education,Access to ed: % HH with a functional primary and secondary school within 5km,district,type_hh,categorical,G8,categorical,direct_reporting
+Livelihoods,"% of households whose average monthly income [from employment and pension] was less than 480,000 IQD/month",district,type_hh,categorical,B1,categorical,direct_reporting
+Livelihoods,"% of single female headed households whose average monthly income [from employment and pension] was less than 480,000 IQD/month",district,type_hh,categorical,B3,categorical,direct_reporting
+Livelihoods,% HH relying exclusively on humanitarian assistance as their main source of income,district,type_hh,categorical,B2,categorical,direct_reporting
+Livelihoods,% HH with all working adults in unstable employment,district,type_hh,categorical,G46,categorical,direct_reporting
+Livelihoods,% HH spending [expenditure] on basic needs per month,district,type_hh,categorical,G100,categorical,direct_reporting
+Livelihoods,"% HH with debt value > 505,000 IQD ",district,type_hh,categorical,G37,categorical,direct_reporting
+Livelihoods,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",district,type_hh,categorical,G38,categorical,direct_reporting
+Livelihoods,% HH with access to a market less than 5 km away,district,type_hh,categorical,G41,categorical,direct_reporting
+Durable Solutions - Adequate standard of living,"% HH with access to essential health services (emergency, maternity, pediatric and surgical services within 10km, health clinic within 5 km)",district,type_hh,categorical,F4,categorical,direct_reporting
+"Durable Solutions - Adequate standard of living, Protection - HLP",% HH that were evicted from previous shelter/housing in the 12 months previous,district,type_hh,categorical,F5,categorical,direct_reporting
+Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,district,type_hh,categorical,F6,categorical,direct_reporting
+"Durable solutions -  Access to effective mechanisms to restore housing, land and property (HLP) or to provide compensation, Protection - HLP",% HH in need of property compensation and unable to access it,district,type_hh,categorical,F7,categorical,direct_reporting
+"Durable Solutions - Use of mechanisms for effective remedies, incl. access to justice, reparations and information about the causes of violations", % HH with access/knowledge of complaint mechanisms ,district,type_hh,categorical,F7b,categorical,direct_reporting
+Durable solutions - Access to and replacement of personal and other documentation,% IDP households missing at least one key individual document or one key household document,district,type_hh,categorical,F8,categorical,direct_reporting
+Durable solutions - Voluntary reunification with family members separated during displacement,% HH with separated household members,district,type_hh,categorical,F9,categorical,direct_reporting
+Durable solutions - Participation in public affairs,% HH with at least one adult unable to register to vote ,district,type_hh,categorical,F10,categorical,direct_reporting
+AAP,% HH reporting to have received aid ,district,type_hh,categorical,D4,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],district,type_hh,categorical,D5,categorical,direct_reporting
+AAP,% HH satsified with aid received ,district,type_hh,categorical,D6,categorical,direct_reporting
+AAP,% HH not satsified with quanitity ,district,type_hh,categorical,D7,categorical,direct_reporting
+AAP,% HH not satisifed with aid worker behavior ,district,type_hh,categorical,D10,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",district,type_hh,categorical,D13,categorical,direct_reporting
+AAP,% HH feeling they have a say in decisions affecting their community ,district,type_hh,categorical,D11,categorical,direct_reporting
+AAP,% HH with acces/knowledge of complaint mechanisms ,district,type_hh,categorical,D12,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,district,type_hh,categorical,D14,categorical,direct_reporting

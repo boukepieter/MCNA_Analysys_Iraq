@@ -1,5 +1,4 @@
 # setup
-
 library(dplyr)
 library(koboquest) # manage kobo questionnairs
 library(kobostandards) # check inputs for inconsistencies
@@ -9,6 +8,7 @@ library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
+source("functions/recoding.R")
 #source("./pre-process_strata_names.R")
 
 # load questionnaire inputs
@@ -35,54 +35,16 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
                          stringsAsFactors=F, check.names=F)
 
 response_w_clusterids <- response %>% 
-  mutate(strata = paste0(cluster_lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)],type_hh))
+  mutate(district = cluster_lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)])
+response_w_clusterids <- response_w_clusterids %>% 
+  mutate(strata = paste0(district,type_hh))
 
 
 # horizontal operations / recoding
 
-r <- response_w_clusterids %>% 
-  new_recoding(source=why_not_return, target=G73) %>% 
-  recode_to(1, where=why_not_return.presence_of_mines == 1) %>% 
-  recode_to(0, where=why_not_return.presence_of_mines == 0) %>%
-  
-  new_recoding(source=hh_dispute, target=G68) %>% 
-  recode_to(1, where.selected.exactly = "yes",
-            otherwise.to = 0) %>% 
-  
-  new_recoding(target=G51) %>% 
-  recode_to(1, where = pds == "no" | info_card == "no" | death_certificate == "no" | guardianship == "no" | inheritance == "no" | 
-              trusteeship == "no" | passport_a18 == "no" | id_card_a18 == "no" | citizenship_a18 == "no" | birth_cert_a18 == "no" |
-              school_cert_a18 == "non_valid" | marriage_cert_a18 == "non_valid" | divorce_cert_a18 == "non_valid" |
-              passport_u18 == "no" | id_card_u18 == "no" | citizenship_u18 == "no" | birth_cert_u18 == "no" | 
-              marriage_cert_u18 == "non_valid" | divorce_cert_u18 == "non_valid") %>% 
-  recode_to(0, where = ! (pds == "no" | info_card == "no" | death_certificate == "no" | guardianship == "no" | inheritance == "no" | 
-              trusteeship == "no" | passport_a18 == "no" | id_card_a18 == "no" | citizenship_a18 == "no" | birth_cert_a18 == "no" |
-              school_cert_a18 == "non_valid" | marriage_cert_a18 == "non_valid" | divorce_cert_a18 == "non_valid" |
-              passport_u18 == "no" | id_card_u18 == "no" | citizenship_u18 == "no" | birth_cert_u18 == "no" | 
-              marriage_cert_u18 == "non_valid" | divorce_cert_u18 == "non_valid")) %>%  
-  
-  new_recoding(target=G51_sub) %>% 
-  recode_to(1, where = passport_u18 == "no" | id_card_u18 == "no" | citizenship_u18 == "no" | birth_cert_u18 == "no" | 
-              marriage_cert_u18 == "non_valid" | divorce_cert_u18 == "non_valid") %>% 
-  recode_to(0, where = ! (passport_u18 == "no" | id_card_u18 == "no" | citizenship_u18 == "no" | birth_cert_u18 == "no" | 
-                            marriage_cert_u18 == "non_valid" | divorce_cert_u18 == "non_valid")) %>% 
-  
-  new_recoding(target=G54) %>% 
-  recode_to(1, where = restriction_clearance == "yes" | restriction_documents == "yes" | restriction_time == "yes" | 
-              restriction_reason == "yes" | restriction_physical == "yes" | restriction_other == "yes") %>% 
-  recode_to(0, where = !(restriction_clearance == "yes" | restriction_documents == "yes" | restriction_time == "yes" | 
-              restriction_reason == "yes" | restriction_physical == "yes" | restriction_other == "yes")) %>% 
-  
-  new_recoding(target=G63, source = unsafe_areas) %>% 
-  recode_to(0, where.selected.exactly = "none",
-            otherwise.to = 1) %>% 
-  
-  
-  end_recoding
-r$G51a <- r$birth_cert_missing_amount_u1
-r$G51b <- r$id_card_missing_amount
+r <- recoding_mcna(response_w_clusterids)
 
-r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
+# r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
 # vertical operations / aggregation
 
@@ -91,43 +53,51 @@ r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable
 
 
 # make analysisplan including all questions as dependent variable by HH type, repeated for each governorate:
-r <- response_w_clusterids[,-c(518:523)]
 questionnaire <- load_questionnaire(r,questions,choices)
-analysisplan<-make_analysisplan_all_vars(r,
-                                         questionnaire,
-                                         independent.variable = "type_hh"
-                                         #repeat.for.variable = "governorate_mcna"
-                                         )
 
+# r1 <- response_w_clusterids[,-c(518:523)]
+# analysisplan_old <- make_analysisplan_all_vars(r1,
+#                                          questionnaire,
+#                                          independent.variable = "type_hh"
+#                                          #repeat.for.variable = "governorate_mcna"
+#                                          )
+analysisplan <- read.csv("input/dap.csv", stringsAsFactors = F)
 ### .. should/can this move up to loading inputs?
 
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
-
+samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
+samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
 samplingframe_strata <- samplingframe %>% 
   group_by(stratum) %>% 
-  summarize(population = sum(population))
+  summarize(population = sum(pop))
 
 samplingframe_strata<-as.data.frame(samplingframe_strata)
 
 # this line is dangerous. If we end up with missing strata, they're silently removed.
 # could we instead kick out more specifically the impossible district/population group combos?
-r <- r %>% 
-  filter(strata %in% samplingframe_strata$stratum)
+# r_test <- r_test %>% filter(strata %in% samplingframe_strata$stratum)
+r$cluster_id <- paste(r$cluster_location_id, r$type_hh, sep = "_")
+# r_test <- r_test %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 r_test <- r %>% 
   filter(strata %in% c("al.mosulidp","al.mosulreturnee","al.mosulhost"))
 
+library(surveyweights)
+clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
+                                                        sampling.frame.population.column = "pop",
+                                                        sampling.frame.stratum.column = "cluster_strata_ID",
+                                                        data.stratum.column = "cluster_id",
+                                                        data = r)
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                  sampling.frame.population.column = "population",
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata",
-                 data = response_w_clusterids)
+                 data = r)
 
+weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
 
-
-r$cluster_id <- paste(r$cluster_location_id,r$type_hh,sep = "_")
 
 result <- from_analysisplan_map_to_output(r_test, analysisplan = analysisplan,
-                                          weighting = strata_weight_fun,
+                                          weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire)
 

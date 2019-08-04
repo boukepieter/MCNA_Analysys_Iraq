@@ -1,0 +1,356 @@
+,id_sampl,Survey,strata,psu,Place_ID,Governorate,District,Location_name,Arabic_name,Latitude,Longitude,OCHA_admin_1,OCHA_admin_2,OCHA_PCode,pop,COD_Subdistrict,COD_Governorate,SumDist,proba,survey_buffer
+1,id_1011,6,Al-Mosul,2706159,31775,Ninewa,Mosul,Al-Areej Village,قرية العريج,36.19146914,43.20733423,,,,3000,Hammam Al-Alil,Ninewa,159060,0.018860807,7
+2,id_102,6,Al-Falluja,2105027,324,Anbar,Falluja,Albu Aifan,البوعيفان,33.30279302,43.75227984,IQ-G01,IQ-D002,IQ-P00063,831,Markaz Al-Falluja,Al-Anbar,90536,0.009178669,7
+3,id_1027,6,Al-Hatra,2706177,31893,Ninewa,Mosul,Qabr bin Naif Village,قرية قبر بن نايف,35.90076,43.07459,,,,104,Markaz Hatra,Ninewa,3448,0.030162413,7
+4,id_103,6,Al-Falluja,2105028,289,Anbar,Falluja,Albu Alwan,قرية البوعلوان,33.33548511,43.70601463,IQ-G01,IQ-D002,IQ-P00064,1349,Markaz Al-Falluja,Al-Anbar,90536,0.01490015,7
+5,id_1044,6,Al-Mosul,2706199,31912,Ninewa,Mosul,Bahzani,بحزاني ,36.457312,43.339418,IQ-G15,IQ-D087,,3120,Bashiqa,Ninewa,159060,0.01961524,7
+6,id_1061,6,Al-Mosul,2706228,21672,Ninewa,Mosul,Al-rabaa Village,قرية الربيع,36.248552,43.137789,IQ-G15,IQ-D087,IQ-P20065,60,Hammam Al-Alil,Ninewa,159060,0.000377216,7
+7,id_1067,12,Tilkaef,2706235,33174,Ninewa,Mosul,Tel Al-raes Al-thania Village,قرية تل الريس الثانية,36.412192,42.968775,,,,1203,Markaz Tilkaef,Ninewa,19813,0.060717711,13
+8,id_107,6,Al-Falluja,2105034,318,Anbar,Falluja,Albu Khanfar,البوخنفر ,33.44080496,43.82425762,IQ-G01,IQ-D002,IQ-P00075,2216,Al-Garma,Al-Anbar,90536,0.024476451,7
+9,id_1093,6,Al-Mosul,2706266,33248,Ninewa,Mosul,Al-Rabeea,حي الربيع,36.3600723,43.09438023,,,,815,Al-Muhamadath,Ninewa,159060,0.005123853,7
+10,id_11,6,Makhmour,1204031,11912,Erbil,Makhmur,Abu Sheta,ابو شيته,36.110558,43.558101,IQ-G11,IQ-D066,IQ-P14150,828,Gwyer,Erbil,6226,0.132990684,10
+11,id_110,6,Al-Falluja,2105037,21201,Anbar,Falluja,Albu Shihab,البوشهاب,33.39917258,43.58236978,IQ-G01,IQ-D002,IQ-P00080,1058,Markaz Al-Falluja,Al-Anbar,90536,0.011685959,7
+12,id_1111,6,Al-Mosul,2706286,18386,Ninewa,Mosul,Al-Mayasa,المياسا,36.339256,43.125781,IQ-G15,IQ-D087,,229,Al-Muhamadath,Ninewa,159060,0.001439708,7
+13,id_1127,6,Al-Mosul,2706302,17464,Ninewa,Mosul,Tal Khayma Village,قرية تل خيمة,36.43996585,42.85149236,IQ-G15,IQ-D087,IQ-P20215,151,Al-Muhamadath,Ninewa,159060,0.000949327,7
+14,id_114,6,Al-Falluja,2105044,173,Anbar,Falluja,Al-jamhuriya,الجمهورية,33.35025162,43.77339355,IQ-G01,IQ-D002,IQ-P00093,2356,Markaz Al-Falluja,Al-Anbar,90536,0.026022798,7
+15,id_115,12,Al-Falluja,2105045,299,Anbar,Falluja,Al-Julan,الجولان,33.36393445,43.76858627,IQ-G01,IQ-D002,IQ-P00094,2997,Markaz Al-Falluja,Al-Anbar,90536,0.033102854,13
+16,id_1196,6,Sinjar,2707001,22490,Ninewa,Sinjar,Hay Al Naser,حي النصر,36.32051324,41.84475215,IQ-G15,IQ-D089,IQ-P20602,85,Markaz Sinjar,Ninewa,9775,0.008695652,7
+17,id_1198,12,Sinjar,2707005,17928,Ninewa,Sinjar,Sinuni center,مركز سنوني,36.46593984,41.70783645,IQ-G15,IQ-D089,IQ-P20662,900,Al-Shamal,Ninewa,9775,0.092071611,13
+18,id_1199,12,Sinjar,2707006,27283,Ninewa,Sinjar,Dokri,دوكري,36.47017334,41.73811458,IQ-G15,IQ-D089,,500,Al-Shamal,Ninewa,9775,0.051150895,13
+19,id_12,12,Makhmour,1204032,13361,Erbil,Makhmur,Kapran,كبران,36.05915,43.50751,IQ-G11,IQ-D066,IQ-P14354,442,Gwyer,Erbil,6226,0.070992612,16
+20,id_120,6,Al-Kadhmiyah,2105052,291,Anbar,Falluja,Al-Shurtan,الشورتان ,33.40761233,44.03962039,IQ-G01,IQ-D002,IQ-P00110,117,Abu Ghraib,Baghdad,4771,0.024523161,7
+21,id_1200,6,Sinjar,2707007,27284,Ninewa,Sinjar,Dohola ,دهولا ,36.49092078,41.80661594,IQ-G15,IQ-D089,,850,Al-Shamal,Ninewa,9775,0.086956522,7
+22,id_1201,12,Sinjar,2707008,27285,Ninewa,Sinjar,Borek,بورك ,36.49436739,41.8687921,IQ-G15,IQ-D089,,1900,Al-Shamal,Ninewa,9775,0.194373402,13
+23,id_1202,6,Sinjar,2707009,18048,Ninewa,Sinjar,Guhbal and shorka,كهبل +شوركا  ,36.50572952,41.9620015,IQ-G15,IQ-D089,IQ-P20597,550,Al-Shamal,Ninewa,9775,0.056265985,7
+24,id_1213,6,Sinjar,2707021,27366,Ninewa,Sinjar,Balif,بليف,36.4286986,41.70025953,IQ-G15,IQ-D089,,107,Al-Shamal,Ninewa,9775,0.010946292,7
+25,id_1221,6,Sinjar,2707030,17720,Ninewa,Sinjar,Bir Adam,بير ادم,36.54227424,41.70882949,IQ-G15,IQ-D089,IQ-P20588,12,Al-Shamal,Ninewa,9775,0.001227621,7
+26,id_1228,18,Sinjar,2707038,27287,Ninewa,Sinjar,Zorava and zirwa,زورافا+زيروا ,36.47246728,42.01568212,IQ-G15,IQ-D089,,731,Al-Shamal,Ninewa,9775,0.074782609,19
+27,id_1244,6,Sinjar,2707056,18016,Ninewa,Sinjar,Golat,كولات,36.4036,42.1386,IQ-G15,IQ-D089,,320,Markaz Sinjar,Ninewa,9775,0.032736573,7
+28,id_1246,6,Sinjar,2707058,33486,Ninewa,Sinjar,Sibaya Ammash Village,قرية سيباية عماش,36.193079,42.06268,IQ-G15,IQ-D089,,60,Al-Qairawan,Ninewa,9775,0.006138107,7
+29,id_125,6,Al-Falluja,2105057,22706,Anbar,Falluja,Halabsa-Falluja,قرية الحلابسة ,33.32787499,43.72041925,IQ-G01,IQ-D002,IQ-P00128,2169,Markaz Al-Falluja,Al-Anbar,90536,0.023957321,7
+30,id_1250,6,Sinjar,2707062,33517,Ninewa,Sinjar,Khazoga,خازوكة,36.591867,41.878435,IQ-G15,IQ-D089,,170,Al-Shamal,Ninewa,9775,0.017391304,7
+31,id_1262,6,Telafar,2708011,25944,Ninewa,Telafar,Qasabat Zummar,قصبة زمار,36.65599757,42.59842495,IQ-G15,IQ-D090,,4050,Zummar,Ninewa,54996,0.073641719,7
+32,id_127,6,Al-Falluja,2105060,47,Anbar,Falluja,Luhib,اللهيب,33.3842137,43.97997737,IQ-G01,IQ-D002,IQ-P00157,865,Al-Garma,Al-Anbar,90536,0.00955421,7
+33,id_1271,6,Telafar,2708026,18308,Ninewa,Telafar,Hay Al Askari,حي العسكري,36.80246191,42.09719064,IQ-G15,IQ-D090,,1318,Rabia,Ninewa,54996,0.023965379,7
+34,id_1272,6,Telafar,2708027,25686,Ninewa,Telafar,Hay Al Arbaeen,حي الاربعين,36.80605796,42.08600213,IQ-G15,IQ-D090,,161,Rabia,Ninewa,54996,0.002927486,7
+35,id_1273,6,Telafar,2708028,25808,Ninewa,Telafar,Hay Alasreya,حي العصرية,36.80483492,42.08792852,IQ-G15,IQ-D090,,506,Rabia,Ninewa,54996,0.009200669,7
+36,id_1277,6,Telafar,2708032,25688,Ninewa,Telafar,Hay Al Qadisya,حي القادسية,36.805,42.084,IQ-G15,IQ-D090,,407,Rabia,Ninewa,54996,0.007400538,7
+37,id_1278,6,Telafar,2708033,18303,Ninewa,Telafar,Hay Al Salam,حي السلام,36.3886,42.464,IQ-G15,IQ-D090,IQ-P20766,605,Markaz Telafar,Ninewa,54996,0.0110008,7
+38,id_1280,6,Telafar,2708035,17580,Ninewa,Telafar,Jussa,قرية جصة,36.59552802,42.68164289,IQ-G15,IQ-D090,IQ-P20776,375,Zummar,Ninewa,54996,0.006818678,7
+39,id_1287,6,Telafar,2708044,25893,Ninewa,Telafar,Msherfa Village,قرية مشيرفة,36.76490081,42.06503244,IQ-G15,IQ-D090,,416,Rabia,Ninewa,54996,0.007564186,7
+40,id_1293,6,Telafar,2708050,17944,Ninewa,Telafar,Tal Mus,قرية تل موس,36.62946121,42.59857779,IQ-G15,IQ-D090,IQ-P20875,850,Zummar,Ninewa,54996,0.01545567,7
+41,id_131,6,Al-Falluja,2105065,315,Anbar,Falluja,Qaryat Albu Hadid Al-Nasir,البوحديد الناصر ,33.40387505,43.84486377,IQ-G01,IQ-D002,IQ-P00166,1748,Markaz Al-Falluja,Al-Anbar,90536,0.019307237,7
+42,id_1333,6,Telafar,2708107,17587,Ninewa,Telafar,Sahlij,قرية سهلج,36.568891,42.741987,IQ-G15,IQ-D090,IQ-P20849,210,Zummar,Ninewa,54996,0.00381846,7
+43,id_134,6,Al-Falluja,2105083,128,Anbar,Falluja,Hay Al Askari,الحي العسكري,33.36152,43.80445,IQ-G01,IQ-D002,IQ-P00026,3545,Markaz Al-Falluja,Al-Anbar,90536,0.039155695,7
+44,id_1353,6,Telafar,2708128,17440,Ninewa,Telafar,Al-Qadisiya Alawla,حي القادسية الاولى,36.38287,42.44938,IQ-G15,IQ-D090,IQ-P20826,627,Markaz Telafar,Ninewa,54996,0.011400829,7
+45,id_1362,6,Telafar,2708137,33275,Ninewa,Telafar,Hay Al jazira,حي الجزيرة,36.36375,42.4568,,,,1515,Markaz Telafar,Ninewa,54996,0.027547458,7
+46,id_1363,6,Telafar,2708138,33276,Ninewa,Telafar,Hay Al khadraa,حي الخضراء,36.36711,42.45525,,,,991,Markaz Telafar,Ninewa,54996,0.018019492,7
+47,id_1368,6,Telafar,2708143,33281,Ninewa,Telafar,Hay Alkefah al jenobi,حي الكفاح الجنوبي,36.36544,42.40947,,,,1700,Markaz Telafar,Ninewa,54996,0.030911339,7
+48,id_137,6,Al-Falluja,2105086,21809,Anbar,Falluja,Hay Al Shuhadaa,حي الشهداء,33.32251,43.79389,IQ-G01,IQ-D002,IQ-P00135,2875,Markaz Al-Falluja,Al-Anbar,90536,0.031755324,7
+49,id_1393,6,Telafar,2708168,33417,Ninewa,Telafar,Sahl Al Milhah Village,قرية سهل المالح,36.5188,42.3589,,,,195,Al-Ayadiya,Ninewa,54996,0.003545712,7
+50,id_1407,24,Tilkaef,2709004,24682,Ninewa,Tilkaif,Al Quba,القبة,36.40208884,43.05328391,IQ-G15,IQ-D091,,3600,Markaz Tilkaef,Ninewa,19813,0.181698885,25
+51,id_1408,12,Tilkaef,2709010,21603,Ninewa,Tilkaif,Baawiza,بعويزة,36.43356032,43.15522068,IQ-G15,IQ-D091,IQ-P20929,930,Markaz Tilkaef,Ninewa,19813,0.046938879,13
+52,id_1409,6,Tilkaef,2709015,17788,Ninewa,Tilkaif,Der Umtutha,قرية ديرام توثة,36.50545966,42.7843006,IQ-G15,IQ-D091,IQ-P20939,450,Wana,Ninewa,19813,0.022712361,7
+53,id_1414,12,Tilkaef,2709040,17133,Ninewa,Tilkaif,wanna center,مركز وانة,36.53558507,42.76042037,IQ-G15,IQ-D091,IQ-P21042,1875,Wana,Ninewa,19813,0.094634836,13
+54,id_1417,6,Tilkaef,2709045,17959,Ninewa,Tilkaif,Tallsquf,تللسقف,36.59768094,43.10770353,IQ-G15,IQ-D091,IQ-P21038,618,Markaz Tilkaef,Ninewa,19813,0.031191642,7
+55,id_1419,12,Tilkaef,2709052,27350,Ninewa,Tilkaif,Mosul Dam,مشروع سد الموصل ,36.61367927,42.83751309,IQ-G15,IQ-D091,,665,Wana,Ninewa,19813,0.033563822,13
+56,id_1424,6,Tilkaef,2709060,21601,Ninewa,Tilkaif,Sada Area,منطقة السادة,36.42253923,43.15954824,IQ-G15,IQ-D091,IQ-P20913,1605,Markaz Tilkaef,Ninewa,19813,0.081007419,7
+57,id_1438,6,Tilkaef,2709075,33366,Ninewa,Tilkaif,Felfel,قرية فلفيل,36.542952,43.024184,,,,370,Markaz Tilkaef,Ninewa,19813,0.018674608,7
+58,id_144,6,Al-Falluja,2105093,21321,Anbar,Falluja,Al Daffar,الدفار,33.260627,43.846702,IQ-G01,IQ-D002,IQ-P00087,1000,Markaz Al-Falluja,Al-Anbar,90536,0.01104533,7
+59,id_1450,12,Al-Daur,2801001,20746,Salah al-Din,Al-Daur,Al-Khadhra area,حي الخضراء,34.47699,43.7907,IQ-G18,IQ-D103,IQ-P23412,637,Abu Dalf,Salah Al-Din,10141,0.062814318,13
+60,id_1452,6,Al-Daur,2801013,26081,Salah al-Din,Al-Daur,Al Asriyah village,القرية العصرية,34.46089339,43.84258054,IQ-G18,IQ-D103,,253,Abu Dalf,Salah Al-Din,10141,0.02494823,7
+61,id_1453,30,Al-Daur,2801015,26116,Salah al-Din,Al-Daur,Al Mujammaa Al Sakani,المجمع السكني,34.4093972,43.7927852,IQ-G18,IQ-D103,,2826,Abu Dalf,Salah Al-Din,10141,0.278670743,31
+62,id_1454,6,Al-Daur,2801016,20587,Salah al-Din,Al-Daur,Hay Abu Dalaf,حي ابو دلف,34.45569217,43.79793786,IQ-G18,IQ-D103,IQ-P23391,1485,Abu Dalf,Salah Al-Din,10141,0.146435263,7
+63,id_1455,12,Al-Daur,2801017,26079,Salah al-Din,Al-Daur,Hay Al Aboor,حي العبور,34.4652675,43.7911612,IQ-G18,IQ-D103,,910,Abu Dalf,Salah Al-Din,10141,0.08973474,13
+64,id_1456,18,Al-Daur,2801018,26078,Salah al-Din,Al-Daur,Hay Al Askri,حي العسكري,34.46264848,43.7951005,IQ-G18,IQ-D103,,831,Abu Dalf,Salah Al-Din,10141,0.081944581,19
+65,id_1458,6,Al-Daur,2801020,26080,Salah al-Din,Al-Daur,Hay Al Sharqiyah,حي الشرقية,34.45350793,43.79186232,IQ-G18,IQ-D103,,586,Abu Dalf,Salah Al-Din,10141,0.057785228,7
+66,id_1459,18,Al-Daur,2801021,26077,Salah al-Din,Al-Daur,Hay Tal Al Banat,حي تل البنات,34.4476367,43.7970196,IQ-G18,IQ-D103,,1219,Abu Dalf,Salah Al-Din,10141,0.120205108,19
+67,id_1460,12,Al-Daur,2801022,20713,Salah al-Din,Al-Daur,Hay Al Qadisiah,حي القادسية,34.473313,43.79128,IQ-G18,IQ-D103,IQ-P23426,748,Abu Dalf,Salah Al-Din,10141,0.073759984,13
+68,id_1464,12,Al-Shirqat,2802007,21005,Salah al-Din,Al-Shirqat,Hay Al Jumiala,حي الجميلة,35.49246842,43.23803175,IQ-G18,IQ-D106,IQ-P23587,1353,Markaz Al-Shirqat,Salah Al-Din,20408,0.06629753,13
+69,id_1468,6,Beygee,2802012,22306,Salah al-Din,Al-Shirqat,Awad Al Tawee complex,مجمع عواد الطاوي,35.32163962,43.19060133,IQ-G18,IQ-D106,IQ-P23602,264,Makkhoul,Salah Al-Din,19299,0.013679465,8
+70,id_1469,6,Al-Shirqat,2802013,20395,Salah al-Din,Al-Shirqat,Baaja,حاوي بعاجه حاوي-حضر,35.54432411,43.22555739,IQ-G18,IQ-D106,IQ-P23603,559,Markaz Al-Shirqat,Salah Al-Din,20408,0.027391219,7
+71,id_1471,6,Al-Shirqat,2802016,24210,Salah al-Din,Al-Shirqat,Hay Al Qasbah,حي القصبة,35.52296803,43.23437674,IQ-G18,IQ-D106,IQ-P23608,873,Markaz Al-Shirqat,Salah Al-Din,20408,0.042777342,7
+72,id_1474,6,Al-Shirqat,2802025,20991,Salah al-Din,Al-Shirqat,Qaryat Al Sabkha,قرية الصبخة,35.47074425,43.24610126,IQ-G18,IQ-D106,IQ-P23628,363,Markaz Al-Shirqat,Salah Al-Din,20408,0.017787142,7
+73,id_1477,6,Al-Shirqat,2802029,20532,Salah al-Din,Al-Shirqat,Tulul Baq,قريه تلول الباج,35.42202397,43.11446188,IQ-G18,IQ-D106,IQ-P23641,512,Markaz Al-Shirqat,Salah Al-Din,20408,0.025088201,7
+74,id_1480,6,Al-Shirqat,2802034,21955,Salah al-Din,Al-Shirqat,Hay Al-Khasim Al-Qadem village,قرية الخصم القديمة,35.4860996,43.23726011,IQ-G18,IQ-D106,IQ-P23591,721,Markaz Al-Shirqat,Salah Al-Din,20408,0.035329283,7
+75,id_1485,12,Al-Shirqat,2802039,20389,Salah al-Din,Al-Shirqat,Al-Ayitha Village,قريةالعيثة(جرناف شرقي),35.62629653,43.23258938,IQ-G18,IQ-D106,IQ-P23617,436,Markaz Al-Shirqat,Salah Al-Din,20408,0.021364171,13
+76,id_1487,6,Al-Shirqat,2802041,29652,Salah al-Din,Al-Shirqat,Hay Al-noor,حي النور,35.49564536,43.24144187,IQ-G18,IQ-D106,,376,Markaz Al-Shirqat,Salah Al-Din,20408,0.018424147,7
+77,id_1491,6,Al-Shirqat,2802046,20613,Salah al-Din,Al-Shirqat,Sudayrah Tak Tak Village,قرية سديره طك طك,35.45198,43.293003,IQ-G18,IQ-D106,IQ-P23639,997,Markaz Al-Shirqat,Salah Al-Din,20408,0.048853391,7
+78,id_1492,12,Al-Shirqat,2802047,33122,Salah al-Din,Al-Shirqat,Sudayrah Aulya Village,قرية سديره عليا,35.443157,43.295248,,,,1712,Markaz Al-Shirqat,Salah Al-Din,20408,0.083888671,13
+79,id_1493,6,Al-Shirqat,2802048,33123,Salah al-Din,Al-Shirqat,Sudayrah Westa Village,قرية سديره وسطى,35.430951,43.291867,,,,1081,Markaz Al-Shirqat,Salah Al-Din,20408,0.052969424,7
+80,id_1494,6,Beygee,2802049,33124,Salah al-Din,Al-Shirqat,Al-Salman village,قرية السلمان,35.33025,43.16144,,,,940,Makkhoul,Salah Al-Din,19299,0.048707187,8
+81,id_1497,6,Al-Shirqat,2802052,33128,Salah al-Din,Al-Shirqat,Al-Mashhad Village,قرية المشهد,35.560485,43.275106,,,,757,Markaz Al-Shirqat,Salah Al-Din,20408,0.037093297,7
+82,id_150,24,Haditha,2106004,24314,Anbar,Haditha,Al Khansaa,حي الخنساء,34.08924465,42.36244631,IQ-G01,IQ-D003,,494,Al-Haqlaniya,Al-Anbar,4694,0.105240733,25
+83,id_151,12,Haditha,2106007,23822,Anbar,Haditha,Albu Hayat,قرية البوحياة,34.006133,42.42824,IQ-G01,IQ-D003,IQ-P00184,613,Barwana,Al-Anbar,4694,0.130592245,13
+84,id_1510,6,Al-Shirqat,2802068,33609,Salah al-Din,Al-Shirqat,Anig Al-Hawa village,قرية عنك الهوا,35.589093,43.28568,IQ-G18,IQ-D106,,409,Markaz Al-Shirqat,Salah Al-Din,20408,0.02004116,7
+85,id_1511,12,Beygee,2803001,24304,Salah al-Din,Baiji,Al Mushhaq Village,قرية المسحك,35.185783,43.401864,IQ-G18,IQ-D101,IQ-P23996,882,Makkhoul,Salah Al-Din,19299,0.04570185,14
+86,id_1512,3,Samarra,2803002,24305,Salah al-Din,Baiji,Al Namel Village,قرية النمل,34.333402,43.352386,IQ-G18,IQ-D101,IQ-P23997,260,Dijla,Salah Al-Din,8978,0.028959679,4
+87,id_1514,12,Daquq,2803006,22581,Salah al-Din,Baiji,Hay Tal Al Zatar-mahalla 219,حي تل الزعتر م(15-البندري والاشيطح)محلة,34.93565,43.90354,IQ-G18,IQ-D101,IQ-P23281,407,Al-Rashad,Kirkuk,1295,0.314285714,13
+88,id_1515,6,Beygee,2803010,22813,Salah al-Din,Baiji,Qaryat Al Sareen,مقاطعة 13 الحجاج والجيسات قرية الصرين,34.86225969,43.50445908,IQ-G18,IQ-D101,IQ-P23301,650,Markaz Beygee,Salah Al-Din,19299,0.033680502,8
+89,id_1517,6,Beygee,2803014,20656,Salah al-Din,Baiji,Hay Alasmida,حي الأسمدة,34.948604,43.488443,IQ-G18,IQ-D101,IQ-P23269,175,Al-Synia,Salah Al-Din,19299,0.009067827,8
+90,id_152,12,Haditha,2106009,23824,Anbar,Haditha,Al-Mutanabi,المتنبي,34.07904967,42.36811091,IQ-G01,IQ-D003,IQ-P00186,617,Al-Haqlaniya,Al-Anbar,4694,0.131444397,13
+91,id_1520,6,Beygee,2803017,25921,Salah al-Din,Baiji,Al Hejaj Village-13,مقاطعة 13 الحجاج والجيسات-قرية الحجاج,34.8278145,43.51271931,IQ-G18,IQ-D101,,1931,Markaz Beygee,Salah Al-Din,19299,0.100056998,8
+92,id_1524,12,Beygee,2803022,23435,Salah al-Din,Baiji,Al-Zweeyah Village ,قرية الزوية ,35.2612,43.397525,IQ-G18,IQ-D101,IQ-P23196,2182,Makkhoul,Salah Al-Din,19299,0.113062853,14
+93,id_1525,12,Beygee,2803023,32099,Salah al-Din,Baiji,Al-asry Al-Jnoby neighborhood,حي العصري الجنوبي,34.92388889,43.49833333,,,,413,Al-Synia,Salah Al-Din,19299,0.021400073,14
+94,id_153,18,Haditha,2106011,245,Anbar,Haditha,Bani Dahir,حي بني داهر,34.10673302,42.38207471,IQ-G01,IQ-D003,IQ-P00189,433,Barwana,Al-Anbar,4694,0.09224542,19
+95,id_1531,6,Beygee,2803029,33369,Salah al-Din,Baiji,Hay Altameem,حي التأميم,34.921845,43.477253,,,,570,Al-Synia,Salah Al-Din,19299,0.029535209,7
+96,id_1534,6,Beygee,2803032,20607,Salah al-Din,Baiji,Hay Alrisalah,حي الرسالة,34.926822,43.490262,IQ-G18,IQ-D101,IQ-P23254,375,Al-Synia,Salah Al-Din,19299,0.019431059,7
+97,id_1539,6,Beygee,2803037,33434,Salah al-Din,Baiji,Sheik Ali village,قرية الشيخ علي,35.1807187,43.2893639,,,,270,Makkhoul,Salah Al-Din,19299,0.013990362,7
+98,id_1542,6,Beygee,2803040,33501,Salah al-Din,Baiji,Alharejiya village,قرية الحريجية,34.9236554,43.5025153,IQ-G18,IQ-D101,,196,Markaz Beygee,Salah Al-Din,19299,0.010155967,7
+99,id_155,24,Haditha,2106014,23823,Anbar,Haditha,Haqlaniyah-Al shuhadaa,حي الشهداء-الحقلانية,34.0853211,42.35174251,IQ-G01,IQ-D003,IQ-P00193,577,Al-Haqlaniya,Al-Anbar,4694,0.12292288,25
+100,id_1550,6,Balad,2804005,20767,Salah al-Din,Balad,Albu Jewari,محلة البو جواري,34.06002525,44.21587071,IQ-G18,IQ-D102,IQ-P23341,513,Al-Duloeyah,Salah Al-Din,10906,0.047038328,7
+101,id_1551,6,Balad,2804006,25742,Salah al-Din,Balad,Al-Duloeyah-Hay Al Jubor,محلة الجبور الاولى,34.03255609,44.23087241,IQ-G18,IQ-D102,,375,Al-Duloeyah,Salah Al-Din,10906,0.034384742,7
+102,id_1554,6,Balad,2804016,20921,Salah al-Din,Balad,Al-Juboor Village,قرية الجبور والحويجة ا,34.03252765,44.20768545,IQ-G18,IQ-D102,IQ-P23344,540,Al-Duloeyah,Salah Al-Din,10906,0.049514029,7
+103,id_1555,54,Balad,2804018,29565,Salah al-Din,Balad,Yathrib sub distrct ,ناحية يثرب,34.028012,44.242782,IQ-G18,IQ-D102,,4884,Yathreb,Salah Al-Din,10906,0.447826884,56
+104,id_1556,18,Balad,2804021,21484,Salah al-Din,Balad,Al_Farhateya village,قرية الفرحاتية,34.004273,44.016961,IQ-G18,IQ-D102,IQ-P23326,420,Al-Esshaqi,Salah Al-Din,10906,0.038510911,19
+105,id_1557,18,Balad,2804023,33367,Salah al-Din,Balad,Sinjaar,قرية سنجار,34.03861,44.187223,,,,487,Al-Duloeyah,Salah Al-Din,10906,0.044654319,19
+106,id_156,6,Haditha,2106015,237,Anbar,Haditha,Hay Al Askary,حي العسكري,34.12743242,42.37906453,IQ-G01,IQ-D003,IQ-P00197,451,Barwana,Al-Anbar,4694,0.096080102,7
+107,id_1560,6,Balad,2804026,33437,Salah al-Din,Balad,Aziz Balad,عزيز بلد,34.023395,44.166704,,,,572,Yathreb,Salah Al-Din,10906,0.052448194,7
+108,id_1561,18,Balad,2805008,25947,Salah al-Din,Al-Fares,Bezna Village,قرية بزنة,33.90924349,44.18353061,IQ-G18,IQ-D104,,543,Yathreb,Salah Al-Din,10906,0.049789107,19
+109,id_1563,1,Samarra,2806006,23781,Salah al-Din,Samarra,Al Sayoya-Mahala 1,محلة الصعيوية-1,34.08225349,44.05546613,IQ-G18,IQ-D105,IQ-P23489,312,Al-Muotasim,Salah Al-Din,8978,0.034751615,2
+110,id_1564,10,Samarra,2806007,20752,Salah al-Din,Samarra,Al_Jazera,مقاطعة 9 الجزيرة(الجزءالجنوبي),34.24620221,43.69918454,IQ-G18,IQ-D105,IQ-P23494,2103,Al-Tharthar,Salah Al-Din,8978,0.234239252,11
+111,id_1565,5,Samarra,2806008,20695,Salah al-Din,Samarra,Al-Abasiya Village,قرية العباسية,34.30092393,43.78381141,IQ-G18,IQ-D105,IQ-P23495,488,Dijla,Salah Al-Din,8978,0.05435509,6
+112,id_1566,9,Samarra,2806010,20674,Salah al-Din,Samarra,Al-Hewaish area,قرية الحويش,34.19515165,43.82151246,IQ-G18,IQ-D105,IQ-P23508,798,Al-Tharthar,Salah Al-Din,8978,0.088883939,10
+113,id_1567,3,Samarra,2806037,23774,Salah al-Din,Samarra,Al-Tresha-Albu Fahed,البو فهد,34.09474977,44.0535512,IQ-G18,IQ-D105,IQ-P23530,372,Al-Muotasim,Salah Al-Din,8978,0.041434618,4
+114,id_1568,2,Samarra,2806039,23775,Salah al-Din,Samarra,Al-Tresha-Albu Shatb,قرية البو شطب,34.0753838,44.0893379,IQ-G18,IQ-D105,IQ-P23532,230,Al-Muotasim,Salah Al-Din,8978,0.025618178,3
+115,id_1569,6,Samarra,2806048,20673,Salah al-Din,Samarra,Al-Jillam area,منطقة الجلام,34.24088767,43.88342028,IQ-G18,IQ-D105,IQ-P23512,935,Markaz Samarra,Salah Al-Din,8978,0.104143462,7
+116,id_157,6,Haditha,2106017,23819,Anbar,Haditha,Hay Al Haqlaniyah Qadim,حي حقلانية القديمة,34.08773408,42.36877015,IQ-G01,IQ-D003,IQ-P00198,368,Barwana,Al-Anbar,4694,0.078397955,7
+117,id_1570,3,Samarra,2806050,25926,Salah al-Din,Samarra,Hawi Albsat,مقاطعة 27 حاوى البساط,34.26137899,43.87557046,IQ-G18,IQ-D105,,507,Markaz Samarra,Salah Al-Din,8978,0.056471374,4
+118,id_1571,25,Samarra,2806053,29539,Salah al-Din,Samarra,Mahalla Makeshfa,محلة مكيشفة,34.36904718,43.74474688,IQ-G18,IQ-D105,,2935,Dijla,Salah Al-Din,8978,0.326910225,26
+119,id_1572,6,Al-Khalis,2806055,33608,Salah al-Din,Samarra,Banat Al-hassan village,قرية بنات الحسن,34.148833,44.951784,IQ-G18,IQ-D105,,287,Al-Mansouriyah,Diyala,13225,0.021701323,7
+120,id_1573,6,Tikrit,2808001,23145,Salah al-Din,Tikrit,Al Ahad Al Jadid village,قرية العهد الجديد,34.72016511,43.70100224,IQ-G18,IQ-D108,IQ-P23661,750,Al-Alam,Salah Al-Din,28426,0.026384296,7
+121,id_1574,6,Tikrit,2808002,23244,Salah al-Din,Tikrit,Hay Al Askari,الحي العسكري,34.68886682,43.71976791,IQ-G18,IQ-D108,IQ-P23663,292,Al-Alam,Salah Al-Din,28426,0.010272286,7
+122,id_158,6,Haditha,2106020,239,Anbar,Haditha,Hay Al Rifay,حي الرفاعي,34.143738,42.38274782,IQ-G01,IQ-D003,IQ-P00199,247,Barwana,Al-Anbar,4694,0.052620366,7
+123,id_1582,12,Tikrit,2808016,21592,Salah al-Din,Tikrit,Hay Al sinay-Al samad,حي الصناعي-م(51-المجرة وتل رجيم)قرية الصمد,34.71326825,43.70324665,IQ-G18,IQ-D108,IQ-P23747,765,Al-Alam,Salah Al-Din,28426,0.026911982,13
+124,id_1585,18,Tikrit,2808024,22180,Salah al-Din,Tikrit,Sadayrat Abo Ajeel,صديرة ابو عجيل,34.60252484,43.72255932,IQ-G18,IQ-D108,IQ-P23792,1481,Al-Alam,Salah Al-Din,28426,0.05210019,19
+125,id_1598,6,Tikrit,2808047,21357,Salah al-Din,Tikrit,Al Zallayah village,قرية الزلاية,34.45798508,43.72672328,IQ-G18,IQ-D108,IQ-P23714,1268,Um Al-Qura,Salah Al-Din,28426,0.04460705,7
+126,id_1606,6,Tikrit,2808058,25962,Salah al-Din,Tikrit,Hay Salma Altaghlubia,حي سلمى التغلبيه-محله 401,34.60974451,43.68078986,IQ-G18,IQ-D108,,728,Um Al-Qura,Salah Al-Din,28426,0.025610357,7
+127,id_1607,6,Tikrit,2808061,25922,Salah al-Din,Tikrit,Qadisya 1 Mahala 214,حي المطاردة(قادسية1)مقاطعة 7-محله 214,34.64578089,43.67032459,IQ-G18,IQ-D108,,2152,Um Al-Qura,Salah Al-Din,28426,0.07570534,7
+128,id_1608,18,Tikrit,2808062,25923,Salah al-Din,Tikrit,Qadisya 2 Mahala 216,حي المطاردة(قادسية2)مقاطعة 7-محله 216,34.64904267,43.66125646,IQ-G18,IQ-D108,,2268,Um Al-Qura,Salah Al-Din,28426,0.079786111,19
+129,id_1609,6,Tikrit,2808063,25950,Salah al-Din,Tikrit,Tal-Al Sibaat Village,قرية تل السيباط,34.81969084,43.57859018,IQ-G18,IQ-D108,,530,Al-Alam,Salah Al-Din,28426,0.018644903,7
+130,id_1618,6,Tikrit,2808074,20663,Salah al-Din,Tikrit,Hay Al-Tajneed,حي التجنيد,34.58009466,43.68259767,IQ-G18,IQ-D108,IQ-P23749,270,Um Al-Qura,Salah Al-Din,28426,0.009498347,7
+131,id_162,6,Haditha,2106038,79,Anbar,Haditha,Hay Al-Subhani,حي السبحاني,34.11291371,42.38402284,IQ-G01,IQ-D003,IQ-P00214,162,Barwana,Al-Anbar,4694,0.034512143,7
+132,id_1624,6,Tikrit,2808081,20638,Salah al-Din,Tikrit,Hay Al Dhubbat,حي الضباط,34.63466839,43.67068098,IQ-G18,IQ-D108,IQ-P23755,800,Um Al-Qura,Salah Al-Din,28426,0.028143249,7
+133,id_1626,6,Tikrit,2808085,29589,Salah al-Din,Tikrit,Al-Dibsa Village,قرية الدبسة,34.64676151,43.70316703,IQ-G18,IQ-D108,,335,Al-Alam,Salah Al-Din,28426,0.011784986,7
+134,id_1628,6,Tooz Khurmato,2809004,25865,Salah al-Din,Tooz,Hay Garmian,حي كرميان,34.8996644,44.62613003,IQ-G18,IQ-D109,,160,Markaz Tooz Khurmato,Salah Al-Din,6859,0.023327016,7
+135,id_1629,42,Tooz Khurmato,2809005,25866,Salah al-Din,Tooz,Hay Komari-120,حي كوماري م(5-الطوز)محلة 120,34.89631116,44.62572526,IQ-G18,IQ-D109,,2486,Markaz Tooz Khurmato,Salah Al-Din,6859,0.362443505,44
+136,id_1630,24,Tooz Khurmato,2809007,25868,Salah al-Din,Tooz,Hay Rizgari-114,حي رزكاري م(5-الطوز)محلة 114,34.88670149,44.64267392,IQ-G18,IQ-D109,,1220,Markaz Tooz Khurmato,Salah Al-Din,6859,0.177868494,25
+137,id_1632,6,Tooz Khurmato,2809015,25750,Salah al-Din,Tooz,Markaz Tooz-Hay Brayati,محلة برايتي,34.90508251,44.60883669,IQ-G18,IQ-D109,,196,Markaz Tooz Khurmato,Salah Al-Din,6859,0.028575594,7
+138,id_1634,6,Tooz Khurmato,2809023,20425,Salah al-Din,Tooz,Brawchili village,قرية براوجيلي,34.79641,44.584962,IQ-G18,IQ-D109,IQ-P23834,351,Ameraly,Salah Al-Din,6859,0.05117364,7
+139,id_1636,6,Tooz Khurmato,2809025,27234,Salah al-Din,Tooz,Hay Al-Askary,حي العسكري,34.726584,44.584608,IQ-G18,IQ-D109,,85,Ameraly,Salah Al-Din,6859,0.012392477,7
+140,id_1638,6,Tooz Khurmato,2809027,27236,Salah al-Din,Tooz,Hay Al-Nasr,حي النصر,34.727374,44.58222,IQ-G18,IQ-D109,,45,Ameraly,Salah Al-Din,6859,0.006560723,7
+141,id_1646,12,Tooz Khurmato,2809058,20529,Salah al-Din,Tooz,Sulayman Beg sub district center,مركز ناحية سليمان بيك,34.795151,44.666971,IQ-G18,IQ-D109,IQ-P23917,735,Sulaiman Baig,Salah Al-Din,6859,0.107158478,13
+142,id_1647,6,Tooz Khurmato,2809059,33473,Salah al-Din,Tooz,Al-Salam Village,قرية السلام,34.873223,44.594341,IQ-G18,IQ-D109,,50,Markaz Tooz Khurmato,Salah Al-Din,6859,0.007289692,7
+143,id_166,6,Heet,2107001,100,Anbar,Heet,Abu Tibban,ابوطيبان,33.52770924,42.91697915,IQ-G01,IQ-D004,IQ-P00234,1168,Al-Forat,Al-Anbar,30677,0.038074127,7
+144,id_167,6,Heet,2107004,163,Anbar,Heet,Al Baker,حي البكر,33.64958145,42.83109381,IQ-G01,IQ-D004,IQ-P00238,908,Markaz Heet,Al-Anbar,30677,0.029598722,7
+146,id_171,6,Heet,2107016,24113,Anbar,Heet,Al Salkah,السكلة,33.64182177,42.82820892,IQ-G01,IQ-D004,IQ-P00247,1165,Markaz Heet,Al-Anbar,30677,0.037976334,7
+147,id_176,6,Heet,2107030,21323,Anbar,Heet,Al-Mujama Al-Sakani,الحي السكني,33.9211734,42.52571077,IQ-G01,IQ-D004,IQ-P00259,660,Al-Baghdady,Al-Anbar,30677,0.02151449,7
+148,id_177,12,Heet,2107031,23827,Anbar,Heet,Al-Qalqalah,القلقة ,33.64289891,42.82280387,IQ-G01,IQ-D004,IQ-P00261,1710,Markaz Heet,Al-Anbar,30677,0.055742087,13
+149,id_179,6,Heet,2107034,23831,Anbar,Heet,Al-Sikak,السكك,33.62958357,42.81890213,IQ-G01,IQ-D004,IQ-P00264,756,Markaz Heet,Al-Anbar,30677,0.02464387,7
+150,id_186,6,Heet,2107047,23839,Anbar,Heet,Hay Al Mamoun,حي المامون ,33.58941988,42.60509871,IQ-G01,IQ-D004,IQ-P00283,1104,Kubaisa,Al-Anbar,30677,0.035987874,7
+151,id_190,12,Heet,2107054,23885,Anbar,Heet,Hay Al-jamyah 2,الجمعية الثانية,33.62821377,42.84490601,IQ-G01,IQ-D004,IQ-P00291,1481,Markaz Heet,Al-Anbar,30677,0.048277211,13
+152,id_195,6,Heet,2107062,53,Anbar,Heet,Heet-Maskhan,المصخن,33.69880489,42.74748265,IQ-G01,IQ-D004,IQ-P00319,642,Markaz Heet,Al-Anbar,30677,0.020927731,7
+153,id_199,6,Heet,2107067,191,Anbar,Heet,Mualmeen,المعلمين,33.64479443,42.81224879,IQ-G01,IQ-D004,IQ-P00320,1554,Markaz Heet,Al-Anbar,30677,0.050656844,7
+154,id_2,18,Makhmour,1204004,13352,Erbil,Makhmur,Gwer,كوير,36.043816,43.49773,IQ-G11,IQ-D066,IQ-P14306,1824,Gwyer,Erbil,6226,0.292964986,23
+155,id_201,6,Heet,2107074,138,Anbar,Heet,Tal aswad,تل اسود,33.52895346,43.05369406,IQ-G01,IQ-D004,IQ-P00338,361,Al-Forat,Al-Anbar,30677,0.011767774,7
+156,id_202,6,Heet,2107075,194,Anbar,Heet,The first jamaiya,الجمعية الاولى,33.63164721,42.83718905,IQ-G01,IQ-D004,IQ-P00341,1567,Markaz Heet,Al-Anbar,30677,0.051080614,7
+157,id_206,6,Heet,2107081,29535,Anbar,Heet,Hay Al-Askari,الحي العسكري,33.58894572,42.61467372,IQ-G01,IQ-D004,,718,Kubaisa,Al-Anbar,30677,0.023405157,7
+158,id_207,6,Heet,2107082,29536,Anbar,Heet,Hay Al-Khudhir,الخضر,33.5881177,42.60817858,IQ-G01,IQ-D004,,913,Kubaisa,Al-Anbar,30677,0.029761711,7
+159,id_209,6,Al-Ramadi,2108001,308,Anbar,Ramadi,5 Kilo,الخمسة كيلو,33.42115,43.24772675,IQ-G01,IQ-D006,IQ-P00402,1389,Markaz Al-Ramadi,Al-Anbar,75718,0.018344383,7
+161,id_212,6,Al-Ramadi,2108005,23889,Anbar,Ramadi,7 Killo-al-mojamaa al-sakany,السبعة كيلو-المجمع السكني,33.41413197,43.19074443,IQ-G01,IQ-D006,IQ-P00406,512,Markaz Al-Ramadi,Al-Anbar,75718,0.006761932,7
+162,id_216,12,Al-Ramadi,2108009,25440,Anbar,Ramadi,Al Sajariyah,السجارية,33.43535524,43.38822095,IQ-G01,IQ-D006,,1781,Markaz Al-Ramadi,Al-Anbar,75718,0.023521488,13
+163,id_218,12,Al-Ramadi,2108011,115,Anbar,Ramadi,Al Sofeya,الصوفية,33.44031066,43.32895397,IQ-G01,IQ-D006,IQ-P00427,1807,Markaz Al-Ramadi,Al-Anbar,75718,0.023864867,13
+164,id_219,12,Al-Ramadi,2108012,25441,Anbar,Ramadi,Al Soora,السورة,33.4351026,43.35570312,IQ-G01,IQ-D006,,1634,Markaz Al-Ramadi,Al-Anbar,75718,0.021580073,13
+165,id_236,6,Al-Ramadi,2108033,133,Anbar,Ramadi,Al Aadil,العادل,33.41405,43.30549,IQ-G01,IQ-D006,IQ-P00411,1341,Markaz Al-Ramadi,Al-Anbar,75718,0.017710452,7
+166,id_240,6,Al-Ramadi,2108037,25800,Anbar,Ramadi,Al Katanah,الكطانة,33.42931,43.306041,IQ-G01,IQ-D006,,1881,Markaz Al-Ramadi,Al-Anbar,75718,0.024842178,7
+167,id_241,6,Al-Ramadi,2108038,185,Anbar,Ramadi,Al-Shareka,الشركة,33.42922,43.31223,IQ-G01,IQ-D006,IQ-P00462,2369,Markaz Al-Ramadi,Al-Anbar,75718,0.031287144,7
+168,id_242,6,Al-Ramadi,2108039,297,Anbar,Ramadi,Al-Thilah,الثيلة,33.43294,43.31115,IQ-G01,IQ-D006,IQ-P00466,1994,Markaz Al-Ramadi,Al-Anbar,75718,0.026334557,7
+169,id_244,12,Al-Ramadi,2108041,23023,Anbar,Ramadi,Hay Al Malab,الملعب,33.42225,43.32078,IQ-G01,IQ-D006,IQ-P00476,2007,Markaz Al-Ramadi,Al-Anbar,75718,0.026506247,13
+170,id_246,12,Al-Ramadi,2108046,29476,Anbar,Ramadi,The modern village,القرية العصرية,33.46648,43.04378,IQ-G01,IQ-D006,,3799,Markaz Al-Ramadi,Al-Anbar,75718,0.05017301,13
+171,id_25,6,Al-Kaim,2101004,23795,Anbar,Al-Ka'im,Al Rumanah Al Gharbiyah,حي الرمانة الغربية,34.40098718,41.07147791,IQ-G01,IQ-D005,IQ-P00361,177,Al-Rummaneh,Al-Anbar,6234,0.028392685,7
+172,id_254,6,Al-Ramadi,2108057,29580,Anbar,Ramadi,Al Hooz,الحوز,33.42189,43.29001,IQ-G01,IQ-D006,,1973,Markaz Al-Ramadi,Al-Anbar,75718,0.026057212,7
+173,id_27,6,Al-Kaim,2101006,90,Anbar,Al-Ka'im,Al Ubaydi-1,العبيدي-مرحلة أولى,34.42921424,41.22657932,IQ-G01,IQ-D005,IQ-P00349,350,Al-Obiadi,Al-Anbar,6234,0.056143728,7
+174,id_271,6,Al-Mahmoudiya,2301064,29529,Baghdad,Abu Ghraib,Al Mahasna village ,قرية المحاسنة ,33.22059945,43.92457242,IQ-G07,IQ-D038,,406,Al-Yousifya,Baghdad,9306,0.043627767,7
+175,id_28,6,Al-Kaim,2101007,23797,Anbar,Al-Ka'im,Al Ubaydi-2,مرحلة الثانية ,34.43464907,41.22594072,IQ-G01,IQ-D005,IQ-P00350,184,Al-Rummaneh,Al-Anbar,6234,0.02951556,7
+176,id_281,6,Al-Mahmoudiya,2301080,32036,Baghdad,Abu Ghraib,Al Masara village,قرية المسارة ,33.234015,43.915025,IQ-G07,IQ-D038,,135,Al-Yousifya,Baghdad,9306,0.01450677,7
+177,id_288,6,Al-Mahmoudiya,2301087,33301,Baghdad,Abu Ghraib,Al Mamier village,قرية المعامير,33.233949,43.91447,,,,100,Al-Yousifya,Baghdad,9306,0.010745755,7
+178,id_292,6,Al-Kadhmiyah,2301091,33395,Baghdad,Abu Ghraib,Majad Al Draa village,قرية ماجد الدرع,33.350562,44.020157,,,,102,Abu Ghraib,Baghdad,4771,0.021379166,7
+179,id_293,6,Al-Kadhmiyah,2301092,33450,Baghdad,Abu Ghraib,18 Al Sadan village,قرية 18 السعدان,33.408131,44.044721,,,,97,Abu Ghraib,Baghdad,4771,0.020331167,7
+180,id_294,6,Al-Kadhmiyah,2301093,33451,Baghdad,Abu Ghraib,Al Shoker village,قرية الشكر,33.417584,44.05438,,,,44,Abu Ghraib,Baghdad,4771,0.009222385,7
+181,id_299,18,Al-Kadhmiyah,2306063,25168,Baghdad,Kadhimia,Sabea Al Buor-14000,سبع البور-14000,33.47013978,44.16946833,IQ-G07,IQ-D040,,311,Al-Taji,Baghdad,4771,0.065185496,19
+182,id_3,12,Makhmour,1204011,13674,Erbil,Makhmur,Shahidan,,35.78075589,43.58504234,IQ-G11,IQ-D066,IQ-P14545,430,Markaz Makhmour,Erbil,6226,0.06906521,17
+183,id_304,18,Al-Kadhmiyah,2306073,25164,Baghdad,Kadhimia,Sabea Al Buor-8000,سبع البور-8000,33.45256226,44.14383181,IQ-G07,IQ-D040,,238,That al Salasil,Baghdad,4771,0.04988472,19
+184,id_31,6,Al-Kaim,2101011,106,Anbar,Al-Ka'im,Al-Amen,حي الامين,34.37912856,41.00075957,IQ-G01,IQ-D005,IQ-P00367,228,Al-Karabla,Al-Anbar,6234,0.036573628,7
+185,id_311,6,Al-Mahmoudiya,2309056,29488,Baghdad,Mahmoudiya,Shaka-3,شاخة-3,33.0151,44.3808,IQ-G07,IQ-D043,,89,Al-Latifya,Baghdad,9306,0.009563722,7
+186,id_314,59,Al-Mussyab,2309060,29490,Baghdad,Mahmoudiya,Faheel Am Al Jaeer village ,قرية فحيل ام الجير,32.9908,44.176,IQ-G07,IQ-D043,,411,Jurf Al-Sakhar,Babil,411,1,61
+187,id_318,6,Al-Mahmoudiya,2309064,29528,Baghdad,Mahmoudiya,Hay Al Dobat(Al kragolyia),حي الضباط(الكرغولية),33.050911,44.233891,IQ-G07,IQ-D043,,210,Al-Yousifya,Baghdad,9306,0.022566086,7
+188,id_32,6,Al-Kaim,2101012,273,Anbar,Al-Ka'im,Albu Hardan,قرية البوحردان,34.4062892,41.09462218,IQ-G01,IQ-D005,IQ-P00368,145,Al-Rummaneh,Al-Anbar,6234,0.023259544,7
+189,id_322,12,Al-Mahmoudiya,2309068,29523,Baghdad,Mahmoudiya,Hay Al Shuhada(Al kragolyia),حي الشهداء(الكرغولية),33.06663345,44.23690541,IQ-G07,IQ-D043,,1050,Al-Yousifya,Baghdad,9306,0.112830432,13
+190,id_325,6,Al-Mahmoudiya,2309075,7682,Baghdad,Mahmoudiya,Albo Awasj village,قرية البو عوسج,33.038574,44.203886,IQ-G07,IQ-D043,IQ-P08726,615,Al-Yousifya,Baghdad,9306,0.066086396,7
+191,id_328,6,Al-Mahmoudiya,2309078,32040,Baghdad,Mahmoudiya,Al Azam village-Mukhata 17,قرية العزم-مقاطعة 17,33.166092,44.03583,IQ-G07,IQ-D043,,175,Al-Yousifya,Baghdad,9306,0.018805072,7
+192,id_339,6,Al-Mahmoudiya,2309089,33104,Baghdad,Mahmoudiya,Al Azez Al Ghaffar-(Al Jomblatiya Southern),قرية العزيز الغفار-الجمبلاطية الجنوبية,33.03348,44.187791,,,,120,Al-Yousifya,Baghdad,9306,0.012894907,7
+193,id_344,6,Al-Mahmoudiya,2309094,33109,Baghdad,Mahmoudiya,Al Motokal village-(Al Jomblatiya Northern),قرية المتوكل-الجمبلاطية الشمالية,33.02298,44.15797,,,,175,Al-Yousifya,Baghdad,9306,0.018805072,7
+194,id_345,6,Al-Mahmoudiya,2309095,33110,Baghdad,Mahmoudiya,Al Abraar village-(Al Jomblatiya Northern),قرية الابرار-الجمبلاطية الشمالية,33.025292,44.164286,,,,300,Al-Yousifya,Baghdad,9306,0.032237266,7
+195,id_346,6,Al-Mahmoudiya,2309096,33168,Baghdad,Mahmoudiya,Al Forat l village-(Al Harkawi Southern),قرية الفرات-الحركاوي الجنوبية,33.034388,44.202958,,,,270,Al-Yousifya,Baghdad,9306,0.02901354,7
+196,id_350,12,Al-Mahmoudiya,2309100,33225,Baghdad,Mahmoudiya,Albu Moufarrej Village,قرية البو مفرج,33.075557,44.121611,,,,350,Al-Yousifya,Baghdad,9306,0.037610144,13
+197,id_352,6,Al-Mahmoudiya,2309102,33258,Baghdad,Mahmoudiya,Killo-5,كيلو5,32.951695,44.42102,,,,90,Al-Latifya,Baghdad,9306,0.00967118,7
+198,id_355,6,Al-Kadhmiyah,2310017,25425,Baghdad,Tarmia,Nadeem-1 Village,قرية نديم-1,33.58658509,44.24328748,IQ-G07,IQ-D045,,72,Al-Tarmiya,Baghdad,4771,0.015091176,7
+199,id_357,6,Al-Kadhmiyah,2310020,33458,Baghdad,Tarmia,14 Abar village 5,قرية5-14 ابار,33.59278,44.126213,IQ-G07,IQ-D045,,94,Al-Taji,Baghdad,4771,0.019702368,7
+200,id_360,6,Al-Kadhmiyah,2310023,33468,Baghdad,Tarmia,Jasim Mohamed Khalf villge,قرية جاسم محمد خلف,33.628196,44.174931,IQ-G07,IQ-D045,,49,Al-Tarmiya,Baghdad,4771,0.010270384,7
+201,id_365,6,Al-Kadhmiyah,2310028,33513,Baghdad,Tarmia,Alo Khtaia village,قرية البو كطاية,33.729284,44.258492,IQ-G07,IQ-D045,,81,Al-Tarmiya,Baghdad,4771,0.016977573,7
+202,id_37,6,Al-Kaim,2101017,23793,Anbar,Al-Ka'im,Hay Al Askary,حي العسكري,34.38879287,41.02210419,IQ-G01,IQ-D005,IQ-P00376,227,Al-Karabla,Al-Anbar,6234,0.036413218,7
+203,id_370,6,Al-Kadhmiyah,2310033,33596,Baghdad,Tarmia,7 Mijman-Tal al Tassa village,7 مجمان-قرية تل الطاسة,33.655567,44.234261,IQ-G07,IQ-D045,,48,Al-Tarmiya,Baghdad,4771,0.010060784,7
+204,id_371,6,Al-Kadhmiyah,2310034,33597,Baghdad,Tarmia,15 Masaaod-Al Anaz village,15 مسعود-قرية العناز,33.603544,44.177106,IQ-G07,IQ-D045,,61,Al-Taji,Baghdad,4771,0.01278558,7
+205,id_38,6,Al-Kaim,2101018,23788,Anbar,Al-Ka'im,Hay Al Rashid,حي الرشيد,34.38715286,40.98790256,IQ-G01,IQ-D005,IQ-P00377,240,Al-Karabla,Al-Anbar,6234,0.038498556,7
+206,id_380,6,Al-Khalis,2401021,25661,Diyala,Al-Khalis,Al-Sadah Village,قرية السادة,34.08586118,44.72657303,IQ-G10,IQ-D059,,230,Al-Mansouriyah,Diyala,13225,0.017391304,7
+207,id_383,12,Al-Khalis,2401029,25678,Diyala,Al-Khalis,Dawod Al-Salom village,قرية داوود السلوم,34.12548903,44.84353178,IQ-G10,IQ-D059,,164,Al-Mansouriyah,Diyala,13225,0.012400756,13
+208,id_385,6,Al-Khalis,2401048,25658,Diyala,Al-Khalis,Al Aqssa Village,قرية الاقصى,34.06562598,44.87047941,IQ-G10,IQ-D059,,180,Al-Mansouriyah,Diyala,13225,0.013610586,7
+209,id_386,6,Al-Khalis,2401049,25671,Diyala,Al-Khalis,Bizayiz Sherwin Village,قرية بزايز شروين,34.040578,44.881273,IQ-G10,IQ-D059,,272,Al-Mansouriyah,Diyala,13225,0.020567108,7
+210,id_39,6,Al-Kaim,2101019,23787,Anbar,Al-Ka'im,Hay Al Sham,حي الشام ( الجمعية ),34.38769212,40.99416341,IQ-G01,IQ-D005,IQ-P00378,204,Al-Karabla,Al-Anbar,6234,0.032723773,7
+211,id_394,6,Al-Khalis,2401057,25673,Diyala,Al-Khalis,Habib Al Abdulla Village,قرية حبيب العبدالله,34.05390233,44.8922767,IQ-G10,IQ-D059,,549,Al-Mansouriyah,Diyala,13225,0.041512287,7
+212,id_4,6,Makhmour,1204016,13501,Erbil,Makhmur,Kurdistan ,كوردستان ,35.76717577,43.57776315,IQ-G11,IQ-D066,IQ-P14404,167,Markaz Makhmour,Erbil,6226,0.026823,10
+213,id_400,6,Al-Khalis,2401063,25651,Diyala,Al-Khalis,Dalli Abass-The Old Qtr,دلي عباس-الحي القديم,34.0736824,44.86376831,IQ-G10,IQ-D059,,455,Al-Mansouriyah,Diyala,13225,0.034404537,7
+214,id_401,12,Al-Khalis,2401064,25652,Diyala,Al-Khalis,Dalli Abass-Al Rasheed Qtr,دلي عباس-حي الرشيد,34.07022739,44.86410591,IQ-G10,IQ-D059,,373,Al-Mansouriyah,Diyala,13225,0.028204159,13
+215,id_404,6,Al-Khalis,2401068,25682,Diyala,Al-Khalis,Mohammed Ali Village,قرية محمد العلي,34.04549809,44.88205377,IQ-G10,IQ-D059,,250,Al-Mansouriyah,Diyala,13225,0.018903592,7
+216,id_42,6,Al-Kaim,2101023,286,Anbar,Al-Ka'im,Hay Al-Athar,حي الاثار,34.37673472,41.0629184,IQ-G01,IQ-D005,IQ-P00383,326,Al-Karabla,Al-Anbar,6234,0.052293872,7
+217,id_429,6,Al-Khalis,2401093,27160,Diyala,Al-Khalis,Ein Layla village,قرية عين ليلى,34.31141619,44.81108996,IQ-G10,IQ-D059,,100,Al-Mansouriyah,Diyala,13225,0.007561437,7
+218,id_443,6,Al-Khalis,2401107,27243,Diyala,Al-Khalis,Mansouriyat Al Gabal,منصورية الجبل,34.08092227,44.95318428,IQ-G10,IQ-D059,,1310,Al-Mansouriyah,Diyala,13225,0.09905482,7
+219,id_444,6,Al-Khalis,2401109,28445,Diyala,Al-Khalis,Al Idhem Center,مركز ناحية العظيم,34.27432448,44.53823647,IQ-G10,IQ-D059,,995,Al-Atheem,Diyala,13225,0.075236295,7
+220,id_448,1,Samarra,2401114,28464,Diyala,Al-Khalis,Albo Sarah Village,قرية البو سراح,34.24224496,44.190843,IQ-G10,IQ-D059,,38,Markaz Samarra,Salah Al-Din,8978,0.004232569,2
+221,id_45,6,Al-Kaim,2101026,287,Anbar,Al-Ka'im,Hay Al-Makarim,حي المكارم,34.38437722,41.02396899,IQ-G01,IQ-D005,IQ-P00388,285,Al-Karabla,Al-Anbar,6234,0.045717036,7
+222,id_463,6,Al-Khalis,2401130,21165,Diyala,Al-Khalis,Albo Baker,البو بكر,34.429905,44.51602,IQ-G10,IQ-D059,IQ-P12516,145,Al-Atheem,Diyala,13225,0.010964083,7
+223,id_467,6,Al-Muqdadiya,2402006,25981,Diyala,Al-Muqdadiya,Al Aali Village,قرية العالي,34.03027868,44.94421671,IQ-G10,IQ-D062,,326,Markaz Al-Muqdadiya,Diyala,8021,0.040643311,7
+224,id_47,6,Al-Kaim,2101028,269,Anbar,Al-Ka'im,Hay Al-Yarmook,حي اليرموك,34.39717963,40.98947003,IQ-G01,IQ-D005,IQ-P00391,229,Al-Rummaneh,Al-Anbar,6234,0.036734039,7
+225,id_470,6,Al-Muqdadiya,2402009,26030,Diyala,Al-Muqdadiya,A Hammadi Village,قرية الحمادي,34.03099698,44.94547825,IQ-G10,IQ-D062,,169,Markaz Al-Muqdadiya,Diyala,8021,0.021069692,7
+226,id_471,6,Al-Muqdadiya,2402010,25825,Diyala,Al-Muqdadiya,Al Igaidat Village,قرية العكيدات,34.00534563,44.8864838,IQ-G10,IQ-D062,,56,Markaz Al-Muqdadiya,Diyala,8021,0.006981673,7
+227,id_473,12,Al-Muqdadiya,2402012,25664,Diyala,Al-Muqdadiya,Al Lihayb Village,قرية اللهيب,34.0055888,44.87929659,IQ-G10,IQ-D062,,209,Markaz Al-Muqdadiya,Diyala,8021,0.026056601,13
+228,id_477,6,Al-Khalis,2402016,26114,Diyala,Al-Muqdadiya,Al Shekha Village,قرية الشيخة,34.05767,44.98415,IQ-G10,IQ-D062,,151,Al-Mansouriyah,Diyala,13225,0.011417769,7
+229,id_479,6,Al-Muqdadiya,2402018,25805,Diyala,Al-Muqdadiya,Al Somood Qtr,حي الصمود,33.9845665,44.94254278,IQ-G10,IQ-D062,,160,Markaz Al-Muqdadiya,Diyala,8021,0.019947637,7
+230,id_48,18,Al-Kaim,2101029,66,Anbar,Al-Ka'im,Sadah,قرية سعده,34.36995574,41.0925883,IQ-G01,IQ-D005,IQ-P00398,231,Al-Karabla,Al-Anbar,6234,0.03705486,19
+231,id_480,6,Al-Muqdadiya,2402019,11355,Diyala,Al-Muqdadiya,AlTaiha Qtr,قرية التايهة,34.03141312,44.9463326,IQ-G10,IQ-D062,IQ-P13302,312,Markaz Al-Muqdadiya,Diyala,8021,0.038897893,7
+232,id_481,6,Al-Muqdadiya,2402020,25827,Diyala,Al-Muqdadiya,Al Tinaira Village,قرية الطنيرة,34.03037545,44.94447296,IQ-G10,IQ-D062,,138,Markaz Al-Muqdadiya,Diyala,8021,0.017204837,7
+233,id_488,6,Al-Muqdadiya,2402027,25804,Diyala,Al-Muqdadiya,Al Mataar Qtr,حي المطار,33.98943701,44.94856754,IQ-G10,IQ-D062,,380,Markaz Al-Muqdadiya,Diyala,8021,0.047375639,7
+234,id_49,6,Al-Kaim,2101030,156,Anbar,Al-Ka'im,Wazeeriya,حي الوزيرية,34.38141702,41.03977263,IQ-G01,IQ-D005,IQ-P00401,255,Al-Karabla,Al-Anbar,6234,0.040904716,7
+235,id_492,6,Al-Muqdadiya,2402031,26026,Diyala,Al-Muqdadiya,Hembes Village,قرية حمبس,34.02645604,44.92557968,IQ-G10,IQ-D062,,203,Markaz Al-Muqdadiya,Diyala,8021,0.025308565,7
+236,id_493,12,Al-Muqdadiya,2402032,11327,Diyala,Al-Muqdadiya,Imam Talib Village,قرية امام طالب,34.04016742,44.98807403,IQ-G10,IQ-D062,IQ-P13310,260,Markaz Al-Muqdadiya,Diyala,8021,0.032414911,13
+237,id_498,6,Al-Muqdadiya,2402037,25948,Diyala,Al-Muqdadiya,Nofal village,قرية نوفل,34.04846,44.98265,IQ-G10,IQ-D062,,498,Markaz Al-Muqdadiya,Diyala,8021,0.062087022,7
+238,id_5,12,Makhmour,1204017,13675,Erbil,Makhmur,Sherwany,شيرواني,35.77564291,43.58093878,IQ-G11,IQ-D066,IQ-P14558,337,Markaz Makhmour,Erbil,6226,0.054127851,16
+239,id_513,6,Al-Muqdadiya,2402052,29674,Diyala,Al-Muqdadiya,Al Bayat Village,قرية البيات,34.00834,44.894758,IQ-G10,IQ-D062,,51,Markaz Al-Muqdadiya,Diyala,8021,0.006358309,7
+240,id_514,12,Al-Muqdadiya,2402053,31720,Diyala,Al-Muqdadiya,Al Mahata Village,قرية المحطة,33.9901,44.9186,IQ-G10,IQ-D062,,125,Markaz Al-Muqdadiya,Diyala,8021,0.015584092,13
+241,id_520,6,Khanaqin,2405072,25702,Diyala,Khanaqin,Al Husaini Village,قرية الحصيني,34.31110687,45.16255235,IQ-G10,IQ-D060,,220,Jalawla,Diyala,15936,0.013805221,7
+242,id_525,6,Khanaqin,2405084,10747,Diyala,Khanaqin,Said Ahmed Village,قرية سيد احمد,34.2988418,45.17467038,IQ-G10,IQ-D060,IQ-P12895,67,Jalawla,Diyala,15936,0.004204317,7
+243,id_528,6,Khanaqin,2405087,27392,Diyala,Khanaqin,17Tamooz Qtr,حي 17 تموز,34.18558418,45.12080844,IQ-G10,IQ-D060,,378,Al-Saadiya,Diyala,15936,0.02371988,7
+244,id_531,6,Khanaqin,2405090,29506,Diyala,Khanaqin,Al Rabe Al Thaniya Qtr,حي الربيع الثانية,34.197619,45.126844,IQ-G10,IQ-D060,,256,Al-Saadiya,Diyala,15936,0.016064257,7
+245,id_537,6,Khanaqin,2405096,29570,Diyala,Khanaqin,Al Shuhada Qtr,حي الشهداء,34.2794886,45.16793514,IQ-G10,IQ-D060,,300,Jalawla,Diyala,15936,0.018825301,7
+246,id_538,6,Khanaqin,2405097,29569,Diyala,Khanaqin,Al Jamahir Qtr,حي الجماهير,34.27707562,45.16680181,IQ-G10,IQ-D060,,300,Jalawla,Diyala,15936,0.018825301,7
+247,id_54,6,Al-Kaim,2101036,33466,Anbar,Al-Ka'im,Al Baghoz village ,قرية الباغوز,34.43,41.1,IQ-G01,IQ-D005,,119,Al-Rummaneh,Al-Anbar,6234,0.019088868,7
+248,id_544,6,Khanaqin,2405103,31745,Diyala,Khanaqin,Alkhadra Qtr Sector 2,حي الخضراء قطاع 2,34.28763,45.163473,,,,280,Jalawla,Diyala,15936,0.017570281,7
+249,id_548,6,Khanaqin,2405107,31749,Diyala,Khanaqin,Al Oroba Qtr Sector 3,حي العروبة قطاع 3,34.277222,45.168333,,,,200,Jalawla,Diyala,15936,0.012550201,7
+250,id_55,2,Al-Rutba,2102001,165,Anbar,Al-Rutba,Al Askaree,حي العسكري,33.03800189,40.30296999,IQ-G01,IQ-D007,IQ-P00503,215,Markaz Al-Rutba,Al-Anbar,4675,0.045989305,3
+251,id_554,6,Khanaqin,2405113,31755,Diyala,Khanaqin,Al Jamahir Qtr Sector 4,حي الجماهير قطاع 4,34.268611,45.172222,,,,370,Jalawla,Diyala,15936,0.023217871,7
+252,id_556,6,Khanaqin,2405115,31757,Diyala,Khanaqin,Al Jamahir Qtr Sector 6,حي الجماهير قطاع 6,34.268333,45.168333,,,,325,Jalawla,Diyala,15936,0.020394076,7
+253,id_557,6,Khanaqin,2405116,31758,Diyala,Khanaqin,Al Shuhada Qtr Sector 2,حي الشهداء قطاع 2,34.278611,45.176389,,,,320,Jalawla,Diyala,15936,0.020080321,7
+254,id_558,6,Khanaqin,2405117,31759,Diyala,Khanaqin,Al Shuhada Qtr Sector 3,حي الشهداء قطاع 3,34.284167,45.171667,,,,320,Jalawla,Diyala,15936,0.020080321,7
+255,id_56,5,Al-Rutba,2102002,150,Anbar,Al-Rutba,Al Haara,حي الحارة,33.03761591,40.28425391,IQ-G01,IQ-D007,IQ-P00504,536,Markaz Al-Rutba,Al-Anbar,4675,0.114652406,6
+256,id_561,6,Khanaqin,2405120,31762,Diyala,Khanaqin,Al Shuhada Qtr Sector 6,حي الشهداء قطاع 6,34.276111,45.179444,,,,475,Jalawla,Diyala,15936,0.029806727,7
+257,id_564,18,Khanaqin,2405123,31765,Diyala,Khanaqin,Al Wehdaa Qtr Sector 4,حي الوحدة قطاع 4,34.264444,45.161944,,,,325,Jalawla,Diyala,15936,0.020394076,19
+258,id_57,4,Al-Rutba,2102006,231,Anbar,Al-Rutba,Al Wadi,حي الوادي,33.03966421,40.28349821,IQ-G01,IQ-D007,IQ-P00505,344,Markaz Al-Rutba,Al-Anbar,4675,0.073582888,5
+259,id_58,12,Al-Rutba,2102007,23935,Anbar,Al-Rutba,Al-Daraemah Village,قرية الدراعمة,33.04302668,40.38036455,IQ-G01,IQ-D007,IQ-P00509,412,Markaz Al-Rutba,Al-Anbar,4675,0.088128342,13
+260,id_59,13,Al-Rutba,2102008,167,Anbar,Al-Rutba,Antesar,حي الانتصار,33.03126564,40.29927096,IQ-G01,IQ-D007,IQ-P00513,983,Markaz Al-Rutba,Al-Anbar,4675,0.21026738,14
+261,id_592,18,Al-Hawiga,2601011,15191,Kirkuk,Al-Hawiga,Al-zab,مركز ناحية الزاب,35.26433,43.45077,IQ-G13,IQ-D075,IQ-P17009,1510,Al-Zab,Kirkuk,23488,0.064288147,19
+262,id_597,12,Al-Hawiga,2601022,14934,Kirkuk,Al-Hawiga,Helwa Olia,قرية حلوة عليا,35.491102,43.780983,IQ-G13,IQ-D075,IQ-P17122,465,Al-Zab,Kirkuk,23488,0.019797343,13
+263,id_599,6,Al-Hawiga,2601024,15416,Kirkuk,Al-Hawiga,Hilwa middle,قرية حلوة وسطى,35.472569,43.754576,IQ-G13,IQ-D075,IQ-P17127,680,Al-Zab,Kirkuk,23488,0.028950954,7
+264,id_6,6,Makhmour,1204018,27244,Erbil,Makhmur,Saray(markez bazar),سراي(مركز بازار),35.77545143,43.57846638,IQ-G11,IQ-D066,,540,Markaz Makhmour,Erbil,6226,0.086733055,10
+265,id_60,1,Al-Rutba,2102010,189,Anbar,Al-Rutba,Germany Company Location,مجمع الشركة الالمانية,33.042615,40.34148,IQ-G01,IQ-D007,IQ-P00516,227,Markaz Al-Rutba,Al-Anbar,4675,0.04855615,2
+266,id_602,6,Al-Hawiga,2601030,24085,Kirkuk,Al-Hawiga,Qadissiya-101,حي القادسية 101,35.325724,43.782384,IQ-G13,IQ-D075,IQ-P17226,180,Markaz Al-Hawiga,Kirkuk,23488,0.007663488,7
+267,id_605,12,Al-Hawiga,2601034,24362,Kirkuk,Al-Hawiga,Shamitt Village,قرية شميط,35.2977,43.5263,IQ-G13,IQ-D075,,1560,Al-Zab,Kirkuk,23488,0.066416894,13
+268,id_609,6,Al-Hawiga,2601039,15275,Kirkuk,Al-Hawiga,Al-Abassy center,مركز العباسي,35.27574041,43.5971127,IQ-G13,IQ-D075,IQ-P16926,1510,Al-Abbasi,Kirkuk,23488,0.064288147,7
+269,id_61,11,Al-Rutba,2102011,23888,Anbar,Al-Rutba,Gharb Al-Wadi,حي غرب الوادي,33.04245523,40.27787723,IQ-G01,IQ-D007,IQ-P00517,751,Markaz Al-Rutba,Al-Anbar,4675,0.160641711,12
+270,id_62,6,Al-Rutba,2102014,166,Anbar,Al-Rutba,Hay Al Meethagh,حي الميثاق,33.03197354,40.29032729,IQ-G01,IQ-D007,IQ-P00521,443,Markaz Al-Rutba,Al-Anbar,4675,0.094759358,7
+271,id_63,12,Al-Rutba,2102016,233,Anbar,Al-Rutba,Hay Al-Matar,حي المطار,33.03461084,40.28655285,IQ-G01,IQ-D007,IQ-P00518,689,Markaz Al-Rutba,Al-Anbar,4675,0.147379679,13
+272,id_631,6,Al-Hawiga,2601062,15393,Kirkuk,Al-Hawiga,Al-Khatoonia,قرية الخاتونية,35.3424,44.0069,IQ-G13,IQ-D075,IQ-P17135,55,Al-Riyadh,Kirkuk,23488,0.002341621,7
+273,id_632,6,Al-Hawiga,2601063,33228,Kirkuk,Al-Hawiga,Hawd Sittah village,قرية حوض ستة,35.3248,43.636,,,,775,Al-Abbasi,Kirkuk,23488,0.032995572,7
+274,id_64,1,Al-Rutba,2102021,23936,Anbar,Al-Rutba,Rumilah Village,قرية رميلة,33.06022091,40.34570459,IQ-G01,IQ-D007,IQ-P00524,75,Markaz Al-Rutba,Al-Anbar,4675,0.016042781,2
+275,id_641,6,Al-Hawiga,2601072,33262,Kirkuk,Al-Hawiga,Namisa Village,قرية نميصة,35.308887,43.548085,,,,260,Al-Zab,Kirkuk,23488,0.011069482,7
+276,id_647,6,Al-Hawiga,2601078,14868,Kirkuk,Al-Hawiga,Shamllan village,قرية شملان,35.390949,43.804969,IQ-G13,IQ-D075,IQ-P17281,89,Markaz Al-Hawiga,Kirkuk,23488,0.003789169,7
+277,id_65,12,Ana,2103001,248,Anbar,Ana,Al bor (Shishan),حي العبور,34.36678805,41.97443325,IQ-G01,IQ-D001,IQ-P00001,164,Markaz Ana,Al-Anbar,4770,0.034381551,13
+278,id_652,6,Al-Hawiga,2601083,15204,Kirkuk,Al-Hawiga,Digail Village,قرية دغيلة,35.2471,43.8155,IQ-G13,IQ-D075,IQ-P17045,25,Al-Riyadh,Kirkuk,23488,0.001064373,7
+279,id_67,12,Ana,2103003,252,Anbar,Ana,Al Tadamon,حي التضامن,34.36428013,41.98145309,IQ-G01,IQ-D001,IQ-P00003,240,Markaz Ana,Al-Anbar,4770,0.050314465,13
+280,id_671,6,Al-Hawiga,2601102,14896,Kirkuk,Al-Hawiga,Hay Al-Nasir ( Hawija ),حي النصر (الحويجة),35.32258,43.76905,IQ-G13,IQ-D075,IQ-P16980,130,Markaz Al-Hawiga,Kirkuk,23488,0.005534741,7
+281,id_68,6,Ana,2103004,23937,Anbar,Ana,Al-Awany Village,قرية العواني,34.46573914,41.73122316,IQ-G01,IQ-D001,IQ-P00004,124,Rawa,Al-Anbar,4770,0.025995807,7
+283,id_69,6,Ana,2103005,250,Anbar,Ana,Hay Al Nasir,حي النصر,34.36779422,41.99272005,IQ-G01,IQ-D001,IQ-P00009,234,Markaz Ana,Al-Anbar,4770,0.049056604,7
+284,id_692,6,Al-Hawiga,2601123,15339,Kirkuk,Al-Hawiga,Al Manzala Village,قرية المنزلة,35.38148,43.87222,IQ-G13,IQ-D075,IQ-P17191,55,Markaz Al-Hawiga,Kirkuk,23488,0.002341621,7
+285,id_7,12,Makhmour,1204019,13500,Erbil,Makhmur,Bndiyan,بنديان,35.77626707,43.58273364,IQ-G11,IQ-D066,IQ-P14198,262,Markaz Makhmour,Erbil,6226,0.042081593,16
+286,id_70,6,Ana,2103006,251,Anbar,Ana,Hay Al Qadissiyah,حي القادسية,34.37749089,41.98337462,IQ-G01,IQ-D001,IQ-P00010,207,Markaz Ana,Al-Anbar,4770,0.043396226,7
+287,id_71,6,Ana,2103007,253,Anbar,Ana,Hay Al Salam,حي السلام,34.37150561,41.97490128,IQ-G01,IQ-D001,IQ-P00011,188,Markaz Ana,Al-Anbar,4770,0.039412998,7
+288,id_719,30,Daquq,2602005,14786,Kirkuk,Daquq,Fareeq Awa,حي فريق اوه,35.13463604,44.43581851,IQ-G13,IQ-D074,IQ-P16626,120,Markaz Daquq,Kirkuk,1295,0.092664093,31
+289,id_720,18,Daquq,2602006,24238,Kirkuk,Daquq,Hay Al Motajawizeen,حي منطقة متجاوزين,35.1470456,44.4522298,IQ-G13,IQ-D074,IQ-P16759,80,Markaz Daquq,Kirkuk,1295,0.061776062,19
+290,id_726,6,Daquq,2602021,29631,Kirkuk,Daquq,Arab Koy village,قرية عرب كوي,35.066888,44.38886,IQ-G13,IQ-D074,,70,Markaz Daquq,Kirkuk,1295,0.054054054,7
+291,id_727,12,Daquq,2602024,31725,Kirkuk,Daquq,Hay Gulan,حي كولان,35.14432821,44.45557782,,,,90,Markaz Daquq,Kirkuk,1295,0.069498069,13
+292,id_729,6,Daquq,2602027,15139,Kirkuk,Daquq,Khaled bin Waleed village,قرية خالد بن الوليد,35.20333,44.36444,IQ-G13,IQ-D074,IQ-P16678,85,Markaz Daquq,Kirkuk,1295,0.065637066,7
+293,id_73,6,Ana,2103009,23799,Anbar,Ana,Hay Al ZeraI,حي الزراعي,34.3731532,41.99536369,IQ-G01,IQ-D001,IQ-P00013,166,Markaz Ana,Al-Anbar,4770,0.034800839,7
+294,id_731,12,Daquq,2602029,14788,Kirkuk,Daquq,Wahda village,قرية الوحدة,35.210085,44.38053,IQ-G13,IQ-D074,IQ-P16544,80,Markaz Daquq,Kirkuk,1295,0.061776062,13
+295,id_732,18,Daquq,2602030,21814,Kirkuk,Daquq,Saad Bin Waqqas village,قرية سعد بن الوقاص,35.20031,44.35599,IQ-G13,IQ-D074,IQ-P16769,195,Markaz Daquq,Kirkuk,1295,0.150579151,19
+296,id_738,18,Kirkuk,2603001,22289,Kirkuk,Kirkuk,Al Faylaq-Mahala 5,حي الفيلق-5,35.47617352,44.36989789,IQ-G13,IQ-D076,IQ-P17696,1125,Markaz Kirkuk,Kirkuk,27020,0.041635825,19
+297,id_745,24,Kirkuk,2603012,25556,Kirkuk,Kirkuk,Darwaza,دروازة,35.47339866,44.42337455,IQ-G13,IQ-D076,,3000,Markaz Kirkuk,Kirkuk,27020,0.111028868,25
+298,id_752,18,Kirkuk,2603029,21702,Kirkuk,Kirkuk,Hay Azadi,حي ازادي,35.48144527,44.40941294,IQ-G13,IQ-D076,IQ-P17587,4000,Markaz Kirkuk,Kirkuk,27020,0.14803849,19
+299,id_756,30,Kirkuk,2603038,14530,Kirkuk,Kirkuk,Panja Ali,بنجه علي,35.43692001,44.42867998,IQ-G13,IQ-D076,IQ-P17753,4450,Markaz Kirkuk,Kirkuk,27020,0.16469282,31
+300,id_757,12,Kirkuk,2603044,14763,Kirkuk,Kirkuk,Rahim Awa,رحيم اوه,35.4974936,44.39453965,IQ-G13,IQ-D076,IQ-P17795,5500,Markaz Kirkuk,Kirkuk,27020,0.203552924,13
+301,id_758,6,Kirkuk,2603045,23634,Kirkuk,Kirkuk,Runaki,حي روناكي,35.44568064,44.39848883,IQ-G13,IQ-D076,IQ-P17800,250,Markaz Kirkuk,Kirkuk,27020,0.009252406,7
+302,id_767,12,Kirkuk,2603066,31726,Kirkuk,Kirkuk,Al-Qadisssiya(Rabareen) first,حي الانتفاضة-رابرين-(القادسية سابقا) اول,35.41471699,44.41200376,,,,1000,Markaz Kirkuk,Kirkuk,27020,0.037009623,13
+303,id_768,12,Kirkuk,2603067,31727,Kirkuk,Kirkuk,Al-Qadisssiya(Rabareen) seconad,حي الانتفاضة-رابرين-(القادسية سابقا) ثاني,35.42690647,44.41421748,,,,1100,Markaz Kirkuk,Kirkuk,27020,0.040710585,13
+304,id_77,6,Ana,2104002,264,Anbar,Ra'ua,Al Qaala,حي القلعة,34.46461943,41.91451614,IQ-G01,IQ-D008,IQ-P00531,273,Rawa,Al-Anbar,4770,0.057232704,7
+305,id_777,6,Daquq,2603079,14930,Kirkuk,Kirkuk,Karha Rufaiaa village,قرية كرحة رفيعة,35.1268,44.01578,IQ-G13,IQ-D075,IQ-P16945,16,Al-Rashad,Kirkuk,1295,0.012355212,7
+306,id_78,6,Ana,2104003,23861,Anbar,Ra'ua,Al-Hidayah,حي الهداية,34.47546565,41.91331008,IQ-G01,IQ-D008,IQ-P00534,209,Rawa,Al-Anbar,4770,0.043815514,7
+307,id_780,49,Dibis,2604001,14375,Kirkuk,Dabes,Altun Kupri Center,مركز ناحية التون كوبري,35.75626625,44.13984071,IQ-G13,IQ-D073,IQ-P16356,866,Altun Qupri,Kirkuk,1196,0.724080268,51
+308,id_782,6,Dibis,2604010,14407,Kirkuk,Dabes,Qashqaiyah village,قرية قوشقاية,35.60065,44.20406,IQ-G13,IQ-D073,IQ-P16480,135,Markaz Dibis,Kirkuk,1196,0.112876254,7
+309,id_783,5,Dibis,2604011,15463,Kirkuk,Dabes,Qutan village,قرية قوتان,35.60376,44.24989,IQ-G13,IQ-D073,IQ-P16482,70,Markaz Dibis,Kirkuk,1196,0.058528428,6
+310,id_785,1,Dibis,2604013,33383,Kirkuk,Dabes,Hay Kurdistan,حي كوردستان,35.6753,44.06653,,,,40,Markaz Dibis,Kirkuk,1196,0.033444816,2
+311,id_786,2,Dibis,2604014,33382,Kirkuk,Dabes,Hay Rabareen,حي رابرين,35.67457,44.07373,,,,30,Markaz Dibis,Kirkuk,1196,0.025083612,3
+312,id_787,2,Dibis,2604015,33384,Kirkuk,Dabes,Hay Diyarbakir,حي دياربكر,35.66829,44.08248,,,,25,Markaz Dibis,Kirkuk,1196,0.02090301,3
+313,id_788,138,Al-Baaj,2702001,17703,Ninewa,Al-Ba'aj,Markaz Baaj,مركز بعاج,36.04688,41.71599,IQ-G15,IQ-D084,IQ-P19746,1284,Markaz Al-Baaj,Ninewa,1768,0.726244344,143
+314,id_789,6,Al-Baaj,2702002,33431,Ninewa,Al-Ba'aj,Al-Rashediyah,الرشيدية,36.125506,41.572871,,,,25,Al-Qahtanya,Ninewa,1768,0.014140271,7
+315,id_79,6,Ana,2104004,267,Anbar,Ra'ua,Hay Al Qadissiyah,حي القادسية,34.48708112,41.90780699,IQ-G01,IQ-D008,IQ-P00546,286,Rawa,Al-Anbar,4770,0.059958071,7
+316,id_791,6,Al-Baaj,2702004,33432,Ninewa,Al-Ba'aj,Abu-Rasen,ابو راسين,36.075384,41.581558,,,,27,Al-Qahtanya,Ninewa,1768,0.015271493,7
+317,id_796,6,Al-Baaj,2702009,33430,Ninewa,Al-Ba'aj,Al-Sahrej,الصهريج,36.007418,41.756375,,,,34,Markaz Al-Baaj,Ninewa,1768,0.019230769,7
+318,id_799,6,Al-Baaj,2702012,33446,Ninewa,Al-Ba'aj,Sibaya Village,قرية سيباية,35.996798,41.593421,,,,94,Markaz Al-Baaj,Ninewa,1768,0.053167421,7
+319,id_80,12,Ana,2104005,23640,Anbar,Ra'ua,Hay Al Salam,حي السلام ,34.4877889,41.92430322,IQ-G01,IQ-D008,IQ-P00547,173,Rawa,Al-Anbar,4770,0.036268344,13
+320,id_800,12,Al-Baaj,2702013,33600,Ninewa,Al-Ba'aj,Wardeya,قرية وردية,36.279515,41.727774,IQ-G15,IQ-D084,,63,Al-Qahtanya,Ninewa,1768,0.035633484,13
+321,id_801,6,Al-Hamdaniya,2703002,22314,Ninewa,Al-Hamdaniya,Al-ghadeer complex,مجمع الغدير,36.350965,43.343227,IQ-G15,IQ-D085,IQ-P19765,890,Bartilla,Ninewa,28387,0.03135238,7
+322,id_808,6,Al-Hamdaniya,2703010,21939,Ninewa,Al-Hamdaniya,Shaquli village,قرية شاقولي,36.321536,43.448915,IQ-G15,IQ-D085,IQ-P19879,647,Bartilla,Ninewa,28387,0.022792123,7
+323,id_809,12,Al-Hamdaniya,2703011,17930,Ninewa,Al-Hamdaniya,Tahrawa Village,قرية طهراوة,36.343993,43.325751,IQ-G15,IQ-D085,IQ-P19880,774,Bartilla,Ninewa,28387,0.027266002,13
+324,id_816,6,Al-Hamdaniya,2703022,29684,Ninewa,Al-Hamdaniya,Kubaiba village,قرية كبيبة,36.01433491,43.37715646,IQ-G15,IQ-D085,,216,Namroud,Ninewa,28387,0.007609117,7
+325,id_82,6,Ana,2104007,23860,Anbar,Ra'ua,Hay Al Shuhadaa,حي الشهداء,34.48761546,41.91988086,IQ-G01,IQ-D008,IQ-P00549,267,Rawa,Al-Anbar,4770,0.055974843,7
+326,id_826,30,Al-Hamdaniya,2703035,18371,Ninewa,Al-Hamdaniya,Qaraqosh,قره قوش,36.2732,43.3769,IQ-G15,IQ-D085,IQ-P19851,4903,Markaz Al-Hamdaniya,Ninewa,28387,0.172719907,31
+327,id_830,30,Al-Hamdaniya,2703041,17131,Ninewa,Al-Hamdaniya,Bartalla center,مركز ناحية برطله,36.353862,43.37859,IQ-G15,IQ-D085,IQ-P19787,3604,Bartilla,Ninewa,28387,0.126959524,31
+328,id_834,6,Al-Hamdaniya,2703045,17890,Ninewa,Al-Hamdaniya,Shamsiat Village,قرية الشمسيات,36.25570404,43.19170098,IQ-G15,IQ-D085,IQ-P19877,145,Markaz Al-Hamdaniya,Ninewa,28387,0.005107972,7
+329,id_835,6,Al-Hamdaniya,2703047,17385,Ninewa,Al-Hamdaniya,Basakhrah Village,قرية باصخرة,36.365338,43.4281,IQ-G15,IQ-D085,IQ-P19788,470,Bartilla,Ninewa,28387,0.016556875,7
+330,id_84,6,Ana,2104009,265,Anbar,Ra'ua,Rawa Al Qadima,حي راوة قديمة,34.4707715,41.92042388,IQ-G01,IQ-D008,IQ-P00555,179,Rawa,Al-Anbar,4770,0.037526205,7
+331,id_841,6,Al-Hamdaniya,2703053,17376,Ninewa,Al-Hamdaniya,Kabarly Village,قرية كبرلي ,36.242985,43.449273,IQ-G15,IQ-D085,IQ-P19828,932,Markaz Al-Hamdaniya,Ninewa,28387,0.03283193,7
+332,id_846,6,Al-Hamdaniya,2703058,21017,Ninewa,Al-Hamdaniya,Karamless,كرمليس,36.303679,43.41278,IQ-G15,IQ-D085,IQ-P19833,450,Bartilla,Ninewa,28387,0.015852327,7
+333,id_854,22,Al-Shikhan,2704036,17045,Ninewa,Al-Shikhan,Sheikh Milwan Village,قرية شيخ ملوان,36.583357,43.242019,IQ-G15,IQ-D088,IQ-P20532,100,Markaz Al-Shikhan,Ninewa,266,0.37593985,23
+334,id_855,10,Al-Shikhan,2704037,17049,Ninewa,Al-Shikhan,Small Rikaba Village,قرية ركابة صغيرة,36.567179,43.236133,IQ-G15,IQ-D088,IQ-P20512,63,Markaz Al-Shikhan,Ninewa,266,0.236842105,11
+335,id_856,8,Al-Shikhan,2704038,17051,Ninewa,Al-Shikhan,Big Rikaba Village,قرية ركابة كبيرة,36.565376,43.251839,IQ-G15,IQ-D088,IQ-P20511,26,Markaz Al-Shikhan,Ninewa,266,0.097744361,9
+336,id_857,8,Al-Shikhan,2704039,17875,Ninewa,Al-Shikhan,Nargizlia Village,قرية نركزلية,36.602573,43.279225,IQ-G15,IQ-D088,IQ-P20486,46,Markaz Al-Shikhan,Ninewa,266,0.172932331,9
+337,id_860,1,Al-Shikhan,2704042,18267,Ninewa,Al-Shikhan,Taq Harb,قرية طاق حرب,36.585999,43.302218,IQ-G15,IQ-D088,,6,Markaz Al-Shikhan,Ninewa,266,0.022556391,2
+338,id_861,6,Al-Shikhan,2704043,21648,Ninewa,Al-Shikhan,Taq Mekail,قرية طاق ميكائيل,36.573488,43.302369,IQ-G15,IQ-D088,,25,Markaz Al-Shikhan,Ninewa,266,0.093984962,7
+339,id_862,90,Al-Hatra,2705001,27271,Ninewa,Hatra,Tal abta,تل عبطة,35.94612983,42.56874584,IQ-G15,IQ-D086,,1530,Markaz Hatra,Ninewa,3448,0.443735499,93
+340,id_863,18,Al-Hatra,2705006,32083,Ninewa,Hatra,Mokhazaga Village,قرية مخزكة,35.8994949,42.885715,IQ-G15,IQ-D086,,82,Markaz Hatra,Ninewa,3448,0.023781903,19
+341,id_873,6,Al-Hatra,2705021,33182,Ninewa,Hatra,AL-Ani Village,قرية العاني,35.982176,42.695251,IQ-G15,IQ-D086,,85,Markaz Hatra,Ninewa,3448,0.024651972,7
+342,id_883,6,Al-Baaj,2705035,33392,Ninewa,Hatra,khwetla village,قرية خويتلة,36.008801,42.320781,,,,59,Markaz Al-Baaj,Ninewa,1768,0.033371041,7
+343,id_886,6,Al-Hatra,2705038,33390,Ninewa,Hatra,Medan kli Gnobia village,قرية ميدان قلي جنوبية,36.006447,42.45614,,,,160,Markaz Hatra,Ninewa,3448,0.046403712,7
+344,id_888,6,Al-Hatra,2705040,23422,Ninewa,Hatra,AL_ Trorkmania Al-shmalia village,قرية التركمانية الشمالية,35.978876,42.619515,IQ-G15,IQ-D086,IQ-P19915,91,Markaz Hatra,Ninewa,3448,0.026392111,7
+345,id_890,18,Al-Hatra,2705042,17126,Ninewa,Hatra,Markaz AL-Hatra,مركز الحضر,35.57722514,42.73232949,IQ-G15,IQ-D086,IQ-P19908,270,Markaz Hatra,Ninewa,3448,0.078306265,19
+346,id_895,12,Tilkaef,2706006,18377,Ninewa,Mosul,Al rasheediya,الرشيدية,36.40323668,43.08892338,IQ-G15,IQ-D087,IQ-P19949,991,Markaz Tilkaef,Ninewa,19813,0.050017665,13
+347,id_903,6,Al-Mosul,2706017,18339,Ninewa,Mosul,Al-Karamah,الكرامة,36.34434032,43.21456696,IQ-G15,IQ-D087,IQ-P19969,2639,Al-Muhamadath,Ninewa,159060,0.016591223,7
+348,id_912,6,Al-Mosul,2706026,18336,Ninewa,Mosul,Al-Noor,النور,36.35847012,43.18538413,IQ-G15,IQ-D087,IQ-P19979,1835,Al-Muhamadath,Ninewa,159060,0.011536527,7
+349,id_919,6,Al-Mosul,2706034,18367,Ninewa,Mosul,Al-Yarmuk,اليرموك,36.33808679,43.08383274,IQ-G15,IQ-D087,IQ-P19995,2298,Al-Muhamadath,Ninewa,159060,0.014447378,7
+350,id_92,6,Al-Falluja,2105012,21556,Anbar,Falluja,Al Shuhadaa 2,الشهداء الثانية ,33.40027867,43.71530117,IQ-G01,IQ-D002,IQ-P00047,1539,Markaz Al-Falluja,Al-Anbar,90536,0.016998763,7
+351,id_922,6,Al-Mosul,2706037,21607,Ninewa,Mosul,Bashiqa center,مركز بعشيقة,36.45160194,43.34839124,IQ-G15,IQ-D087,IQ-P20013,3750,Bashiqa,Ninewa,159060,0.023576009,7
+352,id_928,6,Al-Mosul,2706044,18313,Ninewa,Mosul,Hay Al Islah Al Zirai,حي الاصلاح الزراعي,36.35024315,43.08533068,IQ-G15,IQ-D087,IQ-P20057,7188,Al-Muhamadath,Ninewa,159060,0.045190494,7
+353,id_93,6,Al-Falluja,2105013,169,Anbar,Falluja,Al Shurta,حي الشرطة,33.36389707,43.79491676,IQ-G01,IQ-D002,IQ-P00048,2935,Markaz Al-Falluja,Al-Anbar,90536,0.032418044,7
+354,id_932,6,Al-Mosul,2706050,21647,Ninewa,Mosul,Hay Al Zahraa,حي الزهراء,36.38355532,43.20623399,IQ-G15,IQ-D087,IQ-P20074,1775,Al-Muhamadath,Ninewa,159060,0.011159311,7
+355,id_943,6,Al-Mosul,2706063,21258,Ninewa,Mosul,Tal Al-Rumman,تل الرمان,36.31561638,43.08965804,IQ-G15,IQ-D087,IQ-P20207,2612,Al-Muhamadath,Ninewa,159060,0.016421476,7
+356,id_960,6,Al-Mosul,2706082,18365,Ninewa,Mosul,Al-Amil,العامل,36.32280772,43.09236869,IQ-G15,IQ-D087,,5345,Al-Muhamadath,Ninewa,159060,0.033603672,7
+357,id_966,6,Al-Mosul,2706093,18383,Ninewa,Mosul,Hay Adan,حي عدن,36.35520601,43.21094592,IQ-G15,IQ-D087,IQ-P19956,2051,Al-Muhamadath,Ninewa,159060,0.012894505,7
+358,id_99,6,Al-Falluja,2105022,177,Anbar,Falluja,Al-bazara,حي البزارة,33.35251851,43.76927803,IQ-G01,IQ-D002,IQ-P00058,2436,Markaz Al-Falluja,Al-Anbar,90536,0.026906424,7

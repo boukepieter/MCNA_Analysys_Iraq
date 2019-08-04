@@ -11,7 +11,6 @@ data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors 
 data_new <- data %>% filter((!X_uuid %in% data_old$X_uuid) & (as.Date(date_assessment) < as.Date(ignore_date)))
 
 child <- read.csv(sprintf("%s/child.csv",dir), stringsAsFactors = F)
-psu <- read.csv("raw_data/combined_sample_ids.csv", stringsAsFactors = F)
 
 #unique uuid's
 find_duplicates_uuid(data)
@@ -66,6 +65,7 @@ for (i in 1:length(uq)){
 
 ## household individual data
 loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+#loop$X_submission__uuid <- data$X_uuid[loop$X_parent_index]
 
 loop %>% filter(relationship == "error") %>% dplyr::select(X_submission__uuid, X_index)
 loop_without_error <- loop %>% filter(relationship != "error")
