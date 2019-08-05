@@ -8,7 +8,6 @@ library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
-source("functions/recoding.R")
 #source("./pre-process_strata_names.R")
 
 # load questionnaire inputs
@@ -27,7 +26,7 @@ choices <- read.csv("input/kobo_choices.csv",
 
 response <- read.csv("input/parent_cleaned_anonymised.csv",
                      stringsAsFactors = F, check.names = F)
-response <- response %>% mutate(type_hh = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
+response <- response %>% filter(calc_noteligible != 1) %>% mutate(type_hh = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
 # add cluster ids
 
@@ -42,7 +41,10 @@ response_w_clusterids <- response_w_clusterids %>%
 
 # horizontal operations / recoding
 
+source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids)
+indicator <- "G51"
+table(r[,c("type_hh", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
@@ -75,11 +77,12 @@ samplingframe_strata<-as.data.frame(samplingframe_strata)
 
 # this line is dangerous. If we end up with missing strata, they're silently removed.
 # could we instead kick out more specifically the impossible district/population group combos?
-# r_test <- r_test %>% filter(strata %in% samplingframe_strata$stratum)
+r <- r %>% filter(strata %in% samplingframe_strata$stratum)
+r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 r$cluster_id <- paste(r$cluster_location_id, r$type_hh, sep = "_")
-# r_test <- r_test %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 r_test <- r %>% 
   filter(strata %in% c("al.mosulidp","al.mosulreturnee","al.mosulhost"))
+
 
 library(surveyweights)
 clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
@@ -99,8 +102,18 @@ weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun
 result <- from_analysisplan_map_to_output(r_test, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
-                                          questionnaire)
+                                          questionnaire = questionnaire)#, confidence_level = 0.9)
 
+summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
+summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+summary$moe <- summary$max - summary$min
+
+print(summary)
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------
+# For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)
+
+kobostandards::check_input(data = r, analysisplan = analysisplan) %>% filter(grepl("analysisplan",affected_files))
 
 result_labeled <- result$results %>% lapply(map_to_labeled,questionnaire)
 result_labeled <- result

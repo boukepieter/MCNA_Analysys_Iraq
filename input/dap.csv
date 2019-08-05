@@ -13,8 +13,9 @@ Intentions,% of IDP HHs that currently don't intend to return to their AoO due t
 "Intentions, Protection - HLP ","% of IDP HHs not intending to return due to HLP issues (damage/destruction, secondary occupation or unresolved HLP ownership issues)",district,type_hh,categorical,G67,categorical,direct_reporting
 "Intentions, Protection - MA",% of IDP HHs not intending to return to their AoO due to explosive hazards contamination,district,type_hh,categorical,G73,categorical,direct_reporting
 Protection - HLP,% HH lacking secure tenure,district,type_hh,categorical,G68,categorical,direct_reporting
-"Protection, Protection - CP","% HH missing at least one key household or individual document 
-Sub-indicator: % HH with at least one child missing a key document",district,type_hh,categorical,G51,categorical,direct_reporting
+"Protection, Protection - CP",% HH missing at least one key household or individual document ,district,type_hh,categorical,G51,categorical,direct_reporting
+"Protection, Protection - CP",Sub-indicator: % HH with at least one child missing a key document,district,type_hh,categorical,G51_sub,categorical,direct_reporting
+"Protection, Protection - CP",Number of missing documents,district,type_hh,categorical,G51_alt,numerical,direct_reporting
 Protection - Protection CP,Number of reported children missing birth certificates,district,type_hh,categorical,G51a,numerical,direct_reporting
 Protection - Protection CP,Number of reported children missing national ID,district,type_hh,categorical,G51b,numerical,direct_reporting
 "Protection, Access and safety",% HHs experiencing daytime movement restrictions,district,type_hh,categorical,G54,categorical,direct_reporting

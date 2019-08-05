@@ -38,6 +38,12 @@ recoding_mcna <- function(r) {
     
     
     end_recoding
+  r$G51_alt <- apply(r, 1, FUN=function(x){#print(which(r$X_uuid==x[,"X_uuid"])) 
+                                    sum(x[c("pds","info_card","death_certificate", "guardianship", "inheritance",
+                                       "trusteeship", "passport_a18", "id_card_a18", "citizenship_a18", "birth_cert_a18",
+                                       "school_cert_a18", "marriage_cert_a18", "divorce_cert_a18",
+                                       "passport_u18", "id_card_u18", "citizenship_u18", "birth_cert_u18",
+                                       "marriage_cert_u18", "divorce_cert_u18")] %in% c("no", "non_valid"))})
   r$G51a <- r$birth_cert_missing_amount_u1
   r$G51b <- r$id_card_missing_amount
   return(r)

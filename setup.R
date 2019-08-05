@@ -56,6 +56,10 @@ devtools::install_github(
   build_opts = c()
 )
 
+devtools::install_github(
+  "mabafaba/hypegrammaR", 
+  ref = "develop", 
+  build_vignettes = TRUE)
 
 
 

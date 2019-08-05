@@ -2,13 +2,13 @@ setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
 set.up.cleaning.dir("raw_data")
-dir <- "raw_data/20190804"
+dir <- "raw_data/20190805"
 #kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=F)
 
 data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
-ignore_date <- c("2019-08-04")
+ignore_date <- c("2019-08-05")
 data <- data %>% filter(as.Date(date_assessment) < as.Date(ignore_date)) 
 
 ## Overview of dates
@@ -42,7 +42,7 @@ data %>% filter(ref_docs == "yes") %>% dplyr::select(X_uuid, date_assessment, re
 ## start geo cleaning
 # filter on date
 check <- read.csv(sprintf("%s/cleaning_logbook.csv", dir), stringsAsFactors = F)
-submission_date_to_check <- c("2019-08-03")
+submission_date_to_check <- c("2019-08-04")
 filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
 sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
@@ -52,7 +52,7 @@ print(result[,-ncol(result)])
 
 check_if_cleaned(result, check, psu, partners)
 which(result$inside_alternative_cluster)
-row <- 24
+row <- 20
 uuid <- filtered_data %>% filter(cluster_location_id == result[row,1] & population_group == result[row,3]) %>% 
   dplyr::select(X_uuid)
 uuid$X_uuid %in% check$uuid
@@ -63,7 +63,7 @@ log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "
                                     question.name="calc_host", issue="Host interviewed in district without host sample.",
                                     dir = dir)
 log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "f",  
-                                    question.name="cluster_location_id", issue="Returnee interviewed in IDP locations, keeping for potential later use.",
+                                    question.name="cluster_location_id", issue="Returnee interviewed in IDP locations in district without Returnee sample, keeping for potential later use.",
                                     dir = dir)
 log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "c",  
                                     question.name="cluster_location_id", issue="Wrong cluster selected, right cluster checked with gps coordinates and other locations assessed that day.",
@@ -85,7 +85,7 @@ result_separate <- points.inside.cluster.separated(data = filtered_data, samplep
 print(result_separate)
 which(!result_separate$inside_buffer) %in% which(uuid$X_uuid %in% check$uuid)
 
-row <- 3
+row <- 2
 row <- c(5:7)
 row <- which(!result_separate$inside_buffer)
 filtered_data %>% filter(X_uuid == result_separate[row,1]) %>% dplyr::select(ngo,enumerator_num)
@@ -103,9 +103,9 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
                                     dir = dir, new.value = result_separate$alternative_cluster[row])
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "c",  
                                     question.name="cluster_location_id", issue="Wrong cluster selected, checked with gps points and other clusters interviewed that day.",
-                                    dir = dir, new.value = "cluster_location_id_0471")#
+                                    dir = dir, new.value = "cluster_location_id_0470")#
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
-                                    question.name="cluster_location_id", issue="IDP interviewed in Host location, keeping for potential later use. The IDP cluster 952 is close by (1.7km)",
+                                    question.name="cluster_location_id", issue="Interview held on the road in the bordering district (far from cluster), probably logged on the way back.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
 execute.cleaning.changes(dir, "parent.csv")
 anonymise.cleaned.data(dir, name = "parent")
