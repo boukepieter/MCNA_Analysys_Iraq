@@ -2,13 +2,13 @@ setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
 set.up.cleaning.dir("raw_data")
-dir <- "raw_data/20190805"
+dir <- "raw_data/20190806"
 #kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=F)
 
 data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
-ignore_date <- c("2019-08-05")
+ignore_date <- c("2019-08-06")
 data <- data %>% filter(as.Date(date_assessment) < as.Date(ignore_date)) 
 
 ## Overview of dates
@@ -42,7 +42,7 @@ data %>% filter(ref_docs == "yes") %>% dplyr::select(X_uuid, date_assessment, re
 ## start geo cleaning
 # filter on date
 check <- read.csv(sprintf("%s/cleaning_logbook.csv", dir), stringsAsFactors = F)
-submission_date_to_check <- c("2019-08-04")
+submission_date_to_check <- c("2019-08-05")
 filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
 sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
@@ -52,7 +52,7 @@ print(result[,-ncol(result)])
 
 check_if_cleaned(result, check, psu, partners)
 which(result$inside_alternative_cluster)
-row <- 20
+row <- 4
 uuid <- filtered_data %>% filter(cluster_location_id == result[row,1] & population_group == result[row,3]) %>% 
   dplyr::select(X_uuid)
 uuid$X_uuid %in% check$uuid
@@ -103,7 +103,7 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
                                     dir = dir, new.value = result_separate$alternative_cluster[row])
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "c",  
                                     question.name="cluster_location_id", issue="Wrong cluster selected, checked with gps points and other clusters interviewed that day.",
-                                    dir = dir, new.value = "cluster_location_id_0470")#
+                                    dir = dir, new.value = "cluster_location_id_0501")#
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
                                     question.name="cluster_location_id", issue="Interview held on the road in the bordering district (far from cluster), probably logged on the way back.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
@@ -165,7 +165,7 @@ log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
-row <- c(4725:4727)
+row <- c(4923)
 uuid <- log[row,"uuid"]
 data$start[which(data$X_uuid %in% uuid)]
 coords <- data[which(data$X_uuid %in% uuid),c("X_gpslocation_longitude", "X_gpslocation_latitude")]
@@ -173,10 +173,6 @@ spdf <- SpatialPointsDataFrame(coords, data.frame(uuid=uuid), proj4string = WGS8
 writeOGR(spdf, dsn = "raw_data/shapes", layer = sprintf("%s_%s_%s",format(Sys.time(), format="%H%M"), log$location_id[row][1], 
                                                         data$population_group[which(data$X_uuid== uuid[1])]),
          driver = "ESRI Shapefile", overwrite_layer = TRUE)
-
-dist <- unique(psu$district)
-gov <- psu$governorate[match(dist, psu$district)]
-write.csv(data.frame(governorate = gov, district = dist), "finished_districts.csv",row.names = F)
 
 #TEMP
 phones <- c("354402104522644",
