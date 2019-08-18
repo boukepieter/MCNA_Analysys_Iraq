@@ -204,7 +204,16 @@ data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
 loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+loop2 <- read.csv(sprintf("%s/child2.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+loop2$X_submission__uuid <- data2$X_uuid[loop2$X_parent_index]
+loop3 <- rbind(loop[,-c(48,50,51)],loop2)
+loop <- loop3
 #loop %>% filter(relationship == "error") %>% dplyr::select(X_submission__uuid, X_index)
+# uuid <- data$X_uuid[which(data$calc_noteligible == 1)]
+# log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "d",  
+#                              question.name="calc_noteligible", 
+#                              issue="HH is not IDP, not Returnee, not Host so not eligible and has to be deleted from the dataset", dir=dir)
+
 loop_without_error <- loop %>% filter(relationship != "error")
 
 entries <- which(log$feedback == "Surrounding villages couldn't be reached because of ongoing security operations. So all done in town and recoded to the 3 clusters present in the town.")
@@ -292,19 +301,20 @@ for (i in 1:length(entries)){
   }
 }
 
-log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
-entries <- which(log$issue %in% c("There is not 1 Head of Household in the individual loop. There is either non or more than 1.",
-                                  "The respondent is head of household but doesn't have same age and gender as head of household in the loop."))
-test <- numeric()
-for (i in 1:length(entries)){
-  if (log$uuid[entries[i]] %in% data$X_uuid){
+
+change_hhh <- function(data, log, loop, entries){
+  for (i in 1:length(entries)){
+    print(i)
     data_subset <- data[which(data$X_uuid == log$uuid[entries[i]]),]
     is_hhh <- data_subset$hhh == "yes"
     loop_subset <- loop[which(loop$X_submission__uuid == log$uuid[entries[i]]),]
     number_hhh <- length(which(loop_subset$relationship == "head"))
     same_gender <- data_subset$gender_respondent == loop_subset$sex[which(loop_subset$relationship == "head")]
     
-    if (is_hhh & number_hhh == 1 & ! same_gender[1]) {
+    if (nrow(loop_subset) < 1) {
+      test[i] <- 0
+      log$feedback[entries[i]] <- "no loop for this interview exists so also no hhh"
+    } else if (is_hhh & number_hhh == 1 & ! same_gender[1]) {
       test[i] <- 1
       log$survey[entries[i]] <- "child"
       log$uuid[entries[i]] <- paste(log$uuid[entries[i]], which(loop_subset$relationship == "head"), sep="|")
@@ -395,7 +405,8 @@ for (i in 1:length(entries)){
     } else if (! is_hhh & number_hhh < 1) {
       test[i] <- 4
       loop_male <- loop_subset[which(loop_subset$sex == "male"),]
-      tobechanged <- which(loop_subset$X_index == loop_male$X_index[which(loop_male$age == max(loop_male$age))[1]])
+      if(nrow(loop_male) < 1) {loop_male <- loop_subset}
+      tobechanged <- which(loop_subset$X_index == loop_male$X_index[which(loop_male$age == max(loop_male$age, na.rm=T))[1]])
       log$survey[entries[i]] <- "child"
       log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
       log$question.name[entries[i]] <- "relationship"
@@ -406,21 +417,37 @@ for (i in 1:length(entries)){
     } else if (is_hhh & number_hhh < 1) {
       test[i] <- 6
       same_sex <- loop_subset[which(loop_subset$sex == data_subset$gender_respondent),]
-      tobechanged <- which(loop_subset$X_index == same_sex$X_index[which.min(abs(same_sex$age - data_subset$age_respondent))])
-      log$survey[entries[i]] <- "child"
-      log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
-      log$question.name[entries[i]] <- "relationship"
-      log$action[entries[i]] <- "change"
-      log$feedback[entries[i]] <- "no hhh in loop so oldest male assumed to be the hhh"
-      log$old.value[entries[i]] <- loop_subset$relationship[tobechanged]
-      log$new.value[entries[i]] <- "head"
+      if (nrow(same_sex) > 0) {
+        tobechanged <- which(loop_subset$X_index == same_sex$X_index[which.min(abs(same_sex$age - data_subset$age_respondent))])
+        log$survey[entries[i]] <- "child"
+        log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
+        log$question.name[entries[i]] <- "relationship"
+        log$action[entries[i]] <- "change"
+        log$feedback[entries[i]] <- "person in loop with same gender and closest age to respondent is assumed being the hhh"
+        log$old.value[entries[i]] <- loop_subset$relationship[tobechanged]
+        log$new.value[entries[i]] <- "head"
+      } else {
+        tobechanged <- which.max(loop_subset$age)
+        log$survey[entries[i]] <- "child"
+        log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
+        log$question.name[entries[i]] <- "relationship"
+        log$action[entries[i]] <- "change"
+        log$feedback[entries[i]] <- "person in loop with same gender and closest age to respondent is assumed being the hhh"
+        log$old.value[entries[i]] <- loop_subset$relationship[tobechanged]
+        log$new.value[entries[i]] <- "head"
+      }
     } else {
       test[i] <- NA
     }
-  } else {
-    log <- log[-entries[i],]
-    entries <- entries -1
   }
+  return(list(log, test))
 }
-table(test, useNA = "always")
-log <- write.csv(log, sprintf("%s/cleaning_logbook.csv",dir), row.names = F)
+log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
+entries1 <- which(log$issue %in% c("There is not 1 Head of Household in the individual loop. There is either non or more than 1.",
+                                   "The respondent is head of household but doesn't have same age and gender as head of household in the loop."))
+entries <- entries1[which(log$uuid[entries1] %in% data$X_uuid)]
+test <- numeric()
+l <- change_hhh(data, log, loop, entries)
+
+table(l[[2]], useNA = "always")
+write.csv(log, sprintf("%s/cleaning_logbook.csv",dir), row.names = F)
