@@ -65,7 +65,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 #                                          independent.variable = "type_hh"
 #                                          #repeat.for.variable = "governorate_mcna"
 #                                          )
-analysisplan <- read.csv("input/dap.csv", stringsAsFactors = F)
+analysisplan <- read.csv("input/dap_test.csv", stringsAsFactors = F)
 ### .. should/can this move up to loading inputs?
 
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
@@ -83,8 +83,8 @@ r <- r %>% filter(strata %in% samplingframe_strata$stratum)
 r$cluster_id <- paste(r$cluster_location_id, r$type_hh, sep = "_")
 r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 r_test <- r %>% 
-  filter(strata %in% c("al.mosulidp","al.mosulreturnee","al.mosulhost"))
-
+  filter(! strata %in% c("al.shikhanreturnee", "baladidp", "erbilhost", "al.basrahhost"))
+table(r_test[which(r_test$district == "balad"),c("g54", "type_hh")])
 
 clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                                                         sampling.frame.population.column = "pop",
@@ -109,8 +109,8 @@ summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 summary$moe <- summary$max - summary$min
 summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
-write.csv(summary[,c("dependent.var","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
-          "output/result_0_9.csv", row.names = F)
+write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
+          "output/result_0_90_g54.csv", row.names = F)
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 # For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)

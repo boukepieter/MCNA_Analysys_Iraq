@@ -1,1113 +1,962 @@
-"Governorate","district","psu","Location.Name","popgroup","pop","stratum"
-"Dahuk","sumail",1103012,"Girsheen","host",262.059987038374,"sumailhost"
-"Baghdad","al.kadhmiyah",2301003,"Abo Moniaser","host",1393.3011277914,"al.kadhmiyahhost"
-"Baghdad","al.kadhmiyah",2301038,"Hay Al-Shuhadaa","host",675.120888868968,"al.kadhmiyahhost"
-"Baghdad","al.kadhmiyah",2301045,"Khan Dhari Center","host",856.105314652125,"al.kadhmiyahhost"
-"Baghdad","al.kadhmiyah",2301048,"Khernabat-South","host",552.42129166921,"al.kadhmiyahhost"
-"Baghdad","al.kadhmiyah",2301073,"Shuhada Markza-Shuhadda the first","host",390.038643836975,"al.kadhmiyahhost"
-"Baghdad","al.kadhmiyah",2301074,"Shuhada Markza-Shuhdda the second","host",588.68541542689,"al.kadhmiyahhost"
-"Dahuk","sumail",1103021,"Namrike","host",298.836564719677,"sumailhost"
-"Baghdad","al.adhamiya",2302007,"Adhamiya-310","host",5487.93399175008,"al.adhamiyahost"
-"Dahuk","sumail",1103024,"Semel","host",2054.26297603051,"sumailhost"
-"Dahuk","sumail",1103025,"Shariya","host",559.436017394066,"sumailhost"
-"Dahuk","sumail",1103043,"Old Qasr Yazddin","host",222.694813450178,"sumailhost"
-"Baghdad","al.kadhmiyah",2306106,"Al Ahnaf-Al Rakia Fadel village","host",1095.79860027631,"al.kadhmiyahhost"
-"Dahuk","sumail",1103053,"Marina","host",343.995508864522,"sumailhost"
-"Baghdad","al.karkh",2307010,"Al Forat-893","host",6079.96537717183,"al.karkhhost"
-"Baghdad","al.karkh",2307018,"Al Ghazaliya-681","host",629.10192489624,"al.karkhhost"
-"Baghdad","al.risafa",2307124,"Al Karkh-212","host",832.102517445882,"al.risafahost"
-"Dahuk","zakho",1104019,"Diraboon","host",1085.68011458715,"zakhohost"
-"Dahuk","zakho",1104020,"Qarawla","host",417.692449241877,"zakhohost"
-"Baghdad","al.mahmoudiya",2309001,"14 Tamooz","host",388.686896979809,"al.mahmoudiyahost"
-"Baghdad","al.mahmoudiya",2309005,"Al Latefia-Al Qadessia","host",483.507913470268,"al.mahmoudiyahost"
-"Baghdad","al.mahmoudiya",2309027,"Hay Al Mazraa","host",228.108466943105,"al.mahmoudiyahost"
-"Baghdad","al.mahmoudiya",2309030,"Hay Al Zuhoor","host",314.085378626982,"al.mahmoudiyahost"
-"Baghdad","al.mahmoudiya",2309052,"Sader Al Yousfiya","host",423.184241374334,"al.mahmoudiyahost"
-"Dahuk","zakho",1104055,"Ashe Chami Sector","host",1802.30968888601,"zakhohost"
-"Baghdad","al.kadhmiyah",2310005,"Al Rawad","host",450.251065035661,"al.kadhmiyahhost"
-"Diyala","al.khalis",2401004,"Al Ghalbiya","host",618.864790121714,"al.khalishost"
-"Dahuk","zakho",1104058,"Bedar Sector","host",1928.92631514867,"zakhohost"
-"Diyala","al.khalis",2401025,"Arab Shanon","host",420.838005791108,"al.khalishost"
-"Dahuk","zakho",1104059,"Khrababka Sector","host",671.403390477101,"zakhohost"
-"Dahuk","zakho",1104060,"Rkawa Sector","host",465.468516190847,"zakhohost"
-"Diyala","al.khalis",2401043,"Jadidat Al Shat village","host",3806.56040513515,"al.khalishost"
-"Dahuk","zakho",1104062,"Abasiya Sector","host",1268.92606268326,"zakhohost"
-"Diyala","baquba",2403008,"Al Mafraq","host",470.834175268809,"baqubahost"
-"Diyala","baquba",2403010,"Al Rasool Qtr","host",1588.81609209379,"baqubahost"
-"Dahuk","zakho",1104063,"Firqa Sector","host",1602.18839216232,"zakhohost"
-"Diyala","baquba",2403022,"Al-Swamra village","host",414.441956957181,"baqubahost"
-"Dahuk","zakho",1104064,"Kochka Honari","host",1688.31591494878,"zakhohost"
-"Diyala","baquba",2403036,"Al Intesar-1 Qtr","host",2559.14540894826,"baqubahost"
-"Dahuk","zakho",1104069,"Gofk","host",370.240993221601,"zakhohost"
-"Diyala","baquba",2403062,"Mohamed sakran","host",1577.25702230136,"baqubahost"
-"Dahuk","zakho",1104072,"Bersive","host",309.700338403384,"zakhohost"
-"Dahuk","zakho",1104073,"Grksindi","host",218.741271952788,"zakhohost"
-"Diyala","khanaqin",2405013,"alkubeah small village","host",202.73550162216,"khanaqinhost"
-"Diyala","khanaqin",2405068,"Tula Frosh Qtr","host",329.867160240809,"khanaqinhost"
-"Kerbala","kerbela",2502024,"Mantakat Al hnedea","host",739.033205091953,"kerbelahost"
-"Kerbala","al.hindiya",2502027,"Al abodea","host",249.573247283697,"al.hindiyahost"
-"Kerbala","al.hindiya",2502036,"Al Jedar Al Gharbi","host",370.328171610832,"al.hindiyahost"
-"Kerbala","al.hindiya",2502043,"Albu Zagam","host",289.172167986631,"al.hindiyahost"
-"Kerbala","al.hindiya",2502047,"Al-Khayrat","host",307.45291308562,"al.hindiyahost"
-"Kerbala","kerbela",2503037,"Al Fadha","host",1077.4075987339,"kerbelahost"
-"Kerbala","kerbela",2503048,"Sumer 1","host",266.704374949137,"kerbelahost"
-"Kerbala","kerbela",2503077,"Al Sahrawy Al Mazarea","host",693.039560198784,"kerbelahost"
-"Kerbala","kerbela",2503089,"Al Wand Al Mustajad","host",800.93703164657,"kerbelahost"
-"Kerbala","kerbela",2503096,"Al-Abrahmeiah (Al hafed)","host",1569.30595040321,"kerbelahost"
-"Kerbala","kerbela",2503122,"Al-kakaeiah Al-Sharkeiah","host",764.440566440423,"kerbelahost"
-"Kerbala","kerbela",2503138,"Badat Aswad","host",1121.76480205854,"kerbelahost"
-"Kerbala","kerbela",2503241,"Um Al Banen Village","host",1481.23354488611,"kerbelahost"
-"Kerbala","kerbela",2503253,"Al Muamnen(Elegal)","host",317.540439605713,"kerbelahost"
-"Kirkuk","kirkuk",2603001,"Al Faylaq-Mahala 5","host",1619.34908600648,"kirkukhost"
-"Kirkuk","kirkuk",2603006,"Al Tadamon(Hawkari)","host",2038.16333039602,"kirkukhost"
-"Kirkuk","kirkuk",2603007,"Al Takhi Village","host",1043.96859534581,"kirkukhost"
-"Kirkuk","kirkuk",2603009,"Amal al shaabi","host",2571.88823747635,"kirkukhost"
-"Kirkuk","dibis",2603011,"Bajwan","host",2476.63872677088,"dibishost"
-"Kirkuk","kirkuk",2603013,"Hay 1 Athar","host",2197.23148759206,"kirkukhost"
-"Kirkuk","kirkuk",2603015,"Hay Al Hamzali","host",2156.14691325029,"kirkukhost"
-"Kirkuk","kirkuk",2603022,"Hay Al-Khadraa","host",1943.44309492906,"kirkukhost"
-"Kirkuk","kirkuk",2603026,"Hay Al-Urooba","host",2054.39447625478,"kirkukhost"
-"Kirkuk","kirkuk",2603047,"Sayada village","host",728.491192062696,"kirkukhost"
-"Kirkuk","kirkuk",2603050,"Tiseen","host",1730.99565068881,"kirkukhost"
-"Kirkuk","kirkuk",2603065,"Hay Al Ertiqaa","host",2544.27574082216,"kirkukhost"
-"Kirkuk","kirkuk",2603069,"Hay Al-Askary 2","host",1278.27322735389,"kirkukhost"
-"Ninewa","aqra",2701001,"Akre","host",628.650717859467,"aqrahost"
-"Ninewa","aqra",2701009,"Daratu","host",228.611654666563,"aqrahost"
-"Ninewa","al.hamdaniya",2701012,"Kalak","host",786.224610390762,"al.hamdaniyahost"
-"Ninewa","aqra",2701017,"Roviya","host",212.650648615013,"aqrahost"
-"Ninewa","al.hamdaniya",2701035,"Zangal","host",778.019142139703,"al.hamdaniyahost"
-"Ninewa","al.shikhan",2704002,"Baadre","host",1033.78514561057,"al.shikhanhost"
-"Ninewa","al.shikhan",2704004,"Berstik","host",586.270664493243,"al.shikhanhost"
-"Ninewa","al.shikhan",2704005,"Betnar","host",505.893463939428,"al.shikhanhost"
-"Ninewa","al.shikhan",2704006,"Chira","host",1047.09858765205,"al.shikhanhost"
-"Ninewa","al.shikhan",2704011,"Kalakchi","host",1346.33917117119,"al.shikhanhost"
-"Ninewa","al.shikhan",2704012,"Mahad","host",823.959217796723,"al.shikhanhost"
-"Ninewa","al.shikhan",2704015,"Qasrok","host",997.959165742,"al.shikhanhost"
-"Ninewa","al.shikhan",2704016,"Shekhan","host",2748.95652292172,"al.shikhanhost"
-"Ninewa","al.shikhan",2704027,"Almaman","host",426.953455299139,"al.shikhanhost"
-"Ninewa","al.shikhan",2704033,"Pirbob","host",776.882235725721,"al.shikhanhost"
-"Ninewa","al.mosul",2706003,"Al Harmaat","host",4338.16192563375,"al.mosulhost"
-"Ninewa","al.mosul",2706011,"Al Tanak","host",5225.03344245752,"al.mosulhost"
-"Ninewa","al.mosul",2706012,"Al-Akhaa","host",200.139168580373,"al.mosulhost"
-"Ninewa","al.mosul",2706017,"Al-Karamah","host",540.152614911397,"al.mosulhost"
-"Ninewa","al.mosul",2706031,"Al-Quds","host",497.081517140071,"al.mosulhost"
-"Ninewa","al.mosul",2706043,"Hay Al Intisar","host",804.327777753274,"al.mosulhost"
-"Ninewa","al.mosul",2706046,"Hay Al Nahrawan","host",4852.96643122037,"al.mosulhost"
-"Ninewa","al.mosul",2706053,"Hay Nablus","host",2778.32307608922,"al.mosulhost"
-"Ninewa","al.mosul",2706094,"Hay Alalam","host",251.293381134669,"al.mosulhost"
-"Ninewa","tilkaef",2706097,"Bysan","host",1790.80819694201,"tilkaefhost"
-"Ninewa","al.mosul",2706190,"Yarmjah","host",1499.23873058955,"al.mosulhost"
-"Erbil","erbil",1202051,"Nisthtiman Comercial Complex","host",592.893886884054,"erbilhost"
-"Ninewa","al.mosul",2706279,"Al-Sihha","host",2417.66546122233,"al.mosulhost"
-"Ninewa","tilkaef",2709003,"Al Qawsiyat","host",1362.36484839519,"tilkaefhost"
-"Ninewa","tilkaef",2709011,"Bozan","host",234.1159509706,"tilkaefhost"
-"Ninewa","tilkaef",2709021,"Jambour Village","host",315.912305394808,"tilkaefhost"
-"Ninewa","tilkaef",2709040,"wanna center","host",1053.76217179497,"tilkaefhost"
-"Salah al-Din","al.shirqat",2802015,"Hay Al Askari","host",615.434809883436,"al.shirqathost"
-"Salah al-Din","al.shirqat",2802016,"Hay Al Qasbah","host",747.842649499575,"al.shirqathost"
-"Salah al-Din","al.shirqat",2802028,"Tal Al Jumiala area","host",579.051338811715,"al.shirqathost"
-"Salah al-Din","balad",2804005,"Albu Jewari","host",308.558394094308,"baladhost"
-"Salah al-Din","balad",2804017,"AL-Eshaqi center","host",734.874060094357,"baladhost"
-"Salah al-Din","balad",2804022,"Balad station","host",919.303528984388,"baladhost"
-"Salah al-Din","samarra",2806005,"Al Qala-Mahal 201","host",1343.68150126934,"samarrahost"
-"Salah al-Din","samarra",2806008,"Al-Abasiya Village","host",1255.0413514475,"samarrahost"
-"Salah al-Din","samarra",2806010,"Al-Hewaish area","host",1696.32611878713,"samarrahost"
-"Salah al-Din","samarra",2806025,"Hay Al Zuhoor(Al qala 4)Mahala 202","host",1623.34205706914,"samarrahost"
-"Salah al-Din","tikrit",2808004,"Al Haweja village-AlAbady","host",304.191820243994,"tikrithost"
-"Salah al-Din","tikrit",2808025,"Samrah Village","host",234.341250941157,"tikrithost"
-"Salah al-Din","tikrit",2808028,"Qadisya 2 500 Area","host",606.52323328952,"tikrithost"
-"Salah al-Din","tikrit",2808031,"Al-Mutaradah 204","host",655.775665501753,"tikrithost"
-"Salah al-Din","tikrit",2808037,"Hay Sheshen Mahal 408","host",271.29633585612,"tikrithost"
-"Salah al-Din","tikrit",2808058,"Hay Salma Altaghlubia","host",346.848447442055,"tikrithost"
-"Salah al-Din","tikrit",2808061,"Qadisya 1 Mahala 214","host",407.981912175814,"tikrithost"
-"Salah al-Din","tikrit",2808072,"Hay Alkahrbaa","host",312.304746538401,"tikrithost"
-"Salah al-Din","tikrit",2808081,"Hay Al Dhubbat","host",693.058433562517,"tikrithost"
-"Salah al-Din","tikrit",2808085,"Al-Dibsa Village","host",567.213995357355,"tikrithost"
-"Salah al-Din","tikrit",2808089,"Al-Qadisya Complex","host",324.61622573932,"tikrithost"
-"Salah al-Din","tooz.khurmato",2809005,"Hay Komari-120","host",652.596165657043,"tooz.khurmatohost"
-"Salah al-Din","tooz.khurmato",2809007,"Hay Rizgari-114","host",931.643398841222,"tooz.khurmatohost"
-"Salah al-Din","tooz.khurmato",2809010,"Markaz Tooz-Hay Al Askari","host",686.691792329152,"tooz.khurmatohost"
-"Salah al-Din","tooz.khurmato",2809022,"Unformal Shelter","host",295.882782022158,"tooz.khurmatohost"
-"Wassit","al.suwaira",2904060,"Taj al-dien center 1","host",643.250824669997,"al.suwairahost"
-"Wassit","al.kut",2906001,"Al Batar village","host",818.901432325443,"al.kuthost"
-"Wassit","al.kut",2906023,"Hay Al-Hawaraa 3","host",1516.86488749584,"al.kuthost"
-"Wassit","al.kut",2906051,"Al-Jihad-Al Thaqalain","host",223.74122317632,"al.kuthost"
-"Wassit","al.kut",2906055,"Hay Al-Hakeem","host",283.618390162786,"al.kuthost"
-"Wassit","al.kut",2906059,"Hay al-zahraa","host",544.465139071147,"al.kuthost"
-"Wassit","al.kut",2906064,"Sewada Said Shati","host",417.016434565187,"al.kuthost"
-"Basrah","al.basrah",3105030,"AL Mowafaqiah","host",2086.85378201803,"al.basrahhost"
-"Basrah","al.basrah",3105069,"Casino Lebnan","host",679.078577041626,"al.basrahhost"
-"Basrah","al.basrah",3105094,"Hay Al Risalah","host",548.395413716634,"al.basrahhost"
-"Basrah","al.basrah",3105112,"Manawi pasha","host",1591.66174952189,"al.basrahhost"
-"Missan","al.kahla",3205002,"Al Hay Al JameI","host",656.953368822734,"al.kahlahost"
-"Najaf","al.najaf",3403003,"Al bory","host",1272.13280512889,"al.najafhost"
-"Najaf","al.najaf",3403012,"AL JEDAIDA","host",641.616336186727,"al.najafhost"
-"Najaf","al.najaf",3403032,"Aljadidah alulah","host",3917.47246805827,"al.najafhost"
-"Najaf","al.najaf",3403049,"Al-Shaheed Al-Sadar 1","host",1059.09322786331,"al.najafhost"
-"Najaf","al.najaf",3403080,"Al-Mazarea AL-Westa","host",996.670959909757,"al.najafhost"
-"Najaf","al.najaf",3403081,"Al-Qasim","host",698.91639149189,"al.najafhost"
-"Najaf","al.najaf",3403084,"Mazara Al-Hawli","host",347.842810183764,"al.najafhost"
-"Najaf","al.najaf",3403085,"Fadak Village","host",600.616840521495,"al.najafhost"
-"Najaf","al.kufa",3403086,"Al-Mazara 2","host",1249.85034533342,"al.kufahost"
-"Najaf","al.najaf",3403088,"Al-Shaheed Al-Sadar-Shareet","host",894.856398801009,"al.najafhost"
-"Thi-Qar","al.nasiriya",3504042,"Sadir City","host",1284.61504920324,"al.nasiriyahost"
-"Qadissiya","al.diwaniya",3603008,"Al himran village","host",750.238071918488,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603010,"Albo Hasan village","host",481.385430544615,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603025,"Al-Jazaair 2","host",248.14311170578,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603033,"Al-Jabaar village","host",671.192089160283,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603034,"Hay Al-Hussain","host",472.07622329394,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603057,"Hay Al Shomos","host",247.624482611815,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603064,"Hay Al-Amin 2","host",268.198250671228,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603073,"Hay Al-Hadarah","host",437.978168904781,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603081,"Hay Ramadan","host",472.934883038203,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603087,"Hay Al-Sadir 4","host",350.938276986281,"al.diwaniyahost"
-"Qadissiya","al.diwaniya",3603088,"Salman Hlis Village","host",835.405575156212,"al.diwaniyahost"
-"Dahuk","duhok",1102018,"Eminke","host",821.053602645795,"duhokhost"
-"Dahuk","duhok",1102025,"Kora","host",665.280485560497,"duhokhost"
-"Sulaymaniyah","al.sulaymaniyah",1310031,"Chwar Chra","host",286.825824379921,"al.sulaymaniyahhost"
-"Sulaymaniyah","al.sulaymaniyah",1310052,"Kanakawa","host",1499.16832137108,"al.sulaymaniyahhost"
-"Sulaymaniyah","al.sulaymaniyah",1310072,"Muaskar Al-Salam","host",967.514032522837,"al.sulaymaniyahhost"
-"Dahuk","duhok",1102032,"Masik-1","host",524.079621473948,"duhokhost"
-"Sulaymaniyah","al.sulaymaniyah",1310092,"Sabun karan Qt","host",307.006065368652,"al.sulaymaniyahhost"
-"Dahuk","duhok",1102035,"Mazi","host",772.408705393473,"duhokhost"
-"Dahuk","duhok",1102039,"Nazarke","host",1979.68559726079,"duhokhost"
-"Dahuk","duhok",1102040,"Qassara","host",560.941924045483,"duhokhost"
-"Dahuk","duhok",1102043,"Sarbasti","host",812.810276985168,"duhokhost"
-"Dahuk","duhok",1102049,"Zawita","host",643.464316477378,"duhokhost"
-"Dahuk","duhok",1102050,"Avrike","host",624.135721683502,"duhokhost"
-"Anbar","al.falluja",2105018,"Al-Amirya-Albu Jasim","host",494.017035265764,"al.fallujahost"
-"Anbar","al.falluja",2105019,"Al-Amirya-Albu Jwad","host",364.726597497861,"al.fallujahost"
-"Anbar","al.falluja",2105031,"Albu Hori","host",668.303430358569,"al.fallujahost"
-"Anbar","al.falluja",2105069,"Al-Amirya-Al Betra","host",359.687223533789,"al.fallujahost"
-"Anbar","al.falluja",2105070,"Al-Amirya-Al Hmedin","host",528.376374502977,"al.fallujahost"
-"Anbar","al.falluja",2105071,"Al-Amirya-Al Mouilha","host",435.227230757475,"al.fallujahost"
-"Anbar","al.falluja",2105073,"Al-Amirya-Albu Jaber","host",240.641457637151,"al.fallujahost"
-"Anbar","al.falluja",2105075,"Al-Amirya-Albu Saleh","host",433.317689647277,"al.fallujahost"
-"Anbar","al.falluja",2105076,"Al-Amirya-Albu Salman","host",383.034135043621,"al.fallujahost"
-"Anbar","al.falluja",2105077,"Al-Amirya-Tal Ghatas","host",555.611287732919,"al.fallujahost"
-"Anbar","al.falluja",2105088,"Al-Ekhaa Compaund","host",509.607300976912,"al.fallujahost"
-"Dahuk","duhok",1102063,"Rizgari","host",611.269098321597,"duhokhost"
-"Dahuk","sumail",1103002,"Bajit Kandala","host",384.666314557195,"sumailhost"
-"Dahuk","sumail",1103004,"Bakhitme","host",375.697206526995,"sumailhost"
-"Dahuk","sumail",1103006,"Batel","host",233.122551940382,"sumailhost"
-"Dahuk","sumail",1103009,"Fayda","host",730.178613334894,"sumailhost"
-"Dahuk","al.amadiya",1101001,"Amedi","idp",14,"al.amadiyaidp"
-"Dahuk","al.amadiya",1101011,"Qadish Collective","idp",17,"al.amadiyaidp"
-"Baghdad","al.kadhmiyah",2301021,"Al-Nasir Walsalam-6000","idp",22,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2301022,"Al-Nasir Walsalam-7000","idp",36,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2301026,"Arab Tahoos","idp",9,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2301047,"North Khernabat","idp",29,"al.kadhmiyahidp"
-"Dahuk","sumail",1103020,"Misereek","idp",921,"sumailidp"
-"Baghdad","al.kadhmiyah",2301073,"Shuhada Markza-Shuhadda the first","idp",91,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2301075,"Shuhada Markza-Shuhadda the third","idp",55,"al.kadhmiyahidp"
-"Baghdad","al.adhamiya",2302004,"Adhamia-308","idp",21,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302005,"Adhamia-312","idp",100,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302006,"Adhamia-314","idp",85,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302044,"Al Qahira-307","idp",30,"al.adhamiyaidp"
-"Dahuk","al.amadiya",1101012,"Sarsink","idp",71,"al.amadiyaidp"
-"Baghdad","al.adhamiya",2302049,"Hay Al Rabee-332","idp",55,"al.adhamiyaidp"
-"Dahuk","sumail",1103025,"Shariya","idp",4447,"sumailidp"
-"Baghdad","al.adhamiya",2302062,"Al Shamasiyah-320","idp",38,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302063,"Al Shamasiyah-316","idp",41,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302078,"Bob Al Sham-388","idp",11,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302083,"Hay Al Rabee-340","idp",62,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302088,"Hay Al Rabee-342","idp",44,"al.adhamiyaidp"
-"Baghdad","al.adhamiya",2302116,"Hay Ur-325","idp",30,"al.adhamiyaidp"
-"Dahuk","sumail",1103030,"War City","idp",265,"sumailidp"
-"Dahuk","sumail",1103034,"Domiz-Halat","idp",508,"sumailidp"
-"Baghdad","al.risafa",2305034,"Baghdad Al Jadidia-723","idp",6,"al.risafaidp"
-"Baghdad","al.risafa",2305035,"Baghdad Al Jadidia-725","idp",7,"al.risafaidp"
-"Baghdad","al.risafa",2305049,"Al Karada-905","idp",6,"al.risafaidp"
-"Baghdad","al.risafa",2305055,"Al Mashtal-731","idp",13,"al.risafaidp"
-"Baghdad","al.risafa",2305057,"Al Mashtal-735","idp",10,"al.risafaidp"
-"Baghdad","al.risafa",2305058,"Al Mashtal-751","idp",11,"al.risafaidp"
-"Baghdad","al.risafa",2305065,"Al Nidhal-103","idp",6,"al.risafaidp"
-"Baghdad","al.risafa",2305069,"Al Rasheed-112","idp",7,"al.risafaidp"
-"Baghdad","al.risafa",2305072,"Al Riyadh-910","idp",7,"al.risafaidp"
-"Dahuk","sumail",1103039,"Kherava","idp",288,"sumailidp"
-"Baghdad","al.risafa",2305097,"Al Zaafaranyah-965","idp",6,"al.risafaidp"
-"Dahuk","sumail",1103040,"Old Mam Shvana","idp",85,"sumailidp"
-"Baghdad","al.risafa",2305128,"Al Maamil-781","idp",6,"al.risafaidp"
-"Baghdad","al.kadhmiyah",2306001,"Ahmed Al Hamid village","idp",7,"al.kadhmiyahidp"
-"Dahuk","sumail",1103046,"Old Sorka","idp",68,"sumailidp"
-"Baghdad","al.kadhmiyah",2306113,"North Al Kadhimia-447","idp",7,"al.kadhmiyahidp"
-"Baghdad","al.karkh",2307011,"Al Ghazaliya-649","idp",34,"al.karkhidp"
-"Baghdad","al.karkh",2307016,"Al Ghazaliya-665","idp",17,"al.karkhidp"
-"Baghdad","al.karkh",2307025,"Al Iskan(Al Masfi)-822","idp",227,"al.karkhidp"
-"Baghdad","al.karkh",2307033,"Al Jazaer-818","idp",16,"al.karkhidp"
-"Baghdad","al.karkh",2307035,"Al Jazera-808","idp",40,"al.karkhidp"
-"Baghdad","al.karkh",2307043,"Al Mutanbi-603","idp",12,"al.karkhidp"
-"Baghdad","al.mahmoudiya",2307050,"Al Raie 861","idp",23,"al.mahmoudiyaidp"
-"Baghdad","al.karkh",2307063,"Al Toma(Al Masfi)-826","idp",174,"al.karkhidp"
-"Baghdad","al.karkh",2307068,"Al Yarmouk-610","idp",48,"al.karkhidp"
-"Baghdad","al.mahmoudiya",2307093,"Al Radwania","idp",114,"al.mahmoudiyaidp"
-"Baghdad","al.karkh",2307097,"Al Amerya-632","idp",156,"al.karkhidp"
-"Dahuk","zakho",1104012,"Chamkork","idp",100,"zakhoidp"
-"Baghdad","al.karkh",2307099,"Al Amerya-636","idp",252,"al.karkhidp"
-"Baghdad","al.karkh",2307100,"Al Amerya-638","idp",146,"al.karkhidp"
-"Dahuk","zakho",1104013,"Darkar","idp",304,"zakhoidp"
-"Baghdad","al.karkh",2307110,"Hay Al Adil-657","idp",22,"al.karkhidp"
-"Baghdad","al.risafa",2307124,"Al Karkh-212","idp",28,"al.risafaidp"
-"Dahuk","zakho",1104019,"Diraboon","idp",593,"zakhoidp"
-"Baghdad","al.mahmoudiya",2309001,"14 Tamooz","idp",83,"al.mahmoudiyaidp"
-"Baghdad","al.mahmoudiya",2309005,"Al Latefia-Al Qadessia","idp",155,"al.mahmoudiyaidp"
-"Baghdad","al.mahmoudiya",2309007,"Hay Al-Askary","idp",32,"al.mahmoudiyaidp"
-"Baghdad","al.mahmoudiya",2309008,"Kilo 18","idp",170,"al.mahmoudiyaidp"
-"Dahuk","zakho",1104053,"Levo","idp",29,"zakhoidp"
-"Baghdad","al.mahmoudiya",2309019,"Hay Al-Rubaiy-204","idp",7,"al.mahmoudiyaidp"
-"Baghdad","al.mahmoudiya",2309022,"Dereia w Um Mahar","idp",9,"al.mahmoudiyaidp"
-"Dahuk","al.amadiya",1101019,"Mizi Village","idp",56,"al.amadiyaidp"
-"Baghdad","al.mahmoudiya",2309030,"Hay Al Zuhoor","idp",75,"al.mahmoudiyaidp"
-"Dahuk","zakho",1104055,"Ashe Chami Sector","idp",382,"zakhoidp"
-"Baghdad","al.kadhmiyah",2310004,"Al Khadraa village","idp",33,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2310007,"Al-Abayechi-1","idp",33,"al.kadhmiyahidp"
-"Dahuk","zakho",1104056,"Bazar Sector","idp",268,"zakhoidp"
-"Baghdad","al.kadhmiyah",2310010,"Hai Al Qadessia-1","idp",79,"al.kadhmiyahidp"
-"Baghdad","al.kadhmiyah",2310015,"Hai Al Wehda","idp",69,"al.kadhmiyahidp"
-"Dahuk","zakho",1104057,"Betase Sector","idp",162,"zakhoidp"
-"Diyala","al.kadhmiyah",2401005,"Al Gserin Village","idp",30,"al.kadhmiyahidp"
-"Diyala","al.khalis",2401009,"Markaz Al Khalis","idp",50,"al.khalisidp"
-"Diyala","al.khalis",2401010,"Al Mohandseen Alzraeen Village","idp",24,"al.khalisidp"
-"Dahuk","zakho",1104058,"Bedar Sector","idp",1202,"zakhoidp"
-"Diyala","al.khalis",2401023,"Arab Hafedh Village","idp",8,"al.khalisidp"
-"Diyala","al.khalis",2401025,"Arab Shanon","idp",20,"al.khalisidp"
-"Diyala","al.khalis",2401032,"Markaz Hibhib","idp",115,"al.khalisidp"
-"Diyala","al.khalis",2401036,"Hibhib-Al Asry Qtr","idp",12,"al.khalisidp"
-"Diyala","al.khalis",2401040,"Hibhib-Al Shohadaa Qtr","idp",38,"al.khalisidp"
-"Diyala","al.khalis",2401042,"Hibhib-Hay Al Resala","idp",13,"al.khalisidp"
-"Diyala","al.khalis",2401043,"Jadidat Al Shat village","idp",65,"al.khalisidp"
-"Diyala","al.khalis",2401046,"Saif Saad Qtr","idp",61,"al.khalisidp"
-"Diyala","baquba",2403001,"Markaz Al Abara","idp",81,"baqubaidp"
-"Diyala","baquba",2403004,"Al Gatoon-Al Mujama Qtr","idp",90,"baqubaidp"
-"Diyala","baquba",2403005,"Al Gatoon-Al rahma","idp",420,"baqubaidp"
-"Dahuk","zakho",1104062,"Abasiya Sector","idp",975,"zakhoidp"
-"Diyala","baquba",2403008,"Al Mafraq","idp",254,"baqubaidp"
-"Diyala","baquba",2403015,"Al Tahreer","idp",425,"baqubaidp"
-"Dahuk","zakho",1104063,"Firqa Sector","idp",871,"zakhoidp"
-"Diyala","baquba",2403029,"Buhriz-Al-Asri Qtr","idp",15,"baqubaidp"
-"Dahuk","al.amadiya",1101020,"Nahla Area","idp",45,"al.amadiyaidp"
-"Dahuk","zakho",1104064,"Kochka Honari","idp",880,"zakhoidp"
-"Diyala","baquba",2403039,"Al Salam Qtr","idp",55,"baqubaidp"
-"Diyala","baquba",2403040,"Al-Mualimeen-Shahid wadah Qtr","idp",100,"baqubaidp"
-"Diyala","baquba",2403044,"Markaz Kanaan","idp",50,"baqubaidp"
-"Diyala","baquba",2403060,"Sesbana Village","idp",18,"baqubaidp"
-"Diyala","baladruz",2404001,"Al Bazaniya village","idp",8,"baladruzidp"
-"Diyala","baladruz",2404010,"Al-Ramaila Village","idp",14,"baladruzidp"
-"Diyala","baladruz",2404015,"Dur Mandiliy Qtr","idp",15,"baladruzidp"
-"Diyala","baladruz",2404016,"Hay Al Bakir","idp",75,"baladruzidp"
-"Diyala","baladruz",2404020,"Markaz Mandali","idp",90,"baladruzidp"
-"Diyala","khanaqin",2405013,"alkubeah small village","idp",25,"khanaqinidp"
-"Diyala","khanaqin",2405020,"Bakhtiari Qtr","idp",350,"khanaqinidp"
-"Diyala","khanaqin",2405030,"Alshortah Qtr","idp",23,"khanaqinidp"
-"Diyala","kifri",2405034,"Markaz Jabara","idp",140,"kifriidp"
-"Diyala","kifri",2405041,"Khozifah village","idp",40,"kifriidp"
-"Diyala","khanaqin",2405055,"Rapren-2 Qtr","idp",18,"khanaqinidp"
-"Diyala","khanaqin",2405062,"Sirwan Qtr","idp",40,"khanaqinidp"
-"Diyala","khanaqin",2405068,"Tula Frosh Qtr","idp",165,"khanaqinidp"
-"Diyala","khanaqin",2405070,"Zurab village","idp",42,"khanaqinidp"
-"Dahuk","al.amadiya",1101021,"Azadi","idp",9,"al.amadiyaidp"
-"Diyala","khanaqin",2405077,"Banmil-2 Qtr","idp",60,"khanaqinidp"
-"Diyala","khanaqin",2405080,"Agha and Khalifa","idp",30,"khanaqinidp"
-"Diyala","khanaqin",2405142,"Al Ummal Qtr","idp",7,"khanaqinidp"
-"Diyala","kifri",2406002,"Qaratappa","idp",125,"kifriidp"
-"Diyala","kifri",2406004,"awbrey","idp",96,"kifriidp"
-"Diyala","kifri",2406007,"emam mohammed","idp",75,"kifriidp"
-"Diyala","kifri",2406012,"raparin","idp",81,"kifriidp"
-"Diyala","kifri",2406013,"azadi","idp",64,"kifriidp"
-"Diyala","kifri",2406016,"sar qala","idp",153,"kifriidp"
-"Diyala","kifri",2406019,"shahidan","idp",53,"kifriidp"
-"Erbil","erbil",1202006,"Andazyaran","idp",390,"erbilidp"
-"Kerbala","al.hindiya",2502018,"Al-Hindiya-Hay Al-Amel","idp",22,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502023,"Kareat al jubur","idp",38,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502027,"Al abodea","idp",69,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502036,"Al Jedar Al Gharbi","idp",45,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502043,"Albu Zagam","idp",33,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502046,"Al-Jadwal Al-Ghrabi-Al Askary","idp",20,"al.hindiyaidp"
-"Kerbala","al.hindiya",2502047,"Al-Khayrat","idp",476,"al.hindiyaidp"
-"Kerbala","kerbela",2503017,"Al Askary-Al haidery","idp",115,"kerbelaidp"
-"Erbil","erbil",1202010,"Bahrka center","idp",500,"erbilidp"
-"Kerbala","kerbela",2503049,"Al Amam Al Montadar","idp",10,"kerbelaidp"
-"Kerbala","kerbela",2503064,"Al Kaim","idp",15,"kerbelaidp"
-"Kerbala","kerbela",2503074,"Al Qadissiya 2","idp",14,"kerbelaidp"
-"Kerbala","kerbela",2503076,"Al Rawdhatain","idp",22,"kerbelaidp"
-"Kerbala","kerbela",2503126,"Al-Rafedeen","idp",14,"kerbelaidp"
-"Kerbala","kerbela",2503127,"Al-Safiya 2","idp",490,"kerbelaidp"
-"Kerbala","kerbela",2503170,"Hay Al-Abbas","idp",24,"kerbelaidp"
-"Kerbala","kerbela",2503196,"Hay al-tahady","idp",15,"kerbelaidp"
-"Kerbala","kerbela",2503203,"Kantraat Al Salam","idp",48,"kerbelaidp"
-"Kerbala","kerbela",2503220,"Al-hadi","idp",35,"kerbelaidp"
-"Kerbala","kerbela",2503227,"Mulhaq Al-Intisar","idp",53,"kerbelaidp"
-"Kerbala","kerbela",2503252,"Hay al mostafa","idp",15,"kerbelaidp"
-"Kirkuk","daquq",2602005,"Fareeq Awa","idp",74,"daquqidp"
-"Kirkuk","daquq",2602007,"Hay Ashti","idp",113,"daquqidp"
-"Kirkuk","kirkuk",2602010,"Laylan-Al Abadat village","idp",57,"kirkukidp"
-"Kirkuk","daquq",2602011,"Laylan-Bash Bulaq village","idp",120,"daquqidp"
-"Kirkuk","daquq",2602013,"Taza-Omer Bin Khattab","idp",205,"daquqidp"
-"Kirkuk","daquq",2602035,"Hay Al-Salam ( Daquq )","idp",150,"daquqidp"
-"Kirkuk","daquq",2602036,"Hay Klisa 1","idp",100,"daquqidp"
-"Kirkuk","daquq",2602037,"Hay Nawroz ( Daquq)","idp",87,"daquqidp"
-"Kirkuk","daquq",2602038,"Hay Runaki / Daquq","idp",85,"daquqidp"
-"Kirkuk","kirkuk",2603006,"Al Tadamon(Hawkari)","idp",900,"kirkukidp"
-"Kirkuk","dibis",2603011,"Bajwan","idp",110,"dibisidp"
-"Kirkuk","kirkuk",2603014,"Hay Adan","idp",195,"kirkukidp"
-"Kirkuk","kirkuk",2603016,"Hay Al Jamia-Mahalla 622","idp",2128,"kirkukidp"
-"Kirkuk","kirkuk",2603022,"Hay Al-Khadraa","idp",140,"kirkukidp"
-"Kirkuk","kirkuk",2603025,"Hay Al-Sinay","idp",175,"kirkukidp"
-"Kirkuk","kirkuk",2603027,"Hay Al-Zawraa","idp",490,"kirkukidp"
-"Kirkuk","kirkuk",2603028,"Hay Arafah 201","idp",29,"kirkukidp"
-"Kirkuk","kirkuk",2603038,"Panja Ali","idp",572,"kirkukidp"
-"Kirkuk","kirkuk",2603041,"Qaryat Tobzawa","idp",140,"kirkukidp"
-"Kirkuk","kirkuk",2603046,"Sary Kahya","idp",202,"kirkukidp"
-"Erbil","erbil",1202032,"Hay Askary","idp",1150,"erbilidp"
-"Kirkuk","kirkuk",2603069,"Hay Al-Askary 2","idp",430,"kirkukidp"
-"Kirkuk","dibis",2604001,"Altun Kupri Center","idp",26,"dibisidp"
-"Kirkuk","dibis",2604005,"Hay Al Muaasker","idp",40,"dibisidp"
-"Kirkuk","dibis",2604006,"Hay Al Tanak","idp",78,"dibisidp"
-"Kirkuk","dibis",2604007,"Hay Al-Shuhadaa","idp",97,"dibisidp"
-"Ninewa","aqra",2701001,"Akre","idp",1690,"aqraidp"
-"Ninewa","aqra",2701003,"Amyan","idp",20,"aqraidp"
-"Ninewa","aqra",2701004,"Banasur","idp",53,"aqraidp"
-"Ninewa","aqra",2701005,"Bardarash","idp",962,"aqraidp"
-"Ninewa","aqra",2701009,"Daratu","idp",109,"aqraidp"
-"Ninewa","al.hamdaniya",2701012,"Kalak","idp",642,"al.hamdaniyaidp"
-"Ninewa","aqra",2701014,"Khalilkan","idp",68,"aqraidp"
-"Erbil","erbil",1202034,"Kani Qarzhala","idp",182,"erbilidp"
-"Ninewa","aqra",2701017,"Roviya","idp",687,"aqraidp"
-"Ninewa","al.shikhan",2701033,"Husseini","idp",16,"al.shikhanidp"
-"Ninewa","aqra",2701034,"Yakmala","idp",38,"aqraidp"
-"Ninewa","al.hamdaniya",2701035,"Zangal","idp",48,"al.hamdaniyaidp"
-"Ninewa","al.baaj",2702001,"Markaz Baaj","idp",226,"al.baajidp"
-"Ninewa","al.hamdaniya",2703038,"Al-Salamiyah Village","idp",25,"al.hamdaniyaidp"
-"Ninewa","al.shikhan",2704002,"Baadre","idp",688,"al.shikhanidp"
-"Ninewa","al.shikhan",2704006,"Chira","idp",187,"al.shikhanidp"
-"Ninewa","al.shikhan",2704011,"Kalakchi","idp",301,"al.shikhanidp"
-"Ninewa","al.shikhan",2704012,"Mahad","idp",250,"al.shikhanidp"
-"Ninewa","al.shikhan",2704015,"Qasrok","idp",310,"al.shikhanidp"
-"Ninewa","al.shikhan",2704016,"Shekhan","idp",1678,"al.shikhanidp"
-"Erbil","erbil",1202039,"Kawergosk","idp",195,"erbilidp"
-"Erbil","al.hamdaniya",1202040,"Khabat","idp",3665,"al.hamdaniyaidp"
-"Ninewa","al.mosul",2706003,"Al Harmaat","idp",733,"al.mosulidp"
-"Ninewa","al.mosul",2706004,"Al jazaer","idp",700,"al.mosulidp"
-"Ninewa","tilkaef",2706006,"Al rasheediya","idp",1600,"tilkaefidp"
-"Ninewa","al.mosul",2706010,"Al tahreer","idp",290,"al.mosulidp"
-"Ninewa","al.mosul",2706011,"Al Tanak","idp",285,"al.mosulidp"
-"Ninewa","al.mosul",2706033,"Al-Wahda","idp",375,"al.mosulidp"
-"Erbil","erbil",1202043,"Kurd Stan","idp",145,"erbilidp"
-"Ninewa","al.mosul",2706043,"Hay Al Intisar","idp",743,"al.mosulidp"
-"Ninewa","al.mosul",2706044,"Hay Al Islah Al Zirai","idp",302,"al.mosulidp"
-"Ninewa","al.mosul",2706048,"Hay Al Tammem","idp",360,"al.mosulidp"
-"Ninewa","al.mosul",2706082,"Al-Amil","idp",53,"al.mosulidp"
-"Ninewa","tilkaef",2706097,"Bysan","idp",51,"tilkaefidp"
-"Ninewa","al.mosul",2706106,"Hay alsedeeq","idp",450,"al.mosulidp"
-"Ninewa","al.mosul",2706188,"Alqadisiya Al-thaniya","idp",102,"al.mosulidp"
-"Ninewa","al.mosul",2706189,"Al-Falah","idp",79,"al.mosulidp"
-"Ninewa","al.mosul",2706326,"Ninewa Sharqiya","idp",829,"al.mosulidp"
-"Ninewa","sinjar",2707004,"Khana sor","idp",500,"sinjaridp"
-"Ninewa","sinjar",2707005,"Sinuni center","idp",870,"sinjaridp"
-"Ninewa","sinjar",2707008,"Borek","idp",160,"sinjaridp"
-"Ninewa","sinjar",2707011,"Karsi ","idp",89,"sinjaridp"
-"Ninewa","sinjar",2707016,"Wary Bahdo","idp",80,"sinjaridp"
-"Ninewa","sinjar",2707017,"Sardashty","idp",236,"sinjaridp"
-"Ninewa","sinjar",2707019,"Melik","idp",110,"sinjaridp"
-"Erbil","erbil",1202057,"Qushtapa centre","idp",1235,"erbilidp"
-"Ninewa","sinjar",2707029,"Ashti & Heriko","idp",118,"sinjaridp"
-"Ninewa","sinjar",2707034,"Darki Qawala","idp",67,"sinjaridp"
-"Ninewa","sinjar",2707042,"Hay Yarmok","idp",50,"sinjaridp"
-"Ninewa","sinjar",2707043,"Rozh Halat","idp",296,"sinjaridp"
-"Ninewa","sinjar",2707048,"Hay Alzeraee","idp",108,"sinjaridp"
-"Ninewa","telafar",2708003,"Al Muthalatha village","idp",175,"telafaridp"
-"Erbil","erbil",1202060,"Rizgari","idp",705,"erbilidp"
-"Ninewa","telafar",2708011,"Qasabat Zummar","idp",90,"telafaridp"
-"Ninewa","telafar",2708026,"Hay Al Askari","idp",453,"telafaridp"
-"Ninewa","telafar",2708029,"Hay althahabe","idp",55,"telafaridp"
-"Ninewa","telafar",2708047,"Tal Ismair","idp",26,"telafaridp"
-"Ninewa","telafar",2708066,"abu khushub","idp",22,"telafaridp"
-"Ninewa","telafar",2708081,"Tal Talab vilage","idp",18,"telafaridp"
-"Ninewa","telafar",2708084,"Mushah vilage","idp",28,"telafaridp"
-"Ninewa","telafar",2708089,"Karsur vilage","idp",40,"telafaridp"
-"Ninewa","telafar",2708090,"Ewaynat vilage","idp",67,"telafaridp"
-"Ninewa","telafar",2708098,"Abu hajarah","idp",75,"telafaridp"
-"Ninewa","tilkaef",2709003,"Al Qawsiyat","idp",740,"tilkaefidp"
-"Ninewa","tilkaef",2709005,"Alqosh","idp",130,"tilkaefidp"
-"Ninewa","tilkaef",2709008,"Beban","idp",120,"tilkaefidp"
-"Ninewa","tilkaef",2709011,"Bozan","idp",320,"tilkaefidp"
-"Ninewa","tilkaef",2709038,"Shaykhaka","idp",160,"tilkaefidp"
-"Ninewa","tilkaef",2709041,"Manara","idp",68,"tilkaefidp"
-"Ninewa","tilkaef",2709045,"Tallsquf","idp",290,"tilkaefidp"
-"Salah al-Din","al.shirqat",2802003,"Al Fajir village(Al Tasni)","idp",10,"al.shirqatidp"
-"Salah al-Din","al.shirqat",2802007,"Hay Al Jumiala","idp",52,"al.shirqatidp"
-"Salah al-Din","al.shirqat",2802013,"Baaja","idp",17,"al.shirqatidp"
-"Salah al-Din","al.shirqat",2802015,"Hay Al Askari","idp",33,"al.shirqatidp"
-"Salah al-Din","al.shirqat",2802016,"Hay Al Qasbah","idp",37,"al.shirqatidp"
-"Salah al-Din","al.shirqat",2802028,"Tal Al Jumiala area","idp",31,"al.shirqatidp"
-"Salah al-Din","beygee",2803010,"Qaryat Al Sareen","idp",125,"beygeeidp"
-"Salah al-Din","beygee",2803015,"Albu Tuama Village","idp",197,"beygeeidp"
-"Salah al-Din","beygee",2803016,"Al Hamra village","idp",100,"beygeeidp"
-"Salah al-Din","beygee",2803017,"Al Hejaj Village-13","idp",210,"beygeeidp"
-"Salah al-Din","beygee",2803018,"Al Mazraa Village","idp",70,"beygeeidp"
-"Salah al-Din","samarra",2804001,"Al Hardaniyah","idp",190,"samarraidp"
-"Salah al-Din","balad",2804005,"Albu Jewari","idp",183,"baladidp"
-"Salah al-Din","balad",2804007,"Al-Duloeyah-Hay khazraj","idp",209,"baladidp"
-"Salah al-Din","balad",2804009,"Beshakan village","idp",187,"baladidp"
-"Salah al-Din","balad",2804016,"Al-Juboor Village","idp",163,"baladidp"
-"Salah al-Din","balad",2805001,"14 Ramadhan","idp",25,"baladidp"
-"Salah al-Din","balad",2805005,"Al Zuheari Village","idp",105,"baladidp"
-"Salah al-Din","balad",2805010,"Hay Al Hussien","idp",177,"baladidp"
-"Salah al-Din","balad",2805016,"Markaz Al-Dujeel-Al Shabab village","idp",180,"baladidp"
-"Salah al-Din","balad",2805018,"Markaz Al-Dujeel-Hay Al Wihda Mahala 101","idp",165,"baladidp"
-"Salah al-Din","balad",2805019,"Markaz Al-Dujeel-Hay Al Wihda Mahala 103","idp",163,"baladidp"
-"Salah al-Din","samarra",2806003,"Al Jubairiyah Al Thalitha","idp",340,"samarraidp"
-"Salah al-Din","samarra",2806005,"Al Qala-Mahal 201","idp",171,"samarraidp"
-"Salah al-Din","samarra",2806008,"Al-Abasiya Village","idp",191,"samarraidp"
-"Salah al-Din","samarra",2806009,"Al-Efraz area","idp",144,"samarraidp"
-"Salah al-Din","samarra",2806010,"Al-Hewaish area","idp",139,"samarraidp"
-"Salah al-Din","samarra",2806012,"Al-Shuhadaa-Mahalla 324","idp",222,"samarraidp"
-"Salah al-Din","samarra",2806014,"Hay Al Baladiya-104","idp",95,"samarraidp"
-"Salah al-Din","samarra",2806015,"Hay Al Dhubbat-Mahalla 334","idp",122,"samarraidp"
-"Salah al-Din","samarra",2806016,"Hay Al Dubhat-Mahalla 336","idp",74,"samarraidp"
-"Salah al-Din","samarra",2806025,"Hay Al Zuhoor(Al qala 4)Mahala 202","idp",109,"samarraidp"
-"Salah al-Din","samarra",2806027,"Hay Al-Khathraa Mahala 322","idp",234,"samarraidp"
-"Salah al-Din","samarra",2806030,"Hay Salah Al-Din(Mahala 302)","idp",263,"samarraidp"
-"Salah al-Din","tikrit",2808002,"Hay Al Askari","idp",487,"tikritidp"
-"Salah al-Din","tikrit",2808011,"Awajealah Quarter","idp",142,"tikritidp"
-"Salah al-Din","tikrit",2808016,"Hay Al sinay-Al samad","idp",200,"tikritidp"
-"Salah al-Din","tikrit",2808025,"Samrah Village","idp",55,"tikritidp"
-"Salah al-Din","tikrit",2808028,"Qadisya 2 500 Area","idp",201,"tikritidp"
-"Salah al-Din","tikrit",2808069,"Hay Alziraa","idp",40,"tikritidp"
-"Salah al-Din","tikrit",2808071,"Hay Alqalaa","idp",330,"tikritidp"
-"Salah al-Din","tikrit",2808073,"Hay Alfirdous","idp",284,"tikritidp"
-"Salah al-Din","tikrit",2808076,"Hay Al-Wihda","idp",20,"tikritidp"
-"Salah al-Din","beygee",2808077,"Al-Muskarat","idp",150,"beygeeidp"
-"Salah al-Din","tikrit",2808080,"Mahalla Al Aed","idp",237,"tikritidp"
-"Salah al-Din","tikrit",2808084,"Al Auja village ","idp",28,"tikritidp"
-"Salah al-Din","tikrit",2808089,"Al-Qadisya Complex","idp",842,"tikritidp"
-"Salah al-Din","tooz.khurmato",2809001,"Hay Al Sideeq Mahalla 105","idp",130,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809005,"Hay Komari-120","idp",885,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809007,"Hay Rizgari-114","idp",317,"tooz.khurmatoidp"
-"Salah al-Din","daquq",2809008,"Hay Shoraw-1","idp",80,"daquqidp"
-"Salah al-Din","tooz.khurmato",2809010,"Markaz Tooz-Hay Al Askari","idp",770,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809012,"Markaz Tooz-Hay Al Taiyar 122","idp",750,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809015,"Markaz Tooz-Hay Brayati","idp",390,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809018,"Sankur","idp",110,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809021,"Tooz-Hay Al Teen","idp",270,"tooz.khurmatoidp"
-"Salah al-Din","tooz.khurmato",2809022,"Unformal Shelter","idp",330,"tooz.khurmatoidp"
-"Salah al-Din","chamchamal",2809051,"Milnaser Village","idp",7,"chamchamalidp"
-"Wassit","al.suwaira",2903005,"Hay Al-Jihad","idp",15,"al.suwairaidp"
-"Wassit","al.suwaira",2903009,"Hay Al-askary","idp",25,"al.suwairaidp"
-"Wassit","al.suwaira",2903014,"Hay Al-Furat","idp",28,"al.suwairaidp"
-"Wassit","al.suwaira",2903022,"Hay Al-Jameya","idp",7,"al.suwairaidp"
-"Wassit","al.suwaira",2904011,"Al-Azezia 150 area","idp",20,"al.suwairaidp"
-"Wassit","al.suwaira",2904014,"Al-Dawar Al-Sharqi","idp",7,"al.suwairaidp"
-"Wassit","al.suwaira",2904021,"Al-Khamas 3","idp",14,"al.suwairaidp"
-"Wassit","al.suwaira",2904035,"Al-Tanmeya","idp",11,"al.suwairaidp"
-"Wassit","al.suwaira",2904044,"Al Shabab 1","idp",14,"al.suwairaidp"
-"Wassit","al.suwaira",2904046,"Hay Al-Askari 3","idp",8,"al.suwairaidp"
-"Wassit","al.suwaira",2904059,"Taj al-dien","idp",30,"al.suwairaidp"
-"Wassit","al.kut",2906004,"Al Hasan Al Askari","idp",55,"al.kutidp"
-"Wassit","al.kut",2906023,"Hay Al-Hawaraa 3","idp",63,"al.kutidp"
-"Wassit","al.kut",2906025,"Al-Jihad Al-Zahraa","idp",25,"al.kutidp"
-"Wassit","al.kut",2906031,"Al-Sebtain W Al-Maamel","idp",9,"al.kutidp"
-"Wassit","al.kut",2906041,"Damook Al-Dhbat","idp",40,"al.kutidp"
-"Wassit","al.kut",2906051,"Al-Jihad-Al Thaqalain","idp",28,"al.kutidp"
-"Wassit","al.kut",2906052,"Hay Al Wehda","idp",8,"al.kutidp"
-"Wassit","al.kut",2906056,"Hay Al-Karar","idp",14,"al.kutidp"
-"Wassit","al.kut",2906058,"Hay Al-Shuhadaa","idp",15,"al.kutidp"
-"Wassit","al.kut",2906069,"Um Hulail Village","idp",23,"al.kutidp"
-"Wassit","al.kut",2906071,"Al-Umarat-Al-Mutamaizeen","idp",59,"al.kutidp"
-"Wassit","al.kut",2906072,"Al Hakeem Al-Ula","idp",14,"al.kutidp"
-"Wassit","al.kut",2906073,"Al Hakeem Al-Thania","idp",12,"al.kutidp"
-"Erbil","erbil",1202117,"Shorsh(Hay arey)","idp",287,"erbilidp"
-"Erbil","erbil",1202120,"Shorsh(Malayan)","idp",209,"erbilidp"
-"Erbil","erbil",1202121,"Saidawa(Khabat)","idp",28,"erbilidp"
-"Basrah","al.basrah",3105013,"Al Ashar Center","idp",49,"al.basrahidp"
-"Basrah","al.basrah",3105025,"Al Jumhuriya","idp",9,"al.basrahidp"
-"Basrah","al.basrah",3105026,"Al Kaim 1","idp",6,"al.basrahidp"
-"Basrah","al.basrah",3105030,"AL Mowafaqiah","idp",17,"al.basrahidp"
-"Basrah","al.basrah",3105044,"Al-Baker & Al-Ahrar","idp",11,"al.basrahidp"
-"Basrah","al.basrah",3105047,"Al-hakemia","idp",11,"al.basrahidp"
-"Basrah","al.basrah",3105049,"Al-Jnaina","idp",12,"al.basrahidp"
-"Basrah","al.basrah",3105068,"Braiha","idp",10,"al.basrahidp"
-"Basrah","al.basrah",3105094,"Hay Al Risalah","idp",21,"al.basrahidp"
-"Basrah","al.basrah",3105100,"Hay Al-Husain 3","idp",7,"al.basrahidp"
-"Basrah","al.basrah",3105112,"Manawi pasha","idp",13,"al.basrahidp"
-"Basrah","al.basrah",3105123,"Al Khaleej1","idp",7,"al.basrahidp"
-"Erbil","erbil",1202136,"Du sara fatah","idp",525,"erbilidp"
-"Missan","al.kahla",3205002,"Al Hay Al JameI","idp",120,"al.kahlaidp"
-"Missan","al.kahla",3205006,"Al Salam","idp",13,"al.kahlaidp"
-"Missan","al.kahla",3205019,"Hay Al Karar","idp",10,"al.kahlaidp"
-"Missan","al.kahla",3205026,"Hay Al Rasool","idp",9,"al.kahlaidp"
-"Missan","al.kahla",3205031,"Hay Al-Ameer","idp",6,"al.kahlaidp"
-"Erbil","erbil",1202146,"Aweney Shar","idp",70,"erbilidp"
-"Missan","al.kahla",3206007,"Hay Al-Ameer","idp",10,"al.kahlaidp"
-"Erbil","koysinjaq",1203002,"Azady","idp",91,"koysinjaqidp"
-"Erbil","koysinjaq",1203003,"Bayizagha","idp",103,"koysinjaqidp"
-"Erbil","koysinjaq",1203004,"Bazar koya(Bafri qndeel)","idp",97,"koysinjaqidp"
-"Erbil","koysinjaq",1203006,"Hamamok","idp",59,"koysinjaqidp"
-"Najaf","al.kufa",3402016,"Albu Hadary","idp",8,"al.kufaidp"
-"Najaf","al.kufa",3402019,"Alwat Al Fahal","idp",143,"al.kufaidp"
-"Erbil","koysinjaq",1203009,"Qalat","idp",97,"koysinjaqidp"
-"Najaf","al.kufa",3402035,"Maytham Al Tamar","idp",9,"al.kufaidp"
-"Najaf","al.kufa",3402041,"Al Kreishat Al Shimaliya","idp",7,"al.kufaidp"
-"Erbil","koysinjaq",1203010,"Taqtaq","idp",237,"koysinjaqidp"
-"Najaf","al.kufa",3403035,"AL-RADHAWIYA","idp",180,"al.kufaidp"
-"Najaf","al.najaf",3403039,"Hay Al Ameer","idp",65,"al.najafidp"
-"Erbil","koysinjaq",1203015,"Nawdaran","idp",10,"koysinjaqidp"
-"Najaf","al.najaf",3403055,"Hay Al zahraa-Al Haidariyah","idp",10,"al.najafidp"
-"Najaf","al.najaf",3403075,"Shawafi Village","idp",72,"al.najafidp"
-"Najaf","al.najaf",3403079,"Mafraq Al-Kefal","idp",42,"al.najafidp"
-"Najaf","al.najaf",3403080,"Al-Mazarea AL-Westa","idp",90,"al.najafidp"
-"Najaf","al.najaf",3403081,"Al-Qasim","idp",65,"al.najafidp"
-"Najaf","al.najaf",3403082,"Markaz Alhaidariya","idp",80,"al.najafidp"
-"Najaf","al.najaf",3403084,"Mazara Al-Hawli","idp",160,"al.najafidp"
-"Najaf","al.najaf",3403085,"Fadak Village","idp",48,"al.najafidp"
-"Najaf","al.kufa",3403086,"Al-Mazara 2","idp",146,"al.kufaidp"
-"Najaf","al.najaf",3403088,"Al-Shaheed Al-Sadar-Shareet","idp",42,"al.najafidp"
-"Najaf","al.najaf",3403089,"Al-Ghadeer Village complex","idp",100,"al.najafidp"
-"Erbil","shaqlawa",1206003,"Bazar Khanzad","idp",62,"shaqlawaidp"
-"Erbil","shaqlawa",1206004,"Betrma","idp",100,"shaqlawaidp"
-"Thi-Qar","al.nasiriya",3504014,"Al Sharqiya","idp",7,"al.nasiriyaidp"
-"Erbil","shaqlawa",1206006,"Harir","idp",95,"shaqlawaidp"
-"Thi-Qar","al.nasiriya",3504021,"Al-Salhiya","idp",10,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504024,"Al-zielat","idp",15,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504025,"Aredo","idp",15,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504028,"Hay Al Ameer","idp",14,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504029,"Hay Al Fidaa","idp",8,"al.nasiriyaidp"
-"Erbil","shaqlawa",1206007,"Harir-Batas","idp",35,"shaqlawaidp"
-"Thi-Qar","al.nasiriya",3504031,"Hay Al Mualimeen","idp",8,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504033,"Hay Al Tadhihiya","idp",17,"al.nasiriyaidp"
-"Erbil","shaqlawa",1206008,"Hiran","idp",93,"shaqlawaidp"
-"Thi-Qar","al.nasiriya",3504041,"Nassriya-Hey 400","idp",7,"al.nasiriyaidp"
-"Erbil","shaqlawa",1206010,"Sabirawa","idp",70,"shaqlawaidp"
-"Thi-Qar","al.nasiriya",3504051,"Um Al Dood","idp",6,"al.nasiriyaidp"
-"Thi-Qar","al.nasiriya",3504054,"Hay AL-Mansouria","idp",15,"al.nasiriyaidp"
-"Erbil","shaqlawa",1206011,"Safeen","idp",70,"shaqlawaidp"
-"Erbil","shaqlawa",1206012,"Sarmidan-1(Ashti)","idp",80,"shaqlawaidp"
-"Erbil","shaqlawa",1206014,"Sarmidan-3(Ashti)","idp",50,"shaqlawaidp"
-"Erbil","shaqlawa",1206015,"Shahedan","idp",140,"shaqlawaidp"
-"Qadissiya","al.diwaniya",3603003,"Al Mojamaa Al Sakani","idp",97,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603004,"Hay Al Ghadir","idp",11,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603009,"Um tibashi village","idp",14,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603010,"Albo Hasan village","idp",14,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603011,"Hay Al Wihda 2","idp",9,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603017,"Albu Khnefis village","idp",10,"al.diwaniyaidp"
-"Erbil","shaqlawa",1206017,"Spigra","idp",44,"shaqlawaidp"
-"Qadissiya","al.diwaniya",3603033,"Al-Jabaar village","idp",16,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603047,"Hay Al Furat-1","idp",12,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603059,"Hay Al Waely","idp",10,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603063,"Hay Al-Amin 1","idp",15,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603064,"Hay Al-Amin 2","idp",20,"al.diwaniyaidp"
-"Qadissiya","al.diwaniya",3603073,"Hay Al-Hadarah","idp",15,"al.diwaniyaidp"
-"Erbil","rawanduz",1207002,"Khalifan(center)","idp",30,"rawanduzidp"
-"Erbil","rawanduz",1207003,"Rawanduz District","idp",40,"rawanduzidp"
-"Erbil","rawanduz",1207004,"Soran District","idp",310,"rawanduzidp"
-"Erbil","rawanduz",1207006,"Diana(Shahedan azady)","idp",16,"rawanduzidp"
-"Erbil","rawanduz",1207008,"Hay mameel al qeer","idp",13,"rawanduzidp"
-"Sulaymaniyah","chamchamal",1301004,"Azady","idp",205,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301006,"Chamchamal-Raparin","idp",198,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301010,"Handreen","idp",66,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301016,"Piryadi","idp",82,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301017,"Pura Gulla","idp",50,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301021,"SANGAWIAKAN","idp",30,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301027,"Sangawi kon","idp",11,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301031,"Hazar kani","idp",37,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301045,"Bani maqan","idp",94,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301046,"Dawajin","idp",67,"chamchamalidp"
-"Sulaymaniyah","chamchamal",1301050,"hashazini","idp",6,"chamchamalidp"
-"Dahuk","duhok",1102002,"Al Sinaah","idp",210,"duhokidp"
-"Sulaymaniyah","derbendikhan",1302001,"Campe khwarw","idp",34,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302002,"Hawara barza","idp",100,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302003,"Kanisard","idp",80,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302004,"Kanito","idp",119,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302005,"Sara","idp",85,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302009,"Sharwani","idp",85,"derbendikhanidp"
-"Sulaymaniyah","derbendikhan",1302010,"Khelan","idp",120,"derbendikhanidp"
-"Sulaymaniyah","dokan",1303003,"Chawa spy","idp",26,"dokanidp"
-"Sulaymaniyah","dokan",1303009,"Kotal","idp",17,"dokanidp"
-"Sulaymaniyah","dokan",1303011,"Pishowa","idp",93,"dokanidp"
-"Sulaymaniyah","dokan",1303012,"Qamchugha","idp",103,"dokanidp"
-"Sulaymaniyah","dokan",1303013,"Sara","idp",95,"dokanidp"
-"Sulaymaniyah","dokan",1303016,"Sharawany","idp",68,"dokanidp"
-"Dahuk","al.amadiya",1101005,"Chamanke","idp",82,"al.amadiyaidp"
-"Sulaymaniyah","dokan",1303025,"Mergapan","idp",34,"dokanidp"
-"Dahuk","duhok",1102007,"Bahdinan","idp",63,"duhokidp"
-"Sulaymaniyah","dokan",1303034,"Shekh Mansourian","idp",8,"dokanidp"
-"Sulaymaniyah","dokan",1303036,"Asos","idp",60,"dokanidp"
-"Sulaymaniyah","derbendikhan",1304004,"Bakhtyari","idp",30,"derbendikhanidp"
-"Sulaymaniyah","halabcha",1304006,"Barkew","idp",53,"halabchaidp"
-"Sulaymaniyah","halabcha",1304007,"Farmanbaran","idp",17,"halabchaidp"
-"Dahuk","duhok",1102009,"Baroshke","idp",318,"duhokidp"
-"Sulaymaniyah","halabcha",1304009,"Goran City","idp",7,"halabchaidp"
-"Sulaymaniyah","halabcha",1304012,"Gulan","idp",26,"halabchaidp"
-"Sulaymaniyah","derbendikhan",1304015,"Azadi","idp",23,"derbendikhanidp"
-"Sulaymaniyah","halabcha",1304018,"Hassar","idp",41,"halabchaidp"
-"Sulaymaniyah","halabcha",1304026,"Darwazay Shar","idp",22,"halabchaidp"
-"Sulaymaniyah","halabcha",1304027,"Marzboto","idp",11,"halabchaidp"
-"Sulaymaniyah","halabcha",1304028,"Mordana","idp",13,"halabchaidp"
-"Dahuk","duhok",1102011,"Bazaar","idp",55,"duhokidp"
-"Sulaymaniyah","derbendikhan",1304038,"Rezgari","idp",45,"derbendikhanidp"
-"Sulaymaniyah","halabcha",1304039,"Shikhan","idp",47,"halabchaidp"
-"Sulaymaniyah","halabcha",1304046,"Raparine","idp",36,"halabchaidp"
-"Sulaymaniyah","halabcha",1304049,"Tapa kura","idp",12,"halabchaidp"
-"Sulaymaniyah","halabcha",1304051,"Shahidan-Saidsadiq","idp",11,"halabchaidp"
-"Sulaymaniyah","kifri",1305002,"Ban Asiaw","idp",47,"kifriidp"
-"Sulaymaniyah","kalar",1305007,"Grda Gozina","idp",117,"kalaridp"
-"Sulaymaniyah","kalar",1305008,"Hamren","idp",95,"kalaridp"
-"Sulaymaniyah","kalar",1305009,"Kalar Kon","idp",202,"kalaridp"
-"Sulaymaniyah","kalar",1305010,"Kalari New","idp",58,"kalaridp"
-"Sulaymaniyah","khanaqin",1305014,"Kulajo","idp",343,"khanaqinidp"
-"Sulaymaniyah","kalar",1305015,"Pebaz","idp",42,"kalaridp"
-"Sulaymaniyah","kifri",1305019,"Shaykh Lankar","idp",207,"kifriidp"
-"Sulaymaniyah","kalar",1305021,"Sirwan","idp",51,"kalaridp"
-"Sulaymaniyah","kifri",1305024,"Ali Khalaf","idp",14,"kifriidp"
-"Sulaymaniyah","kalar",1305031,"Nawrooz","idp",92,"kalaridp"
-"Sulaymaniyah","kalar",1305033,"Garmyan","idp",179,"kalaridp"
-"Dahuk","duhok",1102016,"Dabin 2","idp",382,"duhokidp"
-"Sulaymaniyah","kifri",1305036,"Shakal","idp",229,"kifriidp"
-"Sulaymaniyah","kalar",1305038,"Asuda","idp",139,"kalaridp"
-"Sulaymaniyah","kalar",1305040,"Awbarik","idp",245,"kalaridp"
-"Sulaymaniyah","kalar",1305041,"Awarakan","idp",21,"kalaridp"
-"Dahuk","duhok",1102017,"Diyari","idp",29,"duhokidp"
-"Sulaymaniyah","rania",1308003,"Koling city","idp",81,"raniaidp"
-"Sulaymaniyah","rania",1308004,"Qandil","idp",23,"raniaidp"
-"Sulaymaniyah","rania",1308005,"Raparine","idp",14,"raniaidp"
-"Sulaymaniyah","rania",1308009,"Kewa Rash","idp",12,"raniaidp"
-"Sulaymaniyah","rania",1308011,"Nawroz","idp",45,"raniaidp"
-"Sulaymaniyah","rania",1308018,"Shishar","idp",32,"raniaidp"
-"Sulaymaniyah","rania",1308022,"kurdistan","idp",19,"raniaidp"
-"Dahuk","duhok",1102022,"Etit","idp",275,"duhokidp"
-"Sulaymaniyah","rania",1308030,"Azadi 1","idp",11,"raniaidp"
-"Sulaymaniyah","rania",1308033,"Srra","idp",12,"raniaidp"
-"Sulaymaniyah","al.sulaymaniyah",1310010,"Ashty 106 & 104","idp",80,"al.sulaymaniyahidp"
-"Dahuk","duhok",1102025,"Kora","idp",66,"duhokidp"
-"Sulaymaniyah","al.sulaymaniyah",1310018,"Bakrajo-Qularaese Taza","idp",157,"al.sulaymaniyahidp"
-"Dahuk","sumail",1102027,"Kevila","idp",104,"sumailidp"
-"Sulaymaniyah","al.sulaymaniyah",1310030,"Chwar Bakh 401","idp",56,"al.sulaymaniyahidp"
-"Dahuk","al.amadiya",1101007,"Deraluk","idp",22,"al.amadiyaidp"
-"Sulaymaniyah","al.sulaymaniyah",1310042,"Gulli Shar","idp",100,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310062,"Kostay Cham","idp",102,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310087,"Rizgare 408","idp",49,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310093,"Saib City","idp",224,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310141,"Grdi Joga","idp",16,"al.sulaymaniyahidp"
-"Dahuk","duhok",1102039,"Nazarke","idp",275,"duhokidp"
-"Sulaymaniyah","al.sulaymaniyah",1310144,"Srosht 333","idp",24,"al.sulaymaniyahidp"
-"Dahuk","al.amadiya",1101008,"Inishke","idp",27,"al.amadiyaidp"
-"Sulaymaniyah","al.sulaymaniyah",1310206,"Khalif awa village","idp",77,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310211,"Zirak","idp",30,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310217,"Raparine-Zanko","idp",50,"al.sulaymaniyahidp"
-"Dahuk","duhok",1102046,"Shakhke","idp",190,"duhokidp"
-"Sulaymaniyah","al.sulaymaniyah",1310227,"Shahidan 103","idp",189,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310229,"Malik mahmood 401","idp",204,"al.sulaymaniyahidp"
-"Sulaymaniyah","al.sulaymaniyah",1310230,"Sharawane 102","idp",122,"al.sulaymaniyahidp"
-"Anbar","al.kaim",2101002,"Al Aubaidi Al Qadima","idp",17,"al.kaimidp"
-"Anbar","al.kaim",2101029,"Sadah","idp",36,"al.kaimidp"
-"Anbar","al.kaim",2101032,"Al Masharea","idp",121,"al.kaimidp"
-"Anbar","al.kaim",2101033,"Tiwaan","idp",45,"al.kaimidp"
-"Dahuk","duhok",1102050,"Avrike","idp",204,"duhokidp"
-"Dahuk","duhok",1102051,"Zeri Land","idp",497,"duhokidp"
-"Anbar","al.falluja",2105019,"Al-Amirya-Albu Jwad","idp",209,"al.fallujaidp"
-"Anbar","al.falluja",2105031,"Albu Hori","idp",84,"al.fallujaidp"
-"Anbar","al.falluja",2105069,"Al-Amirya-Al Betra","idp",100,"al.fallujaidp"
-"Anbar","al.falluja",2105071,"Al-Amirya-Al Mouilha","idp",265,"al.fallujaidp"
-"Anbar","al.falluja",2105073,"Al-Amirya-Albu Jaber","idp",99,"al.fallujaidp"
-"Anbar","al.falluja",2105074,"Al-Amirya-Albu Mrir","idp",102,"al.fallujaidp"
-"Anbar","al.falluja",2105075,"Al-Amirya-Albu Saleh","idp",246,"al.fallujaidp"
-"Anbar","al.falluja",2105076,"Al-Amirya-Albu Salman","idp",196,"al.fallujaidp"
-"Anbar","al.falluja",2105078,"Albu Dhaher-Albu Dhaher","idp",79,"al.fallujaidp"
-"Anbar","al.falluja",2105088,"Al-Ekhaa Compaund","idp",31,"al.fallujaidp"
-"Anbar","haditha",2106001,"Al Furat Complex","idp",15,"hadithaidp"
-"Anbar","haditha",2106013,"Haqlaniyah-Hay Al-Faroq","idp",24,"hadithaidp"
-"Anbar","haditha",2106017,"Hay Al Haqlaniyah Qadim","idp",28,"hadithaidp"
-"Anbar","haditha",2106023,"Hay Al Saray","idp",40,"hadithaidp"
-"Anbar","haditha",2106028,"Hay Al Yarmuk","idp",95,"hadithaidp"
-"Anbar","haditha",2106034,"Hay Al-Mulameen","idp",26,"hadithaidp"
-"Anbar","haditha",2106038,"Hay Al-Subhani","idp",28,"hadithaidp"
-"Anbar","heet",2107013,"Al Muhamdee","idp",34,"heetidp"
-"Anbar","heet",2107026,"Al-Khaldiyah","idp",24,"heetidp"
-"Anbar","heet",2107030,"Al-Mujama Al-Sakani","idp",15,"heetidp"
-"Anbar","heet",2107031,"Al-Qalqalah","idp",72,"heetidp"
-"Anbar","heet",2107045,"Hay al Jury","idp",8,"heetidp"
-"Anbar","heet",2107053,"Hay Al-Jabal","idp",9,"heetidp"
-"Anbar","heet",2107067,"Mualmeen","idp",94,"heetidp"
-"Anbar","al.ramadi",2108001,"5 Kilo","idp",129,"al.ramadiidp"
-"Anbar","al.ramadi",2108005,"7 Killo-al-mojamaa al-sakany","idp",98,"al.ramadiidp"
-"Anbar","al.ramadi",2108006,"Abu Fless","idp",57,"al.ramadiidp"
-"Anbar","al.ramadi",2108007,"Al Khulafaa","idp",24,"al.ramadiidp"
-"Anbar","al.ramadi",2108011,"Al Sofeya","idp",225,"al.ramadiidp"
-"Anbar","al.ramadi",2108013,"Al Urobah","idp",12,"al.ramadiidp"
-"Anbar","al.ramadi",2108017,"Al-Jeraishi","idp",75,"al.ramadiidp"
-"Anbar","al.ramadi",2108024,"Hay Al-Salam","idp",15,"al.ramadiidp"
-"Anbar","al.falluja",2108025,"Hay Al-Umal","idp",20,"al.fallujaidp"
-"Anbar","al.ramadi",2108027,"Qadisiya-1","idp",87,"al.ramadiidp"
-"Anbar","al.ramadi",2108030,"Warar","idp",140,"al.ramadiidp"
-"Dahuk","duhok",1102060,"Baroshka Saadin","idp",27,"duhokidp"
-"Babylon","al.mussyab",2202001,"Abo Luka","idp",95,"al.mussyabidp"
-"Babylon","al.mussyab",2202002,"Al Abtan","idp",45,"al.mussyabidp"
-"Babylon","al.mussyab",2202004,"Al Ghadeer 2","idp",65,"al.mussyabidp"
-"Babylon","al.mussyab",2202007,"Al Hamiyah-Oayef village","idp",94,"al.mussyabidp"
-"Dahuk","al.amadiya",1101010,"Kaniya Mala","idp",24,"al.amadiyaidp"
-"Dahuk","sumail",1103001,"Avro City","idp",1184,"sumailidp"
-"Babylon","al.mahmoudiya",2202017,"Al-Jazirah-Al Eskandariya","idp",37,"al.mahmoudiyaidp"
-"Babylon","al.mussyab",2202024,"Hay Aday-Al Eskandariya","idp",102,"al.mussyabidp"
-"Babylon","al.mussyab",2202026,"Hay Al Ataba","idp",235,"al.mussyabidp"
-"Dahuk","sumail",1103002,"Bajit Kandala","idp",109,"sumailidp"
-"Babylon","al.mussyab",2202029,"Hay Al Ghadeer 4","idp",77,"al.mussyabidp"
-"Babylon","al.mussyab",2202037,"Hay Alaskary-AlThaghet","idp",112,"al.mussyabidp"
-"Babylon","al.mussyab",2202049,"Hitten Complex","idp",18,"al.mussyabidp"
-"Babylon","al.mussyab",2202050,"Hur Husaein","idp",47,"al.mussyabidp"
-"Babylon","al.mussyab",2202061,"Al Hamiyah Al Sheab Village","idp",103,"al.mussyabidp"
-"Babylon","al.mussyab",2202072,"Albo Hamdan","idp",33,"al.mussyabidp"
-"Ninewa","al.mosul",2706159,"Al-Areej Village","returnee",3000,"al.mosulreturnee"
-"Anbar","al.falluja",2105027,"Albu Aifan","returnee",831,"al.fallujareturnee"
-"Ninewa","al.hatra",2706177,"Qabr bin Naif Village","returnee",104,"al.hatrareturnee"
-"Anbar","al.falluja",2105028,"Albu Alwan","returnee",1349,"al.fallujareturnee"
-"Ninewa","al.mosul",2706199,"Bahzani","returnee",3120,"al.mosulreturnee"
-"Ninewa","al.mosul",2706228,"Al-rabaa Village","returnee",60,"al.mosulreturnee"
-"Ninewa","tilkaef",2706235,"Tel Al-raes Al-thania Village","returnee",1203,"tilkaefreturnee"
-"Anbar","al.falluja",2105034,"Albu Khanfar","returnee",2216,"al.fallujareturnee"
-"Ninewa","al.mosul",2706266,"Al-Rabeea","returnee",815,"al.mosulreturnee"
-"Erbil","makhmour",1204031,"Abu Sheta","returnee",828,"makhmourreturnee"
-"Anbar","al.falluja",2105037,"Albu Shihab","returnee",1058,"al.fallujareturnee"
-"Ninewa","al.mosul",2706286,"Al-Mayasa","returnee",229,"al.mosulreturnee"
-"Ninewa","al.mosul",2706302,"Tal Khayma Village","returnee",151,"al.mosulreturnee"
-"Anbar","al.falluja",2105044,"Al-jamhuriya","returnee",2356,"al.fallujareturnee"
-"Anbar","al.falluja",2105045,"Al-Julan","returnee",2997,"al.fallujareturnee"
-"Ninewa","sinjar",2707001,"Hay Al Naser","returnee",85,"sinjarreturnee"
-"Ninewa","sinjar",2707005,"Sinuni center","returnee",900,"sinjarreturnee"
-"Ninewa","sinjar",2707006,"Dokri","returnee",500,"sinjarreturnee"
-"Erbil","makhmour",1204032,"Kapran","returnee",442,"makhmourreturnee"
-"Anbar","al.kadhmiyah",2105052,"Al-Shurtan","returnee",117,"al.kadhmiyahreturnee"
-"Ninewa","sinjar",2707007,"Dohola ","returnee",850,"sinjarreturnee"
-"Ninewa","sinjar",2707008,"Borek","returnee",1900,"sinjarreturnee"
-"Ninewa","sinjar",2707009,"Guhbal and shorka","returnee",550,"sinjarreturnee"
-"Ninewa","sinjar",2707021,"Balif","returnee",107,"sinjarreturnee"
-"Ninewa","sinjar",2707030,"Bir Adam","returnee",12,"sinjarreturnee"
-"Ninewa","sinjar",2707038,"Zorava and zirwa","returnee",731,"sinjarreturnee"
-"Ninewa","sinjar",2707056,"Golat","returnee",320,"sinjarreturnee"
-"Ninewa","sinjar",2707058,"Sibaya Ammash Village","returnee",60,"sinjarreturnee"
-"Anbar","al.falluja",2105057,"Halabsa-Falluja","returnee",2169,"al.fallujareturnee"
-"Ninewa","sinjar",2707062,"Khazoga","returnee",170,"sinjarreturnee"
-"Ninewa","telafar",2708011,"Qasabat Zummar","returnee",4050,"telafarreturnee"
-"Anbar","al.falluja",2105060,"Luhib","returnee",865,"al.fallujareturnee"
-"Ninewa","telafar",2708026,"Hay Al Askari","returnee",1318,"telafarreturnee"
-"Ninewa","telafar",2708027,"Hay Al Arbaeen","returnee",161,"telafarreturnee"
-"Ninewa","telafar",2708028,"Hay Alasreya","returnee",506,"telafarreturnee"
-"Ninewa","telafar",2708032,"Hay Al Qadisya","returnee",407,"telafarreturnee"
-"Ninewa","telafar",2708033,"Hay Al Salam","returnee",605,"telafarreturnee"
-"Ninewa","telafar",2708035,"Jussa","returnee",375,"telafarreturnee"
-"Ninewa","telafar",2708044,"Msherfa Village","returnee",416,"telafarreturnee"
-"Ninewa","telafar",2708050,"Tal Mus","returnee",850,"telafarreturnee"
-"Anbar","al.falluja",2105065,"Qaryat Albu Hadid Al-Nasir","returnee",1748,"al.fallujareturnee"
-"Ninewa","telafar",2708107,"Sahlij","returnee",210,"telafarreturnee"
-"Anbar","al.falluja",2105083,"Hay Al Askari","returnee",3545,"al.fallujareturnee"
-"Ninewa","telafar",2708128,"Al-Qadisiya Alawla","returnee",627,"telafarreturnee"
-"Ninewa","telafar",2708137,"Hay Al jazira","returnee",1515,"telafarreturnee"
-"Ninewa","telafar",2708138,"Hay Al khadraa","returnee",991,"telafarreturnee"
-"Ninewa","telafar",2708143,"Hay Alkefah al jenobi","returnee",1700,"telafarreturnee"
-"Anbar","al.falluja",2105086,"Hay Al Shuhadaa","returnee",2875,"al.fallujareturnee"
-"Ninewa","telafar",2708168,"Sahl Al Milhah Village","returnee",195,"telafarreturnee"
-"Ninewa","tilkaef",2709004,"Al Quba","returnee",3600,"tilkaefreturnee"
-"Ninewa","tilkaef",2709010,"Baawiza","returnee",930,"tilkaefreturnee"
-"Ninewa","tilkaef",2709015,"Der Umtutha","returnee",450,"tilkaefreturnee"
-"Ninewa","tilkaef",2709040,"wanna center","returnee",1875,"tilkaefreturnee"
-"Ninewa","tilkaef",2709045,"Tallsquf","returnee",618,"tilkaefreturnee"
-"Ninewa","tilkaef",2709052,"Mosul Dam","returnee",665,"tilkaefreturnee"
-"Ninewa","tilkaef",2709060,"Sada Area","returnee",1605,"tilkaefreturnee"
-"Ninewa","tilkaef",2709075,"Felfel","returnee",370,"tilkaefreturnee"
-"Anbar","al.falluja",2105093,"Al Daffar","returnee",1000,"al.fallujareturnee"
-"Salah al-Din","al.daur",2801001,"Al-Khadhra area","returnee",637,"al.daurreturnee"
-"Salah al-Din","al.daur",2801013,"Al Asriyah village","returnee",253,"al.daurreturnee"
-"Salah al-Din","al.daur",2801015,"Al Mujammaa Al Sakani","returnee",2826,"al.daurreturnee"
-"Salah al-Din","al.daur",2801016,"Hay Abu Dalaf","returnee",1485,"al.daurreturnee"
-"Salah al-Din","al.daur",2801017,"Hay Al Aboor","returnee",910,"al.daurreturnee"
-"Salah al-Din","al.daur",2801018,"Hay Al Askri","returnee",831,"al.daurreturnee"
-"Salah al-Din","al.daur",2801020,"Hay Al Sharqiyah","returnee",586,"al.daurreturnee"
-"Salah al-Din","al.daur",2801021,"Hay Tal Al Banat","returnee",1219,"al.daurreturnee"
-"Salah al-Din","al.daur",2801022,"Hay Al Qadisiah","returnee",748,"al.daurreturnee"
-"Salah al-Din","al.shirqat",2802007,"Hay Al Jumiala","returnee",1353,"al.shirqatreturnee"
-"Salah al-Din","beygee",2802012,"Awad Al Tawee complex","returnee",264,"beygeereturnee"
-"Salah al-Din","al.shirqat",2802013,"Baaja","returnee",559,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802016,"Hay Al Qasbah","returnee",873,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802025,"Qaryat Al Sabkha","returnee",363,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802029,"Tulul Baq","returnee",512,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802034,"Hay Al-Khasim Al-Qadem village","returnee",721,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802039,"Al-Ayitha Village","returnee",436,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802041,"Hay Al-noor","returnee",376,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802046,"Sudayrah Tak Tak Village","returnee",997,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802047,"Sudayrah Aulya Village","returnee",1712,"al.shirqatreturnee"
-"Salah al-Din","al.shirqat",2802048,"Sudayrah Westa Village","returnee",1081,"al.shirqatreturnee"
-"Salah al-Din","beygee",2802049,"Al-Salman village","returnee",940,"beygeereturnee"
-"Salah al-Din","al.shirqat",2802052,"Al-Mashhad Village","returnee",757,"al.shirqatreturnee"
-"Anbar","haditha",2106004,"Al Khansaa","returnee",494,"hadithareturnee"
-"Anbar","haditha",2106007,"Albu Hayat","returnee",613,"hadithareturnee"
-"Salah al-Din","al.shirqat",2802068,"Anig Al-Hawa village","returnee",409,"al.shirqatreturnee"
-"Salah al-Din","beygee",2803001,"Al Mushhaq Village","returnee",882,"beygeereturnee"
-"Salah al-Din","samarra",2803002,"Al Namel Village","returnee",260,"samarrareturnee"
-"Salah al-Din","daquq",2803006,"Hay Tal Al Zatar-mahalla 219","returnee",407,"daquqreturnee"
-"Salah al-Din","beygee",2803010,"Qaryat Al Sareen","returnee",650,"beygeereturnee"
-"Salah al-Din","beygee",2803014,"Hay Alasmida","returnee",175,"beygeereturnee"
-"Anbar","haditha",2106009,"Al-Mutanabi","returnee",617,"hadithareturnee"
-"Salah al-Din","beygee",2803017,"Al Hejaj Village-13","returnee",1931,"beygeereturnee"
-"Salah al-Din","beygee",2803022,"Al-Zweeyah Village ","returnee",2182,"beygeereturnee"
-"Salah al-Din","beygee",2803023,"Al-asry Al-Jnoby neighborhood","returnee",413,"beygeereturnee"
-"Anbar","haditha",2106011,"Bani Dahir","returnee",433,"hadithareturnee"
-"Salah al-Din","beygee",2803029,"Hay Altameem","returnee",570,"beygeereturnee"
-"Salah al-Din","beygee",2803032,"Hay Alrisalah","returnee",375,"beygeereturnee"
-"Salah al-Din","beygee",2803037,"Sheik Ali village","returnee",270,"beygeereturnee"
-"Salah al-Din","beygee",2803040,"Alharejiya village","returnee",196,"beygeereturnee"
-"Anbar","haditha",2106014,"Haqlaniyah-Al shuhadaa","returnee",577,"hadithareturnee"
-"Salah al-Din","balad",2804005,"Albu Jewari","returnee",513,"baladreturnee"
-"Salah al-Din","balad",2804006,"Al-Duloeyah-Hay Al Jubor","returnee",375,"baladreturnee"
-"Salah al-Din","balad",2804016,"Al-Juboor Village","returnee",540,"baladreturnee"
-"Salah al-Din","balad",2804018,"Yathrib sub distrct ","returnee",4884,"baladreturnee"
-"Salah al-Din","balad",2804021,"Al_Farhateya village","returnee",420,"baladreturnee"
-"Salah al-Din","balad",2804023,"Sinjaar","returnee",487,"baladreturnee"
-"Anbar","haditha",2106015,"Hay Al Askary","returnee",451,"hadithareturnee"
-"Salah al-Din","balad",2804026,"Aziz Balad","returnee",572,"baladreturnee"
-"Salah al-Din","balad",2805008,"Bezna Village","returnee",543,"baladreturnee"
-"Salah al-Din","samarra",2806006,"Al Sayoya-Mahala 1","returnee",312,"samarrareturnee"
-"Salah al-Din","samarra",2806007,"Al_Jazera","returnee",2103,"samarrareturnee"
-"Salah al-Din","samarra",2806008,"Al-Abasiya Village","returnee",488,"samarrareturnee"
-"Salah al-Din","samarra",2806010,"Al-Hewaish area","returnee",798,"samarrareturnee"
-"Salah al-Din","samarra",2806037,"Al-Tresha-Albu Fahed","returnee",372,"samarrareturnee"
-"Salah al-Din","samarra",2806039,"Al-Tresha-Albu Shatb","returnee",230,"samarrareturnee"
-"Salah al-Din","samarra",2806048,"Al-Jillam area","returnee",935,"samarrareturnee"
-"Anbar","haditha",2106017,"Hay Al Haqlaniyah Qadim","returnee",368,"hadithareturnee"
-"Salah al-Din","samarra",2806050,"Hawi Albsat","returnee",507,"samarrareturnee"
-"Salah al-Din","samarra",2806053,"Mahalla Makeshfa","returnee",2935,"samarrareturnee"
-"Salah al-Din","al.khalis",2806055,"Banat Al-hassan village","returnee",287,"al.khalisreturnee"
-"Salah al-Din","tikrit",2808001,"Al Ahad Al Jadid village","returnee",750,"tikritreturnee"
-"Salah al-Din","tikrit",2808002,"Hay Al Askari","returnee",292,"tikritreturnee"
-"Anbar","haditha",2106020,"Hay Al Rifay","returnee",247,"hadithareturnee"
-"Salah al-Din","tikrit",2808016,"Hay Al sinay-Al samad","returnee",765,"tikritreturnee"
-"Salah al-Din","tikrit",2808024,"Sadayrat Abo Ajeel","returnee",1481,"tikritreturnee"
-"Salah al-Din","tikrit",2808047,"Al Zallayah village","returnee",1268,"tikritreturnee"
-"Salah al-Din","tikrit",2808058,"Hay Salma Altaghlubia","returnee",728,"tikritreturnee"
-"Salah al-Din","tikrit",2808061,"Qadisya 1 Mahala 214","returnee",2152,"tikritreturnee"
-"Salah al-Din","tikrit",2808062,"Qadisya 2 Mahala 216","returnee",2268,"tikritreturnee"
-"Salah al-Din","tikrit",2808063,"Tal-Al Sibaat Village","returnee",530,"tikritreturnee"
-"Salah al-Din","tikrit",2808074,"Hay Al-Tajneed","returnee",270,"tikritreturnee"
-"Anbar","haditha",2106038,"Hay Al-Subhani","returnee",162,"hadithareturnee"
-"Salah al-Din","tikrit",2808081,"Hay Al Dhubbat","returnee",800,"tikritreturnee"
-"Salah al-Din","tikrit",2808085,"Al-Dibsa Village","returnee",335,"tikritreturnee"
-"Salah al-Din","tooz.khurmato",2809004,"Hay Garmian","returnee",160,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809005,"Hay Komari-120","returnee",2486,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809007,"Hay Rizgari-114","returnee",1220,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809015,"Markaz Tooz-Hay Brayati","returnee",196,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809023,"Brawchili village","returnee",351,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809025,"Hay Al-Askary","returnee",85,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809027,"Hay Al-Nasr","returnee",45,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809058,"Sulayman Beg sub district center","returnee",735,"tooz.khurmatoreturnee"
-"Salah al-Din","tooz.khurmato",2809059,"Al-Salam Village","returnee",50,"tooz.khurmatoreturnee"
-"Anbar","heet",2107001,"Abu Tibban","returnee",1168,"heetreturnee"
-"Anbar","heet",2107004,"Al Baker","returnee",908,"heetreturnee"
-"Anbar","heet",2107016,"Al Salkah","returnee",1165,"heetreturnee"
-"Anbar","heet",2107030,"Al-Mujama Al-Sakani","returnee",660,"heetreturnee"
-"Anbar","heet",2107031,"Al-Qalqalah","returnee",1710,"heetreturnee"
-"Anbar","heet",2107034,"Al-Sikak","returnee",756,"heetreturnee"
-"Anbar","heet",2107047,"Hay Al Mamoun","returnee",1104,"heetreturnee"
-"Anbar","heet",2107054,"Hay Al-jamyah 2","returnee",1481,"heetreturnee"
-"Anbar","heet",2107062,"Heet-Maskhan","returnee",642,"heetreturnee"
-"Anbar","heet",2107067,"Mualmeen","returnee",1554,"heetreturnee"
-"Erbil","makhmour",1204004,"Gwer","returnee",1824,"makhmourreturnee"
-"Anbar","heet",2107074,"Tal aswad","returnee",361,"heetreturnee"
-"Anbar","heet",2107075,"The first jamaiya","returnee",1567,"heetreturnee"
-"Anbar","heet",2107081,"Hay Al-Askari","returnee",718,"heetreturnee"
-"Anbar","heet",2107082,"Hay Al-Khudhir","returnee",913,"heetreturnee"
-"Anbar","al.ramadi",2108001,"5 Kilo","returnee",1389,"al.ramadireturnee"
-"Anbar","al.ramadi",2108005,"7 Killo-al-mojamaa al-sakany","returnee",512,"al.ramadireturnee"
-"Anbar","al.ramadi",2108009,"Al Sajariyah","returnee",1781,"al.ramadireturnee"
-"Anbar","al.ramadi",2108011,"Al Sofeya","returnee",1807,"al.ramadireturnee"
-"Anbar","al.ramadi",2108012,"Al Soora","returnee",1634,"al.ramadireturnee"
-"Anbar","al.ramadi",2108033,"Al Aadil","returnee",1341,"al.ramadireturnee"
-"Anbar","al.ramadi",2108037,"Al Katanah","returnee",1881,"al.ramadireturnee"
-"Anbar","al.ramadi",2108038,"Al-Shareka","returnee",2369,"al.ramadireturnee"
-"Anbar","al.ramadi",2108039,"Al-Thilah","returnee",1994,"al.ramadireturnee"
-"Anbar","al.ramadi",2108041,"Hay Al Malab","returnee",2007,"al.ramadireturnee"
-"Anbar","al.ramadi",2108046,"The modern village","returnee",3799,"al.ramadireturnee"
-"Anbar","al.kaim",2101004,"Al Rumanah Al Gharbiyah","returnee",177,"al.kaimreturnee"
-"Anbar","al.ramadi",2108057,"Al Hooz","returnee",1973,"al.ramadireturnee"
-"Anbar","al.kaim",2101006,"Al Ubaydi-1","returnee",350,"al.kaimreturnee"
-"Baghdad","al.mahmoudiya",2301064,"Al Mahasna village ","returnee",406,"al.mahmoudiyareturnee"
-"Anbar","al.kaim",2101007,"Al Ubaydi-2","returnee",184,"al.kaimreturnee"
-"Baghdad","al.mahmoudiya",2301080,"Al Masara village","returnee",135,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2301087,"Al Mamier village","returnee",100,"al.mahmoudiyareturnee"
-"Baghdad","al.kadhmiyah",2301091,"Majad Al Draa village","returnee",102,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2301092,"18 Al Sadan village","returnee",97,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2301093,"Al Shoker village","returnee",44,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2306063,"Sabea Al Buor-14000","returnee",311,"al.kadhmiyahreturnee"
-"Erbil","makhmour",1204011,"Shahidan","returnee",430,"makhmourreturnee"
-"Baghdad","al.kadhmiyah",2306073,"Sabea Al Buor-8000","returnee",238,"al.kadhmiyahreturnee"
-"Anbar","al.kaim",2101011,"Al-Amen","returnee",228,"al.kaimreturnee"
-"Baghdad","al.mahmoudiya",2309056,"Shaka-3","returnee",89,"al.mahmoudiyareturnee"
-"Baghdad","al.mussyab",2309060,"Faheel Am Al Jaeer village ","returnee",411,"al.mussyabreturnee"
-"Baghdad","al.mahmoudiya",2309064,"Hay Al Dobat(Al kragolyia)","returnee",210,"al.mahmoudiyareturnee"
-"Anbar","al.kaim",2101012,"Albu Hardan","returnee",145,"al.kaimreturnee"
-"Baghdad","al.mahmoudiya",2309068,"Hay Al Shuhada(Al kragolyia)","returnee",1050,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309075,"Albo Awasj village","returnee",615,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309078,"Al Azam village-Mukhata 17","returnee",175,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309089,"Al Azez Al Ghaffar-(Al Jomblatiya Southern)","returnee",120,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309094,"Al Motokal village-(Al Jomblatiya Northern)","returnee",175,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309095,"Al Abraar village-(Al Jomblatiya Northern)","returnee",300,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309096,"Al Forat l village-(Al Harkawi Southern)","returnee",270,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309100,"Albu Moufarrej Village","returnee",350,"al.mahmoudiyareturnee"
-"Baghdad","al.mahmoudiya",2309102,"Killo-5","returnee",90,"al.mahmoudiyareturnee"
-"Baghdad","al.kadhmiyah",2310017,"Nadeem-1 Village","returnee",72,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2310020,"14 Abar village 5","returnee",94,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2310023,"Jasim Mohamed Khalf villge","returnee",49,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2310028,"Alo Khtaia village","returnee",81,"al.kadhmiyahreturnee"
-"Anbar","al.kaim",2101017,"Hay Al Askary","returnee",227,"al.kaimreturnee"
-"Baghdad","al.kadhmiyah",2310033,"7 Mijman-Tal al Tassa village","returnee",48,"al.kadhmiyahreturnee"
-"Baghdad","al.kadhmiyah",2310034,"15 Masaaod-Al Anaz village","returnee",61,"al.kadhmiyahreturnee"
-"Anbar","al.kaim",2101018,"Hay Al Rashid","returnee",240,"al.kaimreturnee"
-"Diyala","al.khalis",2401021,"Al-Sadah Village","returnee",230,"al.khalisreturnee"
-"Diyala","al.khalis",2401029,"Dawod Al-Salom village","returnee",164,"al.khalisreturnee"
-"Diyala","al.khalis",2401048,"Al Aqssa Village","returnee",180,"al.khalisreturnee"
-"Diyala","al.khalis",2401049,"Bizayiz Sherwin Village","returnee",272,"al.khalisreturnee"
-"Anbar","al.kaim",2101019,"Hay Al Sham","returnee",204,"al.kaimreturnee"
-"Diyala","al.khalis",2401057,"Habib Al Abdulla Village","returnee",549,"al.khalisreturnee"
-"Erbil","makhmour",1204016,"Kurdistan ","returnee",167,"makhmourreturnee"
-"Diyala","al.khalis",2401063,"Dalli Abass-The Old Qtr","returnee",455,"al.khalisreturnee"
-"Diyala","al.khalis",2401064,"Dalli Abass-Al Rasheed Qtr","returnee",373,"al.khalisreturnee"
-"Diyala","al.khalis",2401068,"Mohammed Ali Village","returnee",250,"al.khalisreturnee"
-"Anbar","al.kaim",2101023,"Hay Al-Athar","returnee",326,"al.kaimreturnee"
-"Diyala","al.khalis",2401093,"Ein Layla village","returnee",100,"al.khalisreturnee"
-"Diyala","al.khalis",2401107,"Mansouriyat Al Gabal","returnee",1310,"al.khalisreturnee"
-"Diyala","al.khalis",2401109,"Al Idhem Center","returnee",995,"al.khalisreturnee"
-"Diyala","samarra",2401114,"Albo Sarah Village","returnee",38,"samarrareturnee"
-"Anbar","al.kaim",2101026,"Hay Al-Makarim","returnee",285,"al.kaimreturnee"
-"Diyala","al.khalis",2401130,"Albo Baker","returnee",145,"al.khalisreturnee"
-"Diyala","al.muqdadiya",2402006,"Al Aali Village","returnee",326,"al.muqdadiyareturnee"
-"Anbar","al.kaim",2101028,"Hay Al-Yarmook","returnee",229,"al.kaimreturnee"
-"Diyala","al.muqdadiya",2402009,"A Hammadi Village","returnee",169,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402010,"Al Igaidat Village","returnee",56,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402012,"Al Lihayb Village","returnee",209,"al.muqdadiyareturnee"
-"Diyala","al.khalis",2402016,"Al Shekha Village","returnee",151,"al.khalisreturnee"
-"Diyala","al.muqdadiya",2402018,"Al Somood Qtr","returnee",160,"al.muqdadiyareturnee"
-"Anbar","al.kaim",2101029,"Sadah","returnee",231,"al.kaimreturnee"
-"Diyala","al.muqdadiya",2402019,"AlTaiha Qtr","returnee",312,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402020,"Al Tinaira Village","returnee",138,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402027,"Al Mataar Qtr","returnee",380,"al.muqdadiyareturnee"
-"Anbar","al.kaim",2101030,"Wazeeriya","returnee",255,"al.kaimreturnee"
-"Diyala","al.muqdadiya",2402031,"Hembes Village","returnee",203,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402032,"Imam Talib Village","returnee",260,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402037,"Nofal village","returnee",498,"al.muqdadiyareturnee"
-"Erbil","makhmour",1204017,"Sherwany","returnee",337,"makhmourreturnee"
-"Diyala","al.muqdadiya",2402052,"Al Bayat Village","returnee",51,"al.muqdadiyareturnee"
-"Diyala","al.muqdadiya",2402053,"Al Mahata Village","returnee",125,"al.muqdadiyareturnee"
-"Diyala","khanaqin",2405072,"Al Husaini Village","returnee",220,"khanaqinreturnee"
-"Diyala","khanaqin",2405084,"Said Ahmed Village","returnee",67,"khanaqinreturnee"
-"Diyala","khanaqin",2405087,"17Tamooz Qtr","returnee",378,"khanaqinreturnee"
-"Diyala","khanaqin",2405090,"Al Rabe Al Thaniya Qtr","returnee",256,"khanaqinreturnee"
-"Diyala","khanaqin",2405096,"Al Shuhada Qtr","returnee",300,"khanaqinreturnee"
-"Diyala","khanaqin",2405097,"Al Jamahir Qtr","returnee",300,"khanaqinreturnee"
-"Anbar","al.kaim",2101036,"Al Baghoz village ","returnee",119,"al.kaimreturnee"
-"Diyala","khanaqin",2405103,"Alkhadra Qtr Sector 2","returnee",280,"khanaqinreturnee"
-"Diyala","khanaqin",2405107,"Al Oroba Qtr Sector 3","returnee",200,"khanaqinreturnee"
-"Anbar","al.rutba",2102001,"Al Askaree","returnee",215,"al.rutbareturnee"
-"Diyala","khanaqin",2405113,"Al Jamahir Qtr Sector 4","returnee",370,"khanaqinreturnee"
-"Diyala","khanaqin",2405115,"Al Jamahir Qtr Sector 6","returnee",325,"khanaqinreturnee"
-"Diyala","khanaqin",2405116,"Al Shuhada Qtr Sector 2","returnee",320,"khanaqinreturnee"
-"Diyala","khanaqin",2405117,"Al Shuhada Qtr Sector 3","returnee",320,"khanaqinreturnee"
-"Anbar","al.rutba",2102002,"Al Haara","returnee",536,"al.rutbareturnee"
-"Diyala","khanaqin",2405120,"Al Shuhada Qtr Sector 6","returnee",475,"khanaqinreturnee"
-"Diyala","khanaqin",2405123,"Al Wehdaa Qtr Sector 4","returnee",325,"khanaqinreturnee"
-"Anbar","al.rutba",2102006,"Al Wadi","returnee",344,"al.rutbareturnee"
-"Anbar","al.rutba",2102007,"Al-Daraemah Village","returnee",412,"al.rutbareturnee"
-"Anbar","al.rutba",2102008,"Antesar","returnee",983,"al.rutbareturnee"
-"Kirkuk","al.hawiga",2601011,"Al-zab","returnee",1510,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601022,"Helwa Olia","returnee",465,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601024,"Hilwa middle","returnee",680,"al.hawigareturnee"
-"Erbil","makhmour",1204018,"Saray(markez bazar)","returnee",540,"makhmourreturnee"
-"Anbar","al.rutba",2102010,"Germany Company Location","returnee",227,"al.rutbareturnee"
-"Kirkuk","al.hawiga",2601030,"Qadissiya-101","returnee",180,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601034,"Shamitt Village","returnee",1560,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601039,"Al-Abassy center","returnee",1510,"al.hawigareturnee"
-"Anbar","al.rutba",2102011,"Gharb Al-Wadi","returnee",751,"al.rutbareturnee"
-"Anbar","al.rutba",2102014,"Hay Al Meethagh","returnee",443,"al.rutbareturnee"
-"Anbar","al.rutba",2102016,"Hay Al-Matar","returnee",689,"al.rutbareturnee"
-"Kirkuk","al.hawiga",2601062,"Al-Khatoonia","returnee",55,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601063,"Hawd Sittah village","returnee",775,"al.hawigareturnee"
-"Anbar","al.rutba",2102021,"Rumilah Village","returnee",75,"al.rutbareturnee"
-"Kirkuk","al.hawiga",2601072,"Namisa Village","returnee",260,"al.hawigareturnee"
-"Kirkuk","al.hawiga",2601078,"Shamllan village","returnee",89,"al.hawigareturnee"
-"Anbar","ana",2103001,"Al bor (Shishan)","returnee",164,"anareturnee"
-"Kirkuk","al.hawiga",2601083,"Digail Village","returnee",25,"al.hawigareturnee"
-"Anbar","ana",2103003,"Al Tadamon","returnee",240,"anareturnee"
-"Kirkuk","al.hawiga",2601102,"Hay Al-Nasir ( Hawija )","returnee",130,"al.hawigareturnee"
-"Anbar","ana",2103004,"Al-Awany Village","returnee",124,"anareturnee"
-"Anbar","ana",2103005,"Hay Al Nasir","returnee",234,"anareturnee"
-"Kirkuk","al.hawiga",2601123,"Al Manzala Village","returnee",55,"al.hawigareturnee"
-"Erbil","makhmour",1204019,"Bndiyan","returnee",262,"makhmourreturnee"
-"Anbar","ana",2103006,"Hay Al Qadissiyah","returnee",207,"anareturnee"
-"Anbar","ana",2103007,"Hay Al Salam","returnee",188,"anareturnee"
-"Kirkuk","daquq",2602005,"Fareeq Awa","returnee",120,"daquqreturnee"
-"Kirkuk","daquq",2602006,"Hay Al Motajawizeen","returnee",80,"daquqreturnee"
-"Kirkuk","daquq",2602021,"Arab Koy village","returnee",70,"daquqreturnee"
-"Kirkuk","daquq",2602024,"Hay Gulan","returnee",90,"daquqreturnee"
-"Kirkuk","daquq",2602027,"Khaled bin Waleed village","returnee",85,"daquqreturnee"
-"Anbar","ana",2103009,"Hay Al ZeraI","returnee",166,"anareturnee"
-"Kirkuk","daquq",2602029,"Wahda village","returnee",80,"daquqreturnee"
-"Kirkuk","daquq",2602030,"Saad Bin Waqqas village","returnee",195,"daquqreturnee"
-"Kirkuk","kirkuk",2603001,"Al Faylaq-Mahala 5","returnee",1125,"kirkukreturnee"
-"Kirkuk","kirkuk",2603012,"Darwaza","returnee",3000,"kirkukreturnee"
-"Kirkuk","kirkuk",2603029,"Hay Azadi","returnee",4000,"kirkukreturnee"
-"Kirkuk","kirkuk",2603038,"Panja Ali","returnee",4450,"kirkukreturnee"
-"Kirkuk","kirkuk",2603044,"Rahim Awa","returnee",5500,"kirkukreturnee"
-"Kirkuk","kirkuk",2603045,"Runaki","returnee",250,"kirkukreturnee"
-"Kirkuk","kirkuk",2603066,"Al-Qadisssiya(Rabareen) first","returnee",1000,"kirkukreturnee"
-"Kirkuk","kirkuk",2603067,"Al-Qadisssiya(Rabareen) seconad","returnee",1100,"kirkukreturnee"
-"Anbar","ana",2104002,"Al Qaala","returnee",273,"anareturnee"
-"Kirkuk","daquq",2603079,"Karha Rufaiaa village","returnee",16,"daquqreturnee"
-"Anbar","ana",2104003,"Al-Hidayah","returnee",209,"anareturnee"
-"Kirkuk","dibis",2604001,"Altun Kupri Center","returnee",866,"dibisreturnee"
-"Kirkuk","dibis",2604010,"Qashqaiyah village","returnee",135,"dibisreturnee"
-"Kirkuk","dibis",2604011,"Qutan village","returnee",70,"dibisreturnee"
-"Kirkuk","dibis",2604013,"Hay Kurdistan","returnee",40,"dibisreturnee"
-"Kirkuk","dibis",2604014,"Hay Rabareen","returnee",30,"dibisreturnee"
-"Kirkuk","dibis",2604015,"Hay Diyarbakir","returnee",25,"dibisreturnee"
-"Ninewa","al.baaj",2702001,"Markaz Baaj","returnee",1284,"al.baajreturnee"
-"Ninewa","al.baaj",2702002,"Al-Rashediyah","returnee",25,"al.baajreturnee"
-"Anbar","ana",2104004,"Hay Al Qadissiyah","returnee",286,"anareturnee"
-"Ninewa","al.baaj",2702004,"Abu-Rasen","returnee",27,"al.baajreturnee"
-"Ninewa","al.baaj",2702009,"Al-Sahrej","returnee",34,"al.baajreturnee"
-"Ninewa","al.baaj",2702012,"Sibaya Village","returnee",94,"al.baajreturnee"
-"Anbar","ana",2104005,"Hay Al Salam","returnee",173,"anareturnee"
-"Ninewa","al.baaj",2702013,"Wardeya","returnee",63,"al.baajreturnee"
-"Ninewa","al.hamdaniya",2703002,"Al-ghadeer complex","returnee",890,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703010,"Shaquli village","returnee",647,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703011,"Tahrawa Village","returnee",774,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703022,"Kubaiba village","returnee",216,"al.hamdaniyareturnee"
-"Anbar","ana",2104007,"Hay Al Shuhadaa","returnee",267,"anareturnee"
-"Ninewa","al.hamdaniya",2703035,"Qaraqosh","returnee",4903,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703041,"Bartalla center","returnee",3604,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703045,"Shamsiat Village","returnee",145,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703047,"Basakhrah Village","returnee",470,"al.hamdaniyareturnee"
-"Anbar","ana",2104009,"Rawa Al Qadima","returnee",179,"anareturnee"
-"Ninewa","al.hamdaniya",2703053,"Kabarly Village","returnee",932,"al.hamdaniyareturnee"
-"Ninewa","al.hamdaniya",2703058,"Karamless","returnee",450,"al.hamdaniyareturnee"
-"Ninewa","al.shikhan",2704036,"Sheikh Milwan Village","returnee",100,"al.shikhanreturnee"
-"Ninewa","al.shikhan",2704037,"Small Rikaba Village","returnee",63,"al.shikhanreturnee"
-"Ninewa","al.shikhan",2704038,"Big Rikaba Village","returnee",26,"al.shikhanreturnee"
-"Ninewa","al.shikhan",2704039,"Nargizlia Village","returnee",46,"al.shikhanreturnee"
-"Ninewa","al.shikhan",2704042,"Taq Harb","returnee",6,"al.shikhanreturnee"
-"Ninewa","al.shikhan",2704043,"Taq Mekail","returnee",25,"al.shikhanreturnee"
-"Ninewa","al.hatra",2705001,"Tal abta","returnee",1530,"al.hatrareturnee"
-"Ninewa","al.hatra",2705006,"Mokhazaga Village","returnee",82,"al.hatrareturnee"
-"Ninewa","al.hatra",2705021,"AL-Ani Village","returnee",85,"al.hatrareturnee"
-"Ninewa","al.baaj",2705035,"khwetla village","returnee",59,"al.baajreturnee"
-"Ninewa","al.hatra",2705038,"Medan kli Gnobia village","returnee",160,"al.hatrareturnee"
-"Ninewa","al.hatra",2705040,"AL_ Trorkmania Al-shmalia village","returnee",91,"al.hatrareturnee"
-"Ninewa","al.hatra",2705042,"Markaz AL-Hatra","returnee",270,"al.hatrareturnee"
-"Ninewa","tilkaef",2706006,"Al rasheediya","returnee",991,"tilkaefreturnee"
-"Ninewa","al.mosul",2706017,"Al-Karamah","returnee",2639,"al.mosulreturnee"
-"Ninewa","al.mosul",2706026,"Al-Noor","returnee",1835,"al.mosulreturnee"
-"Ninewa","al.mosul",2706034,"Al-Yarmuk","returnee",2298,"al.mosulreturnee"
-"Anbar","al.falluja",2105012,"Al Shuhadaa 2","returnee",1539,"al.fallujareturnee"
-"Ninewa","al.mosul",2706037,"Bashiqa center","returnee",3750,"al.mosulreturnee"
-"Ninewa","al.mosul",2706044,"Hay Al Islah Al Zirai","returnee",7188,"al.mosulreturnee"
-"Anbar","al.falluja",2105013,"Al Shurta","returnee",2935,"al.fallujareturnee"
-"Ninewa","al.mosul",2706050,"Hay Al Zahraa","returnee",1775,"al.mosulreturnee"
-"Ninewa","al.mosul",2706063,"Tal Al-Rumman","returnee",2612,"al.mosulreturnee"
-"Ninewa","al.mosul",2706082,"Al-Amil","returnee",5345,"al.mosulreturnee"
-"Ninewa","al.mosul",2706093,"Hay Adan","returnee",2051,"al.mosulreturnee"
-"Anbar","al.falluja",2105022,"Al-bazara","returnee",2436,"al.fallujareturnee"
+Governorate,district,psu,Location.Name,popgroup,pop,stratum
+Dahuk,sumail,1103012,Girsheen,host,262.059987,sumailhost
+Dahuk,sumail,1103021,Namrike,host,298.8365647,sumailhost
+Baghdad,al.adhamiya,2302007,Adhamiya-310,host,5487.933992,al.adhamiyahost
+Dahuk,sumail,1103024,Semel,host,2054.262976,sumailhost
+Dahuk,sumail,1103025,Shariya,host,559.4360174,sumailhost
+Dahuk,sumail,1103043,Old Qasr Yazddin,host,222.6948135,sumailhost
+Dahuk,sumail,1103053,Marina,host,343.9955089,sumailhost
+Ninewa,al.mosul,2706003,Al Harmaat,host,4338.161926,al.mosulhost
+Ninewa,al.mosul,2706011,Al Tanak,host,5225.033442,al.mosulhost
+Ninewa,al.mosul,2706012,Al-Akhaa,host,200.1391686,al.mosulhost
+Ninewa,al.mosul,2706017,Al-Karamah,host,540.1526149,al.mosulhost
+Ninewa,al.mosul,2706031,Al-Quds,host,497.0815171,al.mosulhost
+Ninewa,al.mosul,2706043,Hay Al Intisar,host,804.3277778,al.mosulhost
+Ninewa,al.mosul,2706046,Hay Al Nahrawan,host,4852.966431,al.mosulhost
+Ninewa,al.mosul,2706053,Hay Nablus,host,2778.323076,al.mosulhost
+Ninewa,al.mosul,2706094,Hay Alalam,host,251.2933811,al.mosulhost
+Ninewa,al.mosul,2706190,Yarmjah,host,1499.238731,al.mosulhost
+Erbil,erbil,1202051,Nisthtiman Comercial Complex,host,592.8938869,erbilhost
+Ninewa,al.mosul,2706279,Al-Sihha,host,2417.665461,al.mosulhost
+Salah al-Din,al.shirqat,2802015,Hay Al Askari,host,615.4348099,al.shirqathost
+Salah al-Din,al.shirqat,2802016,Hay Al Qasbah,host,747.8426495,al.shirqathost
+Salah al-Din,al.shirqat,2802028,Tal Al Jumiala area,host,579.0513388,al.shirqathost
+Basrah,al.basrah,3105030,AL Mowafaqiah,host,2086.853782,al.basrahhost
+Basrah,al.basrah,3105069,Casino Lebnan,host,679.078577,al.basrahhost
+Basrah,al.basrah,3105094,Hay Al Risalah,host,548.3954137,al.basrahhost
+Basrah,al.basrah,3105112,Manawi pasha,host,1591.66175,al.basrahhost
+Missan,al.kahla,3205002,Al Hay Al JameI,host,656.9533688,al.kahlahost
+Najaf,al.najaf,3403003,Al bory,host,1272.132805,al.najafhost
+Najaf,al.najaf,3403012,AL JEDAIDA,host,641.6163362,al.najafhost
+Najaf,al.najaf,3403032,Aljadidah alulah,host,3917.472468,al.najafhost
+Najaf,al.najaf,3403049,Al-Shaheed Al-Sadar 1,host,1059.093228,al.najafhost
+Najaf,al.najaf,3403080,Al-Mazarea AL-Westa,host,996.6709599,al.najafhost
+Najaf,al.najaf,3403081,Al-Qasim,host,698.9163915,al.najafhost
+Najaf,al.najaf,3403084,Mazara Al-Hawli,host,347.8428102,al.najafhost
+Najaf,al.najaf,3403085,Fadak Village,host,600.6168405,al.najafhost
+Najaf,al.najaf,3403088,Al-Shaheed Al-Sadar-Shareet,host,894.8563988,al.najafhost
+Thi-Qar,al.nasiriya,3504042,Sadir City,host,1284.615049,al.nasiriyahost
+Dahuk,sumail,1103002,Bajit Kandala,host,384.6663146,sumailhost
+Dahuk,sumail,1103004,Bakhitme,host,375.6972065,sumailhost
+Dahuk,sumail,1103006,Batel,host,233.1225519,sumailhost
+Dahuk,sumail,1103009,Fayda,host,730.1786133,sumailhost
+Dahuk,al.amadiya,1101001,Amedi,idp,14,al.amadiyaidp
+Dahuk,al.amadiya,1101011,Qadish Collective,idp,17,al.amadiyaidp
+Baghdad,al.kadhmiyah,2301021,Al-Nasir Walsalam-6000,idp,22,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2301022,Al-Nasir Walsalam-7000,idp,36,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2301026,Arab Tahoos,idp,9,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2301047,North Khernabat,idp,29,al.kadhmiyahidp
+Dahuk,sumail,1103020,Misereek,idp,921,sumailidp
+Baghdad,al.kadhmiyah,2301073,Shuhada Markza-Shuhadda the first,idp,91,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2301075,Shuhada Markza-Shuhadda the third,idp,55,al.kadhmiyahidp
+Baghdad,al.adhamiya,2302004,Adhamia-308,idp,21,al.adhamiyaidp
+Baghdad,al.adhamiya,2302005,Adhamia-312,idp,100,al.adhamiyaidp
+Baghdad,al.adhamiya,2302006,Adhamia-314,idp,85,al.adhamiyaidp
+Baghdad,al.adhamiya,2302044,Al Qahira-307,idp,30,al.adhamiyaidp
+Dahuk,al.amadiya,1101012,Sarsink,idp,71,al.amadiyaidp
+Baghdad,al.adhamiya,2302049,Hay Al Rabee-332,idp,55,al.adhamiyaidp
+Dahuk,sumail,1103025,Shariya,idp,4447,sumailidp
+Baghdad,al.adhamiya,2302062,Al Shamasiyah-320,idp,38,al.adhamiyaidp
+Baghdad,al.adhamiya,2302063,Al Shamasiyah-316,idp,41,al.adhamiyaidp
+Baghdad,al.adhamiya,2302078,Bob Al Sham-388,idp,11,al.adhamiyaidp
+Baghdad,al.adhamiya,2302083,Hay Al Rabee-340,idp,62,al.adhamiyaidp
+Baghdad,al.adhamiya,2302088,Hay Al Rabee-342,idp,44,al.adhamiyaidp
+Baghdad,al.adhamiya,2302116,Hay Ur-325,idp,30,al.adhamiyaidp
+Dahuk,sumail,1103030,War City,idp,265,sumailidp
+Dahuk,sumail,1103034,Domiz-Halat,idp,508,sumailidp
+Baghdad,al.risafa,2305034,Baghdad Al Jadidia-723,idp,6,al.risafaidp
+Baghdad,al.risafa,2305035,Baghdad Al Jadidia-725,idp,7,al.risafaidp
+Baghdad,al.risafa,2305049,Al Karada-905,idp,6,al.risafaidp
+Baghdad,al.risafa,2305055,Al Mashtal-731,idp,13,al.risafaidp
+Baghdad,al.risafa,2305057,Al Mashtal-735,idp,10,al.risafaidp
+Baghdad,al.risafa,2305058,Al Mashtal-751,idp,11,al.risafaidp
+Baghdad,al.risafa,2305065,Al Nidhal-103,idp,6,al.risafaidp
+Baghdad,al.risafa,2305069,Al Rasheed-112,idp,7,al.risafaidp
+Baghdad,al.risafa,2305072,Al Riyadh-910,idp,7,al.risafaidp
+Dahuk,sumail,1103039,Kherava,idp,288,sumailidp
+Baghdad,al.risafa,2305097,Al Zaafaranyah-965,idp,6,al.risafaidp
+Dahuk,sumail,1103040,Old Mam Shvana,idp,85,sumailidp
+Baghdad,al.risafa,2305128,Al Maamil-781,idp,6,al.risafaidp
+Baghdad,al.kadhmiyah,2306001,Ahmed Al Hamid village,idp,7,al.kadhmiyahidp
+Dahuk,sumail,1103046,Old Sorka,idp,68,sumailidp
+Baghdad,al.kadhmiyah,2306113,North Al Kadhimia-447,idp,7,al.kadhmiyahidp
+Baghdad,al.karkh,2307011,Al Ghazaliya-649,idp,34,al.karkhidp
+Baghdad,al.karkh,2307016,Al Ghazaliya-665,idp,17,al.karkhidp
+Baghdad,al.karkh,2307025,Al Iskan(Al Masfi)-822,idp,227,al.karkhidp
+Baghdad,al.karkh,2307033,Al Jazaer-818,idp,16,al.karkhidp
+Baghdad,al.karkh,2307035,Al Jazera-808,idp,40,al.karkhidp
+Baghdad,al.karkh,2307043,Al Mutanbi-603,idp,12,al.karkhidp
+Baghdad,al.mahmoudiya,2307050,Al Raie 861,idp,23,al.mahmoudiyaidp
+Baghdad,al.karkh,2307063,Al Toma(Al Masfi)-826,idp,174,al.karkhidp
+Baghdad,al.karkh,2307068,Al Yarmouk-610,idp,48,al.karkhidp
+Baghdad,al.mahmoudiya,2307093,Al Radwania,idp,114,al.mahmoudiyaidp
+Baghdad,al.karkh,2307097,Al Amerya-632,idp,156,al.karkhidp
+Dahuk,zakho,1104012,Chamkork,idp,100,zakhoidp
+Baghdad,al.karkh,2307099,Al Amerya-636,idp,252,al.karkhidp
+Baghdad,al.karkh,2307100,Al Amerya-638,idp,146,al.karkhidp
+Dahuk,zakho,1104013,Darkar,idp,304,zakhoidp
+Baghdad,al.karkh,2307110,Hay Al Adil-657,idp,22,al.karkhidp
+Baghdad,al.risafa,2307124,Al Karkh-212,idp,28,al.risafaidp
+Dahuk,zakho,1104019,Diraboon,idp,593,zakhoidp
+Baghdad,al.mahmoudiya,2309001,14 Tamooz,idp,83,al.mahmoudiyaidp
+Baghdad,al.mahmoudiya,2309005,Al Latefia-Al Qadessia,idp,155,al.mahmoudiyaidp
+Baghdad,al.mahmoudiya,2309007,Hay Al-Askary,idp,32,al.mahmoudiyaidp
+Baghdad,al.mahmoudiya,2309008,Kilo 18,idp,170,al.mahmoudiyaidp
+Dahuk,zakho,1104053,Levo,idp,29,zakhoidp
+Baghdad,al.mahmoudiya,2309019,Hay Al-Rubaiy-204,idp,7,al.mahmoudiyaidp
+Baghdad,al.mahmoudiya,2309022,Dereia w Um Mahar,idp,9,al.mahmoudiyaidp
+Dahuk,al.amadiya,1101019,Mizi Village,idp,56,al.amadiyaidp
+Baghdad,al.mahmoudiya,2309030,Hay Al Zuhoor,idp,75,al.mahmoudiyaidp
+Dahuk,zakho,1104055,Ashe Chami Sector,idp,382,zakhoidp
+Baghdad,al.kadhmiyah,2310004,Al Khadraa village,idp,33,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2310007,Al-Abayechi-1,idp,33,al.kadhmiyahidp
+Dahuk,zakho,1104056,Bazar Sector,idp,268,zakhoidp
+Baghdad,al.kadhmiyah,2310010,Hai Al Qadessia-1,idp,79,al.kadhmiyahidp
+Baghdad,al.kadhmiyah,2310015,Hai Al Wehda,idp,69,al.kadhmiyahidp
+Dahuk,zakho,1104057,Betase Sector,idp,162,zakhoidp
+Diyala,al.kadhmiyah,2401005,Al Gserin Village,idp,30,al.kadhmiyahidp
+Diyala,al.khalis,2401009,Markaz Al Khalis,idp,50,al.khalisidp
+Diyala,al.khalis,2401010,Al Mohandseen Alzraeen Village,idp,24,al.khalisidp
+Dahuk,zakho,1104058,Bedar Sector,idp,1202,zakhoidp
+Diyala,al.khalis,2401023,Arab Hafedh Village,idp,8,al.khalisidp
+Diyala,al.khalis,2401025,Arab Shanon,idp,20,al.khalisidp
+Diyala,al.khalis,2401032,Markaz Hibhib,idp,115,al.khalisidp
+Diyala,al.khalis,2401036,Hibhib-Al Asry Qtr,idp,12,al.khalisidp
+Diyala,al.khalis,2401040,Hibhib-Al Shohadaa Qtr,idp,38,al.khalisidp
+Diyala,al.khalis,2401042,Hibhib-Hay Al Resala,idp,13,al.khalisidp
+Diyala,al.khalis,2401043,Jadidat Al Shat village,idp,65,al.khalisidp
+Diyala,al.khalis,2401046,Saif Saad Qtr,idp,61,al.khalisidp
+Diyala,baquba,2403001,Markaz Al Abara,idp,81,baqubaidp
+Diyala,baquba,2403004,Al Gatoon-Al Mujama Qtr,idp,90,baqubaidp
+Diyala,baquba,2403005,Al Gatoon-Al rahma,idp,420,baqubaidp
+Dahuk,zakho,1104062,Abasiya Sector,idp,975,zakhoidp
+Diyala,baquba,2403008,Al Mafraq,idp,254,baqubaidp
+Diyala,baquba,2403015,Al Tahreer,idp,425,baqubaidp
+Dahuk,zakho,1104063,Firqa Sector,idp,871,zakhoidp
+Diyala,baquba,2403029,Buhriz-Al-Asri Qtr,idp,15,baqubaidp
+Dahuk,al.amadiya,1101020,Nahla Area,idp,45,al.amadiyaidp
+Dahuk,zakho,1104064,Kochka Honari,idp,880,zakhoidp
+Diyala,baquba,2403039,Al Salam Qtr,idp,55,baqubaidp
+Diyala,baquba,2403040,Al-Mualimeen-Shahid wadah Qtr,idp,100,baqubaidp
+Diyala,baquba,2403044,Markaz Kanaan,idp,50,baqubaidp
+Diyala,baquba,2403060,Sesbana Village,idp,18,baqubaidp
+Diyala,baladruz,2404001,Al Bazaniya village,idp,8,baladruzidp
+Diyala,baladruz,2404010,Al-Ramaila Village,idp,14,baladruzidp
+Diyala,baladruz,2404015,Dur Mandiliy Qtr,idp,15,baladruzidp
+Diyala,baladruz,2404016,Hay Al Bakir,idp,75,baladruzidp
+Diyala,baladruz,2404020,Markaz Mandali,idp,90,baladruzidp
+Diyala,khanaqin,2405013,alkubeah small village,idp,25,khanaqinidp
+Diyala,khanaqin,2405020,Bakhtiari Qtr,idp,350,khanaqinidp
+Diyala,khanaqin,2405030,Alshortah Qtr,idp,23,khanaqinidp
+Diyala,kifri,2405034,Markaz Jabara,idp,140,kifriidp
+Diyala,kifri,2405041,Khozifah village,idp,40,kifriidp
+Diyala,khanaqin,2405055,Rapren-2 Qtr,idp,18,khanaqinidp
+Diyala,khanaqin,2405062,Sirwan Qtr,idp,40,khanaqinidp
+Diyala,khanaqin,2405068,Tula Frosh Qtr,idp,165,khanaqinidp
+Diyala,khanaqin,2405070,Zurab village,idp,42,khanaqinidp
+Dahuk,al.amadiya,1101021,Azadi,idp,9,al.amadiyaidp
+Diyala,khanaqin,2405077,Banmil-2 Qtr,idp,60,khanaqinidp
+Diyala,khanaqin,2405080,Agha and Khalifa,idp,30,khanaqinidp
+Diyala,khanaqin,2405142,Al Ummal Qtr,idp,7,khanaqinidp
+Diyala,kifri,2406002,Qaratappa,idp,125,kifriidp
+Diyala,kifri,2406004,awbrey,idp,96,kifriidp
+Diyala,kifri,2406007,emam mohammed,idp,75,kifriidp
+Diyala,kifri,2406012,raparin,idp,81,kifriidp
+Diyala,kifri,2406013,azadi,idp,64,kifriidp
+Diyala,kifri,2406016,sar qala,idp,153,kifriidp
+Diyala,kifri,2406019,shahidan,idp,53,kifriidp
+Erbil,erbil,1202006,Andazyaran,idp,390,erbilidp
+Kerbala,al.hindiya,2502018,Al-Hindiya-Hay Al-Amel,idp,22,al.hindiyaidp
+Kerbala,al.hindiya,2502023,Kareat al jubur,idp,38,al.hindiyaidp
+Kerbala,al.hindiya,2502027,Al abodea,idp,69,al.hindiyaidp
+Kerbala,al.hindiya,2502036,Al Jedar Al Gharbi,idp,45,al.hindiyaidp
+Kerbala,al.hindiya,2502043,Albu Zagam,idp,33,al.hindiyaidp
+Kerbala,al.hindiya,2502046,Al-Jadwal Al-Ghrabi-Al Askary,idp,20,al.hindiyaidp
+Kerbala,al.hindiya,2502047,Al-Khayrat,idp,476,al.hindiyaidp
+Kerbala,kerbela,2503017,Al Askary-Al haidery,idp,115,kerbelaidp
+Erbil,erbil,1202010,Bahrka center,idp,500,erbilidp
+Kerbala,kerbela,2503049,Al Amam Al Montadar,idp,10,kerbelaidp
+Kerbala,kerbela,2503064,Al Kaim,idp,15,kerbelaidp
+Kerbala,kerbela,2503074,Al Qadissiya 2,idp,14,kerbelaidp
+Kerbala,kerbela,2503076,Al Rawdhatain,idp,22,kerbelaidp
+Kerbala,kerbela,2503126,Al-Rafedeen,idp,14,kerbelaidp
+Kerbala,kerbela,2503127,Al-Safiya 2,idp,490,kerbelaidp
+Kerbala,kerbela,2503170,Hay Al-Abbas,idp,24,kerbelaidp
+Kerbala,kerbela,2503196,Hay al-tahady,idp,15,kerbelaidp
+Kerbala,kerbela,2503203,Kantraat Al Salam,idp,48,kerbelaidp
+Kerbala,kerbela,2503220,Al-hadi,idp,35,kerbelaidp
+Kerbala,kerbela,2503227,Mulhaq Al-Intisar,idp,53,kerbelaidp
+Kerbala,kerbela,2503252,Hay al mostafa,idp,15,kerbelaidp
+Kirkuk,daquq,2602005,Fareeq Awa,idp,74,daquqidp
+Kirkuk,daquq,2602007,Hay Ashti,idp,113,daquqidp
+Kirkuk,kirkuk,2602010,Laylan-Al Abadat village,idp,57,kirkukidp
+Kirkuk,daquq,2602011,Laylan-Bash Bulaq village,idp,120,daquqidp
+Kirkuk,daquq,2602013,Taza-Omer Bin Khattab,idp,205,daquqidp
+Kirkuk,daquq,2602035,Hay Al-Salam ( Daquq ),idp,150,daquqidp
+Kirkuk,daquq,2602036,Hay Klisa 1,idp,100,daquqidp
+Kirkuk,daquq,2602037,Hay Nawroz ( Daquq),idp,87,daquqidp
+Kirkuk,daquq,2602038,Hay Runaki / Daquq,idp,85,daquqidp
+Kirkuk,kirkuk,2603006,Al Tadamon(Hawkari),idp,900,kirkukidp
+Kirkuk,dibis,2603011,Bajwan,idp,110,dibisidp
+Kirkuk,kirkuk,2603014,Hay Adan,idp,195,kirkukidp
+Kirkuk,kirkuk,2603016,Hay Al Jamia-Mahalla 622,idp,2128,kirkukidp
+Kirkuk,kirkuk,2603022,Hay Al-Khadraa,idp,140,kirkukidp
+Kirkuk,kirkuk,2603025,Hay Al-Sinay,idp,175,kirkukidp
+Kirkuk,kirkuk,2603027,Hay Al-Zawraa,idp,490,kirkukidp
+Kirkuk,kirkuk,2603028,Hay Arafah 201,idp,29,kirkukidp
+Kirkuk,kirkuk,2603038,Panja Ali,idp,572,kirkukidp
+Kirkuk,kirkuk,2603041,Qaryat Tobzawa,idp,140,kirkukidp
+Kirkuk,kirkuk,2603046,Sary Kahya,idp,202,kirkukidp
+Erbil,erbil,1202032,Hay Askary,idp,1150,erbilidp
+Kirkuk,kirkuk,2603069,Hay Al-Askary 2,idp,430,kirkukidp
+Kirkuk,dibis,2604001,Altun Kupri Center,idp,26,dibisidp
+Kirkuk,dibis,2604005,Hay Al Muaasker,idp,40,dibisidp
+Kirkuk,dibis,2604006,Hay Al Tanak,idp,78,dibisidp
+Kirkuk,dibis,2604007,Hay Al-Shuhadaa,idp,97,dibisidp
+Ninewa,aqra,2701001,Akre,idp,1690,aqraidp
+Ninewa,aqra,2701003,Amyan,idp,20,aqraidp
+Ninewa,aqra,2701004,Banasur,idp,53,aqraidp
+Ninewa,aqra,2701005,Bardarash,idp,962,aqraidp
+Ninewa,aqra,2701009,Daratu,idp,109,aqraidp
+Ninewa,al.hamdaniya,2701012,Kalak,idp,642,al.hamdaniyaidp
+Ninewa,aqra,2701014,Khalilkan,idp,68,aqraidp
+Erbil,erbil,1202034,Kani Qarzhala,idp,182,erbilidp
+Ninewa,aqra,2701017,Roviya,idp,687,aqraidp
+Ninewa,al.shikhan,2701033,Husseini,idp,16,al.shikhanidp
+Ninewa,aqra,2701034,Yakmala,idp,38,aqraidp
+Ninewa,al.hamdaniya,2701035,Zangal,idp,48,al.hamdaniyaidp
+Ninewa,al.baaj,2702001,Markaz Baaj,idp,226,al.baajidp
+Ninewa,al.hamdaniya,2703038,Al-Salamiyah Village,idp,25,al.hamdaniyaidp
+Ninewa,al.shikhan,2704002,Baadre,idp,688,al.shikhanidp
+Ninewa,al.shikhan,2704006,Chira,idp,187,al.shikhanidp
+Ninewa,al.shikhan,2704011,Kalakchi,idp,301,al.shikhanidp
+Ninewa,al.shikhan,2704012,Mahad,idp,250,al.shikhanidp
+Ninewa,al.shikhan,2704015,Qasrok,idp,310,al.shikhanidp
+Ninewa,al.shikhan,2704016,Shekhan,idp,1678,al.shikhanidp
+Erbil,erbil,1202039,Kawergosk,idp,195,erbilidp
+Erbil,al.hamdaniya,1202040,Khabat,idp,3665,al.hamdaniyaidp
+Ninewa,al.mosul,2706003,Al Harmaat,idp,733,al.mosulidp
+Ninewa,al.mosul,2706004,Al jazaer,idp,700,al.mosulidp
+Ninewa,tilkaef,2706006,Al rasheediya,idp,1600,tilkaefidp
+Ninewa,al.mosul,2706010,Al tahreer,idp,290,al.mosulidp
+Ninewa,al.mosul,2706011,Al Tanak,idp,285,al.mosulidp
+Ninewa,al.mosul,2706033,Al-Wahda,idp,375,al.mosulidp
+Erbil,erbil,1202043,Kurd Stan,idp,145,erbilidp
+Ninewa,al.mosul,2706043,Hay Al Intisar,idp,743,al.mosulidp
+Ninewa,al.mosul,2706044,Hay Al Islah Al Zirai,idp,302,al.mosulidp
+Ninewa,al.mosul,2706048,Hay Al Tammem,idp,360,al.mosulidp
+Ninewa,al.mosul,2706082,Al-Amil,idp,53,al.mosulidp
+Ninewa,tilkaef,2706097,Bysan,idp,51,tilkaefidp
+Ninewa,al.mosul,2706106,Hay alsedeeq,idp,450,al.mosulidp
+Ninewa,al.mosul,2706188,Alqadisiya Al-thaniya,idp,102,al.mosulidp
+Ninewa,al.mosul,2706189,Al-Falah,idp,79,al.mosulidp
+Ninewa,al.mosul,2706326,Ninewa Sharqiya,idp,829,al.mosulidp
+Ninewa,sinjar,2707004,Khana sor,idp,500,sinjaridp
+Ninewa,sinjar,2707005,Sinuni center,idp,870,sinjaridp
+Ninewa,sinjar,2707008,Borek,idp,160,sinjaridp
+Ninewa,sinjar,2707011,Karsi ,idp,89,sinjaridp
+Ninewa,sinjar,2707016,Wary Bahdo,idp,80,sinjaridp
+Ninewa,sinjar,2707017,Sardashty,idp,236,sinjaridp
+Ninewa,sinjar,2707019,Melik,idp,110,sinjaridp
+Erbil,erbil,1202057,Qushtapa centre,idp,1235,erbilidp
+Ninewa,sinjar,2707029,Ashti & Heriko,idp,118,sinjaridp
+Ninewa,sinjar,2707034,Darki Qawala,idp,67,sinjaridp
+Ninewa,sinjar,2707042,Hay Yarmok,idp,50,sinjaridp
+Ninewa,sinjar,2707043,Rozh Halat,idp,296,sinjaridp
+Ninewa,sinjar,2707048,Hay Alzeraee,idp,108,sinjaridp
+Ninewa,telafar,2708003,Al Muthalatha village,idp,175,telafaridp
+Erbil,erbil,1202060,Rizgari,idp,705,erbilidp
+Ninewa,telafar,2708011,Qasabat Zummar,idp,90,telafaridp
+Ninewa,telafar,2708026,Hay Al Askari,idp,453,telafaridp
+Ninewa,telafar,2708029,Hay althahabe,idp,55,telafaridp
+Ninewa,telafar,2708047,Tal Ismair,idp,26,telafaridp
+Ninewa,telafar,2708066,abu khushub,idp,22,telafaridp
+Ninewa,telafar,2708081,Tal Talab vilage,idp,18,telafaridp
+Ninewa,telafar,2708084,Mushah vilage,idp,28,telafaridp
+Ninewa,telafar,2708089,Karsur vilage,idp,40,telafaridp
+Ninewa,telafar,2708090,Ewaynat vilage,idp,67,telafaridp
+Ninewa,telafar,2708098,Abu hajarah,idp,75,telafaridp
+Ninewa,tilkaef,2709003,Al Qawsiyat,idp,740,tilkaefidp
+Ninewa,tilkaef,2709005,Alqosh,idp,130,tilkaefidp
+Ninewa,tilkaef,2709008,Beban,idp,120,tilkaefidp
+Ninewa,tilkaef,2709011,Bozan,idp,320,tilkaefidp
+Ninewa,tilkaef,2709038,Shaykhaka,idp,160,tilkaefidp
+Ninewa,tilkaef,2709041,Manara,idp,68,tilkaefidp
+Ninewa,tilkaef,2709045,Tallsquf,idp,290,tilkaefidp
+Salah al-Din,al.shirqat,2802003,Al Fajir village(Al Tasni),idp,10,al.shirqatidp
+Salah al-Din,al.shirqat,2802007,Hay Al Jumiala,idp,52,al.shirqatidp
+Salah al-Din,al.shirqat,2802013,Baaja,idp,17,al.shirqatidp
+Salah al-Din,al.shirqat,2802015,Hay Al Askari,idp,33,al.shirqatidp
+Salah al-Din,al.shirqat,2802016,Hay Al Qasbah,idp,37,al.shirqatidp
+Salah al-Din,al.shirqat,2802028,Tal Al Jumiala area,idp,31,al.shirqatidp
+Salah al-Din,beygee,2803010,Qaryat Al Sareen,idp,125,beygeeidp
+Salah al-Din,beygee,2803015,Albu Tuama Village,idp,197,beygeeidp
+Salah al-Din,beygee,2803016,Al Hamra village,idp,100,beygeeidp
+Salah al-Din,beygee,2803017,Al Hejaj Village-13,idp,210,beygeeidp
+Salah al-Din,beygee,2803018,Al Mazraa Village,idp,70,beygeeidp
+Salah al-Din,samarra,2804001,Al Hardaniyah,idp,190,samarraidp
+Salah al-Din,balad,2804005,Albu Jewari,idp,183,baladidp
+Salah al-Din,balad,2804007,Al-Duloeyah-Hay khazraj,idp,209,baladidp
+Salah al-Din,balad,2804009,Beshakan village,idp,187,baladidp
+Salah al-Din,balad,2804016,Al-Juboor Village,idp,163,baladidp
+Salah al-Din,balad,2805001,14 Ramadhan,idp,25,baladidp
+Salah al-Din,balad,2805005,Al Zuheari Village,idp,105,baladidp
+Salah al-Din,balad,2805010,Hay Al Hussien,idp,177,baladidp
+Salah al-Din,balad,2805016,Markaz Al-Dujeel-Al Shabab village,idp,180,baladidp
+Salah al-Din,balad,2805018,Markaz Al-Dujeel-Hay Al Wihda Mahala 101,idp,165,baladidp
+Salah al-Din,balad,2805019,Markaz Al-Dujeel-Hay Al Wihda Mahala 103,idp,163,baladidp
+Salah al-Din,samarra,2806003,Al Jubairiyah Al Thalitha,idp,340,samarraidp
+Salah al-Din,samarra,2806005,Al Qala-Mahal 201,idp,171,samarraidp
+Salah al-Din,samarra,2806008,Al-Abasiya Village,idp,191,samarraidp
+Salah al-Din,samarra,2806009,Al-Efraz area,idp,144,samarraidp
+Salah al-Din,samarra,2806010,Al-Hewaish area,idp,139,samarraidp
+Salah al-Din,samarra,2806012,Al-Shuhadaa-Mahalla 324,idp,222,samarraidp
+Salah al-Din,samarra,2806014,Hay Al Baladiya-104,idp,95,samarraidp
+Salah al-Din,samarra,2806015,Hay Al Dhubbat-Mahalla 334,idp,122,samarraidp
+Salah al-Din,samarra,2806016,Hay Al Dubhat-Mahalla 336,idp,74,samarraidp
+Salah al-Din,samarra,2806025,Hay Al Zuhoor(Al qala 4)Mahala 202,idp,109,samarraidp
+Salah al-Din,samarra,2806027,Hay Al-Khathraa Mahala 322,idp,234,samarraidp
+Salah al-Din,samarra,2806030,Hay Salah Al-Din(Mahala 302),idp,263,samarraidp
+Salah al-Din,tikrit,2808002,Hay Al Askari,idp,487,tikritidp
+Salah al-Din,tikrit,2808011,Awajealah Quarter,idp,142,tikritidp
+Salah al-Din,tikrit,2808016,Hay Al sinay-Al samad,idp,200,tikritidp
+Salah al-Din,tikrit,2808025,Samrah Village,idp,55,tikritidp
+Salah al-Din,tikrit,2808028,Qadisya 2 500 Area,idp,201,tikritidp
+Salah al-Din,tikrit,2808069,Hay Alziraa,idp,40,tikritidp
+Salah al-Din,tikrit,2808071,Hay Alqalaa,idp,330,tikritidp
+Salah al-Din,tikrit,2808073,Hay Alfirdous,idp,284,tikritidp
+Salah al-Din,tikrit,2808076,Hay Al-Wihda,idp,20,tikritidp
+Salah al-Din,beygee,2808077,Al-Muskarat,idp,150,beygeeidp
+Salah al-Din,tikrit,2808080,Mahalla Al Aed,idp,237,tikritidp
+Salah al-Din,tikrit,2808084,Al Auja village ,idp,28,tikritidp
+Salah al-Din,tikrit,2808089,Al-Qadisya Complex,idp,842,tikritidp
+Salah al-Din,tooz.khurmato,2809001,Hay Al Sideeq Mahalla 105,idp,130,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809005,Hay Komari-120,idp,885,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809007,Hay Rizgari-114,idp,317,tooz.khurmatoidp
+Salah al-Din,daquq,2809008,Hay Shoraw-1,idp,80,daquqidp
+Salah al-Din,tooz.khurmato,2809010,Markaz Tooz-Hay Al Askari,idp,770,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809012,Markaz Tooz-Hay Al Taiyar 122,idp,750,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809015,Markaz Tooz-Hay Brayati,idp,390,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809018,Sankur,idp,110,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809021,Tooz-Hay Al Teen,idp,270,tooz.khurmatoidp
+Salah al-Din,tooz.khurmato,2809022,Unformal Shelter,idp,330,tooz.khurmatoidp
+Salah al-Din,chamchamal,2809051,Milnaser Village,idp,7,chamchamalidp
+Wassit,al.suwaira,2903005,Hay Al-Jihad,idp,15,al.suwairaidp
+Wassit,al.suwaira,2903009,Hay Al-askary,idp,25,al.suwairaidp
+Wassit,al.suwaira,2903014,Hay Al-Furat,idp,28,al.suwairaidp
+Wassit,al.suwaira,2903022,Hay Al-Jameya,idp,7,al.suwairaidp
+Wassit,al.suwaira,2904011,Al-Azezia 150 area,idp,20,al.suwairaidp
+Wassit,al.suwaira,2904014,Al-Dawar Al-Sharqi,idp,7,al.suwairaidp
+Wassit,al.suwaira,2904021,Al-Khamas 3,idp,14,al.suwairaidp
+Wassit,al.suwaira,2904035,Al-Tanmeya,idp,11,al.suwairaidp
+Wassit,al.suwaira,2904044,Al Shabab 1,idp,14,al.suwairaidp
+Wassit,al.suwaira,2904046,Hay Al-Askari 3,idp,8,al.suwairaidp
+Wassit,al.suwaira,2904059,Taj al-dien,idp,30,al.suwairaidp
+Wassit,al.kut,2906004,Al Hasan Al Askari,idp,55,al.kutidp
+Wassit,al.kut,2906023,Hay Al-Hawaraa 3,idp,63,al.kutidp
+Wassit,al.kut,2906025,Al-Jihad Al-Zahraa,idp,25,al.kutidp
+Wassit,al.kut,2906031,Al-Sebtain W Al-Maamel,idp,9,al.kutidp
+Wassit,al.kut,2906041,Damook Al-Dhbat,idp,40,al.kutidp
+Wassit,al.kut,2906051,Al-Jihad-Al Thaqalain,idp,28,al.kutidp
+Wassit,al.kut,2906052,Hay Al Wehda,idp,8,al.kutidp
+Wassit,al.kut,2906056,Hay Al-Karar,idp,14,al.kutidp
+Wassit,al.kut,2906058,Hay Al-Shuhadaa,idp,15,al.kutidp
+Wassit,al.kut,2906069,Um Hulail Village,idp,23,al.kutidp
+Wassit,al.kut,2906071,Al-Umarat-Al-Mutamaizeen,idp,59,al.kutidp
+Wassit,al.kut,2906072,Al Hakeem Al-Ula,idp,14,al.kutidp
+Wassit,al.kut,2906073,Al Hakeem Al-Thania,idp,12,al.kutidp
+Erbil,erbil,1202117,Shorsh(Hay arey),idp,287,erbilidp
+Erbil,erbil,1202120,Shorsh(Malayan),idp,209,erbilidp
+Erbil,erbil,1202121,Saidawa(Khabat),idp,28,erbilidp
+Basrah,al.basrah,3105013,Al Ashar Center,idp,49,al.basrahidp
+Basrah,al.basrah,3105025,Al Jumhuriya,idp,9,al.basrahidp
+Basrah,al.basrah,3105026,Al Kaim 1,idp,6,al.basrahidp
+Basrah,al.basrah,3105030,AL Mowafaqiah,idp,17,al.basrahidp
+Basrah,al.basrah,3105044,Al-Baker & Al-Ahrar,idp,11,al.basrahidp
+Basrah,al.basrah,3105047,Al-hakemia,idp,11,al.basrahidp
+Basrah,al.basrah,3105049,Al-Jnaina,idp,12,al.basrahidp
+Basrah,al.basrah,3105068,Braiha,idp,10,al.basrahidp
+Basrah,al.basrah,3105094,Hay Al Risalah,idp,21,al.basrahidp
+Basrah,al.basrah,3105100,Hay Al-Husain 3,idp,7,al.basrahidp
+Basrah,al.basrah,3105112,Manawi pasha,idp,13,al.basrahidp
+Basrah,al.basrah,3105123,Al Khaleej1,idp,7,al.basrahidp
+Erbil,erbil,1202136,Du sara fatah,idp,525,erbilidp
+Missan,al.kahla,3205002,Al Hay Al JameI,idp,120,al.kahlaidp
+Missan,al.kahla,3205006,Al Salam,idp,13,al.kahlaidp
+Missan,al.kahla,3205019,Hay Al Karar,idp,10,al.kahlaidp
+Missan,al.kahla,3205026,Hay Al Rasool,idp,9,al.kahlaidp
+Missan,al.kahla,3205031,Hay Al-Ameer,idp,6,al.kahlaidp
+Erbil,erbil,1202146,Aweney Shar,idp,70,erbilidp
+Missan,al.kahla,3206007,Hay Al-Ameer,idp,10,al.kahlaidp
+Erbil,koysinjaq,1203002,Azady,idp,91,koysinjaqidp
+Erbil,koysinjaq,1203003,Bayizagha,idp,103,koysinjaqidp
+Erbil,koysinjaq,1203004,Bazar koya(Bafri qndeel),idp,97,koysinjaqidp
+Erbil,koysinjaq,1203006,Hamamok,idp,59,koysinjaqidp
+Najaf,al.kufa,3402016,Albu Hadary,idp,8,al.kufaidp
+Najaf,al.kufa,3402019,Alwat Al Fahal,idp,143,al.kufaidp
+Erbil,koysinjaq,1203009,Qalat,idp,97,koysinjaqidp
+Najaf,al.kufa,3402035,Maytham Al Tamar,idp,9,al.kufaidp
+Najaf,al.kufa,3402041,Al Kreishat Al Shimaliya,idp,7,al.kufaidp
+Erbil,koysinjaq,1203010,Taqtaq,idp,237,koysinjaqidp
+Najaf,al.kufa,3403035,AL-RADHAWIYA,idp,180,al.kufaidp
+Najaf,al.najaf,3403039,Hay Al Ameer,idp,65,al.najafidp
+Erbil,koysinjaq,1203015,Nawdaran,idp,10,koysinjaqidp
+Najaf,al.najaf,3403055,Hay Al zahraa-Al Haidariyah,idp,10,al.najafidp
+Najaf,al.najaf,3403075,Shawafi Village,idp,72,al.najafidp
+Najaf,al.najaf,3403079,Mafraq Al-Kefal,idp,42,al.najafidp
+Najaf,al.najaf,3403080,Al-Mazarea AL-Westa,idp,90,al.najafidp
+Najaf,al.najaf,3403081,Al-Qasim,idp,65,al.najafidp
+Najaf,al.najaf,3403082,Markaz Alhaidariya,idp,80,al.najafidp
+Najaf,al.najaf,3403084,Mazara Al-Hawli,idp,160,al.najafidp
+Najaf,al.najaf,3403085,Fadak Village,idp,48,al.najafidp
+Najaf,al.kufa,3403086,Al-Mazara 2,idp,146,al.kufaidp
+Najaf,al.najaf,3403088,Al-Shaheed Al-Sadar-Shareet,idp,42,al.najafidp
+Najaf,al.najaf,3403089,Al-Ghadeer Village complex,idp,100,al.najafidp
+Erbil,shaqlawa,1206003,Bazar Khanzad,idp,62,shaqlawaidp
+Erbil,shaqlawa,1206004,Betrma,idp,100,shaqlawaidp
+Thi-Qar,al.nasiriya,3504014,Al Sharqiya,idp,7,al.nasiriyaidp
+Erbil,shaqlawa,1206006,Harir,idp,95,shaqlawaidp
+Thi-Qar,al.nasiriya,3504021,Al-Salhiya,idp,10,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504024,Al-zielat,idp,15,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504025,Aredo,idp,15,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504028,Hay Al Ameer,idp,14,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504029,Hay Al Fidaa,idp,8,al.nasiriyaidp
+Erbil,shaqlawa,1206007,Harir-Batas,idp,35,shaqlawaidp
+Thi-Qar,al.nasiriya,3504031,Hay Al Mualimeen,idp,8,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504033,Hay Al Tadhihiya,idp,17,al.nasiriyaidp
+Erbil,shaqlawa,1206008,Hiran,idp,93,shaqlawaidp
+Thi-Qar,al.nasiriya,3504041,Nassriya-Hey 400,idp,7,al.nasiriyaidp
+Erbil,shaqlawa,1206010,Sabirawa,idp,70,shaqlawaidp
+Thi-Qar,al.nasiriya,3504051,Um Al Dood,idp,6,al.nasiriyaidp
+Thi-Qar,al.nasiriya,3504054,Hay AL-Mansouria,idp,15,al.nasiriyaidp
+Erbil,shaqlawa,1206011,Safeen,idp,70,shaqlawaidp
+Erbil,shaqlawa,1206012,Sarmidan-1(Ashti),idp,80,shaqlawaidp
+Erbil,shaqlawa,1206014,Sarmidan-3(Ashti),idp,50,shaqlawaidp
+Erbil,shaqlawa,1206015,Shahedan,idp,140,shaqlawaidp
+Qadissiya,al.diwaniya,3603003,Al Mojamaa Al Sakani,idp,97,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603004,Hay Al Ghadir,idp,11,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603009,Um tibashi village,idp,14,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603010,Albo Hasan village,idp,14,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603011,Hay Al Wihda 2,idp,9,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603017,Albu Khnefis village,idp,10,al.diwaniyaidp
+Erbil,shaqlawa,1206017,Spigra,idp,44,shaqlawaidp
+Qadissiya,al.diwaniya,3603033,Al-Jabaar village,idp,16,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603047,Hay Al Furat-1,idp,12,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603059,Hay Al Waely,idp,10,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603063,Hay Al-Amin 1,idp,15,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603064,Hay Al-Amin 2,idp,20,al.diwaniyaidp
+Qadissiya,al.diwaniya,3603073,Hay Al-Hadarah,idp,15,al.diwaniyaidp
+Erbil,rawanduz,1207002,Khalifan(center),idp,30,rawanduzidp
+Erbil,rawanduz,1207003,Rawanduz District,idp,40,rawanduzidp
+Erbil,rawanduz,1207004,Soran District,idp,310,rawanduzidp
+Erbil,rawanduz,1207006,Diana(Shahedan azady),idp,16,rawanduzidp
+Erbil,rawanduz,1207008,Hay mameel al qeer,idp,13,rawanduzidp
+Sulaymaniyah,chamchamal,1301004,Azady,idp,205,chamchamalidp
+Sulaymaniyah,chamchamal,1301006,Chamchamal-Raparin,idp,198,chamchamalidp
+Sulaymaniyah,chamchamal,1301010,Handreen,idp,66,chamchamalidp
+Sulaymaniyah,chamchamal,1301016,Piryadi,idp,82,chamchamalidp
+Sulaymaniyah,chamchamal,1301017,Pura Gulla,idp,50,chamchamalidp
+Sulaymaniyah,chamchamal,1301021,SANGAWIAKAN,idp,30,chamchamalidp
+Sulaymaniyah,chamchamal,1301027,Sangawi kon,idp,11,chamchamalidp
+Sulaymaniyah,chamchamal,1301031,Hazar kani,idp,37,chamchamalidp
+Sulaymaniyah,chamchamal,1301045,Bani maqan,idp,94,chamchamalidp
+Sulaymaniyah,chamchamal,1301046,Dawajin,idp,67,chamchamalidp
+Sulaymaniyah,chamchamal,1301050,hashazini,idp,6,chamchamalidp
+Dahuk,duhok,1102002,Al Sinaah,idp,210,duhokidp
+Sulaymaniyah,derbendikhan,1302001,Campe khwarw,idp,34,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302002,Hawara barza,idp,100,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302003,Kanisard,idp,80,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302004,Kanito,idp,119,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302005,Sara,idp,85,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302009,Sharwani,idp,85,derbendikhanidp
+Sulaymaniyah,derbendikhan,1302010,Khelan,idp,120,derbendikhanidp
+Sulaymaniyah,dokan,1303003,Chawa spy,idp,26,dokanidp
+Sulaymaniyah,dokan,1303009,Kotal,idp,17,dokanidp
+Sulaymaniyah,dokan,1303011,Pishowa,idp,93,dokanidp
+Sulaymaniyah,dokan,1303012,Qamchugha,idp,103,dokanidp
+Sulaymaniyah,dokan,1303013,Sara,idp,95,dokanidp
+Sulaymaniyah,dokan,1303016,Sharawany,idp,68,dokanidp
+Dahuk,al.amadiya,1101005,Chamanke,idp,82,al.amadiyaidp
+Sulaymaniyah,dokan,1303025,Mergapan,idp,34,dokanidp
+Dahuk,duhok,1102007,Bahdinan,idp,63,duhokidp
+Sulaymaniyah,dokan,1303034,Shekh Mansourian,idp,8,dokanidp
+Sulaymaniyah,dokan,1303036,Asos,idp,60,dokanidp
+Sulaymaniyah,derbendikhan,1304004,Bakhtyari,idp,30,derbendikhanidp
+Sulaymaniyah,halabcha,1304006,Barkew,idp,53,halabchaidp
+Sulaymaniyah,halabcha,1304007,Farmanbaran,idp,17,halabchaidp
+Dahuk,duhok,1102009,Baroshke,idp,318,duhokidp
+Sulaymaniyah,halabcha,1304009,Goran City,idp,7,halabchaidp
+Sulaymaniyah,halabcha,1304012,Gulan,idp,26,halabchaidp
+Sulaymaniyah,derbendikhan,1304015,Azadi,idp,23,derbendikhanidp
+Sulaymaniyah,halabcha,1304018,Hassar,idp,41,halabchaidp
+Sulaymaniyah,halabcha,1304026,Darwazay Shar,idp,22,halabchaidp
+Sulaymaniyah,halabcha,1304027,Marzboto,idp,11,halabchaidp
+Sulaymaniyah,halabcha,1304028,Mordana,idp,13,halabchaidp
+Dahuk,duhok,1102011,Bazaar,idp,55,duhokidp
+Sulaymaniyah,derbendikhan,1304038,Rezgari,idp,45,derbendikhanidp
+Sulaymaniyah,halabcha,1304039,Shikhan,idp,47,halabchaidp
+Sulaymaniyah,halabcha,1304046,Raparine,idp,36,halabchaidp
+Sulaymaniyah,halabcha,1304049,Tapa kura,idp,12,halabchaidp
+Sulaymaniyah,halabcha,1304051,Shahidan-Saidsadiq,idp,11,halabchaidp
+Sulaymaniyah,kifri,1305002,Ban Asiaw,idp,47,kifriidp
+Sulaymaniyah,kalar,1305007,Grda Gozina,idp,117,kalaridp
+Sulaymaniyah,kalar,1305008,Hamren,idp,95,kalaridp
+Sulaymaniyah,kalar,1305009,Kalar Kon,idp,202,kalaridp
+Sulaymaniyah,kalar,1305010,Kalari New,idp,58,kalaridp
+Sulaymaniyah,khanaqin,1305014,Kulajo,idp,343,khanaqinidp
+Sulaymaniyah,kalar,1305015,Pebaz,idp,42,kalaridp
+Sulaymaniyah,kifri,1305019,Shaykh Lankar,idp,207,kifriidp
+Sulaymaniyah,kalar,1305021,Sirwan,idp,51,kalaridp
+Sulaymaniyah,kifri,1305024,Ali Khalaf,idp,14,kifriidp
+Sulaymaniyah,kalar,1305031,Nawrooz,idp,92,kalaridp
+Sulaymaniyah,kalar,1305033,Garmyan,idp,179,kalaridp
+Dahuk,duhok,1102016,Dabin 2,idp,382,duhokidp
+Sulaymaniyah,kifri,1305036,Shakal,idp,229,kifriidp
+Sulaymaniyah,kalar,1305038,Asuda,idp,139,kalaridp
+Sulaymaniyah,kalar,1305040,Awbarik,idp,245,kalaridp
+Sulaymaniyah,kalar,1305041,Awarakan,idp,21,kalaridp
+Dahuk,duhok,1102017,Diyari,idp,29,duhokidp
+Sulaymaniyah,rania,1308003,Koling city,idp,81,raniaidp
+Sulaymaniyah,rania,1308004,Qandil,idp,23,raniaidp
+Sulaymaniyah,rania,1308005,Raparine,idp,14,raniaidp
+Sulaymaniyah,rania,1308009,Kewa Rash,idp,12,raniaidp
+Sulaymaniyah,rania,1308011,Nawroz,idp,45,raniaidp
+Sulaymaniyah,rania,1308018,Shishar,idp,32,raniaidp
+Sulaymaniyah,rania,1308022,kurdistan,idp,19,raniaidp
+Dahuk,duhok,1102022,Etit,idp,275,duhokidp
+Sulaymaniyah,rania,1308030,Azadi 1,idp,11,raniaidp
+Sulaymaniyah,rania,1308033,Srra,idp,12,raniaidp
+Sulaymaniyah,al.sulaymaniyah,1310010,Ashty 106 & 104,idp,80,al.sulaymaniyahidp
+Dahuk,duhok,1102025,Kora,idp,66,duhokidp
+Sulaymaniyah,al.sulaymaniyah,1310018,Bakrajo-Qularaese Taza,idp,157,al.sulaymaniyahidp
+Dahuk,sumail,1102027,Kevila,idp,104,sumailidp
+Sulaymaniyah,al.sulaymaniyah,1310030,Chwar Bakh 401,idp,56,al.sulaymaniyahidp
+Dahuk,al.amadiya,1101007,Deraluk,idp,22,al.amadiyaidp
+Sulaymaniyah,al.sulaymaniyah,1310042,Gulli Shar,idp,100,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310062,Kostay Cham,idp,102,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310087,Rizgare 408,idp,49,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310093,Saib City,idp,224,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310141,Grdi Joga,idp,16,al.sulaymaniyahidp
+Dahuk,duhok,1102039,Nazarke,idp,275,duhokidp
+Sulaymaniyah,al.sulaymaniyah,1310144,Srosht 333,idp,24,al.sulaymaniyahidp
+Dahuk,al.amadiya,1101008,Inishke,idp,27,al.amadiyaidp
+Sulaymaniyah,al.sulaymaniyah,1310206,Khalif awa village,idp,77,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310211,Zirak,idp,30,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310217,Raparine-Zanko,idp,50,al.sulaymaniyahidp
+Dahuk,duhok,1102046,Shakhke,idp,190,duhokidp
+Sulaymaniyah,al.sulaymaniyah,1310227,Shahidan 103,idp,189,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310229,Malik mahmood 401,idp,204,al.sulaymaniyahidp
+Sulaymaniyah,al.sulaymaniyah,1310230,Sharawane 102,idp,122,al.sulaymaniyahidp
+Anbar,al.kaim,2101002,Al Aubaidi Al Qadima,idp,17,al.kaimidp
+Anbar,al.kaim,2101029,Sadah,idp,36,al.kaimidp
+Anbar,al.kaim,2101032,Al Masharea,idp,121,al.kaimidp
+Anbar,al.kaim,2101033,Tiwaan,idp,45,al.kaimidp
+Dahuk,duhok,1102050,Avrike,idp,204,duhokidp
+Dahuk,duhok,1102051,Zeri Land,idp,497,duhokidp
+Anbar,al.falluja,2105019,Al-Amirya-Albu Jwad,idp,209,al.fallujaidp
+Anbar,al.falluja,2105031,Albu Hori,idp,84,al.fallujaidp
+Anbar,al.falluja,2105069,Al-Amirya-Al Betra,idp,100,al.fallujaidp
+Anbar,al.falluja,2105071,Al-Amirya-Al Mouilha,idp,265,al.fallujaidp
+Anbar,al.falluja,2105073,Al-Amirya-Albu Jaber,idp,99,al.fallujaidp
+Anbar,al.falluja,2105074,Al-Amirya-Albu Mrir,idp,102,al.fallujaidp
+Anbar,al.falluja,2105075,Al-Amirya-Albu Saleh,idp,246,al.fallujaidp
+Anbar,al.falluja,2105076,Al-Amirya-Albu Salman,idp,196,al.fallujaidp
+Anbar,al.falluja,2105078,Albu Dhaher-Albu Dhaher,idp,79,al.fallujaidp
+Anbar,al.falluja,2105088,Al-Ekhaa Compaund,idp,31,al.fallujaidp
+Anbar,haditha,2106001,Al Furat Complex,idp,15,hadithaidp
+Anbar,haditha,2106013,Haqlaniyah-Hay Al-Faroq,idp,24,hadithaidp
+Anbar,haditha,2106017,Hay Al Haqlaniyah Qadim,idp,28,hadithaidp
+Anbar,haditha,2106023,Hay Al Saray,idp,40,hadithaidp
+Anbar,haditha,2106028,Hay Al Yarmuk,idp,95,hadithaidp
+Anbar,haditha,2106034,Hay Al-Mulameen,idp,26,hadithaidp
+Anbar,haditha,2106038,Hay Al-Subhani,idp,28,hadithaidp
+Anbar,heet,2107013,Al Muhamdee,idp,34,heetidp
+Anbar,heet,2107026,Al-Khaldiyah,idp,24,heetidp
+Anbar,heet,2107030,Al-Mujama Al-Sakani,idp,15,heetidp
+Anbar,heet,2107031,Al-Qalqalah,idp,72,heetidp
+Anbar,heet,2107045,Hay al Jury,idp,8,heetidp
+Anbar,heet,2107053,Hay Al-Jabal,idp,9,heetidp
+Anbar,heet,2107067,Mualmeen,idp,94,heetidp
+Anbar,al.ramadi,2108001,5 Kilo,idp,129,al.ramadiidp
+Anbar,al.ramadi,2108005,7 Killo-al-mojamaa al-sakany,idp,98,al.ramadiidp
+Anbar,al.ramadi,2108006,Abu Fless,idp,57,al.ramadiidp
+Anbar,al.ramadi,2108007,Al Khulafaa,idp,24,al.ramadiidp
+Anbar,al.ramadi,2108011,Al Sofeya,idp,225,al.ramadiidp
+Anbar,al.ramadi,2108013,Al Urobah,idp,12,al.ramadiidp
+Anbar,al.ramadi,2108017,Al-Jeraishi,idp,75,al.ramadiidp
+Anbar,al.ramadi,2108024,Hay Al-Salam,idp,15,al.ramadiidp
+Anbar,al.falluja,2108025,Hay Al-Umal,idp,20,al.fallujaidp
+Anbar,al.ramadi,2108027,Qadisiya-1,idp,87,al.ramadiidp
+Anbar,al.ramadi,2108030,Warar,idp,140,al.ramadiidp
+Dahuk,duhok,1102060,Baroshka Saadin,idp,27,duhokidp
+Babylon,al.mussyab,2202001,Abo Luka,idp,95,al.mussyabidp
+Babylon,al.mussyab,2202002,Al Abtan,idp,45,al.mussyabidp
+Babylon,al.mussyab,2202004,Al Ghadeer 2,idp,65,al.mussyabidp
+Babylon,al.mussyab,2202007,Al Hamiyah-Oayef village,idp,94,al.mussyabidp
+Dahuk,al.amadiya,1101010,Kaniya Mala,idp,24,al.amadiyaidp
+Dahuk,sumail,1103001,Avro City,idp,1184,sumailidp
+Babylon,al.mahmoudiya,2202017,Al-Jazirah-Al Eskandariya,idp,37,al.mahmoudiyaidp
+Babylon,al.mussyab,2202024,Hay Aday-Al Eskandariya,idp,102,al.mussyabidp
+Babylon,al.mussyab,2202026,Hay Al Ataba,idp,235,al.mussyabidp
+Dahuk,sumail,1103002,Bajit Kandala,idp,109,sumailidp
+Babylon,al.mussyab,2202029,Hay Al Ghadeer 4,idp,77,al.mussyabidp
+Babylon,al.mussyab,2202037,Hay Alaskary-AlThaghet,idp,112,al.mussyabidp
+Babylon,al.mussyab,2202049,Hitten Complex,idp,18,al.mussyabidp
+Babylon,al.mussyab,2202050,Hur Husaein,idp,47,al.mussyabidp
+Babylon,al.mussyab,2202061,Al Hamiyah Al Sheab Village,idp,103,al.mussyabidp
+Babylon,al.mussyab,2202072,Albo Hamdan,idp,33,al.mussyabidp
+Ninewa,al.mosul,2706159,Al-Areej Village,returnee,3000,al.mosulreturnee
+Anbar,al.falluja,2105027,Albu Aifan,returnee,831,al.fallujareturnee
+Ninewa,al.hatra,2706177,Qabr bin Naif Village,returnee,104,al.hatrareturnee
+Anbar,al.falluja,2105028,Albu Alwan,returnee,1349,al.fallujareturnee
+Ninewa,al.mosul,2706199,Bahzani,returnee,3120,al.mosulreturnee
+Ninewa,al.mosul,2706228,Al-rabaa Village,returnee,60,al.mosulreturnee
+Ninewa,tilkaef,2706235,Tel Al-raes Al-thania Village,returnee,1203,tilkaefreturnee
+Anbar,al.falluja,2105034,Albu Khanfar,returnee,2216,al.fallujareturnee
+Ninewa,al.mosul,2706266,Al-Rabeea,returnee,815,al.mosulreturnee
+Erbil,makhmour,1204031,Abu Sheta,returnee,828,makhmourreturnee
+Anbar,al.falluja,2105037,Albu Shihab,returnee,1058,al.fallujareturnee
+Ninewa,al.mosul,2706286,Al-Mayasa,returnee,229,al.mosulreturnee
+Ninewa,al.mosul,2706302,Tal Khayma Village,returnee,151,al.mosulreturnee
+Anbar,al.falluja,2105044,Al-jamhuriya,returnee,2356,al.fallujareturnee
+Anbar,al.falluja,2105045,Al-Julan,returnee,2997,al.fallujareturnee
+Ninewa,sinjar,2707001,Hay Al Naser,returnee,85,sinjarreturnee
+Ninewa,sinjar,2707005,Sinuni center,returnee,900,sinjarreturnee
+Ninewa,sinjar,2707006,Dokri,returnee,500,sinjarreturnee
+Erbil,makhmour,1204032,Kapran,returnee,442,makhmourreturnee
+Anbar,al.kadhmiyah,2105052,Al-Shurtan,returnee,117,al.kadhmiyahreturnee
+Ninewa,sinjar,2707007,Dohola ,returnee,850,sinjarreturnee
+Ninewa,sinjar,2707008,Borek,returnee,1900,sinjarreturnee
+Ninewa,sinjar,2707009,Guhbal and shorka,returnee,550,sinjarreturnee
+Ninewa,sinjar,2707021,Balif,returnee,107,sinjarreturnee
+Ninewa,sinjar,2707030,Bir Adam,returnee,12,sinjarreturnee
+Ninewa,sinjar,2707038,Zorava and zirwa,returnee,731,sinjarreturnee
+Ninewa,sinjar,2707056,Golat,returnee,320,sinjarreturnee
+Ninewa,sinjar,2707058,Sibaya Ammash Village,returnee,60,sinjarreturnee
+Anbar,al.falluja,2105057,Halabsa-Falluja,returnee,2169,al.fallujareturnee
+Ninewa,sinjar,2707062,Khazoga,returnee,170,sinjarreturnee
+Ninewa,telafar,2708011,Qasabat Zummar,returnee,4050,telafarreturnee
+Anbar,al.falluja,2105060,Luhib,returnee,865,al.fallujareturnee
+Ninewa,telafar,2708026,Hay Al Askari,returnee,1318,telafarreturnee
+Ninewa,telafar,2708027,Hay Al Arbaeen,returnee,161,telafarreturnee
+Ninewa,telafar,2708028,Hay Alasreya,returnee,506,telafarreturnee
+Ninewa,telafar,2708032,Hay Al Qadisya,returnee,407,telafarreturnee
+Ninewa,telafar,2708033,Hay Al Salam,returnee,605,telafarreturnee
+Ninewa,telafar,2708035,Jussa,returnee,375,telafarreturnee
+Ninewa,telafar,2708044,Msherfa Village,returnee,416,telafarreturnee
+Ninewa,telafar,2708050,Tal Mus,returnee,850,telafarreturnee
+Anbar,al.falluja,2105065,Qaryat Albu Hadid Al-Nasir,returnee,1748,al.fallujareturnee
+Ninewa,telafar,2708107,Sahlij,returnee,210,telafarreturnee
+Anbar,al.falluja,2105083,Hay Al Askari,returnee,3545,al.fallujareturnee
+Ninewa,telafar,2708128,Al-Qadisiya Alawla,returnee,627,telafarreturnee
+Ninewa,telafar,2708137,Hay Al jazira,returnee,1515,telafarreturnee
+Ninewa,telafar,2708138,Hay Al khadraa,returnee,991,telafarreturnee
+Ninewa,telafar,2708143,Hay Alkefah al jenobi,returnee,1700,telafarreturnee
+Anbar,al.falluja,2105086,Hay Al Shuhadaa,returnee,2875,al.fallujareturnee
+Ninewa,telafar,2708168,Sahl Al Milhah Village,returnee,195,telafarreturnee
+Ninewa,tilkaef,2709004,Al Quba,returnee,3600,tilkaefreturnee
+Ninewa,tilkaef,2709010,Baawiza,returnee,930,tilkaefreturnee
+Ninewa,tilkaef,2709015,Der Umtutha,returnee,450,tilkaefreturnee
+Ninewa,tilkaef,2709040,wanna center,returnee,1875,tilkaefreturnee
+Ninewa,tilkaef,2709045,Tallsquf,returnee,618,tilkaefreturnee
+Ninewa,tilkaef,2709052,Mosul Dam,returnee,665,tilkaefreturnee
+Ninewa,tilkaef,2709060,Sada Area,returnee,1605,tilkaefreturnee
+Ninewa,tilkaef,2709075,Felfel,returnee,370,tilkaefreturnee
+Anbar,al.falluja,2105093,Al Daffar,returnee,1000,al.fallujareturnee
+Salah al-Din,al.daur,2801001,Al-Khadhra area,returnee,637,al.daurreturnee
+Salah al-Din,al.daur,2801013,Al Asriyah village,returnee,253,al.daurreturnee
+Salah al-Din,al.daur,2801015,Al Mujammaa Al Sakani,returnee,2826,al.daurreturnee
+Salah al-Din,al.daur,2801016,Hay Abu Dalaf,returnee,1485,al.daurreturnee
+Salah al-Din,al.daur,2801017,Hay Al Aboor,returnee,910,al.daurreturnee
+Salah al-Din,al.daur,2801018,Hay Al Askri,returnee,831,al.daurreturnee
+Salah al-Din,al.daur,2801020,Hay Al Sharqiyah,returnee,586,al.daurreturnee
+Salah al-Din,al.daur,2801021,Hay Tal Al Banat,returnee,1219,al.daurreturnee
+Salah al-Din,al.daur,2801022,Hay Al Qadisiah,returnee,748,al.daurreturnee
+Salah al-Din,al.shirqat,2802007,Hay Al Jumiala,returnee,1353,al.shirqatreturnee
+Salah al-Din,beygee,2802012,Awad Al Tawee complex,returnee,264,beygeereturnee
+Salah al-Din,al.shirqat,2802013,Baaja,returnee,559,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802016,Hay Al Qasbah,returnee,873,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802025,Qaryat Al Sabkha,returnee,363,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802029,Tulul Baq,returnee,512,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802034,Hay Al-Khasim Al-Qadem village,returnee,721,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802039,Al-Ayitha Village,returnee,436,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802041,Hay Al-noor,returnee,376,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802046,Sudayrah Tak Tak Village,returnee,997,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802047,Sudayrah Aulya Village,returnee,1712,al.shirqatreturnee
+Salah al-Din,al.shirqat,2802048,Sudayrah Westa Village,returnee,1081,al.shirqatreturnee
+Salah al-Din,beygee,2802049,Al-Salman village,returnee,940,beygeereturnee
+Salah al-Din,al.shirqat,2802052,Al-Mashhad Village,returnee,757,al.shirqatreturnee
+Anbar,haditha,2106004,Al Khansaa,returnee,494,hadithareturnee
+Anbar,haditha,2106007,Albu Hayat,returnee,613,hadithareturnee
+Salah al-Din,al.shirqat,2802068,Anig Al-Hawa village,returnee,409,al.shirqatreturnee
+Salah al-Din,beygee,2803001,Al Mushhaq Village,returnee,882,beygeereturnee
+Salah al-Din,samarra,2803002,Al Namel Village,returnee,260,samarrareturnee
+Salah al-Din,daquq,2803006,Hay Tal Al Zatar-mahalla 219,returnee,407,daquqreturnee
+Salah al-Din,beygee,2803010,Qaryat Al Sareen,returnee,650,beygeereturnee
+Salah al-Din,beygee,2803014,Hay Alasmida,returnee,175,beygeereturnee
+Anbar,haditha,2106009,Al-Mutanabi,returnee,617,hadithareturnee
+Salah al-Din,beygee,2803017,Al Hejaj Village-13,returnee,1931,beygeereturnee
+Salah al-Din,beygee,2803022,Al-Zweeyah Village ,returnee,2182,beygeereturnee
+Salah al-Din,beygee,2803023,Al-asry Al-Jnoby neighborhood,returnee,413,beygeereturnee
+Anbar,haditha,2106011,Bani Dahir,returnee,433,hadithareturnee
+Salah al-Din,beygee,2803029,Hay Altameem,returnee,570,beygeereturnee
+Salah al-Din,beygee,2803032,Hay Alrisalah,returnee,375,beygeereturnee
+Salah al-Din,beygee,2803037,Sheik Ali village,returnee,270,beygeereturnee
+Salah al-Din,beygee,2803040,Alharejiya village,returnee,196,beygeereturnee
+Anbar,haditha,2106014,Haqlaniyah-Al shuhadaa,returnee,577,hadithareturnee
+Salah al-Din,balad,2804005,Albu Jewari,returnee,513,baladreturnee
+Salah al-Din,balad,2804006,Al-Duloeyah-Hay Al Jubor,returnee,375,baladreturnee
+Salah al-Din,balad,2804016,Al-Juboor Village,returnee,540,baladreturnee
+Salah al-Din,balad,2804018,Yathrib sub distrct ,returnee,4884,baladreturnee
+Salah al-Din,balad,2804021,Al_Farhateya village,returnee,420,baladreturnee
+Salah al-Din,balad,2804023,Sinjaar,returnee,487,baladreturnee
+Anbar,haditha,2106015,Hay Al Askary,returnee,451,hadithareturnee
+Salah al-Din,balad,2804026,Aziz Balad,returnee,572,baladreturnee
+Salah al-Din,balad,2805008,Bezna Village,returnee,543,baladreturnee
+Salah al-Din,samarra,2806006,Al Sayoya-Mahala 1,returnee,312,samarrareturnee
+Salah al-Din,samarra,2806007,Al_Jazera,returnee,2103,samarrareturnee
+Salah al-Din,samarra,2806008,Al-Abasiya Village,returnee,488,samarrareturnee
+Salah al-Din,samarra,2806010,Al-Hewaish area,returnee,798,samarrareturnee
+Salah al-Din,samarra,2806037,Al-Tresha-Albu Fahed,returnee,372,samarrareturnee
+Salah al-Din,samarra,2806039,Al-Tresha-Albu Shatb,returnee,230,samarrareturnee
+Salah al-Din,samarra,2806048,Al-Jillam area,returnee,935,samarrareturnee
+Anbar,haditha,2106017,Hay Al Haqlaniyah Qadim,returnee,368,hadithareturnee
+Salah al-Din,samarra,2806050,Hawi Albsat,returnee,507,samarrareturnee
+Salah al-Din,samarra,2806053,Mahalla Makeshfa,returnee,2935,samarrareturnee
+Salah al-Din,al.khalis,2806055,Banat Al-hassan village,returnee,287,al.khalisreturnee
+Salah al-Din,tikrit,2808001,Al Ahad Al Jadid village,returnee,750,tikritreturnee
+Salah al-Din,tikrit,2808002,Hay Al Askari,returnee,292,tikritreturnee
+Anbar,haditha,2106020,Hay Al Rifay,returnee,247,hadithareturnee
+Salah al-Din,tikrit,2808016,Hay Al sinay-Al samad,returnee,765,tikritreturnee
+Salah al-Din,tikrit,2808024,Sadayrat Abo Ajeel,returnee,1481,tikritreturnee
+Salah al-Din,tikrit,2808047,Al Zallayah village,returnee,1268,tikritreturnee
+Salah al-Din,tikrit,2808058,Hay Salma Altaghlubia,returnee,728,tikritreturnee
+Salah al-Din,tikrit,2808061,Qadisya 1 Mahala 214,returnee,2152,tikritreturnee
+Salah al-Din,tikrit,2808062,Qadisya 2 Mahala 216,returnee,2268,tikritreturnee
+Salah al-Din,tikrit,2808063,Tal-Al Sibaat Village,returnee,530,tikritreturnee
+Salah al-Din,tikrit,2808074,Hay Al-Tajneed,returnee,270,tikritreturnee
+Anbar,haditha,2106038,Hay Al-Subhani,returnee,162,hadithareturnee
+Salah al-Din,tikrit,2808081,Hay Al Dhubbat,returnee,800,tikritreturnee
+Salah al-Din,tikrit,2808085,Al-Dibsa Village,returnee,335,tikritreturnee
+Salah al-Din,tooz.khurmato,2809004,Hay Garmian,returnee,160,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809005,Hay Komari-120,returnee,2486,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809007,Hay Rizgari-114,returnee,1220,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809015,Markaz Tooz-Hay Brayati,returnee,196,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809023,Brawchili village,returnee,351,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809025,Hay Al-Askary,returnee,85,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809027,Hay Al-Nasr,returnee,45,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809058,Sulayman Beg sub district center,returnee,735,tooz.khurmatoreturnee
+Salah al-Din,tooz.khurmato,2809059,Al-Salam Village,returnee,50,tooz.khurmatoreturnee
+Anbar,heet,2107001,Abu Tibban,returnee,1168,heetreturnee
+Anbar,heet,2107004,Al Baker,returnee,908,heetreturnee
+Anbar,heet,2107016,Al Salkah,returnee,1165,heetreturnee
+Anbar,heet,2107030,Al-Mujama Al-Sakani,returnee,660,heetreturnee
+Anbar,heet,2107031,Al-Qalqalah,returnee,1710,heetreturnee
+Anbar,heet,2107034,Al-Sikak,returnee,756,heetreturnee
+Anbar,heet,2107047,Hay Al Mamoun,returnee,1104,heetreturnee
+Anbar,heet,2107054,Hay Al-jamyah 2,returnee,1481,heetreturnee
+Anbar,heet,2107062,Heet-Maskhan,returnee,642,heetreturnee
+Anbar,heet,2107067,Mualmeen,returnee,1554,heetreturnee
+Erbil,makhmour,1204004,Gwer,returnee,1824,makhmourreturnee
+Anbar,heet,2107074,Tal aswad,returnee,361,heetreturnee
+Anbar,heet,2107075,The first jamaiya,returnee,1567,heetreturnee
+Anbar,heet,2107081,Hay Al-Askari,returnee,718,heetreturnee
+Anbar,heet,2107082,Hay Al-Khudhir,returnee,913,heetreturnee
+Anbar,al.ramadi,2108001,5 Kilo,returnee,1389,al.ramadireturnee
+Anbar,al.ramadi,2108005,7 Killo-al-mojamaa al-sakany,returnee,512,al.ramadireturnee
+Anbar,al.ramadi,2108009,Al Sajariyah,returnee,1781,al.ramadireturnee
+Anbar,al.ramadi,2108011,Al Sofeya,returnee,1807,al.ramadireturnee
+Anbar,al.ramadi,2108012,Al Soora,returnee,1634,al.ramadireturnee
+Anbar,al.ramadi,2108033,Al Aadil,returnee,1341,al.ramadireturnee
+Anbar,al.ramadi,2108037,Al Katanah,returnee,1881,al.ramadireturnee
+Anbar,al.ramadi,2108038,Al-Shareka,returnee,2369,al.ramadireturnee
+Anbar,al.ramadi,2108039,Al-Thilah,returnee,1994,al.ramadireturnee
+Anbar,al.ramadi,2108041,Hay Al Malab,returnee,2007,al.ramadireturnee
+Anbar,al.ramadi,2108046,The modern village,returnee,3799,al.ramadireturnee
+Anbar,al.kaim,2101004,Al Rumanah Al Gharbiyah,returnee,177,al.kaimreturnee
+Anbar,al.ramadi,2108057,Al Hooz,returnee,1973,al.ramadireturnee
+Anbar,al.kaim,2101006,Al Ubaydi-1,returnee,350,al.kaimreturnee
+Baghdad,al.mahmoudiya,2301064,Al Mahasna village ,returnee,406,al.mahmoudiyareturnee
+Anbar,al.kaim,2101007,Al Ubaydi-2,returnee,184,al.kaimreturnee
+Baghdad,al.mahmoudiya,2301080,Al Masara village,returnee,135,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2301087,Al Mamier village,returnee,100,al.mahmoudiyareturnee
+Baghdad,al.kadhmiyah,2301091,Majad Al Draa village,returnee,102,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2301092,18 Al Sadan village,returnee,97,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2301093,Al Shoker village,returnee,44,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2306063,Sabea Al Buor-14000,returnee,311,al.kadhmiyahreturnee
+Erbil,makhmour,1204011,Shahidan,returnee,430,makhmourreturnee
+Baghdad,al.kadhmiyah,2306073,Sabea Al Buor-8000,returnee,238,al.kadhmiyahreturnee
+Anbar,al.kaim,2101011,Al-Amen,returnee,228,al.kaimreturnee
+Baghdad,al.mahmoudiya,2309056,Shaka-3,returnee,89,al.mahmoudiyareturnee
+Baghdad,al.mussyab,2309060,Faheel Am Al Jaeer village ,returnee,411,al.mussyabreturnee
+Baghdad,al.mahmoudiya,2309064,Hay Al Dobat(Al kragolyia),returnee,210,al.mahmoudiyareturnee
+Anbar,al.kaim,2101012,Albu Hardan,returnee,145,al.kaimreturnee
+Baghdad,al.mahmoudiya,2309068,Hay Al Shuhada(Al kragolyia),returnee,1050,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309075,Albo Awasj village,returnee,615,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309078,Al Azam village-Mukhata 17,returnee,175,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309089,Al Azez Al Ghaffar-(Al Jomblatiya Southern),returnee,120,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309094,Al Motokal village-(Al Jomblatiya Northern),returnee,175,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309095,Al Abraar village-(Al Jomblatiya Northern),returnee,300,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309096,Al Forat l village-(Al Harkawi Southern),returnee,270,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309100,Albu Moufarrej Village,returnee,350,al.mahmoudiyareturnee
+Baghdad,al.mahmoudiya,2309102,Killo-5,returnee,90,al.mahmoudiyareturnee
+Baghdad,al.kadhmiyah,2310017,Nadeem-1 Village,returnee,72,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2310020,14 Abar village 5,returnee,94,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2310023,Jasim Mohamed Khalf villge,returnee,49,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2310028,Alo Khtaia village,returnee,81,al.kadhmiyahreturnee
+Anbar,al.kaim,2101017,Hay Al Askary,returnee,227,al.kaimreturnee
+Baghdad,al.kadhmiyah,2310033,7 Mijman-Tal al Tassa village,returnee,48,al.kadhmiyahreturnee
+Baghdad,al.kadhmiyah,2310034,15 Masaaod-Al Anaz village,returnee,61,al.kadhmiyahreturnee
+Anbar,al.kaim,2101018,Hay Al Rashid,returnee,240,al.kaimreturnee
+Diyala,al.khalis,2401021,Al-Sadah Village,returnee,230,al.khalisreturnee
+Diyala,al.khalis,2401029,Dawod Al-Salom village,returnee,164,al.khalisreturnee
+Diyala,al.khalis,2401048,Al Aqssa Village,returnee,180,al.khalisreturnee
+Diyala,al.khalis,2401049,Bizayiz Sherwin Village,returnee,272,al.khalisreturnee
+Anbar,al.kaim,2101019,Hay Al Sham,returnee,204,al.kaimreturnee
+Diyala,al.khalis,2401057,Habib Al Abdulla Village,returnee,549,al.khalisreturnee
+Erbil,makhmour,1204016,Kurdistan ,returnee,167,makhmourreturnee
+Diyala,al.khalis,2401063,Dalli Abass-The Old Qtr,returnee,455,al.khalisreturnee
+Diyala,al.khalis,2401064,Dalli Abass-Al Rasheed Qtr,returnee,373,al.khalisreturnee
+Diyala,al.khalis,2401068,Mohammed Ali Village,returnee,250,al.khalisreturnee
+Anbar,al.kaim,2101023,Hay Al-Athar,returnee,326,al.kaimreturnee
+Diyala,al.khalis,2401093,Ein Layla village,returnee,100,al.khalisreturnee
+Diyala,al.khalis,2401107,Mansouriyat Al Gabal,returnee,1310,al.khalisreturnee
+Diyala,al.khalis,2401109,Al Idhem Center,returnee,995,al.khalisreturnee
+Diyala,samarra,2401114,Albo Sarah Village,returnee,38,samarrareturnee
+Anbar,al.kaim,2101026,Hay Al-Makarim,returnee,285,al.kaimreturnee
+Diyala,al.khalis,2401130,Albo Baker,returnee,145,al.khalisreturnee
+Diyala,al.muqdadiya,2402006,Al Aali Village,returnee,326,al.muqdadiyareturnee
+Anbar,al.kaim,2101028,Hay Al-Yarmook,returnee,229,al.kaimreturnee
+Diyala,al.muqdadiya,2402009,A Hammadi Village,returnee,169,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402010,Al Igaidat Village,returnee,56,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402012,Al Lihayb Village,returnee,209,al.muqdadiyareturnee
+Diyala,al.khalis,2402016,Al Shekha Village,returnee,151,al.khalisreturnee
+Diyala,al.muqdadiya,2402018,Al Somood Qtr,returnee,160,al.muqdadiyareturnee
+Anbar,al.kaim,2101029,Sadah,returnee,231,al.kaimreturnee
+Diyala,al.muqdadiya,2402019,AlTaiha Qtr,returnee,312,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402020,Al Tinaira Village,returnee,138,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402027,Al Mataar Qtr,returnee,380,al.muqdadiyareturnee
+Anbar,al.kaim,2101030,Wazeeriya,returnee,255,al.kaimreturnee
+Diyala,al.muqdadiya,2402031,Hembes Village,returnee,203,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402032,Imam Talib Village,returnee,260,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402037,Nofal village,returnee,498,al.muqdadiyareturnee
+Erbil,makhmour,1204017,Sherwany,returnee,337,makhmourreturnee
+Diyala,al.muqdadiya,2402052,Al Bayat Village,returnee,51,al.muqdadiyareturnee
+Diyala,al.muqdadiya,2402053,Al Mahata Village,returnee,125,al.muqdadiyareturnee
+Diyala,khanaqin,2405072,Al Husaini Village,returnee,220,khanaqinreturnee
+Diyala,khanaqin,2405084,Said Ahmed Village,returnee,67,khanaqinreturnee
+Diyala,khanaqin,2405087,17Tamooz Qtr,returnee,378,khanaqinreturnee
+Diyala,khanaqin,2405090,Al Rabe Al Thaniya Qtr,returnee,256,khanaqinreturnee
+Diyala,khanaqin,2405096,Al Shuhada Qtr,returnee,300,khanaqinreturnee
+Diyala,khanaqin,2405097,Al Jamahir Qtr,returnee,300,khanaqinreturnee
+Anbar,al.kaim,2101036,Al Baghoz village ,returnee,119,al.kaimreturnee
+Diyala,khanaqin,2405103,Alkhadra Qtr Sector 2,returnee,280,khanaqinreturnee
+Diyala,khanaqin,2405107,Al Oroba Qtr Sector 3,returnee,200,khanaqinreturnee
+Anbar,al.rutba,2102001,Al Askaree,returnee,215,al.rutbareturnee
+Diyala,khanaqin,2405113,Al Jamahir Qtr Sector 4,returnee,370,khanaqinreturnee
+Diyala,khanaqin,2405115,Al Jamahir Qtr Sector 6,returnee,325,khanaqinreturnee
+Diyala,khanaqin,2405116,Al Shuhada Qtr Sector 2,returnee,320,khanaqinreturnee
+Diyala,khanaqin,2405117,Al Shuhada Qtr Sector 3,returnee,320,khanaqinreturnee
+Anbar,al.rutba,2102002,Al Haara,returnee,536,al.rutbareturnee
+Diyala,khanaqin,2405120,Al Shuhada Qtr Sector 6,returnee,475,khanaqinreturnee
+Diyala,khanaqin,2405123,Al Wehdaa Qtr Sector 4,returnee,325,khanaqinreturnee
+Anbar,al.rutba,2102006,Al Wadi,returnee,344,al.rutbareturnee
+Anbar,al.rutba,2102007,Al-Daraemah Village,returnee,412,al.rutbareturnee
+Anbar,al.rutba,2102008,Antesar,returnee,983,al.rutbareturnee
+Kirkuk,al.hawiga,2601011,Al-zab,returnee,1510,al.hawigareturnee
+Kirkuk,al.hawiga,2601022,Helwa Olia,returnee,465,al.hawigareturnee
+Kirkuk,al.hawiga,2601024,Hilwa middle,returnee,680,al.hawigareturnee
+Erbil,makhmour,1204018,Saray(markez bazar),returnee,540,makhmourreturnee
+Anbar,al.rutba,2102010,Germany Company Location,returnee,227,al.rutbareturnee
+Kirkuk,al.hawiga,2601030,Qadissiya-101,returnee,180,al.hawigareturnee
+Kirkuk,al.hawiga,2601034,Shamitt Village,returnee,1560,al.hawigareturnee
+Kirkuk,al.hawiga,2601039,Al-Abassy center,returnee,1510,al.hawigareturnee
+Anbar,al.rutba,2102011,Gharb Al-Wadi,returnee,751,al.rutbareturnee
+Anbar,al.rutba,2102014,Hay Al Meethagh,returnee,443,al.rutbareturnee
+Anbar,al.rutba,2102016,Hay Al-Matar,returnee,689,al.rutbareturnee
+Kirkuk,al.hawiga,2601062,Al-Khatoonia,returnee,55,al.hawigareturnee
+Kirkuk,al.hawiga,2601063,Hawd Sittah village,returnee,775,al.hawigareturnee
+Anbar,al.rutba,2102021,Rumilah Village,returnee,75,al.rutbareturnee
+Kirkuk,al.hawiga,2601072,Namisa Village,returnee,260,al.hawigareturnee
+Kirkuk,al.hawiga,2601078,Shamllan village,returnee,89,al.hawigareturnee
+Anbar,ana,2103001,Al bor (Shishan),returnee,164,anareturnee
+Kirkuk,al.hawiga,2601083,Digail Village,returnee,25,al.hawigareturnee
+Anbar,ana,2103003,Al Tadamon,returnee,240,anareturnee
+Kirkuk,al.hawiga,2601102,Hay Al-Nasir ( Hawija ),returnee,130,al.hawigareturnee
+Anbar,ana,2103004,Al-Awany Village,returnee,124,anareturnee
+Anbar,ana,2103005,Hay Al Nasir,returnee,234,anareturnee
+Kirkuk,al.hawiga,2601123,Al Manzala Village,returnee,55,al.hawigareturnee
+Erbil,makhmour,1204019,Bndiyan,returnee,262,makhmourreturnee
+Anbar,ana,2103006,Hay Al Qadissiyah,returnee,207,anareturnee
+Anbar,ana,2103007,Hay Al Salam,returnee,188,anareturnee
+Kirkuk,daquq,2602005,Fareeq Awa,returnee,120,daquqreturnee
+Kirkuk,daquq,2602006,Hay Al Motajawizeen,returnee,80,daquqreturnee
+Kirkuk,daquq,2602021,Arab Koy village,returnee,70,daquqreturnee
+Kirkuk,daquq,2602024,Hay Gulan,returnee,90,daquqreturnee
+Kirkuk,daquq,2602027,Khaled bin Waleed village,returnee,85,daquqreturnee
+Anbar,ana,2103009,Hay Al ZeraI,returnee,166,anareturnee
+Kirkuk,daquq,2602029,Wahda village,returnee,80,daquqreturnee
+Kirkuk,daquq,2602030,Saad Bin Waqqas village,returnee,195,daquqreturnee
+Kirkuk,kirkuk,2603001,Al Faylaq-Mahala 5,returnee,1125,kirkukreturnee
+Kirkuk,kirkuk,2603012,Darwaza,returnee,3000,kirkukreturnee
+Kirkuk,kirkuk,2603029,Hay Azadi,returnee,4000,kirkukreturnee
+Kirkuk,kirkuk,2603038,Panja Ali,returnee,4450,kirkukreturnee
+Kirkuk,kirkuk,2603044,Rahim Awa,returnee,5500,kirkukreturnee
+Kirkuk,kirkuk,2603045,Runaki,returnee,250,kirkukreturnee
+Kirkuk,kirkuk,2603066,Al-Qadisssiya(Rabareen) first,returnee,1000,kirkukreturnee
+Kirkuk,kirkuk,2603067,Al-Qadisssiya(Rabareen) seconad,returnee,1100,kirkukreturnee
+Anbar,ana,2104002,Al Qaala,returnee,273,anareturnee
+Kirkuk,daquq,2603079,Karha Rufaiaa village,returnee,16,daquqreturnee
+Anbar,ana,2104003,Al-Hidayah,returnee,209,anareturnee
+Kirkuk,dibis,2604001,Altun Kupri Center,returnee,866,dibisreturnee
+Kirkuk,dibis,2604010,Qashqaiyah village,returnee,135,dibisreturnee
+Kirkuk,dibis,2604011,Qutan village,returnee,70,dibisreturnee
+Kirkuk,dibis,2604013,Hay Kurdistan,returnee,40,dibisreturnee
+Kirkuk,dibis,2604014,Hay Rabareen,returnee,30,dibisreturnee
+Kirkuk,dibis,2604015,Hay Diyarbakir,returnee,25,dibisreturnee
+Ninewa,al.baaj,2702001,Markaz Baaj,returnee,1284,al.baajreturnee
+Ninewa,al.baaj,2702002,Al-Rashediyah,returnee,25,al.baajreturnee
+Anbar,ana,2104004,Hay Al Qadissiyah,returnee,286,anareturnee
+Ninewa,al.baaj,2702004,Abu-Rasen,returnee,27,al.baajreturnee
+Ninewa,al.baaj,2702009,Al-Sahrej,returnee,34,al.baajreturnee
+Ninewa,al.baaj,2702012,Sibaya Village,returnee,94,al.baajreturnee
+Anbar,ana,2104005,Hay Al Salam,returnee,173,anareturnee
+Ninewa,al.baaj,2702013,Wardeya,returnee,63,al.baajreturnee
+Ninewa,al.hamdaniya,2703002,Al-ghadeer complex,returnee,890,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703010,Shaquli village,returnee,647,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703011,Tahrawa Village,returnee,774,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703022,Kubaiba village,returnee,216,al.hamdaniyareturnee
+Anbar,ana,2104007,Hay Al Shuhadaa,returnee,267,anareturnee
+Ninewa,al.hamdaniya,2703035,Qaraqosh,returnee,4903,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703041,Bartalla center,returnee,3604,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703045,Shamsiat Village,returnee,145,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703047,Basakhrah Village,returnee,470,al.hamdaniyareturnee
+Anbar,ana,2104009,Rawa Al Qadima,returnee,179,anareturnee
+Ninewa,al.hamdaniya,2703053,Kabarly Village,returnee,932,al.hamdaniyareturnee
+Ninewa,al.hamdaniya,2703058,Karamless,returnee,450,al.hamdaniyareturnee
+Ninewa,al.shikhan,2704036,Sheikh Milwan Village,returnee,100,al.shikhanreturnee
+Ninewa,al.shikhan,2704037,Small Rikaba Village,returnee,63,al.shikhanreturnee
+Ninewa,al.shikhan,2704038,Big Rikaba Village,returnee,26,al.shikhanreturnee
+Ninewa,al.shikhan,2704039,Nargizlia Village,returnee,46,al.shikhanreturnee
+Ninewa,al.shikhan,2704042,Taq Harb,returnee,6,al.shikhanreturnee
+Ninewa,al.shikhan,2704043,Taq Mekail,returnee,25,al.shikhanreturnee
+Ninewa,al.hatra,2705001,Tal abta,returnee,1530,al.hatrareturnee
+Ninewa,al.hatra,2705006,Mokhazaga Village,returnee,82,al.hatrareturnee
+Ninewa,al.hatra,2705021,AL-Ani Village,returnee,85,al.hatrareturnee
+Ninewa,al.baaj,2705035,khwetla village,returnee,59,al.baajreturnee
+Ninewa,al.hatra,2705038,Medan kli Gnobia village,returnee,160,al.hatrareturnee
+Ninewa,al.hatra,2705040,AL_ Trorkmania Al-shmalia village,returnee,91,al.hatrareturnee
+Ninewa,al.hatra,2705042,Markaz AL-Hatra,returnee,270,al.hatrareturnee
+Ninewa,tilkaef,2706006,Al rasheediya,returnee,991,tilkaefreturnee
+Ninewa,al.mosul,2706017,Al-Karamah,returnee,2639,al.mosulreturnee
+Ninewa,al.mosul,2706026,Al-Noor,returnee,1835,al.mosulreturnee
+Ninewa,al.mosul,2706034,Al-Yarmuk,returnee,2298,al.mosulreturnee
+Anbar,al.falluja,2105012,Al Shuhadaa 2,returnee,1539,al.fallujareturnee
+Ninewa,al.mosul,2706037,Bashiqa center,returnee,3750,al.mosulreturnee
+Ninewa,al.mosul,2706044,Hay Al Islah Al Zirai,returnee,7188,al.mosulreturnee
+Anbar,al.falluja,2105013,Al Shurta,returnee,2935,al.fallujareturnee
+Ninewa,al.mosul,2706050,Hay Al Zahraa,returnee,1775,al.mosulreturnee
+Ninewa,al.mosul,2706063,Tal Al-Rumman,returnee,2612,al.mosulreturnee
+Ninewa,al.mosul,2706082,Al-Amil,returnee,5345,al.mosulreturnee
+Ninewa,al.mosul,2706093,Hay Adan,returnee,2051,al.mosulreturnee
+Anbar,al.falluja,2105022,Al-bazara,returnee,2436,al.fallujareturnee

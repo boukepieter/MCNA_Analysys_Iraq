@@ -58,7 +58,7 @@ devtools::install_github(
 
 devtools::install_github(
   "mabafaba/hypegrammaR", 
-  ref = "develop", 
+  ref = "use_srvyr", 
   build_vignettes = TRUE)
 
 

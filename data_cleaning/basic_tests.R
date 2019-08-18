@@ -1,14 +1,14 @@
 setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
-dir <- "raw_data/20190720"
-ignore_date <- c("2019-07-21")
+dir <- "raw_data/20190818"
+# ignore_date <- c("2019-07-21")
 
 data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA)))) 
 data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
-data_new <- data %>% filter((!X_uuid %in% data_old$X_uuid) & (as.Date(date_assessment) < as.Date(ignore_date)))
+data_new <- data %>% filter((!X_uuid %in% data_old$X_uuid))# & (as.Date(date_assessment) < as.Date(ignore_date)))
 
 child <- read.csv(sprintf("%s/child.csv",dir), stringsAsFactors = F)
 
@@ -16,8 +16,7 @@ child <- read.csv(sprintf("%s/child.csv",dir), stringsAsFactors = F)
 find_duplicates_uuid(data)
 
 # outliers
-
-inspect_all(data, uuid.column.name = "X_uuid")
+#inspect_all(data, uuid.column.name = "X_uuid")
 outliers <- find_outliers(data)
 outliers$value_USD <- round(outliers$value / 1200)
 outliers[,c("ngo", "enumerator_num")] <- data[outliers$index, c('ngo', "enumerator_num")]
@@ -31,8 +30,8 @@ for (i in 1:length(variables)){
   question <- variables[i]
   
   log.cleaning.change.extended(data, partners, psu, uuid[which(outliers$variable == question)], action = "f",  
-                             question.name=question, 
-                             issue="outlier", dir=dir)
+                               question.name=question, 
+                               issue="outlier", dir=dir)
 }
 
 ## interview speed
@@ -51,8 +50,12 @@ write.csv(overview_times, sprintf("%s/overview.csv",dir), row.names = F)
 
 
 ## translating other...
-data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
-result <- translate.others.arabic(data, ignore.cols = c("inc_other", "restriction_other"))
+data <- read.csv(sprintf("%s/parent3_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+dir <- "raw_data/20190721"
+data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data_new <- data %>% filter((!X_uuid %in% data_old$X_uuid))# & (as.Date(date_assessment) < as.Date(ignore_date)))
+result <- translate.others.arabic(data_new, ignore.cols = c("inc_other", "restriction_other"))
+dir <- "raw_data/20190807"
 write.csv(result, sprintf("%s/translations.csv", dir), row.names = F, fileEncoding = "UTF-8")
 uq <- unique(result$question.name)
 for (i in 1:length(uq)){
@@ -104,14 +107,14 @@ flag <- (as.POSIXct(returns$return_date_returnee, format="%Y-%m-%d") -
 returns[which(flag), c("return_date_returnee", "return_durationdisplace")]
 uuid <- returns$X_uuid[which(flag)]
 log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",  
-                             question.name="return_durationdisplace", 
-                             issue="According to their duration of displacement they have been displaced from before 1-1-2014",
-                             dir = dir)
+                                    question.name="return_durationdisplace", 
+                                    issue="According to their duration of displacement they have been displaced from before 1-1-2014",
+                                    dir = dir)
 
 ## first displacement to arrival at location check (26 weeks)
 idp_first_place <- data_new %>% filter(idp_first_place == "yes")
 flag <- difftime(as.POSIXct(idp_first_place$arrival_date_idp, format="%Y-%m-%d"), 
-  as.POSIXct(idp_first_place$displace_date_idp, format="%Y-%m-%d"), units = "weeks") > 26
+                 as.POSIXct(idp_first_place$displace_date_idp, format="%Y-%m-%d"), units = "weeks") > 26
 idp_first_place[which(flag), c("displace_date_idp", "arrival_date_idp")]
 uuid <- idp_first_place$X_uuid[which(flag)]
 log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",  
@@ -178,7 +181,7 @@ log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",
 
 ## Children without birth certificate or id card but the amount without being 0
 flag_birth <- data_new$birth_cert_u18 == "no" & (data_new$birth_cert_missing_amount_a1 +
-  data_new$birth_cert_missing_amount_u1) == 0
+                                                   data_new$birth_cert_missing_amount_u1) == 0
 flag_id <- data_new$id_card_u18 == "no" & data_new$id_card_missing_amount == 0
 uuid <- data_new$X_uuid[which(flag_birth)]
 log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",  
@@ -191,5 +194,233 @@ log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",
                                     issue="Children missing id card reported but the amount of children missing it is 0.",
                                     dir = dir)
 
-## average amount of 
+## recoding flagged issues
+dir <- "raw_data/20190818"
+log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
+data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data2 <- read.csv(sprintf("%s/parent2_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data2$X_validation_status <- NA
+data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
+data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
+                                                                               ifelse(calc_host == 1, "host", NA))))
+loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+#loop %>% filter(relationship == "error") %>% dplyr::select(X_submission__uuid, X_index)
+loop_without_error <- loop %>% filter(relationship != "error")
 
+entries <- which(log$feedback == "Surrounding villages couldn't be reached because of ongoing security operations. So all done in town and recoded to the 3 clusters present in the town.")
+log$action[entries[which(data$population_group[which(data$X_uuid %in% log$uuid[entries])] == "idp")]] <- "flag"
+
+data$population_group[which(data$cluster_location_id %in% c("cluster_location_id_0481","cluster_location_id_0482"))]
+entries <- which(log$issue == "Children missing birth certificate reported but the amount of children missing it is 0.")
+for (i in 1:length(entries)){
+  log$question.name[entries[i]] <- "birth_cert_missing_amount_a1"
+  log$action[entries[i]] <- "change"
+  log$old.value[entries[i]] <- 0
+  log$new.value[entries[i]] <- 999
+}
+entries <- which(log$issue == "Children missing id card reported but the amount of children missing it is 0.")
+for (i in 1:length(entries)){
+  log$action[entries[i]] <- "change"
+  log$new.value[entries[i]] <- 999
+}
+entries <- which(log$issue == "Employment is selected as primary livelihood source but income from employment is given as 0.")
+for (i in 1:length(entries)){
+  log$action[entries[i]] <- "change"
+  log$new.value[entries[i]] <- 999
+}
+entries <- which(log$issue == "Number of family members should always be lower or equal to household size, but for these it is not.")
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    log$question.name[entries[i]] <- "num_hh_member"
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- as.numeric(log$old.value[entries[i]])
+    log$old.value[entries[i]] <- data$num_hh_member[which(data$X_uuid == log$uuid[entries[i]])]
+  } else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+entries <- which(log$issue == "Number of responses in the loop is not equal to family size (after deleting error lines)")
+for (i in 1:length(entries)){
+  uuid <- log$uuid[entries[i]]
+  if (uuid %in% data$X_uuid){
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- length(which(loop_without_error$X_submission__uuid == uuid))
+  }else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+entries <- which(log$issue == "Reported that divorce certificate above 18 is not applicable but in the loop there are people above 18 divorced.")
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- "non_valid"
+  }else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+entries <- which(log$issue == "Reported that marriage certificate above 18 is not applicable but in the loop there are people above 18 married.")
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- "non_valid"
+  }else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+entries <- which(log$issue == "Reported that marriage certificate under 18 is not applicable but in the loop there are people under 18 married.")
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- "non_valid"
+  }else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+entries <- which(log$issue == "Total reported debt is lower than the debt taken in the last 30 days.")
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    log$action[entries[i]] <- "change"
+    log$new.value[entries[i]] <- data$inc_debt[which(data$X_uuid == log$uuid[entries[i]])]
+  }else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+
+log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
+entries <- which(log$issue %in% c("There is not 1 Head of Household in the individual loop. There is either non or more than 1.",
+                                  "The respondent is head of household but doesn't have same age and gender as head of household in the loop."))
+test <- numeric()
+for (i in 1:length(entries)){
+  if (log$uuid[entries[i]] %in% data$X_uuid){
+    data_subset <- data[which(data$X_uuid == log$uuid[entries[i]]),]
+    is_hhh <- data_subset$hhh == "yes"
+    loop_subset <- loop[which(loop$X_submission__uuid == log$uuid[entries[i]]),]
+    number_hhh <- length(which(loop_subset$relationship == "head"))
+    same_gender <- data_subset$gender_respondent == loop_subset$sex[which(loop_subset$relationship == "head")]
+    
+    if (is_hhh & number_hhh == 1 & ! same_gender[1]) {
+      test[i] <- 1
+      log$survey[entries[i]] <- "child"
+      log$uuid[entries[i]] <- paste(log$uuid[entries[i]], which(loop_subset$relationship == "head"), sep="|")
+      log$question.name[entries[i]] <- "sex"
+      log$action[entries[i]] <- "change"
+      log$feedback[entries[i]] <- "gender in loop changed to gender given by respondent"
+      log$old.value[entries[i]] <- loop_subset$sex[which(loop_subset$relationship == "head")]
+      log$new.value[entries[i]] <- data_subset$gender_respondent
+    } else if (is_hhh & number_hhh == 1 & same_gender[1]) {
+      test[i] <- 1.5
+      log$feedback[entries[i]] <- "keep, only age of hhh in loop is different from respondent, no large implications."
+    } else if (is_hhh & number_hhh > 1) {
+      if (length(which(same_gender)) == 1) {
+        test[i] <- 2.1
+        log$feedback[entries[i]] <- "keep, multiple hhh in loop, the ones with a different gender as respondent will be recoded to non hhh."
+        to_be_changed <- which(loop_subset$relationship == "head")[-which(same_gender)[1]]
+        for (j in to_be_changed){
+          rownr <- nrow(log) + 1
+          log[rownr,] <- log[entries[i],]
+          log$survey[rownr] <- "child"
+          log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
+          log$question.name[rownr] <- "relationship"
+          log$action[rownr] <- "change"
+          log$feedback[rownr] <- "relationship in loop changed to NA, so that only 1 hhh in the loop remains (based on same gender as respondent)"
+          log$old.value[rownr] <- "head"
+          log$new.value[rownr] <- NA
+        }
+        
+      } else if (length(which(same_gender)) > 1) {
+        test[i] <- 2.2
+        log$feedback[entries[i]] <- "keep, multiple hhh in loop, all but the first one with a different gender as respondent will be recoded to non hhh."
+        to_be_changed <- which(loop_subset$relationship == "head")[-which(same_gender)[1]]
+        for (j in to_be_changed){
+          rownr <- nrow(log) + 1
+          log[rownr,] <- log[entries[i],]
+          log$survey[rownr] <- "child"
+          log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
+          log$question.name[rownr] <- "relationship"
+          log$action[rownr] <- "change"
+          log$feedback[rownr] <- "relationship in loop changed to NA, so that only 1 hhh in the loop remains (based on same gender as respondent)"
+          log$old.value[rownr] <- "head"
+          log$new.value[rownr] <- NA
+        }
+      } else if (length(which(same_gender)) < 1) {
+        test[i] <- 2.3
+        log$feedback[entries[i]] <- "keep, multiple hhh in loop, all but the first one will be recoded to non hhh."
+        to_be_changed1 <- which(loop_subset$relationship == "head")[1]
+        to_be_changed2 <- which(loop_subset$relationship == "head")[-1]
+        for (j in to_be_changed1){
+          rownr <- nrow(log) + 1
+          log[rownr,] <- log[entries[i],]
+          log$survey[rownr] <- "child"
+          log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
+          log$question.name[rownr] <- "sex"
+          log$action[rownr] <- "change"
+          log$feedback[rownr] <- "hhh gender based on gender of respondent"
+          log$old.value[rownr] <- loop_subset$sex[j]
+          log$new.value[rownr] <- data_subset$gender_respondent
+        }
+        for (j in to_be_changed2){
+          rownr <- nrow(log) + 1
+          log[rownr,] <- log[entries[i],]
+          log$survey[rownr] <- "child"
+          log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
+          log$question.name[rownr] <- "relationship"
+          log$action[rownr] <- "change"
+          log$feedback[rownr] <- "keeping only first hhh in the loop with same gender as respondent"
+          log$old.value[rownr] <- "head"
+          log$new.value[rownr] <- NA
+        }
+      } 
+      
+    } else if (! is_hhh & number_hhh > 1) {
+      test[i] <- 3
+      log$feedback[entries[i]] <- "keeping only the first hhh in the loop."
+      to_be_changed <- which(loop_subset$relationship == "head")[-1]
+      for (j in to_be_changed){
+        rownr <- nrow(log) + 1
+        log[rownr,] <- log[entries[i],]
+        log$survey[rownr] <- "child"
+        log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
+        log$question.name[rownr] <- "relationship"
+        log$action[rownr] <- "change"
+        log$feedback[rownr] <- "keeping only first hhh in the loop"
+        log$old.value[rownr] <- "head"
+        log$new.value[rownr] <- NA
+      }
+    } else if (! is_hhh & number_hhh < 1) {
+      test[i] <- 4
+      loop_male <- loop_subset[which(loop_subset$sex == "male"),]
+      tobechanged <- which(loop_subset$X_index == loop_male$X_index[which(loop_male$age == max(loop_male$age))[1]])
+      log$survey[entries[i]] <- "child"
+      log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
+      log$question.name[entries[i]] <- "relationship"
+      log$action[entries[i]] <- "change"
+      log$feedback[entries[i]] <- "no hhh in loop so oldest male assumed to be the hhh"
+      log$old.value[entries[i]] <- loop_subset$relationship[tobechanged]
+      log$new.value[entries[i]] <- "head"
+    } else if (is_hhh & number_hhh < 1) {
+      test[i] <- 6
+      same_sex <- loop_subset[which(loop_subset$sex == data_subset$gender_respondent),]
+      tobechanged <- which(loop_subset$X_index == same_sex$X_index[which.min(abs(same_sex$age - data_subset$age_respondent))])
+      log$survey[entries[i]] <- "child"
+      log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
+      log$question.name[entries[i]] <- "relationship"
+      log$action[entries[i]] <- "change"
+      log$feedback[entries[i]] <- "no hhh in loop so oldest male assumed to be the hhh"
+      log$old.value[entries[i]] <- loop_subset$relationship[tobechanged]
+      log$new.value[entries[i]] <- "head"
+    } else {
+      test[i] <- NA
+    }
+  } else {
+    log <- log[-entries[i],]
+    entries <- entries -1
+  }
+}
+table(test, useNA = "always")
+log <- write.csv(log, sprintf("%s/cleaning_logbook.csv",dir), row.names = F)

@@ -168,8 +168,9 @@ points.inside.cluster <- function(data, samplepoints, sample_areas, dir, write_t
       result[nrow(result), 3] <- pop_groups[i]
       
       data_on_cluster <- data_pop %>% filter(cluster_location_id == clusters[j])
-      interview_locations <- data_on_cluster %>% dplyr::select(c(X_gpslocation_longitude,X_gpslocation_latitude))
-      interview_locations_geo <- SpatialPointsDataFrame(interview_locations,interview_locations, proj4string = WGS84)
+      interview_locations <- data_on_cluster %>% dplyr::select(c(X_gpslocation_longitude,X_gpslocation_latitude, X_uuid))
+      interview_locations_geo <- SpatialPointsDataFrame(interview_locations[,c(1,2)],interview_locations, 
+                                                        proj4string = WGS84)
       result[nrow(result), 2] <- nrow(data_on_cluster)
       
       cluster <- strsplit(clusters[j],"_")[[1]][4]
