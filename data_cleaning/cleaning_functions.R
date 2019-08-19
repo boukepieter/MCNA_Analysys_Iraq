@@ -207,6 +207,7 @@ execute.cleaning.changes <- function(dir, filenameparent = "parent", filenamechi
       data <- data[-which(data[,uuid_column_parent] == log$uuid[i]), ]
     }
   }
+  tobedeleted <- c()
   for(i in children){
     uuid_split <- strsplit(log$uuid[i], split="|", fixed=T)[[1]]
     if (log$action[i] == "change" & uuid_split[1] %in% data$X_uuid) {
@@ -217,9 +218,10 @@ execute.cleaning.changes <- function(dir, filenameparent = "parent", filenamechi
         log$changed[i] <- "ERROR: cannot find question"
       }
     } else if (log$action[i] == "deletion" & uuid_split[1] %in% data$X_uuid) {
-      child <- child[-which(child[,uuid_column_child] == uuid_split[1])[as.numeric(uuid_split[2])], ]
+      tobedeleted <- c(tobedeleted, which(child[,uuid_column_child] == uuid_split[1])[as.numeric(uuid_split[2])])
     }
   }
+  child <- child[-tobedeleted, ]
   write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F, fileEncoding = "UTF-8")
   write.csv(data, sprintf("%s/%s_cleaned.csv", dir, filenameparent), row.names = F, fileEncoding = "UTF-8")
   write.csv(child, sprintf("%s/%s_cleaned.csv", dir, filenamechild), row.names = F, fileEncoding = "UTF-8")

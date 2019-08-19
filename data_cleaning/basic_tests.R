@@ -195,7 +195,7 @@ log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",
                                     dir = dir)
 
 ## recoding flagged issues
-dir <- "raw_data/20190818"
+dir <- "raw_data/20190819"
 log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2 <- read.csv(sprintf("%s/parent2_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
@@ -208,6 +208,7 @@ loop2 <- read.csv(sprintf("%s/child2.csv", dir), stringsAsFactors = F, encoding 
 loop2$X_submission__uuid <- data2$X_uuid[loop2$X_parent_index]
 loop3 <- rbind(loop[,-c(48,50,51)],loop2)
 loop <- loop3
+write.csv(loop, sprintf("%s/loop_merged.csv", dir), row.names = F, fileEncoding = "UTF-8")
 #loop %>% filter(relationship == "error") %>% dplyr::select(X_submission__uuid, X_index)
 # uuid <- data$X_uuid[which(data$calc_noteligible == 1)]
 # log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "d",  

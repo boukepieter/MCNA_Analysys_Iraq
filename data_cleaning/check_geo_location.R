@@ -127,12 +127,20 @@ cbind(new_survey_locations,
 
 ## map of finished
 log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
-data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
-data2 <- read.csv(sprintf("%s/parent2_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data1 <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+data2 <- read.csv(sprintf("%s/parent2_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2$X_validation_status <- NA
-data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
+data <- rbind(data1[,-which(!names(data1) %in% names(data2))],data2)
+data <- rbind(data1,data2)
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
+cluster_lookup_table <- read.csv("../input/combined_sample_ids.csv", 
+                                 stringsAsFactors=F, check.names=F)
+data <- data %>% 
+  mutate(district = cluster_lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)])
+
+write.csv(data, sprintf("%s/parent_merged.csv", dir), row.names = F, fileEncoding = "UTF-8")
+
 strata <- readOGR("c:/Users/REACH-IRQ-GIS/Documents/2019 MCNA/201904 MCNA sampling script/MCNA_sampling/input/irq_admbnda_adm2_cso_20190603.shp",
                   "irq_admbnda_adm2_cso_20190603", stringsAsFactors = F)
 govs <- readOGR("c:/Users/REACH-IRQ-GIS/Documents/2019 MCNA/201904 MCNA sampling script/MCNA_sampling/input/irq_admbnda_adm1_cso_20190603.shp",

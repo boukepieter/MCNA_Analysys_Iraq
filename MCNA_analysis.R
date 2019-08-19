@@ -25,20 +25,17 @@ choices <- read.csv("input/kobo_choices.csv",
 # response_filtered <- response %>% 
 #   filter(!is.na(type_hh))
 
-response <- read.csv("input/parent_cleaned_anonymised.csv",
+response <- read.csv("input/parent_merged.csv",
                      stringsAsFactors = F, check.names = F)
-response <- response %>% filter(calc_noteligible != 1) %>% mutate(type_hh = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
-                                                                               ifelse(calc_host == 1, "host", NA))))
-loop <- read.csv("input/child.csv", stringsAsFactors = F)
+loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
 # add cluster ids
 
 cluster_lookup_table <- read.csv("input/combined_sample_ids.csv", 
                          stringsAsFactors=F, check.names=F)
 
+
 response_w_clusterids <- response %>% 
-  mutate(district = cluster_lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)])
-response_w_clusterids <- response_w_clusterids %>% 
-  mutate(strata = paste0(district,type_hh))
+  mutate(strata = paste0(district,population_group))
 
 
 # horizontal operations / recoding
