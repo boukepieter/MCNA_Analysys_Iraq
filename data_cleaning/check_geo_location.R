@@ -2,7 +2,7 @@ setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
 set.up.cleaning.dir("raw_data")
-dir <- "raw_data/20190818"
+dir <- "raw_data/20190819"
 #kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=F)
 
 data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
@@ -106,9 +106,9 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
                                     dir = dir, new.value = "cluster_location_id_0595")#
 
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
-                                    question.name="cluster_location_id", issue="Interview gps coordinates on the big road, seems to be on the way back. Closer to other clusters but that might be because of the 'delay'.",
+                                    question.name="cluster_location_id", issue="Interview held just outside of cluster location buffer. But many interviews in same location.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
-execute.cleaning.changes(dir, "parent.csv")
+execute.cleaning.changes(dir, "parent")
 anonymise.cleaned.data(dir, name = "parent")
 
 ### surveys done

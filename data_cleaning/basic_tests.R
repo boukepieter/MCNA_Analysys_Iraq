@@ -50,12 +50,12 @@ write.csv(overview_times, sprintf("%s/overview.csv",dir), row.names = F)
 
 
 ## translating other...
-data <- read.csv(sprintf("%s/parent3_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
-dir <- "raw_data/20190721"
+data <- read.csv(sprintf("%s/parent_other.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
+dir <- "raw_data/20190807"
 data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data_new <- data %>% filter((!X_uuid %in% data_old$X_uuid))# & (as.Date(date_assessment) < as.Date(ignore_date)))
 result <- translate.others.arabic(data_new, ignore.cols = c("inc_other", "restriction_other"))
-dir <- "raw_data/20190807"
+dir <- "raw_data/20190819"
 write.csv(result, sprintf("%s/translations.csv", dir), row.names = F, fileEncoding = "UTF-8")
 uq <- unique(result$question.name)
 for (i in 1:length(uq)){
@@ -203,7 +203,7 @@ data2$X_validation_status <- NA
 data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
-loop <- read.csv(sprintf("%s/child.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
+loop <- read.csv(sprintf("%s/child_cleaned.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
 loop2 <- read.csv(sprintf("%s/child2.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
 loop2$X_submission__uuid <- data2$X_uuid[loop2$X_parent_index]
 loop3 <- rbind(loop[,-c(48,50,51)],loop2)
@@ -213,8 +213,10 @@ loop <- loop3
 # log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "d",  
 #                              question.name="calc_noteligible", 
 #                              issue="HH is not IDP, not Returnee, not Host so not eligible and has to be deleted from the dataset", dir=dir)
-
-loop_without_error <- loop %>% filter(relationship != "error")
+# errors <- loop %>% filter(relationship == "error")
+# index <- errors$X_index
+# log <- log.cleaning.change.loop(data, loop, partners, psu, index, action="f", dir = dir,
+#                          question.name = "relationship", issue = "error in loop, line needs to be deleted")
 
 entries <- which(log$feedback == "Surrounding villages couldn't be reached because of ongoing security operations. So all done in town and recoded to the 3 clusters present in the town.")
 log$action[entries[which(data$population_group[which(data$X_uuid %in% log$uuid[entries])] == "idp")]] <- "flag"
@@ -316,7 +318,7 @@ change_hhh <- function(data, log, loop, entries){
       log$feedback[entries[i]] <- "no loop for this interview exists so also no hhh"
     } else if (is_hhh & number_hhh == 1 & ! same_gender[1]) {
       test[i] <- 1
-      log$survey[entries[i]] <- "child"
+      log$survey[entries[i]] <- "loop"
       log$uuid[entries[i]] <- paste(log$uuid[entries[i]], which(loop_subset$relationship == "head"), sep="|")
       log$question.name[entries[i]] <- "sex"
       log$action[entries[i]] <- "change"
@@ -334,7 +336,7 @@ change_hhh <- function(data, log, loop, entries){
         for (j in to_be_changed){
           rownr <- nrow(log) + 1
           log[rownr,] <- log[entries[i],]
-          log$survey[rownr] <- "child"
+          log$survey[rownr] <- "loop"
           log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
           log$question.name[rownr] <- "relationship"
           log$action[rownr] <- "change"
@@ -350,7 +352,7 @@ change_hhh <- function(data, log, loop, entries){
         for (j in to_be_changed){
           rownr <- nrow(log) + 1
           log[rownr,] <- log[entries[i],]
-          log$survey[rownr] <- "child"
+          log$survey[rownr] <- "loop"
           log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
           log$question.name[rownr] <- "relationship"
           log$action[rownr] <- "change"
@@ -366,7 +368,7 @@ change_hhh <- function(data, log, loop, entries){
         for (j in to_be_changed1){
           rownr <- nrow(log) + 1
           log[rownr,] <- log[entries[i],]
-          log$survey[rownr] <- "child"
+          log$survey[rownr] <- "loop"
           log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
           log$question.name[rownr] <- "sex"
           log$action[rownr] <- "change"
@@ -377,7 +379,7 @@ change_hhh <- function(data, log, loop, entries){
         for (j in to_be_changed2){
           rownr <- nrow(log) + 1
           log[rownr,] <- log[entries[i],]
-          log$survey[rownr] <- "child"
+          log$survey[rownr] <- "loop"
           log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
           log$question.name[rownr] <- "relationship"
           log$action[rownr] <- "change"
@@ -394,7 +396,7 @@ change_hhh <- function(data, log, loop, entries){
       for (j in to_be_changed){
         rownr <- nrow(log) + 1
         log[rownr,] <- log[entries[i],]
-        log$survey[rownr] <- "child"
+        log$survey[rownr] <- "loop"
         log$uuid[rownr] <- paste(log$uuid[entries[i]], j, sep="|")
         log$question.name[rownr] <- "relationship"
         log$action[rownr] <- "change"
@@ -407,7 +409,7 @@ change_hhh <- function(data, log, loop, entries){
       loop_male <- loop_subset[which(loop_subset$sex == "male"),]
       if(nrow(loop_male) < 1) {loop_male <- loop_subset}
       tobechanged <- which(loop_subset$X_index == loop_male$X_index[which(loop_male$age == max(loop_male$age, na.rm=T))[1]])
-      log$survey[entries[i]] <- "child"
+      log$survey[entries[i]] <- "loop"
       log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
       log$question.name[entries[i]] <- "relationship"
       log$action[entries[i]] <- "change"
@@ -419,7 +421,7 @@ change_hhh <- function(data, log, loop, entries){
       same_sex <- loop_subset[which(loop_subset$sex == data_subset$gender_respondent),]
       if (nrow(same_sex) > 0) {
         tobechanged <- which(loop_subset$X_index == same_sex$X_index[which.min(abs(same_sex$age - data_subset$age_respondent))])
-        log$survey[entries[i]] <- "child"
+        log$survey[entries[i]] <- "loop"
         log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
         log$question.name[entries[i]] <- "relationship"
         log$action[entries[i]] <- "change"
@@ -428,7 +430,7 @@ change_hhh <- function(data, log, loop, entries){
         log$new.value[entries[i]] <- "head"
       } else {
         tobechanged <- which.max(loop_subset$age)
-        log$survey[entries[i]] <- "child"
+        log$survey[entries[i]] <- "loop"
         log$uuid[entries[i]] <- paste(log$uuid[entries[i]], tobechanged, sep="|")
         log$question.name[entries[i]] <- "relationship"
         log$action[entries[i]] <- "change"
