@@ -195,17 +195,20 @@ log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",
                                     dir = dir)
 
 ## recoding flagged issues
-dir <- "raw_data/20190819"
+dir <- "raw_data/20190820"
 log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2 <- read.csv(sprintf("%s/parent2_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2$X_validation_status <- NA
-data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
+#data <- rbind(data[,-which(!names(data) %in% names(data2))],data2)
+names(data)[1] <- "start"
+data <- rbind.fill(data2, data)
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
 loop <- read.csv(sprintf("%s/child_cleaned.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
 loop2 <- read.csv(sprintf("%s/child2.csv", dir), stringsAsFactors = F, encoding = "UTF-8")
 loop2$X_submission__uuid <- data2$X_uuid[loop2$X_parent_index]
+#write.csv(loop2, sprintf("%s/child2.csv", dir), row.names = F)
 loop3 <- rbind(loop[,-c(48,50,51)],loop2)
 loop <- loop3
 write.csv(loop, sprintf("%s/loop_merged.csv", dir), row.names = F, fileEncoding = "UTF-8")
@@ -445,12 +448,12 @@ change_hhh <- function(data, log, loop, entries){
   }
   return(list(log, test))
 }
-log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 entries1 <- which(log$issue %in% c("There is not 1 Head of Household in the individual loop. There is either non or more than 1.",
                                    "The respondent is head of household but doesn't have same age and gender as head of household in the loop."))
 entries <- entries1[which(log$uuid[entries1] %in% data$X_uuid)]
 test <- numeric()
 l <- change_hhh(data, log, loop, entries)
+log <- l[[1]]
 
 table(l[[2]], useNA = "always")
 write.csv(log, sprintf("%s/cleaning_logbook.csv",dir), row.names = F)

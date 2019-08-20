@@ -198,7 +198,7 @@ execute.cleaning.changes <- function(dir, filenameparent = "parent", filenamechi
   for(i in parents){
     if (log$action[i] == "change" & log$uuid[i] %in% data$X_uuid) {
       if (log$question.name[i] %in% names(data)){
-      data[which(data[,uuid_column_parent] == log$uuid[i]), log$question.name[i]] <- log$new.value[i]
+      data[which(data[,uuid_column_parent] == log$uuid[i]), trimws(log$question.name[i], which = "right")] <- log$new.value[i]
       log$changed[i] <- TRUE
       } else {
         log$changed[i] <- "ERROR: cannot find question"
@@ -212,7 +212,7 @@ execute.cleaning.changes <- function(dir, filenameparent = "parent", filenamechi
     uuid_split <- strsplit(log$uuid[i], split="|", fixed=T)[[1]]
     if (log$action[i] == "change" & uuid_split[1] %in% data$X_uuid) {
       if (log$question.name[i] %in% names(child)){
-      child[which(child[,uuid_column_child] == uuid_split[1])[as.numeric(uuid_split[2])], log$question.name[i]] <- log$new.value[i]
+      child[which(child[,uuid_column_child] == uuid_split[1])[as.numeric(uuid_split[2])], trimws(log$question.name[i], which = "right")] <- log$new.value[i]
       log$changed[i] <- TRUE
       } else {
         log$changed[i] <- "ERROR: cannot find question"
@@ -221,7 +221,8 @@ execute.cleaning.changes <- function(dir, filenameparent = "parent", filenamechi
       tobedeleted <- c(tobedeleted, which(child[,uuid_column_child] == uuid_split[1])[as.numeric(uuid_split[2])])
     }
   }
-  child <- child[-tobedeleted, ]
+  if (length(tobedeleted > 0)){
+  child <- child[-tobedeleted, ]}
   write.csv(log, sprintf("%s/cleaning_logbook.csv", dir), row.names = F, fileEncoding = "UTF-8")
   write.csv(data, sprintf("%s/%s_cleaned.csv", dir, filenameparent), row.names = F, fileEncoding = "UTF-8")
   write.csv(child, sprintf("%s/%s_cleaned.csv", dir, filenamechild), row.names = F, fileEncoding = "UTF-8")
@@ -537,9 +538,9 @@ map.finished.districts <- function(data, log, loc_overview, strata, govs, dir) {
     loc_overview$complete[i] <- min(loc_overview$surveys_done[i] / loc_overview$Survey[i], 1)
   }
   write.csv(loc_overview, sprintf("%s/locations_overview.csv",dir), row.names = F)
-  summarized <- loc_overview %>% group_by(strata) %>% summarise(mean(complete))
+  summarized <- loc_overview %>% dplyr::group_by(strata) %>% dplyr::summarise(mean(complete))
   strata$complete <- summarized$`mean(complete)`[match(strata$ADM2_EN, summarized$strata)]
-  pal <- colorNumeric("RdYlBu", replace(strata$complete,is.infinite(strata$complete),0),reverse=F)
+  pal <- colorNumeric("RdYlBu", strata$complete,reverse=F)
   centers <- data.frame(gCentroid(strata, byid = TRUE))
   centers$lbl <- strata$ADM2_EN
   m <- leaflet(strata) %>% 

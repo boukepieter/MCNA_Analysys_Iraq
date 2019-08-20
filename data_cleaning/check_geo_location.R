@@ -2,7 +2,7 @@ setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
 set.up.cleaning.dir("raw_data")
-dir <- "raw_data/20190819"
+dir <- "raw_data/20190820"
 #kobo.xlsx.to.csv(dir, "(FINAL) Iraq MCNA Version VII", anonymise=F)
 
 data <- read.csv(sprintf("%s/parent.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
@@ -18,7 +18,7 @@ dates2 - c(dates$Freq, rep(0,length(dates2) - nrow(dates)))
 write.csv(dates2, sprintf("%s/surveys_cleaned.csv", dir), row.names = F)
 
 ## Overview of partners
-execute.cleaning.changes(dir, filename = "parent.csv")
+execute.cleaning.changes(dir, filenameparent = "parent")
 data <- read.csv(sprintf("%s/parent_cleaned.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
@@ -27,6 +27,7 @@ data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(c
 overview <- data %>% dplyr::select(governorate_mcna, ngo) %>% table()
 colnames(overview) <- partners$V2[match(colnames(overview), partners$V1)]
 overview
+write.csv(overview, sprintf("%s/overview.csv",dir))
 
 col <- 17
 row <- 9
@@ -70,7 +71,7 @@ log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "
                                     dir = dir, new.value = result$alternative_cluster[row])#"cluster_location_id_0198")###
 log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "c",  
                                     question.name="cluster_location_id", issue="Wrong cluster selected, right cluster checked with gps coordinates.",
-                                    dir = dir, new.value = "cluster_location_id_0060")###
+                                    dir = dir, new.value = "cluster_location_id_0461")###
 
 
 log <- log.cleaning.change.extended(data, partners, psu, uuid$X_uuid, action = "f",  
@@ -86,7 +87,7 @@ print(result_separate)
 which(!result_separate$inside_buffer) %in% which(uuid$X_uuid %in% check$uuid)
 
 row <- 1
-row <- c(3:6)
+row <- c(25:26)
 row <- which(!result_separate$inside_buffer)
 filtered_data %>% filter(X_uuid == result_separate[row,1]) %>% dplyr::select(ngo,enumerator_num)
 filtered_data %>% filter(X_uuid == result_separate[row,1]) %>% dplyr::select(X_gpslocation_latitude, X_gpslocation_longitude)
@@ -108,7 +109,7 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
                                     question.name="cluster_location_id", issue="Interview held just outside of cluster location buffer. But many interviews in same location.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
-execute.cleaning.changes(dir, "parent")
+execute.cleaning.changes(dir, "parent", filenamechild = "child")
 anonymise.cleaned.data(dir, name = "parent")
 
 ### surveys done
@@ -130,9 +131,9 @@ log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 data1 <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2 <- read.csv(sprintf("%s/parent2_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2$X_validation_status <- NA
-data <- rbind(data1[,-which(!names(data1) %in% names(data2))],data2)
-data <- rbind(data1,data2)
-data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp", ifelse(calc_returnee == 1, "returnee", 
+names(data)[1] <- "start"
+data <- rbind.fill(data2, data1)
+data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp_out_camp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
 cluster_lookup_table <- read.csv("../input/combined_sample_ids.csv", 
                                  stringsAsFactors=F, check.names=F)

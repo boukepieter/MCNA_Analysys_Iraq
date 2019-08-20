@@ -42,7 +42,7 @@ response_w_clusterids <- response %>%
 
 source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids, loop)
-indicator <- "a7"
+indicator <- "a16"
 table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
