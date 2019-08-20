@@ -3,7 +3,6 @@ recoding_mcna <- function(r, loop) {
   loop_children <- loop[which(loop$age < 18),]
   loop_females <- loop[which(loop$sex == "female"),]
   loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
-  PLW <- as.data.frame(loop_females %>% group_by(X_submission__uuid) %>% summarize(sum(plw)))
   r_female_headed <- r[which(r$X_uuid %in% loop$X_submission__uuid[which(loop$sex == "female" & loop$relationship == "head")]),]
   r <- r %>% 
     new_recoding(source=why_not_return, target=g73) %>% 
@@ -66,6 +65,7 @@ recoding_mcna <- function(r, loop) {
   r$a12 <- apply(r, 1, FUN=function(x){
     ifelse(any(loop_children$marital_status[which(loop_children$X_submission__uuid == x["X_uuid"])] == "married"), 1, 0)
   })
+  PLW <- as.data.frame(loop_females %>% dplyr::group_by(X_submission__uuid) %>% dplyr::summarize(sum(plw)))
   r$c11 <- PLW[match(r$X_uuid, PLW$X_submission__uuid),2]
   r$g35 <- apply(r, 1, FUN=function(x){
     ifelse(sum(loop$health_issue.chronic[which(loop$X_submission__uuid == x["X_uuid"])], na.rm = T) > 0, 1, 0)
