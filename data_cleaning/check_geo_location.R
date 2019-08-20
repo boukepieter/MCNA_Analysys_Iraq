@@ -109,8 +109,8 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
                                     question.name="cluster_location_id", issue="Interview held just outside of cluster location buffer. But many interviews in same location.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
-execute.cleaning.changes(dir, "parent", filenamechild = "child")
-anonymise.cleaned.data(dir, name = "parent")
+execute.cleaning.changes(dir, "parent2", filenamechild = "child2")
+anonymise.cleaned.data(dir, name = "parent2")
 
 ### surveys done
 data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors = F, encoding = "UTF-8")

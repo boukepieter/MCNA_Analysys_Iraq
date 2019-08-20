@@ -32,7 +32,7 @@ questionnaire <- load_questionnaire(response,questions,choices)
 samplingframe$popgroup[samplingframe$popgroup=="idp"]<-"idp_out_camp"
 samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
 samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
-samplingframe$stratum<-gsub("idp$","idp_out_camp",samplingframe$stratum)
+# samplingframe$stratum<-gsub("idp$","idp_out_camp",samplingframe$stratum) # should not be run; sampling frame  
 
 ## aggregate to stratum level
 samplingframe_strata <- samplingframe %>%

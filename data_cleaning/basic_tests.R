@@ -80,7 +80,14 @@ summary <- summarize.result(result)
 summary
 round(summary / nrow(data_new) * 100)
 
-#table(data$ngo)
+#tank capacity
+uuid <- data$X_uuid[which(data$tank_capacity == 999)]
+log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "c",  
+                                    question.name="tank_capacity", 
+                                    issue="999 is do not know value and is recoded to NA",
+                                    new.value = NA,
+                                    dir = dir)
+
 #summary.of.partner(data, loop_without_error, "mcna01")
 uuid <- result$uuid[which(!result$loop_is_family_size)]
 log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",  

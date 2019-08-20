@@ -3,8 +3,21 @@ recoding_mcna <- function(r, loop) {
   loop_children <- loop[which(loop$age < 18),]
   loop_females <- loop[which(loop$sex == "female"),]
   loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
-  PLW <- as.data.frame(loop_females %>% group_by(X_submission__uuid) %>% summarize(sum(plw)))
   r_female_headed <- r[which(r$X_uuid %in% loop$X_submission__uuid[which(loop$sex == "female" & loop$relationship == "head")]),]
+  r$gender_hhh <- loop_hoh$sex[match(r$X_uuid, loop_hoh$X_submission__uuid)]
+  
+  response$tot_income[which(response$tot_income == 88)] <- NA
+  response$inc_employment[which(response$inc_employment == 88)] <- NA
+  response$inc_remittances[which(response$inc_remittances == 88)] <- NA
+  response$inc_humaid[which(response$inc_humaid == 88)] <- NA
+  response$inc_debt[which(response$inc_debt == 88)] <- NA
+  response$inc_pension[which(response$inc_pension == 88)] <- NA
+  response$inc_selling_assets[which(response$inc_selling_assets == 88)] <- NA
+  response$inc_momd[which(response$inc_momd == 88)] <- NA
+  response$inc_molsa[which(response$inc_molsa == 88)] <- NA
+  response$inc_other_safety[which(response$inc_other_safety == 88)] <- NA
+  response$inc_rent[which(response$inc_rent == 88)] <- NA
+  
   r <- r %>% 
     new_recoding(source=why_not_return, target=g73) %>% 
     recode_to(1, where=why_not_return.presence_of_mines == 1) %>% 
@@ -66,6 +79,7 @@ recoding_mcna <- function(r, loop) {
   r$a12 <- apply(r, 1, FUN=function(x){
     ifelse(any(loop_children$marital_status[which(loop_children$X_submission__uuid == x["X_uuid"])] == "married"), 1, 0)
   })
+  PLW <- as.data.frame(loop_females %>% dplyr::group_by(X_submission__uuid) %>% dplyr::summarize(sum(plw)))
   r$c11 <- PLW[match(r$X_uuid, PLW$X_submission__uuid),2]
   r$g35 <- apply(r, 1, FUN=function(x){
     ifelse(sum(loop$health_issue.chronic[which(loop$X_submission__uuid == x["X_uuid"])], na.rm = T) > 0, 1, 0)
@@ -398,7 +412,7 @@ recoding_mcna <- function(r, loop) {
   })
   
   r$g56_ad1 <- ifelse(r$child_distress_number < 1 | is.na(r$child_distress_number), 0, 
-                  (r$child_distress_number + r$adult_distress_number) / r$num_hh_member)
+                  r$child_distress_number )
   r$g51_ad1 <- ifelse(r$birth_cert_missing_amount_u1 %in% c(NA, 0), 0, 1)
   r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
   r$g51_ad3 <- ifelse(r$id_card_u18 == "no", 1, 0)
