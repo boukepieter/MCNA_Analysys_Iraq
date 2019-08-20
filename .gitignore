@@ -10,3 +10,5 @@ data_cleaning/*.kml
 output
 input/parent_cleaned_anonymised.csv
 input/child.csv
+input/idp_in_camp.csv
+input/loop_in_camp.csv

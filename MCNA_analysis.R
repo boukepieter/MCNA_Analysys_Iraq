@@ -27,22 +27,36 @@ choices <- read.csv("input/kobo_choices.csv",
 
 response <- read.csv("input/parent_merged.csv",
                      stringsAsFactors = F, check.names = F)
+idp_in_camp <- read.csv("input/idp_in_camp.csv",
+                        stringsAsFactors = F, check.names = F)
+idp_in_camp$population_group <- "idp_in_camp"
+response <- response[,-524]
+response <- response %>% 
+  mutate(strata = paste0(district,population_group))
+names(idp_in_camp)[10] <- "strata"
+names(idp_in_camp)[which(!names(idp_in_camp ) %in% names(response))]
+names(response)[which(!names(response) %in% names(idp_in_camp))]
+response <- rbind.fill(response, idp_in_camp)
+
 loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
+loop_in_camp <- read.csv("input/loop_in_camp.csv", stringsAsFactors = F)
+names(loop_in_camp)[which(!names(loop_in_camp ) %in% names(loop))]
+names(loop)[which(!names(loop) %in% names(loop_in_camp))]
+loop <- rbind.fill(loop, loop_in_camp)
+
 # add cluster ids
 
 cluster_lookup_table <- read.csv("input/combined_sample_ids.csv", 
                          stringsAsFactors=F, check.names=F)
 
 
-response_w_clusterids <- response %>% 
-  mutate(strata = paste0(district,population_group))
 
 
 # horizontal operations / recoding
 
 source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids, loop)
-indicator <- "a16"
+indicator <- "f6"
 table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
