@@ -82,7 +82,7 @@ samplingframe_strata<-as.data.frame(samplingframe_strata)
 samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
 
 ## in camp: make columns match other sampling frame:
-samplingframe_in_camp <- samplingframe_in_camp %>% select(stratum,"population" = population..july.cccm.)
+samplingframe_in_camp <- samplingframe_in_camp %>% dplyr::select(stratum,"population" = population..july.cccm.)
 ## combine in camp and out of camp sampling frames
 samplingframe_strata <- rbind(samplingframe_strata,samplingframe_in_camp)
 

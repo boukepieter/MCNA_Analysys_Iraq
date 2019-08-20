@@ -95,7 +95,7 @@ weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun
 response$weights<-weight_fun(response)
 
 
-response_with_composites <- recoding_mcna(response_w_clusterids, loop)
+response_with_composites <- recoding_mcna(response, loop)
 
 
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
