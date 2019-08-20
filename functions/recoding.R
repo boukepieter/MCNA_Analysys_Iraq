@@ -2,6 +2,8 @@ recoding_mcna <- function(r, loop) {
   loop_hoh <- loop[which(loop$relationship == "head"),]
   loop_children <- loop[which(loop$age < 18),]
   loop_females <- loop[which(loop$sex == "female"),]
+  loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
+  PLW <- as.data.frame(loop_females %>% group_by(X_submission__uuid) %>% summarize(sum(plw)))
   r_female_headed <- r[which(r$X_uuid %in% loop$X_submission__uuid[which(loop$sex == "female" & loop$relationship == "head")]),]
   r <- r %>% 
     new_recoding(source=why_not_return, target=g73) %>% 
@@ -40,8 +42,8 @@ recoding_mcna <- function(r, loop) {
     recode_to(0, where.selected.exactly = "none",
               otherwise.to = 1) %>% 
     
-    
     end_recoding
+  
   r$g51_alt <- apply(r, 1, FUN=function(x){#print(which(r$X_uuid==x[,"X_uuid"])) 
                                     sum(x[c("pds","info_card","death_certificate", "guardianship", "inheritance",
                                        "trusteeship", "passport_a18", "id_card_a18", "citizenship_a18", "birth_cert_a18",
@@ -64,8 +66,6 @@ recoding_mcna <- function(r, loop) {
   r$a12 <- apply(r, 1, FUN=function(x){
     ifelse(any(loop_children$marital_status[which(loop_children$X_submission__uuid == x["X_uuid"])] == "married"), 1, 0)
   })
-  loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
-  PLW <- as.data.frame(loop_females %>% group_by(X_submission__uuid) %>% summarize(sum(plw)))
   r$c11 <- PLW[match(r$X_uuid, PLW$X_submission__uuid),2]
   r$g35 <- apply(r, 1, FUN=function(x){
     ifelse(sum(loop$health_issue.chronic[which(loop$X_submission__uuid == x["X_uuid"])], na.rm = T) > 0, 1, 0)
@@ -350,15 +350,6 @@ recoding_mcna <- function(r, loop) {
     ifelse(any(loop_boys_12_18$work[which(loop_boys_12_18$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 
            ifelse(x["X_uuid"] %in% loop_boys_12_18$X_submission__uuid, 0, NA))
   })
-  
-  r$c3 <- apply(r, 1, FUN=function(x){
-    ifelse(any(loop$difficulty_seeing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
-             any(loop$difficulty_hearing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
-             any(loop$difficulty_walking[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
-             any(loop$difficulty_remembering[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
-             any(loop$difficulty_washing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
-             any(loop$difficulty_communicating[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 0)
-  })
   r$c3_ad1 <- apply(r, 1, FUN=function(x){
     ifelse(any(loop_children$difficulty_seeing[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
              any(loop_children$difficulty_hearing[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
@@ -410,10 +401,8 @@ recoding_mcna <- function(r, loop) {
                   (r$child_distress_number + r$adult_distress_number) / r$num_hh_member)
   r$g51_ad1 <- ifelse(r$birth_cert_missing_amount_u1 %in% c(NA, 0), 0, 1)
   r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
-  r$g51_ad3 <- ifelse(r$birth_cert_u18 == "no", 1, 0)
+  r$g51_ad3 <- ifelse(r$id_card_u18 == "no", 1, 0)
   
-  table(r$g51_ad2, useNA = "always")
-  table(r$g56, useNA = "always")
   
   return(r)
 }
