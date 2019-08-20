@@ -61,8 +61,9 @@ recoding_mcna <- function(r, loop) {
           c("single", "separated", "widowed", "divorced"), 1, 
           ifelse(loop_hoh[match(r$X_uuid,loop_hoh$X_submission__uuid), "marital_status"] %in%
     c(NA, ""), NA, 0))
-  r$a12 <- ifelse(loop_children[match(r$X_uuid,loop_children$X_submission__uuid), "marital_status"] %in%
-                    c("married"), 1, 0)
+  r$a12 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_children$marital_status[which(loop_children$X_submission__uuid == x["X_uuid"])] == "married"), 1, 0)
+  })
   loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
   PLW <- as.data.frame(loop_females %>% group_by(X_submission__uuid) %>% summarize(sum(plw)))
   r$c11 <- PLW[match(r$X_uuid, PLW$X_submission__uuid),2]
@@ -226,7 +227,7 @@ recoding_mcna <- function(r, loop) {
     ifelse(rowSums(r_female_headed[, c("inc_employment", "inc_pension")], na.rm=T) < 480000, 1, 0)
   r$b2 <- ifelse(r$primary_livelihood.ngo_charity_assistance == 1, 1, 0)
   r$g46 <- ifelse(r$employment_seasonal == "yes", 1, 0)
-  #r$g100
+  r$g100 <- r$tot_expenditure / r$tot_income
   r$g37 <- ifelse(r$how_much_debt > 505000, 1, 0)
   r$g38 <- ifelse(r$reasons_for_debt %in% c("basic_hh_expenditure", "education", "food", "health"), 1, 0)
   r$g41 <- ifelse(r$market_place %in% c("within_2km", "within_5km"), 1, 0)
@@ -309,8 +310,110 @@ recoding_mcna <- function(r, loop) {
   r$d14_viii <- ifelse(r$info_specific_needs_who.mental_health %in% c(NA, 0), 0, 1)
   r$d14_ix <- ifelse(r$info_specific_needs_who.illeterate %in% c(NA, 0), 0, 1)
   
+  ### Extra CP indicators
+  loop_girls_18 <- loop[which(loop$age < 18 & loop$sex == "female"),]
+  loop_girls_12 <- loop[which(loop$age < 12 & loop$sex == "female"),]
+  loop_girls_12_18 <- loop_children[which(loop_children$age >= 12 & loop_children$sex == "female"),]
+  loop_boys_12 <- loop[which(loop$age < 12 & loop$sex == "male"),]
+  loop_boys_18 <- loop[which(loop$age < 18 & loop$sex == "male"),]
+  loop_boys_12_18 <- loop_children[which(loop_children$age >= 12 & loop_children$sex == "male"),]
   
-  table(r$d14_v, useNA = "always")
+  r$a12_ad1 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12$marital_status[which(loop_girls_12$X_submission__uuid == x["X_uuid"])] == "married"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12$X_submission__uuid, 0, NA))
+  })
+  r$a12_ad2 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12_18$marital_status[which(loop_girls_12_18$X_submission__uuid == x["X_uuid"])] == "married"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12_18$X_submission__uuid, 0, NA))
+  })
+  r$a12_ad3 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12$marital_status[which(loop_boys_12$X_submission__uuid == x["X_uuid"])] == "married"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12$X_submission__uuid, 0, NA))
+  })
+  r$a12_ad4 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12_18$marital_status[which(loop_boys_12_18$X_submission__uuid == x["X_uuid"])] == "married"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12_18$X_submission__uuid, 0, NA))
+  })
+  r$a13_ad1 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12$work[which(loop_girls_12$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12$X_submission__uuid, 0, NA))
+  })
+  r$a13_ad2 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12_18$work[which(loop_girls_12_18$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12_18$X_submission__uuid, 0, NA))
+  })
+  r$a13_ad3 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12$work[which(loop_boys_12$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12$X_submission__uuid, 0, NA))
+  })
+  r$a13_ad4 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12_18$work[which(loop_boys_12_18$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12_18$X_submission__uuid, 0, NA))
+  })
+  
+  r$c3 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop$difficulty_seeing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop$difficulty_hearing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop$difficulty_walking[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop$difficulty_remembering[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop$difficulty_washing[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop$difficulty_communicating[which(loop$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 0)
+  })
+  r$c3_ad1 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_children$difficulty_seeing[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_children$difficulty_hearing[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_children$difficulty_walking[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_children$difficulty_remembering[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_children$difficulty_washing[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_children$difficulty_communicating[which(loop_children$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 0)
+  })
+  r$c3_ad2 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_18$difficulty_seeing[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_girls_18$difficulty_hearing[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_girls_18$difficulty_walking[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_girls_18$difficulty_remembering[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_girls_18$difficulty_washing[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_girls_18$difficulty_communicating[which(loop_girls_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 
+           ifelse(x["c3_ad1"] == 1, 0, NA))
+  })
+  r$c3_ad3 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_18$difficulty_seeing[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_boys_18$difficulty_hearing[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_boys_18$difficulty_walking[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_boys_18$difficulty_remembering[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_boys_18$difficulty_washing[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+             any(loop_boys_18$difficulty_communicating[which(loop_boys_18$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 
+           ifelse(x["c3_ad1"] == 1, 0, NA))
+  })
+  r$g4_ad1 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12$attend_formal_ed[which(loop_girls_12$X_submission__uuid == x["X_uuid"])] == "no" &
+                 loop_girls_12$attend_informal_ed[which(loop_girls_12$X_submission__uuid == x["X_uuid"])] == "no"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12$X_submission__uuid, 0, NA))
+  })
+  r$g4_ad2 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_girls_12_18$attend_formal_ed[which(loop_girls_12_18$X_submission__uuid == x["X_uuid"])] == "no" &
+                 loop_girls_12_18$attend_informal_ed[which(loop_girls_12_18$X_submission__uuid == x["X_uuid"])] == "no"), 1, 
+           ifelse(x["X_uuid"] %in% loop_girls_12_18$X_submission__uuid, 0, NA))
+  })
+  r$g4_ad3 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12$attend_formal_ed[which(loop_boys_12$X_submission__uuid == x["X_uuid"])] == "no" &
+                 loop_boys_12$attend_informal_ed[which(loop_boys_12$X_submission__uuid == x["X_uuid"])] == "no"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12$X_submission__uuid, 0, NA))
+  })
+  r$g4_ad4 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_boys_12_18$attend_formal_ed[which(loop_boys_12_18$X_submission__uuid == x["X_uuid"])] == "no" &
+                 loop_boys_12_18$attend_informal_ed[which(loop_boys_12_18$X_submission__uuid == x["X_uuid"])] == "no"), 1, 
+           ifelse(x["X_uuid"] %in% loop_boys_12_18$X_submission__uuid, 0, NA))
+  })
+  
+  r$g56_ad1 <- ifelse(r$child_distress_number < 1 | is.na(r$child_distress_number), 0, 
+                  (r$child_distress_number + r$adult_distress_number) / r$num_hh_member)
+  r$g51_ad1 <- ifelse(r$birth_cert_missing_amount_u1 %in% c(NA, 0), 0, 1)
+  r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
+  r$g51_ad3 <- ifelse(r$birth_cert_u18 == "no", 1, 0)
+  
+  table(r$g51_ad2, useNA = "always")
+  table(r$g56, useNA = "always")
   
   return(r)
 }
