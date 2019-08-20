@@ -14,25 +14,7 @@ CP,% of HH with at least one child (6-17) not attending formal or informal educa
 CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being girls >= 12 and < 18 years,district,population_group,categorical,g4_ad2,categorical,direct_reporting
 CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being boys < 12 years,district,population_group,categorical,g4_ad3,categorical,direct_reporting
 CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being boys >= 12 and < 18 years,district,population_group,categorical,g4_ad4,categorical,direct_reporting
-CP,% HH with children with psychosocial distress (proxy data with behaviour change),Average number of HH members affected,district,population_group,categorical,g56_ad1,categorical,direct_reporting
+CP,% HH with children with psychosocial distress (proxy data with behaviour change),Average number of HH members affected,district,population_group,categorical,g56_ad1,numerical,direct_reporting
 CP,% HH with at least one child missing a key individual document ,% of HH with children under 1 missing birth certificate,district,population_group,categorical,g51_ad1,categorical,direct_reporting
 CP,% HH with at least one child missing a key individual document ,% of HH with children above 1 missing birth certificate,district,population_group,categorical,g51_ad2,categorical,direct_reporting
 CP,% HH with at least one child missing a key individual document ,% of HH with children missing ID card,district,population_group,categorical,g51_ad3,categorical,direct_reporting
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,

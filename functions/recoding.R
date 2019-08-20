@@ -211,11 +211,11 @@ recoding_mcna <- function(r, loop) {
   r$g90_xx <- ifelse(r$shelter_issues.missing_washing == 1, 1, 0)
   r$g90_xxi <- ifelse(r$shelter_issues.missing_cooking == 1, 1, 0)
   r$g90_xxii <- ifelse(r$shelter_issues.bends_structure == 1, 1, 0)
-  r$r85 <- ifelse(rowSums(r[,c("nfi_priority_needs.bedding_items","nfi_priority_needs.mattresses_sleeping_mats",
+  r$g85 <- ifelse(rowSums(r[,c("nfi_priority_needs.bedding_items","nfi_priority_needs.mattresses_sleeping_mats",
                                "nfi_priority_needs.blankets", "nfi_priority_needs.cooking_utensils_kitchen_set",
                                "nfi_priority_needs.cooking_stove", "nfi_priority_needs.source_of_light",
                                "nfi_priority_needs.fuel_storage")]) > 0, 1, 0)
-  r$r89 <- ifelse(rowSums(r[,c("shelter_better.improve_infrastructure", "shelter_better.improve_privacy",
+  r$g89 <- ifelse(rowSums(r[,c("shelter_better.improve_infrastructure", "shelter_better.improve_privacy",
                                "shelter_better.improve_safety", "shelter_better.improve_structure",
                                "shelter_better.improve_tenure", "shelter_better.protec_hazards",
                                "shelter_better.protect_climate")]) > 1, 1, 0)

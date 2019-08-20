@@ -22,11 +22,11 @@ Protection - Protection CP,Number of reported children missing national ID,Numbe
 Protection - GBV ,% women and girls who avoid areas because they feel unsafe there,% women and girls who avoid areas because they feel unsafe there,district,population_group,categorical,g63,categorical,direct_reporting
 HH Profile,Average household size,Average household size,district,population_group,categorical,a7,numerical,direct_reporting
 Family Profile,Average family size ,Average family size ,district,population_group,categorical,a8,numerical,direct_reporting
-Family Profile,% of male family members,% of [male/female] family members,district,population_group,categorical,a9_male,categorical,direct_reporting
-Family Profile,% of female family members,% of [male/female] family members,district,population_group,categorical,a9_female,categorical,direct_reporting
-Family Profile,% of children family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_child,categorical,direct_reporting
-Family Profile,% of adult family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_adult,categorical,direct_reporting
-Family Profile,% ofelderly family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_elderly,categorical,direct_reporting
+Family Profile,% of male family members,% of [male/female] family members,district,population_group,categorical,a9_male,numerical,direct_reporting
+Family Profile,% of female family members,% of [male/female] family members,district,population_group,categorical,a9_female,numerical,direct_reporting
+Family Profile,% of children family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_child,numerical,direct_reporting
+Family Profile,% of adult family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_adult,numerical,direct_reporting
+Family Profile,% ofelderly family members,% of [children/adult/elderly] family members,district,population_group,categorical,a10_elderly,numerical,direct_reporting
 "Family Profile, 
 Protection","% of single-headed households (separated, divorced, widowed) ","% of single-headed households (separated, divorced, widowed) ",district,population_group,categorical,a11,categorical,direct_reporting
 "Family Profile, Protection CP & Protection GBV",% of households with presence of child marriage,% of households with presence of child marriage,district,population_group,categorical,a12,categorical,direct_reporting
@@ -128,11 +128,10 @@ Livelihoods,"% of households whose average monthly income [from employment and p
 Livelihoods,"% of single female headed households whose average monthly income [from employment and pension] was less than 480,000 IQD/month","% of single female headed households whose average monthly income [from employment and pension] was less than 480,000 IQD/month",district,population_group,categorical,b3,categorical,direct_reporting
 Livelihoods,% HH relying exclusively on humanitarian assistance as their main source of income,% HH relying exclusively on humanitarian assistance as their main source of income,district,population_group,categorical,b2,categorical,direct_reporting
 Livelihoods,% HH with all working adults in unstable employment,% HH with all working adults in unstable employment,district,population_group,categorical,g46,categorical,direct_reporting
-Livelihoods,% HH spending [expenditure] on basic needs per month,% HH spending [expenditure] on basic needs per month,district,population_group,categorical,g100,categorical,direct_reporting
+Livelihoods,% HH spending [expenditure] on basic needs per month,% HH spending [expenditure] on basic needs per month,district,population_group,categorical,g100,numerical,direct_reporting
 Livelihoods,"% HH with debt value > 505,000 IQD ","% HH with debt value > 505,000 IQD ",district,population_group,categorical,g37,categorical,direct_reporting
 Livelihoods,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)","% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",district,population_group,categorical,g38,categorical,direct_reporting
 Livelihoods,% HH with access to a market less than 5 km away,% HH with access to a market less than 5 km away,district,population_group,categorical,g41,categorical,direct_reporting
-Durable Solutions - Adequate standard of living,"% HH with access to essential health services (emergency, maternity, pediatric and surgical services within 10km, health clinic within 5 km)","% HH with access to essential health services (emergency, maternity, pediatric and surgical services within 10km, health clinic within 5 km)",district,population_group,categorical,f4,categorical,direct_reporting
 "Durable Solutions - Adequate standard of living, Protection - HLP",% HH that were evicted from previous shelter/housing in the 12 months previous,% HH that were evicted from previous shelter/housing in the 12 months previous,district,population_group,categorical,f5,categorical,direct_reporting
 Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,% HH with ownership or secure rights over agricultural land,district,population_group,categorical,f6,categorical,direct_reporting
 "Durable solutions -  Access to effective mechanisms to restore housing, land and property (HLP) or to provide compensation, Protection - HLP",% HH in need of property compensation and unable to access it,% HH in need of property compensation and unable to access it,district,population_group,categorical,f7,categorical,direct_reporting
