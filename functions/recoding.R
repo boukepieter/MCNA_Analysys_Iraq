@@ -412,8 +412,6 @@ recoding_mcna <- function(r, loop) {
   r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
   r$g51_ad3 <- ifelse(r$birth_cert_u18 == "no", 1, 0)
   
-  table(r$g51_ad2, useNA = "always")
-  table(r$g56, useNA = "always")
   
   return(r)
 }

@@ -3,12 +3,14 @@ library(dplyr)
 library(koboquest) # manage kobo questionnairs
 library(kobostandards) # check inputs for inconsistencies
 library(xlsformfill) # generate fake data for kobo
-library(surveyweights)
+library(surveyweights) # calculate weights from samplingframes
 library(hypegrammaR) # simple stats 4 complex samples
 library(composr) # horziontal operations
 
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
+source("functions/recoding.R")
+
 #source("./pre-process_strata_names.R")
 
 # load questionnaire inputs
@@ -40,10 +42,9 @@ response_w_clusterids <- response %>%
 
 # horizontal operations / recoding
 
-source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids, loop)
-indicator <- "a7"
-table(r[,c("population_group", indicator)], useNA="always")
+# indicator <- "a7"
+# table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
@@ -62,7 +63,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 #                                          independent.variable = "population_group"
 #                                          #repeat.for.variable = "governorate_mcna"
 #                                          )
-analysisplan <- read.csv("input/dap_test.csv", stringsAsFactors = F)
+analysisplan <- read.csv("input/dap.csv", stringsAsFactors = F)
 ### .. should/can this move up to loading inputs?
 
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
@@ -95,18 +96,22 @@ weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun
 
 r$weights<-weight_fun(r)
 
-result <- from_analysisplan_map_to_output(r_test, analysisplan = analysisplan,
+result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
+
+# saveRDS(result,paste("result.RDS"))
+
+
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+# summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 summary$moe <- summary$max - summary$min
 summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
 write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
           "output/result_0_90_g54.csv", row.names = F)
-
+browseURL("output")
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 # For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)
 
