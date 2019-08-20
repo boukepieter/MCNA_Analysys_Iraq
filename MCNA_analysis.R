@@ -1,129 +1,91 @@
 # setup
-library(plyr)
+
+library(plyr) # rbind.fill
 library(dplyr)
 library(koboquest) # manage kobo questionnairs
 library(kobostandards) # check inputs for inconsistencies
 library(xlsformfill) # generate fake data for kobo
-library(surveyweights)
+library(surveyweights) # calculate weights from samplingframes
 library(hypegrammaR) # simple stats 4 complex samples
 library(composr) # horziontal operations
-
 source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
-#source("./pre-process_strata_names.R")
-
-# load questionnaire inputs
-questions <- read.csv("input/kobo_questions.csv", 
-                      stringsAsFactors=F, check.names=F)
-
-choices <- read.csv("input/kobo_choices.csv", 
-                    stringsAsFactors=F, check.names=F)
-
-
-# generate data
-# response <- xlsform_fill(questions,choices,1000)
-
-# response_filtered <- response %>% 
-#   filter(!is.na(population_group))
-
-response <- read.csv("input/parent_merged.csv",
-                     stringsAsFactors = F, check.names = F)
-idp_in_camp <- read.csv("input/idp_in_camp.csv",
-                        stringsAsFactors = F, check.names = F)
-idp_in_camp$population_group <- "idp_in_camp"
-response <- response[,-524]
-response <- response %>% 
-  mutate(strata = paste0(district,population_group))
-names(idp_in_camp)[10] <- "strata"
-names(idp_in_camp)[which(!names(idp_in_camp ) %in% names(response))]
-names(response)[which(!names(response) %in% names(idp_in_camp))]
-response <- rbind.fill(response, idp_in_camp)
-
-loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
-loop_in_camp <- read.csv("input/loop_in_camp.csv", stringsAsFactors = F)
-names(loop_in_camp)[which(!names(loop_in_camp ) %in% names(loop))]
-names(loop)[which(!names(loop) %in% names(loop_in_camp))]
-loop <- rbind.fill(loop, loop_in_camp)
-
-# add cluster ids
-
-cluster_lookup_table <- read.csv("input/combined_sample_ids.csv", 
-                         stringsAsFactors=F, check.names=F)
-
-
-
-
-# horizontal operations / recoding
-
 source("functions/recoding.R")
+
 r <- recoding_mcna(response, loop)
 indicator <- "gender_hhh"
 table(r[,c("population_group", indicator)], useNA="always")
 
-# r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
+#' load input files & make everything match:
+source("load_inputs.R",local = T)
+#' creates objects:
+#' 
+#'    response
+#'    analysisplan
+#'    choices
+#'    questions
+#'    cluster_lookup_table
+#'    idp_in_camp
+#'    loop
+#'    loop_in_camp
+#'    samplingframe
+#'    samplingframe_in_camp
 
-# vertical operations / aggregation
+source("match_inputs.R", local = T)
+#' matching all inputs:
+#' 1. combine in and out of camp data for each, HH and loops 
+#' 2. put together questionnaire
+#' 3. prepare sampling frames:
+#'     3.1 prepare columns in out of camp cluster level sampling frame
+#'     3.2 aggregate out-of-camp to stratum level
+#'     3.3.make strata id for in-camp sampling frame
+#'     3.4.combine the stratum sampling frames
+#'     3.5.add strata ids to the dataset
+#'     3.6. throw error if any don't match
 
-### .. should/can this move up to dataset generation? 
-# names(r)<-to_alphanumeric_lowercase(names(r))
 
 
-# make analysisplan including all questions as dependent variable by HH type, repeated for each governorate:
-questionnaire <- load_questionnaire(r,questions,choices)
-
-# r1 <- response_w_clusterids[,-c(518:523)]
-# analysisplan_old <- make_analysisplan_all_vars(r1,
-#                                          questionnaire,
-#                                          independent.variable = "population_group"
-#                                          #repeat.for.variable = "governorate_mcna"
-#                                          )
-analysisplan <- read.csv("input/dap_cp.csv", stringsAsFactors = F)
-### .. should/can this move up to loading inputs?
-
-samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
-samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
-samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
-samplingframe_strata <- samplingframe %>% 
-  group_by(stratum) %>% 
-  summarize(population = sum(pop))
-
-samplingframe_strata<-as.data.frame(samplingframe_strata)
-
-# this line is dangerous. If we end up with missing strata, they're silently removed.
-# could we instead kick out more specifically the impossible district/population group combos?
 as.data.frame(r[which(!r$strata[which(r$population_group != "idp_in_camp")] %in% samplingframe_strata$stratum), c("X_uuid", "strata")])
 
 
-r$cluster_id <- paste(r$cluster_location_id, r$population_group, sep = "_")
-r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
+clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
+                                        sampling.frame.population.column = "pop",
+                                        sampling.frame.stratum.column = "cluster_strata_ID",
+                                        data.stratum.column = "cluster_id",
+                                        data = response)
 
-clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
-                                                        sampling.frame.population.column = "pop",
-                                                        sampling.frame.stratum.column = "cluster_strata_ID",
-                                                        data.stratum.column = "cluster_id",
-                                                        data = r)
+
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
-                 sampling.frame.population.column = "population",
-                 sampling.frame.stratum.column = "stratum",
-                 data.stratum.column = "strata",
-                 data = r)
+                                      sampling.frame.population.column = "population",
+                                      sampling.frame.stratum.column = "stratum",
+                                      data.stratum.column = "strata",
+                                      data = response)
 
 weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
 
-r$weights<-weight_fun(r)
+response$weights<-weight_fun(response)
 
-result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
+
+response_with_composites <- recoding_mcna(response_w_clusterids, loop)
+
+
+result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
+
+# saveRDS(result,paste("result.RDS"))
+
+
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+# summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 summary$moe <- summary$max - summary$min
 summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
 write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
           "output/result_makiba2.csv", row.names = F)
 
+browseURL("output")
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 # For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)
 
@@ -142,6 +104,9 @@ some_results<-hypegrammaR:::results_subset(result,logical = subset_of_results)
 # essentially it handles all the looping over different column values as hierarchies.
 # then each result is visualised by a function passed here that decides how to render each individual result
 # see ?hypegrammaR:::map_to_generic_hierarchical_html
+
+result_labeled$analysisplan$dependent.var
+
 hypegrammaR:::map_to_generic_hierarchical_html(result_labeled,
                                                render_result_with = hypegrammaR:::from_result_map_to_md_table,
                                                by_analysisplan_columns = c("dependent.var","repeat.var.value"),
@@ -151,7 +116,7 @@ hypegrammaR:::map_to_generic_hierarchical_html(result_labeled,
                                                label_varnames = TRUE,
                                                dir = "./output",
                                                filename = "summary_by_dependent_var_then_by_repeat_var.html"
-                                               )
+)
 browseURL("summary_by_dependent_var_then_by_repeat_var.html")
 
 
