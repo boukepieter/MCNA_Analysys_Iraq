@@ -19,7 +19,7 @@ response <- rbind.fill(response, idp_in_camp)
 loop <- rbind.fill(loop, loop_in_camp)
 
 
-
+  
 # questionnaire
 
 questionnaire <- load_questionnaire(response,questions,choices)
@@ -32,6 +32,40 @@ questionnaire <- load_questionnaire(response,questions,choices)
 samplingframe$popgroup[samplingframe$popgroup=="idp"]<-"idp_out_camp"
 samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
 samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
+
+
+## add cluster ids to data:
+
+### any pop group or cluster ids that can't be found individually?
+`%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
+
+response$population_group %find those not in% samplingframe$popgroup
+response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
+response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n")
+
+### create id in samplingframe and in data
+samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
+response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
+
+
+### reverse not matching?
+samplingframe$cluster_strata_ID %find those not in% response$cluster_id
+## unique cluster ids for IDP in camp (unique):
+response$cluster_id[response$population_group=="idp_in_camp"]<-paste("IN CAMP - NO CLUSTER",1:length(which(response$population_group=="idp_in_camp")))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # samplingframe$stratum<-gsub("idp$","idp_out_camp",samplingframe$stratum) # should not be run; sampling frame  
 
 ## aggregate to stratum level
@@ -40,7 +74,7 @@ samplingframe_strata <- samplingframe %>%
   dplyr::summarize(population = sum(pop))
 
 samplingframe_strata<-as.data.frame(samplingframe_strata)
-
+  
 
 ## in camp: make values match data
 samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
@@ -60,13 +94,12 @@ response <- response %>%
 response$strata[response$population_group=="idp_in_camp"]<- (paste0(response$camp,response$population_group))[response$population_group=="idp_in_camp"]
 
 
-## add cluster ids to data:
-response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
-## unique cluster ids for IDP in camp (unique):
-response$cluster_id[response$population_group=="idp_in_camp"]<-paste("IN CAMP - NO CLUSTER",1:length(which(response$population_group=="idp_in_camp")))
 
 
 ## Check if all match:
+
+
+
 
 if(any(!(response$strata %in% samplingframe_strata$stratum))){
   warning("some strata not found in samplingframe")

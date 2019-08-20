@@ -12,9 +12,6 @@ source("functions/to_alphanumeric_lowercase.R")
 source("functions/analysisplan_factory.R")
 source("functions/recoding.R")
 
-r <- recoding_mcna(response, loop)
-indicator <- "gender_hhh"
-table(r[,c("population_group", indicator)], useNA="always")
 
 #' load input files & make everything match:
 source("load_inputs.R",local = T)
@@ -45,7 +42,19 @@ source("match_inputs.R", local = T)
 
 
 
-as.data.frame(r[which(!r$strata[which(r$population_group != "idp_in_camp")] %in% samplingframe_strata$stratum), c("X_uuid", "strata")])
+# any further problems with the sampling frame matching?
+
+strata_samplingframe_issues <- as.data.frame(response[which(!response$strata %in% samplingframe_strata$stratum), c("X_uuid", "strata")])
+if(nrow(strata_samplingframe_issues)!=0){
+  print(strata_samplingframe_issues)
+  warning("something's not right with the strata id matching!")
+}
+
+cluster_samplingframe_issues <- as.data.frame(response[which(!response$cluster_id[which(response$population_group != "idp_in_camp")] %in% samplingframe$cluster_strata_ID), c("X_uuid", "strata")])
+if(nrow(cluster_samplingframe_issues)!=0){
+  print(cluster_samplingframe_issues)
+  warning("something's not right with the cluster id matching!")
+}
 
 
 clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
