@@ -1,0 +1,50 @@
+Governorate,District,Camp long name,camp,# target surveys,# surveys conducted,Difference surveys,Confidence level,Error margin,Population (July CCCM),Population (Jan CCCM),Difference population,Governorate weight,National weight
+Anbar,al.falluja,Amriyat Al-Fallujah Camp,aaf,71,68,-3,90,10," 3,628 "," 3,600 ",-28,1.480798285,2.058005436
+Anbar,al.falluja,Habbaniya Tourist City camps,htc,69,66,-3,90,10," 1,200 ", 672 ,-528,0.50463207,0.701334919
+Baghdad,al.kadhmiyah,Shooting Camp / Al Ahel,shooting.camp,52,50,-2,90,10, 175 , 147 ,-28,1.130208333,0.135006972
+Baghdad,al.risafa,Zayona,zayona,46,43,-3,90,10, 113 , 97 ,-16,0.848594961,0.101367361
+Diyala,khanaqin,Alwand 1,alwand.1,66,64,-2,90,10, 649 , 678 ,29,1.697629118,0.391158592
+Diyala,khanaqin,Alwand 2,alwand.2,56,63,7,90,10, 227 , 235 ,8,0.603202872,0.138986769
+Diyala,khanaqin,Qoratu,qoratu,57,61,4,90,10, 247 , 252 ,5,0.677868123,0.156190736
+Dohuk,sumail,Bajed Kandala,bajed.kandala,70,70,0,90,10," 2,052 "," 2,047 ",-5,0.879555708,1.13075227
+Dohuk,zakho,Bersive 1,bersive.1,69,69,0,90,10," 1,461 "," 1,468 ",7,0.635309223,0.816750252
+Dohuk,zakho,Bersive 2,bersive.2,70,70,0,90,10," 1,737 "," 1,748 ",11,0.744536192,0.957171878
+Dohuk,zakho,Chamishku,chamishku,71,71,0,90,10," 5,041 "," 5,039 ",-2,2.130307929,2.738712857
+Dohuk,zakho,Darkar,darkar,66,65,-1,90,10, 724 , 721 ,-3,0.334202154,0.429648561
+Dohuk,al.amadiya,Dawoudia,dawoudia,66,65,-1,90,10, 634 , 633 ,-1,0.292657687,0.376239209
+Dohuk,sumail,Kabarto 1,kabarto.1,70,70,0,90,10," 2,562 "," 2,548 ",-14,1.098158735,1.411787191
+Dohuk,sumail,Kabarto 2,kabarto.2,70,69,-1,90,10," 2,598 "," 2,597 ",-1,1.129728516,1.452373138
+Dohuk,sumail,Khanke,khanke,71,71,0,90,10," 2,836 "," 2,831 ",-5,1.198483096,1.54076367
+Dohuk,sumail,Rwanga Community,rwanga.community,70,70,0,90,10," 2,619 "," 2,632 ",13,1.122590838,1.443196976
+Dohuk,sumail,Shariya,shariya,71,71,0,90,10," 3,099 "," 3,110 ",11,1.309625922,1.683648313
+Erbil,erbil,Baharka,baharka,68,69,1,90,10, 932 , 923 ,-9,0.863096833,0.521020695
+Erbil,makhmour,Debaga 1,debaga.1,70,71,1,90,10," 1,852 "," 1,883 ",31,1.666768695,1.006168659
+Erbil,erbil,Harshm,harshm,59,57,-2,90,10, 299 , 302 ,3,0.335188441,0.202341276
+Kerbala,kerbela,Al-Kawthar Camp,al.kawthar,47,47,0,90,10, 124 , 124 ,0,1,0.101768173
+Kirkuk,daquq,Laylan 2,laylan.2,63,63,0,90,10, 504 , 365 ,-139,0.735545024,0.308587364
+Kirkuk,daquq,Laylan IDP (1),laylan.idp,68,71,3,90,10," 1,109 "," 1,100 ",-9,1.436125759,0.602505963
+Kirkuk,daquq,Yahyawa,yahyawa,63,60,-3,90,10, 497 , 500 ,3,0.761595577,0.3195165
+Ninewa,al.hamdaniya,As Salamyiah,as.salamyiah,71,71,0,90,10," 5,214 "," 5,310 ",96,2.142837811,2.832701614
+Ninewa,al.hamdaniya,As Salamyiah Nimrud,as.salamyiah.nimrud,66,66,0,90,10, 646 , 697 ,51,0.285604605,0.377551964
+Ninewa,al.shikhan,Essian,essian,71,70,-1,90,10," 2,758 "," 2,750 ",-8,1.149669063,1.519792769
+Ninewa,al.mosul,Haj Ali,haj.ali,70,67,-3,90,10," 2,613 "," 2,722 ",109,1.137997296,1.5043634
+Ninewa,al.mosul,Hamam Al Alil 1,haa.1,71,67,-4,90,10," 3,794 "," 3,819 ",25,1.652338974,2.184291902
+Ninewa,al.mosul,Hamam Al Alil 2,haa.2,71,72,1,90,10," 4,425 "," 4,363 ",-62,1.793318388,2.370658136
+Ninewa,al.hamdaniya,Hasansham U3,hasansham.u3,69,68,-1,90,10," 1,251 "," 1,149 ",-102,0.536815466,0.709637486
+Ninewa,al.hamdaniya,Hasansham_U2,hasansham.u2,68,67,-1,90,10, 953 , 852 ,-101,0.415044555,0.548663728
+Ninewa,al.hamdaniya,Khazer M1,khazer.m1,69,69,0,90,10," 1,348 "," 1,316 ",-32,0.570055873,0.753579288
+Ninewa,aqra,Mamilian,mamilian,54,54,0,90,10, 203 , 324 ,121,0.109692997,0.145007488
+Ninewa,al.shikhan,Mamrashan,mamrashan,70,69,-1,90,10," 1,735 "," 1,707 ",-28,0.733714347,0.969925864
+Ninewa,al.mosul,Qayyarah Airstrip,qayyarah.airstrip,72,77,5,90,10," 7,069 "," 7,231 ",162,2.678822139,3.541240385
+Ninewa,al.mosul,Qayyarah-Jad'ah 1-2,qayyarah.jadah.1.2,70,70,0,90,10," 1,843 "," 2,399 ",556,0.768252387,1.015583057
+Ninewa,al.mosul,Qayyarah-Jad'ah 3,qayyarah.jadah.3,69,68,-1,90,10," 1,369 "," 1,927 ",558,0.587450338,0.776573716
+Ninewa,al.mosul,Qayyarah-Jad'ah 4,qayyarah.jadah.4,68,68,0,90,10, 943 ," 1,452 ",509,0.404649868,0.534922582
+Ninewa,al.mosul,Qayyarah-Jad'ah 5,qayyarah.jadah.5,70,70,0,90,10," 2,756 "," 4,526 ",1770,1.148835365,1.518690671
+Ninewa,al.mosul,Qayyarah-Jad'ah 6,qayyarah.jadah.6,70,70,0,90,10," 2,389 "," 3,371 ",982,0.995851846,1.316455738
+Ninewa,al.shikhan,Sheikhan,sheikhan,67,67,0,90,10, 844 , 855 ,11,0.367573562,0.485909954
+Salah al-Din,tikrit,Al-Alam (all),al.alam,60,60,0,90,10, 354 , 389 ,35,0.968656716,0.227583181
+Salah al-Din,al.shirqat,Basateen Al Sheuokh,basateen.al.sheuokh,59,54,-5,90,10, 299 , 295 ,-4,0.909065782,0.213582458
+Salah al-Din,tikrit,Karamah,karamah,62,62,0,90,10, 419 , 456 ,37,1.10953298,0.260681664
+Sulaymaniyah,al.sulaymaniyah,Arbat IDP,arbat.idp,60,58,-2,90,10, 355 , 372 ,17,0.379530953,0.236095936
+Sulaymaniyah,al.sulaymaniyah,Ashti IDP,ashti.idp,70,69,-1,90,10," 2,375 "," 2,375 ",0,2.134328997,1.327708315
+Sulaymaniyah,al.sulaymaniyah,Tazade,tazade,59,62,3,90,10, 318 , 326 ,8,0.318040386,0.197844318

@@ -1,4 +1,5 @@
 # setup
+library(plyr)
 library(dplyr)
 library(koboquest) # manage kobo questionnairs
 library(kobostandards) # check inputs for inconsistencies
@@ -76,7 +77,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 #                                          independent.variable = "population_group"
 #                                          #repeat.for.variable = "governorate_mcna"
 #                                          )
-analysisplan <- read.csv("input/dap_test.csv", stringsAsFactors = F)
+analysisplan <- read.csv("input/dap_cp.csv", stringsAsFactors = F)
 ### .. should/can this move up to loading inputs?
 
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
