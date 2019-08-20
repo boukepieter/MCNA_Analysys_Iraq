@@ -79,9 +79,6 @@ samplingframe_strata<-as.data.frame(samplingframe_strata)
 r <- r %>% filter(strata %in% samplingframe_strata$stratum)
 r$cluster_id <- paste(r$cluster_location_id, r$population_group, sep = "_")
 r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
-r_test <- r %>% 
-  filter(! strata %in% c("al.shikhanreturnee", "baladidp", "erbilhost", "al.basrahhost"))
-table(r_test[which(r_test$district == "balad"),c("g54", "population_group")])
 
 clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                                                         sampling.frame.population.column = "pop",
@@ -96,6 +93,7 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
 
 weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
 
+r$weights<-weight_fun(r)
 
 result <- from_analysisplan_map_to_output(r_test, analysisplan = analysisplan,
                                           weighting = weight_fun,
