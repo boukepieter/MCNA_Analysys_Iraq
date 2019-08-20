@@ -56,33 +56,38 @@ if(nrow(cluster_samplingframe_issues)!=0){
   warning("something's not right with the cluster id matching!")
 }
 
+### IGNORING CLUSTER LEVEL WEIGHTING FOR NOW
+#### it's been under debate..
+
 
 
 # remove records not in cluster samplingframe:
 
-nrow_before<- nrow(response)
-response<-response %>% filter((cluster_id %in% samplingframe$cluster_strata_ID) | population_group=="idp_in_camp")
+# nrow_before<- nrow(response)
+# response<-response %>% filter((cluster_id %in% samplingframe$cluster_strata_ID) | population_group=="idp_in_camp")
 
 # if any disappeared, give a warning:
-if(nrow(response)!=nrow_before){
-  warning(paste("lost ",nrow_before-nrow(response), " records; their cluster id is not in the cluster sampling frame"))
-}
+# if(nrow(response)!=nrow_before){
+#   warning(paste("lost ",nrow_before-nrow(response), " records; their cluster id is not in the cluster sampling frame"))
+# }
 
-clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
-                                        sampling.frame.population.column = "pop",
-                                        sampling.frame.stratum.column = "cluster_strata_ID",
-                                        data.stratum.column = "cluster_id",
-                                        data = response[response$population_group!="idp_in_camp",])
+# clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
+#                                         sampling.frame.population.column = "pop",
+#                                         sampling.frame.stratum.column = "cluster_strata_ID",
+#                                         data.stratum.column = "cluster_id",
+#                                         data = response[response$population_group!="idp_in_camp",])
 
 
 # only in camp idps have cluster weight of 1:
-cluster_weight_fun<-function(df){
-  weights<-rep(NA,nrow(df))
-  in_camp<-df$population_group=="idp_in_camp"
-  weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
-  weights[in_camp]<-1
-  weights
-  }
+
+
+# cluster_weight_fun<-function(df){
+#   weights<-rep(NA,nrow(df))
+#   in_camp<-df$population_group=="idp_in_camp"
+#   weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
+#   weights[in_camp]<-1
+#   weights
+#   }
 
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                                       sampling.frame.population.column = "population",
@@ -90,9 +95,18 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                                       data.stratum.column = "strata",
                                       data = response)
 
-weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
+# weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
+weight_fun<-strata_weight_fun
+
 
 response$weights<-weight_fun(response)
+
+# for speedy speed we can not recalculate weights on every run):
+# weight_fun<-function(df){
+#   df$weights
+# }
+
+
 
 
 response_with_composites <- recoding_mcna(response, loop)

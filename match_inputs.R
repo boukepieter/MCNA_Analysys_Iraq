@@ -53,7 +53,12 @@ response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% past
 ### reverse not matching?
 samplingframe$cluster_strata_ID %find those not in% response$cluster_id
 ## unique cluster ids for IDP in camp (unique):
-response$cluster_id[response$population_group=="idp_in_camp"]<-paste("IN CAMP - NO CLUSTER",1:length(which(response$population_group=="idp_in_camp")))
+
+in_camp <- response$population_group=="idp_in_camp"
+in_camp_ids<-paste0("NO_CLUSTER_",1:length(which(response$population_group=="idp_in_camp")),"_idp_in_camp")
+in_camp_cluster_sampling_frame<-data.frame(cluster_strata_ID= in_camp_ids,pop=1)
+
+response$cluster_id[in_camp]<-in_camp_ids
 
 
 
@@ -97,11 +102,13 @@ response$strata[response$population_group=="idp_in_camp"]<- (paste0(response$cam
 
 
 
+## add rows to cluster samplingframe where no cluster sampling was used
+# samplingframe<-bind_rows(samplingframe,in_camp_cluster_sampling_frame)
+
+
+
 
 ## Check if all match:
-
-
-
 
 if(any(!(response$strata %in% samplingframe_strata$stratum))){
   warning("some strata not found in samplingframe")
