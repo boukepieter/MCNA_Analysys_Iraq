@@ -41,11 +41,13 @@ samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe
 
 response$population_group %find those not in% samplingframe$popgroup
 response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
-response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n")
 
 ### create id in samplingframe and in data
 samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
 response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
+
+# any id that can't be found in combination?
+response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n") %>% cat
 
 
 ### reverse not matching?

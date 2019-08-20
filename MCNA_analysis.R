@@ -57,12 +57,21 @@ if(nrow(cluster_samplingframe_issues)!=0){
 }
 
 
-clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
+clusters_weight_fun_out_of_camp <- map_to_weighting(sampling.frame= samplingframe,
                                         sampling.frame.population.column = "pop",
                                         sampling.frame.stratum.column = "cluster_strata_ID",
                                         data.stratum.column = "cluster_id",
                                         data = response)
 
+
+# only in camp idps have cluster weight of 1:
+cluster_weight_fun<-function(df){
+  weights<-rep(NA,nrow(df))
+  in_camp<-df$population_group!="idp_in_camp"
+  weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
+  weights[in_camp]<-1
+  
+  }
 
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                                       sampling.frame.population.column = "population",
