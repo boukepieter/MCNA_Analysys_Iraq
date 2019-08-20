@@ -1,0 +1,38 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+CP,% of households with presence of child marriage [aggregated indicator] ,% of those being girls < 12 years,district,population_group,categorical,a12_ad1,categorical,direct_reporting
+CP,% of households with presence of child marriage [aggregated indicator] ,% of those being girls >= 12 and < 18 years,district,population_group,categorical,a12_ad2,categorical,direct_reporting
+CP,% of households with presence of child marriage [aggregated indicator] ,% of those being boys < 12 years,district,population_group,categorical,a12_ad3,categorical,direct_reporting
+CP,% of households with presence of child marriage [aggregated indicator] ,% of those being boys >= 12 and < 18 years,district,population_group,categorical,a12_ad4,categorical,direct_reporting
+CP,% HH with at least one person under (<18) working,% of those being girls < 12 years,district,population_group,categorical,a13_ad1,categorical,direct_reporting
+CP,% HH with at least one person under (<18) working,% of those being girls >= 12 and < 18 years,district,population_group,categorical,a13_ad2,categorical,direct_reporting
+CP,% HH with at least one person under (<18) working,% of those being boys < 12 years,district,population_group,categorical,a13_ad3,categorical,direct_reporting
+CP,% HH with at least one person under (<18) working,% of those being boys >= 12 and < 18 years,district,population_group,categorical,a13_ad4,categorical,direct_reporting
+CP,"% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)",% of HHs in which at least 1 child (under 18) is disabled,district,population_group,categorical,c3_ad1,categorical,direct_reporting
+CP,"% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)",% of HHs in which at least 1 girl (under 18) is disabled of the HH with a child with disability,district,population_group,categorical,c3_ad2,categorical,direct_reporting
+CP,"% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)",% of HHs in which at least 1 boy (under 18) is disabled of the HH with a child with disability,district,population_group,categorical,c3_ad3,categorical,direct_reporting
+CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being girls < 12 years,district,population_group,categorical,g4_ad1,categorical,direct_reporting
+CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being girls >= 12 and < 18 years,district,population_group,categorical,g4_ad2,categorical,direct_reporting
+CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being boys < 12 years,district,population_group,categorical,g4_ad3,categorical,direct_reporting
+CP,% of HH with at least one child (6-17) not attending formal or informal education regularly (at least 3 days a week) [aggregate indicator],% of those being boys >= 12 and < 18 years,district,population_group,categorical,g4_ad4,categorical,direct_reporting
+CP,% HH with children with psychosocial distress (proxy data with behaviour change),Average number of HH members affected,district,population_group,categorical,g56_ad1,categorical,direct_reporting
+CP,% HH with at least one child missing a key individual document ,% of HH with children under 1 missing birth certificate,district,population_group,categorical,g51_ad1,categorical,direct_reporting
+CP,% HH with at least one child missing a key individual document ,% of HH with children above 1 missing birth certificate,district,population_group,categorical,g51_ad2,categorical,direct_reporting
+CP,% HH with at least one child missing a key individual document ,% of HH with children missing ID card,district,population_group,categorical,g51_ad3,categorical,direct_reporting
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
