@@ -57,21 +57,32 @@ if(nrow(cluster_samplingframe_issues)!=0){
 }
 
 
-clusters_weight_fun_out_of_camp <- map_to_weighting(sampling.frame= samplingframe,
+
+# remove records not in cluster samplingframe:
+
+nrow_before<- nrow(response)
+response<-response %>% filter((cluster_id %in% samplingframe$cluster_strata_ID) | population_group=="idp_in_camp")
+
+# if any disappeared, give a warning:
+if(nrow(response)!=nrow_before){
+  warning(paste("lost ",nrow_before-nrow(response), " records; their cluster id is not in the cluster sampling frame"))
+}
+
+clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
                                         sampling.frame.population.column = "pop",
                                         sampling.frame.stratum.column = "cluster_strata_ID",
                                         data.stratum.column = "cluster_id",
-                                        data = response)
+                                        data = response[response$population_group!="idp_in_camp",])
 
 
-# only in camp idps have cluster weight of 1:
-cluster_weight_fun<-function(df){
-  weights<-rep(NA,nrow(df))
-  in_camp<-df$population_group!="idp_in_camp"
-  weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
-  weights[in_camp]<-1
-  
-  }
+# # only in camp idps have cluster weight of 1:
+# cluster_weight_fun<-function(df){
+#   weights<-rep(NA,nrow(df))
+#   in_camp<-df$population_group=="idp_in_camp"
+#   weights[!in_camp]<-clusters_weight_fun_out_of_camp(df[!in_camp,])
+#   weights[in_camp]<-1
+#   weights
+#   }
 
 strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                                       sampling.frame.population.column = "population",
