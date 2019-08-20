@@ -37,38 +37,20 @@ source("match_inputs.R", local = T)
 #'     3.4.combine the stratum sampling frames
 #'     3.5.add strata ids to the dataset
 #'     3.6. throw error if any don't match
-r <- recoding_mcna(response_w_clusterids, loop)
-ls() %>% paste0(collapse="\n") %>% cat
 
 
 # this line is dangerous. If we end up with missing strata, they're silently removed.
 # could we instead kick out more specifically the impossible district/population group combos?
-
-if(any(!(r$strata %in% samplingframe_strata$stratum))){
-  print(unique(r$strata[!(r$strata %in% samplingframe_strata$stratum)]))
-  stop("STRATA MISSING FROM SAMPLING FRAME")
-}
-  
-r <- r %>% filter(strata %in% samplingframe_strata$stratum)
-r$cluster_id <- paste(r$cluster_location_id, r$population_group, sep = "_")
-
-r$cluster_id %>% table %>% as.data.frame %>% filter(Freq)
-r$cluster_id %>% table %>% as.data.frame %>% filter(Freq==1)
-
-if(any(!(r$cluster_id %in% samplingframe$cluster_strata_ID))){
-  print(unique(r$cluster_id[!(r$cluster_id %in% samplingframe$cluster_strata_ID)]))
-  stop("STRATA MISSING FROM SAMPLING FRAME")
-}
-r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
+# r <- r %>% filter(strata %in% samplingframe_strata$stratum)
+# r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 
 
 
-clusters_weight_fun <- map_to_weighting(sampling.frame
-                                        = samplingframe,
+clusters_weight_fun <- map_to_weighting(sampling.frame= samplingframe,
                                                         sampling.frame.population.column = "pop",
                                                         sampling.frame.stratum.column = "cluster_strata_ID",
                                                         data.stratum.column = "cluster_id",
-                                                        data = r)
+                                                        data = response)
 
 
 
@@ -76,13 +58,17 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
                  sampling.frame.population.column = "population",
                  sampling.frame.stratum.column = "stratum",
                  data.stratum.column = "strata",
-                 data = r)
+                 data = response)
 
 weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun)
 
-r$weights<-weight_fun(r)
+response$weights<-weight_fun(response)
 
-result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
+
+response_with_composites <- recoding_mcna(response_w_clusterids, loop)
+
+
+result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
