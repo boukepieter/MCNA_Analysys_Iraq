@@ -23,7 +23,7 @@ choices <- read.csv("input/kobo_choices.csv",
 response <- xlsform_fill(questions,choices,1000)
 
 response_filtered <- response %>% 
-  filter(!is.na(type_hh))
+  filter(!is.na(population_group))
 
 # add cluster ids
 
@@ -31,7 +31,7 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
                          stringsAsFactors=F, check.names=F)
 
 response_filtered_w_clusterids <- response_filtered %>% 
-  mutate(strata = paste0(lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)],type_hh))
+  mutate(strata = paste0(lookup_table$district[match(cluster_location_id,cluster_lookup_table$new_ID)],population_group))
 
 
 # horizontal operations / recoding
@@ -63,7 +63,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 
 analysisplan<-make_analysisplan_all_vars(r,
                                          questionnaire
-                                         ,independent.variable = "type_hh",
+                                         ,independent.variable = "population_group",
                                          repeat.for.variable = "governorate_mcna"
                                          )
 
@@ -91,7 +91,7 @@ strata_weight_fun <- map_to_weighting(sampling.frame = samplingframe_strata,
 
 
 
-r$cluster_id <- paste(r$cluster_location_id,r$type_hh,sep = "_")
+r$cluster_id <- paste(r$cluster_location_id,r$population_group,sep = "_")
 
 result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
                                           weighting = strata_weight_fun,

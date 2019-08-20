@@ -1,2 +1,2 @@
 Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
-"Protection, Access and safety",% HHs experiencing daytime movement restrictions,% HHs experiencing daytime movement restrictions,district,type_hh,categorical,g54,categorical,direct_reporting
+"Protection, Access and safety",% HHs experiencing daytime movement restrictions,% HHs experiencing daytime movement restrictions,district,population_group,categorical,g54,categorical,direct_reporting

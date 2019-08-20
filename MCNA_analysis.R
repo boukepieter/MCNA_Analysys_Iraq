@@ -23,7 +23,7 @@ choices <- read.csv("input/kobo_choices.csv",
 # response <- xlsform_fill(questions,choices,1000)
 
 # response_filtered <- response %>% 
-#   filter(!is.na(type_hh))
+#   filter(!is.na(population_group))
 
 response <- read.csv("input/parent_merged.csv",
                      stringsAsFactors = F, check.names = F)
@@ -43,7 +43,7 @@ response_w_clusterids <- response %>%
 source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids, loop)
 indicator <- "a7"
-table(r[,c("type_hh", indicator)], useNA="always")
+table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
 
@@ -59,7 +59,7 @@ questionnaire <- load_questionnaire(r,questions,choices)
 # r1 <- response_w_clusterids[,-c(518:523)]
 # analysisplan_old <- make_analysisplan_all_vars(r1,
 #                                          questionnaire,
-#                                          independent.variable = "type_hh"
+#                                          independent.variable = "population_group"
 #                                          #repeat.for.variable = "governorate_mcna"
 #                                          )
 analysisplan <- read.csv("input/dap_test.csv", stringsAsFactors = F)
@@ -77,11 +77,11 @@ samplingframe_strata<-as.data.frame(samplingframe_strata)
 # this line is dangerous. If we end up with missing strata, they're silently removed.
 # could we instead kick out more specifically the impossible district/population group combos?
 r <- r %>% filter(strata %in% samplingframe_strata$stratum)
-r$cluster_id <- paste(r$cluster_location_id, r$type_hh, sep = "_")
+r$cluster_id <- paste(r$cluster_location_id, r$population_group, sep = "_")
 r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 r_test <- r %>% 
   filter(! strata %in% c("al.shikhanreturnee", "baladidp", "erbilhost", "al.basrahhost"))
-table(r_test[which(r_test$district == "balad"),c("g54", "type_hh")])
+table(r_test[which(r_test$district == "balad"),c("g54", "population_group")])
 
 clusters_weight_fun <- map_to_weighting(sampling.frame = samplingframe,
                                                         sampling.frame.population.column = "pop",
