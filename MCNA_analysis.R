@@ -56,8 +56,8 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
 # horizontal operations / recoding
 
 source("functions/recoding.R")
-r <- recoding_mcna(response_w_clusterids, loop)
-indicator <- "c11"
+r <- recoding_mcna(response, loop)
+indicator <- "gender_hhh"
 table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
@@ -91,7 +91,9 @@ samplingframe_strata<-as.data.frame(samplingframe_strata)
 
 # this line is dangerous. If we end up with missing strata, they're silently removed.
 # could we instead kick out more specifically the impossible district/population group combos?
-r <- r %>% filter(strata %in% samplingframe_strata$stratum)
+as.data.frame(r[which(!r$strata[which(r$population_group != "idp_in_camp")] %in% samplingframe_strata$stratum), c("X_uuid", "strata")])
+
+
 r$cluster_id <- paste(r$cluster_location_id, r$population_group, sep = "_")
 r <- r %>% filter(cluster_id %in% samplingframe$cluster_strata_ID)
 
@@ -110,7 +112,7 @@ weight_fun <- combine_weighting_functions(strata_weight_fun, clusters_weight_fun
 
 r$weights<-weight_fun(r)
 
-result <- from_analysisplan_map_to_output(r_test, analysisplan = analysisplan,
+result <- from_analysisplan_map_to_output(r, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
@@ -120,7 +122,7 @@ summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 summary$moe <- summary$max - summary$min
 summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
 write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
-          "output/result_0_90_g54.csv", row.names = F)
+          "output/result_makiba2.csv", row.names = F)
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 # For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)

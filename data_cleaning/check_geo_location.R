@@ -109,8 +109,8 @@ log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[ro
 log <- log.cleaning.change.extended(data, partners, psu, result_separate$uuid[row], action = "f",  
                                     question.name="cluster_location_id", issue="Interview held just outside of cluster location buffer. But many interviews in same location.",
                                     dir = dir)#, new.value = "cluster_location_id_0621")#result_separate$alternative_cluster[row])#
-execute.cleaning.changes(dir, "parent2", filenamechild = "child2")
-anonymise.cleaned.data(dir, name = "parent2")
+execute.cleaning.changes(dir, "parent", filenamechild = "child")
+anonymise.cleaned.data(dir, name = "parent")
 
 ### surveys done
 data_old <- read.csv(sprintf("%s/parent_cleaned_old.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
@@ -131,7 +131,6 @@ log <- read.csv(sprintf("%s/cleaning_logbook.csv",dir), stringsAsFactors = F)
 data1 <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2 <- read.csv(sprintf("%s/parent2_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
 data2$X_validation_status <- NA
-names(data)[1] <- "start"
 data <- rbind.fill(data2, data1)
 data <- data %>% mutate(population_group = ifelse(calc_idp == 1, "idp_out_camp", ifelse(calc_returnee == 1, "returnee", 
                                                                                ifelse(calc_host == 1, "host", NA))))
