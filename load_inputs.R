@@ -30,6 +30,8 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
 
 samplingframe_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
+
+
 # analysis definition
 analysisplan <- read.csv("input/dap.csv", stringsAsFactors = F)
 

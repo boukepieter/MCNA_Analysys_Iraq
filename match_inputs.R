@@ -40,8 +40,8 @@ samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe
 `%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
 
 response$population_group %find those not in% samplingframe$popgroup
-response$cluster_location_id %find those not in% samplingframe$cluster_ID
-response$cluster_id %find those not in% samplingframe$cluster_strata_ID
+response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
+response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n")
 
 ### create id in samplingframe and in data
 samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
