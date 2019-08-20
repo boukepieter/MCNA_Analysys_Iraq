@@ -56,7 +56,7 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
 
 source("functions/recoding.R")
 r <- recoding_mcna(response_w_clusterids, loop)
-indicator <- "f6"
+indicator <- "c11"
 table(r[,c("population_group", indicator)], useNA="always")
 
 # r <- r %>% mutate(score_livelihoods = hh_with_debt_value+hh_unemployed+hh_unable_basic_needs)
