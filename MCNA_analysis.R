@@ -110,7 +110,7 @@ response$weights<-weight_fun(response)
 
 
 response_with_composites <- recoding_mcna(response, loop)
-
+table(response_with_composites[which(response_with_composites$district == "erbil"), c("population_group", "g54")])
 
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
@@ -122,47 +122,18 @@ result <- from_analysisplan_map_to_output(response_with_composites, analysisplan
 
 
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-# summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+write.csv(summary, "output/raw_results.csv")
+summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
 summary$moe <- summary$max - summary$min
 summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
+summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
 write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
-          "output/result_makiba2.csv", row.names = F)
+          "output/resultsssss.csv", row.names = F)
+
+lookup_table <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
+group <- "host"
+df <- pretty.output(summary, group, analysisplan, cluster_lookup_table, lookup_table)
+write.csv(df, sprintf("output/summary_sorted_%s.csv", group), row.names = F)
+
 
 browseURL("output")
-# -----------------------------------------------------------------------------------------------------------------------------------------------
-# For Martin - unitil here, in the summary are only NA's in dev version in master G68 - G63 have numbers (others are not recoded yet in the data)
-
-kobostandards::check_input(data = r, analysisplan = analysisplan) %>% filter(grepl("analysisplan",affected_files))
-
-result_labeled <- result$results %>% lapply(map_to_labeled,questionnaire)
-result_labeled <- result
-result_labeled$results <- result$results %>% lapply(map_to_labeled,questionnaire)
-
-# exporting only small part of results for speed during testing:
-subset_of_results<- rep(FALSE,length(result$results))
-subset_of_results[500:700]<-TRUE
-some_results<-hypegrammaR:::results_subset(result,logical = subset_of_results)
-
-# not sure if this function should be "user facing" or have some wrappers (@Bouke thoughts?)
-# essentially it handles all the looping over different column values as hierarchies.
-# then each result is visualised by a function passed here that decides how to render each individual result
-# see ?hypegrammaR:::map_to_generic_hierarchical_html
-
-result_labeled$analysisplan$dependent.var
-
-hypegrammaR:::map_to_generic_hierarchical_html(result_labeled,
-                                               render_result_with = hypegrammaR:::from_result_map_to_md_table,
-                                               by_analysisplan_columns = c("dependent.var","repeat.var.value"),
-                                               by_prefix =  c("",""),
-                                               level = 2,
-                                               questionnaire = questionnaire,
-                                               label_varnames = TRUE,
-                                               dir = "./output",
-                                               filename = "summary_by_dependent_var_then_by_repeat_var.html"
-)
-browseURL("summary_by_dependent_var_then_by_repeat_var.html")
-
-
-# not sure this is working correctly.. next on agenda (:
-# big_table <- hypegrammaR:::map_to_datamerge(results$results, questionnaire = questionnaire, rows = "repeat.var.value")
-
