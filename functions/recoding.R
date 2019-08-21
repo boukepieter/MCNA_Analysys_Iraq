@@ -5,6 +5,7 @@ recoding_mcna <- function(r, loop) {
   loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
   r_female_headed <- r[which(r$X_uuid %in% loop$X_submission__uuid[which(loop$sex == "female" & loop$relationship == "head")]),]
   r$gender_hhh <- loop_hoh$sex[match(r$X_uuid, loop_hoh$X_submission__uuid)]
+  r$f_hhh <- ifelse(r$gender_hhh == "female", 1, 0)
   
   response$tot_income[which(response$tot_income == 88)] <- NA
   response$inc_employment[which(response$inc_employment == 88)] <- NA

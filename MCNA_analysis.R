@@ -107,11 +107,11 @@ response$weights<-weight_fun(response)
 # }
 
 
-
-
 response_with_composites <- recoding_mcna(response, loop)
-table(response_with_composites[which(response_with_composites$district == "erbil"), c("population_group", "g54")])
+table(response_with_composites[which(response_with_composites$district == "al.hatra"), c("population_group", "g65_i")], useNA="always")
 
+
+analysisplan <- read.csv("input/dap_no_independent.csv", stringsAsFactors = F)
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
@@ -122,18 +122,15 @@ result <- from_analysisplan_map_to_output(response_with_composites, analysisplan
 
 
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-write.csv(summary, "output/raw_results.csv")
+write.csv(summary, "output/raw_results_hhh.csv")
+summary <- read.csv("output/raw_results_hhh.csv", stringsAsFactors = F)
+summary <- correct.zeroes(summary)
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
-summary$moe <- summary$max - summary$min
-summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
-summary$research.question <- analysisplan$research.question[match(summary$dependent.var, analysisplan$dependent.variable)]
-write.csv(summary[,c("repeat.var.value", "dependent.var", "dependent.var.value","research.question", "independent.var.value", "numbers", "min", "max", "moe")],
-          "output/resultsssss.csv", row.names = F)
-
-lookup_table <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
-group <- "host"
-df <- pretty.output(summary, group, analysisplan, cluster_lookup_table, lookup_table)
-write.csv(df, sprintf("output/summary_sorted_%s.csv", group), row.names = F)
-
+groups <- unique(summary$independent.var.value)
+groups <- groups[!is.na(groups)]
+for (i in 1:length(groups)) {
+  df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table)
+  write.csv(df, sprintf("output/summary_sorted_%s.csv", groups[i]), row.names = F)
+}
 
 browseURL("output")

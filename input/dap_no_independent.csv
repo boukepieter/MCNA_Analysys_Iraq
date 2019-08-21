@@ -1,0 +1,201 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+"Intentions, Protection - MA",% of IDP HHs not intending to return to their AoO due to explosive hazards contamination,% of IDP HHs not intending to return to their AoO due to explosive hazards contamination,district,,,g73,categorical,direct_reporting
+Protection - HLP,% HH lacking secure tenure,% HH lacking secure tenure,district,,,g68,categorical,direct_reporting
+"Protection, Protection - CP",% HH missing at least one key household or individual document ,% HH missing at least one key household or individual document ,district,,,g51,categorical,direct_reporting
+"Protection, Protection - CP",Sub-indicator: % HH with at least one child missing a key document,Sub-indicator: % HH with at least one child missing a key document,district,,,g51_sub,categorical,direct_reporting
+"Protection, Protection - CP",Number of missing documents,Number of missing documents,district,,,g51_alt,numerical,direct_reporting
+Protection - Protection CP,Number of reported children missing birth certificates,Number of reported children missing birth certificates,district,,,g51a,numerical,direct_reporting
+Protection - Protection CP,Number of reported children missing national ID,Number of reported children missing national ID,district,,,g51b,numerical,direct_reporting
+"Protection, Access and safety",% HHs experiencing daytime movement restrictions,% HHs experiencing daytime movement restrictions,district,,,g54,categorical,direct_reporting
+Protection - GBV ,% women and girls who avoid areas because they feel unsafe there,% women and girls who avoid areas because they feel unsafe there,district,,,g63,categorical,direct_reporting
+HH Profile,Average household size,Average household size,district,,,a7,numerical,direct_reporting
+Family Profile,Average family size ,Average family size ,district,,,a8,numerical,direct_reporting
+Family Profile,% of male family members,% of [male/female] family members,district,,,a9_male,numerical,direct_reporting
+Family Profile,% of female family members,% of [male/female] family members,district,,,a9_female,numerical,direct_reporting
+Family Profile,% of children family members,% of [children/adult/elderly] family members,district,,,a10_child,numerical,direct_reporting
+Family Profile,% of adult family members,% of [children/adult/elderly] family members,district,,,a10_adult,numerical,direct_reporting
+Family Profile,% ofelderly family members,% of [children/adult/elderly] family members,district,,,a10_elderly,numerical,direct_reporting
+"Family Profile, 
+Protection","% of single-headed households (separated, divorced, widowed) ","% of single-headed households (separated, divorced, widowed) ",district,,,a11,categorical,direct_reporting
+"Family Profile, Protection CP & Protection GBV",% of households with presence of child marriage,% of households with presence of child marriage,district,,,a12,categorical,direct_reporting
+"Family Profile, Health",% of women pregnant / lactating,% of women pregnant / lactating,district,,,c11,categorical,direct_reporting
+"Family Profile, Health",% HH with at least one individual with a chronic health condition,% HH with at least one individual with a chronic health condition,district,,,g35,categorical,direct_reporting
+"Protection, Health","% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)","% HH with at least one individual with a disability (% HH with at least on individual that has ""lots of difficulty"" or ""cannot do at all"" one of the following activities: seeing, hearing, walking/climbing steps, remembering/concerntrating, self-care, communicating)",district,,,c3,categorical,direct_reporting
+"Protection MA,
+Health",% HH with individuals whose disability is related to an explosive hazard,% HH with individuals whose disability is related to an explosive hazard,district,,,c2,categorical,direct_reporting
+Protection,% HH with members unable to access one or more services due to disability,% HH with members unable to access one or more services due to disability,district,,,c9,categorical,direct_reporting
+"Education, Protection - CP",% HH with at least one child not attending formal or informal education regularly (at least 3 days a week),% HH with at least one child not attending formal or informal education regularly (at least 3 days a week),district,,,g4,categorical,direct_reporting
+"Education 
+Protection - CP",% HH with at least one child that dropped out after January 2014,% HH with at least one child that dropped out after January 2014,district,,,g6,categorical,direct_reporting
+Famile profile - Protection CP,% HH with at least one person under (<18) working,% HH with at least one person under (<18) working,district,,,a13,categorical,direct_reporting
+Family profile - Emerg. livelihoods,% HH with at least one adult (18+) unemployed and seeking work,% HH with at least one adult (18+) unemployed and seeking work,district,,,g44,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"We can’t afford to pay for the school related expenses (Examples include: Cannot afford to pay for the school fees (e.g. school supplies, tuition, textbook, food, uniforms, etc.), Cannot afford to pay for transport)",district,,,g7_i,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"School stopped functioning and is now closed (Examples include: Occupied by armed forces, Partially damaged, Totally damaged, Occupied by displaced persons, Lack of students)",district,,,g7_ii,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"Going or attending school is not safe (Examples include: it is unsafe to travel or go to school, Fear of recruitment in/on way to school, Fear of bombing, Fear of violence against children at school (corporal punishment, harassment by teachers and other students, bullying, etc.), Fear of abduction in/on way to school)",district,,,g7_iii,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"We are not able to register or enrol our children in the school (Examples include: Lack of documentation to enrol child, Recently or continuous movement to different locations, Newly arrived at location and have yet to enrol/register, Unable to enrol school due to discrimination, Poor performance/dismissed)",district,,,g7_iv,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"Our children can’t physically go to the school (Examples include: Disability (of child), Traumatization (of child), School is too far away, No transport available to bring to school, No fuel available to bring to school, Child ill, disabled or unhealthy, Child is too young)",district,,,g7_v,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,School and classes are overcrowded,district,,,g7_vi,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"Lack of staff to run the school (Examples include: Lack of teachers, Lack of skilled/trained teachers, Lack of gender appropriate teachers/staff)",district,,,g7_vii,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"The school infrastructure is poor (Examples include: The schools building is in poor condition (e.g. lack of furniture, no electricity, water leaks, poor latrines, poor amenities, etc.), The WASH facilities are in poor conditions (latrines maintenance, smell, lightning, gender segregation, etc.)",district,,,g7_viii,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,The curriculum and teaching are not adapted for our children (Examples include: Curriculum is not appropriate; Language is not appropriate),district,,,g7_ix,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"Our children are busy working or supporting the household (Examples include: Children need to stay at home and assist the family with household chores or contribute to HH income, Early marriage)",district,,,g7_x,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,"Parental refusal to send children to school (Examples include: Customs/tradition, Don't believe schooling is necessary/do not consider education important, Missed too much school to make up, Children shouldn't get western education)",district,,,g7_xi,categorical,direct_reporting
+Famile profile - Protection CP,Main barriers to school for school-aged children,Lack of interest of children in education.,district,,,g7_xii,categorical,direct_reporting
+"Education, Protection - CP",% HH with at least one child unable to attend formal education because of lack of civil documentation,% HH with at least one child unable to attend formal education because of lack of civil documentation,district,,,g7a,categorical,direct_reporting
+Livelihoods,Main barriers to employment,Increased competition for jobs; not enough jobs for everyone,district,,,g45_i,categorical,direct_reporting
+Livelihoods,Main barriers to employment,Available jobs are too far away,district,,,g45_ii,categorical,direct_reporting
+Livelihoods,Main barriers to employment,"Only low-skilled, socially degrading or low-paid jobs are available",district,,,g45_iii,categorical,direct_reporting
+Livelihoods,Main barriers to employment,Underqualified for available jobs,district,,,g45_iv,categorical,direct_reporting
+Livelihoods,Main barriers to employment,Lack of family/personal connections,district,,,g45_v,categorical,direct_reporting
+Livelihoods,Main barriers to employment,None,district,,,g45_vi,categorical,direct_reporting
+Food Security,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, using CARI Analysis (composite using FCS, food expenditure share, and CS categories)","% HH with ""moderately insecure"" or ""severely insecure"" food security status, using CARI Analysis",district,,,g14,categorical,direct_reporting
+Food Security,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, using CARI Analysis (composite using FCS, food expenditure share, and CS categories)",% HH with food expenditure share above 50%,district,,,g14a,categorical,direct_reporting
+"Livelihoods, Food Security, CWG, Protection",% HH relying on stress / crisis / emergency strategies to cope with a lack of resources to meet basic needs. ,% HH relying on stress strategies to cope with a lack of resources to meet basic needs. ,district,,,b5,categorical,direct_reporting
+"Livelihoods, Food Security, CWG, Protection",% HH relying on stress / crisis / emergency strategies to cope with a lack of resources to meet basic needs. ,% HH relying on crisis strategies to cope with a lack of resources to meet basic needs. ,district,,,b6,categorical,direct_reporting
+"Livelihoods, Food Security, CWG, Protection",% HH relying on stress / crisis / emergency strategies to cope with a lack of resources to meet basic needs. ,% HH relying on emergency strategies to cope with a lack of resources to meet basic needs. ,district,,,b7,categorical,direct_reporting
+Health,% HH with access to a functional health clinic within 5km ,% HH with access to a functional health clinic within 5km ,district,,,g25,categorical,direct_reporting
+Health,"% HH with access to a functional hospital within 10 km with emergency, maternity, surgical and pediatric services ","% HH with access to a functional hospital within 10 km with emergency, maternity, surgical and pediatric services ",district,,,g26,categorical,direct_reporting
+"Health, Protection GBV",% Women of reproductive age (12-49) with access to specialized reproductive health services,% Women of reproductive age (12-49) with access to specialized reproductive health services,district,,,g32,categorical,direct_reporting
+"Health, Protection CP",% HH with children with psychosocial distress (proxy data with behaviour change),% HH with children with psychosocial distress (proxy data with behaviour change),district,,,g56,categorical,direct_reporting
+"Health, Protection ",% HH adults with psychosocial distress (proxy data with behavior change),% HH adults with psychosocial distress (proxy data with behavior change),district,,,g57,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Problems with civil documents,district,,,g34_i,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Cost of services and/or medicine was too high,district,,,g34_ii,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Did not get access to qualified health staff at the health facility,district,,,g34_iii,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Medical staff refused treatment without any explanation,district,,,g34_iv,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,No medicine available at health facility / pharmacy,district,,,g34_v,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Health services not inclusive of people with disabilities,district,,,g34_vi,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,No treatment available for my disease at the health facility,district,,,g34_vii,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Public health clinic did not provide referral,district,,,g34_viii,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,Public health clinic not open,district,,,g34_ix,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,The treatment center was too far away / Transportation constraints,district,,,g34_x,categorical,direct_reporting
+Health,% HH reporting [type of difficulty] in accessing health services,"None applicable, have not tried to access health services recently",district,,,g34_xi,categorical,direct_reporting
+WASH,% of HH with access to an improved water source,% of HH with access to an improved water source,district,,,g95,categorical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,district,,,g94,categorical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,% HH who require water treatment prior to drinking,district,,,g96,categorical,direct_reporting
+WASH,% HH with access to improved functional sanitation facilities ,% HH with access to improved functional sanitation facilities ,district,,,g97,categorical,direct_reporting
+WASH,% HH with access to soap and practicing handwashing,% HH with access to soap and practicing handwashing,district,,,g99,categorical,direct_reporting
+"SNFI, Protection",% of people living under critical shelter conditions (aggregated indicator),% of people living under critical shelter conditions (aggregated indicator),district,,,a16,categorical,direct_reporting
+"SNFI, Protection",% HH living with hosts ,% HH living with hosts ,district,,,a17,categorical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,% HHs reporting fearing eviction,district,,,g64,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Authorities requested our household to leave,district,,,g65_i,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Lack of funds to pay rental costs,district,,,g65_ii,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Host family no longer able to host our family,district,,,g65_iii,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Local community does not accept our family living in the area,district,,,g65_iv,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Request to vacate from owner of building/land,district,,,g65_v,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,No valid tenancy agreement,district,,,g65_vi,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Inadequate housing / shelter condition,district,,,g65_vii,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Housing occupied by other groups,district,,,g65_viii,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Risk of property being confiscated,district,,,g65_ix,categorical,direct_reporting
+Protection - HLP,% HH reporting [reason] as a risk for eviction,Ownership of property is disputed,district,,,g65_x,categorical,direct_reporting
+SNFI,Main shelter issues,No issues,district,,,g90_i,categorical,direct_reporting
+SNFI,Main shelter issues,Contamination from explosive hazards,district,,,g90_ii,categorical,direct_reporting
+SNFI,Main shelter issues,Land at risk of flooding or landslides,district,,,g90_iii,categorical,direct_reporting
+SNFI,Main shelter issues,Proximity to solid waste dumping site,district,,,g90_iv,categorical,direct_reporting
+SNFI,Main shelter issues,Fire risks,district,,,g90_v,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter located in an insicure or isolated area,district,,,g90_vi,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter not solid enough to offer protection from intruders,district,,,g90_vii,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter not fenced,district,,,g90_viii,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter without security of tenure,district,,,g90_ix,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter without separate rooms,district,,,g90_x,categorical,direct_reporting
+SNFI,Main shelter issues,"Not enough space or lack of space inside the shelter (min 5,5m2 per person incl. space for kitchen and wash facilities)",district,,,g90_xi,categorical,direct_reporting
+SNFI,Main shelter issues,Ceilings are too high or too low,district,,,g90_xii,categorical,direct_reporting
+SNFI,Main shelter issues,Lack of natural lighting,district,,,g90_xiii,categorical,direct_reporting
+SNFI,Main shelter issues,Leaking roof during rain,district,,,g90_xiv,categorical,direct_reporting
+SNFI,Main shelter issues,Shelter poorly insulated from hot/cold weather,district,,,g90_xv,categorical,direct_reporting
+SNFI,Main shelter issues,Openings on the walls,district,,,g90_xvi,categorical,direct_reporting
+SNFI,Main shelter issues,Broken windows,district,,,g90_xvii,categorical,direct_reporting
+SNFI,Main shelter issues,Lack or limited ventilation,district,,,g90_xviii,categorical,direct_reporting
+SNFI,Main shelter issues,No electrical connection,district,,,g90_xix,categorical,direct_reporting
+SNFI,Main shelter issues,Missing or substandard washing facilities,district,,,g90_xx,categorical,direct_reporting
+SNFI,Main shelter issues,Lack of access to cooking facilities,district,,,g90_xxi,categorical,direct_reporting
+SNFI,Main shelter issues,"Bends/failure in structural components (walls, beams, slab, column)",district,,,g90_xxii,categorical,direct_reporting
+SNFI,% HHs needing basic NFI items,% HHs needing basic NFI items,district,,,g85,categorical,direct_reporting
+SNFI,% HHs reporting at least 2 shelter improvements,% HHs reporting at least 2 shelter improvements,district,,,g89,categorical,direct_reporting
+Education,Access to ed: % HH with a functional primary and secondary school within 5km,Access to ed: % HH with a functional primary and secondary school within 5km,district,,,g8,categorical,direct_reporting
+Livelihoods,"% of households whose average monthly income [from employment and pension] was less than 480,000 IQD/month","% of households whose average monthly income [from employment and pension] was less than 480,000 IQD/month",district,,,b1,categorical,direct_reporting
+Livelihoods,"% of single female headed households whose average monthly income [from employment and pension] was less than 480,000 IQD/month","% of single female headed households whose average monthly income [from employment and pension] was less than 480,000 IQD/month",district,,,b3,categorical,direct_reporting
+Livelihoods,% HH relying exclusively on humanitarian assistance as their main source of income,% HH relying exclusively on humanitarian assistance as their main source of income,district,,,b2,categorical,direct_reporting
+Livelihoods,% HH with all working adults in unstable employment,% HH with all working adults in unstable employment,district,,,g46,categorical,direct_reporting
+Livelihoods,% HH spending [expenditure] on basic needs per month,% HH spending [expenditure] on basic needs per month,district,,,g100,numerical,direct_reporting
+Livelihoods,"% HH with debt value > 505,000 IQD ","% HH with debt value > 505,000 IQD ",district,,,g37,categorical,direct_reporting
+Livelihoods,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)","% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",district,,,g38,categorical,direct_reporting
+Livelihoods,% HH with access to a market less than 5 km away,% HH with access to a market less than 5 km away,district,,,g41,categorical,direct_reporting
+"Durable Solutions - Adequate standard of living, Protection - HLP",% HH that were evicted from previous shelter/housing in the 12 months previous,% HH that were evicted from previous shelter/housing in the 12 months previous,district,,,f5,categorical,direct_reporting
+Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,% HH with ownership or secure rights over agricultural land,district,,,f6,categorical,direct_reporting
+"Durable solutions -  Access to effective mechanisms to restore housing, land and property (HLP) or to provide compensation, Protection - HLP",% HH in need of property compensation and unable to access it,% HH in need of property compensation and unable to access it,district,,,f7,categorical,direct_reporting
+"Durable Solutions - Use of mechanisms for effective remedies, incl. access to justice, reparations and information about the causes of violations", % HH with access/knowledge of complaint mechanisms , % HH with access/knowledge of complaint mechanisms ,district,,,f7b,categorical,direct_reporting
+Durable solutions - Voluntary reunification with family members separated during displacement,% HH with separated household members,% HH with separated household members,district,,,f9,categorical,direct_reporting
+Durable solutions - Participation in public affairs,% HH with at least one adult unable to register to vote ,% HH with at least one adult unable to register to vote ,district,,,f10,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Humanitarian assistance,district,,,d1_i,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Safety and security,district,,,d1_ii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Status of housing,district,,,d1_iii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Livelihoods,district,,,d1_iv,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Water services,district,,,d1_v,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Electricity services,district,,,d1_vi,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Education,district,,,d1_vii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Healthcare,district,,,d1_viii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Legal services,district,,,d1_ix,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,"House, land and property services",district,,,d1_x,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,"Explosive hazards clearance (mines, bombs, IEDs)",district,,,d1_xi,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,Renewing official documentation,district,,,d1_xii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - what  ,I do not want to receive information,district,,,d1_xiii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,NGO&humanitarian actors,district,,,d2_i,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Friends and family living in the AoO,district,,,d2_ii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Friends and family that visited the AoO in the past 30 days,district,,,d2_iii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Friends and family that have not been in the AoO,district,,,d2_iv,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Local authorities,district,,,d2_v,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,National authorities,district,,,d2_vi,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Religious leaders,district,,,d2_vii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Mukhtars,district,,,d2_viii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Sector leaders,district,,,d2_ix,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - who/where,Schools and community centres,district,,,d2_x,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Mobile phone (text SMS),district,,,d3_i,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Direct observation,district,,,d3_ii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Face-to-face communication (e.g. from friends),district,,,d3_iii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Television,district,,,d3_iv,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Telephone/mobile phone (Voice call),district,,,d3_v,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Facebook (app),district,,,d3_vi,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Facebook (messenger),district,,,d3_vii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Whatsapp,district,,,d3_viii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Viber,district,,,d3_ix,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,"Other social networks (Skype, instagram, twitter)",district,,,d3_x,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Notice boards and posters,district,,,d3_xi,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Newspapers and magazines,district,,,d3_xii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Printed leaflet,district,,,d3_xiii,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Loud speakers,district,,,d3_xiv,categorical,direct_reporting
+AAP,Information needs and preferences from aid providers - means,Radio,district,,,d3_xv,categorical,direct_reporting
+AAP,% HH reporting to have received aid ,% HH reporting to have received aid ,district,,,d4,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Cash,district,,,d5_i,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Food,district,,,d5_ii,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Water,district,,,d5_iii,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Fuel,district,,,d5_iv,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Shelter,district,,,d5_v,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Seasonal items,district,,,d5_vi,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Health services,district,,,d5_vii,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Other non-food items,district,,,d5_viii,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Education Services,district,,,d5_ix,categorical,direct_reporting
+AAP,% HH reporting to have received [type of aid],Protection services (legal assistance; psycho-social support; GBV services; child protection services; explosive hazard risk education),district,,,d5_x,categorical,direct_reporting
+AAP,% HH satsified with aid received ,% HH satsified with aid received ,district,,,d6,categorical,direct_reporting
+AAP,% HH not satsified with quanitity ,% HH not satsified with quanitity ,district,,,d7,categorical,direct_reporting
+AAP,% HH not satisifed with aid worker behavior ,% HH not satisifed with aid worker behavior ,district,,,d10,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ","SMS (WhatsApp, Viber, etc.)",district,,,d13_i,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Face to face (at home) with aid worker,district,,,d13_ii,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Face to face (in office/other venue) with aid worker,district,,,d13_iii,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Face to face with member of the community ,district,,,d13_iv,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Phone call,district,,,d13_v,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",E-mail,district,,,d13_vi,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Letter,district,,,d13_vii,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ","Social media (Facebook, etc.)",district,,,d13_viii,categorical,direct_reporting
+AAP,"% HH citing [feedback mode] to provide feedback to aid providers about the quality, quantity, and appropriateness of the aid received ",Complaints/suggestions box,district,,,d13_ix,categorical,direct_reporting
+AAP,% HH feeling they have a say in decisions affecting their community ,% HH feeling they have a say in decisions affecting their community ,district,,,d11,categorical,direct_reporting
+AAP,% HH with acces/knowledge of complaint mechanisms ,% HH with acces/knowledge of complaint mechanisms ,district,,,d12,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Older persons,district,,,d14_i,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Unaccompanied or separate persons,district,,,d14_ii,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Persons with serious health conditions,district,,,d14_iii,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Persons with special legal or physical protection needs,district,,,d14_iv,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Single women,district,,,d14_v,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Women-headed households,district,,,d14_vi,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Persons with disabilities,district,,,d14_vii,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Persons with mental health problems,district,,,d14_viii,categorical,direct_reporting
+AAP,% HH unable to access available info because of … (specific needs: Unaccompanied and separated children; People with serious health conditions; Persons with special legal or physical protection needs; Single women; Women-headed households; Persons with disabilities; People with mental health problems; Older persons; Persons with a diverse sexual orientation or gender identity; People who can not read,Persons who cannot read,district,,,d14_ix,categorical,direct_reporting
+severity,% of female headed HHs,% of female headed HHs,district,,,f_hhh,categorical,direct_reporting

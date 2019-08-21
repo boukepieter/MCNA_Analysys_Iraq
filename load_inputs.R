@@ -25,6 +25,7 @@ loop_in_camp <- read.csv("input/loop_in_camp.csv", stringsAsFactors = F)
 
 cluster_lookup_table <- read.csv("input/combined_sample_ids.csv", 
                                  stringsAsFactors=F, check.names=F)
+lookup_table <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
 
 
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
