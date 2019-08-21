@@ -108,8 +108,8 @@ response$weights<-weight_fun(response)
 
 
 response_with_composites <- recoding_mcna(response, loop)
-table(response_with_composites[which(response_with_composites$district == "al.hatra"), c("population_group", "g65_i")], useNA="always")
-
+table(response_with_composites[, c("population_group", "sev_ex_1")], useNA="always")
+which(response_with_composites$district == "al.hatra")
 
 analysisplan <- read.csv("input/dap_no_independent.csv", stringsAsFactors = F)
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
@@ -119,13 +119,15 @@ result <- from_analysisplan_map_to_output(response_with_composites, analysisplan
 
 
 # saveRDS(result,paste("result.RDS"))
+summary[which(summary$dependent.var == "g51a"),]
 
-
+source("postprocessing_functions.R")
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-write.csv(summary, "output/raw_results_hhh.csv")
-summary <- read.csv("output/raw_results_hhh.csv", stringsAsFactors = F)
+write.csv(summary, "output/raw_results_no_independent.csv")
+summary <- read.csv("output/raw_results_no_independent.csv", stringsAsFactors = F)
 summary <- correct.zeroes(summary)
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "all"}
 groups <- unique(summary$independent.var.value)
 groups <- groups[!is.na(groups)]
 for (i in 1:length(groups)) {
@@ -134,3 +136,34 @@ for (i in 1:length(groups)) {
 }
 
 browseURL("output")
+
+### Severity calculation
+all <- read.csv("output/summary_sorted_all.csv", stringsAsFactors = F)
+f_hhh <- read.csv("output/summary_sorted_female.csv", stringsAsFactors = F)
+results <- list(all = all, f_hhh = f_hhh)
+severity_table <- read.csv("input/severity_thresholds.csv", stringsAsFactors = F)
+severity_table <- severity_table[-18,]
+districts <- unique(c(all$district, f_hhh$district))[-1]
+df <- data.frame(sector = rep(severity_table$sector, each=2), indicator_code = rep(severity_table$indicator_code, each=2), 
+                 indicator = rep(severity_table$indicator, each=2),
+                 stringsAsFactors = F)
+for (j in 1:length(districts)) {
+  df[,districts[j]] <- NA
+  for (i in 1:nrow(severity_table)){
+    if (severity_table$resultset[i] == "camp"){next}
+    value <- as.numeric(results[[severity_table$resultset[i]]][results[[severity_table$resultset[i]]]$district == districts[j],severity_table$indicator_code[i]])
+    df[(i-1) * 2 + 1, districts[j]] <- value
+    if (severity_table$lower_limit[i] == 0) {
+      df[(i-1) * 2 + 2, districts[j]] <- ifelse(value < severity_table$Minimal..1.[i], 1,
+                                                ifelse(value < severity_table$Stress..2.[i], 2,
+                                                       ifelse(value < severity_table$Severe..3.[i], 3,
+                                                              ifelse(value < severity_table$Extreme..5.[i], 4, 5))))
+    } else if (severity_table$lower_limit[i] == 1) {
+      df[(i-1) * 2 + 2, districts[j]] <- ifelse(value >= severity_table$Minimal..1.[i], 1,
+                                                ifelse(value >= severity_table$Stress..2.[i], 2,
+                                                       ifelse(value >= severity_table$Severe..3.[i], 3,
+                                                              ifelse(value >= severity_table$Extreme..5.[i], 4, 5))))
+    }
+  }
+}
+write.csv(df, "output/severity_output.csv", row.names = F)

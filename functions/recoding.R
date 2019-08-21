@@ -417,6 +417,14 @@ recoding_mcna <- function(r, loop) {
   r$g51_ad1 <- ifelse(r$birth_cert_missing_amount_u1 %in% c(NA, 0), 0, 1)
   r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
   r$g51_ad3 <- ifelse(r$id_card_u18 == "no", 1, 0)
+  r$sev_ex_1 <- apply(r, 1, FUN=function(x){
+      ifelse(any(loop_females$difficulty_seeing[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+               any(loop_females$difficulty_hearing[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+               any(loop_females$difficulty_walking[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+               any(loop_females$difficulty_remembering[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+               any(loop_females$difficulty_washing[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")) |
+               any(loop_females$difficulty_communicating[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 0)
+    })
   
   
   return(r)
