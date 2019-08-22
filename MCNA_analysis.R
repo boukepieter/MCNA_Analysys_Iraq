@@ -137,6 +137,15 @@ for (i in 1:length(groups)) {
 
 browseURL("output")
 
+### NA's
+summary_statistics_get_na_messages<-function(results){
+  x<-x$results
+  lapply(results,function(x){
+    
+    attributes(x$summary.statistic)$hg_summary_statistic_fail_message
+    x}) 
+}
+
 ### Severity calculation
 all <- read.csv("output/summary_sorted_all.csv", stringsAsFactors = F)
 f_hhh <- read.csv("output/summary_sorted_female.csv", stringsAsFactors = F)

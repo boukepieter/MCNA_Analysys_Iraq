@@ -1,19 +1,18 @@
 resultset,indicator_code,sector,indicator,lower_limit,Minimal (1),Stress (2),Severe (3),Extreme (5),Catastrophic (6)
-all,g4,Education ,Access to education (% of School age children 3-18 accessing education ),1,0.80,0.60,0.40,0.20,0.00
-all,g14,FSC,"% of households with Food security status (Food secure, Vulnerable to food insecurity, Food insecure) (using CARI Analysis).",0,0.02,0.04,0.12,0.73,1.00
-all,g37,EL,Money Taken as Debt,1,1.00,0.90,0.70,0.50,0.00
-all,g44,EL,% of Unemployment (seeking work),1,1.00,0.90,0.70,0.50,0.00
-all,g38,EL,Unable to afford basic needs,1,1.00,0.90,0.70,0.50,0.00
-all,f_hhh,Protection - GBV,% of female headed HHs,0,0.04,0.07,0.09,0.10,1.00
-f_hhh,b1,Protection - GBV,"% HH unable to meet their basic needs (income less than 480,000 IQD/month (income being employment + pension) NOTE: proportion indicator by % femal at district level ",0,0.06,0.10,0.15,0.20,1.00
-all,sev_ex_1,Protection - GBV,% of females with disabilities,0,0.04,0.07,0.09,0.10,1.00
-f_hhh,a16,Protection - GBV,% HH that live under critical shelter conditions  NOTE: proportion indicator by % femal at district level ,0,0.04,0.07,0.09,0.10,1.00
-all,g63,Protection - GBV,% women and girls who avoid areas because they feel unsafe there,0,0.04,0.07,0.09,0.10,1.00
-all,a12,Protection - GBV,% of households with presence of child marriage ,0,0.04,0.07,0.09,0.10,1.00
-all,g57,Protection - GBV,% of the HH with at least one adult with psychosocial distress,0,0.05,0.07,0.09,0.11,1.00
-all,g94,WASH ,% HH without access to sufficient quantity of safe water for drinking and domestic puproses (% HH with less than 50 litres of water per person) [aggregate indicator],0,0.30,0.50,0.70,0.90,1.00
-all,g96,WASH ,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],0,0.30,0.50,0.70,0.90,1.00
-all,g97,WASH ,% of HH without access to improved functional sanitation facilities [aggregate indicator],0,0.30,0.50,0.70,0.90,1.00
-all,g99,WASH ,% of HH without access to soap and practicing handwashing [aggregate indicator],0,0.30,0.50,0.70,0.90,1.00
-camp,,WASH ,% of HH reporting  no access to waste collection or communal garbage bins (in camps),0,0.30,0.50,0.70,0.90,1.00
-,,,,,,,,,
+all,g4,Education ,Access to education (% of School age children 3-18 accessing education ),1,0.8,0.6,0.4,0.2,0
+all,g14,FSC,"% of households with Food security status (Food secure, Vulnerable to food insecurity, Food insecure) (using CARI Analysis).",0,0.02,0.04,0.12,0.73,1
+all,g37,EL,Money Taken as Debt,1,1,0.9,0.7,0.5,0
+all,g44,EL,% of Unemployment (seeking work),1,1,0.9,0.7,0.5,0
+all,g38,EL,Unable to afford basic needs,1,1,0.9,0.7,0.5,0
+all,f_hhh,Protection - GBV,% of female headed HHs,0,0.04,0.07,0.09,0.1,1
+f_hhh,b1,Protection - GBV,"% HH unable to meet their basic needs (income less than 480,000 IQD/month (income being employment + pension) NOTE: proportion indicator by % femal at district level ",0,0.06,0.1,0.15,0.2,1
+all,sev_ex_1,Protection - GBV,% of females with disabilities,0,0.04,0.07,0.09,0.1,1
+f_hhh,a16,Protection - GBV,% HH that live under critical shelter conditions  NOTE: proportion indicator by % femal at district level ,0,0.04,0.07,0.09,0.1,1
+all,g63,Protection - GBV,% women and girls who avoid areas because they feel unsafe there,0,0.04,0.07,0.09,0.1,1
+all,a12,Protection - GBV,% of households with presence of child marriage ,0,0.04,0.07,0.09,0.1,1
+all,g57,Protection - GBV,% of the HH with at least one adult with psychosocial distress,0,0.05,0.07,0.09,0.11,1
+all,g94,WASH ,% HH without access to sufficient quantity of safe water for drinking and domestic puproses (% HH with less than 50 litres of water per person) [aggregate indicator],1,0.7,0.5,0.3,0.1,0
+all,g96,WASH ,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],0,0.3,0.5,0.7,0.9,1
+all,g97,WASH ,% of HH without access to improved functional sanitation facilities [aggregate indicator],1,0.7,0.5,0.3,0.1,0
+all,g99,WASH ,% of HH without access to soap and practicing handwashing [aggregate indicator],1,0.7,0.5,0.3,0.1,0
+camp,,WASH ,% of HH reporting  no access to waste collection or communal garbage bins (in camps),0,0.3,0.5,0.7,0.9,1
