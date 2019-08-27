@@ -1,7 +1,7 @@
 setwd("data_cleaning")
 source("setup.R")
 source("cleaning_functions.R")
-dir <- "raw_data/20190818"
+dir <- "raw_data/20190820"
 # ignore_date <- c("2019-07-21")
 
 data <- read.csv(sprintf("%s/parent_cleaned_anonymised.csv",dir), stringsAsFactors = F, encoding = "UTF-8")
@@ -464,3 +464,22 @@ log <- l[[1]]
 
 table(l[[2]], useNA = "always")
 write.csv(log, sprintf("%s/cleaning_logbook.csv",dir), row.names = F)
+
+# catching mistakes in governorates
+lookup <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
+lookup <- lookup[-(1:18),]
+uuids <- response$X_uuid[!lookup$filter[match(response$district, lookup$name)] == response$governorate_mcna]
+new_governorates <- lookup$filter[match(response$district[response$X_uuid %in% uuids], lookup$name)]
+write.csv(data.frame(uuid = uuids, district = response$district[response$X_uuid %in% uuids],
+           old_gov = response$governorate_mcna[response$X_uuid %in% uuids],
+           new_gov = new_governorates), "govs_change.csv", row.names = F)
+govs <- unique(new_governorates)
+for (i in i:length(govs)){
+  uuid <- uuids[which(new_governorates == govs[i])]
+  log <- log.cleaning.change.extended(response, partners, psu, uuid, action = "c",  
+                                      question.name="governorate_mcna", 
+                                      issue="Wrong governorate selected, related to issue with wrong governorates in sampling frame.",
+                                      new.value = govs[i],
+                                      dir = dir)
+}
+

@@ -1,0 +1,36 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type,ignore
+Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,HH with ownership or secure rights over agricultural land BY HH with at least one adult unemployed and seeking work,district,g44_ad1,categorical,f6,categorical,direct_reporting,
+Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,HH with ownership or secure rights over agricultural land BY HH with all work adults in unstable employment,district,seasonal,categorical,f6,categorical,direct_reporting,
+Durable Solutions - Access to livelihoods & employment,% HH with ownership or secure rights over agricultural land,HH with ownership or secure rights over agricultural land BY each source of income,district,inc_source,categorical,f6,categorical,direct_reporting,
+Health,% HH with children with psychosocial distress (proxy data with behaviour change) [aggregate indicator],"Average number of HH members affected, by M and F headed HH",district,gender_hhh,categorical,g56_ad1,numerical,direct_reporting,
+WASH,% HH with access to sufficient quantity of safe water for drinking and domestic puproses (% HH with more than 50 litres of water per person) [aggregate indicator],Disabled/Non-Disabled HH head,district,disabled_hhh,categorical,g94,categorical,direct_reporting,
+WASH,% HH with access to sufficient quantity of safe water for drinking and domestic puproses (% HH with more than 50 litres of water per person) [aggregate indicator],M/F HH head,district,gender_hhh,categorical,g94,categorical,direct_reporting,
+WASH,% HH with access to sufficient quantity of safe water for drinking and domestic puproses (% HH with more than 50 litres of water per person) [aggregate indicator],HH with at least 1 PLW,district,plw_hh,categorical,g94,categorical,direct_reporting,
+WASH,% HH with access to sufficient quantity of safe water for drinking and domestic puproses (% HH with more than 50 litres of water per person) [aggregate indicator],HH with insufficient income to cover basic needs vs sufficient,district,b1,categorical,g94,categorical,direct_reporting,
+WASH,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],Disabled/Non-Disabled HH head,district,disabled_hhh,categorical,g96,categorical,direct_reporting,
+WASH,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],M/F HH head,district,gender_hhh,categorical,g96,categorical,direct_reporting,
+WASH,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],HH with at least 1 PLW,district,plw_hh,categorical,g96,categorical,direct_reporting,
+WASH,% HH without access to safe water of good quality (% HH who require water treatment prior to drinking) [aggregate indicator],HH with insufficient income to cover basic needs vs sufficient,district,b1,categorical,g96,categorical,direct_reporting,
+WASH,% HH with access to improved functional sanitation facilities [aggregate indicator],Disabled/Non-Disabled HH head,district,disabled_hhh,categorical,g97,categorical,direct_reporting,
+WASH,% HH with access to improved functional sanitation facilities [aggregate indicator],M/F HH head,district,gender_hhh,categorical,g97,categorical,direct_reporting,
+WASH,% HH with access to improved functional sanitation facilities [aggregate indicator],HH with at least 1 PLW,district,plw_hh,categorical,g97,categorical,direct_reporting,
+WASH,% HH with access to improved functional sanitation facilities [aggregate indicator],HH with insufficient income to cover basic needs vs sufficient,district,b1,categorical,g97,categorical,direct_reporting,
+WASH,% HH with access to soap and practicing handwashing [aggregate indicator],Disabled/Non-Disabled HH head,district,disabled_hhh,categorical,g99,categorical,direct_reporting,
+WASH,% HH with access to soap and practicing handwashing [aggregate indicator],M/F HH head,district,gender_hhh,categorical,g99,categorical,direct_reporting,
+WASH,% HH with access to soap and practicing handwashing [aggregate indicator],HH with at least 1 PLW,district,plw_hh,categorical,g99,categorical,direct_reporting,
+WASH,% HH with access to soap and practicing handwashing [aggregate indicator],HH with insufficient income to cover basic needs vs sufficient,district,b1,categorical,g99,categorical,direct_reporting,
+WASH,% HH without  access to waste collection services (in camps),Disabled/Non-Disabled HH head,district,disabled_hhh,categorical,g101,categorical,direct_reporting,TRUE
+WASH,% HH without  access to waste collection services (in camps),M/F HH head,district,gender_hhh,categorical,g101,categorical,direct_reporting,TRUE
+WASH,% HH without  access to waste collection services (in camps),HH with at least 1 PLW,district,plw_hh,categorical,g101,categorical,direct_reporting,TRUE
+WASH,% HH without  access to waste collection services (in camps),HH with insufficient income to cover basic needs vs sufficient,district,b1,categorical,g101,categorical,direct_reporting,TRUE
+severity,% of female headed HHs,% of female headed HHs,district,population_group,categorical,f_hhh,categorical,direct_reporting,TRUE
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,selling_assets,district,population_group,categorical,b5_ad1,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,borrow_debt,district,population_group,categorical,b5_ad2,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,reduce_spending,district,population_group,categorical,b5_ad3,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,selling_transportation_means,district,population_group,categorical,b6_ad1,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,change_place,district,population_group,categorical,b6_ad2,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,child_work,district,population_group,categorical,b6_ad3,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,child_dropout_school,district,population_group,categorical,b7_ad1,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,adult_risky,district,population_group,categorical,b7_ad2,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,family_migrating,district,population_group,categorical,b7_ad3,categorical,direct_reporting,
+"Cross-cutting, CWG, FSC, Livelihoods ",% of HH engaging in maximum coping strategies,child_forced_marriage,district,population_group,categorical,b7_ad4,categorical,direct_reporting,

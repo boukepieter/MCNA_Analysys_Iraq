@@ -325,6 +325,17 @@ recoding_mcna <- function(r, loop) {
   r$d14_viii <- ifelse(r$info_specific_needs_who.mental_health %in% c(NA, 0), 0, 1)
   r$d14_ix <- ifelse(r$info_specific_needs_who.illeterate %in% c(NA, 0), 0, 1)
   
+  return(r)
+}
+
+recoding_O <- function(r, loop) {
+  loop_hoh <- loop[which(loop$relationship == "head"),]
+  loop_children <- loop[which(loop$age < 18),]
+  loop_females <- loop[which(loop$sex == "female"),]
+  loop_females <- loop_females %>% mutate(plw = ifelse(pregnant_lactating == "yes", 1, 0))
+  r_female_headed <- r[which(r$X_uuid %in% loop$X_submission__uuid[which(loop$sex == "female" & loop$relationship == "head")]),]
+  r$gender_hhh <- loop_hoh$sex[match(r$X_uuid, loop_hoh$X_submission__uuid)]
+  r$f_hhh <- ifelse(r$gender_hhh == "female", 1, 0)
   ### Extra CP indicators
   loop_girls_18 <- loop[which(loop$age < 18 & loop$sex == "female"),]
   loop_girls_12 <- loop[which(loop$age < 12 & loop$sex == "female"),]
@@ -332,7 +343,9 @@ recoding_mcna <- function(r, loop) {
   loop_boys_12 <- loop[which(loop$age < 12 & loop$sex == "male"),]
   loop_boys_18 <- loop[which(loop$age < 18 & loop$sex == "male"),]
   loop_boys_12_18 <- loop_children[which(loop_children$age >= 12 & loop_children$sex == "male"),]
+  PLW <- as.data.frame(loop_females %>% dplyr::group_by(X_submission__uuid) %>% dplyr::summarize(sum(plw)))
   
+  # CP indicators
   r$a12_ad1 <- apply(r, 1, FUN=function(x){
     ifelse(any(loop_girls_12$marital_status[which(loop_girls_12$X_submission__uuid == x["X_uuid"])] == "married"), 1, 
            ifelse(x["X_uuid"] %in% loop_girls_12$X_submission__uuid, 0, NA))
@@ -412,8 +425,6 @@ recoding_mcna <- function(r, loop) {
            ifelse(x["X_uuid"] %in% loop_boys_12_18$X_submission__uuid, 0, NA))
   })
   
-  r$g56_ad1 <- ifelse(r$child_distress_number < 1 | is.na(r$child_distress_number), 0, 
-                  r$child_distress_number )
   r$g51_ad1 <- ifelse(r$birth_cert_missing_amount_u1 %in% c(NA, 0), 0, 1)
   r$g51_ad2 <- ifelse(r$birth_cert_missing_amount_a1 %in% c(NA, 0), 0, 1)
   r$g51_ad3 <- ifelse(r$id_card_u18 == "no", 1, 0)
@@ -426,6 +437,50 @@ recoding_mcna <- function(r, loop) {
                any(loop_females$difficulty_communicating[which(loop_females$X_submission__uuid == x["X_uuid"])] %in% c("a_lot_of_difficulty", "cannot_do_at_all")), 1, 0)
     })
   
+  # Other bonus material
+  r$f6 <- ifelse(r$own_land == "yes", 1, 0)
+  r$g44 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop$age[which(loop$X_submission__uuid == x["X_uuid"])] > 17 & 
+                 loop$work[which(loop$X_submission__uuid == x["X_uuid"])] == "no" & 
+                 loop$actively_seek_work[which(loop$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 0)
+  })
+  r$g44_ad1 <- ifelse(r$g44 == 1, "unemployed_and_seeking_work", "not_unemployed_and_seeking_work")
+  r$b5_ad1 <- ifelse(r$selling_assets %in% c("no_already_did", "yes"), 1, 0)
+  r$b5_ad2 <- ifelse(r$borrow_debt  %in% c("no_already_did", "yes"), 1, 0)
+  r$b5_ad3 <- ifelse(r$reduce_spending %in% c("no_already_did", "yes"), 1, 0)
+  r$b6_ad1 <- ifelse(r$selling_transportation_means %in% c("no_already_did", "yes"), 1, 0)
+  r$b6_ad2 <- ifelse(r$change_place  %in% c("no_already_did", "yes"), 1, 0)
+  r$b6_ad3 <- ifelse(r$child_work %in% c("no_already_did", "yes"), 1, 0)
+  r$b7_ad1 <- ifelse(r$child_dropout_school %in% c("no_already_did", "yes"), 1, 0)
+  r$b7_ad2 <- ifelse(r$adult_risky  %in% c("no_already_did", "yes"), 1, 0)
+  r$b7_ad3 <- ifelse(r$family_migrating %in% c("no_already_did", "yes"), 1, 0)
+  r$b7_ad4 <- ifelse(r$child_forced_marriage %in% c("no_already_did", "yes"), 1, 0)
+  
+  r$seasonal <- ifelse(r$employment_seasonal == "yes", "seasonal_employment", "not_seasonal_employment")
+  
+  r$inc_source <- apply(r, 1, FUN=function(x){
+    inc <- names(which.max(x[c("inc_debt", "inc_employment", "inc_remittances", "inc_humaid", "inc_debt",
+                "inc_pension", "inc_selling_assets", "inc_momd", "inc_molsa", "inc_other_safety",
+                "inc_other", "inc_rent")]))
+    ifelse(is.null(inc),NA,inc)
+  })
+  r$g94 <- ifelse(r$tank_capacity * r$refill_times / r$people_share_tank / 7 > 50, 1, 0)
+  r$g96 <- ifelse(r$treat_drink_water_how == "not_necessary", 0, 1)
+  r$g97 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) > 0, 1, 0)
+  r$g99 <- ifelse(r$access_hygiene_items == "yes" & r$use_of_soap.handwashing == 1, 1, 0)
+  r$disabled_hhh <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_hoh[which(loop_hoh$X_submission__uuid == x["X_uuid"]), c("difficulty_seeing", "difficulty_hearing",
+                                                                  "difficulty_walking", "difficulty_remembering",
+                                                                  "difficulty_washing", "difficulty_communicating",
+                                                                  "difficulty_accessing_services")] %in% 
+          c("a_lot_of_difficulty", "cannot_do_at_all")), "disabled_hhh", "non_disabled_hhh")
+  })
+  r$plw_hh <- ifelse(PLW$`sum(plw)`[match(r$X_uuid, PLW$X_submission__uuid)] %in% c(NA, 0), "HH_without_PLW", "HH_with_PLW")
+  r$g56_ad1 <- ifelse(is.na(r$child_distress_number), 0, r$child_distress_number) + ifelse(is.na(r$adult_distress_number), 0, r$adult_distress_number)
+  
+  
+  r$g44 %>% table(useNA = "always")
+  quantile(r$g44)
   
   return(r)
 }

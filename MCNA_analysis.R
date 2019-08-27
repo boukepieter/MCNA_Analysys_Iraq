@@ -107,44 +107,48 @@ response$weights<-weight_fun(response)
 # }
 
 
-response_with_composites <- recoding_mcna(response, loop)
-table(response_with_composites[, c("population_group", "sev_ex_1")], useNA="always")
+response_with_composites <- recoding_O(response, loop)
+table(response_with_composites[, c("disabled_hhh")], useNA="always")
 which(response_with_composites$district == "al.hatra")
 
-analysisplan <- read.csv("input/dap_no_independent.csv", stringsAsFactors = F)
+analysisplan <- read.csv("input/dap_adanal.csv", stringsAsFactors = F)
+analysisplan <- analysisplan[-which(analysisplan$ignore),]
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
 
-# saveRDS(result,paste("result.RDS"))
-summary[which(summary$dependent.var == "g51a"),]
+saveRDS(result,paste("result_adanal.RDS"))
+#summary[which(summary$dependent.var == "g51a"),]
 
 source("postprocessing_functions.R")
 summary <- bind_rows(lapply(result[[1]], function(x){x$summary.statistic}))
-write.csv(summary, "output/raw_results_no_independent.csv")
-summary <- read.csv("output/raw_results_no_independent.csv", stringsAsFactors = F)
+write.csv(summary, "output/raw_results_adanal.csv", row.names=F)
+summary <- read.csv("output/raw_results_adanal.csv", stringsAsFactors = F)
 summary <- correct.zeroes(summary)
 summary <- summary %>% filter(dependent.var.value %in% c(NA,1))
+write.csv(summary, "output/raw_results_adanal_filtered.csv", row.names=F)
 if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "all"}
 groups <- unique(summary$independent.var.value)
 groups <- groups[!is.na(groups)]
 for (i in 1:length(groups)) {
   df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table)
-  write.csv(df, sprintf("output/summary_sorted_%s.csv", groups[i]), row.names = F)
+  write.csv(df, sprintf("output/summary_sorted_adanal_%s.csv", groups[i]), row.names = F)
 }
 
 browseURL("output")
 
 ### NA's
 summary_statistics_get_na_messages<-function(results){
-  x<-x$results
-  lapply(results,function(x){
+  x<-results$results
+  lapply(x,function(x){
     
     attributes(x$summary.statistic)$hg_summary_statistic_fail_message
     x}) 
 }
+summary_statistics_get_na_messages(result)
+attributes(result[[1]][[50]]$summary.statistic)
 
 ### Severity calculation
 all <- read.csv("output/summary_sorted_all.csv", stringsAsFactors = F)

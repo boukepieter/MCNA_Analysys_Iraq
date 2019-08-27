@@ -1,993 +1,993 @@
-"psu","n","new_ID","governorate","district","name","label"
-"1101001",1,"cluster_location_id_0001","dahuk","al.amadiya","Amedi","0001 (Amedi)"
-"1101005",1,"cluster_location_id_0002","dahuk","al.amadiya","Chamanke","0002 (Chamanke)"
-"1101007",1,"cluster_location_id_0003","dahuk","al.amadiya","Deraluk","0003 (Deraluk)"
-"1101008",1,"cluster_location_id_0004","dahuk","al.amadiya","Inishke","0004 (Inishke)"
-"1101010",1,"cluster_location_id_0005","dahuk","al.amadiya","Kaniya Mala","0005 (Kaniya Mala)"
-"1101011",1,"cluster_location_id_0006","dahuk","al.amadiya","Qadish Collective","0006 (Qadish Collective)"
-"1101012",1,"cluster_location_id_0007","dahuk","al.amadiya","Sarsink","0007 (Sarsink)"
-"1101019",1,"cluster_location_id_0008","dahuk","al.amadiya","Mizi Village","0008 (Mizi Village)"
-"1101020",1,"cluster_location_id_0009","dahuk","al.amadiya","Nahla Area","0009 (Nahla Area)"
-"1101021",1,"cluster_location_id_0010","dahuk","al.amadiya","Azadi","0010 (Azadi)"
-"1102002",1,"cluster_location_id_0011","dahuk","duhok","Al Sinaah","0011 (Al Sinaah)"
-"1102007",1,"cluster_location_id_0012","dahuk","duhok","Bahdinan","0012 (Bahdinan)"
-"1102009",1,"cluster_location_id_0013","dahuk","duhok","Baroshke","0013 (Baroshke)"
-"1102011",1,"cluster_location_id_0014","dahuk","duhok","Bazaar","0014 (Bazaar)"
-"1102016",1,"cluster_location_id_0015","dahuk","duhok","Dabin 2","0015 (Dabin 2)"
-"1102017",1,"cluster_location_id_0016","dahuk","duhok","Diyari","0016 (Diyari)"
-"1102018",1,"cluster_location_id_0017","dahuk","duhok","Eminke","0017 (Eminke)"
-"1102022",1,"cluster_location_id_0018","dahuk","duhok","Etit","0018 (Etit)"
-"1102025",2,"cluster_location_id_0019","dahuk","duhok","Kora","0019 (Kora)"
-"1102027",1,"cluster_location_id_0020","dahuk","sumail","Kevila","0020 (Kevila)"
-"1102032",1,"cluster_location_id_0021","dahuk","duhok","Masik-1","0021 (Masik-1)"
-"1102035",1,"cluster_location_id_0022","dahuk","duhok","Mazi","0022 (Mazi)"
-"1102039",2,"cluster_location_id_0023","dahuk","duhok","Nazarke","0023 (Nazarke)"
-"1102040",1,"cluster_location_id_0024","dahuk","duhok","Qassara","0024 (Qassara)"
-"1102043",1,"cluster_location_id_0025","dahuk","duhok","Sarbasti","0025 (Sarbasti)"
-"1102046",1,"cluster_location_id_0026","dahuk","duhok","Shakhke","0026 (Shakhke)"
-"1102049",1,"cluster_location_id_0027","dahuk","duhok","Zawita","0027 (Zawita)"
-"1102050",2,"cluster_location_id_0028","dahuk","duhok","Avrike","0028 (Avrike)"
-"1102051",1,"cluster_location_id_0029","dahuk","duhok","Zeri Land","0029 (Zeri Land)"
-"1102060",1,"cluster_location_id_0030","dahuk","duhok","Baroshka Saadin","0030 (Baroshka Saadin)"
-"1102063",1,"cluster_location_id_0031","dahuk","duhok","Rizgari","0031 (Rizgari)"
-"1103001",1,"cluster_location_id_0032","dahuk","sumail","Avro City","0032 (Avro City)"
-"1103002",2,"cluster_location_id_0033","dahuk","sumail","Bajit Kandala","0033 (Bajit Kandala)"
-"1103004",1,"cluster_location_id_0034","dahuk","sumail","Bakhitme","0034 (Bakhitme)"
-"1103006",1,"cluster_location_id_0035","dahuk","sumail","Batel","0035 (Batel)"
-"1103009",1,"cluster_location_id_0036","dahuk","sumail","Fayda","0036 (Fayda)"
-"1103012",1,"cluster_location_id_0037","dahuk","sumail","Girsheen","0037 (Girsheen)"
-"1103020",1,"cluster_location_id_0038","dahuk","sumail","Misereek","0038 (Misereek)"
-"1103021",1,"cluster_location_id_0039","dahuk","sumail","Namrike","0039 (Namrike)"
-"1103024",1,"cluster_location_id_0040","dahuk","sumail","Semel","0040 (Semel)"
-"1103025",2,"cluster_location_id_0041","dahuk","sumail","Shariya","0041 (Shariya)"
-"1103030",1,"cluster_location_id_0042","dahuk","sumail","War City","0042 (War City)"
-"1103034",1,"cluster_location_id_0043","dahuk","sumail","Domiz-Halat","0043 (Domiz-Halat)"
-"1103039",1,"cluster_location_id_0044","dahuk","sumail","Kherava","0044 (Kherava)"
-"1103040",1,"cluster_location_id_0045","dahuk","sumail","Old Mam Shvana","0045 (Old Mam Shvana)"
-"1103043",1,"cluster_location_id_0046","dahuk","sumail","Old Qasr Yazddin","0046 (Old Qasr Yazddin)"
-"1103046",1,"cluster_location_id_0047","dahuk","sumail","Old Sorka","0047 (Old Sorka)"
-"1103053",1,"cluster_location_id_0048","dahuk","sumail","Marina","0048 (Marina)"
-"1104012",1,"cluster_location_id_0049","dahuk","zakho","Chamkork","0049 (Chamkork)"
-"1104013",1,"cluster_location_id_0050","dahuk","zakho","Darkar","0050 (Darkar)"
-"1104019",2,"cluster_location_id_0051","dahuk","zakho","Diraboon","0051 (Diraboon)"
-"1104020",1,"cluster_location_id_0052","dahuk","zakho","Qarawla","0052 (Qarawla)"
-"1104053",1,"cluster_location_id_0053","dahuk","zakho","Levo","0053 (Levo)"
-"1104055",2,"cluster_location_id_0054","dahuk","zakho","Ashe Chami Sector","0054 (Ashe Chami Sector)"
-"1104056",1,"cluster_location_id_0055","dahuk","zakho","Bazar Sector","0055 (Bazar Sector)"
-"1104057",1,"cluster_location_id_0056","dahuk","zakho","Betase Sector","0056 (Betase Sector)"
-"1104058",2,"cluster_location_id_0057","dahuk","zakho","Bedar Sector","0057 (Bedar Sector)"
-"1104059",1,"cluster_location_id_0058","dahuk","zakho","Khrababka Sector","0058 (Khrababka Sector)"
-"1104060",1,"cluster_location_id_0059","dahuk","zakho","Rkawa Sector","0059 (Rkawa Sector)"
-"1104062",2,"cluster_location_id_0060","dahuk","zakho","Abasiya Sector","0060 (Abasiya Sector)"
-"1104063",2,"cluster_location_id_0061","dahuk","zakho","Firqa Sector","0061 (Firqa Sector)"
-"1104064",2,"cluster_location_id_0062","dahuk","zakho","Kochka Honari","0062 (Kochka Honari)"
-"1104069",1,"cluster_location_id_0063","dahuk","zakho","Gofk","0063 (Gofk)"
-"1104072",1,"cluster_location_id_0064","dahuk","zakho","Bersive","0064 (Bersive)"
-"1104073",1,"cluster_location_id_0065","dahuk","zakho","Grksindi","0065 (Grksindi)"
-"1202006",1,"cluster_location_id_0066","erbil","erbil","Andazyaran","0066 (Andazyaran)"
-"1202010",1,"cluster_location_id_0067","erbil","erbil","Bahrka center","0067 (Bahrka center)"
-"1202032",1,"cluster_location_id_0068","erbil","erbil","Hay Askary","0068 (Hay Askary)"
-"1202034",1,"cluster_location_id_0069","erbil","erbil","Kani Qarzhala","0069 (Kani Qarzhala)"
-"1202039",1,"cluster_location_id_0070","erbil","erbil","Kawergosk","0070 (Kawergosk)"
-"1202040",1,"cluster_location_id_0071","erbil","al.hamdaniya","Khabat","0071 (Khabat)"
-"1202043",1,"cluster_location_id_0072","erbil","erbil","Kurd Stan","0072 (Kurd Stan)"
-"1202051",1,"cluster_location_id_0073","erbil","erbil","Nisthtiman Comercial Complex","0073 (Nisthtiman Comercial Complex)"
-"1202057",1,"cluster_location_id_0074","erbil","erbil","Qushtapa centre","0074 (Qushtapa centre)"
-"1202060",1,"cluster_location_id_0075","erbil","erbil","Rizgari","0075 (Rizgari)"
-"1202117",1,"cluster_location_id_0076","erbil","erbil","Shorsh(Hay arey)","0076 (Shorsh(Hay arey))"
-"1202120",1,"cluster_location_id_0077","erbil","erbil","Shorsh(Malayan)","0077 (Shorsh(Malayan))"
-"1202121",1,"cluster_location_id_0078","erbil","erbil","Saidawa(Khabat)","0078 (Saidawa(Khabat))"
-"1202136",1,"cluster_location_id_0079","erbil","erbil","Du sara fatah","0079 (Du sara fatah)"
-"1202146",1,"cluster_location_id_0080","erbil","erbil","Aweney Shar","0080 (Aweney Shar)"
-"1203002",1,"cluster_location_id_0081","erbil","koysinjaq","Azady","0081 (Azady)"
-"1203003",1,"cluster_location_id_0082","erbil","koysinjaq","Bayizagha","0082 (Bayizagha)"
-"1203004",1,"cluster_location_id_0083","erbil","koysinjaq","Bazar koya(Bafri qndeel)","0083 (Bazar koya(Bafri qndeel))"
-"1203006",1,"cluster_location_id_0084","erbil","koysinjaq","Hamamok","0084 (Hamamok)"
-"1203009",1,"cluster_location_id_0085","erbil","koysinjaq","Qalat","0085 (Qalat)"
-"1203010",1,"cluster_location_id_0086","erbil","koysinjaq","Taqtaq","0086 (Taqtaq)"
-"1203014",1,"cluster_location_id_0087","erbil","koysinjaq","Ashti","0087 (Ashti)"
-"1203015",1,"cluster_location_id_0088","erbil","koysinjaq","Nawdaran","0088 (Nawdaran)"
-"1204004",1,"cluster_location_id_0089","erbil","makhmour","Gwer","0089 (Gwer)"
-"1204011",1,"cluster_location_id_0090","erbil","makhmour","Shahidan","0090 (Shahidan)"
-"1204016",1,"cluster_location_id_0091","erbil","makhmour","Kurdistan ","0091 (Kurdistan )"
-"1204017",1,"cluster_location_id_0092","erbil","makhmour","Sherwany","0092 (Sherwany)"
-"1204018",1,"cluster_location_id_0093","erbil","makhmour","Saray(markez bazar)","0093 (Saray(markez bazar))"
-"1204019",1,"cluster_location_id_0094","erbil","makhmour","Bndiyan","0094 (Bndiyan)"
-"1204031",1,"cluster_location_id_0095","erbil","makhmour","Abu Sheta","0095 (Abu Sheta)"
-"1204032",1,"cluster_location_id_0096","erbil","makhmour","Kapran","0096 (Kapran)"
-"1204039",1,"cluster_location_id_0097","erbil","makhmour","Salahya","0097 (Salahya)"
-"1204044",1,"cluster_location_id_0098","erbil","makhmour","Jarallah","0098 (Jarallah)"
-"1205001",1,"cluster_location_id_0099","erbil","rawanduz","Markaz Mergasur","0099 (Markaz Mergasur)"
-"1206003",1,"cluster_location_id_0100","erbil","shaqlawa","Bazar Khanzad","0100 (Bazar Khanzad)"
-"1206004",1,"cluster_location_id_0101","erbil","shaqlawa","Betrma","0101 (Betrma)"
-"1206006",1,"cluster_location_id_0102","erbil","shaqlawa","Harir","0102 (Harir)"
-"1206007",1,"cluster_location_id_0103","erbil","shaqlawa","Harir-Batas","0103 (Harir-Batas)"
-"1206008",1,"cluster_location_id_0104","erbil","shaqlawa","Hiran","0104 (Hiran)"
-"1206010",1,"cluster_location_id_0105","erbil","shaqlawa","Sabirawa","0105 (Sabirawa)"
-"1206011",1,"cluster_location_id_0106","erbil","shaqlawa","Safeen","0106 (Safeen)"
-"1206012",1,"cluster_location_id_0107","erbil","shaqlawa","Sarmidan-1(Ashti)","0107 (Sarmidan-1(Ashti))"
-"1206014",1,"cluster_location_id_0108","erbil","shaqlawa","Sarmidan-3(Ashti)","0108 (Sarmidan-3(Ashti))"
-"1206015",1,"cluster_location_id_0109","erbil","shaqlawa","Shahedan","0109 (Shahedan)"
-"1206017",1,"cluster_location_id_0110","erbil","shaqlawa","Spigra","0110 (Spigra)"
-"1207002",1,"cluster_location_id_0111","erbil","rawanduz","Khalifan(center)","0111 (Khalifan(center))"
-"1207003",1,"cluster_location_id_0112","erbil","rawanduz","Rawanduz District","0112 (Rawanduz District)"
-"1207004",1,"cluster_location_id_0113","erbil","rawanduz","Soran District","0113 (Soran District)"
-"1207006",1,"cluster_location_id_0114","erbil","rawanduz","Diana(Shahedan azady)","0114 (Diana(Shahedan azady))"
-"1207008",1,"cluster_location_id_0115","erbil","rawanduz","Hay mameel al qeer","0115 (Hay mameel al qeer)"
-"1301004",1,"cluster_location_id_0116","sulaymaniyah","chamchamal","Azady","0116 (Azady)"
-"1301006",1,"cluster_location_id_0117","sulaymaniyah","chamchamal","Chamchamal-Raparin","0117 (Chamchamal-Raparin)"
-"1301010",1,"cluster_location_id_0118","sulaymaniyah","chamchamal","Handreen","0118 (Handreen)"
-"1301016",1,"cluster_location_id_0119","sulaymaniyah","chamchamal","Piryadi","0119 (Piryadi)"
-"1301017",1,"cluster_location_id_0120","sulaymaniyah","chamchamal","Pura Gulla","0120 (Pura Gulla)"
-"1301021",1,"cluster_location_id_0121","sulaymaniyah","chamchamal","SANGAWIAKAN","0121 (SANGAWIAKAN)"
-"1301027",1,"cluster_location_id_0122","sulaymaniyah","chamchamal","Sangawi kon","0122 (Sangawi kon)"
-"1301031",1,"cluster_location_id_0123","sulaymaniyah","chamchamal","Hazar kani","0123 (Hazar kani)"
-"1301045",1,"cluster_location_id_0124","sulaymaniyah","chamchamal","Bani maqan","0124 (Bani maqan)"
-"1301046",1,"cluster_location_id_0125","sulaymaniyah","chamchamal","Dawajin","0125 (Dawajin)"
-"1301050",1,"cluster_location_id_0126","sulaymaniyah","chamchamal","hashazini","0126 (hashazini)"
-"1302001",1,"cluster_location_id_0127","sulaymaniyah","derbendikhan","Campe khwarw","0127 (Campe khwarw)"
-"1302002",1,"cluster_location_id_0128","sulaymaniyah","derbendikhan","Hawara barza","0128 (Hawara barza)"
-"1302003",1,"cluster_location_id_0129","sulaymaniyah","derbendikhan","Kanisard","0129 (Kanisard)"
-"1302004",1,"cluster_location_id_0130","sulaymaniyah","derbendikhan","Kanito","0130 (Kanito)"
-"1302005",1,"cluster_location_id_0131","sulaymaniyah","derbendikhan","Sara","0131 (Sara)"
-"1302009",1,"cluster_location_id_0132","sulaymaniyah","derbendikhan","Sharwani","0132 (Sharwani)"
-"1302010",1,"cluster_location_id_0133","sulaymaniyah","derbendikhan","Khelan","0133 (Khelan)"
-"1303003",1,"cluster_location_id_0134","sulaymaniyah","dokan","Chawa spy","0134 (Chawa spy)"
-"1303009",1,"cluster_location_id_0135","sulaymaniyah","dokan","Kotal","0135 (Kotal)"
-"1303011",1,"cluster_location_id_0136","sulaymaniyah","dokan","Pishowa","0136 (Pishowa)"
-"1303012",1,"cluster_location_id_0137","sulaymaniyah","dokan","Qamchugha","0137 (Qamchugha)"
-"1303013",1,"cluster_location_id_0138","sulaymaniyah","dokan","Sara","0138 (Sara)"
-"1303016",1,"cluster_location_id_0139","sulaymaniyah","dokan","Sharawany","0139 (Sharawany)"
-"1303025",1,"cluster_location_id_0140","sulaymaniyah","dokan","Mergapan","0140 (Mergapan)"
-"1303034",1,"cluster_location_id_0141","sulaymaniyah","dokan","Shekh Mansourian","0141 (Shekh Mansourian)"
-"1303036",1,"cluster_location_id_0142","sulaymaniyah","dokan","Asos","0142 (Asos)"
-"1304004",1,"cluster_location_id_0143","sulaymaniyah","derbendikhan","Bakhtyari","0143 (Bakhtyari)"
-"1304006",1,"cluster_location_id_0144","sulaymaniyah","halabcha","Barkew","0144 (Barkew)"
-"1304007",1,"cluster_location_id_0145","sulaymaniyah","halabcha","Farmanbaran","0145 (Farmanbaran)"
-"1304009",1,"cluster_location_id_0146","sulaymaniyah","halabcha","Goran City","0146 (Goran City)"
-"1304012",1,"cluster_location_id_0147","sulaymaniyah","halabcha","Gulan","0147 (Gulan)"
-"1304015",1,"cluster_location_id_0148","sulaymaniyah","derbendikhan","Azadi","0148 (Azadi)"
-"1304018",1,"cluster_location_id_0149","sulaymaniyah","halabcha","Hassar","0149 (Hassar)"
-"1304026",1,"cluster_location_id_0150","sulaymaniyah","halabcha","Darwazay Shar","0150 (Darwazay Shar)"
-"1304027",1,"cluster_location_id_0151","sulaymaniyah","halabcha","Marzboto","0151 (Marzboto)"
-"1304028",1,"cluster_location_id_0152","sulaymaniyah","halabcha","Mordana","0152 (Mordana)"
-"1304038",1,"cluster_location_id_0153","sulaymaniyah","derbendikhan","Rezgari","0153 (Rezgari)"
-"1304039",1,"cluster_location_id_0154","sulaymaniyah","halabcha","Shikhan","0154 (Shikhan)"
-"1304046",1,"cluster_location_id_0155","sulaymaniyah","halabcha","Raparine","0155 (Raparine)"
-"1304049",1,"cluster_location_id_0156","sulaymaniyah","halabcha","Tapa kura","0156 (Tapa kura)"
-"1304051",1,"cluster_location_id_0157","sulaymaniyah","halabcha","Shahidan-Saidsadiq","0157 (Shahidan-Saidsadiq)"
-"1305002",1,"cluster_location_id_0158","sulaymaniyah","kifri","Ban Asiaw","0158 (Ban Asiaw)"
-"1305007",1,"cluster_location_id_0159","sulaymaniyah","kalar","Grda Gozina","0159 (Grda Gozina)"
-"1305008",1,"cluster_location_id_0160","sulaymaniyah","kalar","Hamren","0160 (Hamren)"
-"1305009",1,"cluster_location_id_0161","sulaymaniyah","kalar","Kalar Kon","0161 (Kalar Kon)"
-"1305010",1,"cluster_location_id_0162","sulaymaniyah","kalar","Kalari New","0162 (Kalari New)"
-"1305014",1,"cluster_location_id_0163","sulaymaniyah","khanaqin","Kulajo","0163 (Kulajo)"
-"1305015",1,"cluster_location_id_0164","sulaymaniyah","kalar","Pebaz","0164 (Pebaz)"
-"1305019",1,"cluster_location_id_0165","sulaymaniyah","kifri","Shaykh Lankar","0165 (Shaykh Lankar)"
-"1305021",1,"cluster_location_id_0166","sulaymaniyah","kalar","Sirwan","0166 (Sirwan)"
-"1305024",1,"cluster_location_id_0167","sulaymaniyah","kifri","Ali Khalaf","0167 (Ali Khalaf)"
-"1305031",1,"cluster_location_id_0168","sulaymaniyah","kalar","Nawrooz","0168 (Nawrooz)"
-"1305033",1,"cluster_location_id_0169","sulaymaniyah","kalar","Garmyan","0169 (Garmyan)"
-"1305036",1,"cluster_location_id_0170","sulaymaniyah","kifri","Shakal","0170 (Shakal)"
-"1305038",1,"cluster_location_id_0171","sulaymaniyah","kalar","Asuda","0171 (Asuda)"
-"1305040",1,"cluster_location_id_0172","sulaymaniyah","kalar","Awbarik","0172 (Awbarik)"
-"1305041",1,"cluster_location_id_0173","sulaymaniyah","kalar","Awarakan","0173 (Awarakan)"
-"1308003",1,"cluster_location_id_0174","sulaymaniyah","rania","Koling city","0174 (Koling city)"
-"1308004",1,"cluster_location_id_0175","sulaymaniyah","rania","Qandil","0175 (Qandil)"
-"1308005",1,"cluster_location_id_0176","sulaymaniyah","rania","Raparine","0176 (Raparine)"
-"1308009",1,"cluster_location_id_0177","sulaymaniyah","rania","Kewa Rash","0177 (Kewa Rash)"
-"1308011",1,"cluster_location_id_0178","sulaymaniyah","rania","Nawroz","0178 (Nawroz)"
-"1308018",1,"cluster_location_id_0179","sulaymaniyah","rania","Shishar","0179 (Shishar)"
-"1308022",1,"cluster_location_id_0180","sulaymaniyah","rania","kurdistan","0180 (kurdistan)"
-"1308030",1,"cluster_location_id_0181","sulaymaniyah","rania","Azadi 1","0181 (Azadi 1)"
-"1308033",1,"cluster_location_id_0182","sulaymaniyah","rania","Srra","0182 (Srra)"
-"1310010",1,"cluster_location_id_0183","sulaymaniyah","al.sulaymaniyah","Ashty 106 & 104","0183 (Ashty 106 & 104)"
-"1310018",1,"cluster_location_id_0184","sulaymaniyah","al.sulaymaniyah","Bakrajo-Qularaese Taza","0184 (Bakrajo-Qularaese Taza)"
-"1310030",1,"cluster_location_id_0185","sulaymaniyah","al.sulaymaniyah","Chwar Bakh 401","0185 (Chwar Bakh 401)"
-"1310031",1,"cluster_location_id_0186","sulaymaniyah","al.sulaymaniyah","Chwar Chra","0186 (Chwar Chra)"
-"1310042",1,"cluster_location_id_0187","sulaymaniyah","al.sulaymaniyah","Gulli Shar","0187 (Gulli Shar)"
-"1310052",1,"cluster_location_id_0188","sulaymaniyah","al.sulaymaniyah","Kanakawa","0188 (Kanakawa)"
-"1310062",1,"cluster_location_id_0189","sulaymaniyah","al.sulaymaniyah","Kostay Cham","0189 (Kostay Cham)"
-"1310072",1,"cluster_location_id_0190","sulaymaniyah","al.sulaymaniyah","Muaskar Al-Salam","0190 (Muaskar Al-Salam)"
-"1310087",1,"cluster_location_id_0191","sulaymaniyah","al.sulaymaniyah","Rizgare 408","0191 (Rizgare 408)"
-"1310092",1,"cluster_location_id_0192","sulaymaniyah","al.sulaymaniyah","Sabun karan Qt","0192 (Sabun karan Qt)"
-"1310093",1,"cluster_location_id_0193","sulaymaniyah","al.sulaymaniyah","Saib City","0193 (Saib City)"
-"1310141",1,"cluster_location_id_0194","sulaymaniyah","al.sulaymaniyah","Grdi Joga","0194 (Grdi Joga)"
-"1310144",1,"cluster_location_id_0195","sulaymaniyah","al.sulaymaniyah","Srosht 333","0195 (Srosht 333)"
-"1310206",1,"cluster_location_id_0196","sulaymaniyah","al.sulaymaniyah","Khalif awa village","0196 (Khalif awa village)"
-"1310211",1,"cluster_location_id_0197","sulaymaniyah","al.sulaymaniyah","Zirak","0197 (Zirak)"
-"1310217",1,"cluster_location_id_0198","sulaymaniyah","al.sulaymaniyah","Raparine-Zanko","0198 (Raparine-Zanko)"
-"1310227",1,"cluster_location_id_0199","sulaymaniyah","al.sulaymaniyah","Shahidan 103","0199 (Shahidan 103)"
-"1310229",1,"cluster_location_id_0200","sulaymaniyah","al.sulaymaniyah","Malik mahmood 401","0200 (Malik mahmood 401)"
-"1310230",1,"cluster_location_id_0201","sulaymaniyah","al.sulaymaniyah","Sharawane 102","0201 (Sharawane 102)"
-"2101002",1,"cluster_location_id_0202","anbar","al.kaim","Al Aubaidi Al Qadima","0202 (Al Aubaidi Al Qadima)"
-"2101004",1,"cluster_location_id_0203","anbar","al.kaim","Al Rumanah Al Gharbiyah","0203 (Al Rumanah Al Gharbiyah)"
-"2101006",1,"cluster_location_id_0204","anbar","al.kaim","Al Ubaydi-1","0204 (Al Ubaydi-1)"
-"2101007",1,"cluster_location_id_0205","anbar","al.kaim","Al Ubaydi-2","0205 (Al Ubaydi-2)"
-"2101011",1,"cluster_location_id_0206","anbar","al.kaim","Al-Amen","0206 (Al-Amen)"
-"2101012",1,"cluster_location_id_0207","anbar","al.kaim","Albu Hardan","0207 (Albu Hardan)"
-"2101017",1,"cluster_location_id_0208","anbar","al.kaim","Hay Al Askary","0208 (Hay Al Askary)"
-"2101018",1,"cluster_location_id_0209","anbar","al.kaim","Hay Al Rashid","0209 (Hay Al Rashid)"
-"2101019",1,"cluster_location_id_0210","anbar","al.kaim","Hay Al Sham","0210 (Hay Al Sham)"
-"2101023",1,"cluster_location_id_0211","anbar","al.kaim","Hay Al-Athar","0211 (Hay Al-Athar)"
-"2101026",1,"cluster_location_id_0212","anbar","al.kaim","Hay Al-Makarim","0212 (Hay Al-Makarim)"
-"2101028",1,"cluster_location_id_0213","anbar","al.kaim","Hay Al-Yarmook","0213 (Hay Al-Yarmook)"
-"2101029",2,"cluster_location_id_0214","anbar","al.kaim","Sadah","0214 (Sadah)"
-"2101030",1,"cluster_location_id_0215","anbar","al.kaim","Wazeeriya","0215 (Wazeeriya)"
-"2101032",1,"cluster_location_id_0216","anbar","al.kaim","Al Masharea","0216 (Al Masharea)"
-"2101033",1,"cluster_location_id_0217","anbar","al.kaim","Tiwaan","0217 (Tiwaan)"
-"2101036",1,"cluster_location_id_0218","anbar","al.kaim","Al Baghoz village ","0218 (Al Baghoz village )"
-"2102001",1,"cluster_location_id_0219","anbar","al.rutba","Al Askaree","0219 (Al Askaree)"
-"2102002",1,"cluster_location_id_0220","anbar","al.rutba","Al Haara","0220 (Al Haara)"
-"2102006",1,"cluster_location_id_0221","anbar","al.rutba","Al Wadi","0221 (Al Wadi)"
-"2102007",1,"cluster_location_id_0222","anbar","al.rutba","Al-Daraemah Village","0222 (Al-Daraemah Village)"
-"2102008",1,"cluster_location_id_0223","anbar","al.rutba","Antesar","0223 (Antesar)"
-"2102010",1,"cluster_location_id_0224","anbar","al.rutba","Germany Company Location","0224 (Germany Company Location)"
-"2102011",1,"cluster_location_id_0225","anbar","al.rutba","Gharb Al-Wadi","0225 (Gharb Al-Wadi)"
-"2102014",1,"cluster_location_id_0226","anbar","al.rutba","Hay Al Meethagh","0226 (Hay Al Meethagh)"
-"2102016",1,"cluster_location_id_0227","anbar","al.rutba","Hay Al-Matar","0227 (Hay Al-Matar)"
-"2102021",1,"cluster_location_id_0228","anbar","al.rutba","Rumilah Village","0228 (Rumilah Village)"
-"2103001",1,"cluster_location_id_0229","anbar","ana","Al bor (Shishan)","0229 (Al bor (Shishan))"
-"2103003",1,"cluster_location_id_0230","anbar","ana","Al Tadamon","0230 (Al Tadamon)"
-"2103004",1,"cluster_location_id_0231","anbar","ana","Al-Awany Village","0231 (Al-Awany Village)"
-"2103005",1,"cluster_location_id_0232","anbar","ana","Hay Al Nasir","0232 (Hay Al Nasir)"
-"2103006",1,"cluster_location_id_0233","anbar","ana","Hay Al Qadissiyah","0233 (Hay Al Qadissiyah)"
-"2103007",1,"cluster_location_id_0234","anbar","ana","Hay Al Salam","0234 (Hay Al Salam)"
-"2103009",1,"cluster_location_id_0235","anbar","ana","Hay Al ZeraI","0235 (Hay Al ZeraI)"
-"2104002",1,"cluster_location_id_0236","anbar","ana","Al Qaala","0236 (Al Qaala)"
-"2104003",1,"cluster_location_id_0237","anbar","ana","Al-Hidayah","0237 (Al-Hidayah)"
-"2104004",1,"cluster_location_id_0238","anbar","ana","Hay Al Qadissiyah","0238 (Hay Al Qadissiyah)"
-"2104005",1,"cluster_location_id_0239","anbar","ana","Hay Al Salam","0239 (Hay Al Salam)"
-"2104007",1,"cluster_location_id_0240","anbar","ana","Hay Al Shuhadaa","0240 (Hay Al Shuhadaa)"
-"2104009",1,"cluster_location_id_0241","anbar","ana","Rawa Al Qadima","0241 (Rawa Al Qadima)"
-"2105012",1,"cluster_location_id_0242","anbar","al.falluja","Al Shuhadaa 2","0242 (Al Shuhadaa 2)"
-"2105013",1,"cluster_location_id_0243","anbar","al.falluja","Al Shurta","0243 (Al Shurta)"
-"2105018",1,"cluster_location_id_0244","anbar","al.falluja","Al-Amirya-Albu Jasim","0244 (Al-Amirya-Albu Jasim)"
-"2105019",2,"cluster_location_id_0245","anbar","al.falluja","Al-Amirya-Albu Jwad","0245 (Al-Amirya-Albu Jwad)"
-"2105022",1,"cluster_location_id_0246","anbar","al.falluja","Al-bazara","0246 (Al-bazara)"
-"2105027",1,"cluster_location_id_0247","anbar","al.falluja","Albu Aifan","0247 (Albu Aifan)"
-"2105028",1,"cluster_location_id_0248","anbar","al.falluja","Albu Alwan","0248 (Albu Alwan)"
-"2105031",2,"cluster_location_id_0249","anbar","al.falluja","Albu Hori","0249 (Albu Hori)"
-"2105034",1,"cluster_location_id_0250","anbar","al.falluja","Albu Khanfar","0250 (Albu Khanfar)"
-"2105037",1,"cluster_location_id_0251","anbar","al.falluja","Albu Shihab","0251 (Albu Shihab)"
-"2105044",1,"cluster_location_id_0252","anbar","al.falluja","Al-jamhuriya","0252 (Al-jamhuriya)"
-"2105045",1,"cluster_location_id_0253","anbar","al.falluja","Al-Julan","0253 (Al-Julan)"
-"2105052",1,"cluster_location_id_0254","anbar","al.kadhmiyah","Al-Shurtan","0254 (Al-Shurtan)"
-"2105057",1,"cluster_location_id_0255","anbar","al.falluja","Halabsa-Falluja","0255 (Halabsa-Falluja)"
-"2105060",1,"cluster_location_id_0256","anbar","al.falluja","Luhib","0256 (Luhib)"
-"2105065",1,"cluster_location_id_0257","anbar","al.falluja","Qaryat Albu Hadid Al-Nasir","0257 (Qaryat Albu Hadid Al-Nasir)"
-"2105069",2,"cluster_location_id_0258","anbar","al.falluja","Al-Amirya-Al Betra","0258 (Al-Amirya-Al Betra)"
-"2105070",1,"cluster_location_id_0259","anbar","al.falluja","Al-Amirya-Al Hmedin","0259 (Al-Amirya-Al Hmedin)"
-"2105071",2,"cluster_location_id_0260","anbar","al.falluja","Al-Amirya-Al Mouilha","0260 (Al-Amirya-Al Mouilha)"
-"2105073",2,"cluster_location_id_0261","anbar","al.falluja","Al-Amirya-Albu Jaber","0261 (Al-Amirya-Albu Jaber)"
-"2105074",1,"cluster_location_id_0262","anbar","al.falluja","Al-Amirya-Albu Mrir","0262 (Al-Amirya-Albu Mrir)"
-"2105075",2,"cluster_location_id_0263","anbar","al.falluja","Al-Amirya-Albu Saleh","0263 (Al-Amirya-Albu Saleh)"
-"2105076",2,"cluster_location_id_0264","anbar","al.falluja","Al-Amirya-Albu Salman","0264 (Al-Amirya-Albu Salman)"
-"2105077",1,"cluster_location_id_0265","anbar","al.falluja","Al-Amirya-Tal Ghatas","0265 (Al-Amirya-Tal Ghatas)"
-"2105078",1,"cluster_location_id_0266","anbar","al.falluja","Albu Dhaher-Albu Dhaher","0266 (Albu Dhaher-Albu Dhaher)"
-"2105083",1,"cluster_location_id_0267","anbar","al.falluja","Hay Al Askari","0267 (Hay Al Askari)"
-"2105086",1,"cluster_location_id_0268","anbar","al.falluja","Hay Al Shuhadaa","0268 (Hay Al Shuhadaa)"
-"2105088",2,"cluster_location_id_0269","anbar","al.falluja","Al-Ekhaa Compaund","0269 (Al-Ekhaa Compaund)"
-"2105093",1,"cluster_location_id_0270","anbar","al.falluja","Al Daffar","0270 (Al Daffar)"
-"2106001",1,"cluster_location_id_0271","anbar","haditha","Al Furat Complex","0271 (Al Furat Complex)"
-"2106004",1,"cluster_location_id_0272","anbar","haditha","Al Khansaa","0272 (Al Khansaa)"
-"2106007",1,"cluster_location_id_0273","anbar","haditha","Albu Hayat","0273 (Albu Hayat)"
-"2106009",1,"cluster_location_id_0274","anbar","haditha","Al-Mutanabi","0274 (Al-Mutanabi)"
-"2106011",1,"cluster_location_id_0275","anbar","haditha","Bani Dahir","0275 (Bani Dahir)"
-"2106013",1,"cluster_location_id_0276","anbar","haditha","Haqlaniyah-Hay Al-Faroq","0276 (Haqlaniyah-Hay Al-Faroq)"
-"2106014",1,"cluster_location_id_0277","anbar","haditha","Haqlaniyah-Al shuhadaa","0277 (Haqlaniyah-Al shuhadaa)"
-"2106015",1,"cluster_location_id_0278","anbar","haditha","Hay Al Askary","0278 (Hay Al Askary)"
-"2106017",2,"cluster_location_id_0279","anbar","haditha","Hay Al Haqlaniyah Qadim","0279 (Hay Al Haqlaniyah Qadim)"
-"2106020",1,"cluster_location_id_0280","anbar","haditha","Hay Al Rifay","0280 (Hay Al Rifay)"
-"2106023",1,"cluster_location_id_0281","anbar","haditha","Hay Al Saray","0281 (Hay Al Saray)"
-"2106028",1,"cluster_location_id_0282","anbar","haditha","Hay Al Yarmuk","0282 (Hay Al Yarmuk)"
-"2106034",1,"cluster_location_id_0283","anbar","haditha","Hay Al-Mulameen","0283 (Hay Al-Mulameen)"
-"2106038",2,"cluster_location_id_0284","anbar","haditha","Hay Al-Subhani","0284 (Hay Al-Subhani)"
-"2107001",1,"cluster_location_id_0285","anbar","heet","Abu Tibban","0285 (Abu Tibban)"
-"2107004",1,"cluster_location_id_0286","anbar","heet","Al Baker","0286 (Al Baker)"
-"2107013",1,"cluster_location_id_0287","anbar","heet","Al Muhamdee","0287 (Al Muhamdee)"
-"2107016",1,"cluster_location_id_0288","anbar","heet","Al Salkah","0288 (Al Salkah)"
-"2107026",1,"cluster_location_id_0289","anbar","heet","Al-Khaldiyah","0289 (Al-Khaldiyah)"
-"2107030",2,"cluster_location_id_0290","anbar","heet","Al-Mujama Al-Sakani","0290 (Al-Mujama Al-Sakani)"
-"2107031",2,"cluster_location_id_0291","anbar","heet","Al-Qalqalah","0291 (Al-Qalqalah)"
-"2107034",1,"cluster_location_id_0292","anbar","heet","Al-Sikak","0292 (Al-Sikak)"
-"2107045",1,"cluster_location_id_0293","anbar","heet","Hay al Jury","0293 (Hay al Jury)"
-"2107047",1,"cluster_location_id_0294","anbar","heet","Hay Al Mamoun","0294 (Hay Al Mamoun)"
-"2107053",1,"cluster_location_id_0295","anbar","heet","Hay Al-Jabal","0295 (Hay Al-Jabal)"
-"2107054",1,"cluster_location_id_0296","anbar","heet","Hay Al-jamyah 2","0296 (Hay Al-jamyah 2)"
-"2107062",1,"cluster_location_id_0297","anbar","heet","Heet-Maskhan","0297 (Heet-Maskhan)"
-"2107067",2,"cluster_location_id_0298","anbar","heet","Mualmeen","0298 (Mualmeen)"
-"2107074",1,"cluster_location_id_0299","anbar","heet","Tal aswad","0299 (Tal aswad)"
-"2107075",1,"cluster_location_id_0300","anbar","heet","The first jamaiya","0300 (The first jamaiya)"
-"2107081",1,"cluster_location_id_0301","anbar","heet","Hay Al-Askari","0301 (Hay Al-Askari)"
-"2107082",1,"cluster_location_id_0302","anbar","heet","Hay Al-Khudhir","0302 (Hay Al-Khudhir)"
-"2108001",2,"cluster_location_id_0303","anbar","al.ramadi","5 Kilo","0303 (5 Kilo)"
-"2108005",2,"cluster_location_id_0304","anbar","al.ramadi","7 Killo-al-mojamaa al-sakany","0304 (7 Killo-al-mojamaa al-sakany)"
-"2108006",1,"cluster_location_id_0305","anbar","al.ramadi","Abu Fless","0305 (Abu Fless)"
-"2108007",1,"cluster_location_id_0306","anbar","al.ramadi","Al Khulafaa","0306 (Al Khulafaa)"
-"2108009",1,"cluster_location_id_0307","anbar","al.ramadi","Al Sajariyah","0307 (Al Sajariyah)"
-"2108011",2,"cluster_location_id_0308","anbar","al.ramadi","Al Sofeya","0308 (Al Sofeya)"
-"2108012",1,"cluster_location_id_0309","anbar","al.ramadi","Al Soora","0309 (Al Soora)"
-"2108013",1,"cluster_location_id_0310","anbar","al.ramadi","Al Urobah","0310 (Al Urobah)"
-"2108017",1,"cluster_location_id_0311","anbar","al.ramadi","Al-Jeraishi","0311 (Al-Jeraishi)"
-"2108024",1,"cluster_location_id_0312","anbar","al.ramadi","Hay Al-Salam","0312 (Hay Al-Salam)"
-"2108025",1,"cluster_location_id_0313","anbar","al.falluja","Hay Al-Umal","0313 (Hay Al-Umal)"
-"2108027",1,"cluster_location_id_0314","anbar","al.ramadi","Qadisiya-1","0314 (Qadisiya-1)"
-"2108030",1,"cluster_location_id_0315","anbar","al.ramadi","Warar","0315 (Warar)"
-"2108033",1,"cluster_location_id_0316","anbar","al.ramadi","Al Aadil","0316 (Al Aadil)"
-"2108037",1,"cluster_location_id_0317","anbar","al.ramadi","Al Katanah","0317 (Al Katanah)"
-"2108038",1,"cluster_location_id_0318","anbar","al.ramadi","Al-Shareka","0318 (Al-Shareka)"
-"2108039",1,"cluster_location_id_0319","anbar","al.ramadi","Al-Thilah","0319 (Al-Thilah)"
-"2108041",1,"cluster_location_id_0320","anbar","al.ramadi","Hay Al Malab","0320 (Hay Al Malab)"
-"2108046",1,"cluster_location_id_0321","anbar","al.ramadi","The modern village","0321 (The modern village)"
-"2108057",1,"cluster_location_id_0322","anbar","al.ramadi","Al Hooz","0322 (Al Hooz)"
-"2202001",1,"cluster_location_id_0323","babylon","al.mussyab","Abo Luka","0323 (Abo Luka)"
-"2202002",1,"cluster_location_id_0324","babylon","al.mussyab","Al Abtan","0324 (Al Abtan)"
-"2202004",1,"cluster_location_id_0325","babylon","al.mussyab","Al Ghadeer 2","0325 (Al Ghadeer 2)"
-"2202007",1,"cluster_location_id_0326","babylon","al.mussyab","Al Hamiyah-Oayef village","0326 (Al Hamiyah-Oayef village)"
-"2202017",1,"cluster_location_id_0327","babylon","al.mahmoudiya","Al-Jazirah-Al Eskandariya","0327 (Al-Jazirah-Al Eskandariya)"
-"2202024",1,"cluster_location_id_0328","babylon","al.mussyab","Hay Aday-Al Eskandariya","0328 (Hay Aday-Al Eskandariya)"
-"2202026",1,"cluster_location_id_0329","babylon","al.mussyab","Hay Al Ataba","0329 (Hay Al Ataba)"
-"2202029",1,"cluster_location_id_0330","babylon","al.mussyab","Hay Al Ghadeer 4","0330 (Hay Al Ghadeer 4)"
-"2202037",1,"cluster_location_id_0331","babylon","al.mussyab","Hay Alaskary-AlThaghet","0331 (Hay Alaskary-AlThaghet)"
-"2202049",1,"cluster_location_id_0332","babylon","al.mussyab","Hitten Complex","0332 (Hitten Complex)"
-"2202050",1,"cluster_location_id_0333","babylon","al.mussyab","Hur Husaein","0333 (Hur Husaein)"
-"2202061",1,"cluster_location_id_0334","babylon","al.mussyab","Al Hamiyah Al Sheab Village","0334 (Al Hamiyah Al Sheab Village)"
-"2202072",1,"cluster_location_id_0335","babylon","al.mussyab","Albo Hamdan","0335 (Albo Hamdan)"
-"2301003",1,"cluster_location_id_0336","baghdad","al.kadhmiyah","Abo Moniaser","0336 (Abo Moniaser)"
-"2301021",1,"cluster_location_id_0337","baghdad","al.kadhmiyah","Al-Nasir Walsalam-6000","0337 (Al-Nasir Walsalam-6000)"
-"2301022",1,"cluster_location_id_0338","baghdad","al.kadhmiyah","Al-Nasir Walsalam-7000","0338 (Al-Nasir Walsalam-7000)"
-"2301026",1,"cluster_location_id_0339","baghdad","al.kadhmiyah","Arab Tahoos","0339 (Arab Tahoos)"
-"2301038",1,"cluster_location_id_0340","baghdad","al.kadhmiyah","Hay Al-Shuhadaa","0340 (Hay Al-Shuhadaa)"
-"2301045",1,"cluster_location_id_0341","baghdad","al.kadhmiyah","Khan Dhari Center","0341 (Khan Dhari Center)"
-"2301047",1,"cluster_location_id_0342","baghdad","al.kadhmiyah","North Khernabat","0342 (North Khernabat)"
-"2301048",1,"cluster_location_id_0343","baghdad","al.kadhmiyah","Khernabat-South","0343 (Khernabat-South)"
-"2301064",1,"cluster_location_id_0344","baghdad","al.mahmoudiya","Al Mahasna village ","0344 (Al Mahasna village )"
-"2301073",2,"cluster_location_id_0345","baghdad","al.kadhmiyah","Shuhada Markza-Shuhadda the first","0345 (Shuhada Markza-Shuhadda the first)"
-"2301074",1,"cluster_location_id_0346","baghdad","al.kadhmiyah","Shuhada Markza-Shuhdda the second","0346 (Shuhada Markza-Shuhdda the second)"
-"2301075",1,"cluster_location_id_0347","baghdad","al.kadhmiyah","Shuhada Markza-Shuhadda the third","0347 (Shuhada Markza-Shuhadda the third)"
-"2301080",1,"cluster_location_id_0348","baghdad","al.mahmoudiya","Al Masara village","0348 (Al Masara village)"
-"2301087",1,"cluster_location_id_0349","baghdad","al.mahmoudiya","Al Mamier village","0349 (Al Mamier village)"
-"2301091",1,"cluster_location_id_0350","baghdad","al.kadhmiyah","Majad Al Draa village","0350 (Majad Al Draa village)"
-"2301092",1,"cluster_location_id_0351","baghdad","al.kadhmiyah","18 Al Sadan village","0351 (18 Al Sadan village)"
-"2301093",1,"cluster_location_id_0352","baghdad","al.kadhmiyah","Al Shoker village","0352 (Al Shoker village)"
-"2302004",1,"cluster_location_id_0353","baghdad","al.adhamiya","Adhamia-308","0353 (Adhamia-308)"
-"2302005",1,"cluster_location_id_0354","baghdad","al.adhamiya","Adhamia-312","0354 (Adhamia-312)"
-"2302006",1,"cluster_location_id_0355","baghdad","al.adhamiya","Adhamia-314","0355 (Adhamia-314)"
-"2302007",1,"cluster_location_id_0356","baghdad","al.adhamiya","Adhamiya-310","0356 (Adhamiya-310)"
-"2302044",1,"cluster_location_id_0357","baghdad","al.adhamiya","Al Qahira-307","0357 (Al Qahira-307)"
-"2302049",1,"cluster_location_id_0358","baghdad","al.adhamiya","Hay Al Rabee-332","0358 (Hay Al Rabee-332)"
-"2302062",1,"cluster_location_id_0359","baghdad","al.adhamiya","Al Shamasiyah-320","0359 (Al Shamasiyah-320)"
-"2302063",1,"cluster_location_id_0360","baghdad","al.adhamiya","Al Shamasiyah-316","0360 (Al Shamasiyah-316)"
-"2302078",1,"cluster_location_id_0361","baghdad","al.adhamiya","Bob Al Sham-388","0361 (Bob Al Sham-388)"
-"2302083",1,"cluster_location_id_0362","baghdad","al.adhamiya","Hay Al Rabee-340","0362 (Hay Al Rabee-340)"
-"2302088",1,"cluster_location_id_0363","baghdad","al.adhamiya","Hay Al Rabee-342","0363 (Hay Al Rabee-342)"
-"2302116",1,"cluster_location_id_0364","baghdad","al.adhamiya","Hay Ur-325","0364 (Hay Ur-325)"
-"2305034",1,"cluster_location_id_0365","baghdad","al.risafa","Baghdad Al Jadidia-723","0365 (Baghdad Al Jadidia-723)"
-"2305035",1,"cluster_location_id_0366","baghdad","al.risafa","Baghdad Al Jadidia-725","0366 (Baghdad Al Jadidia-725)"
-"2305049",1,"cluster_location_id_0367","baghdad","al.risafa","Al Karada-905","0367 (Al Karada-905)"
-"2305055",1,"cluster_location_id_0368","baghdad","al.risafa","Al Mashtal-731","0368 (Al Mashtal-731)"
-"2305057",1,"cluster_location_id_0369","baghdad","al.risafa","Al Mashtal-735","0369 (Al Mashtal-735)"
-"2305058",1,"cluster_location_id_0370","baghdad","al.risafa","Al Mashtal-751","0370 (Al Mashtal-751)"
-"2305065",1,"cluster_location_id_0371","baghdad","al.risafa","Al Nidhal-103","0371 (Al Nidhal-103)"
-"2305069",1,"cluster_location_id_0372","baghdad","al.risafa","Al Rasheed-112","0372 (Al Rasheed-112)"
-"2305072",1,"cluster_location_id_0373","baghdad","al.risafa","Al Riyadh-910","0373 (Al Riyadh-910)"
-"2305097",1,"cluster_location_id_0374","baghdad","al.risafa","Al Zaafaranyah-965","0374 (Al Zaafaranyah-965)"
-"2305128",1,"cluster_location_id_0375","baghdad","al.risafa","Al Maamil-781","0375 (Al Maamil-781)"
-"2306001",1,"cluster_location_id_0376","baghdad","al.kadhmiyah","Ahmed Al Hamid village","0376 (Ahmed Al Hamid village)"
-"2306063",1,"cluster_location_id_0377","baghdad","al.kadhmiyah","Sabea Al Buor-14000","0377 (Sabea Al Buor-14000)"
-"2306073",1,"cluster_location_id_0378","baghdad","al.kadhmiyah","Sabea Al Buor-8000","0378 (Sabea Al Buor-8000)"
-"2306106",1,"cluster_location_id_0379","baghdad","al.kadhmiyah","Al Ahnaf-Al Rakia Fadel village","0379 (Al Ahnaf-Al Rakia Fadel village)"
-"2306113",1,"cluster_location_id_0380","baghdad","al.kadhmiyah","North Al Kadhimia-447","0380 (North Al Kadhimia-447)"
-"2307010",1,"cluster_location_id_0381","baghdad","al.karkh","Al Forat-893","0381 (Al Forat-893)"
-"2307011",1,"cluster_location_id_0382","baghdad","al.karkh","Al Ghazaliya-649","0382 (Al Ghazaliya-649)"
-"2307016",1,"cluster_location_id_0383","baghdad","al.karkh","Al Ghazaliya-665","0383 (Al Ghazaliya-665)"
-"2307018",1,"cluster_location_id_0384","baghdad","al.karkh","Al Ghazaliya-681","0384 (Al Ghazaliya-681)"
-"2307025",1,"cluster_location_id_0385","baghdad","al.karkh","Al Iskan(Al Masfi)-822","0385 (Al Iskan(Al Masfi)-822)"
-"2307033",1,"cluster_location_id_0386","baghdad","al.karkh","Al Jazaer-818","0386 (Al Jazaer-818)"
-"2307035",1,"cluster_location_id_0387","baghdad","al.karkh","Al Jazera-808","0387 (Al Jazera-808)"
-"2307043",1,"cluster_location_id_0388","baghdad","al.karkh","Al Mutanbi-603","0388 (Al Mutanbi-603)"
-"2307050",1,"cluster_location_id_0389","baghdad","al.mahmoudiya","Al Raie 861","0389 (Al Raie 861)"
-"2307063",1,"cluster_location_id_0390","baghdad","al.karkh","Al Toma(Al Masfi)-826","0390 (Al Toma(Al Masfi)-826)"
-"2307068",1,"cluster_location_id_0391","baghdad","al.karkh","Al Yarmouk-610","0391 (Al Yarmouk-610)"
-"2307093",1,"cluster_location_id_0392","baghdad","al.mahmoudiya","Al Radwania","0392 (Al Radwania)"
-"2307097",1,"cluster_location_id_0393","baghdad","al.karkh","Al Amerya-632","0393 (Al Amerya-632)"
-"2307099",1,"cluster_location_id_0394","baghdad","al.karkh","Al Amerya-636","0394 (Al Amerya-636)"
-"2307100",1,"cluster_location_id_0395","baghdad","al.karkh","Al Amerya-638","0395 (Al Amerya-638)"
-"2307110",1,"cluster_location_id_0396","baghdad","al.karkh","Hay Al Adil-657","0396 (Hay Al Adil-657)"
-"2307124",2,"cluster_location_id_0397","baghdad","al.risafa","Al Karkh-212","0397 (Al Karkh-212)"
-"2309001",2,"cluster_location_id_0398","baghdad","al.mahmoudiya","14 Tamooz","0398 (14 Tamooz)"
-"2309005",2,"cluster_location_id_0399","baghdad","al.mahmoudiya","Al Latefia-Al Qadessia","0399 (Al Latefia-Al Qadessia)"
-"2309007",1,"cluster_location_id_0400","baghdad","al.mahmoudiya","Hay Al-Askary","0400 (Hay Al-Askary)"
-"2309008",1,"cluster_location_id_0401","baghdad","al.mahmoudiya","Kilo 18","0401 (Kilo 18)"
-"2309019",1,"cluster_location_id_0402","baghdad","al.mahmoudiya","Hay Al-Rubaiy-204","0402 (Hay Al-Rubaiy-204)"
-"2309022",1,"cluster_location_id_0403","baghdad","al.mahmoudiya","Dereia w Um Mahar","0403 (Dereia w Um Mahar)"
-"2309027",1,"cluster_location_id_0404","baghdad","al.mahmoudiya","Hay Al Mazraa","0404 (Hay Al Mazraa)"
-"2309030",2,"cluster_location_id_0405","baghdad","al.mahmoudiya","Hay Al Zuhoor","0405 (Hay Al Zuhoor)"
-"2309052",1,"cluster_location_id_0406","baghdad","al.mahmoudiya","Sader Al Yousfiya","0406 (Sader Al Yousfiya)"
-"2309056",1,"cluster_location_id_0407","baghdad","al.mahmoudiya","Shaka-3","0407 (Shaka-3)"
-"2309060",1,"cluster_location_id_0408","baghdad","al.mussyab","Faheel Am Al Jaeer village ","0408 (Faheel Am Al Jaeer village )"
-"2309064",1,"cluster_location_id_0409","baghdad","al.mahmoudiya","Hay Al Dobat(Al kragolyia)","0409 (Hay Al Dobat(Al kragolyia))"
-"2309068",1,"cluster_location_id_0410","baghdad","al.mahmoudiya","Hay Al Shuhada(Al kragolyia)","0410 (Hay Al Shuhada(Al kragolyia))"
-"2309075",1,"cluster_location_id_0411","baghdad","al.mahmoudiya","Albo Awasj village","0411 (Albo Awasj village)"
-"2309078",1,"cluster_location_id_0412","baghdad","al.mahmoudiya","Al Azam village-Mukhata 17","0412 (Al Azam village-Mukhata 17)"
-"2309089",1,"cluster_location_id_0413","baghdad","al.mahmoudiya","Al Azez Al Ghaffar-(Al Jomblatiya Southern)","0413 (Al Azez Al Ghaffar-(Al Jomblatiya Southern))"
-"2309094",1,"cluster_location_id_0414","baghdad","al.mahmoudiya","Al Motokal village-(Al Jomblatiya Northern)","0414 (Al Motokal village-(Al Jomblatiya Northern))"
-"2309095",1,"cluster_location_id_0415","baghdad","al.mahmoudiya","Al Abraar village-(Al Jomblatiya Northern)","0415 (Al Abraar village-(Al Jomblatiya Northern))"
-"2309096",1,"cluster_location_id_0416","baghdad","al.mahmoudiya","Al Forat l village-(Al Harkawi Southern)","0416 (Al Forat l village-(Al Harkawi Southern))"
-"2309100",1,"cluster_location_id_0417","baghdad","al.mahmoudiya","Albu Moufarrej Village","0417 (Albu Moufarrej Village)"
-"2309102",1,"cluster_location_id_0418","baghdad","al.mahmoudiya","Killo-5","0418 (Killo-5)"
-"2310004",1,"cluster_location_id_0419","baghdad","al.kadhmiyah","Al Khadraa village","0419 (Al Khadraa village)"
-"2310005",1,"cluster_location_id_0420","baghdad","al.kadhmiyah","Al Rawad","0420 (Al Rawad)"
-"2310007",1,"cluster_location_id_0421","baghdad","al.kadhmiyah","Al-Abayechi-1","0421 (Al-Abayechi-1)"
-"2310010",1,"cluster_location_id_0422","baghdad","al.kadhmiyah","Hai Al Qadessia-1","0422 (Hai Al Qadessia-1)"
-"2310015",1,"cluster_location_id_0423","baghdad","al.kadhmiyah","Hai Al Wehda","0423 (Hai Al Wehda)"
-"2310017",1,"cluster_location_id_0424","baghdad","al.kadhmiyah","Nadeem-1 Village","0424 (Nadeem-1 Village)"
-"2310020",1,"cluster_location_id_0425","baghdad","al.kadhmiyah","14 Abar village 5","0425 (14 Abar village 5)"
-"2310023",1,"cluster_location_id_0426","baghdad","al.kadhmiyah","Jasim Mohamed Khalf villge","0426 (Jasim Mohamed Khalf villge)"
-"2310028",1,"cluster_location_id_0427","baghdad","al.kadhmiyah","Alo Khtaia village","0427 (Alo Khtaia village)"
-"2310033",1,"cluster_location_id_0428","baghdad","al.kadhmiyah","7 Mijman-Tal al Tassa village","0428 (7 Mijman-Tal al Tassa village)"
-"2310034",1,"cluster_location_id_0429","baghdad","al.kadhmiyah","15 Masaaod-Al Anaz village","0429 (15 Masaaod-Al Anaz village)"
-"2401004",1,"cluster_location_id_0430","diyala","al.khalis","Al Ghalbiya","0430 (Al Ghalbiya)"
-"2401005",1,"cluster_location_id_0431","diyala","al.kadhmiyah","Al Gserin Village","0431 (Al Gserin Village)"
-"2401009",1,"cluster_location_id_0432","diyala","al.khalis","Markaz Al Khalis","0432 (Markaz Al Khalis)"
-"2401010",1,"cluster_location_id_0433","diyala","al.khalis","Al Mohandseen Alzraeen Village","0433 (Al Mohandseen Alzraeen Village)"
-"2401014",1,"cluster_location_id_0434","diyala","balad","Al Sindiyah village","0434 (Al Sindiyah village)"
-"2401021",1,"cluster_location_id_0435","diyala","al.khalis","Al-Sadah Village","0435 (Al-Sadah Village)"
-"2401023",1,"cluster_location_id_0436","diyala","al.khalis","Arab Hafedh Village","0436 (Arab Hafedh Village)"
-"2401025",2,"cluster_location_id_0437","diyala","al.khalis","Arab Shanon","0437 (Arab Shanon)"
-"2401029",1,"cluster_location_id_0438","diyala","al.khalis","Dawod Al-Salom village","0438 (Dawod Al-Salom village)"
-"2401032",1,"cluster_location_id_0439","diyala","al.khalis","Markaz Hibhib","0439 (Markaz Hibhib)"
-"2401036",1,"cluster_location_id_0440","diyala","al.khalis","Hibhib-Al Asry Qtr","0440 (Hibhib-Al Asry Qtr)"
-"2401040",1,"cluster_location_id_0441","diyala","al.khalis","Hibhib-Al Shohadaa Qtr","0441 (Hibhib-Al Shohadaa Qtr)"
-"2401042",1,"cluster_location_id_0442","diyala","al.khalis","Hibhib-Hay Al Resala","0442 (Hibhib-Hay Al Resala)"
-"2401043",2,"cluster_location_id_0443","diyala","al.khalis","Jadidat Al Shat village","0443 (Jadidat Al Shat village)"
-"2401046",1,"cluster_location_id_0444","diyala","al.khalis","Saif Saad Qtr","0444 (Saif Saad Qtr)"
-"2401048",1,"cluster_location_id_0445","diyala","al.khalis","Al Aqssa Village","0445 (Al Aqssa Village)"
-"2401049",1,"cluster_location_id_0446","diyala","al.khalis","Bizayiz Sherwin Village","0446 (Bizayiz Sherwin Village)"
-"2401057",1,"cluster_location_id_0447","diyala","al.khalis","Habib Al Abdulla Village","0447 (Habib Al Abdulla Village)"
-"2401063",1,"cluster_location_id_0448","diyala","al.khalis","Dalli Abass-The Old Qtr","0448 (Dalli Abass-The Old Qtr)"
-"2401064",1,"cluster_location_id_0449","diyala","al.khalis","Dalli Abass-Al Rasheed Qtr","0449 (Dalli Abass-Al Rasheed Qtr)"
-"2401068",1,"cluster_location_id_0450","diyala","al.khalis","Mohammed Ali Village","0450 (Mohammed Ali Village)"
-"2401093",1,"cluster_location_id_0451","diyala","al.khalis","Ein Layla village","0451 (Ein Layla village)"
-"2401107",1,"cluster_location_id_0452","diyala","al.khalis","Mansouriyat Al Gabal","0452 (Mansouriyat Al Gabal)"
-"2401109",1,"cluster_location_id_0453","diyala","al.khalis","Al Idhem Center","0453 (Al Idhem Center)"
-"2401114",1,"cluster_location_id_0454","diyala","samarra","Albo Sarah Village","0454 (Albo Sarah Village)"
-"2401130",1,"cluster_location_id_0455","diyala","al.khalis","Albo Baker","0455 (Albo Baker)"
-"2402006",1,"cluster_location_id_0456","diyala","al.muqdadiya","Al Aali Village","0456 (Al Aali Village)"
-"2402009",1,"cluster_location_id_0457","diyala","al.muqdadiya","A Hammadi Village","0457 (A Hammadi Village)"
-"2402010",1,"cluster_location_id_0458","diyala","al.muqdadiya","Al Igaidat Village","0458 (Al Igaidat Village)"
-"2402012",1,"cluster_location_id_0459","diyala","al.muqdadiya","Al Lihayb Village","0459 (Al Lihayb Village)"
-"2402016",1,"cluster_location_id_0460","diyala","al.khalis","Al Shekha Village","0460 (Al Shekha Village)"
-"2402018",1,"cluster_location_id_0461","diyala","al.muqdadiya","Al Somood Qtr","0461 (Al Somood Qtr)"
-"2402019",1,"cluster_location_id_0462","diyala","al.muqdadiya","AlTaiha Qtr","0462 (AlTaiha Qtr)"
-"2402020",1,"cluster_location_id_0463","diyala","al.muqdadiya","Al Tinaira Village","0463 (Al Tinaira Village)"
-"2402027",1,"cluster_location_id_0464","diyala","al.muqdadiya","Al Mataar Qtr","0464 (Al Mataar Qtr)"
-"2402031",1,"cluster_location_id_0465","diyala","al.muqdadiya","Hembes Village","0465 (Hembes Village)"
-"2402032",1,"cluster_location_id_0466","diyala","al.muqdadiya","Imam Talib Village","0466 (Imam Talib Village)"
-"2402037",1,"cluster_location_id_0467","diyala","al.muqdadiya","Nofal village","0467 (Nofal village)"
-"2402052",1,"cluster_location_id_0468","diyala","al.muqdadiya","Al Bayat Village","0468 (Al Bayat Village)"
-"2402053",1,"cluster_location_id_0469","diyala","al.muqdadiya","Al Mahata Village","0469 (Al Mahata Village)"
-"2403001",1,"cluster_location_id_0470","diyala","baquba","Markaz Al Abara","0470 (Markaz Al Abara)"
-"2403004",1,"cluster_location_id_0471","diyala","baquba","Al Gatoon-Al Mujama Qtr","0471 (Al Gatoon-Al Mujama Qtr)"
-"2403005",1,"cluster_location_id_0472","diyala","baquba","Al Gatoon-Al rahma","0472 (Al Gatoon-Al rahma)"
-"2403008",2,"cluster_location_id_0473","diyala","baquba","Al Mafraq","0473 (Al Mafraq)"
-"2403010",1,"cluster_location_id_0474","diyala","baquba","Al Rasool Qtr","0474 (Al Rasool Qtr)"
-"2403015",1,"cluster_location_id_0475","diyala","baquba","Al Tahreer","0475 (Al Tahreer)"
-"2403022",1,"cluster_location_id_0476","diyala","baquba","Al-Swamra village","0476 (Al-Swamra village)"
-"2403029",1,"cluster_location_id_0477","diyala","baquba","Buhriz-Al-Asri Qtr","0477 (Buhriz-Al-Asri Qtr)"
-"2403036",1,"cluster_location_id_0478","diyala","baquba","Al Intesar-1 Qtr","0478 (Al Intesar-1 Qtr)"
-"2403039",1,"cluster_location_id_0479","diyala","baquba","Al Salam Qtr","0479 (Al Salam Qtr)"
-"2403040",1,"cluster_location_id_0480","diyala","baquba","Al-Mualimeen-Shahid wadah Qtr","0480 (Al-Mualimeen-Shahid wadah Qtr)"
-"2403044",1,"cluster_location_id_0481","diyala","baquba","Markaz Kanaan","0481 (Markaz Kanaan)"
-"2403060",1,"cluster_location_id_0482","diyala","baquba","Sesbana Village","0482 (Sesbana Village)"
-"2403062",1,"cluster_location_id_0483","diyala","baquba","Mohamed sakran","0483 (Mohamed sakran)"
-"2404001",1,"cluster_location_id_0484","diyala","baladruz","Al Bazaniya village","0484 (Al Bazaniya village)"
-"2404010",1,"cluster_location_id_0485","diyala","baladruz","Al-Ramaila Village","0485 (Al-Ramaila Village)"
-"2404015",1,"cluster_location_id_0486","diyala","baladruz","Dur Mandiliy Qtr","0486 (Dur Mandiliy Qtr)"
-"2404016",1,"cluster_location_id_0487","diyala","baladruz","Hay Al Bakir","0487 (Hay Al Bakir)"
-"2404020",1,"cluster_location_id_0488","diyala","baladruz","Markaz Mandali","0488 (Markaz Mandali)"
-"2405013",2,"cluster_location_id_0489","diyala","khanaqin","alkubeah small village","0489 (alkubeah small village)"
-"2405020",1,"cluster_location_id_0490","diyala","khanaqin","Bakhtiari Qtr","0490 (Bakhtiari Qtr)"
-"2405030",1,"cluster_location_id_0491","diyala","khanaqin","Alshortah Qtr","0491 (Alshortah Qtr)"
-"2405034",1,"cluster_location_id_0492","diyala","kifri","Markaz Jabara","0492 (Markaz Jabara)"
-"2405041",1,"cluster_location_id_0493","diyala","kifri","Khozifah village","0493 (Khozifah village)"
-"2405055",1,"cluster_location_id_0494","diyala","khanaqin","Rapren-2 Qtr","0494 (Rapren-2 Qtr)"
-"2405062",1,"cluster_location_id_0495","diyala","khanaqin","Sirwan Qtr","0495 (Sirwan Qtr)"
-"2405068",2,"cluster_location_id_0496","diyala","khanaqin","Tula Frosh Qtr","0496 (Tula Frosh Qtr)"
-"2405070",1,"cluster_location_id_0497","diyala","khanaqin","Zurab village","0497 (Zurab village)"
-"2405072",1,"cluster_location_id_0498","diyala","khanaqin","Al Husaini Village","0498 (Al Husaini Village)"
-"2405077",1,"cluster_location_id_0499","diyala","khanaqin","Banmil-2 Qtr","0499 (Banmil-2 Qtr)"
-"2405080",1,"cluster_location_id_0500","diyala","khanaqin","Agha and Khalifa","0500 (Agha and Khalifa)"
-"2405084",1,"cluster_location_id_0501","diyala","khanaqin","Said Ahmed Village","0501 (Said Ahmed Village)"
-"2405087",1,"cluster_location_id_0502","diyala","khanaqin","17Tamooz Qtr","0502 (17Tamooz Qtr)"
-"2405090",1,"cluster_location_id_0503","diyala","khanaqin","Al Rabe Al Thaniya Qtr","0503 (Al Rabe Al Thaniya Qtr)"
-"2405096",1,"cluster_location_id_0504","diyala","khanaqin","Al Shuhada Qtr","0504 (Al Shuhada Qtr)"
-"2405097",1,"cluster_location_id_0505","diyala","khanaqin","Al Jamahir Qtr","0505 (Al Jamahir Qtr)"
-"2405103",1,"cluster_location_id_0506","diyala","khanaqin","Alkhadra Qtr Sector 2","0506 (Alkhadra Qtr Sector 2)"
-"2405107",1,"cluster_location_id_0507","diyala","khanaqin","Al Oroba Qtr Sector 3","0507 (Al Oroba Qtr Sector 3)"
-"2405113",1,"cluster_location_id_0508","diyala","khanaqin","Al Jamahir Qtr Sector 4","0508 (Al Jamahir Qtr Sector 4)"
-"2405115",1,"cluster_location_id_0509","diyala","khanaqin","Al Jamahir Qtr Sector 6","0509 (Al Jamahir Qtr Sector 6)"
-"2405116",1,"cluster_location_id_0510","diyala","khanaqin","Al Shuhada Qtr Sector 2","0510 (Al Shuhada Qtr Sector 2)"
-"2405117",1,"cluster_location_id_0511","diyala","khanaqin","Al Shuhada Qtr Sector 3","0511 (Al Shuhada Qtr Sector 3)"
-"2405120",1,"cluster_location_id_0512","diyala","khanaqin","Al Shuhada Qtr Sector 6","0512 (Al Shuhada Qtr Sector 6)"
-"2405123",1,"cluster_location_id_0513","diyala","khanaqin","Al Wehdaa Qtr Sector 4","0513 (Al Wehdaa Qtr Sector 4)"
-"2405142",1,"cluster_location_id_0514","diyala","khanaqin","Al Ummal Qtr","0514 (Al Ummal Qtr)"
-"2406002",1,"cluster_location_id_0515","diyala","kifri","Qaratappa","0515 (Qaratappa)"
-"2406004",1,"cluster_location_id_0516","diyala","kifri","awbrey","0516 (awbrey)"
-"2406007",1,"cluster_location_id_0517","diyala","kifri","emam mohammed","0517 (emam mohammed)"
-"2406012",1,"cluster_location_id_0518","diyala","kifri","raparin","0518 (raparin)"
-"2406013",1,"cluster_location_id_0519","diyala","kifri","azadi","0519 (azadi)"
-"2406016",1,"cluster_location_id_0520","diyala","kifri","sar qala","0520 (sar qala)"
-"2406019",1,"cluster_location_id_0521","diyala","kifri","shahidan","0521 (shahidan)"
-"2502018",1,"cluster_location_id_0522","kerbala","al.hindiya","Al-Hindiya-Hay Al-Amel","0522 (Al-Hindiya-Hay Al-Amel)"
-"2502023",1,"cluster_location_id_0523","kerbala","al.hindiya","Kareat al jubur","0523 (Kareat al jubur)"
-"2502024",1,"cluster_location_id_0524","kerbala","kerbela","Mantakat Al hnedea","0524 (Mantakat Al hnedea)"
-"2502027",2,"cluster_location_id_0525","kerbala","al.hindiya","Al abodea","0525 (Al abodea)"
-"2502036",2,"cluster_location_id_0526","kerbala","al.hindiya","Al Jedar Al Gharbi","0526 (Al Jedar Al Gharbi)"
-"2502043",2,"cluster_location_id_0527","kerbala","al.hindiya","Albu Zagam","0527 (Albu Zagam)"
-"2502046",1,"cluster_location_id_0528","kerbala","al.hindiya","Al-Jadwal Al-Ghrabi-Al Askary","0528 (Al-Jadwal Al-Ghrabi-Al Askary)"
-"2502047",2,"cluster_location_id_0529","kerbala","al.hindiya","Al-Khayrat","0529 (Al-Khayrat)"
-"2503017",1,"cluster_location_id_0530","kerbala","kerbela","Al Askary-Al haidery","0530 (Al Askary-Al haidery)"
-"2503037",1,"cluster_location_id_0531","kerbala","kerbela","Al Fadha","0531 (Al Fadha)"
-"2503048",1,"cluster_location_id_0532","kerbala","kerbela","Sumer 1","0532 (Sumer 1)"
-"2503049",1,"cluster_location_id_0533","kerbala","kerbela","Al Amam Al Montadar","0533 (Al Amam Al Montadar)"
-"2503064",1,"cluster_location_id_0534","kerbala","kerbela","Al Kaim","0534 (Al Kaim)"
-"2503074",1,"cluster_location_id_0535","kerbala","kerbela","Al Qadissiya 2","0535 (Al Qadissiya 2)"
-"2503076",1,"cluster_location_id_0536","kerbala","kerbela","Al Rawdhatain","0536 (Al Rawdhatain)"
-"2503077",1,"cluster_location_id_0537","kerbala","kerbela","Al Sahrawy Al Mazarea","0537 (Al Sahrawy Al Mazarea)"
-"2503089",1,"cluster_location_id_0538","kerbala","kerbela","Al Wand Al Mustajad","0538 (Al Wand Al Mustajad)"
-"2503096",1,"cluster_location_id_0539","kerbala","kerbela","Al-Abrahmeiah (Al hafed)","0539 (Al-Abrahmeiah (Al hafed))"
-"2503122",1,"cluster_location_id_0540","kerbala","kerbela","Al-kakaeiah Al-Sharkeiah","0540 (Al-kakaeiah Al-Sharkeiah)"
-"2503126",1,"cluster_location_id_0541","kerbala","kerbela","Al-Rafedeen","0541 (Al-Rafedeen)"
-"2503127",1,"cluster_location_id_0542","kerbala","kerbela","Al-Safiya 2","0542 (Al-Safiya 2)"
-"2503138",1,"cluster_location_id_0543","kerbala","kerbela","Badat Aswad","0543 (Badat Aswad)"
-"2503170",1,"cluster_location_id_0544","kerbala","kerbela","Hay Al-Abbas","0544 (Hay Al-Abbas)"
-"2503196",1,"cluster_location_id_0545","kerbala","kerbela","Hay al-tahady","0545 (Hay al-tahady)"
-"2503203",1,"cluster_location_id_0546","kerbala","kerbela","Kantraat Al Salam","0546 (Kantraat Al Salam)"
-"2503220",1,"cluster_location_id_0547","kerbala","kerbela","Al-hadi","0547 (Al-hadi)"
-"2503227",1,"cluster_location_id_0548","kerbala","kerbela","Mulhaq Al-Intisar","0548 (Mulhaq Al-Intisar)"
-"2503241",1,"cluster_location_id_0549","kerbala","kerbela","Um Al Banen Village","0549 (Um Al Banen Village)"
-"2503252",1,"cluster_location_id_0550","kerbala","kerbela","Hay al mostafa","0550 (Hay al mostafa)"
-"2503253",1,"cluster_location_id_0551","kerbala","kerbela","Al Muamnen(Elegal)","0551 (Al Muamnen(Elegal))"
-"2601011",1,"cluster_location_id_0552","kirkuk","al.hawiga","Al-zab","0552 (Al-zab)"
-"2601022",1,"cluster_location_id_0553","kirkuk","al.hawiga","Helwa Olia","0553 (Helwa Olia)"
-"2601024",1,"cluster_location_id_0554","kirkuk","al.hawiga","Hilwa middle","0554 (Hilwa middle)"
-"2601030",1,"cluster_location_id_0555","kirkuk","al.hawiga","Qadissiya-101","0555 (Qadissiya-101)"
-"2601034",1,"cluster_location_id_0556","kirkuk","al.hawiga","Shamitt Village","0556 (Shamitt Village)"
-"2601039",1,"cluster_location_id_0557","kirkuk","al.hawiga","Al-Abassy center","0557 (Al-Abassy center)"
-"2601062",1,"cluster_location_id_0558","kirkuk","al.hawiga","Al-Khatoonia","0558 (Al-Khatoonia)"
-"2601063",1,"cluster_location_id_0559","kirkuk","al.hawiga","Hawd Sittah village","0559 (Hawd Sittah village)"
-"2601072",1,"cluster_location_id_0560","kirkuk","al.hawiga","Namisa Village","0560 (Namisa Village)"
-"2601078",1,"cluster_location_id_0561","kirkuk","al.hawiga","Shamllan village","0561 (Shamllan village)"
-"2601083",1,"cluster_location_id_0562","kirkuk","al.hawiga","Digail Village","0562 (Digail Village)"
-"2601102",1,"cluster_location_id_0563","kirkuk","al.hawiga","Hay Al-Nasir ( Hawija )","0563 (Hay Al-Nasir ( Hawija ))"
-"2601116",1,"cluster_location_id_0564","kirkuk","beygee","Braij village","0564 (Braij village)"
-"2601123",1,"cluster_location_id_0565","kirkuk","al.hawiga","Al Manzala Village","0565 (Al Manzala Village)"
-"2602005",2,"cluster_location_id_0566","kirkuk","daquq","Fareeq Awa","0566 (Fareeq Awa)"
-"2602006",1,"cluster_location_id_0567","kirkuk","daquq","Hay Al Motajawizeen","0567 (Hay Al Motajawizeen)"
-"2602007",1,"cluster_location_id_0568","kirkuk","daquq","Hay Ashti","0568 (Hay Ashti)"
-"2602010",1,"cluster_location_id_0569","kirkuk","kirkuk","Laylan-Al Abadat village","0569 (Laylan-Al Abadat village)"
-"2602011",1,"cluster_location_id_0570","kirkuk","daquq","Laylan-Bash Bulaq village","0570 (Laylan-Bash Bulaq village)"
-"2602013",1,"cluster_location_id_0571","kirkuk","daquq","Taza-Omer Bin Khattab","0571 (Taza-Omer Bin Khattab)"
-"2602021",1,"cluster_location_id_0572","kirkuk","daquq","Arab Koy village","0572 (Arab Koy village)"
-"2602024",1,"cluster_location_id_0573","kirkuk","daquq","Hay Gulan","0573 (Hay Gulan)"
-"2602027",1,"cluster_location_id_0574","kirkuk","daquq","Khaled bin Waleed village","0574 (Khaled bin Waleed village)"
-"2602029",1,"cluster_location_id_0575","kirkuk","daquq","Wahda village","0575 (Wahda village)"
-"2602030",1,"cluster_location_id_0576","kirkuk","daquq","Saad Bin Waqqas village","0576 (Saad Bin Waqqas village)"
-"2602035",1,"cluster_location_id_0577","kirkuk","daquq","Hay Al-Salam ( Daquq )","0577 (Hay Al-Salam ( Daquq ))"
-"2602036",1,"cluster_location_id_0578","kirkuk","daquq","Hay Klisa 1","0578 (Hay Klisa 1)"
-"2602037",1,"cluster_location_id_0579","kirkuk","daquq","Hay Nawroz ( Daquq)","0579 (Hay Nawroz ( Daquq))"
-"2602038",1,"cluster_location_id_0580","kirkuk","daquq","Hay Runaki / Daquq","0580 (Hay Runaki / Daquq)"
-"2603001",2,"cluster_location_id_0581","kirkuk","kirkuk","Al Faylaq-Mahala 5","0581 (Al Faylaq-Mahala 5)"
-"2603006",2,"cluster_location_id_0582","kirkuk","kirkuk","Al Tadamon(Hawkari)","0582 (Al Tadamon(Hawkari))"
-"2603007",1,"cluster_location_id_0583","kirkuk","kirkuk","Al Takhi Village","0583 (Al Takhi Village)"
-"2603009",1,"cluster_location_id_0584","kirkuk","kirkuk","Amal al shaabi","0584 (Amal al shaabi)"
-"2603011",2,"cluster_location_id_0585","kirkuk","dibis","Bajwan","0585 (Bajwan)"
-"2603012",1,"cluster_location_id_0586","kirkuk","kirkuk","Darwaza","0586 (Darwaza)"
-"2603013",1,"cluster_location_id_0587","kirkuk","kirkuk","Hay 1 Athar","0587 (Hay 1 Athar)"
-"2603014",1,"cluster_location_id_0588","kirkuk","kirkuk","Hay Adan","0588 (Hay Adan)"
-"2603015",1,"cluster_location_id_0589","kirkuk","kirkuk","Hay Al Hamzali","0589 (Hay Al Hamzali)"
-"2603016",1,"cluster_location_id_0590","kirkuk","kirkuk","Hay Al Jamia-Mahalla 622","0590 (Hay Al Jamia-Mahalla 622)"
-"2603022",2,"cluster_location_id_0591","kirkuk","kirkuk","Hay Al-Khadraa","0591 (Hay Al-Khadraa)"
-"2603025",1,"cluster_location_id_0592","kirkuk","kirkuk","Hay Al-Sinay","0592 (Hay Al-Sinay)"
-"2603026",1,"cluster_location_id_0593","kirkuk","kirkuk","Hay Al-Urooba","0593 (Hay Al-Urooba)"
-"2603027",1,"cluster_location_id_0594","kirkuk","kirkuk","Hay Al-Zawraa","0594 (Hay Al-Zawraa)"
-"2603028",1,"cluster_location_id_0595","kirkuk","kirkuk","Hay Arafah 201","0595 (Hay Arafah 201)"
-"2603029",1,"cluster_location_id_0596","kirkuk","kirkuk","Hay Azadi","0596 (Hay Azadi)"
-"2603038",2,"cluster_location_id_0597","kirkuk","kirkuk","Panja Ali","0597 (Panja Ali)"
-"2603041",1,"cluster_location_id_0598","kirkuk","kirkuk","Qaryat Tobzawa","0598 (Qaryat Tobzawa)"
-"2603044",1,"cluster_location_id_0599","kirkuk","kirkuk","Rahim Awa","0599 (Rahim Awa)"
-"2603045",1,"cluster_location_id_0600","kirkuk","kirkuk","Runaki","0600 (Runaki)"
-"2603046",1,"cluster_location_id_0601","kirkuk","kirkuk","Sary Kahya","0601 (Sary Kahya)"
-"2603047",1,"cluster_location_id_0602","kirkuk","kirkuk","Sayada village","0602 (Sayada village)"
-"2603050",1,"cluster_location_id_0603","kirkuk","kirkuk","Tiseen","0603 (Tiseen)"
-"2603065",1,"cluster_location_id_0604","kirkuk","kirkuk","Hay Al Ertiqaa","0604 (Hay Al Ertiqaa)"
-"2603066",1,"cluster_location_id_0605","kirkuk","kirkuk","Al-Qadisssiya(Rabareen) first","0605 (Al-Qadisssiya(Rabareen) first)"
-"2603067",1,"cluster_location_id_0606","kirkuk","kirkuk","Al-Qadisssiya(Rabareen) seconad","0606 (Al-Qadisssiya(Rabareen) seconad)"
-"2603069",2,"cluster_location_id_0607","kirkuk","kirkuk","Hay Al-Askary 2","0607 (Hay Al-Askary 2)"
-"2603079",1,"cluster_location_id_0608","kirkuk","daquq","Karha Rufaiaa village","0608 (Karha Rufaiaa village)"
-"2604001",2,"cluster_location_id_0609","kirkuk","dibis","Altun Kupri Center","0609 (Altun Kupri Center)"
-"2604005",1,"cluster_location_id_0610","kirkuk","dibis","Hay Al Muaasker","0610 (Hay Al Muaasker)"
-"2604006",1,"cluster_location_id_0611","kirkuk","dibis","Hay Al Tanak","0611 (Hay Al Tanak)"
-"2604007",1,"cluster_location_id_0612","kirkuk","dibis","Hay Al-Shuhadaa","0612 (Hay Al-Shuhadaa)"
-"2604010",1,"cluster_location_id_0613","kirkuk","dibis","Qashqaiyah village","0613 (Qashqaiyah village)"
-"2604011",1,"cluster_location_id_0614","kirkuk","dibis","Qutan village","0614 (Qutan village)"
-"2604013",1,"cluster_location_id_0615","kirkuk","dibis","Hay Kurdistan","0615 (Hay Kurdistan)"
-"2604014",1,"cluster_location_id_0616","kirkuk","dibis","Hay Rabareen","0616 (Hay Rabareen)"
-"2604015",1,"cluster_location_id_0617","kirkuk","dibis","Hay Diyarbakir","0617 (Hay Diyarbakir)"
-"2701001",2,"cluster_location_id_0618","ninewa","aqra","Akre","0618 (Akre)"
-"2701003",1,"cluster_location_id_0619","ninewa","aqra","Amyan","0619 (Amyan)"
-"2701004",1,"cluster_location_id_0620","ninewa","aqra","Banasur","0620 (Banasur)"
-"2701005",1,"cluster_location_id_0621","ninewa","aqra","Bardarash","0621 (Bardarash)"
-"2701009",2,"cluster_location_id_0622","ninewa","aqra","Daratu","0622 (Daratu)"
-"2701012",2,"cluster_location_id_0623","ninewa","al.hamdaniya","Kalak","0623 (Kalak)"
-"2701014",1,"cluster_location_id_0624","ninewa","aqra","Khalilkan","0624 (Khalilkan)"
-"2701017",2,"cluster_location_id_0625","ninewa","aqra","Roviya","0625 (Roviya)"
-"2701033",1,"cluster_location_id_0626","ninewa","al.shikhan","Husseini","0626 (Husseini)"
-"2701034",1,"cluster_location_id_0627","ninewa","aqra","Yakmala","0627 (Yakmala)"
-"2701035",2,"cluster_location_id_0628","ninewa","al.hamdaniya","Zangal","0628 (Zangal)"
-"2702001",2,"cluster_location_id_0629","ninewa","al.baaj","Markaz Baaj","0629 (Markaz Baaj)"
-"2702002",1,"cluster_location_id_0630","ninewa","al.baaj","Al-Rashediyah","0630 (Al-Rashediyah)"
-"2702004",1,"cluster_location_id_0631","ninewa","al.baaj","Abu-Rasen","0631 (Abu-Rasen)"
-"2702009",1,"cluster_location_id_0632","ninewa","al.baaj","Al-Sahrej","0632 (Al-Sahrej)"
-"2702012",1,"cluster_location_id_0633","ninewa","al.baaj","Sibaya Village","0633 (Sibaya Village)"
-"2702013",1,"cluster_location_id_0634","ninewa","al.baaj","Wardeya","0634 (Wardeya)"
-"2703002",1,"cluster_location_id_0635","ninewa","al.hamdaniya","Al-ghadeer complex","0635 (Al-ghadeer complex)"
-"2703010",1,"cluster_location_id_0636","ninewa","al.hamdaniya","Shaquli village","0636 (Shaquli village)"
-"2703011",1,"cluster_location_id_0637","ninewa","al.hamdaniya","Tahrawa Village","0637 (Tahrawa Village)"
-"2703022",1,"cluster_location_id_0638","ninewa","al.hamdaniya","Kubaiba village","0638 (Kubaiba village)"
-"2703035",1,"cluster_location_id_0639","ninewa","al.hamdaniya","Qaraqosh","0639 (Qaraqosh)"
-"2703038",1,"cluster_location_id_0640","ninewa","al.hamdaniya","Al-Salamiyah Village","0640 (Al-Salamiyah Village)"
-"2703041",1,"cluster_location_id_0641","ninewa","al.hamdaniya","Bartalla center","0641 (Bartalla center)"
-"2703045",1,"cluster_location_id_0642","ninewa","al.hamdaniya","Shamsiat Village","0642 (Shamsiat Village)"
-"2703047",1,"cluster_location_id_0643","ninewa","al.hamdaniya","Basakhrah Village","0643 (Basakhrah Village)"
-"2703053",1,"cluster_location_id_0644","ninewa","al.hamdaniya","Kabarly Village","0644 (Kabarly Village)"
-"2703058",1,"cluster_location_id_0645","ninewa","al.hamdaniya","Karamless","0645 (Karamless)"
-"2704002",2,"cluster_location_id_0646","ninewa","al.shikhan","Baadre","0646 (Baadre)"
-"2704004",1,"cluster_location_id_0647","ninewa","al.shikhan","Berstik","0647 (Berstik)"
-"2704005",1,"cluster_location_id_0648","ninewa","al.shikhan","Betnar","0648 (Betnar)"
-"2704006",2,"cluster_location_id_0649","ninewa","al.shikhan","Chira","0649 (Chira)"
-"2704011",2,"cluster_location_id_0650","ninewa","al.shikhan","Kalakchi","0650 (Kalakchi)"
-"2704012",2,"cluster_location_id_0651","ninewa","al.shikhan","Mahad","0651 (Mahad)"
-"2704015",2,"cluster_location_id_0652","ninewa","al.shikhan","Qasrok","0652 (Qasrok)"
-"2704016",2,"cluster_location_id_0653","ninewa","al.shikhan","Shekhan","0653 (Shekhan)"
-"2704027",1,"cluster_location_id_0654","ninewa","al.shikhan","Almaman","0654 (Almaman)"
-"2704033",1,"cluster_location_id_0655","ninewa","al.shikhan","Pirbob","0655 (Pirbob)"
-"2704036",1,"cluster_location_id_0656","ninewa","al.shikhan","Sheikh Milwan Village","0656 (Sheikh Milwan Village)"
-"2704037",1,"cluster_location_id_0657","ninewa","al.shikhan","Small Rikaba Village","0657 (Small Rikaba Village)"
-"2704038",1,"cluster_location_id_0658","ninewa","al.shikhan","Big Rikaba Village","0658 (Big Rikaba Village)"
-"2704039",1,"cluster_location_id_0659","ninewa","al.shikhan","Nargizlia Village","0659 (Nargizlia Village)"
-"2704042",1,"cluster_location_id_0660","ninewa","al.shikhan","Taq Harb","0660 (Taq Harb)"
-"2704043",1,"cluster_location_id_0661","ninewa","al.shikhan","Taq Mekail","0661 (Taq Mekail)"
-"2705001",1,"cluster_location_id_0662","ninewa","al.hatra","Tal abta","0662 (Tal abta)"
-"2705006",1,"cluster_location_id_0663","ninewa","al.hatra","Mokhazaga Village","0663 (Mokhazaga Village)"
-"2705021",1,"cluster_location_id_0664","ninewa","al.hatra","AL-Ani Village","0664 (AL-Ani Village)"
-"2705035",1,"cluster_location_id_0665","ninewa","al.baaj","khwetla village","0665 (khwetla village)"
-"2705038",1,"cluster_location_id_0666","ninewa","al.hatra","Medan kli Gnobia village","0666 (Medan kli Gnobia village)"
-"2705040",1,"cluster_location_id_0667","ninewa","al.hatra","AL_ Trorkmania Al-shmalia village","0667 (AL_ Trorkmania Al-shmalia village)"
-"2705042",1,"cluster_location_id_0668","ninewa","al.hatra","Markaz AL-Hatra","0668 (Markaz AL-Hatra)"
-"2706003",2,"cluster_location_id_0669","ninewa","al.mosul","Al Harmaat","0669 (Al Harmaat)"
-"2706004",1,"cluster_location_id_0670","ninewa","al.mosul","Al jazaer","0670 (Al jazaer)"
-"2706006",2,"cluster_location_id_0671","ninewa","tilkaef","Al rasheediya","0671 (Al rasheediya)"
-"2706010",1,"cluster_location_id_0672","ninewa","al.mosul","Al tahreer","0672 (Al tahreer)"
-"2706011",2,"cluster_location_id_0673","ninewa","al.mosul","Al Tanak","0673 (Al Tanak)"
-"2706012",1,"cluster_location_id_0674","ninewa","al.mosul","Al-Akhaa","0674 (Al-Akhaa)"
-"2706017",2,"cluster_location_id_0675","ninewa","al.mosul","Al-Karamah","0675 (Al-Karamah)"
-"2706026",1,"cluster_location_id_0676","ninewa","al.mosul","Al-Noor","0676 (Al-Noor)"
-"2706031",1,"cluster_location_id_0677","ninewa","al.mosul","Al-Quds","0677 (Al-Quds)"
-"2706033",1,"cluster_location_id_0678","ninewa","al.mosul","Al-Wahda","0678 (Al-Wahda)"
-"2706034",1,"cluster_location_id_0679","ninewa","al.mosul","Al-Yarmuk","0679 (Al-Yarmuk)"
-"2706037",1,"cluster_location_id_0680","ninewa","al.mosul","Bashiqa center","0680 (Bashiqa center)"
-"2706043",2,"cluster_location_id_0681","ninewa","al.mosul","Hay Al Intisar","0681 (Hay Al Intisar)"
-"2706044",2,"cluster_location_id_0682","ninewa","al.mosul","Hay Al Islah Al Zirai","0682 (Hay Al Islah Al Zirai)"
-"2706046",1,"cluster_location_id_0683","ninewa","al.mosul","Hay Al Nahrawan","0683 (Hay Al Nahrawan)"
-"2706048",1,"cluster_location_id_0684","ninewa","al.mosul","Hay Al Tammem","0684 (Hay Al Tammem)"
-"2706050",1,"cluster_location_id_0685","ninewa","al.mosul","Hay Al Zahraa","0685 (Hay Al Zahraa)"
-"2706053",1,"cluster_location_id_0686","ninewa","al.mosul","Hay Nablus","0686 (Hay Nablus)"
-"2706063",1,"cluster_location_id_0687","ninewa","al.mosul","Tal Al-Rumman","0687 (Tal Al-Rumman)"
-"2706082",2,"cluster_location_id_0688","ninewa","al.mosul","Al-Amil","0688 (Al-Amil)"
-"2706093",1,"cluster_location_id_0689","ninewa","al.mosul","Hay Adan","0689 (Hay Adan)"
-"2706094",1,"cluster_location_id_0690","ninewa","al.mosul","Hay Alalam","0690 (Hay Alalam)"
-"2706097",2,"cluster_location_id_0691","ninewa","tilkaef","Bysan","0691 (Bysan)"
-"2706106",1,"cluster_location_id_0692","ninewa","al.mosul","Hay alsedeeq","0692 (Hay alsedeeq)"
-"2706159",1,"cluster_location_id_0693","ninewa","al.mosul","Al-Areej Village","0693 (Al-Areej Village)"
-"2706177",1,"cluster_location_id_0694","ninewa","al.hatra","Qabr bin Naif Village","0694 (Qabr bin Naif Village)"
-"2706188",1,"cluster_location_id_0695","ninewa","al.mosul","Alqadisiya Al-thaniya","0695 (Alqadisiya Al-thaniya)"
-"2706189",1,"cluster_location_id_0696","ninewa","al.mosul","Al-Falah","0696 (Al-Falah)"
-"2706190",1,"cluster_location_id_0697","ninewa","al.mosul","Yarmjah","0697 (Yarmjah)"
-"2706199",1,"cluster_location_id_0698","ninewa","al.mosul","Bahzani","0698 (Bahzani)"
-"2706228",1,"cluster_location_id_0699","ninewa","al.mosul","Al-rabaa Village","0699 (Al-rabaa Village)"
-"2706235",1,"cluster_location_id_0700","ninewa","tilkaef","Tel Al-raes Al-thania Village","0700 (Tel Al-raes Al-thania Village)"
-"2706266",1,"cluster_location_id_0701","ninewa","al.mosul","Al-Rabeea","0701 (Al-Rabeea)"
-"2706279",1,"cluster_location_id_0702","ninewa","al.mosul","Al-Sihha","0702 (Al-Sihha)"
-"2706286",1,"cluster_location_id_0703","ninewa","al.mosul","Al-Mayasa","0703 (Al-Mayasa)"
-"2706302",1,"cluster_location_id_0704","ninewa","al.mosul","Tal Khayma Village","0704 (Tal Khayma Village)"
-"2706326",1,"cluster_location_id_0705","ninewa","al.mosul","Ninewa Sharqiya","0705 (Ninewa Sharqiya)"
-"2707001",1,"cluster_location_id_0706","ninewa","sinjar","Hay Al Naser","0706 (Hay Al Naser)"
-"2707004",1,"cluster_location_id_0707","ninewa","sinjar","Khana sor","0707 (Khana sor)"
-"2707005",2,"cluster_location_id_0708","ninewa","sinjar","Sinuni center","0708 (Sinuni center)"
-"2707006",1,"cluster_location_id_0709","ninewa","sinjar","Dokri","0709 (Dokri)"
-"2707007",1,"cluster_location_id_0710","ninewa","sinjar","Dohola ","0710 (Dohola )"
-"2707008",2,"cluster_location_id_0711","ninewa","sinjar","Borek","0711 (Borek)"
-"2707009",1,"cluster_location_id_0712","ninewa","sinjar","Guhbal and shorka","0712 (Guhbal and shorka)"
-"2707011",1,"cluster_location_id_0713","ninewa","sinjar","Karsi ","0713 (Karsi )"
-"2707016",1,"cluster_location_id_0714","ninewa","sinjar","Wary Bahdo","0714 (Wary Bahdo)"
-"2707017",1,"cluster_location_id_0715","ninewa","sinjar","Sardashty","0715 (Sardashty)"
-"2707019",1,"cluster_location_id_0716","ninewa","sinjar","Melik","0716 (Melik)"
-"2707021",1,"cluster_location_id_0717","ninewa","sinjar","Balif","0717 (Balif)"
-"2707029",1,"cluster_location_id_0718","ninewa","sinjar","Ashti & Heriko","0718 (Ashti & Heriko)"
-"2707030",1,"cluster_location_id_0719","ninewa","sinjar","Bir Adam","0719 (Bir Adam)"
-"2707034",1,"cluster_location_id_0720","ninewa","sinjar","Darki Qawala","0720 (Darki Qawala)"
-"2707038",1,"cluster_location_id_0721","ninewa","sinjar","Zorava and zirwa","0721 (Zorava and zirwa)"
-"2707042",1,"cluster_location_id_0722","ninewa","sinjar","Hay Yarmok","0722 (Hay Yarmok)"
-"2707043",1,"cluster_location_id_0723","ninewa","sinjar","Rozh Halat","0723 (Rozh Halat)"
-"2707048",1,"cluster_location_id_0724","ninewa","sinjar","Hay Alzeraee","0724 (Hay Alzeraee)"
-"2707056",1,"cluster_location_id_0725","ninewa","sinjar","Golat","0725 (Golat)"
-"2707058",1,"cluster_location_id_0726","ninewa","sinjar","Sibaya Ammash Village","0726 (Sibaya Ammash Village)"
-"2707062",1,"cluster_location_id_0727","ninewa","sinjar","Khazoga","0727 (Khazoga)"
-"2708003",1,"cluster_location_id_0728","ninewa","telafar","Al Muthalatha village","0728 (Al Muthalatha village)"
-"2708011",2,"cluster_location_id_0729","ninewa","telafar","Qasabat Zummar","0729 (Qasabat Zummar)"
-"2708026",2,"cluster_location_id_0730","ninewa","telafar","Hay Al Askari","0730 (Hay Al Askari)"
-"2708027",1,"cluster_location_id_0731","ninewa","telafar","Hay Al Arbaeen","0731 (Hay Al Arbaeen)"
-"2708028",1,"cluster_location_id_0732","ninewa","telafar","Hay Alasreya","0732 (Hay Alasreya)"
-"2708029",1,"cluster_location_id_0733","ninewa","telafar","Hay althahabe","0733 (Hay althahabe)"
-"2708032",1,"cluster_location_id_0734","ninewa","telafar","Hay Al Qadisya","0734 (Hay Al Qadisya)"
-"2708033",1,"cluster_location_id_0735","ninewa","telafar","Hay Al Salam","0735 (Hay Al Salam)"
-"2708035",1,"cluster_location_id_0736","ninewa","telafar","Jussa","0736 (Jussa)"
-"2708044",1,"cluster_location_id_0737","ninewa","telafar","Msherfa Village","0737 (Msherfa Village)"
-"2708047",1,"cluster_location_id_0738","ninewa","telafar","Tal Ismair","0738 (Tal Ismair)"
-"2708050",1,"cluster_location_id_0739","ninewa","telafar","Tal Mus","0739 (Tal Mus)"
-"2708066",1,"cluster_location_id_0740","ninewa","telafar","abu khushub","0740 (abu khushub)"
-"2708081",1,"cluster_location_id_0741","ninewa","telafar","Tal Talab vilage","0741 (Tal Talab vilage)"
-"2708084",1,"cluster_location_id_0742","ninewa","telafar","Mushah vilage","0742 (Mushah vilage)"
-"2708089",1,"cluster_location_id_0743","ninewa","telafar","Karsur vilage","0743 (Karsur vilage)"
-"2708090",1,"cluster_location_id_0744","ninewa","telafar","Ewaynat vilage","0744 (Ewaynat vilage)"
-"2708098",1,"cluster_location_id_0745","ninewa","telafar","Abu hajarah","0745 (Abu hajarah)"
-"2708107",1,"cluster_location_id_0746","ninewa","telafar","Sahlij","0746 (Sahlij)"
-"2708128",1,"cluster_location_id_0747","ninewa","telafar","Al-Qadisiya Alawla","0747 (Al-Qadisiya Alawla)"
-"2708137",1,"cluster_location_id_0748","ninewa","telafar","Hay Al jazira","0748 (Hay Al jazira)"
-"2708138",1,"cluster_location_id_0749","ninewa","telafar","Hay Al khadraa","0749 (Hay Al khadraa)"
-"2708143",1,"cluster_location_id_0750","ninewa","telafar","Hay Alkefah al jenobi","0750 (Hay Alkefah al jenobi)"
-"2708168",1,"cluster_location_id_0751","ninewa","telafar","Sahl Al Milhah Village","0751 (Sahl Al Milhah Village)"
-"2709003",2,"cluster_location_id_0752","ninewa","tilkaef","Al Qawsiyat","0752 (Al Qawsiyat)"
-"2709004",1,"cluster_location_id_0753","ninewa","tilkaef","Al Quba","0753 (Al Quba)"
-"2709005",1,"cluster_location_id_0754","ninewa","tilkaef","Alqosh","0754 (Alqosh)"
-"2709008",1,"cluster_location_id_0755","ninewa","tilkaef","Beban","0755 (Beban)"
-"2709010",1,"cluster_location_id_0756","ninewa","tilkaef","Baawiza","0756 (Baawiza)"
-"2709011",2,"cluster_location_id_0757","ninewa","tilkaef","Bozan","0757 (Bozan)"
-"2709015",1,"cluster_location_id_0758","ninewa","tilkaef","Der Umtutha","0758 (Der Umtutha)"
-"2709021",1,"cluster_location_id_0759","ninewa","tilkaef","Jambour Village","0759 (Jambour Village)"
-"2709038",1,"cluster_location_id_0760","ninewa","tilkaef","Shaykhaka","0760 (Shaykhaka)"
-"2709040",2,"cluster_location_id_0761","ninewa","tilkaef","wanna center","0761 (wanna center)"
-"2709041",1,"cluster_location_id_0762","ninewa","tilkaef","Manara","0762 (Manara)"
-"2709045",2,"cluster_location_id_0763","ninewa","tilkaef","Tallsquf","0763 (Tallsquf)"
-"2709052",1,"cluster_location_id_0764","ninewa","tilkaef","Mosul Dam","0764 (Mosul Dam)"
-"2709060",1,"cluster_location_id_0765","ninewa","tilkaef","Sada Area","0765 (Sada Area)"
-"2709075",1,"cluster_location_id_0766","ninewa","tilkaef","Felfel","0766 (Felfel)"
-"2801001",1,"cluster_location_id_0767","salah al-din","al.daur","Al-Khadhra area","0767 (Al-Khadhra area)"
-"2801013",1,"cluster_location_id_0768","salah al-din","al.daur","Al Asriyah village","0768 (Al Asriyah village)"
-"2801015",1,"cluster_location_id_0769","salah al-din","al.daur","Al Mujammaa Al Sakani","0769 (Al Mujammaa Al Sakani)"
-"2801016",1,"cluster_location_id_0770","salah al-din","al.daur","Hay Abu Dalaf","0770 (Hay Abu Dalaf)"
-"2801017",1,"cluster_location_id_0771","salah al-din","al.daur","Hay Al Aboor","0771 (Hay Al Aboor)"
-"2801018",1,"cluster_location_id_0772","salah al-din","al.daur","Hay Al Askri","0772 (Hay Al Askri)"
-"2801020",1,"cluster_location_id_0773","salah al-din","al.daur","Hay Al Sharqiyah","0773 (Hay Al Sharqiyah)"
-"2801021",1,"cluster_location_id_0774","salah al-din","al.daur","Hay Tal Al Banat","0774 (Hay Tal Al Banat)"
-"2801022",1,"cluster_location_id_0775","salah al-din","al.daur","Hay Al Qadisiah","0775 (Hay Al Qadisiah)"
-"2802003",1,"cluster_location_id_0776","salah al-din","al.shirqat","Al Fajir village(Al Tasni)","0776 (Al Fajir village(Al Tasni))"
-"2802007",2,"cluster_location_id_0777","salah al-din","al.shirqat","Hay Al Jumiala","0777 (Hay Al Jumiala)"
-"2802012",1,"cluster_location_id_0778","salah al-din","beygee","Awad Al Tawee complex","0778 (Awad Al Tawee complex)"
-"2802013",2,"cluster_location_id_0779","salah al-din","al.shirqat","Baaja","0779 (Baaja)"
-"2802015",2,"cluster_location_id_0780","salah al-din","al.shirqat","Hay Al Askari","0780 (Hay Al Askari)"
-"2802016",3,"cluster_location_id_0781","salah al-din","al.shirqat","Hay Al Qasbah","0781 (Hay Al Qasbah)"
-"2802025",1,"cluster_location_id_0782","salah al-din","al.shirqat","Qaryat Al Sabkha","0782 (Qaryat Al Sabkha)"
-"2802028",2,"cluster_location_id_0783","salah al-din","al.shirqat","Tal Al Jumiala area","0783 (Tal Al Jumiala area)"
-"2802029",1,"cluster_location_id_0784","salah al-din","al.shirqat","Tulul Baq","0784 (Tulul Baq)"
-"2802034",1,"cluster_location_id_0785","salah al-din","al.shirqat","Hay Al-Khasim Al-Qadem village","0785 (Hay Al-Khasim Al-Qadem village)"
-"2802039",1,"cluster_location_id_0786","salah al-din","al.shirqat","Al-Ayitha Village","0786 (Al-Ayitha Village)"
-"2802041",1,"cluster_location_id_0787","salah al-din","al.shirqat","Hay Al-noor","0787 (Hay Al-noor)"
-"2802046",1,"cluster_location_id_0788","salah al-din","al.shirqat","Sudayrah Tak Tak Village","0788 (Sudayrah Tak Tak Village)"
-"2802047",1,"cluster_location_id_0789","salah al-din","al.shirqat","Sudayrah Aulya Village","0789 (Sudayrah Aulya Village)"
-"2802048",1,"cluster_location_id_0790","salah al-din","al.shirqat","Sudayrah Westa Village","0790 (Sudayrah Westa Village)"
-"2802049",1,"cluster_location_id_0791","salah al-din","beygee","Al-Salman village","0791 (Al-Salman village)"
-"2802052",1,"cluster_location_id_0792","salah al-din","al.shirqat","Al-Mashhad Village","0792 (Al-Mashhad Village)"
-"2802068",1,"cluster_location_id_0793","salah al-din","al.shirqat","Anig Al-Hawa village","0793 (Anig Al-Hawa village)"
-"2803001",1,"cluster_location_id_0794","salah al-din","beygee","Al Mushhaq Village","0794 (Al Mushhaq Village)"
-"2803002",1,"cluster_location_id_0795","salah al-din","samarra","Al Namel Village","0795 (Al Namel Village)"
-"2803006",1,"cluster_location_id_0796","salah al-din","daquq","Hay Tal Al Zatar-mahalla 219","0796 (Hay Tal Al Zatar-mahalla 219)"
-"2803010",2,"cluster_location_id_0797","salah al-din","beygee","Qaryat Al Sareen","0797 (Qaryat Al Sareen)"
-"2803014",1,"cluster_location_id_0798","salah al-din","beygee","Hay Alasmida","0798 (Hay Alasmida)"
-"2803015",1,"cluster_location_id_0799","salah al-din","beygee","Albu Tuama Village","0799 (Albu Tuama Village)"
-"2803016",1,"cluster_location_id_0800","salah al-din","beygee","Al Hamra village","0800 (Al Hamra village)"
-"2803017",2,"cluster_location_id_0801","salah al-din","beygee","Al Hejaj Village-13","0801 (Al Hejaj Village-13)"
-"2803018",1,"cluster_location_id_0802","salah al-din","beygee","Al Mazraa Village","0802 (Al Mazraa Village)"
-"2803022",1,"cluster_location_id_0803","salah al-din","beygee","Al-Zweeyah Village ","0803 (Al-Zweeyah Village )"
-"2803023",1,"cluster_location_id_0804","salah al-din","beygee","Al-asry Al-Jnoby neighborhood","0804 (Al-asry Al-Jnoby neighborhood)"
-"2803029",1,"cluster_location_id_0805","salah al-din","beygee","Hay Altameem","0805 (Hay Altameem)"
-"2803032",1,"cluster_location_id_0806","salah al-din","beygee","Hay Alrisalah","0806 (Hay Alrisalah)"
-"2803037",1,"cluster_location_id_0807","salah al-din","beygee","Sheik Ali village","0807 (Sheik Ali village)"
-"2803040",1,"cluster_location_id_0808","salah al-din","beygee","Alharejiya village","0808 (Alharejiya village)"
-"2804001",1,"cluster_location_id_0809","salah al-din","samarra","Al Hardaniyah","0809 (Al Hardaniyah)"
-"2804005",3,"cluster_location_id_0810","salah al-din","balad","Albu Jewari","0810 (Albu Jewari)"
-"2804006",1,"cluster_location_id_0811","salah al-din","balad","Al-Duloeyah-Hay Al Jubor","0811 (Al-Duloeyah-Hay Al Jubor)"
-"2804007",1,"cluster_location_id_0812","salah al-din","balad","Al-Duloeyah-Hay khazraj","0812 (Al-Duloeyah-Hay khazraj)"
-"2804009",1,"cluster_location_id_0813","salah al-din","balad","Beshakan village","0813 (Beshakan village)"
-"2804016",2,"cluster_location_id_0814","salah al-din","balad","Al-Juboor Village","0814 (Al-Juboor Village)"
-"2804017",1,"cluster_location_id_0815","salah al-din","balad","AL-Eshaqi center","0815 (AL-Eshaqi center)"
-"2804018",1,"cluster_location_id_0816","salah al-din","balad","Yathrib sub distrct ","0816 (Yathrib sub distrct )"
-"2804021",1,"cluster_location_id_0817","salah al-din","balad","Al_Farhateya village","0817 (Al_Farhateya village)"
-"2804022",1,"cluster_location_id_0818","salah al-din","balad","Balad station","0818 (Balad station)"
-"2804023",1,"cluster_location_id_0819","salah al-din","balad","Sinjaar","0819 (Sinjaar)"
-"2804026",1,"cluster_location_id_0820","salah al-din","balad","Aziz Balad","0820 (Aziz Balad)"
-"2805001",1,"cluster_location_id_0821","salah al-din","balad","14 Ramadhan","0821 (14 Ramadhan)"
-"2805005",1,"cluster_location_id_0822","salah al-din","balad","Al Zuheari Village","0822 (Al Zuheari Village)"
-"2805008",1,"cluster_location_id_0823","salah al-din","balad","Bezna Village","0823 (Bezna Village)"
-"2805010",1,"cluster_location_id_0824","salah al-din","balad","Hay Al Hussien","0824 (Hay Al Hussien)"
-"2805016",1,"cluster_location_id_0825","salah al-din","balad","Markaz Al-Dujeel-Al Shabab village","0825 (Markaz Al-Dujeel-Al Shabab village)"
-"2805018",1,"cluster_location_id_0826","salah al-din","balad","Markaz Al-Dujeel-Hay Al Wihda Mahala 101","0826 (Markaz Al-Dujeel-Hay Al Wihda Mahala 101)"
-"2805019",1,"cluster_location_id_0827","salah al-din","balad","Markaz Al-Dujeel-Hay Al Wihda Mahala 103","0827 (Markaz Al-Dujeel-Hay Al Wihda Mahala 103)"
-"2806003",1,"cluster_location_id_0828","salah al-din","samarra","Al Jubairiyah Al Thalitha","0828 (Al Jubairiyah Al Thalitha)"
-"2806005",2,"cluster_location_id_0829","salah al-din","samarra","Al Qala-Mahal 201","0829 (Al Qala-Mahal 201)"
-"2806006",1,"cluster_location_id_0830","salah al-din","samarra","Al Sayoya-Mahala 1","0830 (Al Sayoya-Mahala 1)"
-"2806007",1,"cluster_location_id_0831","salah al-din","samarra","Al_Jazera","0831 (Al_Jazera)"
-"2806008",3,"cluster_location_id_0832","salah al-din","samarra","Al-Abasiya Village","0832 (Al-Abasiya Village)"
-"2806009",1,"cluster_location_id_0833","salah al-din","samarra","Al-Efraz area","0833 (Al-Efraz area)"
-"2806010",3,"cluster_location_id_0834","salah al-din","samarra","Al-Hewaish area","0834 (Al-Hewaish area)"
-"2806012",1,"cluster_location_id_0835","salah al-din","samarra","Al-Shuhadaa-Mahalla 324","0835 (Al-Shuhadaa-Mahalla 324)"
-"2806014",1,"cluster_location_id_0836","salah al-din","samarra","Hay Al Baladiya-104","0836 (Hay Al Baladiya-104)"
-"2806015",1,"cluster_location_id_0837","salah al-din","samarra","Hay Al Dhubbat-Mahalla 334","0837 (Hay Al Dhubbat-Mahalla 334)"
-"2806016",1,"cluster_location_id_0838","salah al-din","samarra","Hay Al Dubhat-Mahalla 336","0838 (Hay Al Dubhat-Mahalla 336)"
-"2806025",2,"cluster_location_id_0839","salah al-din","samarra","Hay Al Zuhoor(Al qala 4)Mahala 202","0839 (Hay Al Zuhoor(Al qala 4)Mahala 202)"
-"2806027",1,"cluster_location_id_0840","salah al-din","samarra","Hay Al-Khathraa Mahala 322","0840 (Hay Al-Khathraa Mahala 322)"
-"2806030",1,"cluster_location_id_0841","salah al-din","samarra","Hay Salah Al-Din(Mahala 302)","0841 (Hay Salah Al-Din(Mahala 302))"
-"2806037",1,"cluster_location_id_0842","salah al-din","samarra","Al-Tresha-Albu Fahed","0842 (Al-Tresha-Albu Fahed)"
-"2806039",1,"cluster_location_id_0843","salah al-din","samarra","Al-Tresha-Albu Shatb","0843 (Al-Tresha-Albu Shatb)"
-"2806048",1,"cluster_location_id_0844","salah al-din","samarra","Al-Jillam area","0844 (Al-Jillam area)"
-"2806050",1,"cluster_location_id_0845","salah al-din","samarra","Hawi Albsat","0845 (Hawi Albsat)"
-"2806053",1,"cluster_location_id_0846","salah al-din","samarra","Mahalla Makeshfa","0846 (Mahalla Makeshfa)"
-"2806055",1,"cluster_location_id_0847","salah al-din","al.khalis","Banat Al-hassan village","0847 (Banat Al-hassan village)"
-"2808001",1,"cluster_location_id_0848","salah al-din","tikrit","Al Ahad Al Jadid village","0848 (Al Ahad Al Jadid village)"
-"2808002",2,"cluster_location_id_0849","salah al-din","tikrit","Hay Al Askari","0849 (Hay Al Askari)"
-"2808004",1,"cluster_location_id_0850","salah al-din","tikrit","Al Haweja village-AlAbady","0850 (Al Haweja village-AlAbady)"
-"2808007",1,"cluster_location_id_0851","salah al-din","tikrit","Al Namah Al ShamaliyahVillage","0851 (Al Namah Al ShamaliyahVillage)"
-"2808011",1,"cluster_location_id_0852","salah al-din","tikrit","Awajealah Quarter","0852 (Awajealah Quarter)"
-"2808016",2,"cluster_location_id_0853","salah al-din","tikrit","Hay Al sinay-Al samad","0853 (Hay Al sinay-Al samad)"
-"2808024",1,"cluster_location_id_0854","salah al-din","tikrit","Sadayrat Abo Ajeel","0854 (Sadayrat Abo Ajeel)"
-"2808025",2,"cluster_location_id_0855","salah al-din","tikrit","Samrah Village","0855 (Samrah Village)"
-"2808028",2,"cluster_location_id_0856","salah al-din","tikrit","Qadisya 2 500 Area","0856 (Qadisya 2 500 Area)"
-"2808031",1,"cluster_location_id_0857","salah al-din","tikrit","Al-Mutaradah 204","0857 (Al-Mutaradah 204)"
-"2808037",1,"cluster_location_id_0858","salah al-din","tikrit","Hay Sheshen Mahal 408","0858 (Hay Sheshen Mahal 408)"
-"2808047",1,"cluster_location_id_0859","salah al-din","tikrit","Al Zallayah village","0859 (Al Zallayah village)"
-"2808058",2,"cluster_location_id_0860","salah al-din","tikrit","Hay Salma Altaghlubia","0860 (Hay Salma Altaghlubia)"
-"2808061",2,"cluster_location_id_0861","salah al-din","tikrit","Qadisya 1 Mahala 214","0861 (Qadisya 1 Mahala 214)"
-"2808062",1,"cluster_location_id_0862","salah al-din","tikrit","Qadisya 2 Mahala 216","0862 (Qadisya 2 Mahala 216)"
-"2808063",1,"cluster_location_id_0863","salah al-din","tikrit","Tal-Al Sibaat Village","0863 (Tal-Al Sibaat Village)"
-"2808069",1,"cluster_location_id_0864","salah al-din","tikrit","Hay Alziraa","0864 (Hay Alziraa)"
-"2808071",1,"cluster_location_id_0865","salah al-din","tikrit","Hay Alqalaa","0865 (Hay Alqalaa)"
-"2808072",1,"cluster_location_id_0866","salah al-din","tikrit","Hay Alkahrbaa","0866 (Hay Alkahrbaa)"
-"2808073",1,"cluster_location_id_0867","salah al-din","tikrit","Hay Alfirdous","0867 (Hay Alfirdous)"
-"2808074",1,"cluster_location_id_0868","salah al-din","tikrit","Hay Al-Tajneed","0868 (Hay Al-Tajneed)"
-"2808076",1,"cluster_location_id_0869","salah al-din","tikrit","Hay Al-Wihda","0869 (Hay Al-Wihda)"
-"2808077",1,"cluster_location_id_0870","salah al-din","beygee","Al-Muskarat","0870 (Al-Muskarat)"
-"2808080",1,"cluster_location_id_0871","salah al-din","tikrit","Mahalla Al Aed","0871 (Mahalla Al Aed)"
-"2808081",2,"cluster_location_id_0872","salah al-din","tikrit","Hay Al Dhubbat","0872 (Hay Al Dhubbat)"
-"2808084",1,"cluster_location_id_0873","salah al-din","tikrit","Al Auja village ","0873 (Al Auja village )"
-"2808085",2,"cluster_location_id_0874","salah al-din","tikrit","Al-Dibsa Village","0874 (Al-Dibsa Village)"
-"2808089",2,"cluster_location_id_0875","salah al-din","tikrit","Al-Qadisya Complex","0875 (Al-Qadisya Complex)"
-"2809001",1,"cluster_location_id_0876","salah al-din","tooz.khurmato","Hay Al Sideeq Mahalla 105","0876 (Hay Al Sideeq Mahalla 105)"
-"2809004",1,"cluster_location_id_0877","salah al-din","tooz.khurmato","Hay Garmian","0877 (Hay Garmian)"
-"2809005",3,"cluster_location_id_0878","salah al-din","tooz.khurmato","Hay Komari-120","0878 (Hay Komari-120)"
-"2809007",3,"cluster_location_id_0879","salah al-din","tooz.khurmato","Hay Rizgari-114","0879 (Hay Rizgari-114)"
-"2809008",1,"cluster_location_id_0880","salah al-din","daquq","Hay Shoraw-1","0880 (Hay Shoraw-1)"
-"2809010",2,"cluster_location_id_0881","salah al-din","tooz.khurmato","Markaz Tooz-Hay Al Askari","0881 (Markaz Tooz-Hay Al Askari)"
-"2809012",1,"cluster_location_id_0882","salah al-din","tooz.khurmato","Markaz Tooz-Hay Al Taiyar 122","0882 (Markaz Tooz-Hay Al Taiyar 122)"
-"2809015",2,"cluster_location_id_0883","salah al-din","tooz.khurmato","Markaz Tooz-Hay Brayati","0883 (Markaz Tooz-Hay Brayati)"
-"2809018",1,"cluster_location_id_0884","salah al-din","tooz.khurmato","Sankur","0884 (Sankur)"
-"2809021",1,"cluster_location_id_0885","salah al-din","tooz.khurmato","Tooz-Hay Al Teen","0885 (Tooz-Hay Al Teen)"
-"2809022",2,"cluster_location_id_0886","salah al-din","tooz.khurmato","Unformal Shelter","0886 (Unformal Shelter)"
-"2809023",1,"cluster_location_id_0887","salah al-din","tooz.khurmato","Brawchili village","0887 (Brawchili village)"
-"2809025",1,"cluster_location_id_0888","salah al-din","tooz.khurmato","Hay Al-Askary","0888 (Hay Al-Askary)"
-"2809027",1,"cluster_location_id_0889","salah al-din","tooz.khurmato","Hay Al-Nasr","0889 (Hay Al-Nasr)"
-"2809051",1,"cluster_location_id_0890","salah al-din","chamchamal","Milnaser Village","0890 (Milnaser Village)"
-"2809058",1,"cluster_location_id_0891","salah al-din","tooz.khurmato","Sulayman Beg sub district center","0891 (Sulayman Beg sub district center)"
-"2809059",1,"cluster_location_id_0892","salah al-din","tooz.khurmato","Al-Salam Village","0892 (Al-Salam Village)"
-"2903005",1,"cluster_location_id_0893","wassit","al.suwaira","Hay Al-Jihad","0893 (Hay Al-Jihad)"
-"2903009",1,"cluster_location_id_0894","wassit","al.suwaira","Hay Al-askary","0894 (Hay Al-askary)"
-"2903014",1,"cluster_location_id_0895","wassit","al.suwaira","Hay Al-Furat","0895 (Hay Al-Furat)"
-"2903022",1,"cluster_location_id_0896","wassit","al.suwaira","Hay Al-Jameya","0896 (Hay Al-Jameya)"
-"2904011",1,"cluster_location_id_0897","wassit","al.suwaira","Al-Azezia 150 area","0897 (Al-Azezia 150 area)"
-"2904014",1,"cluster_location_id_0898","wassit","al.suwaira","Al-Dawar Al-Sharqi","0898 (Al-Dawar Al-Sharqi)"
-"2904021",1,"cluster_location_id_0899","wassit","al.suwaira","Al-Khamas 3","0899 (Al-Khamas 3)"
-"2904035",1,"cluster_location_id_0900","wassit","al.suwaira","Al-Tanmeya","0900 (Al-Tanmeya)"
-"2904044",1,"cluster_location_id_0901","wassit","al.suwaira","Al Shabab 1","0901 (Al Shabab 1)"
-"2904046",1,"cluster_location_id_0902","wassit","al.suwaira","Hay Al-Askari 3","0902 (Hay Al-Askari 3)"
-"2904059",1,"cluster_location_id_0903","wassit","al.suwaira","Taj al-dien","0903 (Taj al-dien)"
-"2904060",1,"cluster_location_id_0904","wassit","al.suwaira","Taj al-dien center 1","0904 (Taj al-dien center 1)"
-"2906001",1,"cluster_location_id_0905","wassit","al.kut","Al Batar village","0905 (Al Batar village)"
-"2906004",1,"cluster_location_id_0906","wassit","al.kut","Al Hasan Al Askari","0906 (Al Hasan Al Askari)"
-"2906023",2,"cluster_location_id_0907","wassit","al.kut","Hay Al-Hawaraa 3","0907 (Hay Al-Hawaraa 3)"
-"2906025",1,"cluster_location_id_0908","wassit","al.kut","Al-Jihad Al-Zahraa","0908 (Al-Jihad Al-Zahraa)"
-"2906031",1,"cluster_location_id_0909","wassit","al.kut","Al-Sebtain W Al-Maamel","0909 (Al-Sebtain W Al-Maamel)"
-"2906041",1,"cluster_location_id_0910","wassit","al.kut","Damook Al-Dhbat","0910 (Damook Al-Dhbat)"
-"2906051",2,"cluster_location_id_0911","wassit","al.kut","Al-Jihad-Al Thaqalain","0911 (Al-Jihad-Al Thaqalain)"
-"2906052",1,"cluster_location_id_0912","wassit","al.kut","Hay Al Wehda","0912 (Hay Al Wehda)"
-"2906055",1,"cluster_location_id_0913","wassit","al.kut","Hay Al-Hakeem","0913 (Hay Al-Hakeem)"
-"2906056",1,"cluster_location_id_0914","wassit","al.kut","Hay Al-Karar","0914 (Hay Al-Karar)"
-"2906058",1,"cluster_location_id_0915","wassit","al.kut","Hay Al-Shuhadaa","0915 (Hay Al-Shuhadaa)"
-"2906059",1,"cluster_location_id_0916","wassit","al.kut","Hay al-zahraa","0916 (Hay al-zahraa)"
-"2906064",1,"cluster_location_id_0917","wassit","al.kut","Sewada Said Shati","0917 (Sewada Said Shati)"
-"2906069",1,"cluster_location_id_0918","wassit","al.kut","Um Hulail Village","0918 (Um Hulail Village)"
-"2906071",1,"cluster_location_id_0919","wassit","al.kut","Al-Umarat-Al-Mutamaizeen","0919 (Al-Umarat-Al-Mutamaizeen)"
-"2906072",1,"cluster_location_id_0920","wassit","al.kut","Al Hakeem Al-Ula","0920 (Al Hakeem Al-Ula)"
-"2906073",1,"cluster_location_id_0921","wassit","al.kut","Al Hakeem Al-Thania","0921 (Al Hakeem Al-Thania)"
-"3105013",1,"cluster_location_id_0922","basrah","al.basrah","Al Ashar Center","0922 (Al Ashar Center)"
-"3105025",1,"cluster_location_id_0923","basrah","al.basrah","Al Jumhuriya","0923 (Al Jumhuriya)"
-"3105026",1,"cluster_location_id_0924","basrah","al.basrah","Al Kaim 1","0924 (Al Kaim 1)"
-"3105030",2,"cluster_location_id_0925","basrah","al.basrah","AL Mowafaqiah","0925 (AL Mowafaqiah)"
-"3105044",1,"cluster_location_id_0926","basrah","al.basrah","Al-Baker & Al-Ahrar","0926 (Al-Baker & Al-Ahrar)"
-"3105047",1,"cluster_location_id_0927","basrah","al.basrah","Al-hakemia","0927 (Al-hakemia)"
-"3105049",1,"cluster_location_id_0928","basrah","al.basrah","Al-Jnaina","0928 (Al-Jnaina)"
-"3105068",1,"cluster_location_id_0929","basrah","al.basrah","Braiha","0929 (Braiha)"
-"3105069",1,"cluster_location_id_0930","basrah","al.basrah","Casino Lebnan","0930 (Casino Lebnan)"
-"3105094",2,"cluster_location_id_0931","basrah","al.basrah","Hay Al Risalah","0931 (Hay Al Risalah)"
-"3105100",1,"cluster_location_id_0932","basrah","al.basrah","Hay Al-Husain 3","0932 (Hay Al-Husain 3)"
-"3105112",2,"cluster_location_id_0933","basrah","al.basrah","Manawi pasha","0933 (Manawi pasha)"
-"3105123",1,"cluster_location_id_0934","basrah","al.basrah","Al Khaleej1","0934 (Al Khaleej1)"
-"3205002",2,"cluster_location_id_0935","missan","al.kahla","Al Hay Al JameI","0935 (Al Hay Al JameI)"
-"3205006",1,"cluster_location_id_0936","missan","al.kahla","Al Salam","0936 (Al Salam)"
-"3205019",1,"cluster_location_id_0937","missan","al.kahla","Hay Al Karar","0937 (Hay Al Karar)"
-"3205026",1,"cluster_location_id_0938","missan","al.kahla","Hay Al Rasool","0938 (Hay Al Rasool)"
-"3205031",1,"cluster_location_id_0939","missan","al.kahla","Hay Al-Ameer","0939 (Hay Al-Ameer)"
-"3206007",1,"cluster_location_id_0940","missan","al.kahla","Hay Al-Ameer","0940 (Hay Al-Ameer)"
-"3402016",1,"cluster_location_id_0941","najaf","al.kufa","Albu Hadary","0941 (Albu Hadary)"
-"3402019",1,"cluster_location_id_0942","najaf","al.kufa","Alwat Al Fahal","0942 (Alwat Al Fahal)"
-"3402035",1,"cluster_location_id_0943","najaf","al.kufa","Maytham Al Tamar","0943 (Maytham Al Tamar)"
-"3402041",1,"cluster_location_id_0944","najaf","al.kufa","Al Kreishat Al Shimaliya","0944 (Al Kreishat Al Shimaliya)"
-"3403003",1,"cluster_location_id_0945","najaf","al.najaf","Al bory","0945 (Al bory)"
-"3403012",1,"cluster_location_id_0946","najaf","al.najaf","AL JEDAIDA","0946 (AL JEDAIDA)"
-"3403032",1,"cluster_location_id_0947","najaf","al.najaf","Aljadidah alulah","0947 (Aljadidah alulah)"
-"3403035",1,"cluster_location_id_0948","najaf","al.kufa","AL-RADHAWIYA","0948 (AL-RADHAWIYA)"
-"3403039",1,"cluster_location_id_0949","najaf","al.najaf","Hay Al Ameer","0949 (Hay Al Ameer)"
-"3403049",1,"cluster_location_id_0950","najaf","al.najaf","Al-Shaheed Al-Sadar 1","0950 (Al-Shaheed Al-Sadar 1)"
-"3403055",1,"cluster_location_id_0951","najaf","al.najaf","Hay Al zahraa-Al Haidariyah","0951 (Hay Al zahraa-Al Haidariyah)"
-"3403075",1,"cluster_location_id_0952","najaf","al.najaf","Shawafi Village","0952 (Shawafi Village)"
-"3403079",1,"cluster_location_id_0953","najaf","al.najaf","Mafraq Al-Kefal","0953 (Mafraq Al-Kefal)"
-"3403080",2,"cluster_location_id_0954","najaf","al.najaf","Al-Mazarea AL-Westa","0954 (Al-Mazarea AL-Westa)"
-"3403081",2,"cluster_location_id_0955","najaf","al.najaf","Al-Qasim","0955 (Al-Qasim)"
-"3403082",1,"cluster_location_id_0956","najaf","al.najaf","Markaz Alhaidariya","0956 (Markaz Alhaidariya)"
-"3403084",2,"cluster_location_id_0957","najaf","al.najaf","Mazara Al-Hawli","0957 (Mazara Al-Hawli)"
-"3403085",2,"cluster_location_id_0958","najaf","al.najaf","Fadak Village","0958 (Fadak Village)"
-"3403086",2,"cluster_location_id_0959","najaf","al.kufa","Al-Mazara 2","0959 (Al-Mazara 2)"
-"3403088",2,"cluster_location_id_0960","najaf","al.najaf","Al-Shaheed Al-Sadar-Shareet","0960 (Al-Shaheed Al-Sadar-Shareet)"
-"3403089",1,"cluster_location_id_0961","najaf","al.najaf","Al-Ghadeer Village complex","0961 (Al-Ghadeer Village complex)"
-"3504014",1,"cluster_location_id_0962","thi-qar","al.nasiriya","Al Sharqiya","0962 (Al Sharqiya)"
-"3504021",1,"cluster_location_id_0963","thi-qar","al.nasiriya","Al-Salhiya","0963 (Al-Salhiya)"
-"3504024",1,"cluster_location_id_0964","thi-qar","al.nasiriya","Al-zielat","0964 (Al-zielat)"
-"3504025",1,"cluster_location_id_0965","thi-qar","al.nasiriya","Aredo","0965 (Aredo)"
-"3504028",1,"cluster_location_id_0966","thi-qar","al.nasiriya","Hay Al Ameer","0966 (Hay Al Ameer)"
-"3504029",1,"cluster_location_id_0967","thi-qar","al.nasiriya","Hay Al Fidaa","0967 (Hay Al Fidaa)"
-"3504031",1,"cluster_location_id_0968","thi-qar","al.nasiriya","Hay Al Mualimeen","0968 (Hay Al Mualimeen)"
-"3504033",1,"cluster_location_id_0969","thi-qar","al.nasiriya","Hay Al Tadhihiya","0969 (Hay Al Tadhihiya)"
-"3504041",1,"cluster_location_id_0970","thi-qar","al.nasiriya","Nassriya-Hey 400","0970 (Nassriya-Hey 400)"
-"3504042",1,"cluster_location_id_0971","thi-qar","al.nasiriya","Sadir City","0971 (Sadir City)"
-"3504051",1,"cluster_location_id_0972","thi-qar","al.nasiriya","Um Al Dood","0972 (Um Al Dood)"
-"3504054",1,"cluster_location_id_0973","thi-qar","al.nasiriya","Hay AL-Mansouria","0973 (Hay AL-Mansouria)"
-"3603003",1,"cluster_location_id_0974","qadissiya","al.diwaniya","Al Mojamaa Al Sakani","0974 (Al Mojamaa Al Sakani)"
-"3603004",1,"cluster_location_id_0975","qadissiya","al.diwaniya","Hay Al Ghadir","0975 (Hay Al Ghadir)"
-"3603008",1,"cluster_location_id_0976","qadissiya","al.diwaniya","Al himran village","0976 (Al himran village)"
-"3603009",1,"cluster_location_id_0977","qadissiya","al.diwaniya","Um tibashi village","0977 (Um tibashi village)"
-"3603010",2,"cluster_location_id_0978","qadissiya","al.diwaniya","Albo Hasan village","0978 (Albo Hasan village)"
-"3603011",1,"cluster_location_id_0979","qadissiya","al.diwaniya","Hay Al Wihda 2","0979 (Hay Al Wihda 2)"
-"3603017",1,"cluster_location_id_0980","qadissiya","al.diwaniya","Albu Khnefis village","0980 (Albu Khnefis village)"
-"3603025",1,"cluster_location_id_0981","qadissiya","al.diwaniya","Al-Jazaair 2","0981 (Al-Jazaair 2)"
-"3603033",2,"cluster_location_id_0982","qadissiya","al.diwaniya","Al-Jabaar village","0982 (Al-Jabaar village)"
-"3603034",1,"cluster_location_id_0983","qadissiya","al.diwaniya","Hay Al-Hussain","0983 (Hay Al-Hussain)"
-"3603047",1,"cluster_location_id_0984","qadissiya","al.diwaniya","Hay Al Furat-1","0984 (Hay Al Furat-1)"
-"3603057",1,"cluster_location_id_0985","qadissiya","al.diwaniya","Hay Al Shomos","0985 (Hay Al Shomos)"
-"3603059",1,"cluster_location_id_0986","qadissiya","al.diwaniya","Hay Al Waely","0986 (Hay Al Waely)"
-"3603063",1,"cluster_location_id_0987","qadissiya","al.diwaniya","Hay Al-Amin 1","0987 (Hay Al-Amin 1)"
-"3603064",2,"cluster_location_id_0988","qadissiya","al.diwaniya","Hay Al-Amin 2","0988 (Hay Al-Amin 2)"
-"3603073",2,"cluster_location_id_0989","qadissiya","al.diwaniya","Hay Al-Hadarah","0989 (Hay Al-Hadarah)"
-"3603081",1,"cluster_location_id_0990","qadissiya","al.diwaniya","Hay Ramadan","0990 (Hay Ramadan)"
-"3603087",1,"cluster_location_id_0991","qadissiya","al.diwaniya","Hay Al-Sadir 4","0991 (Hay Al-Sadir 4)"
-"3603088",1,"cluster_location_id_0992","qadissiya","al.diwaniya","Salman Hlis Village","0992 (Salman Hlis Village)"
+psu,n,new_ID,governorate,district,name,label
+1101001,1,cluster_location_id_0001,dahuk,al.amadiya,Amedi,0001 (Amedi)
+1101005,1,cluster_location_id_0002,dahuk,al.amadiya,Chamanke,0002 (Chamanke)
+1101007,1,cluster_location_id_0003,dahuk,al.amadiya,Deraluk,0003 (Deraluk)
+1101008,1,cluster_location_id_0004,dahuk,al.amadiya,Inishke,0004 (Inishke)
+1101010,1,cluster_location_id_0005,dahuk,al.amadiya,Kaniya Mala,0005 (Kaniya Mala)
+1101011,1,cluster_location_id_0006,dahuk,al.amadiya,Qadish Collective,0006 (Qadish Collective)
+1101012,1,cluster_location_id_0007,dahuk,al.amadiya,Sarsink,0007 (Sarsink)
+1101019,1,cluster_location_id_0008,dahuk,al.amadiya,Mizi Village,0008 (Mizi Village)
+1101020,1,cluster_location_id_0009,dahuk,al.amadiya,Nahla Area,0009 (Nahla Area)
+1101021,1,cluster_location_id_0010,dahuk,al.amadiya,Azadi,0010 (Azadi)
+1102002,1,cluster_location_id_0011,dahuk,duhok,Al Sinaah,0011 (Al Sinaah)
+1102007,1,cluster_location_id_0012,dahuk,duhok,Bahdinan,0012 (Bahdinan)
+1102009,1,cluster_location_id_0013,dahuk,duhok,Baroshke,0013 (Baroshke)
+1102011,1,cluster_location_id_0014,dahuk,duhok,Bazaar,0014 (Bazaar)
+1102016,1,cluster_location_id_0015,dahuk,duhok,Dabin 2,0015 (Dabin 2)
+1102017,1,cluster_location_id_0016,dahuk,duhok,Diyari,0016 (Diyari)
+1102018,1,cluster_location_id_0017,dahuk,duhok,Eminke,0017 (Eminke)
+1102022,1,cluster_location_id_0018,dahuk,duhok,Etit,0018 (Etit)
+1102025,2,cluster_location_id_0019,dahuk,duhok,Kora,0019 (Kora)
+1102027,1,cluster_location_id_0020,dahuk,sumail,Kevila,0020 (Kevila)
+1102032,1,cluster_location_id_0021,dahuk,duhok,Masik-1,0021 (Masik-1)
+1102035,1,cluster_location_id_0022,dahuk,duhok,Mazi,0022 (Mazi)
+1102039,2,cluster_location_id_0023,dahuk,duhok,Nazarke,0023 (Nazarke)
+1102040,1,cluster_location_id_0024,dahuk,duhok,Qassara,0024 (Qassara)
+1102043,1,cluster_location_id_0025,dahuk,duhok,Sarbasti,0025 (Sarbasti)
+1102046,1,cluster_location_id_0026,dahuk,duhok,Shakhke,0026 (Shakhke)
+1102049,1,cluster_location_id_0027,dahuk,duhok,Zawita,0027 (Zawita)
+1102050,2,cluster_location_id_0028,dahuk,duhok,Avrike,0028 (Avrike)
+1102051,1,cluster_location_id_0029,dahuk,duhok,Zeri Land,0029 (Zeri Land)
+1102060,1,cluster_location_id_0030,dahuk,duhok,Baroshka Saadin,0030 (Baroshka Saadin)
+1102063,1,cluster_location_id_0031,dahuk,duhok,Rizgari,0031 (Rizgari)
+1103001,1,cluster_location_id_0032,dahuk,sumail,Avro City,0032 (Avro City)
+1103002,2,cluster_location_id_0033,dahuk,sumail,Bajit Kandala,0033 (Bajit Kandala)
+1103004,1,cluster_location_id_0034,dahuk,sumail,Bakhitme,0034 (Bakhitme)
+1103006,1,cluster_location_id_0035,dahuk,sumail,Batel,0035 (Batel)
+1103009,1,cluster_location_id_0036,dahuk,sumail,Fayda,0036 (Fayda)
+1103012,1,cluster_location_id_0037,dahuk,sumail,Girsheen,0037 (Girsheen)
+1103020,1,cluster_location_id_0038,dahuk,sumail,Misereek,0038 (Misereek)
+1103021,1,cluster_location_id_0039,dahuk,sumail,Namrike,0039 (Namrike)
+1103024,1,cluster_location_id_0040,dahuk,sumail,Semel,0040 (Semel)
+1103025,2,cluster_location_id_0041,dahuk,sumail,Shariya,0041 (Shariya)
+1103030,1,cluster_location_id_0042,dahuk,sumail,War City,0042 (War City)
+1103034,1,cluster_location_id_0043,dahuk,sumail,Domiz-Halat,0043 (Domiz-Halat)
+1103039,1,cluster_location_id_0044,dahuk,sumail,Kherava,0044 (Kherava)
+1103040,1,cluster_location_id_0045,dahuk,sumail,Old Mam Shvana,0045 (Old Mam Shvana)
+1103043,1,cluster_location_id_0046,dahuk,sumail,Old Qasr Yazddin,0046 (Old Qasr Yazddin)
+1103046,1,cluster_location_id_0047,dahuk,sumail,Old Sorka,0047 (Old Sorka)
+1103053,1,cluster_location_id_0048,dahuk,sumail,Marina,0048 (Marina)
+1104012,1,cluster_location_id_0049,dahuk,zakho,Chamkork,0049 (Chamkork)
+1104013,1,cluster_location_id_0050,dahuk,zakho,Darkar,0050 (Darkar)
+1104019,2,cluster_location_id_0051,dahuk,zakho,Diraboon,0051 (Diraboon)
+1104020,1,cluster_location_id_0052,dahuk,zakho,Qarawla,0052 (Qarawla)
+1104053,1,cluster_location_id_0053,dahuk,zakho,Levo,0053 (Levo)
+1104055,2,cluster_location_id_0054,dahuk,zakho,Ashe Chami Sector,0054 (Ashe Chami Sector)
+1104056,1,cluster_location_id_0055,dahuk,zakho,Bazar Sector,0055 (Bazar Sector)
+1104057,1,cluster_location_id_0056,dahuk,zakho,Betase Sector,0056 (Betase Sector)
+1104058,2,cluster_location_id_0057,dahuk,zakho,Bedar Sector,0057 (Bedar Sector)
+1104059,1,cluster_location_id_0058,dahuk,zakho,Khrababka Sector,0058 (Khrababka Sector)
+1104060,1,cluster_location_id_0059,dahuk,zakho,Rkawa Sector,0059 (Rkawa Sector)
+1104062,2,cluster_location_id_0060,dahuk,zakho,Abasiya Sector,0060 (Abasiya Sector)
+1104063,2,cluster_location_id_0061,dahuk,zakho,Firqa Sector,0061 (Firqa Sector)
+1104064,2,cluster_location_id_0062,dahuk,zakho,Kochka Honari,0062 (Kochka Honari)
+1104069,1,cluster_location_id_0063,dahuk,zakho,Gofk,0063 (Gofk)
+1104072,1,cluster_location_id_0064,dahuk,zakho,Bersive,0064 (Bersive)
+1104073,1,cluster_location_id_0065,dahuk,zakho,Grksindi,0065 (Grksindi)
+1202006,1,cluster_location_id_0066,erbil,erbil,Andazyaran,0066 (Andazyaran)
+1202010,1,cluster_location_id_0067,erbil,erbil,Bahrka center,0067 (Bahrka center)
+1202032,1,cluster_location_id_0068,erbil,erbil,Hay Askary,0068 (Hay Askary)
+1202034,1,cluster_location_id_0069,erbil,erbil,Kani Qarzhala,0069 (Kani Qarzhala)
+1202039,1,cluster_location_id_0070,erbil,erbil,Kawergosk,0070 (Kawergosk)
+1202040,1,cluster_location_id_0071,ninewa,al.hamdaniya,Khabat,0071 (Khabat)
+1202043,1,cluster_location_id_0072,erbil,erbil,Kurd Stan,0072 (Kurd Stan)
+1202051,1,cluster_location_id_0073,erbil,erbil,Nisthtiman Comercial Complex,0073 (Nisthtiman Comercial Complex)
+1202057,1,cluster_location_id_0074,erbil,erbil,Qushtapa centre,0074 (Qushtapa centre)
+1202060,1,cluster_location_id_0075,erbil,erbil,Rizgari,0075 (Rizgari)
+1202117,1,cluster_location_id_0076,erbil,erbil,Shorsh(Hay arey),0076 (Shorsh(Hay arey))
+1202120,1,cluster_location_id_0077,erbil,erbil,Shorsh(Malayan),0077 (Shorsh(Malayan))
+1202121,1,cluster_location_id_0078,erbil,erbil,Saidawa(Khabat),0078 (Saidawa(Khabat))
+1202136,1,cluster_location_id_0079,erbil,erbil,Du sara fatah,0079 (Du sara fatah)
+1202146,1,cluster_location_id_0080,erbil,erbil,Aweney Shar,0080 (Aweney Shar)
+1203002,1,cluster_location_id_0081,erbil,koysinjaq,Azady,0081 (Azady)
+1203003,1,cluster_location_id_0082,erbil,koysinjaq,Bayizagha,0082 (Bayizagha)
+1203004,1,cluster_location_id_0083,erbil,koysinjaq,Bazar koya(Bafri qndeel),0083 (Bazar koya(Bafri qndeel))
+1203006,1,cluster_location_id_0084,erbil,koysinjaq,Hamamok,0084 (Hamamok)
+1203009,1,cluster_location_id_0085,erbil,koysinjaq,Qalat,0085 (Qalat)
+1203010,1,cluster_location_id_0086,erbil,koysinjaq,Taqtaq,0086 (Taqtaq)
+1203014,1,cluster_location_id_0087,erbil,koysinjaq,Ashti,0087 (Ashti)
+1203015,1,cluster_location_id_0088,erbil,koysinjaq,Nawdaran,0088 (Nawdaran)
+1204004,1,cluster_location_id_0089,erbil,makhmour,Gwer,0089 (Gwer)
+1204011,1,cluster_location_id_0090,erbil,makhmour,Shahidan,0090 (Shahidan)
+1204016,1,cluster_location_id_0091,erbil,makhmour,Kurdistan ,0091 (Kurdistan )
+1204017,1,cluster_location_id_0092,erbil,makhmour,Sherwany,0092 (Sherwany)
+1204018,1,cluster_location_id_0093,erbil,makhmour,Saray(markez bazar),0093 (Saray(markez bazar))
+1204019,1,cluster_location_id_0094,erbil,makhmour,Bndiyan,0094 (Bndiyan)
+1204031,1,cluster_location_id_0095,erbil,makhmour,Abu Sheta,0095 (Abu Sheta)
+1204032,1,cluster_location_id_0096,erbil,makhmour,Kapran,0096 (Kapran)
+1204039,1,cluster_location_id_0097,erbil,makhmour,Salahya,0097 (Salahya)
+1204044,1,cluster_location_id_0098,erbil,makhmour,Jarallah,0098 (Jarallah)
+1205001,1,cluster_location_id_0099,erbil,rawanduz,Markaz Mergasur,0099 (Markaz Mergasur)
+1206003,1,cluster_location_id_0100,erbil,shaqlawa,Bazar Khanzad,0100 (Bazar Khanzad)
+1206004,1,cluster_location_id_0101,erbil,shaqlawa,Betrma,0101 (Betrma)
+1206006,1,cluster_location_id_0102,erbil,shaqlawa,Harir,0102 (Harir)
+1206007,1,cluster_location_id_0103,erbil,shaqlawa,Harir-Batas,0103 (Harir-Batas)
+1206008,1,cluster_location_id_0104,erbil,shaqlawa,Hiran,0104 (Hiran)
+1206010,1,cluster_location_id_0105,erbil,shaqlawa,Sabirawa,0105 (Sabirawa)
+1206011,1,cluster_location_id_0106,erbil,shaqlawa,Safeen,0106 (Safeen)
+1206012,1,cluster_location_id_0107,erbil,shaqlawa,Sarmidan-1(Ashti),0107 (Sarmidan-1(Ashti))
+1206014,1,cluster_location_id_0108,erbil,shaqlawa,Sarmidan-3(Ashti),0108 (Sarmidan-3(Ashti))
+1206015,1,cluster_location_id_0109,erbil,shaqlawa,Shahedan,0109 (Shahedan)
+1206017,1,cluster_location_id_0110,erbil,shaqlawa,Spigra,0110 (Spigra)
+1207002,1,cluster_location_id_0111,erbil,rawanduz,Khalifan(center),0111 (Khalifan(center))
+1207003,1,cluster_location_id_0112,erbil,rawanduz,Rawanduz District,0112 (Rawanduz District)
+1207004,1,cluster_location_id_0113,erbil,rawanduz,Soran District,0113 (Soran District)
+1207006,1,cluster_location_id_0114,erbil,rawanduz,Diana(Shahedan azady),0114 (Diana(Shahedan azady))
+1207008,1,cluster_location_id_0115,erbil,rawanduz,Hay mameel al qeer,0115 (Hay mameel al qeer)
+1301004,1,cluster_location_id_0116,sulaymaniyah,chamchamal,Azady,0116 (Azady)
+1301006,1,cluster_location_id_0117,sulaymaniyah,chamchamal,Chamchamal-Raparin,0117 (Chamchamal-Raparin)
+1301010,1,cluster_location_id_0118,sulaymaniyah,chamchamal,Handreen,0118 (Handreen)
+1301016,1,cluster_location_id_0119,sulaymaniyah,chamchamal,Piryadi,0119 (Piryadi)
+1301017,1,cluster_location_id_0120,sulaymaniyah,chamchamal,Pura Gulla,0120 (Pura Gulla)
+1301021,1,cluster_location_id_0121,sulaymaniyah,chamchamal,SANGAWIAKAN,0121 (SANGAWIAKAN)
+1301027,1,cluster_location_id_0122,sulaymaniyah,chamchamal,Sangawi kon,0122 (Sangawi kon)
+1301031,1,cluster_location_id_0123,sulaymaniyah,chamchamal,Hazar kani,0123 (Hazar kani)
+1301045,1,cluster_location_id_0124,sulaymaniyah,chamchamal,Bani maqan,0124 (Bani maqan)
+1301046,1,cluster_location_id_0125,sulaymaniyah,chamchamal,Dawajin,0125 (Dawajin)
+1301050,1,cluster_location_id_0126,sulaymaniyah,chamchamal,hashazini,0126 (hashazini)
+1302001,1,cluster_location_id_0127,sulaymaniyah,derbendikhan,Campe khwarw,0127 (Campe khwarw)
+1302002,1,cluster_location_id_0128,sulaymaniyah,derbendikhan,Hawara barza,0128 (Hawara barza)
+1302003,1,cluster_location_id_0129,sulaymaniyah,derbendikhan,Kanisard,0129 (Kanisard)
+1302004,1,cluster_location_id_0130,sulaymaniyah,derbendikhan,Kanito,0130 (Kanito)
+1302005,1,cluster_location_id_0131,sulaymaniyah,derbendikhan,Sara,0131 (Sara)
+1302009,1,cluster_location_id_0132,sulaymaniyah,derbendikhan,Sharwani,0132 (Sharwani)
+1302010,1,cluster_location_id_0133,sulaymaniyah,derbendikhan,Khelan,0133 (Khelan)
+1303003,1,cluster_location_id_0134,sulaymaniyah,dokan,Chawa spy,0134 (Chawa spy)
+1303009,1,cluster_location_id_0135,sulaymaniyah,dokan,Kotal,0135 (Kotal)
+1303011,1,cluster_location_id_0136,sulaymaniyah,dokan,Pishowa,0136 (Pishowa)
+1303012,1,cluster_location_id_0137,sulaymaniyah,dokan,Qamchugha,0137 (Qamchugha)
+1303013,1,cluster_location_id_0138,sulaymaniyah,dokan,Sara,0138 (Sara)
+1303016,1,cluster_location_id_0139,sulaymaniyah,dokan,Sharawany,0139 (Sharawany)
+1303025,1,cluster_location_id_0140,sulaymaniyah,dokan,Mergapan,0140 (Mergapan)
+1303034,1,cluster_location_id_0141,sulaymaniyah,dokan,Shekh Mansourian,0141 (Shekh Mansourian)
+1303036,1,cluster_location_id_0142,sulaymaniyah,dokan,Asos,0142 (Asos)
+1304004,1,cluster_location_id_0143,sulaymaniyah,derbendikhan,Bakhtyari,0143 (Bakhtyari)
+1304006,1,cluster_location_id_0144,sulaymaniyah,halabcha,Barkew,0144 (Barkew)
+1304007,1,cluster_location_id_0145,sulaymaniyah,halabcha,Farmanbaran,0145 (Farmanbaran)
+1304009,1,cluster_location_id_0146,sulaymaniyah,halabcha,Goran City,0146 (Goran City)
+1304012,1,cluster_location_id_0147,sulaymaniyah,halabcha,Gulan,0147 (Gulan)
+1304015,1,cluster_location_id_0148,sulaymaniyah,derbendikhan,Azadi,0148 (Azadi)
+1304018,1,cluster_location_id_0149,sulaymaniyah,halabcha,Hassar,0149 (Hassar)
+1304026,1,cluster_location_id_0150,sulaymaniyah,halabcha,Darwazay Shar,0150 (Darwazay Shar)
+1304027,1,cluster_location_id_0151,sulaymaniyah,halabcha,Marzboto,0151 (Marzboto)
+1304028,1,cluster_location_id_0152,sulaymaniyah,halabcha,Mordana,0152 (Mordana)
+1304038,1,cluster_location_id_0153,sulaymaniyah,derbendikhan,Rezgari,0153 (Rezgari)
+1304039,1,cluster_location_id_0154,sulaymaniyah,halabcha,Shikhan,0154 (Shikhan)
+1304046,1,cluster_location_id_0155,sulaymaniyah,halabcha,Raparine,0155 (Raparine)
+1304049,1,cluster_location_id_0156,sulaymaniyah,halabcha,Tapa kura,0156 (Tapa kura)
+1304051,1,cluster_location_id_0157,sulaymaniyah,halabcha,Shahidan-Saidsadiq,0157 (Shahidan-Saidsadiq)
+1305002,1,cluster_location_id_0158,sulaymaniyah,kifri,Ban Asiaw,0158 (Ban Asiaw)
+1305007,1,cluster_location_id_0159,sulaymaniyah,kalar,Grda Gozina,0159 (Grda Gozina)
+1305008,1,cluster_location_id_0160,sulaymaniyah,kalar,Hamren,0160 (Hamren)
+1305009,1,cluster_location_id_0161,sulaymaniyah,kalar,Kalar Kon,0161 (Kalar Kon)
+1305010,1,cluster_location_id_0162,sulaymaniyah,kalar,Kalari New,0162 (Kalari New)
+1305014,1,cluster_location_id_0163,sulaymaniyah,khanaqin,Kulajo,0163 (Kulajo)
+1305015,1,cluster_location_id_0164,sulaymaniyah,kalar,Pebaz,0164 (Pebaz)
+1305019,1,cluster_location_id_0165,sulaymaniyah,kifri,Shaykh Lankar,0165 (Shaykh Lankar)
+1305021,1,cluster_location_id_0166,sulaymaniyah,kalar,Sirwan,0166 (Sirwan)
+1305024,1,cluster_location_id_0167,sulaymaniyah,kifri,Ali Khalaf,0167 (Ali Khalaf)
+1305031,1,cluster_location_id_0168,sulaymaniyah,kalar,Nawrooz,0168 (Nawrooz)
+1305033,1,cluster_location_id_0169,sulaymaniyah,kalar,Garmyan,0169 (Garmyan)
+1305036,1,cluster_location_id_0170,sulaymaniyah,kifri,Shakal,0170 (Shakal)
+1305038,1,cluster_location_id_0171,sulaymaniyah,kalar,Asuda,0171 (Asuda)
+1305040,1,cluster_location_id_0172,sulaymaniyah,kalar,Awbarik,0172 (Awbarik)
+1305041,1,cluster_location_id_0173,sulaymaniyah,kalar,Awarakan,0173 (Awarakan)
+1308003,1,cluster_location_id_0174,sulaymaniyah,rania,Koling city,0174 (Koling city)
+1308004,1,cluster_location_id_0175,sulaymaniyah,rania,Qandil,0175 (Qandil)
+1308005,1,cluster_location_id_0176,sulaymaniyah,rania,Raparine,0176 (Raparine)
+1308009,1,cluster_location_id_0177,sulaymaniyah,rania,Kewa Rash,0177 (Kewa Rash)
+1308011,1,cluster_location_id_0178,sulaymaniyah,rania,Nawroz,0178 (Nawroz)
+1308018,1,cluster_location_id_0179,sulaymaniyah,rania,Shishar,0179 (Shishar)
+1308022,1,cluster_location_id_0180,sulaymaniyah,rania,kurdistan,0180 (kurdistan)
+1308030,1,cluster_location_id_0181,sulaymaniyah,rania,Azadi 1,0181 (Azadi 1)
+1308033,1,cluster_location_id_0182,sulaymaniyah,rania,Srra,0182 (Srra)
+1310010,1,cluster_location_id_0183,sulaymaniyah,al.sulaymaniyah,Ashty 106 & 104,0183 (Ashty 106 & 104)
+1310018,1,cluster_location_id_0184,sulaymaniyah,al.sulaymaniyah,Bakrajo-Qularaese Taza,0184 (Bakrajo-Qularaese Taza)
+1310030,1,cluster_location_id_0185,sulaymaniyah,al.sulaymaniyah,Chwar Bakh 401,0185 (Chwar Bakh 401)
+1310031,1,cluster_location_id_0186,sulaymaniyah,al.sulaymaniyah,Chwar Chra,0186 (Chwar Chra)
+1310042,1,cluster_location_id_0187,sulaymaniyah,al.sulaymaniyah,Gulli Shar,0187 (Gulli Shar)
+1310052,1,cluster_location_id_0188,sulaymaniyah,al.sulaymaniyah,Kanakawa,0188 (Kanakawa)
+1310062,1,cluster_location_id_0189,sulaymaniyah,al.sulaymaniyah,Kostay Cham,0189 (Kostay Cham)
+1310072,1,cluster_location_id_0190,sulaymaniyah,al.sulaymaniyah,Muaskar Al-Salam,0190 (Muaskar Al-Salam)
+1310087,1,cluster_location_id_0191,sulaymaniyah,al.sulaymaniyah,Rizgare 408,0191 (Rizgare 408)
+1310092,1,cluster_location_id_0192,sulaymaniyah,al.sulaymaniyah,Sabun karan Qt,0192 (Sabun karan Qt)
+1310093,1,cluster_location_id_0193,sulaymaniyah,al.sulaymaniyah,Saib City,0193 (Saib City)
+1310141,1,cluster_location_id_0194,sulaymaniyah,al.sulaymaniyah,Grdi Joga,0194 (Grdi Joga)
+1310144,1,cluster_location_id_0195,sulaymaniyah,al.sulaymaniyah,Srosht 333,0195 (Srosht 333)
+1310206,1,cluster_location_id_0196,sulaymaniyah,al.sulaymaniyah,Khalif awa village,0196 (Khalif awa village)
+1310211,1,cluster_location_id_0197,sulaymaniyah,al.sulaymaniyah,Zirak,0197 (Zirak)
+1310217,1,cluster_location_id_0198,sulaymaniyah,al.sulaymaniyah,Raparine-Zanko,0198 (Raparine-Zanko)
+1310227,1,cluster_location_id_0199,sulaymaniyah,al.sulaymaniyah,Shahidan 103,0199 (Shahidan 103)
+1310229,1,cluster_location_id_0200,sulaymaniyah,al.sulaymaniyah,Malik mahmood 401,0200 (Malik mahmood 401)
+1310230,1,cluster_location_id_0201,sulaymaniyah,al.sulaymaniyah,Sharawane 102,0201 (Sharawane 102)
+2101002,1,cluster_location_id_0202,anbar,al.kaim,Al Aubaidi Al Qadima,0202 (Al Aubaidi Al Qadima)
+2101004,1,cluster_location_id_0203,anbar,al.kaim,Al Rumanah Al Gharbiyah,0203 (Al Rumanah Al Gharbiyah)
+2101006,1,cluster_location_id_0204,anbar,al.kaim,Al Ubaydi-1,0204 (Al Ubaydi-1)
+2101007,1,cluster_location_id_0205,anbar,al.kaim,Al Ubaydi-2,0205 (Al Ubaydi-2)
+2101011,1,cluster_location_id_0206,anbar,al.kaim,Al-Amen,0206 (Al-Amen)
+2101012,1,cluster_location_id_0207,anbar,al.kaim,Albu Hardan,0207 (Albu Hardan)
+2101017,1,cluster_location_id_0208,anbar,al.kaim,Hay Al Askary,0208 (Hay Al Askary)
+2101018,1,cluster_location_id_0209,anbar,al.kaim,Hay Al Rashid,0209 (Hay Al Rashid)
+2101019,1,cluster_location_id_0210,anbar,al.kaim,Hay Al Sham,0210 (Hay Al Sham)
+2101023,1,cluster_location_id_0211,anbar,al.kaim,Hay Al-Athar,0211 (Hay Al-Athar)
+2101026,1,cluster_location_id_0212,anbar,al.kaim,Hay Al-Makarim,0212 (Hay Al-Makarim)
+2101028,1,cluster_location_id_0213,anbar,al.kaim,Hay Al-Yarmook,0213 (Hay Al-Yarmook)
+2101029,2,cluster_location_id_0214,anbar,al.kaim,Sadah,0214 (Sadah)
+2101030,1,cluster_location_id_0215,anbar,al.kaim,Wazeeriya,0215 (Wazeeriya)
+2101032,1,cluster_location_id_0216,anbar,al.kaim,Al Masharea,0216 (Al Masharea)
+2101033,1,cluster_location_id_0217,anbar,al.kaim,Tiwaan,0217 (Tiwaan)
+2101036,1,cluster_location_id_0218,anbar,al.kaim,Al Baghoz village ,0218 (Al Baghoz village )
+2102001,1,cluster_location_id_0219,anbar,al.rutba,Al Askaree,0219 (Al Askaree)
+2102002,1,cluster_location_id_0220,anbar,al.rutba,Al Haara,0220 (Al Haara)
+2102006,1,cluster_location_id_0221,anbar,al.rutba,Al Wadi,0221 (Al Wadi)
+2102007,1,cluster_location_id_0222,anbar,al.rutba,Al-Daraemah Village,0222 (Al-Daraemah Village)
+2102008,1,cluster_location_id_0223,anbar,al.rutba,Antesar,0223 (Antesar)
+2102010,1,cluster_location_id_0224,anbar,al.rutba,Germany Company Location,0224 (Germany Company Location)
+2102011,1,cluster_location_id_0225,anbar,al.rutba,Gharb Al-Wadi,0225 (Gharb Al-Wadi)
+2102014,1,cluster_location_id_0226,anbar,al.rutba,Hay Al Meethagh,0226 (Hay Al Meethagh)
+2102016,1,cluster_location_id_0227,anbar,al.rutba,Hay Al-Matar,0227 (Hay Al-Matar)
+2102021,1,cluster_location_id_0228,anbar,al.rutba,Rumilah Village,0228 (Rumilah Village)
+2103001,1,cluster_location_id_0229,anbar,ana,Al bor (Shishan),0229 (Al bor (Shishan))
+2103003,1,cluster_location_id_0230,anbar,ana,Al Tadamon,0230 (Al Tadamon)
+2103004,1,cluster_location_id_0231,anbar,ana,Al-Awany Village,0231 (Al-Awany Village)
+2103005,1,cluster_location_id_0232,anbar,ana,Hay Al Nasir,0232 (Hay Al Nasir)
+2103006,1,cluster_location_id_0233,anbar,ana,Hay Al Qadissiyah,0233 (Hay Al Qadissiyah)
+2103007,1,cluster_location_id_0234,anbar,ana,Hay Al Salam,0234 (Hay Al Salam)
+2103009,1,cluster_location_id_0235,anbar,ana,Hay Al ZeraI,0235 (Hay Al ZeraI)
+2104002,1,cluster_location_id_0236,anbar,ana,Al Qaala,0236 (Al Qaala)
+2104003,1,cluster_location_id_0237,anbar,ana,Al-Hidayah,0237 (Al-Hidayah)
+2104004,1,cluster_location_id_0238,anbar,ana,Hay Al Qadissiyah,0238 (Hay Al Qadissiyah)
+2104005,1,cluster_location_id_0239,anbar,ana,Hay Al Salam,0239 (Hay Al Salam)
+2104007,1,cluster_location_id_0240,anbar,ana,Hay Al Shuhadaa,0240 (Hay Al Shuhadaa)
+2104009,1,cluster_location_id_0241,anbar,ana,Rawa Al Qadima,0241 (Rawa Al Qadima)
+2105012,1,cluster_location_id_0242,anbar,al.falluja,Al Shuhadaa 2,0242 (Al Shuhadaa 2)
+2105013,1,cluster_location_id_0243,anbar,al.falluja,Al Shurta,0243 (Al Shurta)
+2105018,1,cluster_location_id_0244,anbar,al.falluja,Al-Amirya-Albu Jasim,0244 (Al-Amirya-Albu Jasim)
+2105019,2,cluster_location_id_0245,anbar,al.falluja,Al-Amirya-Albu Jwad,0245 (Al-Amirya-Albu Jwad)
+2105022,1,cluster_location_id_0246,anbar,al.falluja,Al-bazara,0246 (Al-bazara)
+2105027,1,cluster_location_id_0247,anbar,al.falluja,Albu Aifan,0247 (Albu Aifan)
+2105028,1,cluster_location_id_0248,anbar,al.falluja,Albu Alwan,0248 (Albu Alwan)
+2105031,2,cluster_location_id_0249,anbar,al.falluja,Albu Hori,0249 (Albu Hori)
+2105034,1,cluster_location_id_0250,anbar,al.falluja,Albu Khanfar,0250 (Albu Khanfar)
+2105037,1,cluster_location_id_0251,anbar,al.falluja,Albu Shihab,0251 (Albu Shihab)
+2105044,1,cluster_location_id_0252,anbar,al.falluja,Al-jamhuriya,0252 (Al-jamhuriya)
+2105045,1,cluster_location_id_0253,anbar,al.falluja,Al-Julan,0253 (Al-Julan)
+2105052,1,cluster_location_id_0254,anbar,al.kadhmiyah,Al-Shurtan,0254 (Al-Shurtan)
+2105057,1,cluster_location_id_0255,anbar,al.falluja,Halabsa-Falluja,0255 (Halabsa-Falluja)
+2105060,1,cluster_location_id_0256,anbar,al.falluja,Luhib,0256 (Luhib)
+2105065,1,cluster_location_id_0257,anbar,al.falluja,Qaryat Albu Hadid Al-Nasir,0257 (Qaryat Albu Hadid Al-Nasir)
+2105069,2,cluster_location_id_0258,anbar,al.falluja,Al-Amirya-Al Betra,0258 (Al-Amirya-Al Betra)
+2105070,1,cluster_location_id_0259,anbar,al.falluja,Al-Amirya-Al Hmedin,0259 (Al-Amirya-Al Hmedin)
+2105071,2,cluster_location_id_0260,anbar,al.falluja,Al-Amirya-Al Mouilha,0260 (Al-Amirya-Al Mouilha)
+2105073,2,cluster_location_id_0261,anbar,al.falluja,Al-Amirya-Albu Jaber,0261 (Al-Amirya-Albu Jaber)
+2105074,1,cluster_location_id_0262,anbar,al.falluja,Al-Amirya-Albu Mrir,0262 (Al-Amirya-Albu Mrir)
+2105075,2,cluster_location_id_0263,anbar,al.falluja,Al-Amirya-Albu Saleh,0263 (Al-Amirya-Albu Saleh)
+2105076,2,cluster_location_id_0264,anbar,al.falluja,Al-Amirya-Albu Salman,0264 (Al-Amirya-Albu Salman)
+2105077,1,cluster_location_id_0265,anbar,al.falluja,Al-Amirya-Tal Ghatas,0265 (Al-Amirya-Tal Ghatas)
+2105078,1,cluster_location_id_0266,anbar,al.falluja,Albu Dhaher-Albu Dhaher,0266 (Albu Dhaher-Albu Dhaher)
+2105083,1,cluster_location_id_0267,anbar,al.falluja,Hay Al Askari,0267 (Hay Al Askari)
+2105086,1,cluster_location_id_0268,anbar,al.falluja,Hay Al Shuhadaa,0268 (Hay Al Shuhadaa)
+2105088,2,cluster_location_id_0269,anbar,al.falluja,Al-Ekhaa Compaund,0269 (Al-Ekhaa Compaund)
+2105093,1,cluster_location_id_0270,anbar,al.falluja,Al Daffar,0270 (Al Daffar)
+2106001,1,cluster_location_id_0271,anbar,haditha,Al Furat Complex,0271 (Al Furat Complex)
+2106004,1,cluster_location_id_0272,anbar,haditha,Al Khansaa,0272 (Al Khansaa)
+2106007,1,cluster_location_id_0273,anbar,haditha,Albu Hayat,0273 (Albu Hayat)
+2106009,1,cluster_location_id_0274,anbar,haditha,Al-Mutanabi,0274 (Al-Mutanabi)
+2106011,1,cluster_location_id_0275,anbar,haditha,Bani Dahir,0275 (Bani Dahir)
+2106013,1,cluster_location_id_0276,anbar,haditha,Haqlaniyah-Hay Al-Faroq,0276 (Haqlaniyah-Hay Al-Faroq)
+2106014,1,cluster_location_id_0277,anbar,haditha,Haqlaniyah-Al shuhadaa,0277 (Haqlaniyah-Al shuhadaa)
+2106015,1,cluster_location_id_0278,anbar,haditha,Hay Al Askary,0278 (Hay Al Askary)
+2106017,2,cluster_location_id_0279,anbar,haditha,Hay Al Haqlaniyah Qadim,0279 (Hay Al Haqlaniyah Qadim)
+2106020,1,cluster_location_id_0280,anbar,haditha,Hay Al Rifay,0280 (Hay Al Rifay)
+2106023,1,cluster_location_id_0281,anbar,haditha,Hay Al Saray,0281 (Hay Al Saray)
+2106028,1,cluster_location_id_0282,anbar,haditha,Hay Al Yarmuk,0282 (Hay Al Yarmuk)
+2106034,1,cluster_location_id_0283,anbar,haditha,Hay Al-Mulameen,0283 (Hay Al-Mulameen)
+2106038,2,cluster_location_id_0284,anbar,haditha,Hay Al-Subhani,0284 (Hay Al-Subhani)
+2107001,1,cluster_location_id_0285,anbar,heet,Abu Tibban,0285 (Abu Tibban)
+2107004,1,cluster_location_id_0286,anbar,heet,Al Baker,0286 (Al Baker)
+2107013,1,cluster_location_id_0287,anbar,heet,Al Muhamdee,0287 (Al Muhamdee)
+2107016,1,cluster_location_id_0288,anbar,heet,Al Salkah,0288 (Al Salkah)
+2107026,1,cluster_location_id_0289,anbar,heet,Al-Khaldiyah,0289 (Al-Khaldiyah)
+2107030,2,cluster_location_id_0290,anbar,heet,Al-Mujama Al-Sakani,0290 (Al-Mujama Al-Sakani)
+2107031,2,cluster_location_id_0291,anbar,heet,Al-Qalqalah,0291 (Al-Qalqalah)
+2107034,1,cluster_location_id_0292,anbar,heet,Al-Sikak,0292 (Al-Sikak)
+2107045,1,cluster_location_id_0293,anbar,heet,Hay al Jury,0293 (Hay al Jury)
+2107047,1,cluster_location_id_0294,anbar,heet,Hay Al Mamoun,0294 (Hay Al Mamoun)
+2107053,1,cluster_location_id_0295,anbar,heet,Hay Al-Jabal,0295 (Hay Al-Jabal)
+2107054,1,cluster_location_id_0296,anbar,heet,Hay Al-jamyah 2,0296 (Hay Al-jamyah 2)
+2107062,1,cluster_location_id_0297,anbar,heet,Heet-Maskhan,0297 (Heet-Maskhan)
+2107067,2,cluster_location_id_0298,anbar,heet,Mualmeen,0298 (Mualmeen)
+2107074,1,cluster_location_id_0299,anbar,heet,Tal aswad,0299 (Tal aswad)
+2107075,1,cluster_location_id_0300,anbar,heet,The first jamaiya,0300 (The first jamaiya)
+2107081,1,cluster_location_id_0301,anbar,heet,Hay Al-Askari,0301 (Hay Al-Askari)
+2107082,1,cluster_location_id_0302,anbar,heet,Hay Al-Khudhir,0302 (Hay Al-Khudhir)
+2108001,2,cluster_location_id_0303,anbar,al.ramadi,5 Kilo,0303 (5 Kilo)
+2108005,2,cluster_location_id_0304,anbar,al.ramadi,7 Killo-al-mojamaa al-sakany,0304 (7 Killo-al-mojamaa al-sakany)
+2108006,1,cluster_location_id_0305,anbar,al.ramadi,Abu Fless,0305 (Abu Fless)
+2108007,1,cluster_location_id_0306,anbar,al.ramadi,Al Khulafaa,0306 (Al Khulafaa)
+2108009,1,cluster_location_id_0307,anbar,al.ramadi,Al Sajariyah,0307 (Al Sajariyah)
+2108011,2,cluster_location_id_0308,anbar,al.ramadi,Al Sofeya,0308 (Al Sofeya)
+2108012,1,cluster_location_id_0309,anbar,al.ramadi,Al Soora,0309 (Al Soora)
+2108013,1,cluster_location_id_0310,anbar,al.ramadi,Al Urobah,0310 (Al Urobah)
+2108017,1,cluster_location_id_0311,anbar,al.ramadi,Al-Jeraishi,0311 (Al-Jeraishi)
+2108024,1,cluster_location_id_0312,anbar,al.ramadi,Hay Al-Salam,0312 (Hay Al-Salam)
+2108025,1,cluster_location_id_0313,anbar,al.falluja,Hay Al-Umal,0313 (Hay Al-Umal)
+2108027,1,cluster_location_id_0314,anbar,al.ramadi,Qadisiya-1,0314 (Qadisiya-1)
+2108030,1,cluster_location_id_0315,anbar,al.ramadi,Warar,0315 (Warar)
+2108033,1,cluster_location_id_0316,anbar,al.ramadi,Al Aadil,0316 (Al Aadil)
+2108037,1,cluster_location_id_0317,anbar,al.ramadi,Al Katanah,0317 (Al Katanah)
+2108038,1,cluster_location_id_0318,anbar,al.ramadi,Al-Shareka,0318 (Al-Shareka)
+2108039,1,cluster_location_id_0319,anbar,al.ramadi,Al-Thilah,0319 (Al-Thilah)
+2108041,1,cluster_location_id_0320,anbar,al.ramadi,Hay Al Malab,0320 (Hay Al Malab)
+2108046,1,cluster_location_id_0321,anbar,al.ramadi,The modern village,0321 (The modern village)
+2108057,1,cluster_location_id_0322,anbar,al.ramadi,Al Hooz,0322 (Al Hooz)
+2202001,1,cluster_location_id_0323,babylon,al.mussyab,Abo Luka,0323 (Abo Luka)
+2202002,1,cluster_location_id_0324,babylon,al.mussyab,Al Abtan,0324 (Al Abtan)
+2202004,1,cluster_location_id_0325,babylon,al.mussyab,Al Ghadeer 2,0325 (Al Ghadeer 2)
+2202007,1,cluster_location_id_0326,babylon,al.mussyab,Al Hamiyah-Oayef village,0326 (Al Hamiyah-Oayef village)
+2202017,1,cluster_location_id_0327,babylon,al.mahmoudiya,Al-Jazirah-Al Eskandariya,0327 (Al-Jazirah-Al Eskandariya)
+2202024,1,cluster_location_id_0328,babylon,al.mussyab,Hay Aday-Al Eskandariya,0328 (Hay Aday-Al Eskandariya)
+2202026,1,cluster_location_id_0329,babylon,al.mussyab,Hay Al Ataba,0329 (Hay Al Ataba)
+2202029,1,cluster_location_id_0330,babylon,al.mussyab,Hay Al Ghadeer 4,0330 (Hay Al Ghadeer 4)
+2202037,1,cluster_location_id_0331,babylon,al.mussyab,Hay Alaskary-AlThaghet,0331 (Hay Alaskary-AlThaghet)
+2202049,1,cluster_location_id_0332,babylon,al.mussyab,Hitten Complex,0332 (Hitten Complex)
+2202050,1,cluster_location_id_0333,babylon,al.mussyab,Hur Husaein,0333 (Hur Husaein)
+2202061,1,cluster_location_id_0334,babylon,al.mussyab,Al Hamiyah Al Sheab Village,0334 (Al Hamiyah Al Sheab Village)
+2202072,1,cluster_location_id_0335,babylon,al.mussyab,Albo Hamdan,0335 (Albo Hamdan)
+2301003,1,cluster_location_id_0336,baghdad,al.kadhmiyah,Abo Moniaser,0336 (Abo Moniaser)
+2301021,1,cluster_location_id_0337,baghdad,al.kadhmiyah,Al-Nasir Walsalam-6000,0337 (Al-Nasir Walsalam-6000)
+2301022,1,cluster_location_id_0338,baghdad,al.kadhmiyah,Al-Nasir Walsalam-7000,0338 (Al-Nasir Walsalam-7000)
+2301026,1,cluster_location_id_0339,baghdad,al.kadhmiyah,Arab Tahoos,0339 (Arab Tahoos)
+2301038,1,cluster_location_id_0340,baghdad,al.kadhmiyah,Hay Al-Shuhadaa,0340 (Hay Al-Shuhadaa)
+2301045,1,cluster_location_id_0341,baghdad,al.kadhmiyah,Khan Dhari Center,0341 (Khan Dhari Center)
+2301047,1,cluster_location_id_0342,baghdad,al.kadhmiyah,North Khernabat,0342 (North Khernabat)
+2301048,1,cluster_location_id_0343,baghdad,al.kadhmiyah,Khernabat-South,0343 (Khernabat-South)
+2301064,1,cluster_location_id_0344,baghdad,al.mahmoudiya,Al Mahasna village ,0344 (Al Mahasna village )
+2301073,2,cluster_location_id_0345,baghdad,al.kadhmiyah,Shuhada Markza-Shuhadda the first,0345 (Shuhada Markza-Shuhadda the first)
+2301074,1,cluster_location_id_0346,baghdad,al.kadhmiyah,Shuhada Markza-Shuhdda the second,0346 (Shuhada Markza-Shuhdda the second)
+2301075,1,cluster_location_id_0347,baghdad,al.kadhmiyah,Shuhada Markza-Shuhadda the third,0347 (Shuhada Markza-Shuhadda the third)
+2301080,1,cluster_location_id_0348,baghdad,al.mahmoudiya,Al Masara village,0348 (Al Masara village)
+2301087,1,cluster_location_id_0349,baghdad,al.mahmoudiya,Al Mamier village,0349 (Al Mamier village)
+2301091,1,cluster_location_id_0350,baghdad,al.kadhmiyah,Majad Al Draa village,0350 (Majad Al Draa village)
+2301092,1,cluster_location_id_0351,baghdad,al.kadhmiyah,18 Al Sadan village,0351 (18 Al Sadan village)
+2301093,1,cluster_location_id_0352,baghdad,al.kadhmiyah,Al Shoker village,0352 (Al Shoker village)
+2302004,1,cluster_location_id_0353,baghdad,al.adhamiya,Adhamia-308,0353 (Adhamia-308)
+2302005,1,cluster_location_id_0354,baghdad,al.adhamiya,Adhamia-312,0354 (Adhamia-312)
+2302006,1,cluster_location_id_0355,baghdad,al.adhamiya,Adhamia-314,0355 (Adhamia-314)
+2302007,1,cluster_location_id_0356,baghdad,al.adhamiya,Adhamiya-310,0356 (Adhamiya-310)
+2302044,1,cluster_location_id_0357,baghdad,al.adhamiya,Al Qahira-307,0357 (Al Qahira-307)
+2302049,1,cluster_location_id_0358,baghdad,al.adhamiya,Hay Al Rabee-332,0358 (Hay Al Rabee-332)
+2302062,1,cluster_location_id_0359,baghdad,al.adhamiya,Al Shamasiyah-320,0359 (Al Shamasiyah-320)
+2302063,1,cluster_location_id_0360,baghdad,al.adhamiya,Al Shamasiyah-316,0360 (Al Shamasiyah-316)
+2302078,1,cluster_location_id_0361,baghdad,al.adhamiya,Bob Al Sham-388,0361 (Bob Al Sham-388)
+2302083,1,cluster_location_id_0362,baghdad,al.adhamiya,Hay Al Rabee-340,0362 (Hay Al Rabee-340)
+2302088,1,cluster_location_id_0363,baghdad,al.adhamiya,Hay Al Rabee-342,0363 (Hay Al Rabee-342)
+2302116,1,cluster_location_id_0364,baghdad,al.adhamiya,Hay Ur-325,0364 (Hay Ur-325)
+2305034,1,cluster_location_id_0365,baghdad,al.risafa,Baghdad Al Jadidia-723,0365 (Baghdad Al Jadidia-723)
+2305035,1,cluster_location_id_0366,baghdad,al.risafa,Baghdad Al Jadidia-725,0366 (Baghdad Al Jadidia-725)
+2305049,1,cluster_location_id_0367,baghdad,al.risafa,Al Karada-905,0367 (Al Karada-905)
+2305055,1,cluster_location_id_0368,baghdad,al.risafa,Al Mashtal-731,0368 (Al Mashtal-731)
+2305057,1,cluster_location_id_0369,baghdad,al.risafa,Al Mashtal-735,0369 (Al Mashtal-735)
+2305058,1,cluster_location_id_0370,baghdad,al.risafa,Al Mashtal-751,0370 (Al Mashtal-751)
+2305065,1,cluster_location_id_0371,baghdad,al.risafa,Al Nidhal-103,0371 (Al Nidhal-103)
+2305069,1,cluster_location_id_0372,baghdad,al.risafa,Al Rasheed-112,0372 (Al Rasheed-112)
+2305072,1,cluster_location_id_0373,baghdad,al.risafa,Al Riyadh-910,0373 (Al Riyadh-910)
+2305097,1,cluster_location_id_0374,baghdad,al.risafa,Al Zaafaranyah-965,0374 (Al Zaafaranyah-965)
+2305128,1,cluster_location_id_0375,baghdad,al.risafa,Al Maamil-781,0375 (Al Maamil-781)
+2306001,1,cluster_location_id_0376,baghdad,al.kadhmiyah,Ahmed Al Hamid village,0376 (Ahmed Al Hamid village)
+2306063,1,cluster_location_id_0377,baghdad,al.kadhmiyah,Sabea Al Buor-14000,0377 (Sabea Al Buor-14000)
+2306073,1,cluster_location_id_0378,baghdad,al.kadhmiyah,Sabea Al Buor-8000,0378 (Sabea Al Buor-8000)
+2306106,1,cluster_location_id_0379,baghdad,al.kadhmiyah,Al Ahnaf-Al Rakia Fadel village,0379 (Al Ahnaf-Al Rakia Fadel village)
+2306113,1,cluster_location_id_0380,baghdad,al.kadhmiyah,North Al Kadhimia-447,0380 (North Al Kadhimia-447)
+2307010,1,cluster_location_id_0381,baghdad,al.karkh,Al Forat-893,0381 (Al Forat-893)
+2307011,1,cluster_location_id_0382,baghdad,al.karkh,Al Ghazaliya-649,0382 (Al Ghazaliya-649)
+2307016,1,cluster_location_id_0383,baghdad,al.karkh,Al Ghazaliya-665,0383 (Al Ghazaliya-665)
+2307018,1,cluster_location_id_0384,baghdad,al.karkh,Al Ghazaliya-681,0384 (Al Ghazaliya-681)
+2307025,1,cluster_location_id_0385,baghdad,al.karkh,Al Iskan(Al Masfi)-822,0385 (Al Iskan(Al Masfi)-822)
+2307033,1,cluster_location_id_0386,baghdad,al.karkh,Al Jazaer-818,0386 (Al Jazaer-818)
+2307035,1,cluster_location_id_0387,baghdad,al.karkh,Al Jazera-808,0387 (Al Jazera-808)
+2307043,1,cluster_location_id_0388,baghdad,al.karkh,Al Mutanbi-603,0388 (Al Mutanbi-603)
+2307050,1,cluster_location_id_0389,baghdad,al.mahmoudiya,Al Raie 861,0389 (Al Raie 861)
+2307063,1,cluster_location_id_0390,baghdad,al.karkh,Al Toma(Al Masfi)-826,0390 (Al Toma(Al Masfi)-826)
+2307068,1,cluster_location_id_0391,baghdad,al.karkh,Al Yarmouk-610,0391 (Al Yarmouk-610)
+2307093,1,cluster_location_id_0392,baghdad,al.mahmoudiya,Al Radwania,0392 (Al Radwania)
+2307097,1,cluster_location_id_0393,baghdad,al.karkh,Al Amerya-632,0393 (Al Amerya-632)
+2307099,1,cluster_location_id_0394,baghdad,al.karkh,Al Amerya-636,0394 (Al Amerya-636)
+2307100,1,cluster_location_id_0395,baghdad,al.karkh,Al Amerya-638,0395 (Al Amerya-638)
+2307110,1,cluster_location_id_0396,baghdad,al.karkh,Hay Al Adil-657,0396 (Hay Al Adil-657)
+2307124,2,cluster_location_id_0397,baghdad,al.risafa,Al Karkh-212,0397 (Al Karkh-212)
+2309001,2,cluster_location_id_0398,baghdad,al.mahmoudiya,14 Tamooz,0398 (14 Tamooz)
+2309005,2,cluster_location_id_0399,baghdad,al.mahmoudiya,Al Latefia-Al Qadessia,0399 (Al Latefia-Al Qadessia)
+2309007,1,cluster_location_id_0400,baghdad,al.mahmoudiya,Hay Al-Askary,0400 (Hay Al-Askary)
+2309008,1,cluster_location_id_0401,baghdad,al.mahmoudiya,Kilo 18,0401 (Kilo 18)
+2309019,1,cluster_location_id_0402,baghdad,al.mahmoudiya,Hay Al-Rubaiy-204,0402 (Hay Al-Rubaiy-204)
+2309022,1,cluster_location_id_0403,baghdad,al.mahmoudiya,Dereia w Um Mahar,0403 (Dereia w Um Mahar)
+2309027,1,cluster_location_id_0404,baghdad,al.mahmoudiya,Hay Al Mazraa,0404 (Hay Al Mazraa)
+2309030,2,cluster_location_id_0405,baghdad,al.mahmoudiya,Hay Al Zuhoor,0405 (Hay Al Zuhoor)
+2309052,1,cluster_location_id_0406,baghdad,al.mahmoudiya,Sader Al Yousfiya,0406 (Sader Al Yousfiya)
+2309056,1,cluster_location_id_0407,baghdad,al.mahmoudiya,Shaka-3,0407 (Shaka-3)
+2309060,1,cluster_location_id_0408,baghdad,al.mussyab,Faheel Am Al Jaeer village ,0408 (Faheel Am Al Jaeer village )
+2309064,1,cluster_location_id_0409,baghdad,al.mahmoudiya,Hay Al Dobat(Al kragolyia),0409 (Hay Al Dobat(Al kragolyia))
+2309068,1,cluster_location_id_0410,baghdad,al.mahmoudiya,Hay Al Shuhada(Al kragolyia),0410 (Hay Al Shuhada(Al kragolyia))
+2309075,1,cluster_location_id_0411,baghdad,al.mahmoudiya,Albo Awasj village,0411 (Albo Awasj village)
+2309078,1,cluster_location_id_0412,baghdad,al.mahmoudiya,Al Azam village-Mukhata 17,0412 (Al Azam village-Mukhata 17)
+2309089,1,cluster_location_id_0413,baghdad,al.mahmoudiya,Al Azez Al Ghaffar-(Al Jomblatiya Southern),0413 (Al Azez Al Ghaffar-(Al Jomblatiya Southern))
+2309094,1,cluster_location_id_0414,baghdad,al.mahmoudiya,Al Motokal village-(Al Jomblatiya Northern),0414 (Al Motokal village-(Al Jomblatiya Northern))
+2309095,1,cluster_location_id_0415,baghdad,al.mahmoudiya,Al Abraar village-(Al Jomblatiya Northern),0415 (Al Abraar village-(Al Jomblatiya Northern))
+2309096,1,cluster_location_id_0416,baghdad,al.mahmoudiya,Al Forat l village-(Al Harkawi Southern),0416 (Al Forat l village-(Al Harkawi Southern))
+2309100,1,cluster_location_id_0417,baghdad,al.mahmoudiya,Albu Moufarrej Village,0417 (Albu Moufarrej Village)
+2309102,1,cluster_location_id_0418,baghdad,al.mahmoudiya,Killo-5,0418 (Killo-5)
+2310004,1,cluster_location_id_0419,baghdad,al.kadhmiyah,Al Khadraa village,0419 (Al Khadraa village)
+2310005,1,cluster_location_id_0420,baghdad,al.kadhmiyah,Al Rawad,0420 (Al Rawad)
+2310007,1,cluster_location_id_0421,baghdad,al.kadhmiyah,Al-Abayechi-1,0421 (Al-Abayechi-1)
+2310010,1,cluster_location_id_0422,baghdad,al.kadhmiyah,Hai Al Qadessia-1,0422 (Hai Al Qadessia-1)
+2310015,1,cluster_location_id_0423,baghdad,al.kadhmiyah,Hai Al Wehda,0423 (Hai Al Wehda)
+2310017,1,cluster_location_id_0424,baghdad,al.kadhmiyah,Nadeem-1 Village,0424 (Nadeem-1 Village)
+2310020,1,cluster_location_id_0425,baghdad,al.kadhmiyah,14 Abar village 5,0425 (14 Abar village 5)
+2310023,1,cluster_location_id_0426,baghdad,al.kadhmiyah,Jasim Mohamed Khalf villge,0426 (Jasim Mohamed Khalf villge)
+2310028,1,cluster_location_id_0427,baghdad,al.kadhmiyah,Alo Khtaia village,0427 (Alo Khtaia village)
+2310033,1,cluster_location_id_0428,baghdad,al.kadhmiyah,7 Mijman-Tal al Tassa village,0428 (7 Mijman-Tal al Tassa village)
+2310034,1,cluster_location_id_0429,baghdad,al.kadhmiyah,15 Masaaod-Al Anaz village,0429 (15 Masaaod-Al Anaz village)
+2401004,1,cluster_location_id_0430,diyala,al.khalis,Al Ghalbiya,0430 (Al Ghalbiya)
+2401005,1,cluster_location_id_0431,diyala,al.kadhmiyah,Al Gserin Village,0431 (Al Gserin Village)
+2401009,1,cluster_location_id_0432,diyala,al.khalis,Markaz Al Khalis,0432 (Markaz Al Khalis)
+2401010,1,cluster_location_id_0433,diyala,al.khalis,Al Mohandseen Alzraeen Village,0433 (Al Mohandseen Alzraeen Village)
+2401014,1,cluster_location_id_0434,diyala,balad,Al Sindiyah village,0434 (Al Sindiyah village)
+2401021,1,cluster_location_id_0435,diyala,al.khalis,Al-Sadah Village,0435 (Al-Sadah Village)
+2401023,1,cluster_location_id_0436,diyala,al.khalis,Arab Hafedh Village,0436 (Arab Hafedh Village)
+2401025,2,cluster_location_id_0437,diyala,al.khalis,Arab Shanon,0437 (Arab Shanon)
+2401029,1,cluster_location_id_0438,diyala,al.khalis,Dawod Al-Salom village,0438 (Dawod Al-Salom village)
+2401032,1,cluster_location_id_0439,diyala,al.khalis,Markaz Hibhib,0439 (Markaz Hibhib)
+2401036,1,cluster_location_id_0440,diyala,al.khalis,Hibhib-Al Asry Qtr,0440 (Hibhib-Al Asry Qtr)
+2401040,1,cluster_location_id_0441,diyala,al.khalis,Hibhib-Al Shohadaa Qtr,0441 (Hibhib-Al Shohadaa Qtr)
+2401042,1,cluster_location_id_0442,diyala,al.khalis,Hibhib-Hay Al Resala,0442 (Hibhib-Hay Al Resala)
+2401043,2,cluster_location_id_0443,diyala,al.khalis,Jadidat Al Shat village,0443 (Jadidat Al Shat village)
+2401046,1,cluster_location_id_0444,diyala,al.khalis,Saif Saad Qtr,0444 (Saif Saad Qtr)
+2401048,1,cluster_location_id_0445,diyala,al.khalis,Al Aqssa Village,0445 (Al Aqssa Village)
+2401049,1,cluster_location_id_0446,diyala,al.khalis,Bizayiz Sherwin Village,0446 (Bizayiz Sherwin Village)
+2401057,1,cluster_location_id_0447,diyala,al.khalis,Habib Al Abdulla Village,0447 (Habib Al Abdulla Village)
+2401063,1,cluster_location_id_0448,diyala,al.khalis,Dalli Abass-The Old Qtr,0448 (Dalli Abass-The Old Qtr)
+2401064,1,cluster_location_id_0449,diyala,al.khalis,Dalli Abass-Al Rasheed Qtr,0449 (Dalli Abass-Al Rasheed Qtr)
+2401068,1,cluster_location_id_0450,diyala,al.khalis,Mohammed Ali Village,0450 (Mohammed Ali Village)
+2401093,1,cluster_location_id_0451,diyala,al.khalis,Ein Layla village,0451 (Ein Layla village)
+2401107,1,cluster_location_id_0452,diyala,al.khalis,Mansouriyat Al Gabal,0452 (Mansouriyat Al Gabal)
+2401109,1,cluster_location_id_0453,diyala,al.khalis,Al Idhem Center,0453 (Al Idhem Center)
+2401114,1,cluster_location_id_0454,diyala,samarra,Albo Sarah Village,0454 (Albo Sarah Village)
+2401130,1,cluster_location_id_0455,diyala,al.khalis,Albo Baker,0455 (Albo Baker)
+2402006,1,cluster_location_id_0456,diyala,al.muqdadiya,Al Aali Village,0456 (Al Aali Village)
+2402009,1,cluster_location_id_0457,diyala,al.muqdadiya,A Hammadi Village,0457 (A Hammadi Village)
+2402010,1,cluster_location_id_0458,diyala,al.muqdadiya,Al Igaidat Village,0458 (Al Igaidat Village)
+2402012,1,cluster_location_id_0459,diyala,al.muqdadiya,Al Lihayb Village,0459 (Al Lihayb Village)
+2402016,1,cluster_location_id_0460,diyala,al.khalis,Al Shekha Village,0460 (Al Shekha Village)
+2402018,1,cluster_location_id_0461,diyala,al.muqdadiya,Al Somood Qtr,0461 (Al Somood Qtr)
+2402019,1,cluster_location_id_0462,diyala,al.muqdadiya,AlTaiha Qtr,0462 (AlTaiha Qtr)
+2402020,1,cluster_location_id_0463,diyala,al.muqdadiya,Al Tinaira Village,0463 (Al Tinaira Village)
+2402027,1,cluster_location_id_0464,diyala,al.muqdadiya,Al Mataar Qtr,0464 (Al Mataar Qtr)
+2402031,1,cluster_location_id_0465,diyala,al.muqdadiya,Hembes Village,0465 (Hembes Village)
+2402032,1,cluster_location_id_0466,diyala,al.muqdadiya,Imam Talib Village,0466 (Imam Talib Village)
+2402037,1,cluster_location_id_0467,diyala,al.muqdadiya,Nofal village,0467 (Nofal village)
+2402052,1,cluster_location_id_0468,diyala,al.muqdadiya,Al Bayat Village,0468 (Al Bayat Village)
+2402053,1,cluster_location_id_0469,diyala,al.muqdadiya,Al Mahata Village,0469 (Al Mahata Village)
+2403001,1,cluster_location_id_0470,diyala,baquba,Markaz Al Abara,0470 (Markaz Al Abara)
+2403004,1,cluster_location_id_0471,diyala,baquba,Al Gatoon-Al Mujama Qtr,0471 (Al Gatoon-Al Mujama Qtr)
+2403005,1,cluster_location_id_0472,diyala,baquba,Al Gatoon-Al rahma,0472 (Al Gatoon-Al rahma)
+2403008,2,cluster_location_id_0473,diyala,baquba,Al Mafraq,0473 (Al Mafraq)
+2403010,1,cluster_location_id_0474,diyala,baquba,Al Rasool Qtr,0474 (Al Rasool Qtr)
+2403015,1,cluster_location_id_0475,diyala,baquba,Al Tahreer,0475 (Al Tahreer)
+2403022,1,cluster_location_id_0476,diyala,baquba,Al-Swamra village,0476 (Al-Swamra village)
+2403029,1,cluster_location_id_0477,diyala,baquba,Buhriz-Al-Asri Qtr,0477 (Buhriz-Al-Asri Qtr)
+2403036,1,cluster_location_id_0478,diyala,baquba,Al Intesar-1 Qtr,0478 (Al Intesar-1 Qtr)
+2403039,1,cluster_location_id_0479,diyala,baquba,Al Salam Qtr,0479 (Al Salam Qtr)
+2403040,1,cluster_location_id_0480,diyala,baquba,Al-Mualimeen-Shahid wadah Qtr,0480 (Al-Mualimeen-Shahid wadah Qtr)
+2403044,1,cluster_location_id_0481,diyala,baquba,Markaz Kanaan,0481 (Markaz Kanaan)
+2403060,1,cluster_location_id_0482,diyala,baquba,Sesbana Village,0482 (Sesbana Village)
+2403062,1,cluster_location_id_0483,diyala,baquba,Mohamed sakran,0483 (Mohamed sakran)
+2404001,1,cluster_location_id_0484,diyala,baladruz,Al Bazaniya village,0484 (Al Bazaniya village)
+2404010,1,cluster_location_id_0485,diyala,baladruz,Al-Ramaila Village,0485 (Al-Ramaila Village)
+2404015,1,cluster_location_id_0486,diyala,baladruz,Dur Mandiliy Qtr,0486 (Dur Mandiliy Qtr)
+2404016,1,cluster_location_id_0487,diyala,baladruz,Hay Al Bakir,0487 (Hay Al Bakir)
+2404020,1,cluster_location_id_0488,diyala,baladruz,Markaz Mandali,0488 (Markaz Mandali)
+2405013,2,cluster_location_id_0489,diyala,khanaqin,alkubeah small village,0489 (alkubeah small village)
+2405020,1,cluster_location_id_0490,diyala,khanaqin,Bakhtiari Qtr,0490 (Bakhtiari Qtr)
+2405030,1,cluster_location_id_0491,diyala,khanaqin,Alshortah Qtr,0491 (Alshortah Qtr)
+2405034,1,cluster_location_id_0492,diyala,kifri,Markaz Jabara,0492 (Markaz Jabara)
+2405041,1,cluster_location_id_0493,diyala,kifri,Khozifah village,0493 (Khozifah village)
+2405055,1,cluster_location_id_0494,diyala,khanaqin,Rapren-2 Qtr,0494 (Rapren-2 Qtr)
+2405062,1,cluster_location_id_0495,diyala,khanaqin,Sirwan Qtr,0495 (Sirwan Qtr)
+2405068,2,cluster_location_id_0496,diyala,khanaqin,Tula Frosh Qtr,0496 (Tula Frosh Qtr)
+2405070,1,cluster_location_id_0497,diyala,khanaqin,Zurab village,0497 (Zurab village)
+2405072,1,cluster_location_id_0498,diyala,khanaqin,Al Husaini Village,0498 (Al Husaini Village)
+2405077,1,cluster_location_id_0499,diyala,khanaqin,Banmil-2 Qtr,0499 (Banmil-2 Qtr)
+2405080,1,cluster_location_id_0500,diyala,khanaqin,Agha and Khalifa,0500 (Agha and Khalifa)
+2405084,1,cluster_location_id_0501,diyala,khanaqin,Said Ahmed Village,0501 (Said Ahmed Village)
+2405087,1,cluster_location_id_0502,diyala,khanaqin,17Tamooz Qtr,0502 (17Tamooz Qtr)
+2405090,1,cluster_location_id_0503,diyala,khanaqin,Al Rabe Al Thaniya Qtr,0503 (Al Rabe Al Thaniya Qtr)
+2405096,1,cluster_location_id_0504,diyala,khanaqin,Al Shuhada Qtr,0504 (Al Shuhada Qtr)
+2405097,1,cluster_location_id_0505,diyala,khanaqin,Al Jamahir Qtr,0505 (Al Jamahir Qtr)
+2405103,1,cluster_location_id_0506,diyala,khanaqin,Alkhadra Qtr Sector 2,0506 (Alkhadra Qtr Sector 2)
+2405107,1,cluster_location_id_0507,diyala,khanaqin,Al Oroba Qtr Sector 3,0507 (Al Oroba Qtr Sector 3)
+2405113,1,cluster_location_id_0508,diyala,khanaqin,Al Jamahir Qtr Sector 4,0508 (Al Jamahir Qtr Sector 4)
+2405115,1,cluster_location_id_0509,diyala,khanaqin,Al Jamahir Qtr Sector 6,0509 (Al Jamahir Qtr Sector 6)
+2405116,1,cluster_location_id_0510,diyala,khanaqin,Al Shuhada Qtr Sector 2,0510 (Al Shuhada Qtr Sector 2)
+2405117,1,cluster_location_id_0511,diyala,khanaqin,Al Shuhada Qtr Sector 3,0511 (Al Shuhada Qtr Sector 3)
+2405120,1,cluster_location_id_0512,diyala,khanaqin,Al Shuhada Qtr Sector 6,0512 (Al Shuhada Qtr Sector 6)
+2405123,1,cluster_location_id_0513,diyala,khanaqin,Al Wehdaa Qtr Sector 4,0513 (Al Wehdaa Qtr Sector 4)
+2405142,1,cluster_location_id_0514,diyala,khanaqin,Al Ummal Qtr,0514 (Al Ummal Qtr)
+2406002,1,cluster_location_id_0515,diyala,kifri,Qaratappa,0515 (Qaratappa)
+2406004,1,cluster_location_id_0516,diyala,kifri,awbrey,0516 (awbrey)
+2406007,1,cluster_location_id_0517,diyala,kifri,emam mohammed,0517 (emam mohammed)
+2406012,1,cluster_location_id_0518,diyala,kifri,raparin,0518 (raparin)
+2406013,1,cluster_location_id_0519,diyala,kifri,azadi,0519 (azadi)
+2406016,1,cluster_location_id_0520,diyala,kifri,sar qala,0520 (sar qala)
+2406019,1,cluster_location_id_0521,diyala,kifri,shahidan,0521 (shahidan)
+2502018,1,cluster_location_id_0522,kerbala,al.hindiya,Al-Hindiya-Hay Al-Amel,0522 (Al-Hindiya-Hay Al-Amel)
+2502023,1,cluster_location_id_0523,kerbala,al.hindiya,Kareat al jubur,0523 (Kareat al jubur)
+2502024,1,cluster_location_id_0524,kerbala,kerbela,Mantakat Al hnedea,0524 (Mantakat Al hnedea)
+2502027,2,cluster_location_id_0525,kerbala,al.hindiya,Al abodea,0525 (Al abodea)
+2502036,2,cluster_location_id_0526,kerbala,al.hindiya,Al Jedar Al Gharbi,0526 (Al Jedar Al Gharbi)
+2502043,2,cluster_location_id_0527,kerbala,al.hindiya,Albu Zagam,0527 (Albu Zagam)
+2502046,1,cluster_location_id_0528,kerbala,al.hindiya,Al-Jadwal Al-Ghrabi-Al Askary,0528 (Al-Jadwal Al-Ghrabi-Al Askary)
+2502047,2,cluster_location_id_0529,kerbala,al.hindiya,Al-Khayrat,0529 (Al-Khayrat)
+2503017,1,cluster_location_id_0530,kerbala,kerbela,Al Askary-Al haidery,0530 (Al Askary-Al haidery)
+2503037,1,cluster_location_id_0531,kerbala,kerbela,Al Fadha,0531 (Al Fadha)
+2503048,1,cluster_location_id_0532,kerbala,kerbela,Sumer 1,0532 (Sumer 1)
+2503049,1,cluster_location_id_0533,kerbala,kerbela,Al Amam Al Montadar,0533 (Al Amam Al Montadar)
+2503064,1,cluster_location_id_0534,kerbala,kerbela,Al Kaim,0534 (Al Kaim)
+2503074,1,cluster_location_id_0535,kerbala,kerbela,Al Qadissiya 2,0535 (Al Qadissiya 2)
+2503076,1,cluster_location_id_0536,kerbala,kerbela,Al Rawdhatain,0536 (Al Rawdhatain)
+2503077,1,cluster_location_id_0537,kerbala,kerbela,Al Sahrawy Al Mazarea,0537 (Al Sahrawy Al Mazarea)
+2503089,1,cluster_location_id_0538,kerbala,kerbela,Al Wand Al Mustajad,0538 (Al Wand Al Mustajad)
+2503096,1,cluster_location_id_0539,kerbala,kerbela,Al-Abrahmeiah (Al hafed),0539 (Al-Abrahmeiah (Al hafed))
+2503122,1,cluster_location_id_0540,kerbala,kerbela,Al-kakaeiah Al-Sharkeiah,0540 (Al-kakaeiah Al-Sharkeiah)
+2503126,1,cluster_location_id_0541,kerbala,kerbela,Al-Rafedeen,0541 (Al-Rafedeen)
+2503127,1,cluster_location_id_0542,kerbala,kerbela,Al-Safiya 2,0542 (Al-Safiya 2)
+2503138,1,cluster_location_id_0543,kerbala,kerbela,Badat Aswad,0543 (Badat Aswad)
+2503170,1,cluster_location_id_0544,kerbala,kerbela,Hay Al-Abbas,0544 (Hay Al-Abbas)
+2503196,1,cluster_location_id_0545,kerbala,kerbela,Hay al-tahady,0545 (Hay al-tahady)
+2503203,1,cluster_location_id_0546,kerbala,kerbela,Kantraat Al Salam,0546 (Kantraat Al Salam)
+2503220,1,cluster_location_id_0547,kerbala,kerbela,Al-hadi,0547 (Al-hadi)
+2503227,1,cluster_location_id_0548,kerbala,kerbela,Mulhaq Al-Intisar,0548 (Mulhaq Al-Intisar)
+2503241,1,cluster_location_id_0549,kerbala,kerbela,Um Al Banen Village,0549 (Um Al Banen Village)
+2503252,1,cluster_location_id_0550,kerbala,kerbela,Hay al mostafa,0550 (Hay al mostafa)
+2503253,1,cluster_location_id_0551,kerbala,kerbela,Al Muamnen(Elegal),0551 (Al Muamnen(Elegal))
+2601011,1,cluster_location_id_0552,kirkuk,al.hawiga,Al-zab,0552 (Al-zab)
+2601022,1,cluster_location_id_0553,kirkuk,al.hawiga,Helwa Olia,0553 (Helwa Olia)
+2601024,1,cluster_location_id_0554,kirkuk,al.hawiga,Hilwa middle,0554 (Hilwa middle)
+2601030,1,cluster_location_id_0555,kirkuk,al.hawiga,Qadissiya-101,0555 (Qadissiya-101)
+2601034,1,cluster_location_id_0556,kirkuk,al.hawiga,Shamitt Village,0556 (Shamitt Village)
+2601039,1,cluster_location_id_0557,kirkuk,al.hawiga,Al-Abassy center,0557 (Al-Abassy center)
+2601062,1,cluster_location_id_0558,kirkuk,al.hawiga,Al-Khatoonia,0558 (Al-Khatoonia)
+2601063,1,cluster_location_id_0559,kirkuk,al.hawiga,Hawd Sittah village,0559 (Hawd Sittah village)
+2601072,1,cluster_location_id_0560,kirkuk,al.hawiga,Namisa Village,0560 (Namisa Village)
+2601078,1,cluster_location_id_0561,kirkuk,al.hawiga,Shamllan village,0561 (Shamllan village)
+2601083,1,cluster_location_id_0562,kirkuk,al.hawiga,Digail Village,0562 (Digail Village)
+2601102,1,cluster_location_id_0563,kirkuk,al.hawiga,Hay Al-Nasir ( Hawija ),0563 (Hay Al-Nasir ( Hawija ))
+2601116,1,cluster_location_id_0564,kirkuk,beygee,Braij village,0564 (Braij village)
+2601123,1,cluster_location_id_0565,kirkuk,al.hawiga,Al Manzala Village,0565 (Al Manzala Village)
+2602005,2,cluster_location_id_0566,kirkuk,daquq,Fareeq Awa,0566 (Fareeq Awa)
+2602006,1,cluster_location_id_0567,kirkuk,daquq,Hay Al Motajawizeen,0567 (Hay Al Motajawizeen)
+2602007,1,cluster_location_id_0568,kirkuk,daquq,Hay Ashti,0568 (Hay Ashti)
+2602010,1,cluster_location_id_0569,kirkuk,kirkuk,Laylan-Al Abadat village,0569 (Laylan-Al Abadat village)
+2602011,1,cluster_location_id_0570,kirkuk,daquq,Laylan-Bash Bulaq village,0570 (Laylan-Bash Bulaq village)
+2602013,1,cluster_location_id_0571,kirkuk,daquq,Taza-Omer Bin Khattab,0571 (Taza-Omer Bin Khattab)
+2602021,1,cluster_location_id_0572,kirkuk,daquq,Arab Koy village,0572 (Arab Koy village)
+2602024,1,cluster_location_id_0573,kirkuk,daquq,Hay Gulan,0573 (Hay Gulan)
+2602027,1,cluster_location_id_0574,kirkuk,daquq,Khaled bin Waleed village,0574 (Khaled bin Waleed village)
+2602029,1,cluster_location_id_0575,kirkuk,daquq,Wahda village,0575 (Wahda village)
+2602030,1,cluster_location_id_0576,kirkuk,daquq,Saad Bin Waqqas village,0576 (Saad Bin Waqqas village)
+2602035,1,cluster_location_id_0577,kirkuk,daquq,Hay Al-Salam ( Daquq ),0577 (Hay Al-Salam ( Daquq ))
+2602036,1,cluster_location_id_0578,kirkuk,daquq,Hay Klisa 1,0578 (Hay Klisa 1)
+2602037,1,cluster_location_id_0579,kirkuk,daquq,Hay Nawroz ( Daquq),0579 (Hay Nawroz ( Daquq))
+2602038,1,cluster_location_id_0580,kirkuk,daquq,Hay Runaki / Daquq,0580 (Hay Runaki / Daquq)
+2603001,2,cluster_location_id_0581,kirkuk,kirkuk,Al Faylaq-Mahala 5,0581 (Al Faylaq-Mahala 5)
+2603006,2,cluster_location_id_0582,kirkuk,kirkuk,Al Tadamon(Hawkari),0582 (Al Tadamon(Hawkari))
+2603007,1,cluster_location_id_0583,kirkuk,kirkuk,Al Takhi Village,0583 (Al Takhi Village)
+2603009,1,cluster_location_id_0584,kirkuk,kirkuk,Amal al shaabi,0584 (Amal al shaabi)
+2603011,2,cluster_location_id_0585,kirkuk,dibis,Bajwan,0585 (Bajwan)
+2603012,1,cluster_location_id_0586,kirkuk,kirkuk,Darwaza,0586 (Darwaza)
+2603013,1,cluster_location_id_0587,kirkuk,kirkuk,Hay 1 Athar,0587 (Hay 1 Athar)
+2603014,1,cluster_location_id_0588,kirkuk,kirkuk,Hay Adan,0588 (Hay Adan)
+2603015,1,cluster_location_id_0589,kirkuk,kirkuk,Hay Al Hamzali,0589 (Hay Al Hamzali)
+2603016,1,cluster_location_id_0590,kirkuk,kirkuk,Hay Al Jamia-Mahalla 622,0590 (Hay Al Jamia-Mahalla 622)
+2603022,2,cluster_location_id_0591,kirkuk,kirkuk,Hay Al-Khadraa,0591 (Hay Al-Khadraa)
+2603025,1,cluster_location_id_0592,kirkuk,kirkuk,Hay Al-Sinay,0592 (Hay Al-Sinay)
+2603026,1,cluster_location_id_0593,kirkuk,kirkuk,Hay Al-Urooba,0593 (Hay Al-Urooba)
+2603027,1,cluster_location_id_0594,kirkuk,kirkuk,Hay Al-Zawraa,0594 (Hay Al-Zawraa)
+2603028,1,cluster_location_id_0595,kirkuk,kirkuk,Hay Arafah 201,0595 (Hay Arafah 201)
+2603029,1,cluster_location_id_0596,kirkuk,kirkuk,Hay Azadi,0596 (Hay Azadi)
+2603038,2,cluster_location_id_0597,kirkuk,kirkuk,Panja Ali,0597 (Panja Ali)
+2603041,1,cluster_location_id_0598,kirkuk,kirkuk,Qaryat Tobzawa,0598 (Qaryat Tobzawa)
+2603044,1,cluster_location_id_0599,kirkuk,kirkuk,Rahim Awa,0599 (Rahim Awa)
+2603045,1,cluster_location_id_0600,kirkuk,kirkuk,Runaki,0600 (Runaki)
+2603046,1,cluster_location_id_0601,kirkuk,kirkuk,Sary Kahya,0601 (Sary Kahya)
+2603047,1,cluster_location_id_0602,kirkuk,kirkuk,Sayada village,0602 (Sayada village)
+2603050,1,cluster_location_id_0603,kirkuk,kirkuk,Tiseen,0603 (Tiseen)
+2603065,1,cluster_location_id_0604,kirkuk,kirkuk,Hay Al Ertiqaa,0604 (Hay Al Ertiqaa)
+2603066,1,cluster_location_id_0605,kirkuk,kirkuk,Al-Qadisssiya(Rabareen) first,0605 (Al-Qadisssiya(Rabareen) first)
+2603067,1,cluster_location_id_0606,kirkuk,kirkuk,Al-Qadisssiya(Rabareen) seconad,0606 (Al-Qadisssiya(Rabareen) seconad)
+2603069,2,cluster_location_id_0607,kirkuk,kirkuk,Hay Al-Askary 2,0607 (Hay Al-Askary 2)
+2603079,1,cluster_location_id_0608,kirkuk,daquq,Karha Rufaiaa village,0608 (Karha Rufaiaa village)
+2604001,2,cluster_location_id_0609,kirkuk,dibis,Altun Kupri Center,0609 (Altun Kupri Center)
+2604005,1,cluster_location_id_0610,kirkuk,dibis,Hay Al Muaasker,0610 (Hay Al Muaasker)
+2604006,1,cluster_location_id_0611,kirkuk,dibis,Hay Al Tanak,0611 (Hay Al Tanak)
+2604007,1,cluster_location_id_0612,kirkuk,dibis,Hay Al-Shuhadaa,0612 (Hay Al-Shuhadaa)
+2604010,1,cluster_location_id_0613,kirkuk,dibis,Qashqaiyah village,0613 (Qashqaiyah village)
+2604011,1,cluster_location_id_0614,kirkuk,dibis,Qutan village,0614 (Qutan village)
+2604013,1,cluster_location_id_0615,kirkuk,dibis,Hay Kurdistan,0615 (Hay Kurdistan)
+2604014,1,cluster_location_id_0616,kirkuk,dibis,Hay Rabareen,0616 (Hay Rabareen)
+2604015,1,cluster_location_id_0617,kirkuk,dibis,Hay Diyarbakir,0617 (Hay Diyarbakir)
+2701001,2,cluster_location_id_0618,ninewa,aqra,Akre,0618 (Akre)
+2701003,1,cluster_location_id_0619,ninewa,aqra,Amyan,0619 (Amyan)
+2701004,1,cluster_location_id_0620,ninewa,aqra,Banasur,0620 (Banasur)
+2701005,1,cluster_location_id_0621,ninewa,aqra,Bardarash,0621 (Bardarash)
+2701009,2,cluster_location_id_0622,ninewa,aqra,Daratu,0622 (Daratu)
+2701012,2,cluster_location_id_0623,ninewa,al.hamdaniya,Kalak,0623 (Kalak)
+2701014,1,cluster_location_id_0624,ninewa,aqra,Khalilkan,0624 (Khalilkan)
+2701017,2,cluster_location_id_0625,ninewa,aqra,Roviya,0625 (Roviya)
+2701033,1,cluster_location_id_0626,ninewa,al.shikhan,Husseini,0626 (Husseini)
+2701034,1,cluster_location_id_0627,ninewa,aqra,Yakmala,0627 (Yakmala)
+2701035,2,cluster_location_id_0628,ninewa,al.hamdaniya,Zangal,0628 (Zangal)
+2702001,2,cluster_location_id_0629,ninewa,al.baaj,Markaz Baaj,0629 (Markaz Baaj)
+2702002,1,cluster_location_id_0630,ninewa,al.baaj,Al-Rashediyah,0630 (Al-Rashediyah)
+2702004,1,cluster_location_id_0631,ninewa,al.baaj,Abu-Rasen,0631 (Abu-Rasen)
+2702009,1,cluster_location_id_0632,ninewa,al.baaj,Al-Sahrej,0632 (Al-Sahrej)
+2702012,1,cluster_location_id_0633,ninewa,al.baaj,Sibaya Village,0633 (Sibaya Village)
+2702013,1,cluster_location_id_0634,ninewa,al.baaj,Wardeya,0634 (Wardeya)
+2703002,1,cluster_location_id_0635,ninewa,al.hamdaniya,Al-ghadeer complex,0635 (Al-ghadeer complex)
+2703010,1,cluster_location_id_0636,ninewa,al.hamdaniya,Shaquli village,0636 (Shaquli village)
+2703011,1,cluster_location_id_0637,ninewa,al.hamdaniya,Tahrawa Village,0637 (Tahrawa Village)
+2703022,1,cluster_location_id_0638,ninewa,al.hamdaniya,Kubaiba village,0638 (Kubaiba village)
+2703035,1,cluster_location_id_0639,ninewa,al.hamdaniya,Qaraqosh,0639 (Qaraqosh)
+2703038,1,cluster_location_id_0640,ninewa,al.hamdaniya,Al-Salamiyah Village,0640 (Al-Salamiyah Village)
+2703041,1,cluster_location_id_0641,ninewa,al.hamdaniya,Bartalla center,0641 (Bartalla center)
+2703045,1,cluster_location_id_0642,ninewa,al.hamdaniya,Shamsiat Village,0642 (Shamsiat Village)
+2703047,1,cluster_location_id_0643,ninewa,al.hamdaniya,Basakhrah Village,0643 (Basakhrah Village)
+2703053,1,cluster_location_id_0644,ninewa,al.hamdaniya,Kabarly Village,0644 (Kabarly Village)
+2703058,1,cluster_location_id_0645,ninewa,al.hamdaniya,Karamless,0645 (Karamless)
+2704002,2,cluster_location_id_0646,ninewa,al.shikhan,Baadre,0646 (Baadre)
+2704004,1,cluster_location_id_0647,ninewa,al.shikhan,Berstik,0647 (Berstik)
+2704005,1,cluster_location_id_0648,ninewa,al.shikhan,Betnar,0648 (Betnar)
+2704006,2,cluster_location_id_0649,ninewa,al.shikhan,Chira,0649 (Chira)
+2704011,2,cluster_location_id_0650,ninewa,al.shikhan,Kalakchi,0650 (Kalakchi)
+2704012,2,cluster_location_id_0651,ninewa,al.shikhan,Mahad,0651 (Mahad)
+2704015,2,cluster_location_id_0652,ninewa,al.shikhan,Qasrok,0652 (Qasrok)
+2704016,2,cluster_location_id_0653,ninewa,al.shikhan,Shekhan,0653 (Shekhan)
+2704027,1,cluster_location_id_0654,ninewa,al.shikhan,Almaman,0654 (Almaman)
+2704033,1,cluster_location_id_0655,ninewa,al.shikhan,Pirbob,0655 (Pirbob)
+2704036,1,cluster_location_id_0656,ninewa,al.shikhan,Sheikh Milwan Village,0656 (Sheikh Milwan Village)
+2704037,1,cluster_location_id_0657,ninewa,al.shikhan,Small Rikaba Village,0657 (Small Rikaba Village)
+2704038,1,cluster_location_id_0658,ninewa,al.shikhan,Big Rikaba Village,0658 (Big Rikaba Village)
+2704039,1,cluster_location_id_0659,ninewa,al.shikhan,Nargizlia Village,0659 (Nargizlia Village)
+2704042,1,cluster_location_id_0660,ninewa,al.shikhan,Taq Harb,0660 (Taq Harb)
+2704043,1,cluster_location_id_0661,ninewa,al.shikhan,Taq Mekail,0661 (Taq Mekail)
+2705001,1,cluster_location_id_0662,ninewa,al.hatra,Tal abta,0662 (Tal abta)
+2705006,1,cluster_location_id_0663,ninewa,al.hatra,Mokhazaga Village,0663 (Mokhazaga Village)
+2705021,1,cluster_location_id_0664,ninewa,al.hatra,AL-Ani Village,0664 (AL-Ani Village)
+2705035,1,cluster_location_id_0665,ninewa,al.baaj,khwetla village,0665 (khwetla village)
+2705038,1,cluster_location_id_0666,ninewa,al.hatra,Medan kli Gnobia village,0666 (Medan kli Gnobia village)
+2705040,1,cluster_location_id_0667,ninewa,al.hatra,AL_ Trorkmania Al-shmalia village,0667 (AL_ Trorkmania Al-shmalia village)
+2705042,1,cluster_location_id_0668,ninewa,al.hatra,Markaz AL-Hatra,0668 (Markaz AL-Hatra)
+2706003,2,cluster_location_id_0669,ninewa,al.mosul,Al Harmaat,0669 (Al Harmaat)
+2706004,1,cluster_location_id_0670,ninewa,al.mosul,Al jazaer,0670 (Al jazaer)
+2706006,2,cluster_location_id_0671,ninewa,tilkaef,Al rasheediya,0671 (Al rasheediya)
+2706010,1,cluster_location_id_0672,ninewa,al.mosul,Al tahreer,0672 (Al tahreer)
+2706011,2,cluster_location_id_0673,ninewa,al.mosul,Al Tanak,0673 (Al Tanak)
+2706012,1,cluster_location_id_0674,ninewa,al.mosul,Al-Akhaa,0674 (Al-Akhaa)
+2706017,2,cluster_location_id_0675,ninewa,al.mosul,Al-Karamah,0675 (Al-Karamah)
+2706026,1,cluster_location_id_0676,ninewa,al.mosul,Al-Noor,0676 (Al-Noor)
+2706031,1,cluster_location_id_0677,ninewa,al.mosul,Al-Quds,0677 (Al-Quds)
+2706033,1,cluster_location_id_0678,ninewa,al.mosul,Al-Wahda,0678 (Al-Wahda)
+2706034,1,cluster_location_id_0679,ninewa,al.mosul,Al-Yarmuk,0679 (Al-Yarmuk)
+2706037,1,cluster_location_id_0680,ninewa,al.mosul,Bashiqa center,0680 (Bashiqa center)
+2706043,2,cluster_location_id_0681,ninewa,al.mosul,Hay Al Intisar,0681 (Hay Al Intisar)
+2706044,2,cluster_location_id_0682,ninewa,al.mosul,Hay Al Islah Al Zirai,0682 (Hay Al Islah Al Zirai)
+2706046,1,cluster_location_id_0683,ninewa,al.mosul,Hay Al Nahrawan,0683 (Hay Al Nahrawan)
+2706048,1,cluster_location_id_0684,ninewa,al.mosul,Hay Al Tammem,0684 (Hay Al Tammem)
+2706050,1,cluster_location_id_0685,ninewa,al.mosul,Hay Al Zahraa,0685 (Hay Al Zahraa)
+2706053,1,cluster_location_id_0686,ninewa,al.mosul,Hay Nablus,0686 (Hay Nablus)
+2706063,1,cluster_location_id_0687,ninewa,al.mosul,Tal Al-Rumman,0687 (Tal Al-Rumman)
+2706082,2,cluster_location_id_0688,ninewa,al.mosul,Al-Amil,0688 (Al-Amil)
+2706093,1,cluster_location_id_0689,ninewa,al.mosul,Hay Adan,0689 (Hay Adan)
+2706094,1,cluster_location_id_0690,ninewa,al.mosul,Hay Alalam,0690 (Hay Alalam)
+2706097,2,cluster_location_id_0691,ninewa,tilkaef,Bysan,0691 (Bysan)
+2706106,1,cluster_location_id_0692,ninewa,al.mosul,Hay alsedeeq,0692 (Hay alsedeeq)
+2706159,1,cluster_location_id_0693,ninewa,al.mosul,Al-Areej Village,0693 (Al-Areej Village)
+2706177,1,cluster_location_id_0694,ninewa,al.hatra,Qabr bin Naif Village,0694 (Qabr bin Naif Village)
+2706188,1,cluster_location_id_0695,ninewa,al.mosul,Alqadisiya Al-thaniya,0695 (Alqadisiya Al-thaniya)
+2706189,1,cluster_location_id_0696,ninewa,al.mosul,Al-Falah,0696 (Al-Falah)
+2706190,1,cluster_location_id_0697,ninewa,al.mosul,Yarmjah,0697 (Yarmjah)
+2706199,1,cluster_location_id_0698,ninewa,al.mosul,Bahzani,0698 (Bahzani)
+2706228,1,cluster_location_id_0699,ninewa,al.mosul,Al-rabaa Village,0699 (Al-rabaa Village)
+2706235,1,cluster_location_id_0700,ninewa,tilkaef,Tel Al-raes Al-thania Village,0700 (Tel Al-raes Al-thania Village)
+2706266,1,cluster_location_id_0701,ninewa,al.mosul,Al-Rabeea,0701 (Al-Rabeea)
+2706279,1,cluster_location_id_0702,ninewa,al.mosul,Al-Sihha,0702 (Al-Sihha)
+2706286,1,cluster_location_id_0703,ninewa,al.mosul,Al-Mayasa,0703 (Al-Mayasa)
+2706302,1,cluster_location_id_0704,ninewa,al.mosul,Tal Khayma Village,0704 (Tal Khayma Village)
+2706326,1,cluster_location_id_0705,ninewa,al.mosul,Ninewa Sharqiya,0705 (Ninewa Sharqiya)
+2707001,1,cluster_location_id_0706,ninewa,sinjar,Hay Al Naser,0706 (Hay Al Naser)
+2707004,1,cluster_location_id_0707,ninewa,sinjar,Khana sor,0707 (Khana sor)
+2707005,2,cluster_location_id_0708,ninewa,sinjar,Sinuni center,0708 (Sinuni center)
+2707006,1,cluster_location_id_0709,ninewa,sinjar,Dokri,0709 (Dokri)
+2707007,1,cluster_location_id_0710,ninewa,sinjar,Dohola ,0710 (Dohola )
+2707008,2,cluster_location_id_0711,ninewa,sinjar,Borek,0711 (Borek)
+2707009,1,cluster_location_id_0712,ninewa,sinjar,Guhbal and shorka,0712 (Guhbal and shorka)
+2707011,1,cluster_location_id_0713,ninewa,sinjar,Karsi ,0713 (Karsi )
+2707016,1,cluster_location_id_0714,ninewa,sinjar,Wary Bahdo,0714 (Wary Bahdo)
+2707017,1,cluster_location_id_0715,ninewa,sinjar,Sardashty,0715 (Sardashty)
+2707019,1,cluster_location_id_0716,ninewa,sinjar,Melik,0716 (Melik)
+2707021,1,cluster_location_id_0717,ninewa,sinjar,Balif,0717 (Balif)
+2707029,1,cluster_location_id_0718,ninewa,sinjar,Ashti & Heriko,0718 (Ashti & Heriko)
+2707030,1,cluster_location_id_0719,ninewa,sinjar,Bir Adam,0719 (Bir Adam)
+2707034,1,cluster_location_id_0720,ninewa,sinjar,Darki Qawala,0720 (Darki Qawala)
+2707038,1,cluster_location_id_0721,ninewa,sinjar,Zorava and zirwa,0721 (Zorava and zirwa)
+2707042,1,cluster_location_id_0722,ninewa,sinjar,Hay Yarmok,0722 (Hay Yarmok)
+2707043,1,cluster_location_id_0723,ninewa,sinjar,Rozh Halat,0723 (Rozh Halat)
+2707048,1,cluster_location_id_0724,ninewa,sinjar,Hay Alzeraee,0724 (Hay Alzeraee)
+2707056,1,cluster_location_id_0725,ninewa,sinjar,Golat,0725 (Golat)
+2707058,1,cluster_location_id_0726,ninewa,sinjar,Sibaya Ammash Village,0726 (Sibaya Ammash Village)
+2707062,1,cluster_location_id_0727,ninewa,sinjar,Khazoga,0727 (Khazoga)
+2708003,1,cluster_location_id_0728,ninewa,telafar,Al Muthalatha village,0728 (Al Muthalatha village)
+2708011,2,cluster_location_id_0729,ninewa,telafar,Qasabat Zummar,0729 (Qasabat Zummar)
+2708026,2,cluster_location_id_0730,ninewa,telafar,Hay Al Askari,0730 (Hay Al Askari)
+2708027,1,cluster_location_id_0731,ninewa,telafar,Hay Al Arbaeen,0731 (Hay Al Arbaeen)
+2708028,1,cluster_location_id_0732,ninewa,telafar,Hay Alasreya,0732 (Hay Alasreya)
+2708029,1,cluster_location_id_0733,ninewa,telafar,Hay althahabe,0733 (Hay althahabe)
+2708032,1,cluster_location_id_0734,ninewa,telafar,Hay Al Qadisya,0734 (Hay Al Qadisya)
+2708033,1,cluster_location_id_0735,ninewa,telafar,Hay Al Salam,0735 (Hay Al Salam)
+2708035,1,cluster_location_id_0736,ninewa,telafar,Jussa,0736 (Jussa)
+2708044,1,cluster_location_id_0737,ninewa,telafar,Msherfa Village,0737 (Msherfa Village)
+2708047,1,cluster_location_id_0738,ninewa,telafar,Tal Ismair,0738 (Tal Ismair)
+2708050,1,cluster_location_id_0739,ninewa,telafar,Tal Mus,0739 (Tal Mus)
+2708066,1,cluster_location_id_0740,ninewa,telafar,abu khushub,0740 (abu khushub)
+2708081,1,cluster_location_id_0741,ninewa,telafar,Tal Talab vilage,0741 (Tal Talab vilage)
+2708084,1,cluster_location_id_0742,ninewa,telafar,Mushah vilage,0742 (Mushah vilage)
+2708089,1,cluster_location_id_0743,ninewa,telafar,Karsur vilage,0743 (Karsur vilage)
+2708090,1,cluster_location_id_0744,ninewa,telafar,Ewaynat vilage,0744 (Ewaynat vilage)
+2708098,1,cluster_location_id_0745,ninewa,telafar,Abu hajarah,0745 (Abu hajarah)
+2708107,1,cluster_location_id_0746,ninewa,telafar,Sahlij,0746 (Sahlij)
+2708128,1,cluster_location_id_0747,ninewa,telafar,Al-Qadisiya Alawla,0747 (Al-Qadisiya Alawla)
+2708137,1,cluster_location_id_0748,ninewa,telafar,Hay Al jazira,0748 (Hay Al jazira)
+2708138,1,cluster_location_id_0749,ninewa,telafar,Hay Al khadraa,0749 (Hay Al khadraa)
+2708143,1,cluster_location_id_0750,ninewa,telafar,Hay Alkefah al jenobi,0750 (Hay Alkefah al jenobi)
+2708168,1,cluster_location_id_0751,ninewa,telafar,Sahl Al Milhah Village,0751 (Sahl Al Milhah Village)
+2709003,2,cluster_location_id_0752,ninewa,tilkaef,Al Qawsiyat,0752 (Al Qawsiyat)
+2709004,1,cluster_location_id_0753,ninewa,tilkaef,Al Quba,0753 (Al Quba)
+2709005,1,cluster_location_id_0754,ninewa,tilkaef,Alqosh,0754 (Alqosh)
+2709008,1,cluster_location_id_0755,ninewa,tilkaef,Beban,0755 (Beban)
+2709010,1,cluster_location_id_0756,ninewa,tilkaef,Baawiza,0756 (Baawiza)
+2709011,2,cluster_location_id_0757,ninewa,tilkaef,Bozan,0757 (Bozan)
+2709015,1,cluster_location_id_0758,ninewa,tilkaef,Der Umtutha,0758 (Der Umtutha)
+2709021,1,cluster_location_id_0759,ninewa,tilkaef,Jambour Village,0759 (Jambour Village)
+2709038,1,cluster_location_id_0760,ninewa,tilkaef,Shaykhaka,0760 (Shaykhaka)
+2709040,2,cluster_location_id_0761,ninewa,tilkaef,wanna center,0761 (wanna center)
+2709041,1,cluster_location_id_0762,ninewa,tilkaef,Manara,0762 (Manara)
+2709045,2,cluster_location_id_0763,ninewa,tilkaef,Tallsquf,0763 (Tallsquf)
+2709052,1,cluster_location_id_0764,ninewa,tilkaef,Mosul Dam,0764 (Mosul Dam)
+2709060,1,cluster_location_id_0765,ninewa,tilkaef,Sada Area,0765 (Sada Area)
+2709075,1,cluster_location_id_0766,ninewa,tilkaef,Felfel,0766 (Felfel)
+2801001,1,cluster_location_id_0767,salah al-din,al.daur,Al-Khadhra area,0767 (Al-Khadhra area)
+2801013,1,cluster_location_id_0768,salah al-din,al.daur,Al Asriyah village,0768 (Al Asriyah village)
+2801015,1,cluster_location_id_0769,salah al-din,al.daur,Al Mujammaa Al Sakani,0769 (Al Mujammaa Al Sakani)
+2801016,1,cluster_location_id_0770,salah al-din,al.daur,Hay Abu Dalaf,0770 (Hay Abu Dalaf)
+2801017,1,cluster_location_id_0771,salah al-din,al.daur,Hay Al Aboor,0771 (Hay Al Aboor)
+2801018,1,cluster_location_id_0772,salah al-din,al.daur,Hay Al Askri,0772 (Hay Al Askri)
+2801020,1,cluster_location_id_0773,salah al-din,al.daur,Hay Al Sharqiyah,0773 (Hay Al Sharqiyah)
+2801021,1,cluster_location_id_0774,salah al-din,al.daur,Hay Tal Al Banat,0774 (Hay Tal Al Banat)
+2801022,1,cluster_location_id_0775,salah al-din,al.daur,Hay Al Qadisiah,0775 (Hay Al Qadisiah)
+2802003,1,cluster_location_id_0776,salah al-din,al.shirqat,Al Fajir village(Al Tasni),0776 (Al Fajir village(Al Tasni))
+2802007,2,cluster_location_id_0777,salah al-din,al.shirqat,Hay Al Jumiala,0777 (Hay Al Jumiala)
+2802012,1,cluster_location_id_0778,salah al-din,beygee,Awad Al Tawee complex,0778 (Awad Al Tawee complex)
+2802013,2,cluster_location_id_0779,salah al-din,al.shirqat,Baaja,0779 (Baaja)
+2802015,2,cluster_location_id_0780,salah al-din,al.shirqat,Hay Al Askari,0780 (Hay Al Askari)
+2802016,3,cluster_location_id_0781,salah al-din,al.shirqat,Hay Al Qasbah,0781 (Hay Al Qasbah)
+2802025,1,cluster_location_id_0782,salah al-din,al.shirqat,Qaryat Al Sabkha,0782 (Qaryat Al Sabkha)
+2802028,2,cluster_location_id_0783,salah al-din,al.shirqat,Tal Al Jumiala area,0783 (Tal Al Jumiala area)
+2802029,1,cluster_location_id_0784,salah al-din,al.shirqat,Tulul Baq,0784 (Tulul Baq)
+2802034,1,cluster_location_id_0785,salah al-din,al.shirqat,Hay Al-Khasim Al-Qadem village,0785 (Hay Al-Khasim Al-Qadem village)
+2802039,1,cluster_location_id_0786,salah al-din,al.shirqat,Al-Ayitha Village,0786 (Al-Ayitha Village)
+2802041,1,cluster_location_id_0787,salah al-din,al.shirqat,Hay Al-noor,0787 (Hay Al-noor)
+2802046,1,cluster_location_id_0788,salah al-din,al.shirqat,Sudayrah Tak Tak Village,0788 (Sudayrah Tak Tak Village)
+2802047,1,cluster_location_id_0789,salah al-din,al.shirqat,Sudayrah Aulya Village,0789 (Sudayrah Aulya Village)
+2802048,1,cluster_location_id_0790,salah al-din,al.shirqat,Sudayrah Westa Village,0790 (Sudayrah Westa Village)
+2802049,1,cluster_location_id_0791,salah al-din,beygee,Al-Salman village,0791 (Al-Salman village)
+2802052,1,cluster_location_id_0792,salah al-din,al.shirqat,Al-Mashhad Village,0792 (Al-Mashhad Village)
+2802068,1,cluster_location_id_0793,salah al-din,al.shirqat,Anig Al-Hawa village,0793 (Anig Al-Hawa village)
+2803001,1,cluster_location_id_0794,salah al-din,beygee,Al Mushhaq Village,0794 (Al Mushhaq Village)
+2803002,1,cluster_location_id_0795,salah al-din,samarra,Al Namel Village,0795 (Al Namel Village)
+2803006,1,cluster_location_id_0796,salah al-din,daquq,Hay Tal Al Zatar-mahalla 219,0796 (Hay Tal Al Zatar-mahalla 219)
+2803010,2,cluster_location_id_0797,salah al-din,beygee,Qaryat Al Sareen,0797 (Qaryat Al Sareen)
+2803014,1,cluster_location_id_0798,salah al-din,beygee,Hay Alasmida,0798 (Hay Alasmida)
+2803015,1,cluster_location_id_0799,salah al-din,beygee,Albu Tuama Village,0799 (Albu Tuama Village)
+2803016,1,cluster_location_id_0800,salah al-din,beygee,Al Hamra village,0800 (Al Hamra village)
+2803017,2,cluster_location_id_0801,salah al-din,beygee,Al Hejaj Village-13,0801 (Al Hejaj Village-13)
+2803018,1,cluster_location_id_0802,salah al-din,beygee,Al Mazraa Village,0802 (Al Mazraa Village)
+2803022,1,cluster_location_id_0803,salah al-din,beygee,Al-Zweeyah Village ,0803 (Al-Zweeyah Village )
+2803023,1,cluster_location_id_0804,salah al-din,beygee,Al-asry Al-Jnoby neighborhood,0804 (Al-asry Al-Jnoby neighborhood)
+2803029,1,cluster_location_id_0805,salah al-din,beygee,Hay Altameem,0805 (Hay Altameem)
+2803032,1,cluster_location_id_0806,salah al-din,beygee,Hay Alrisalah,0806 (Hay Alrisalah)
+2803037,1,cluster_location_id_0807,salah al-din,beygee,Sheik Ali village,0807 (Sheik Ali village)
+2803040,1,cluster_location_id_0808,salah al-din,beygee,Alharejiya village,0808 (Alharejiya village)
+2804001,1,cluster_location_id_0809,salah al-din,samarra,Al Hardaniyah,0809 (Al Hardaniyah)
+2804005,3,cluster_location_id_0810,salah al-din,balad,Albu Jewari,0810 (Albu Jewari)
+2804006,1,cluster_location_id_0811,salah al-din,balad,Al-Duloeyah-Hay Al Jubor,0811 (Al-Duloeyah-Hay Al Jubor)
+2804007,1,cluster_location_id_0812,salah al-din,balad,Al-Duloeyah-Hay khazraj,0812 (Al-Duloeyah-Hay khazraj)
+2804009,1,cluster_location_id_0813,salah al-din,balad,Beshakan village,0813 (Beshakan village)
+2804016,2,cluster_location_id_0814,salah al-din,balad,Al-Juboor Village,0814 (Al-Juboor Village)
+2804017,1,cluster_location_id_0815,salah al-din,balad,AL-Eshaqi center,0815 (AL-Eshaqi center)
+2804018,1,cluster_location_id_0816,salah al-din,balad,Yathrib sub distrct ,0816 (Yathrib sub distrct )
+2804021,1,cluster_location_id_0817,salah al-din,balad,Al_Farhateya village,0817 (Al_Farhateya village)
+2804022,1,cluster_location_id_0818,salah al-din,balad,Balad station,0818 (Balad station)
+2804023,1,cluster_location_id_0819,salah al-din,balad,Sinjaar,0819 (Sinjaar)
+2804026,1,cluster_location_id_0820,salah al-din,balad,Aziz Balad,0820 (Aziz Balad)
+2805001,1,cluster_location_id_0821,salah al-din,balad,14 Ramadhan,0821 (14 Ramadhan)
+2805005,1,cluster_location_id_0822,salah al-din,balad,Al Zuheari Village,0822 (Al Zuheari Village)
+2805008,1,cluster_location_id_0823,salah al-din,balad,Bezna Village,0823 (Bezna Village)
+2805010,1,cluster_location_id_0824,salah al-din,balad,Hay Al Hussien,0824 (Hay Al Hussien)
+2805016,1,cluster_location_id_0825,salah al-din,balad,Markaz Al-Dujeel-Al Shabab village,0825 (Markaz Al-Dujeel-Al Shabab village)
+2805018,1,cluster_location_id_0826,salah al-din,balad,Markaz Al-Dujeel-Hay Al Wihda Mahala 101,0826 (Markaz Al-Dujeel-Hay Al Wihda Mahala 101)
+2805019,1,cluster_location_id_0827,salah al-din,balad,Markaz Al-Dujeel-Hay Al Wihda Mahala 103,0827 (Markaz Al-Dujeel-Hay Al Wihda Mahala 103)
+2806003,1,cluster_location_id_0828,salah al-din,samarra,Al Jubairiyah Al Thalitha,0828 (Al Jubairiyah Al Thalitha)
+2806005,2,cluster_location_id_0829,salah al-din,samarra,Al Qala-Mahal 201,0829 (Al Qala-Mahal 201)
+2806006,1,cluster_location_id_0830,salah al-din,samarra,Al Sayoya-Mahala 1,0830 (Al Sayoya-Mahala 1)
+2806007,1,cluster_location_id_0831,salah al-din,samarra,Al_Jazera,0831 (Al_Jazera)
+2806008,3,cluster_location_id_0832,salah al-din,samarra,Al-Abasiya Village,0832 (Al-Abasiya Village)
+2806009,1,cluster_location_id_0833,salah al-din,samarra,Al-Efraz area,0833 (Al-Efraz area)
+2806010,3,cluster_location_id_0834,salah al-din,samarra,Al-Hewaish area,0834 (Al-Hewaish area)
+2806012,1,cluster_location_id_0835,salah al-din,samarra,Al-Shuhadaa-Mahalla 324,0835 (Al-Shuhadaa-Mahalla 324)
+2806014,1,cluster_location_id_0836,salah al-din,samarra,Hay Al Baladiya-104,0836 (Hay Al Baladiya-104)
+2806015,1,cluster_location_id_0837,salah al-din,samarra,Hay Al Dhubbat-Mahalla 334,0837 (Hay Al Dhubbat-Mahalla 334)
+2806016,1,cluster_location_id_0838,salah al-din,samarra,Hay Al Dubhat-Mahalla 336,0838 (Hay Al Dubhat-Mahalla 336)
+2806025,2,cluster_location_id_0839,salah al-din,samarra,Hay Al Zuhoor(Al qala 4)Mahala 202,0839 (Hay Al Zuhoor(Al qala 4)Mahala 202)
+2806027,1,cluster_location_id_0840,salah al-din,samarra,Hay Al-Khathraa Mahala 322,0840 (Hay Al-Khathraa Mahala 322)
+2806030,1,cluster_location_id_0841,salah al-din,samarra,Hay Salah Al-Din(Mahala 302),0841 (Hay Salah Al-Din(Mahala 302))
+2806037,1,cluster_location_id_0842,salah al-din,samarra,Al-Tresha-Albu Fahed,0842 (Al-Tresha-Albu Fahed)
+2806039,1,cluster_location_id_0843,salah al-din,samarra,Al-Tresha-Albu Shatb,0843 (Al-Tresha-Albu Shatb)
+2806048,1,cluster_location_id_0844,salah al-din,samarra,Al-Jillam area,0844 (Al-Jillam area)
+2806050,1,cluster_location_id_0845,salah al-din,samarra,Hawi Albsat,0845 (Hawi Albsat)
+2806053,1,cluster_location_id_0846,salah al-din,samarra,Mahalla Makeshfa,0846 (Mahalla Makeshfa)
+2806055,1,cluster_location_id_0847,salah al-din,al.khalis,Banat Al-hassan village,0847 (Banat Al-hassan village)
+2808001,1,cluster_location_id_0848,salah al-din,tikrit,Al Ahad Al Jadid village,0848 (Al Ahad Al Jadid village)
+2808002,2,cluster_location_id_0849,salah al-din,tikrit,Hay Al Askari,0849 (Hay Al Askari)
+2808004,1,cluster_location_id_0850,salah al-din,tikrit,Al Haweja village-AlAbady,0850 (Al Haweja village-AlAbady)
+2808007,1,cluster_location_id_0851,salah al-din,tikrit,Al Namah Al ShamaliyahVillage,0851 (Al Namah Al ShamaliyahVillage)
+2808011,1,cluster_location_id_0852,salah al-din,tikrit,Awajealah Quarter,0852 (Awajealah Quarter)
+2808016,2,cluster_location_id_0853,salah al-din,tikrit,Hay Al sinay-Al samad,0853 (Hay Al sinay-Al samad)
+2808024,1,cluster_location_id_0854,salah al-din,tikrit,Sadayrat Abo Ajeel,0854 (Sadayrat Abo Ajeel)
+2808025,2,cluster_location_id_0855,salah al-din,tikrit,Samrah Village,0855 (Samrah Village)
+2808028,2,cluster_location_id_0856,salah al-din,tikrit,Qadisya 2 500 Area,0856 (Qadisya 2 500 Area)
+2808031,1,cluster_location_id_0857,salah al-din,tikrit,Al-Mutaradah 204,0857 (Al-Mutaradah 204)
+2808037,1,cluster_location_id_0858,salah al-din,tikrit,Hay Sheshen Mahal 408,0858 (Hay Sheshen Mahal 408)
+2808047,1,cluster_location_id_0859,salah al-din,tikrit,Al Zallayah village,0859 (Al Zallayah village)
+2808058,2,cluster_location_id_0860,salah al-din,tikrit,Hay Salma Altaghlubia,0860 (Hay Salma Altaghlubia)
+2808061,2,cluster_location_id_0861,salah al-din,tikrit,Qadisya 1 Mahala 214,0861 (Qadisya 1 Mahala 214)
+2808062,1,cluster_location_id_0862,salah al-din,tikrit,Qadisya 2 Mahala 216,0862 (Qadisya 2 Mahala 216)
+2808063,1,cluster_location_id_0863,salah al-din,tikrit,Tal-Al Sibaat Village,0863 (Tal-Al Sibaat Village)
+2808069,1,cluster_location_id_0864,salah al-din,tikrit,Hay Alziraa,0864 (Hay Alziraa)
+2808071,1,cluster_location_id_0865,salah al-din,tikrit,Hay Alqalaa,0865 (Hay Alqalaa)
+2808072,1,cluster_location_id_0866,salah al-din,tikrit,Hay Alkahrbaa,0866 (Hay Alkahrbaa)
+2808073,1,cluster_location_id_0867,salah al-din,tikrit,Hay Alfirdous,0867 (Hay Alfirdous)
+2808074,1,cluster_location_id_0868,salah al-din,tikrit,Hay Al-Tajneed,0868 (Hay Al-Tajneed)
+2808076,1,cluster_location_id_0869,salah al-din,tikrit,Hay Al-Wihda,0869 (Hay Al-Wihda)
+2808077,1,cluster_location_id_0870,salah al-din,beygee,Al-Muskarat,0870 (Al-Muskarat)
+2808080,1,cluster_location_id_0871,salah al-din,tikrit,Mahalla Al Aed,0871 (Mahalla Al Aed)
+2808081,2,cluster_location_id_0872,salah al-din,tikrit,Hay Al Dhubbat,0872 (Hay Al Dhubbat)
+2808084,1,cluster_location_id_0873,salah al-din,tikrit,Al Auja village ,0873 (Al Auja village )
+2808085,2,cluster_location_id_0874,salah al-din,tikrit,Al-Dibsa Village,0874 (Al-Dibsa Village)
+2808089,2,cluster_location_id_0875,salah al-din,tikrit,Al-Qadisya Complex,0875 (Al-Qadisya Complex)
+2809001,1,cluster_location_id_0876,salah al-din,tooz.khurmato,Hay Al Sideeq Mahalla 105,0876 (Hay Al Sideeq Mahalla 105)
+2809004,1,cluster_location_id_0877,salah al-din,tooz.khurmato,Hay Garmian,0877 (Hay Garmian)
+2809005,3,cluster_location_id_0878,salah al-din,tooz.khurmato,Hay Komari-120,0878 (Hay Komari-120)
+2809007,3,cluster_location_id_0879,salah al-din,tooz.khurmato,Hay Rizgari-114,0879 (Hay Rizgari-114)
+2809008,1,cluster_location_id_0880,salah al-din,daquq,Hay Shoraw-1,0880 (Hay Shoraw-1)
+2809010,2,cluster_location_id_0881,salah al-din,tooz.khurmato,Markaz Tooz-Hay Al Askari,0881 (Markaz Tooz-Hay Al Askari)
+2809012,1,cluster_location_id_0882,salah al-din,tooz.khurmato,Markaz Tooz-Hay Al Taiyar 122,0882 (Markaz Tooz-Hay Al Taiyar 122)
+2809015,2,cluster_location_id_0883,salah al-din,tooz.khurmato,Markaz Tooz-Hay Brayati,0883 (Markaz Tooz-Hay Brayati)
+2809018,1,cluster_location_id_0884,salah al-din,tooz.khurmato,Sankur,0884 (Sankur)
+2809021,1,cluster_location_id_0885,salah al-din,tooz.khurmato,Tooz-Hay Al Teen,0885 (Tooz-Hay Al Teen)
+2809022,2,cluster_location_id_0886,salah al-din,tooz.khurmato,Unformal Shelter,0886 (Unformal Shelter)
+2809023,1,cluster_location_id_0887,salah al-din,tooz.khurmato,Brawchili village,0887 (Brawchili village)
+2809025,1,cluster_location_id_0888,salah al-din,tooz.khurmato,Hay Al-Askary,0888 (Hay Al-Askary)
+2809027,1,cluster_location_id_0889,salah al-din,tooz.khurmato,Hay Al-Nasr,0889 (Hay Al-Nasr)
+2809051,1,cluster_location_id_0890,salah al-din,chamchamal,Milnaser Village,0890 (Milnaser Village)
+2809058,1,cluster_location_id_0891,salah al-din,tooz.khurmato,Sulayman Beg sub district center,0891 (Sulayman Beg sub district center)
+2809059,1,cluster_location_id_0892,salah al-din,tooz.khurmato,Al-Salam Village,0892 (Al-Salam Village)
+2903005,1,cluster_location_id_0893,wassit,al.suwaira,Hay Al-Jihad,0893 (Hay Al-Jihad)
+2903009,1,cluster_location_id_0894,wassit,al.suwaira,Hay Al-askary,0894 (Hay Al-askary)
+2903014,1,cluster_location_id_0895,wassit,al.suwaira,Hay Al-Furat,0895 (Hay Al-Furat)
+2903022,1,cluster_location_id_0896,wassit,al.suwaira,Hay Al-Jameya,0896 (Hay Al-Jameya)
+2904011,1,cluster_location_id_0897,wassit,al.suwaira,Al-Azezia 150 area,0897 (Al-Azezia 150 area)
+2904014,1,cluster_location_id_0898,wassit,al.suwaira,Al-Dawar Al-Sharqi,0898 (Al-Dawar Al-Sharqi)
+2904021,1,cluster_location_id_0899,wassit,al.suwaira,Al-Khamas 3,0899 (Al-Khamas 3)
+2904035,1,cluster_location_id_0900,wassit,al.suwaira,Al-Tanmeya,0900 (Al-Tanmeya)
+2904044,1,cluster_location_id_0901,wassit,al.suwaira,Al Shabab 1,0901 (Al Shabab 1)
+2904046,1,cluster_location_id_0902,wassit,al.suwaira,Hay Al-Askari 3,0902 (Hay Al-Askari 3)
+2904059,1,cluster_location_id_0903,wassit,al.suwaira,Taj al-dien,0903 (Taj al-dien)
+2904060,1,cluster_location_id_0904,wassit,al.suwaira,Taj al-dien center 1,0904 (Taj al-dien center 1)
+2906001,1,cluster_location_id_0905,wassit,al.kut,Al Batar village,0905 (Al Batar village)
+2906004,1,cluster_location_id_0906,wassit,al.kut,Al Hasan Al Askari,0906 (Al Hasan Al Askari)
+2906023,2,cluster_location_id_0907,wassit,al.kut,Hay Al-Hawaraa 3,0907 (Hay Al-Hawaraa 3)
+2906025,1,cluster_location_id_0908,wassit,al.kut,Al-Jihad Al-Zahraa,0908 (Al-Jihad Al-Zahraa)
+2906031,1,cluster_location_id_0909,wassit,al.kut,Al-Sebtain W Al-Maamel,0909 (Al-Sebtain W Al-Maamel)
+2906041,1,cluster_location_id_0910,wassit,al.kut,Damook Al-Dhbat,0910 (Damook Al-Dhbat)
+2906051,2,cluster_location_id_0911,wassit,al.kut,Al-Jihad-Al Thaqalain,0911 (Al-Jihad-Al Thaqalain)
+2906052,1,cluster_location_id_0912,wassit,al.kut,Hay Al Wehda,0912 (Hay Al Wehda)
+2906055,1,cluster_location_id_0913,wassit,al.kut,Hay Al-Hakeem,0913 (Hay Al-Hakeem)
+2906056,1,cluster_location_id_0914,wassit,al.kut,Hay Al-Karar,0914 (Hay Al-Karar)
+2906058,1,cluster_location_id_0915,wassit,al.kut,Hay Al-Shuhadaa,0915 (Hay Al-Shuhadaa)
+2906059,1,cluster_location_id_0916,wassit,al.kut,Hay al-zahraa,0916 (Hay al-zahraa)
+2906064,1,cluster_location_id_0917,wassit,al.kut,Sewada Said Shati,0917 (Sewada Said Shati)
+2906069,1,cluster_location_id_0918,wassit,al.kut,Um Hulail Village,0918 (Um Hulail Village)
+2906071,1,cluster_location_id_0919,wassit,al.kut,Al-Umarat-Al-Mutamaizeen,0919 (Al-Umarat-Al-Mutamaizeen)
+2906072,1,cluster_location_id_0920,wassit,al.kut,Al Hakeem Al-Ula,0920 (Al Hakeem Al-Ula)
+2906073,1,cluster_location_id_0921,wassit,al.kut,Al Hakeem Al-Thania,0921 (Al Hakeem Al-Thania)
+3105013,1,cluster_location_id_0922,basrah,al.basrah,Al Ashar Center,0922 (Al Ashar Center)
+3105025,1,cluster_location_id_0923,basrah,al.basrah,Al Jumhuriya,0923 (Al Jumhuriya)
+3105026,1,cluster_location_id_0924,basrah,al.basrah,Al Kaim 1,0924 (Al Kaim 1)
+3105030,2,cluster_location_id_0925,basrah,al.basrah,AL Mowafaqiah,0925 (AL Mowafaqiah)
+3105044,1,cluster_location_id_0926,basrah,al.basrah,Al-Baker & Al-Ahrar,0926 (Al-Baker & Al-Ahrar)
+3105047,1,cluster_location_id_0927,basrah,al.basrah,Al-hakemia,0927 (Al-hakemia)
+3105049,1,cluster_location_id_0928,basrah,al.basrah,Al-Jnaina,0928 (Al-Jnaina)
+3105068,1,cluster_location_id_0929,basrah,al.basrah,Braiha,0929 (Braiha)
+3105069,1,cluster_location_id_0930,basrah,al.basrah,Casino Lebnan,0930 (Casino Lebnan)
+3105094,2,cluster_location_id_0931,basrah,al.basrah,Hay Al Risalah,0931 (Hay Al Risalah)
+3105100,1,cluster_location_id_0932,basrah,al.basrah,Hay Al-Husain 3,0932 (Hay Al-Husain 3)
+3105112,2,cluster_location_id_0933,basrah,al.basrah,Manawi pasha,0933 (Manawi pasha)
+3105123,1,cluster_location_id_0934,basrah,al.basrah,Al Khaleej1,0934 (Al Khaleej1)
+3205002,2,cluster_location_id_0935,missan,al.kahla,Al Hay Al JameI,0935 (Al Hay Al JameI)
+3205006,1,cluster_location_id_0936,missan,al.kahla,Al Salam,0936 (Al Salam)
+3205019,1,cluster_location_id_0937,missan,al.kahla,Hay Al Karar,0937 (Hay Al Karar)
+3205026,1,cluster_location_id_0938,missan,al.kahla,Hay Al Rasool,0938 (Hay Al Rasool)
+3205031,1,cluster_location_id_0939,missan,al.kahla,Hay Al-Ameer,0939 (Hay Al-Ameer)
+3206007,1,cluster_location_id_0940,missan,al.kahla,Hay Al-Ameer,0940 (Hay Al-Ameer)
+3402016,1,cluster_location_id_0941,najaf,al.kufa,Albu Hadary,0941 (Albu Hadary)
+3402019,1,cluster_location_id_0942,najaf,al.kufa,Alwat Al Fahal,0942 (Alwat Al Fahal)
+3402035,1,cluster_location_id_0943,najaf,al.kufa,Maytham Al Tamar,0943 (Maytham Al Tamar)
+3402041,1,cluster_location_id_0944,najaf,al.kufa,Al Kreishat Al Shimaliya,0944 (Al Kreishat Al Shimaliya)
+3403003,1,cluster_location_id_0945,najaf,al.najaf,Al bory,0945 (Al bory)
+3403012,1,cluster_location_id_0946,najaf,al.najaf,AL JEDAIDA,0946 (AL JEDAIDA)
+3403032,1,cluster_location_id_0947,najaf,al.najaf,Aljadidah alulah,0947 (Aljadidah alulah)
+3403035,1,cluster_location_id_0948,najaf,al.kufa,AL-RADHAWIYA,0948 (AL-RADHAWIYA)
+3403039,1,cluster_location_id_0949,najaf,al.najaf,Hay Al Ameer,0949 (Hay Al Ameer)
+3403049,1,cluster_location_id_0950,najaf,al.najaf,Al-Shaheed Al-Sadar 1,0950 (Al-Shaheed Al-Sadar 1)
+3403055,1,cluster_location_id_0951,najaf,al.najaf,Hay Al zahraa-Al Haidariyah,0951 (Hay Al zahraa-Al Haidariyah)
+3403075,1,cluster_location_id_0952,najaf,al.najaf,Shawafi Village,0952 (Shawafi Village)
+3403079,1,cluster_location_id_0953,najaf,al.najaf,Mafraq Al-Kefal,0953 (Mafraq Al-Kefal)
+3403080,2,cluster_location_id_0954,najaf,al.najaf,Al-Mazarea AL-Westa,0954 (Al-Mazarea AL-Westa)
+3403081,2,cluster_location_id_0955,najaf,al.najaf,Al-Qasim,0955 (Al-Qasim)
+3403082,1,cluster_location_id_0956,najaf,al.najaf,Markaz Alhaidariya,0956 (Markaz Alhaidariya)
+3403084,2,cluster_location_id_0957,najaf,al.najaf,Mazara Al-Hawli,0957 (Mazara Al-Hawli)
+3403085,2,cluster_location_id_0958,najaf,al.najaf,Fadak Village,0958 (Fadak Village)
+3403086,2,cluster_location_id_0959,najaf,al.kufa,Al-Mazara 2,0959 (Al-Mazara 2)
+3403088,2,cluster_location_id_0960,najaf,al.najaf,Al-Shaheed Al-Sadar-Shareet,0960 (Al-Shaheed Al-Sadar-Shareet)
+3403089,1,cluster_location_id_0961,najaf,al.najaf,Al-Ghadeer Village complex,0961 (Al-Ghadeer Village complex)
+3504014,1,cluster_location_id_0962,thi-qar,al.nasiriya,Al Sharqiya,0962 (Al Sharqiya)
+3504021,1,cluster_location_id_0963,thi-qar,al.nasiriya,Al-Salhiya,0963 (Al-Salhiya)
+3504024,1,cluster_location_id_0964,thi-qar,al.nasiriya,Al-zielat,0964 (Al-zielat)
+3504025,1,cluster_location_id_0965,thi-qar,al.nasiriya,Aredo,0965 (Aredo)
+3504028,1,cluster_location_id_0966,thi-qar,al.nasiriya,Hay Al Ameer,0966 (Hay Al Ameer)
+3504029,1,cluster_location_id_0967,thi-qar,al.nasiriya,Hay Al Fidaa,0967 (Hay Al Fidaa)
+3504031,1,cluster_location_id_0968,thi-qar,al.nasiriya,Hay Al Mualimeen,0968 (Hay Al Mualimeen)
+3504033,1,cluster_location_id_0969,thi-qar,al.nasiriya,Hay Al Tadhihiya,0969 (Hay Al Tadhihiya)
+3504041,1,cluster_location_id_0970,thi-qar,al.nasiriya,Nassriya-Hey 400,0970 (Nassriya-Hey 400)
+3504042,1,cluster_location_id_0971,thi-qar,al.nasiriya,Sadir City,0971 (Sadir City)
+3504051,1,cluster_location_id_0972,thi-qar,al.nasiriya,Um Al Dood,0972 (Um Al Dood)
+3504054,1,cluster_location_id_0973,thi-qar,al.nasiriya,Hay AL-Mansouria,0973 (Hay AL-Mansouria)
+3603003,1,cluster_location_id_0974,qadissiya,al.diwaniya,Al Mojamaa Al Sakani,0974 (Al Mojamaa Al Sakani)
+3603004,1,cluster_location_id_0975,qadissiya,al.diwaniya,Hay Al Ghadir,0975 (Hay Al Ghadir)
+3603008,1,cluster_location_id_0976,qadissiya,al.diwaniya,Al himran village,0976 (Al himran village)
+3603009,1,cluster_location_id_0977,qadissiya,al.diwaniya,Um tibashi village,0977 (Um tibashi village)
+3603010,2,cluster_location_id_0978,qadissiya,al.diwaniya,Albo Hasan village,0978 (Albo Hasan village)
+3603011,1,cluster_location_id_0979,qadissiya,al.diwaniya,Hay Al Wihda 2,0979 (Hay Al Wihda 2)
+3603017,1,cluster_location_id_0980,qadissiya,al.diwaniya,Albu Khnefis village,0980 (Albu Khnefis village)
+3603025,1,cluster_location_id_0981,qadissiya,al.diwaniya,Al-Jazaair 2,0981 (Al-Jazaair 2)
+3603033,2,cluster_location_id_0982,qadissiya,al.diwaniya,Al-Jabaar village,0982 (Al-Jabaar village)
+3603034,1,cluster_location_id_0983,qadissiya,al.diwaniya,Hay Al-Hussain,0983 (Hay Al-Hussain)
+3603047,1,cluster_location_id_0984,qadissiya,al.diwaniya,Hay Al Furat-1,0984 (Hay Al Furat-1)
+3603057,1,cluster_location_id_0985,qadissiya,al.diwaniya,Hay Al Shomos,0985 (Hay Al Shomos)
+3603059,1,cluster_location_id_0986,qadissiya,al.diwaniya,Hay Al Waely,0986 (Hay Al Waely)
+3603063,1,cluster_location_id_0987,qadissiya,al.diwaniya,Hay Al-Amin 1,0987 (Hay Al-Amin 1)
+3603064,2,cluster_location_id_0988,qadissiya,al.diwaniya,Hay Al-Amin 2,0988 (Hay Al-Amin 2)
+3603073,2,cluster_location_id_0989,qadissiya,al.diwaniya,Hay Al-Hadarah,0989 (Hay Al-Hadarah)
+3603081,1,cluster_location_id_0990,qadissiya,al.diwaniya,Hay Ramadan,0990 (Hay Ramadan)
+3603087,1,cluster_location_id_0991,qadissiya,al.diwaniya,Hay Al-Sadir 4,0991 (Hay Al-Sadir 4)
+3603088,1,cluster_location_id_0992,qadissiya,al.diwaniya,Salman Hlis Village,0992 (Salman Hlis Village)
