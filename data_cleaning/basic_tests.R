@@ -80,14 +80,6 @@ summary <- summarize.result(result)
 summary
 round(summary / nrow(data_new) * 100)
 
-#tank capacity
-uuid <- data$X_uuid[which(data$tank_capacity == 999)]
-log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "c",  
-                                    question.name="tank_capacity", 
-                                    issue="999 is do not know value and is recoded to NA",
-                                    new.value = NA,
-                                    dir = dir)
-
 #summary.of.partner(data, loop_without_error, "mcna01")
 uuid <- result$uuid[which(!result$loop_is_family_size)]
 log <- log.cleaning.change.extended(data_new, partners, psu, uuid, action = "f",  
@@ -238,7 +230,7 @@ for (i in 1:length(entries)){
   log$question.name[entries[i]] <- "birth_cert_missing_amount_a1"
   log$action[entries[i]] <- "change"
   log$old.value[entries[i]] <- 0
-  log$new.value[entries[i]] <- 999
+  log$new.value[entries[i]] <- NA
 }
 entries <- which(log$issue == "Children missing id card reported but the amount of children missing it is 0.")
 for (i in 1:length(entries)){
@@ -483,3 +475,13 @@ for (i in i:length(govs)){
                                       dir = dir)
 }
 
+# Missing documents being negative
+which(data$birth_cert_missing_amount_a1 < 0)
+which(data$birth_cert_missing_amount_u1 < 0)
+data[which(data$id_card_missing_amount < 0),c("id_card_missing_amount","num_hh_member", "num_family_member")]
+uuid <- data$X_uuid[which(data$id_card_missing_amount < 0)]
+log <- log.cleaning.change.extended(data, partners, psu, uuid, action = "c",  
+                                    question.name="id_card_missing_amount", 
+                                    issue="Negative amount of ID cards missing. Has to do with a very low number of hh_members which is in the constraint. Number will be set to NA.",
+                                    new.value = NA,
+                                    dir = dir)

@@ -1,0 +1,66 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Minimal (1),district,population_group,categorical,s1_1,numerical,direct_reporting
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Stress (2),district,population_group,categorical,s1_2,numerical,direct_reporting
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Severe (3),district,population_group,categorical,s1_3,numerical,direct_reporting
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Extreme (4),district,population_group,categorical,s1_4,numerical,direct_reporting
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Catastrophic (5),district,population_group,categorical,s1_5,numerical,direct_reporting
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Minimal (1),district,population_group,categorical,s2_1,numerical,direct_reporting
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Stress (2),district,population_group,categorical,s2_2,numerical,direct_reporting
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Severe (3),district,population_group,categorical,s2_3,numerical,direct_reporting
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Extreme (4),district,population_group,categorical,s2_4,numerical,direct_reporting
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Catastrophic (5),district,population_group,categorical,s2_5,numerical,direct_reporting
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Minimal (1),district,population_group,categorical,s3_1,numerical,direct_reporting
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Stress (2),district,population_group,categorical,s3_2,numerical,direct_reporting
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Severe (3),district,population_group,categorical,s3_3,numerical,direct_reporting
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Extreme (4),district,population_group,categorical,s3_4,numerical,direct_reporting
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Catastrophic (5),district,population_group,categorical,s3_5,numerical,direct_reporting
+Cross-Cutting (General + GBV),% of female headed HHs,Minimal (1),district,population_group,categorical,s6_1,numerical,direct_reporting
+Cross-Cutting (General + GBV),% of female headed HHs,Stress (2),district,population_group,categorical,s6_2,numerical,direct_reporting
+Cross-Cutting (General + GBV),% of female headed HHs,Severe (3),district,population_group,categorical,s6_3,numerical,direct_reporting
+Cross-Cutting (General + GBV),% of female headed HHs,Extreme (4),district,population_group,categorical,s6_4,numerical,direct_reporting
+Cross-Cutting (General + GBV),% of female headed HHs,Catastrophic (5),district,population_group,categorical,s6_5,numerical,direct_reporting
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Minimal (1),district,population_group,categorical,s7_1,numerical,direct_reporting
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Stress (2),district,population_group,categorical,s7_2,numerical,direct_reporting
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Severe (3),district,population_group,categorical,s7_3,numerical,direct_reporting
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Extreme (4),district,population_group,categorical,s7_4,numerical,direct_reporting
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Catastrophic (5),district,population_group,categorical,s7_5,numerical,direct_reporting
+"Cross-Cutting 
+(AAP)",% of HHs unable to access aid information because of critical vulnerability,Minimal (1),district,population_group,categorical,s8_1,numerical,direct_reporting
+"Cross-Cutting 
+(AAP)",% of HHs unable to access aid information because of critical vulnerability,Stress (2),district,population_group,categorical,s8_2,numerical,direct_reporting
+"Cross-Cutting 
+(AAP)",% of HHs unable to access aid information because of critical vulnerability,Severe (3),district,population_group,categorical,s8_3,numerical,direct_reporting
+"Cross-Cutting 
+(AAP)",% of HHs unable to access aid information because of critical vulnerability,Extreme (4),district,population_group,categorical,s8_4,numerical,direct_reporting
+"Cross-Cutting 
+(AAP)",% of HHs unable to access aid information because of critical vulnerability,Catastrophic (5),district,population_group,categorical,s8_5,numerical,direct_reporting
+EL,% HH with at least one adult (18+) unemployed and seeking work,Minimal (1),district,population_group,categorical,s12_1,numerical,direct_reporting
+EL,% HH with at least one adult (18+) unemployed and seeking work,Stress (2),district,population_group,categorical,s12_2,numerical,direct_reporting
+EL,% HH with at least one adult (18+) unemployed and seeking work,Severe (3),district,population_group,categorical,s12_3,numerical,direct_reporting
+EL,% HH with at least one adult (18+) unemployed and seeking work,Extreme (4),district,population_group,categorical,s12_4,numerical,direct_reporting
+EL,% HH with at least one adult (18+) unemployed and seeking work,Catastrophic (5),district,population_group,categorical,s12_5,numerical,direct_reporting
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Minimal (1),district,population_group,categorical,s13_1,numerical,direct_reporting
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Stress (2),district,population_group,categorical,s13_2,numerical,direct_reporting
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Severe (3),district,population_group,categorical,s13_3,numerical,direct_reporting
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Extreme (4),district,population_group,categorical,s13_4,numerical,direct_reporting
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Catastrophic (5),district,population_group,categorical,s13_5,numerical,direct_reporting
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Minimal (1),district,population_group,categorical,s15_1,numerical,direct_reporting
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Stress (2),district,population_group,categorical,s15_2,numerical,direct_reporting
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Severe (3),district,population_group,categorical,s15_3,numerical,direct_reporting
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Extreme (4),district,population_group,categorical,s15_4,numerical,direct_reporting
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Catastrophic (5),district,population_group,categorical,s15_5,numerical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,Minimal (1),district,population_group,categorical,s17_1,numerical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,Stress (2),district,population_group,categorical,s17_2,numerical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,Severe (3),district,population_group,categorical,s17_3,numerical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,Extreme (4),district,population_group,categorical,s17_4,numerical,direct_reporting
+Protection - HLP,% HHs reporting fearing eviction,Catastrophic (5),district,population_group,categorical,s17_5,numerical,direct_reporting

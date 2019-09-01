@@ -43,7 +43,7 @@ data %>% filter(ref_docs == "yes") %>% dplyr::select(X_uuid, date_assessment, re
 ## start geo cleaning
 # filter on date
 check <- read.csv(sprintf("%s/cleaning_logbook.csv", dir), stringsAsFactors = F)
-submission_date_to_check <- c("2019-08-20")
+submission_date_to_check <- c("2019-07-27")
 filtered_data <- data %>% filter(date_assessment == submission_date_to_check) 
 sprintf("fraction of data after date %s: %f%%", submission_date_to_check, nrow(filtered_data) / nrow(data) * 100)
 
@@ -53,7 +53,7 @@ print(result[,-ncol(result)])
 
 check_if_cleaned(result, check, psu, partners)
 which(result$inside_alternative_cluster)
-row <- 2
+row <- 11
 uuid <- filtered_data %>% filter(cluster_location_id == result[row,1] & population_group == result[row,3]) %>% 
   dplyr::select(X_uuid)
 uuid$X_uuid %in% check$uuid
@@ -87,7 +87,7 @@ print(result_separate)
 which(!result_separate$inside_buffer) %in% which(uuid$X_uuid %in% check$uuid)
 
 row <- 1
-row <- c(25:26)
+row <- c(5:10)
 row <- which(!result_separate$inside_buffer)
 filtered_data %>% filter(X_uuid == result_separate[row,1]) %>% dplyr::select(ngo,enumerator_num)
 filtered_data %>% filter(X_uuid == result_separate[row,1]) %>% dplyr::select(X_gpslocation_latitude, X_gpslocation_longitude)
