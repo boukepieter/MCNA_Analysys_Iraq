@@ -44,6 +44,21 @@ Cross-Cutting (Disability + MA),% HH with individuals whose disability is relate
 (AAP)",% of HHs unable to access aid information because of critical vulnerability,Extreme (4),district,population_group,categorical,s8_4,numerical,direct_reporting
 "Cross-Cutting 
 (AAP)",% of HHs unable to access aid information because of critical vulnerability,Catastrophic (5),district,population_group,categorical,s8_5,numerical,direct_reporting
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Minimal (1),district,population_group,categorical,s9_1,numerical,direct_reporting
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Stress (2),district,population_group,categorical,s9_2,numerical,direct_reporting
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Severe (3),district,population_group,categorical,s9_3,numerical,direct_reporting
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Extreme (4),district,population_group,categorical,s9_4,numerical,direct_reporting
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Catastrophic (5),district,population_group,categorical,s9_5,numerical,direct_reporting
+Health,% HH with access to a functional PHCC within 5km ,Minimal (1),district,population_group,categorical,s11a_1,numerical,direct_reporting
+Health,% HH with access to a functional PHCC within 5km ,Stress (2),district,population_group,categorical,s11a_2,numerical,direct_reporting
+Health,% HH with access to a functional PHCC within 5km ,Severe (3),district,population_group,categorical,s11a_3,numerical,direct_reporting
+Health,% HH with access to a functional PHCC within 5km ,Extreme (4),district,population_group,categorical,s11a_4,numerical,direct_reporting
+Health,% HH with access to a functional PHCC within 5km ,Catastrophic (5),district,population_group,categorical,s11a_5,numerical,direct_reporting
+Health,% HH with access to a functional hospital within 5km ,Minimal (1),district,population_group,categorical,s11b_1,numerical,direct_reporting
+Health,% HH with access to a functional hospital within 5km ,Stress (2),district,population_group,categorical,s11b_2,numerical,direct_reporting
+Health,% HH with access to a functional hospital within 5km ,Severe (3),district,population_group,categorical,s11b_3,numerical,direct_reporting
+Health,% HH with access to a functional hospital within 5km ,Extreme (4),district,population_group,categorical,s11b_4,numerical,direct_reporting
+Health,% HH with access to a functional hospital within 5km ,Catastrophic (5),district,population_group,categorical,s11b_5,numerical,direct_reporting
 EL,% HH with at least one adult (18+) unemployed and seeking work,Minimal (1),district,population_group,categorical,s12_1,numerical,direct_reporting
 EL,% HH with at least one adult (18+) unemployed and seeking work,Stress (2),district,population_group,categorical,s12_2,numerical,direct_reporting
 EL,% HH with at least one adult (18+) unemployed and seeking work,Severe (3),district,population_group,categorical,s12_3,numerical,direct_reporting
@@ -59,8 +74,23 @@ Protection - GBV,% women and girls who avoid areas because they feel unsafe ther
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Severe (3),district,population_group,categorical,s15_3,numerical,direct_reporting
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Extreme (4),district,population_group,categorical,s15_4,numerical,direct_reporting
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Catastrophic (5),district,population_group,categorical,s15_5,numerical,direct_reporting
+Protection - GP,% HH missing at least one key household or individual document ,Minimal (1),district,population_group,categorical,s16_1,numerical,direct_reporting
+Protection - GP,% HH missing at least one key household or individual document ,Stress (2),district,population_group,categorical,s16_2,numerical,direct_reporting
+Protection - GP,% HH missing at least one key household or individual document ,Severe (3),district,population_group,categorical,s16_3,numerical,direct_reporting
+Protection - GP,% HH missing at least one key household or individual document ,Extreme (4),district,population_group,categorical,s16_4,numerical,direct_reporting
+Protection - GP,% HH missing at least one key household or individual document ,Catastrophic (5),district,population_group,categorical,s16_5,numerical,direct_reporting
 Protection - HLP,% HHs reporting fearing eviction,Minimal (1),district,population_group,categorical,s17_1,numerical,direct_reporting
 Protection - HLP,% HHs reporting fearing eviction,Stress (2),district,population_group,categorical,s17_2,numerical,direct_reporting
 Protection - HLP,% HHs reporting fearing eviction,Severe (3),district,population_group,categorical,s17_3,numerical,direct_reporting
 Protection - HLP,% HHs reporting fearing eviction,Extreme (4),district,population_group,categorical,s17_4,numerical,direct_reporting
 Protection - HLP,% HHs reporting fearing eviction,Catastrophic (5),district,population_group,categorical,s17_5,numerical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Minimal (1),district,population_group,categorical,s18_1,numerical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Stress (2),district,population_group,categorical,s18_2,numerical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Severe (3),district,population_group,categorical,s18_3,numerical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Extreme (4),district,population_group,categorical,s18_4,numerical,direct_reporting
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Catastrophic (5),district,population_group,categorical,s18_5,numerical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,Minimal (1),district,population_group,categorical,s19_1,numerical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,Stress (2),district,population_group,categorical,s19_2,numerical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,Severe (3),district,population_group,categorical,s19_3,numerical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,Extreme (4),district,population_group,categorical,s19_4,numerical,direct_reporting
+WASH,% HH who require water treatment prior to drinking,Catastrophic (5),district,population_group,categorical,s19_5,numerical,direct_reporting

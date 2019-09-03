@@ -1,10 +1,14 @@
 pretty.output <- function(summary, independent.var.value, analysisplan, cluster_lookup_table, lookup_table) {
   subset <- summary[which(summary$independent.var.value == independent.var.value),]
   independent.var <- subset$independent.var[1]
-  analplan_subset <- analysisplan[which(analysisplan$independent.variable == independent.var),]
+  if(is.na(independent.var)) {
+    analplan_subset <- analysisplan
+  } else {
+    analplan_subset <- analysisplan[which(analysisplan$independent.variable == independent.var),]
+  }
   vars <- unique(subset$dependent.var)
   districts <- unique(subset$repeat.var.value)
-  df <- data.frame(governorate = cluster_lookup_table$governorate[match(districts, cluster_lookup_table$district)],  
+  df <- data.frame(governorate = lookup_table$filter[19:nrow(lookup_table)][match(districts, lookup_table$name[19:nrow(lookup_table)])],  
                    district = districts, stringsAsFactors = F)
   df <- df[with(df, order(governorate, district)),]
   for(i in 1:length(vars)){

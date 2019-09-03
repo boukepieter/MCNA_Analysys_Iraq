@@ -1,4 +1,4 @@
-recoding_mcna <- function(r, loop) {
+recoding_preliminary <- function(r, loop) {
   loop_hoh <- loop[which(loop$relationship == "head"),]
   loop_children <- loop[which(loop$age < 18),]
   loop_females <- loop[which(loop$sex == "female"),]
@@ -545,13 +545,14 @@ recoding_severity <- function(r, loop){
                               "nfi_priority_needs.fuel_storage", "nfi_priority_needs.cool_box",
                               "nfi_priority_needs.water_storage", "nfi_priority_needs.fan",
                               "nfi_priority_needs.winter_heaters", "nfi_priority_needs.clothing",
-                              "nfi_priority_needs.awc", "nfi_priority_needs.cooking_fuel",
+                              "nfi_priority_needs.awc", 
+                              "nfi_priority_needs.cooking_fuel",
                               "nfi_priority_needs.heating_fuel")])
   r$s3_1 <- ifelse(r$basic_nfi == 0, 1, 0)
-  r$s3_2 <- ifelse(r$basic_nfi %in% c(1,2) & r$basic_basic_nfi == 0, 1, 0)
-  r$s3_3 <- ifelse((r$basic_nfi > 2 | r$basic_basic_nfi > 0) & r$basic_basic_nfi <= 2, 1, 0)
-  r$s3_4 <- ifelse(r$basic_basic_nfi == 3, 1, 0)
-  r$s3_5 <- ifelse(r$basic_basic_nfi == 4, 1, 0)
+  r$s3_2 <- ifelse(r$basic_nfi == 1, 1, 0)
+  r$s3_3 <- ifelse(r$basic_nfi == 2, 1, 0)
+  r$s3_4 <- ifelse(r$basic_nfi == 3, 1, 0)
+  r$s3_5 <- ifelse(r$basic_nfi == 4, 1, 0)
   
   
   loop_hoh <- loop[which(loop$relationship == "head"),]
@@ -604,6 +605,32 @@ recoding_severity <- function(r, loop){
   r$s8_4 <- ifelse(r$info_specific_needs_who_sum %in% c(4,5), 1, 0)
   r$s8_5 <- ifelse(r$info_specific_needs_who_sum >= 6, 1, 0)
   
+  r$perc_edu <- apply(r, 1, FUN=function(x){
+    (loop %>% filter(X_submission__uuid == x["X_uuid"] & (attend_formal_ed == "yes" | attend_informal_ed == "yes")) %>% nrow) / 
+      (loop %>% filter(X_submission__uuid == x["X_uuid"] & attend_formal_ed != "") %>% nrow)
+  })
+  r$s9_1 <- ifelse(r$perc_edu == 0, 1, 0)
+  r$s9_2 <- ifelse(r$perc_edu > 0 & r$perc_edu <= 0.25, 1, 0)
+  r$s9_3 <- ifelse(r$perc_edu > 0.25 & r$perc_edu <= 0.5, 1, 0)
+  r$s9_4 <- ifelse(r$perc_edu > 0.5 & r$perc_edu <= 0.75, 1, 0)
+  r$s9_5 <- ifelse(r$perc_edu > 0.75, 1, 0)
+  
+  r$s11a_1 <- ifelse(r$distance_health_service == "within_2km", 1, 0)
+  r$s11a_2 <- ifelse(r$distance_health_service == "between_2km_5km", 1, 0)
+  r$s11a_3 <- ifelse(r$distance_health_service == "more_than5kmaway", 1, 0)
+  r$s11a_4 <- ifelse(r$distance_health_service == "none", 1, 0)
+  r$s11a_5 <- NA
+  r[which(r$distance_health_service == "do_not_know"), 
+    which(startsWith(names(r), "s11a"))] <- NA
+  
+  r$s11b_1 <- ifelse(r$distance_hospital == "within_2km", 1, 0)
+  r$s11b_2 <- ifelse(r$distance_hospital == "between_2km_5km", 1, 0)
+  r$s11b_3 <- ifelse(r$distance_hospital == "between_6km_10km", 1, 0)
+  r$s11b_4 <- ifelse(r$distance_hospital == "more_10km", 1, 0)
+  r$s11b_5 <- ifelse(r$distance_hospital == "none", 1, 0)
+  r[which(r$distance_hospital == "do_not_know"), 
+    which(startsWith(names(r), "s11b"))] <- NA
+  
   r$perc_work <- apply(r, 1, FUN=function(x){
     (loop %>% filter(X_submission__uuid == x["X_uuid"] & age > 17 & work == "no" & actively_seek_work == "yes") %>% nrow) / 
       (loop %>% filter(X_submission__uuid == x["X_uuid"]) %>% nrow)
@@ -630,6 +657,22 @@ recoding_severity <- function(r, loop){
   r$s15_4 <- ifelse(r$unsafe_areas_sum == 3, 1, 0)
   r$s15_5 <- ifelse(r$unsafe_areas_sum >= 4, 1, 0)
   
+  r$sum_documents <- apply(r, 1, FUN=function(x){ 
+    sum(x[c("pds","info_card","death_certificate", "guardianship", "inheritance",
+            "trusteeship", "passport_a18", "id_card_a18", "citizenship_a18", "birth_cert_a18",
+            "school_cert_a18", "marriage_cert_a18", "divorce_cert_a18",
+            "passport_u18", "id_card_u18", "citizenship_u18", "birth_cert_u18",
+            "marriage_cert_u18", "divorce_cert_u18")] %in% c("no", "non_valid"))})
+  r$sum_specific_documents <- apply(r, 1, FUN=function(x){ 
+    sum(x[c("pds","info_card","id_card_a18", "birth_cert_a18", "id_card_u18", "birth_cert_u18")] %in% 
+          c("no", "non_valid"))})
+  r$s16_1 <- ifelse(r$sum_documents == 0, 1, 0)
+  r$s16_2 <- ifelse(r$sum_documents %in% c(1,2,3) & r$sum_specific_documents == 0, 1, 0)
+  r$s16_3 <- ifelse((r$sum_documents > 3 & r$sum_documents <= 7) | 
+                      (r$sum_documents <= 3 & r$sum_specific_documents > 0 & r$sum_specific_documents <= 3), 1, 0)
+  r$s16_4 <- ifelse(r$sum_documents > 7 & r$sum_documents <= 10, 1, 0)
+  r$s16_5 <- ifelse(r$sum_documents > 10, 1, 0)
+  
   
   r$s17_1 <- ifelse(r$hh_risk_eviction != "yes", 1, 0)
   r$s17_2 <- NA
@@ -646,7 +689,35 @@ recoding_severity <- function(r, loop){
                                     "hh_main_risks.owner_request",
                                     "hh_main_risks.no_agreement")]) > 0, 1, 0)
   
-  r$s15_1 %>% table(useNA = "always")
-  sum(length(which(r$s15_1==1)),length(which(r$s15_2==1)),length(which(r$s15_3==1)),length(which(r$s15_4==1)),length(which(r$s15_5==1)))
+  r$water_quantity <- r$tank_capacity * r$refill_times / r$people_share_tank / 7
+  r$s18_1 <- ifelse(r$water_quantity >= 80, 1, 0)
+  r$s18_2 <- ifelse(r$water_quantity >= 50 & r$water_quantity < 80, 1, 0)
+  r$s18_3 <- ifelse(r$water_quantity >= 15 & r$water_quantity < 50, 1, 0)
+  r$s18_4 <- ifelse(r$water_quantity >= 7.5 & r$water_quantity < 15, 1, 0)
+  r$s18_5 <- ifelse(r$water_quantity < 7.5, 1, 0)
+  
+  r$s19_1 <- ifelse(r$drinking_water_source.network_private == 1, 1, 0)
+  r$s19_2 <- ifelse(r$s19_1 != 1 & rowSums(r[, c("drinking_water_source.network_comm",
+                                                 "drinking_water_source.borehole",
+                                                 "drinking_water_source.prot_well",
+                                                 "drinking_water_source.prot_spring",
+                                                 "drinking_water_source.prot_tank")]) > 0, 1, 0)
+  r$s19_3 <- ifelse(rowSums(r[,c("s19_1", "s19_2")]) == 0 & 
+                      rowSums(r[, c("drinking_water_source.bottled_water",
+                                    "drinking_water_source.water_trucking")]) > 0, 1, 0)
+  r$s19_4 <- ifelse(rowSums(r[,c("s19_1", "s19_2", "s19_3")]) == 0 & 
+                      rowSums(r[, c("drinking_water_source.unprot_spring",
+                                    "drinking_water_source.unprot_tank",
+                                    "drinking_water_source.unprot_well",
+                                    "drinking_water_source.illegal_connection")]) > 0, 1, 0)
+  r$s19_5 <- ifelse(rowSums(r[,c("s19_1", "s19_2", "s19_3", "s19_4")]) == 0 & 
+                      r$drinking_water_source.surface_water == 1, 1, 0)
+  r[which(rowSums(r[,which(startsWith(names(r), "drinking_water_source."))]) == 1 & r$drinking_water_source.other == 1), 
+    which(startsWith(names(r), "s19"))] <- NA
+  
+  r$s8_5 %>% table(useNA = "always")
+  sum(length(which(r$s11b_1==1)),length(which(r$s11b_2==1)),length(which(r$s11b_3==1)),length(which(r$s11b_4==1)),length(which(r$s11b_5==1)))
+  sum(length(which(r$s3_1==1)),length(which(r$s3_2==1)))
+  sum(length(which(r$s3_3==1)),length(which(r$s3_4==1)),length(which(r$s3_5==1)))
   return(r)
 }

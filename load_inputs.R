@@ -32,11 +32,30 @@ samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population
 
 samplingframe_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
 
+# simple random strata
+simple_random_strata<-matrix(c("Al-Baaj","idp_out_camp",
+                               "Al-Hamdaniya","idp_out_camp",
+                               "Al-Kaim","idp_out_camp",
+                               "Al-Ramadi","idp_out_camp",
+                               "Baladruz","idp_out_camp",
+                               "Beygee","idp_out_camp",
+                               "Daquq","idp_out_camp",
+                               "Dibis","idp_out_camp",
+                               "Al-Mussyab","returnee",
+                               "Al-Rutba","returnee",
+                               "Al-Shikhan","returnee",
+                               "Dibis","returnee",
+                               "Samarra","returnee",
+                               "Al-Adhamiya","host",
+                               "Al-Basrah","host",
+                               "Al-Kahla","host",
+                               "Al-Najaf","host",
+                               "Al-Nasiriya","host",
+                               "Al-Shirqat","host",
+                               "Erbil","host"),ncol = 2,byrow = T)
 
-# analysis definition
-analysisplan <- read.csv("input/dap.csv", stringsAsFactors = F)
-
-
+simple_random_strata[,1]<-to_alphanumeric_lowercase(simple_random_strata[,1])
+simple_random_strata<-paste0(simple_random_strata[,1],simple_random_strata[,2])
 
 
 
