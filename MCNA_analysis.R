@@ -1,5 +1,6 @@
 # setup
 
+library(xlsx)
 library(plyr) # rbind.fill
 library(dplyr)
 library(koboquest) # manage kobo questionnairs
@@ -107,7 +108,7 @@ response$weights<-weight_fun(response)
 # }
 
 
-response_with_composites <- recoding_mcna(response, loop)
+response_with_composites <- recoding_severity(response, loop)
 #table(response_with_composites[, c("disabled_hhh")], useNA="always")
 #which(response_with_composites$district == "al.hatra")
 
@@ -116,7 +117,7 @@ simple_random_records <- response_with_composites$strata %in% simple_random_stra
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-name <- "pop_groups_aggregated"
+name <- "severity"
 analysisplan <- read.csv(sprintf("input/dap_%s.csv",name), stringsAsFactors = F)
 analysisplan <- analysisplan[-which(analysisplan$ignore),]
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
@@ -149,7 +150,6 @@ for (i in 1:length(groups)) {
 }
 
 # Extra step for pin calculation
-library(xlsx)
 for (i in 1:length(groups)) {
   group_pin <- severity_for_pin(sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), analysisplan = analysisplan)
   write.csv(group_pin, sprintf("output/pin_%s_%s.csv", name, groups[i]), row.names = F)
