@@ -671,8 +671,8 @@ recoding_severity <- function(r, loop){
     which(startsWith(names(r), "s12"))] <- NA
   
   r$perc_work <- apply(r, 1, FUN=function(x){
-    (loop %>% filter(X_submission__uuid == x["X_uuid"] & age > 17 & work == "no" & actively_seek_work == "yes") %>% nrow) / 
-      (loop %>% filter(X_submission__uuid == x["X_uuid"]) %>% nrow)
+    (loop %>% filter(X_submission__uuid == x["X_uuid"] & age > 17 & work == "no" & actively_seek_work %in% c("yes")) %>% nrow) / 
+      (loop %>% filter(X_submission__uuid == x["X_uuid"] & age > 17) %>% nrow)
   })
   r$s13_1 <- ifelse(r$perc_work == 0, 1, 0)
   r$s13_2 <- ifelse(r$perc_work > 0 & r$perc_work <= 0.5, 1, 0)
@@ -785,9 +785,9 @@ recoding_severity <- function(r, loop){
   r[which(rowSums(r[,which(startsWith(names(r), "drinking_water_source."))]) == 1 & r$drinking_water_source.other == 1), 
     which(startsWith(names(r), "s21"))] <- NA
   
-  r$child_composite %>% table(useNA = "always")
+  r$s13_2 %>% table(useNA = "always")
   sum(length(which(r$s16_1==1)),length(which(r$s16_2==1)),length(which(r$s16_3==1)),length(which(r$s16_4==1)),length(which(r$s16_5==1)))
-  sum(length(which(r$s16_1==1)),length(which(r$s16_2==1)))
-  sum(length(which(r$s16_3==1)),length(which(r$s16_4==1)),length(which(r$s16_5==1)))
+  sum(length(which(r$s13_1==1)),length(which(r$s13_2==1)))
+  sum(length(which(r$s13_3==1)),length(which(r$s13_4==1)),length(which(r$s13_5==1)))
   return(r)
 }

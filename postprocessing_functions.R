@@ -1,4 +1,4 @@
-pretty.output <- function(summary, independent.var.value, analysisplan, cluster_lookup_table, lookup_table) {
+pretty.output <- function(summary, independent.var.value, analysisplan, cluster_lookup_table, lookup_table, severity = FALSE) {
   subset <- summary[which(summary$independent.var.value == independent.var.value),]
   independent.var <- subset$independent.var[1]
   if(is.na(independent.var)) {
@@ -23,11 +23,14 @@ pretty.output <- function(summary, independent.var.value, analysisplan, cluster_
   extra_heading[2,] <- t(analplan_subset$research.question[match(vars, analplan_subset$dependent.variable)])
   extra_heading[3,] <- t(analplan_subset$sub.research.question[match(vars, analplan_subset$dependent.variable)])
   extra_heading[4,] <- t(analplan_subset$dependent.variable.type[match(vars, analplan_subset$dependent.variable)])
+  if (severity){
+    extra_heading[5,] <- t(analplan_subset$consequence[match(vars, analplan_subset$dependent.variable)])
+  }
   df <- rbind.fill(df, extra_heading)
-  df <- df[c((nrow(df)-3):nrow(df),1:(nrow(df)-4)),]
+  df <- df[c((nrow(df)-(nrow(extra_heading) - 1)):nrow(df),1:(nrow(df)-nrow(extra_heading))),]
   df$district <- lookup_table$english[match(df$district, lookup_table$name)]
   df$governorate <- lookup_table$english[match(df$governorate, lookup_table$name)]
-  df[1:4, which(is.na(df[1,]))] <- ""
+  df[1:nrow(extra_heading), which(is.na(df[1,]))] <- ""
   df
 }
 
@@ -49,13 +52,14 @@ severity_for_pin <- function(filename, analysisplan){
                                                                                  !endsWith(names(group_data), "max")))
     names_ind_cols <- names(group_data)[ind_cols]
     sum_cols <- names_ind_cols[which(endsWith(names_ind_cols, "3") | endsWith(names_ind_cols, "4") | endsWith(names_ind_cols, "5"))]
-    new_df <- as.data.frame(group_data[5:nrow(group_data),sum_cols])
+    new_df <- as.data.frame(group_data[6:nrow(group_data),sum_cols])
     new_df <- apply(new_df,2,FUN=as.numeric)
-    group_data[5:nrow(group_data),ind_sep[j]] <- rowSums(new_df)
+    group_data[6:nrow(group_data),ind_sep[j]] <- rowSums(new_df)
   }
   group_pin <- group_data[-c(3,4),c("district", "governorate", ind_sep)]
   dap_selection <- unlist(strsplit(analysisplan$dependent.variable, "_"))[seq(1,nrow(analysisplan)*2,2)] %in% ind_sep
   group_pin[1,] <- c("","",analysisplan$Indicator.Group...Sector[dap_selection][seq(1,length(which(dap_selection)),5)])
   group_pin[2,] <- c("","",analysisplan$research.question[dap_selection][seq(1,length(which(dap_selection)),5)])
+  group_pin[3,] <- c("","",analysisplan$consequence[dap_selection][seq(1,length(which(dap_selection)),5)])
   return(group_pin)
 }

@@ -140,7 +140,7 @@ if(all(is.na(summary$independent.var.value))){summary$independent.var.value <- "
 groups <- unique(summary$independent.var.value)
 groups <- groups[!is.na(groups)]
 for (i in 1:length(groups)) {
-  df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table)
+  df <- pretty.output(summary, groups[i], analysisplan, cluster_lookup_table, lookup_table, severity = name == "severity")
   write.csv(df, sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), row.names = F)
   if(i == 1){
     write.xlsx(df, file=sprintf("output/summary_sorted_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
@@ -160,6 +160,8 @@ for (i in 1:length(groups)) {
   }
 }
 
+response_with_composites %>% filter(district=="al.baaj") %>% 
+  select(names(response_with_composites)[which(startsWith(names(response_with_composites), "s8_"))])
 ### NA's
 summary_statistics_get_na_messages<-function(results){
   x<-results$results

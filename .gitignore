@@ -13,5 +13,6 @@ input/parent_cleaned_anonymised.csv
 input/child.csv
 input/idp_in_camp.csv
 input/loop_in_camp.csv
+input/loop_in_camp_v2.csv
 input/loop_merged.csv
 input/parent_merged.csv
