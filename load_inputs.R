@@ -7,20 +7,6 @@ questions <- read.csv("input/kobo_questions.csv",
 choices <- read.csv("input/kobo_choices.csv", 
                     stringsAsFactors=F, check.names=F)
 
-
-# data
-response <- read.csv("input/parent_merged.csv",
-                     stringsAsFactors = F, check.names = F)
-loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
-
-
-idp_in_camp <- read.csv("input/idp_in_camp.csv",
-                        stringsAsFactors = F, check.names = F)
-loop_in_camp <- read.csv("input/loop_in_camp_v2.csv", stringsAsFactors = F)
-
-
-
-
 # sampling
 
 cluster_lookup_table <- read.csv("input/combined_sample_ids.csv", 
@@ -31,6 +17,19 @@ lookup_table <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
 samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
 
 samplingframe_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
+
+
+# data
+response <- read.csv("input/parent_merged.csv",
+                     stringsAsFactors = F, check.names = F)
+loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
+
+
+idp_in_camp <- read.csv("input/idp_in_camp.csv",
+                        stringsAsFactors = F, check.names = F)
+idp_in_camp$district <- samplingframe_in_camp$district[match(idp_in_camp$camp, samplingframe_in_camp$camp)]
+loop_in_camp <- read.csv("input/loop_in_camp_v2.csv", stringsAsFactors = F)
+
 
 # simple random strata
 simple_random_strata<-matrix(c("Al-Baaj","idp_out_camp",

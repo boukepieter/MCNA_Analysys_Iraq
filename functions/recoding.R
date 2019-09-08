@@ -636,11 +636,11 @@ recoding_severity <- function(r, loop){
     (loop %>% filter(X_submission__uuid == x["X_uuid"] & (attend_formal_ed == "yes" | attend_informal_ed == "yes")) %>% nrow) / 
       (loop %>% filter(X_submission__uuid == x["X_uuid"] & attend_formal_ed != "") %>% nrow)
   })
-  r$s9_1 <- ifelse(r$perc_edu == 0, 1, 0)
-  r$s9_2 <- ifelse(r$perc_edu > 0 & r$perc_edu <= 0.25, 1, 0)
-  r$s9_3 <- ifelse(r$perc_edu > 0.25 & r$perc_edu <= 0.5, 1, 0)
-  r$s9_4 <- ifelse(r$perc_edu > 0.5 & r$perc_edu <= 0.75, 1, 0)
-  r$s9_5 <- ifelse(r$perc_edu > 0.75, 1, 0)
+  r$s9_1 <- ifelse(r$perc_edu == 1, 1, 0)
+  r$s9_2 <- ifelse(r$perc_edu >= 0.75 & r$perc_edu < 1, 1, 0)
+  r$s9_3 <- ifelse(r$perc_edu >= 0.5 & r$perc_edu < 0.75, 1, 0)
+  r$s9_4 <- ifelse(r$perc_edu >= 0.25 & r$perc_edu < 0.5, 1, 0)
+  r$s9_5 <- ifelse(r$perc_edu < 0.25, 1, 0)
   
   r$fcs <- r$cereals * 2 + r$nuts_seed * 2 + r$milk_dairy * 4 + r$meat * 4 + 
     r$vegetables + r$fruits + r$oil_fats * 0.5 + r$sweets * 0.5

@@ -117,9 +117,10 @@ simple_random_records <- response_with_composites$strata %in% simple_random_stra
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-name <- "severity"
+name <- "severity_2019908"
 analysisplan <- read.csv(sprintf("input/dap_%s.csv",name), stringsAsFactors = F)
 analysisplan <- analysisplan[-which(analysisplan$ignore),]
+analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "s9")),]
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
