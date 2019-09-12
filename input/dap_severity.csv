@@ -164,3 +164,8 @@ WASH,% HH who require water treatment prior to drinking,Stress (2),district,popu
 WASH,% HH who require water treatment prior to drinking,Severe (3),district,population_group,categorical,s21_3,numerical,direct_reporting,,,living_standards,,1,,
 WASH,% HH who require water treatment prior to drinking,Extreme (4),district,population_group,categorical,s21_4,numerical,direct_reporting,,,living_standards,,1,,
 WASH,% HH who require water treatment prior to drinking,Catastrophic (5),district,population_group,categorical,s21_5,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Minimal (1),district,population_group,categorical,s22_1,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Stress (2),district,population_group,categorical,s22_2,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Severe (3),district,population_group,categorical,s22_3,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Extreme (4),district,population_group,categorical,s22_4,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Catastrophic (5),district,population_group,categorical,s22_5,numerical,direct_reporting,,,,,,,

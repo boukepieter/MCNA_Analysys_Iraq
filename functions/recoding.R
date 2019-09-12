@@ -642,17 +642,35 @@ recoding_severity <- function(r, loop){
   r$s9_4 <- ifelse(r$perc_edu >= 0.25 & r$perc_edu < 0.5, 1, 0)
   r$s9_5 <- ifelse(r$perc_edu < 0.25, 1, 0)
   
-  r$fcs <- r$cereals * 2 + r$nuts_seed * 2 + r$milk_dairy * 4 + r$meat * 4 + 
+  r$fcs <- r$cereals * 2 + r$nuts_seed * 3 + r$milk_dairy * 4 + r$meat * 4 + 
     r$vegetables + r$fruits + r$oil_fats * 0.5 + r$sweets * 0.5
-  r$fcs_score <- ifelse(r$fcs <= 21, 1, ifelse(r$fcs <= 35, 2, 3))
-  r$cs_score <- r$cheaper_quality + r$borrowing * 2 + r$reduce_meals + r$less_food + r$less_adult * 3
-  r$cs_group <- ifelse(r$cs_score < 10, 3, ifelse(r$cs_score < 18, 2, 1))
-  r$fsc_score <- rowSums(r[,c("fcs_score", "cs_group")])
-  r$s10_1 <- ifelse(r$fsc_score == 6, 1, 0)
-  r$s10_2 <- ifelse(r$fsc_score == 5, 1, 0)
-  r$s10_3 <- ifelse(r$fsc_score == 4, 1, 0)
-  r$s10_4 <- ifelse(r$fsc_score == 3, 1, 0)
-  r$s10_5 <- ifelse(r$fsc_score == 2, 1, 0)
+  r$fcs_score <- ifelse(r$fcs <= 28, 4, ifelse(r$fcs <= 42, 3, 1))
+  
+  
+  r$stress <- ifelse(r$selling_assets %in% c("no_already_did", "yes") |
+                       r$borrow_debt  %in% c("no_already_did", "yes") |
+                       r$reduce_spending %in% c("no_already_did", "yes") |
+                       r$spending_savings %in% c("no_already_did", "yes")   , 1, 0)
+  r$crisis <- ifelse(r$selling_transportation_means %in% c("no_already_did", "yes") |
+                       r$change_place  %in% c("no_already_did", "yes") |
+                       r$child_work %in% c("no_already_did", "yes"), 1, 0)
+  r$emergency <- ifelse(r$child_dropout_school %in% c("no_already_did", "yes") |
+                          r$adult_risky  %in% c("no_already_did", "yes") |
+                          r$family_migrating %in% c("no_already_did", "yes") |
+                          r$child_forced_marriage %in% c("no_already_did", "yes"), 1, 0)
+  r$cs_score <- ifelse(r$emergency == 1, 4, ifelse(r$crisis == 1, 3, ifelse(r$stress == 1, 2, 1)))
+  
+  r$fes <- r$food_exp / r$tot_expenditure
+  r$fes_score <- ifelse(r$fes <= 0.5, 1, ifelse(r$fes <= 0.65, 2, ifelse(r$fes <= 0.75, 3, 4)))
+  
+  r$fs_class_int <- rowMeans(r[,c("fes_score", "cs_score")])
+  r$fs_class <- rowMeans(r[,c("fcs_score", "fs_class_int")])
+  
+  r$s10_1 <- ifelse(r$fs_class < 1.5, 1, 0)
+  r$s10_2 <- NA
+  r$s10_3 <- ifelse(r$fs_class >= 1.5 & r$fs_class < 2.5, 1, 0)
+  r$s10_4 <- NA
+  r$s10_5 <- ifelse(r$fs_class >= 2.5, 1, 0)
   
   r$s11_1 <- ifelse(r$distance_health_service == "within_2km", 1, 0)
   r$s11_2 <- ifelse(r$distance_health_service == "between_2km_5km", 1, 0)
@@ -704,17 +722,14 @@ recoding_severity <- function(r, loop){
     ifelse(any(loop$attend_formal_ed[which(loop$X_submission__uuid == x["X_uuid"])] == "no" & 
                  loop$attend_informal_ed[which(loop$X_submission__uuid == x["X_uuid"])] == "no"), 1, 0)
   })
-  r$child_documents <- apply(r, 1, FUN=function(x){ 
-    sum(x[c("id_card_u18", "birth_cert_u18")] %in% c("no", "non_valid"))
-  })
-  r$child_documents <- ifelse(r$id_card_u18 == "yes", 1, 0)
+  r$child_documents <- ifelse(r$id_card_u18 == "no", 1, 0)
   r$child_distress <- ifelse(r$child_distress_number < 1 | is.na(r$child_distress_number), 0, 1)
   r$child_composite <- rowSums(r[,c("child_marriage", "child_labor", "child_documents", "child_distress", "child_education")])
   r$s16_1 <- ifelse(r$child_composite == 0, 1, 0)
-  r$s16_2 <- ifelse(r$child_composite == 1, 1, 0)
-  r$s16_3 <- ifelse(r$child_composite == 2, 1, 0)
-  r$s16_4 <- ifelse(r$child_composite == 3, 1, 0)
-  r$s16_5 <- ifelse(r$child_composite >= 4, 1, 0)
+  r$s16_2 <- 0
+  r$s16_3 <- ifelse(r$child_composite == 1, 1, 0)
+  r$s16_4 <- ifelse(r$child_composite == 2, 1, 0)
+  r$s16_5 <- ifelse(r$child_composite >= 3, 1, 0)
   
   r$unsafe_areas_sum <- rowSums(r[,c("unsafe_areas.facilities", "unsafe_areas.water_points",
                                      "unsafe_areas.social_areas", "unsafe_areas.distribution_areas",
@@ -736,9 +751,9 @@ recoding_severity <- function(r, loop){
   #   sum(x[c("pds","id_card_a18", "birth_cert_a18", "id_card_u18", "birth_cert_u18")] %in% 
   #         c("no", "non_valid"))})
   r$documents_new <- rowSums(r[,c("pds","info_card")] == "no") +
-  ifelse(rowSums(r[,c("id_card_a18","id_card_u18")] == "no") >= 1, 1, 0) +
-  ifelse(rowSums(r[,c("birth_cert_a18","birth_cert_u18")] == "no") >= 1, 1, 0) +
-  ifelse(rowSums(r[,c("citizenship_a18","citizenship_u18")] == "no") >= 1, 1, 0) 
+    ifelse(rowSums(r[,c("id_card_a18","id_card_u18")] == "no") >= 1, 1, 0) +
+    ifelse(rowSums(r[,c("birth_cert_a18","birth_cert_u18")] == "no") >= 1, 1, 0) +
+    ifelse(rowSums(r[,c("citizenship_a18","citizenship_u18")] == "no") >= 1, 1, 0) 
   r$documents_new2 <- rowSums(r[,c("pds","info_card","id_card_a18","id_card_u18","birth_cert_a18",
                                    "birth_cert_u18","citizenship_a18","citizenship_u18")] == "no")
   
@@ -785,14 +800,21 @@ recoding_severity <- function(r, loop){
                                     "drinking_water_source.unprot_tank",
                                     "drinking_water_source.unprot_well",
                                     "drinking_water_source.illegal_connection")]) > 0, 1, 0)
-  r$s19_5 <- ifelse(rowSums(r[,c("s21_1", "s21_2", "s21_3", "s21_4")]) == 0 & 
+  r$s21_5 <- ifelse(rowSums(r[,c("s21_1", "s21_2", "s21_3", "s21_4")]) == 0 & 
                       r$drinking_water_source.surface_water == 1, 1, 0)
   r[which(rowSums(r[,which(startsWith(names(r), "drinking_water_source."))]) == 1 & r$drinking_water_source.other == 1), 
     which(startsWith(names(r), "s21"))] <- NA
   
-  r$s18_5 %>% table(useNA = "always")
-  sum(length(which(r$s18_1==1)),length(which(r$s18_2==1)),length(which(r$s18_3==1)),length(which(r$s18_4==1)),length(which(r$s18_5==1)))
-  sum(length(which(r$s18_1==1)),length(which(r$s18_2==1)))
-  sum(length(which(r$s18_3==1)),length(which(r$s18_4==1)),length(which(r$s18_5==1)))
+  
+  r$s22_1 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) > 0 & r$shared_sanitation == "no", 1, 0)
+  r$s22_2 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) > 0 & r$shared_sanitation == "yes", 1, 0)
+  r$s22_3 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit", "latrines.none")], na.rm = T) == 0 & r$shared_sanitation == "no", 1, 0)
+  r$s22_4 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit", "latrines.none")], na.rm = T) == 0 & r$shared_sanitation == "yes", 1, 0)
+  r$s22_5 <- ifelse(r$latrines.none == 1, 1, 0)
+  
+  r$s22_5 %>% table(useNA = "always")
+  sum(length(which(r$s22_1==1)),length(which(r$s22_2==1)),length(which(r$s22_3==1)),length(which(r$s22_4==1)),length(which(r$s22_5==1)))
+  sum(length(which(r$s22_1==1)),length(which(r$s22_2==1)))
+  sum(length(which(r$s22_3==1)),length(which(r$s22_4==1)),length(which(r$s22_5==1)))
   return(r)
 }
