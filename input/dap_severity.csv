@@ -100,40 +100,45 @@ EL,%HH with debt value in the [amount],Severe (3),district,population_group,cate
 EL,%HH with debt value in the [amount],Extreme (4),district,population_group,categorical,s15_4,numerical,direct_reporting,,,resilience,,,,1
 EL,%HH with debt value in the [amount],Catastrophic (5),district,population_group,categorical,s15_5,numerical,direct_reporting,,,resilience,,,,1
 Protection - CP,"HH indicating child protection issues 
-
-[Options: % of HH reporting children with psychosocial distress (proxy data with behaviour change)
-% of children missing documentation of any kind 
-Child Marriage 
-Child Labor]
-",Minimal (1),district,population_group,categorical,s16_1,numerical,direct_reporting,,,,,,,
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Minimal (1),district,population_group,categorical,s16_1,numerical,direct_reporting,,,,,,,
 Protection - CP,"HH indicating child protection issues 
-
-[Options: % of HH reporting children with psychosocial distress (proxy data with behaviour change)
-% of children missing documentation of any kind 
-Child Marriage 
-Child Labor]
-",Stress (2),district,population_group,categorical,s16_2,numerical,direct_reporting,,,,,,,
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Stress (2),district,population_group,categorical,s16_2,numerical,direct_reporting,,,,,,,
 Protection - CP,"HH indicating child protection issues 
-
-[Options: % of HH reporting children with psychosocial distress (proxy data with behaviour change)
-% of children missing documentation of any kind 
-Child Marriage 
-Child Labor]
-",Severe (3),district,population_group,categorical,s16_3,numerical,direct_reporting,,,,,,,
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Severe (3),district,population_group,categorical,s16_3,numerical,direct_reporting,,,,,,,
 Protection - CP,"HH indicating child protection issues 
-
-[Options: % of HH reporting children with psychosocial distress (proxy data with behaviour change)
-% of children missing documentation of any kind 
-Child Marriage 
-Child Labor]
-",Extreme (4),district,population_group,categorical,s16_4,numerical,direct_reporting,,,,,,,
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Extreme (4),district,population_group,categorical,s16_4,numerical,direct_reporting,,,,,,,
 Protection - CP,"HH indicating child protection issues 
-
-[Options: % of HH reporting children with psychosocial distress (proxy data with behaviour change)
-% of children missing documentation of any kind 
-Child Marriage 
-Child Labor]
-",Catastrophic (5),district,population_group,categorical,s16_5,numerical,direct_reporting,,,,,,,
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Catastrophic (5),district,population_group,categorical,s16_5,numerical,direct_reporting,,,,,,,
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Minimal (1),district,population_group,categorical,s17_1,numerical,direct_reporting,,,wellbeing,1,,,
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Stress (2),district,population_group,categorical,s17_2,numerical,direct_reporting,,,wellbeing,1,,,
 Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Severe (3),district,population_group,categorical,s17_3,numerical,direct_reporting,,,wellbeing,1,,,

@@ -546,7 +546,7 @@ recoding_severity <- function(r, loop){
                               "nfi_priority_needs.fuel_storage", "nfi_priority_needs.cool_box",
                               "nfi_priority_needs.water_storage", "nfi_priority_needs.fan",
                               "nfi_priority_needs.winter_heaters", "nfi_priority_needs.clothing",
-                              "nfi_priority_needs.awc", 
+                              #"nfi_priority_needs.awc", 
                               "nfi_priority_needs.cooking_fuel",
                               "nfi_priority_needs.heating_fuel")])
   r$s3_1 <- ifelse(r$basic_nfi == 0, 1, 0)
@@ -705,8 +705,7 @@ recoding_severity <- function(r, loop){
                  loop$attend_informal_ed[which(loop$X_submission__uuid == x["X_uuid"])] == "no"), 1, 0)
   })
   r$child_documents <- apply(r, 1, FUN=function(x){ 
-    sum(x[c("passport_u18", "id_card_u18", "citizenship_u18", "birth_cert_u18",
-            "marriage_cert_u18", "divorce_cert_u18")] %in% c("no", "non_valid"))
+    sum(x[c("id_card_u18", "birth_cert_u18")] %in% c("no", "non_valid"))
   })
   r$child_documents <- ifelse(r$id_card_u18 == "yes", 1, 0)
   r$child_distress <- ifelse(r$child_distress_number < 1 | is.na(r$child_distress_number), 0, 1)
@@ -728,20 +727,26 @@ recoding_severity <- function(r, loop){
   r$s17_5 <- ifelse(r$unsafe_areas_sum >= 4, 1, 0)
   
   r$sum_documents <- apply(r, 1, FUN=function(x){ 
-    sum(x[c("pds","info_card","death_certificate", "guardianship", "inheritance",
+    sum(x[c("pds", "info_card", "death_certificate", "guardianship", "inheritance",
             "trusteeship", "passport_a18", "id_card_a18", "citizenship_a18", "birth_cert_a18",
             "school_cert_a18", "marriage_cert_a18", "divorce_cert_a18",
             "passport_u18", "id_card_u18", "citizenship_u18", "birth_cert_u18",
             "marriage_cert_u18", "divorce_cert_u18")] %in% c("no", "non_valid"))})
-  r$sum_specific_documents <- apply(r, 1, FUN=function(x){ 
-    sum(x[c("pds","info_card","id_card_a18", "birth_cert_a18", "id_card_u18", "birth_cert_u18")] %in% 
-          c("no", "non_valid"))})
+  # r$sum_specific_documents <- apply(r, 1, FUN=function(x){ 
+  #   sum(x[c("pds","id_card_a18", "birth_cert_a18", "id_card_u18", "birth_cert_u18")] %in% 
+  #         c("no", "non_valid"))})
+  r$documents_new <- rowSums(r[,c("pds","info_card")] == "no") +
+  ifelse(rowSums(r[,c("id_card_a18","id_card_u18")] == "no") >= 1, 1, 0) +
+  ifelse(rowSums(r[,c("birth_cert_a18","birth_cert_u18")] == "no") >= 1, 1, 0) +
+  ifelse(rowSums(r[,c("citizenship_a18","citizenship_u18")] == "no") >= 1, 1, 0) 
+  r$documents_new2 <- rowSums(r[,c("pds","info_card","id_card_a18","id_card_u18","birth_cert_a18",
+                                   "birth_cert_u18","citizenship_a18","citizenship_u18")] == "no")
+  
   r$s18_1 <- ifelse(r$sum_documents == 0, 1, 0)
-  r$s18_2 <- ifelse(r$sum_documents %in% c(1,2,3) & r$sum_specific_documents == 0, 1, 0)
-  r$s18_3 <- ifelse((r$sum_documents > 3 & r$sum_documents <= 7) | 
-                      (r$sum_documents <= 3 & r$sum_specific_documents > 0 & r$sum_specific_documents <= 3), 1, 0)
-  r$s18_4 <- ifelse(r$sum_documents > 7 & r$sum_documents <= 10, 1, 0)
-  r$s18_5 <- ifelse(r$sum_documents > 10, 1, 0)
+  r$s18_2 <- ifelse(r$sum_documents > 0 & r$documents_new2 == 0, 1, 0)
+  r$s18_3 <- ifelse(r$documents_new2 %in% c(1,2), 1, 0)
+  r$s18_4 <- ifelse(r$documents_new2 == 3, 1, 0)
+  r$s18_5 <- ifelse(r$documents_new2 >= 4, 1, 0)
   
   
   r$s19_1 <- ifelse(r$hh_risk_eviction != "yes", 1, 0)
@@ -785,9 +790,9 @@ recoding_severity <- function(r, loop){
   r[which(rowSums(r[,which(startsWith(names(r), "drinking_water_source."))]) == 1 & r$drinking_water_source.other == 1), 
     which(startsWith(names(r), "s21"))] <- NA
   
-  r$s13_2 %>% table(useNA = "always")
-  sum(length(which(r$s16_1==1)),length(which(r$s16_2==1)),length(which(r$s16_3==1)),length(which(r$s16_4==1)),length(which(r$s16_5==1)))
-  sum(length(which(r$s13_1==1)),length(which(r$s13_2==1)))
-  sum(length(which(r$s13_3==1)),length(which(r$s13_4==1)),length(which(r$s13_5==1)))
+  r$s18_5 %>% table(useNA = "always")
+  sum(length(which(r$s18_1==1)),length(which(r$s18_2==1)),length(which(r$s18_3==1)),length(which(r$s18_4==1)),length(which(r$s18_5==1)))
+  sum(length(which(r$s18_1==1)),length(which(r$s18_2==1)))
+  sum(length(which(r$s18_3==1)),length(which(r$s18_4==1)),length(which(r$s18_5==1)))
   return(r)
 }

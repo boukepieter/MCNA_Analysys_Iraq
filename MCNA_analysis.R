@@ -109,24 +109,24 @@ response$weights<-weight_fun(response)
 
 
 response_with_composites <- recoding_severity(response, loop)
-#table(response_with_composites[, c("disabled_hhh")], useNA="always")
-#which(response_with_composites$district == "al.hatra")
+table(response_with_composites[, c("s8_1")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
+which(response_with_composites$district == "al.hatra")
 
 # Correcting for random sampled districts
 simple_random_records <- response_with_composites$strata %in% simple_random_strata
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-name <- "severity_2019908"
+name <- "severity"
 analysisplan <- read.csv(sprintf("input/dap_%s.csv",name), stringsAsFactors = F)
 analysisplan <- analysisplan[-which(analysisplan$ignore),]
-analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "s9")),]
+analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "s18")),]
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
-
+name <- "severity_20190911_docs_doubled"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 
