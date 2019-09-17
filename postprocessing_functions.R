@@ -63,3 +63,13 @@ severity_for_pin <- function(filename, analysisplan){
   group_pin[3,] <- c("","",analysisplan$consequence[dap_selection][seq(1,length(which(dap_selection)),5)])
   return(group_pin)
 }
+
+analysisplan_nationwide <- function(analysisplan) {
+  analysisplan$repeat.for.variable <- ""
+  return(analysisplan)
+}
+analysisplan_pop_group_aggregated <- function(analysisplan) {
+  analysisplan$independent.variable <- ""
+  analysisplan$independent.variable.type <- ""
+  return(analysisplan)
+}

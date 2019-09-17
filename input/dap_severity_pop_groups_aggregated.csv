@@ -1,0 +1,171 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type,,ignore,consequence,well.being,living.standards,protection,resilience
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Minimal (1),district,,,s1_1,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Stress (2),district,,,s1_2,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Severe (3),district,,,s1_3,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Extreme (4),district,,,s1_4,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-cutting (CWG + Educ - school dropout, children wokring +  Protection + FSC)","% HH relying on stress, crisis and emergency strategies to cope with a lack of resources to meet basic needs. ",Catastrophic (5),district,,,s1_5,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Minimal (1),district,,,s2_1,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Stress (2),district,,,s2_2,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Severe (3),district,,,s2_3,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Extreme (4),district,,,s2_4,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-cutting 
+(CWG + Disability)",(JIAF Indicator) % of household members with physical impairement,Catastrophic (5),district,,,s2_5,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Minimal (1),district,,,s3_1,numerical,direct_reporting,,TRUE,,,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Stress (2),district,,,s3_2,numerical,direct_reporting,,TRUE,,,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Severe (3),district,,,s3_3,numerical,direct_reporting,,TRUE,,,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Extreme (4),district,,,s3_4,numerical,direct_reporting,,TRUE,,,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs needing basic NFI items,Catastrophic (5),district,,,s3_5,numerical,direct_reporting,,TRUE,,,,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs reporting at least 2 shelter improvements,Minimal (1),district,,,s4_1,numerical,direct_reporting,,,living_standards,,1,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs reporting at least 2 shelter improvements,Stress (2),district,,,s4_2,numerical,direct_reporting,,,living_standards,,1,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs reporting at least 2 shelter improvements,Severe (3),district,,,s4_3,numerical,direct_reporting,,,living_standards,,1,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs reporting at least 2 shelter improvements,Extreme (4),district,,,s4_4,numerical,direct_reporting,,,living_standards,,1,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs reporting at least 2 shelter improvements,Catastrophic (5),district,,,s4_5,numerical,direct_reporting,,,living_standards,,1,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs living in critical shelters,Minimal (1),district,,,s5_1,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs living in critical shelters,Stress (2),district,,,s5_2,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs living in critical shelters,Severe (3),district,,,s5_3,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs living in critical shelters,Extreme (4),district,,,s5_4,numerical,direct_reporting,,,wellbeing,1,,,1
+"Cross-Cutting 
+(SNFI + CCCM)",% HHs living in critical shelters,Catastrophic (5),district,,,s5_5,numerical,direct_reporting,,,wellbeing,1,,,1
+Cross-Cutting (General + GBV),% of female headed HHs,Minimal (1),district,,,s6_1,numerical,direct_reporting,,,protection,,,1,
+Cross-Cutting (General + GBV),% of female headed HHs,Stress (2),district,,,s6_2,numerical,direct_reporting,,,protection,,,1,
+Cross-Cutting (General + GBV),% of female headed HHs,Severe (3),district,,,s6_3,numerical,direct_reporting,,,protection,,,1,
+Cross-Cutting (General + GBV),% of female headed HHs,Extreme (4),district,,,s6_4,numerical,direct_reporting,,,protection,,,1,
+Cross-Cutting (General + GBV),% of female headed HHs,Catastrophic (5),district,,,s6_5,numerical,direct_reporting,,,protection,,,1,
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Minimal (1),district,,,s7_1,numerical,direct_reporting,,,wellbeing,1,,,
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Stress (2),district,,,s7_2,numerical,direct_reporting,,,wellbeing,1,,,
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Severe (3),district,,,s7_3,numerical,direct_reporting,,,wellbeing,1,,,
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Extreme (4),district,,,s7_4,numerical,direct_reporting,,,wellbeing,1,,,
+Cross-Cutting (Disability + MA),% HH with individuals whose disability is related to an explosive hazard,Catastrophic (5),district,,,s7_5,numerical,direct_reporting,,,wellbeing,1,,,
+"Cross-Cutting 
+(AAP)",% of households in need who are satisfied with the assistance received from aid providers in the last XX days/months,Minimal (1),district,,,s8_1,numerical,direct_reporting,,,living_standards,,1,,
+"Cross-Cutting 
+(AAP)",% of households in need who are satisfied with the assistance received from aid providers in the last XX days/months,Stress (2),district,,,s8_2,numerical,direct_reporting,,,living_standards,,1,,
+"Cross-Cutting 
+(AAP)",% of households in need who are satisfied with the assistance received from aid providers in the last XX days/months,Severe (3),district,,,s8_3,numerical,direct_reporting,,,living_standards,,1,,
+"Cross-Cutting 
+(AAP)",% of households in need who are satisfied with the assistance received from aid providers in the last XX days/months,Extreme (4),district,,,s8_4,numerical,direct_reporting,,,living_standards,,1,,
+"Cross-Cutting 
+(AAP)",% of households in need who are satisfied with the assistance received from aid providers in the last XX days/months,Catastrophic (5),district,,,s8_5,numerical,direct_reporting,,,living_standards,,1,,
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Minimal (1),district,,,s9_1,numerical,direct_reporting,,,living_standards,,1,,
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Stress (2),district,,,s9_2,numerical,direct_reporting,,,living_standards,,1,,
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Severe (3),district,,,s9_3,numerical,direct_reporting,,,living_standards,,1,,
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Extreme (4),district,,,s9_4,numerical,direct_reporting,,,living_standards,,1,,
+Education,% HH with at least one child (aged 6-17) not attending formal or informal education regularly (at least 3 days a week),Catastrophic (5),district,,,s9_5,numerical,direct_reporting,,,living_standards,,1,,
+FSC,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, (composite using FCS and rCSI)",Minimal (1),district,,,s10_1,numerical,direct_reporting,,,living_standards,,1,,
+FSC,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, (composite using FCS and rCSI)",Stress (2),district,,,s10_2,numerical,direct_reporting,,,living_standards,,1,,
+FSC,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, (composite using FCS and rCSI)",Severe (3),district,,,s10_3,numerical,direct_reporting,,,living_standards,,1,,
+FSC,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, (composite using FCS and rCSI)",Extreme (4),district,,,s10_4,numerical,direct_reporting,,,living_standards,,1,,
+FSC,"% HH with ""moderately insecure"" or ""severely insecure"" food security status, (composite using FCS and rCSI)",Catastrophic (5),district,,,s10_5,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional PHCC within 5km ,Minimal (1),district,,,s11_1,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional PHCC within 5km ,Stress (2),district,,,s11_2,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional PHCC within 5km ,Severe (3),district,,,s11_3,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional PHCC within 5km ,Extreme (4),district,,,s11_4,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional PHCC within 5km ,Catastrophic (5),district,,,s11_5,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional hospital within 5km ,Minimal (1),district,,,s12_1,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional hospital within 5km ,Stress (2),district,,,s12_2,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional hospital within 5km ,Severe (3),district,,,s12_3,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional hospital within 5km ,Extreme (4),district,,,s12_4,numerical,direct_reporting,,,living_standards,,1,,
+Health,% HH with access to a functional hospital within 5km ,Catastrophic (5),district,,,s12_5,numerical,direct_reporting,,,living_standards,,1,,
+EL,% HH with at least one adult (18+) unemployed and seeking work,Minimal (1),district,,,s13_1,numerical,direct_reporting,,,living_standards,,1,,1
+EL,% HH with at least one adult (18+) unemployed and seeking work,Stress (2),district,,,s13_2,numerical,direct_reporting,,,living_standards,,1,,1
+EL,% HH with at least one adult (18+) unemployed and seeking work,Severe (3),district,,,s13_3,numerical,direct_reporting,,,living_standards,,1,,1
+EL,% HH with at least one adult (18+) unemployed and seeking work,Extreme (4),district,,,s13_4,numerical,direct_reporting,,,living_standards,,1,,1
+EL,% HH with at least one adult (18+) unemployed and seeking work,Catastrophic (5),district,,,s13_5,numerical,direct_reporting,,,living_standards,,1,,1
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Minimal (1),district,,,s14_1,numerical,direct_reporting,,,wellbeing,1,,,
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Stress (2),district,,,s14_2,numerical,direct_reporting,,,wellbeing,1,,,
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Severe (3),district,,,s14_3,numerical,direct_reporting,,,wellbeing,1,,,
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Extreme (4),district,,,s14_4,numerical,direct_reporting,,,wellbeing,1,,,
+EL,"% HH unable to afford basic needs (% HH taking on debt due to healthcare, food, education, or basic household expenditures)",Catastrophic (5),district,,,s14_5,numerical,direct_reporting,,,wellbeing,1,,,
+EL,%HH with debt value in the [amount],Minimal (1),district,,,s15_1,numerical,direct_reporting,,,resilience,,,,1
+EL,%HH with debt value in the [amount],Stress (2),district,,,s15_2,numerical,direct_reporting,,,resilience,,,,1
+EL,%HH with debt value in the [amount],Severe (3),district,,,s15_3,numerical,direct_reporting,,,resilience,,,,1
+EL,%HH with debt value in the [amount],Extreme (4),district,,,s15_4,numerical,direct_reporting,,,resilience,,,,1
+EL,%HH with debt value in the [amount],Catastrophic (5),district,,,s15_5,numerical,direct_reporting,,,resilience,,,,1
+Protection - CP,"HH indicating child protection issues 
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Minimal (1),district,,,s16_1,numerical,direct_reporting,,,,,,,
+Protection - CP,"HH indicating child protection issues 
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Stress (2),district,,,s16_2,numerical,direct_reporting,,,,,,,
+Protection - CP,"HH indicating child protection issues 
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Severe (3),district,,,s16_3,numerical,direct_reporting,,,,,,,
+Protection - CP,"HH indicating child protection issues 
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Extreme (4),district,,,s16_4,numerical,direct_reporting,,,,,,,
+Protection - CP,"HH indicating child protection issues 
+ 
+[Options: 
+1) HH with at least one children out of formal AND Informal learning.
+2) % of HH reporting children with psychosocial distress (proxy data with behaviour change)
+3) % of children missing documentation of any kind 
+4) Child Marriage 
+5) Child Labor]",Catastrophic (5),district,,,s16_5,numerical,direct_reporting,,,,,,,
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Minimal (1),district,,,s17_1,numerical,direct_reporting,,,wellbeing,1,,,
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Stress (2),district,,,s17_2,numerical,direct_reporting,,,wellbeing,1,,,
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Severe (3),district,,,s17_3,numerical,direct_reporting,,,wellbeing,1,,,
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Extreme (4),district,,,s17_4,numerical,direct_reporting,,,wellbeing,1,,,
+Protection - GBV,% women and girls who avoid areas because they feel unsafe there,Catastrophic (5),district,,,s17_5,numerical,direct_reporting,,,wellbeing,1,,,
+Protection - GP,% HH missing at least one key household or individual document ,Minimal (1),district,,,s18_1,numerical,direct_reporting,,,protection,,,1,
+Protection - GP,% HH missing at least one key household or individual document ,Stress (2),district,,,s18_2,numerical,direct_reporting,,,protection,,,1,
+Protection - GP,% HH missing at least one key household or individual document ,Severe (3),district,,,s18_3,numerical,direct_reporting,,,protection,,,1,
+Protection - GP,% HH missing at least one key household or individual document ,Extreme (4),district,,,s18_4,numerical,direct_reporting,,,protection,,,1,
+Protection - GP,% HH missing at least one key household or individual document ,Catastrophic (5),district,,,s18_5,numerical,direct_reporting,,,protection,,,1,
+Protection - HLP,% HHs reporting fearing eviction,Minimal (1),district,,,s19_1,numerical,direct_reporting,,,protection,,,1,
+Protection - HLP,% HHs reporting fearing eviction,Stress (2),district,,,s19_2,numerical,direct_reporting,,,protection,,,1,
+Protection - HLP,% HHs reporting fearing eviction,Severe (3),district,,,s19_3,numerical,direct_reporting,,,protection,,,1,
+Protection - HLP,% HHs reporting fearing eviction,Extreme (4),district,,,s19_4,numerical,direct_reporting,,,protection,,,1,
+Protection - HLP,% HHs reporting fearing eviction,Catastrophic (5),district,,,s19_5,numerical,direct_reporting,,,protection,,,1,
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Minimal (1),district,,,s20_1,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Stress (2),district,,,s20_2,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Severe (3),district,,,s20_3,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Extreme (4),district,,,s20_4,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH without access to sufficient quantity of safe water for drinking and domestic puproses ,Catastrophic (5),district,,,s20_5,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH who require water treatment prior to drinking,Minimal (1),district,,,s21_1,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH who require water treatment prior to drinking,Stress (2),district,,,s21_2,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH who require water treatment prior to drinking,Severe (3),district,,,s21_3,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH who require water treatment prior to drinking,Extreme (4),district,,,s21_4,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% HH who require water treatment prior to drinking,Catastrophic (5),district,,,s21_5,numerical,direct_reporting,,,living_standards,,1,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Minimal (1),district,,,s22_1,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Stress (2),district,,,s22_2,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Severe (3),district,,,s22_3,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Extreme (4),district,,,s22_4,numerical,direct_reporting,,,,,,,
+WASH,% of HHs having access to a functionnal and improved sanitation facility,Catastrophic (5),district,,,s22_5,numerical,direct_reporting,,,,,,,

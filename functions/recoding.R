@@ -599,7 +599,7 @@ recoding_severity <- function(r, loop){
                difficulty_walking == "a_lot_of_difficulty" |
                difficulty_remembering == "a_lot_of_difficulty" |
                difficulty_washing == "a_lot_of_difficulty" |
-               difficulty_communicating == "a_lot_of_difficulty") %>% select(disab_explos)
+               difficulty_communicating == "a_lot_of_difficulty") %>% dplyr::select(disab_explos)
     ifelse(nrow(select) > 0 && any(select == "yes"), 1, 0)
   })
   r$s7_5 <- apply(r, 1, FUN=function(x){
@@ -609,7 +609,7 @@ recoding_severity <- function(r, loop){
                difficulty_walking == "cannot_do_at_all" |
                difficulty_remembering == "cannot_do_at_all" |
                difficulty_washing == "cannot_do_at_all" |
-               difficulty_communicating == "cannot_do_at_all") %>% select(disab_explos)
+               difficulty_communicating == "cannot_do_at_all") %>% dplyr::select(disab_explos)
     ifelse(nrow(select) > 0 && any(select == "yes"), 1, 0)
   })
   r <- r %>% mutate(s7_4 = ifelse(s7_4 == 1 & s7_5 == 1, 0, s7_4))
@@ -667,10 +667,10 @@ recoding_severity <- function(r, loop){
   r$fs_class <- rowMeans(r[,c("fcs_score", "fs_class_int")])
   
   r$s10_1 <- ifelse(r$fs_class < 1.5, 1, 0)
-  r$s10_2 <- NA
-  r$s10_3 <- ifelse(r$fs_class >= 1.5 & r$fs_class < 2.5, 1, 0)
-  r$s10_4 <- NA
-  r$s10_5 <- ifelse(r$fs_class >= 2.5, 1, 0)
+  r$s10_2 <- ifelse(r$fs_class >= 1.5 & r$fs_class < 2.5, 1, 0)
+  r$s10_3 <- ifelse(r$fs_class >= 2.5 & r$fs_class < 3.5, 1, 0)
+  r$s10_4 <- ifelse(r$fs_class >= 3.5, 1, 0)
+  r$s10_5 <- NA
   
   r$s11_1 <- ifelse(r$distance_health_service == "within_2km", 1, 0)
   r$s11_2 <- ifelse(r$distance_health_service == "between_2km_5km", 1, 0)
@@ -812,9 +812,35 @@ recoding_severity <- function(r, loop){
   r$s22_4 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit", "latrines.none")], na.rm = T) == 0 & r$shared_sanitation == "yes", 1, 0)
   r$s22_5 <- ifelse(r$latrines.none == 1, 1, 0)
   
-  r$s22_5 %>% table(useNA = "always")
+  r$s10_1 %>% table(useNA = "always")
   sum(length(which(r$s22_1==1)),length(which(r$s22_2==1)),length(which(r$s22_3==1)),length(which(r$s22_4==1)),length(which(r$s22_5==1)))
   sum(length(which(r$s22_1==1)),length(which(r$s22_2==1)))
   sum(length(which(r$s22_3==1)),length(which(r$s22_4==1)),length(which(r$s22_5==1)))
+  return(r)
+}
+
+recoding_snfi <- function(r, loop){
+  r$s4_1 <- ifelse(r$shelter_better.none == 1, 1, 0)
+  r$s4_3 <- ifelse(r$s4_1 != 1 & (r$shelter_better.protec_hazards == 1 |
+                                    r$shelter_better.improve_safety == 1 | r$shelter_better.improve_structure == 1), 1, 0)
+  r$s4_2 <- ifelse((r$s4_1 != 1 & r$s4_3 != 1) & 
+                     (r$shelter_better.improve_privacy == 1 | r$shelter_better.protect_climate == 1 |
+                        r$shelter_better.improve_tenure == 1 | r$shelter_better.improve_infrastructure == 1), 1, 0)
+  r$s4_4 <- NA
+  r$s4_5 <- NA
+  r[which(rowSums(r[,which(startsWith(names(r), "shelter_better."))]) == 0 | r$shelter_better.other == 1), 
+    which(startsWith(names(r), "s4"))] <- NA
+  
+  r$s4_3 %>% table(useNA = "always")
+  sum(length(which(r$s4_1==1)),length(which(r$s4_2==1)),length(which(r$s4_3==1)),length(which(r$s4_4==1)),length(which(r$s4_5==1)))
+  sum(length(which(r$s4_1==1)),length(which(r$s4_2==1)))
+  sum(length(which(r$s4_3==1)),length(which(r$s4_4==1)),length(which(r$s4_5==1)))
+  return(r)
+}
+
+recoding_education <- function(r, loop) {
+  r$g4 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop$attend_formal_ed[which(loop$X_submission__uuid == x["X_uuid"])] == "no"), 1, 0)
+  })
   return(r)
 }

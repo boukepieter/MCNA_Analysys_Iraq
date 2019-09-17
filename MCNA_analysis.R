@@ -108,7 +108,7 @@ response$weights<-weight_fun(response)
 # }
 
 
-response_with_composites <- recoding_severity(response, loop)
+response_with_composites <- recoding_education(response, loop)
 table(response_with_composites[, c("s8_1")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
 which(response_with_composites$district == "al.hatra")
 
@@ -117,16 +117,23 @@ simple_random_records <- response_with_composites$strata %in% simple_random_stra
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-name <- "severity"
-analysisplan <- read.csv(sprintf("input/dap_%s.csv",name), stringsAsFactors = F)
+dap_name <- "preliminary"
+analysisplan <- read.csv(sprintf("input/dap_%s.csv",dap_name), stringsAsFactors = F)
 analysisplan <- analysisplan[-which(analysisplan$ignore),]
-analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "s18")),]
+analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "s4") 
+                                  #  | startsWith(analysisplan$dependent.variable, "s7") 
+                                  #  | startsWith(analysisplan$dependent.variable, "s21") 
+                                  #  | startsWith(analysisplan$dependent.variable, "s22")
+                                   ),]
+analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "g4") ),]
+analysisplan <- analysisplan_nationwide(analysisplan)
+analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
-name <- "severity_20190911_docs_doubled"
+name <- "severity_20190917_education"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 
@@ -155,11 +162,13 @@ for (i in 1:length(groups)) {
   group_pin <- severity_for_pin(sprintf("output/summary_sorted_%s_%s.csv", name, groups[i]), analysisplan = analysisplan)
   write.csv(group_pin, sprintf("output/pin_%s_%s.csv", name, groups[i]), row.names = F)
   if(i == 1){
-  write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
+    write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], row.names=FALSE)
   } else {
-  write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], append=TRUE, row.names=FALSE)
+    write.xlsx(group_pin, file=sprintf("output/pin_%s.xlsx", name), sheetName=groups[i], append=TRUE, row.names=FALSE)
   }
 }
+
+
 
 response_with_composites %>% filter(district=="al.baaj") %>% 
   select(names(response_with_composites)[which(startsWith(names(response_with_composites), "s8_"))])
