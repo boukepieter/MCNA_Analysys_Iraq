@@ -1,4 +1,4 @@
-pretty.output <- function(summary, independent.var.value, analysisplan, cluster_lookup_table, lookup_table, severity = FALSE) {
+pretty.output <- function(summary, independent.var.value, analysisplan, cluster_lookup_table, lookup_table, severity = FALSE, camp=FALSE) {
   subset <- summary[which(summary$independent.var.value == independent.var.value),]
   independent.var <- subset$independent.var[1]
   if(is.na(independent.var)) {
@@ -8,7 +8,8 @@ pretty.output <- function(summary, independent.var.value, analysisplan, cluster_
   }
   vars <- unique(subset$dependent.var)
   districts <- unique(subset$repeat.var.value)
-  df <- data.frame(governorate = lookup_table$filter[19:nrow(lookup_table)][match(districts, lookup_table$name[19:nrow(lookup_table)])],  
+  start <- ifelse(camp, 1, 19)
+  df <- data.frame(governorate = lookup_table$filter[start:nrow(lookup_table)][match(districts, lookup_table$name[start:nrow(lookup_table)])],  
                    district = districts, stringsAsFactors = F)
   df <- df[with(df, order(governorate, district)),]
   for(i in 1:length(vars)){
@@ -29,7 +30,7 @@ pretty.output <- function(summary, independent.var.value, analysisplan, cluster_
   df <- rbind.fill(df, extra_heading)
   df <- df[c((nrow(df)-(nrow(extra_heading) - 1)):nrow(df),1:(nrow(df)-nrow(extra_heading))),]
   df$district <- lookup_table$english[match(df$district, lookup_table$name)]
-  df$governorate <- lookup_table$english[match(df$governorate, lookup_table$name)]
+  if(!camp){df$governorate <- lookup_table$english[match(df$governorate, lookup_table$name)]}
   df[1:nrow(extra_heading), which(is.na(df[1,]))] <- ""
   df
 }

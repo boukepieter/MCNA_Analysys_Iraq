@@ -1,0 +1,12 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type,,ignore
+"Cross-Cutting 
+(SNFI + CCCM)",% HH with PwSN living in shelter that needs improvement ,Minimal (1),district,population_group,categorical,s4_1,numerical,direct_reporting,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HH with PwSN living in shelter that needs improvement ,Stress (2),district,population_group,categorical,s4_2,numerical,direct_reporting,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HH with PwSN living in shelter that needs improvement ,Severe (3),district,population_group,categorical,s4_3,numerical,direct_reporting,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HH with PwSN living in shelter that needs improvement ,Extreme (4),district,population_group,categorical,s4_4,numerical,direct_reporting,,
+"Cross-Cutting 
+(SNFI + CCCM)",% HH with PwSN living in shelter that needs improvement ,Catastrophic (5),district,population_group,categorical,s4_5,numerical,direct_reporting,,
+SNFI,% HH with PwSN living in critical shelter,% HH with PwSN living in critical shelter,district,population_group,categorical,hh_pwsn_cs,categorical,direct_reporting,,

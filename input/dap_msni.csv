@@ -1,0 +1,12 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+MSNI,MSNI,MSNI,district,population_group,categorical,msni,numerical,direct_reporting
+Impact,Impact on people,Impact on people,district,population_group,categorical,impact,numerical,direct_reporting
+Impact,Impact on humanitarian access,,district,population_group,categorical,impact_hum,numerical,direct_reporting
+Humanitarian consequence,Capacity Gap,,district,population_group,categorical,capacity_gap,numerical,direct_reporting
+Humanitarian consequence,Well-Being,,district,population_group,categorical,well_being,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,Food Security,district,population_group,categorical,lsg_fs,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,Shelter & NFI,district,population_group,categorical,lsg_snfi,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,Health,district,population_group,categorical,lsg_health,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,Protection,district,population_group,categorical,lsg_protection,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,WASH,district,population_group,categorical,lsg_wash,numerical,direct_reporting
+Humanitarian consequence,Living Standard Gap,Emerging Livelihoods,district,population_group,categorical,lsg_el,numerical,direct_reporting

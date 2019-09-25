@@ -27,7 +27,7 @@ loop <- read.csv("input/loop_merged.csv", stringsAsFactors = F)
 
 idp_in_camp <- read.csv("input/idp_in_camp.csv",
                         stringsAsFactors = F, check.names = F)
-idp_in_camp$district <- samplingframe_in_camp$district[match(idp_in_camp$camp, samplingframe_in_camp$camp)]
+idp_in_camp$district <- to_alphanumeric_lowercase(samplingframe_in_camp$district.new[match(idp_in_camp$camp, samplingframe_in_camp$camp)])
 loop_in_camp <- read.csv("input/loop_in_camp_v2.csv", stringsAsFactors = F)
 
 
