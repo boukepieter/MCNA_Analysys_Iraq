@@ -4,7 +4,7 @@ library(raster)
 library(dplyr)
 WGS84 <- crs("+init=epsg:4326")
 source("C:/Users/REACH-IRQ-GIS/Documents/2019 MCNA/201904 MCNA sampling script/MCNA_sampling/functions.R")
-stratification <- readOGR("input/irq_admbnda_adm3_cso_20190603.shp","irq_admbnda_adm3_cso_20190603")
+stratification <- readOGR("input/geodata/irq_admbnda_adm3_cso_20190603.shp","irq_admbnda_adm3_cso_20190603")
 
 ### IDP
 file <- "IDPs_MasterList_dataset_DTM_IOMAug 31, 2019.xlsx"

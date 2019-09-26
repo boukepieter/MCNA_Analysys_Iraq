@@ -43,7 +43,6 @@ source("match_inputs.R", local = T)
 #'     3.6. throw error if any don't match
 
 
-
 # any further problems with the sampling frame matching?
 
 strata_samplingframe_issues <- as.data.frame(response[which(!response$strata %in% samplingframe_strata$stratum), c("X_uuid", "strata")])
@@ -110,8 +109,8 @@ response$weights<-weight_fun(response)
 
 
 response_with_composites <- recoding_msni(response, loop)
-table(response_with_composites[, c("g51a")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
-which(response_with_composites$district == "al.hatra")
+#table(response_with_composites[, c("g51a")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
+#which(response_with_composites$district == "al.hatra")
 
 # Correcting for random sampled districts
 simple_random_records <- response_with_composites$strata %in% simple_random_strata
@@ -120,20 +119,20 @@ response_with_composites$cluster_id[simple_random_records]<-
 
 dap_name <- "msni"
 analysisplan <- read.csv(sprintf("input/dap_%s.csv",dap_name), stringsAsFactors = F)
-analysisplan <- analysisplan[-which(analysisplan$ignore),]
-analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "g51a") 
+#analysisplan <- analysisplan[-which(analysisplan$ignore),]
+#analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "g51a") 
                                   #  | startsWith(analysisplan$dependent.variable, "s7") 
                                   #  | startsWith(analysisplan$dependent.variable, "s21") 
                                   #  | startsWith(analysisplan$dependent.variable, "s22")
-                                   ),]
-analysisplan <- analysisplan_nationwide(analysisplan)
-analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
+#                                   ),]
+#analysisplan <- analysisplan_nationwide(analysisplan)
+#analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
                                           weighting = weight_fun,
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
-name <- "msni_20190925_with_sub_pillars"
+name <- "msni_20190926_with_sub_pillars"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 
@@ -161,6 +160,8 @@ for (i in 1:length(groups)) {
   }
 }
 
+# formap <- df[-c(1:4),]
+# formap$msni <- as.numeric(formap$msni)
 
 
 # Extra step for pin calculation

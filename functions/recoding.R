@@ -885,8 +885,33 @@ recoding_msni <- function(r, loop) {
   r$a16 <- ifelse(r$shelter_type %in% c("unfinished_abandoned_building", "damaged_building", "tent", 
                                         "religious_building", "public_building", "non_residential", 
                                         "container", "makeshift_shelter") | !is.na(r$camp), 1, 0)
+  r$g67 <- ifelse(rowSums(r[,c("why_not_return.house_damaged_destroyed", "why_not_return.house_land_occupied")], na.rm=T) > 0, 1, 0)
+  r$g73 <- ifelse(r$why_not_return.presence_of_mines %in% c(NA, 0), 0, 1)
+  r$c2 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop$disab_explos[which(loop$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 0)
+  })
+  r$g6 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop$ever_attend[which(loop$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 0)
+  })
   
-  r$impact <- rowSums(r[,c("a18", "a16")])
+  r$impact <- rowSums(r[,c("a18", "a16", "g67", "g73", "c2", "g6")])
+  r <- r %>% mutate(impact = case_when(
+    impact == 0 ~ 1,
+    impact > 0 & impact <= 3 ~ 2,
+    impact == 4 ~ 3,
+    impact > 4 ~ 4
+  ))
+  
+  # Sub-pillar Impact on Humanitarian Access
+  r$d6 <- ifelse(r$aid_satisfaction == "no", 2, ifelse(r$aid_satisfaction %in% c("decline_to_answer", "do_not_know", "yes"), 0, NA))
+  r$d10 <- ifelse(r$aid_workers_satisfied == "", NA, ifelse(r$aid_workers_satisfied == "no", 1, 0))
+  r$d11 <- ifelse(r$community_decision_making == "no", 1, 0)
+  r$d12 <- ifelse(r$complaint_mechanisms == "no", 1, ifelse(r$complaint_mechanisms %in% c("do_not_know", "yes", "decline_to_answer"), 0, NA))
+  r$d14 <- ifelse(r$info_specific_needs == "yes", 1, 0)
+  
+  r$impact_hum <- round2(rowSums(r[,c("d6","d10","d11","d12","d14")]) / 6 * 3 + 1)
+  
+  r$impact_hum %>% table(useNA = "always")
   
   # Sub-pillar Capacity Gap
   r$capacity_gap <- ifelse(r$child_dropout_school %in% c("no_already_did", "yes") |
@@ -914,14 +939,6 @@ recoding_msni <- function(r, loop) {
   })
   
   r$well_being <- rowSums(r[,c("g56","g57","c3")]) + 1
-  
-  # Sub-pillar WASH
-  r$g94 <- ifelse(r$access_private_shared_watertank == "no", 2.5, ifelse(r$tank_capacity * r$refill_times / r$people_share_tank / 7 < 50, 2.5, 0))
-  r$g96 <- ifelse(r$treat_drink_water_how == "not_necessary", 0, ifelse(r$treat_drink_water_how == "", NA, 2.5))
-  r$g97 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) == 0, 2, 0)
-  r$g99 <- ifelse(r$access_hygiene_items == "no" | r$use_of_soap.handwashing == 0, 1.5, 0)
-  
-  r$lsg_wash <- round2(rowSums(r[,c("g94","g96","g97","g99")]) / 8.5 * 3) + 1
   
   # Sub-pillar FoodSec
   r$fcs <- r$cereals * 2 + r$nuts_seed * 3 + r$milk_dairy * 4 + r$meat * 4 + 
@@ -961,23 +978,28 @@ recoding_msni <- function(r, loop) {
   r$g85 <- ifelse(r$basic_nfi >= 2, 1, 0)
   r <- r %>% mutate(g89 = case_when(
     shelter_better.none == 1 ~ 0,
-    shelter_better.improve_safety == 1 | shelter_better.improve_structure == 1 ~ 3,
-    shelter_better.improve_privacy == 1 | shelter_better.protect_climate == 1 ~ 2,
+    shelter_better.improve_safety == 1 | shelter_better.improve_structure == 1 ~ 4,
+    shelter_better.improve_privacy == 1 | shelter_better.protect_climate == 1 ~ 3,
     shelter_better.protec_hazards == 1 | shelter_better.improve_tenure == 1 | 
-      shelter_better.improve_infrastructure == 1 ~ 1,
+      shelter_better.improve_infrastructure == 1 ~ 2,
     shelter_better.none == 0 ~ 0
   ))
   
   r$lsg_snfi <- rowSums(r[,c("g85","g89")])
-  r$lsg_snfi <- ifelse(r$lsg_snfi == 0, 1, r$lsg_snfi)
+  r <- r %>% mutate(lsg_snfi = case_when(
+    lsg_snfi == 0 ~ 1,
+    lsg_snfi == 5 ~ 4,
+    TRUE ~ lsg_snfi
+  ))
   
   # Sub-pillar Health
-  r$g25 <- ifelse(r$distance_health_service %in% c("between_2km_5km", "within_2km"), 0, 1)
+  r$g25 <- ifelse(r$distance_health_service %in% c("between_2km_5km", "within_2km"), 0, 2)
   r$g26 <- ifelse(r$distance_hospital %in% c("between_2km_5km", "between_6km_10km", "within_2km") &
                     r$hospital_emergency_ser == "yes" &
                     r$hospital_maternity_ser == "yes" &
                     r$hospital_surgical_ser == "yes" &
-                    r$hospital_pediatric_ser == "yes", 0, 1)
+                    r$hospital_pediatric_ser == "yes", 0, 2)
+  
   
   r$lsg_health <- rowSums(r[,c("g25","g26")])
   r <- r %>% mutate(lsg_health = case_when(
@@ -1011,8 +1033,14 @@ recoding_msni <- function(r, loop) {
     ifelse(any(loop$age[which(loop$X_submission__uuid == x["X_uuid"])] < 18 & 
                  loop$work[which(loop$X_submission__uuid == x["X_uuid"])] == "yes"), 1, 0)
   })
+  r$a12 <- apply(r, 1, FUN=function(x){
+    ifelse(any(loop_children$marital_status[which(loop_children$X_submission__uuid == x["X_uuid"])] == "married"), 1, 0)
+  })
+  r$g7a <- ifelse(r$no_school_no_docs == "yes", 1, 0)
+  r$g64 <- ifelse(r$hh_risk_eviction == "yes", 1, 0)
+  r$g64 <- ifelse(is.na(r$hh_risk_eviction), 0, r$g64)
   
-  r$lsg_protection <- round2(rowSums(r[,c("g68","g51","g54","g63","g4","a13")]) / 2) + 1
+  r$lsg_protection <- round2(rowSums(r[,c("g68","g51","g54","g63","g4","a13","a12","g7a","g64")]) / 3) + 1
   
   # Sub-pillar EL
   r$g44 <- apply(r, 1, FUN=function(x){
@@ -1028,6 +1056,14 @@ recoding_msni <- function(r, loop) {
   
   r$lsg_el <- round2(rowSums(r[,c("g44", "b1", "b2", "g37", "g38")]) / 5 * 3 + 1) # TO BE DISCUSSED
   
+  # Sub-pillar WASH
+  r$g94 <- ifelse(r$access_private_shared_watertank == "no", 2.5, ifelse(r$tank_capacity * r$refill_times / r$people_share_tank / 7 < 50, 2.5, 0))
+  r$g96 <- ifelse(r$treat_drink_water_how == "not_necessary", 0, ifelse(r$treat_drink_water_how == "", NA, 2.5))
+  r$g97 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) == 0, 2, 0)
+  r$g99 <- ifelse(r$access_hygiene_items == "no" | r$use_of_soap.handwashing == 0, 1.5, 0)
+  
+  r$lsg_wash <- round2(rowSums(r[,c("g94","g96","g97","g99")]) / 8.5 * 3) + 1
+  
   # MSNI decision tree
   r$msni <- apply(r, 1, function(x) {
     step_1 <- as.numeric(max(x[c("lsg_health", "lsg_protection", "lsg_snfi")]))
@@ -1040,6 +1076,6 @@ recoding_msni <- function(r, loop) {
     return(step_5)
   })  
   
-  r$lsg_el %>% table(useNA = "always")
+  r$lsg_snfi %>% table(useNA = "always")
   return(r)
 }
