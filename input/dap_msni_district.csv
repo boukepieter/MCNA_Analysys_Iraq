@@ -1,0 +1,10 @@
+﻿Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+LSG Education,LSG Education,LSG Education,district,ones,categorical,lsg_ed,numerical,direct_reporting
+LSG Education Living,LSG Education Living,LSG Education Living,district,ones,categorical,lsg_el,numerical,direct_reporting
+LSG Food Security,LSG Food Security,LSG Food Security,district,ones,categorical,lsg_fs,numerical,direct_reporting
+LSG Health,LSG Health,LSG Health,district,ones,categorical,lsg_health,numerical,direct_reporting
+LSG Protection,LSG Protection,LSG Protection,district,ones,categorical,lsg_protection,numerical,direct_reporting
+LSG SNFI,LSG SNFI,LSG SNFI,district,ones,categorical,lsg_snfi,numerical,direct_reporting
+LSG WASH,LSG WASH,LSG WASH,district,ones,categorical,lsg_wash,numerical,direct_reporting
+Capacity Gap,Capacity Gap,Capacity Gap,district,ones,categorical,capacity_gap,numerical,direct_reporting
+Vulnerabilities,Vulnerabilities,Vulnerabilities,district,ones,categorical,vulnerability,numerical,direct_reporting
