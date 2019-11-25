@@ -29,29 +29,31 @@ questionnaire <- load_questionnaire(response,questions,choices)
 # prepare samplingframes
 
 ## cluster sampling frame: make values that can be matched with data
-samplingframe$popgroup[samplingframe$popgroup=="idp"]<-"idp_out_camp"
-samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
-samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
+samplingframe$popgroup[samplingframe$popgroup=="out_of_camp"]<-"idp_out_camp"
+samplingframe$district <- to_alphanumeric_lowercase(samplingframe$district)
+samplingframe$stratum <- paste0(samplingframe$district, samplingframe$popgroup)
+#samplingframe$cluster_ID <- cluster_lookup_table$new_ID[match(samplingframe$psu, cluster_lookup_table$psu)]
+#samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
 
 
 ## add cluster ids to data:
 
 ### any pop group or cluster ids that can't be found individually?
-`%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
+#`%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
 
 response$population_group %find those not in% samplingframe$popgroup
-response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
+#response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
 
 ### create id in samplingframe and in data
-samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
-response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
+#samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
+#response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
 
 # any id that can't be found in combination?
-response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n") %>% cat
+#response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n") %>% cat
 
 
 ### reverse not matching?
-samplingframe$cluster_strata_ID %find those not in% response$cluster_id
+#samplingframe$cluster_strata_ID %find those not in% response$cluster_id
 ## unique cluster ids for IDP in camp (unique):
 
 in_camp <- response$population_group=="idp_in_camp"
@@ -75,13 +77,6 @@ response$cluster_id[in_camp]<-in_camp_ids
 
 # samplingframe$stratum<-gsub("idp$","idp_out_camp",samplingframe$stratum) # should not be run; sampling frame  
 
-## aggregate to stratum level
-samplingframe_strata <- samplingframe %>%
-  group_by(stratum) %>% 
-  dplyr::summarize(population = sum(pop))
-
-samplingframe_strata<-as.data.frame(samplingframe_strata)
-  
 
 ## in camp: make values match data
 samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
@@ -89,7 +84,7 @@ samplingframe_in_camp$stratum<-paste0(samplingframe_in_camp$camp,"idp_in_camp")
 ## in camp: make columns match other sampling frame:
 samplingframe_in_camp <- samplingframe_in_camp %>% dplyr::select(stratum,"population" = population..july.cccm.)
 ## combine in camp and out of camp sampling frames
-samplingframe_strata <- rbind(samplingframe_strata,samplingframe_in_camp)
+samplingframe_strata <- rbind(samplingframe[,c("stratum", "population")],samplingframe_in_camp)
 
 # add strata names to data
 

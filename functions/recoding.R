@@ -473,7 +473,7 @@ recoding_O <- function(r, loop) {
                                "inc_other", "inc_rent")]))
     ifelse(is.null(inc),NA,inc)
   })
-  r$g94 <- ifelse(r$tank_capacity * r$refill_times / r$people_share_tank / 7 > 50, 1, 0)
+  r$g94 <- ifelse(r$tank_capacity * r$refill_times / r$people_share_tank / 7 < 80, 1, 0)
   r$g96 <- ifelse(r$treat_drink_water_how == "not_necessary", 0, 1)
   r$g97 <- ifelse(rowSums(r[, c("latrines.flush", "latrines.vip_pit")], na.rm = T) > 0, 1, 0)
   r$g99 <- ifelse(r$access_hygiene_items == "yes" & r$use_of_soap.handwashing == 1, 1, 0)

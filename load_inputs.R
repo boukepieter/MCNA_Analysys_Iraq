@@ -14,7 +14,7 @@ cluster_lookup_table <- read.csv("input/combined_sample_ids.csv",
 lookup_table <- read.csv("input/lookup_table_names.csv", stringsAsFactors = F)
 
 
-samplingframe <- load_samplingframe("./input_modified/Strata_clusters_population.csv")
+samplingframe <- load_samplingframe("./input/strata_population.csv")
 
 samplingframe_in_camp<-load_samplingframe("./input/sampling_frame_in_camp.csv")
 

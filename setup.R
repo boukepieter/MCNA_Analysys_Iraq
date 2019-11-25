@@ -31,6 +31,10 @@ devtools::install_github(
   build_opts = c())
 
 devtools::install_github(
+  "boukepieter/dclogger",
+  build_opts = c())
+
+devtools::install_github(
   "mabafaba/kobostandards",
   build_opts = c()
 )

@@ -57,6 +57,8 @@ if(nrow(cluster_samplingframe_issues)!=0){
   warning("something's not right with the cluster id matching!")
 }
 
+
+
 ### IGNORING CLUSTER LEVEL WEIGHTING FOR NOW
 #### it's been under debate..
 
@@ -102,13 +104,25 @@ weight_fun<-strata_weight_fun
 
 response$weights<-weight_fun(response)
 
+# new version of weights for SDC analysis
+if (F){
+  library(purrr)
+  samplingframe_strata$samp_amount[match(names(samp_amount), samplingframe_strata$stratum)] <- response$strata %>% table
+  samplingframe_strata$weights2 <- samplingframe_strata$population / samplingframe_strata$samp_amount
+  samplingframe_strata[which(samplingframe_strata$weights2 < 2),]
+  response <- response %>% mutate(weights2 = samplingframe_strata$weights2[match(strata, samplingframe_strata$stratum)]) 
+  
+  response %>% rowwise() %>% mutate(test = weights2 / weights) %>% select(test) %>% table
+  samplingframe %>% filter(endsWith(samplingframe$stratum, "returnee")) %>% select(pop) %>% nrow
+}
+
 # for speedy speed we can not recalculate weights on every run):
 # weight_fun<-function(df){
 #   df$weights
 # }
 
 
-response_with_composites <- recoding_msni(response, loop)
+response_with_composites <- recoding_preliminary(response, loop)
 #table(response_with_composites[, c("g51a")][which(response_with_composites$district == "erbil" & response_with_composites$population_group == "idp_out_camp")], useNA="always")
 #which(response_with_composites$district == "al.hatra")
 
@@ -117,14 +131,14 @@ simple_random_records <- response_with_composites$strata %in% simple_random_stra
 response_with_composites$cluster_id[simple_random_records]<-
   paste("simple random unique cluster id - ",1:length(which(simple_random_records)))
 
-dap_name <- "msni"
+dap_name <- "preliminary"
 analysisplan <- read.csv(sprintf("input/dap_%s.csv",dap_name), stringsAsFactors = F)
 #analysisplan <- analysisplan[-which(analysisplan$ignore),]
-#analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "g51a") 
-                                  #  | startsWith(analysisplan$dependent.variable, "s7") 
-                                  #  | startsWith(analysisplan$dependent.variable, "s21") 
-                                  #  | startsWith(analysisplan$dependent.variable, "s22")
-#                                   ),]
+analysisplan <- analysisplan[which(startsWith(analysisplan$dependent.variable, "f_hhh") 
+                                   #  | startsWith(analysisplan$dependent.variable, "s7") 
+                                   #  | startsWith(analysisplan$dependent.variable, "s21") 
+                                   #  | startsWith(analysisplan$dependent.variable, "s22")
+),]
 #analysisplan <- analysisplan_nationwide(analysisplan)
 #analysisplan <- analysisplan_pop_group_aggregated(analysisplan)
 result <- from_analysisplan_map_to_output(response_with_composites, analysisplan = analysisplan,
@@ -132,7 +146,7 @@ result <- from_analysisplan_map_to_output(response_with_composites, analysisplan
                                           cluster_variable_name = "cluster_id",
                                           questionnaire = questionnaire, confidence_level = 0.9)
 
-name <- "msni_20190926_with_sub_pillars"
+name <- "preliminary_fhhh_nationwide_aggregated"
 saveRDS(result,paste(sprintf("output/result_%s.RDS", name)))
 #summary[which(summary$dependent.var == "g51a"),]
 

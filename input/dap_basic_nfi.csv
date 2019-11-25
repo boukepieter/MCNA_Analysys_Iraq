@@ -1,0 +1,4 @@
+Indicator Group / Sector,research.question,sub.research.question,repeat.for.variable,independent.variable,independent.variable.type,dependent.variable,dependent.variable.type,hypothesis.type
+SNFI,basic nfi needs,Air Water Coolers,,population_group,categorical,nfi_priority_needs.awc,numerical,direct_reporting
+SNFI,basic nfi needs,Mattesses,,population_group,categorical,nfi_priority_needs.mattresses_sleeping_mats,categorical,direct_reporting
+SNFI,basic nfi needs,Blankets,,population_group,categorical,nfi_priority_needs.blankets,categorical,direct_reporting
