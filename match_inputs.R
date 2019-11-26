@@ -39,14 +39,14 @@ samplingframe$stratum <- paste0(samplingframe$district, samplingframe$popgroup)
 ## add cluster ids to data:
 
 ### any pop group or cluster ids that can't be found individually?
-#`%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
+`%find those not in%`<-function(x,y){x[!(x%in%y)] %>% unique}
 
 response$population_group %find those not in% samplingframe$popgroup
 #response$cluster_location_id[response$population_group != "idp_in_camp"] %find those not in% samplingframe$cluster_ID
 
 ### create id in samplingframe and in data
 #samplingframe$cluster_strata_ID <- paste(samplingframe$cluster_ID, samplingframe$popgroup, sep = "_")
-#response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
+response$cluster_id <- paste(response$cluster_location_id, response$population_group, sep = "_")
 
 # any id that can't be found in combination?
 #response$cluster_id %find those not in% samplingframe$cluster_strata_ID %>% paste0(collapse="\n") %>% cat
