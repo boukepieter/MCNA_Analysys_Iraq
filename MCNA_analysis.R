@@ -106,9 +106,9 @@ response$weights<-weight_fun(response)
 # new version of weights for SDC analysis
 if (F){
   library(purrr)
-  samplingframe_strata$samp_amount[match(names(samp_amount), samplingframe_strata$stratum)] <- response$strata %>% table
+  samp_amount <- response$strata %>% table
+  samplingframe_strata$samp_amount[match(names(samp_amount), samplingframe_strata$stratum)] <- samp_amount
   samplingframe_strata$weights2 <- samplingframe_strata$population / samplingframe_strata$samp_amount
-  samplingframe_strata[which(samplingframe_strata$weights2 < 2),]
   response <- response %>% mutate(weights2 = samplingframe_strata$weights2[match(strata, samplingframe_strata$stratum)]) 
   
 }
